@@ -1,0 +1,207 @@
+from __future__ import annotations
+
+import html
+import io
+import re
+from pathlib import Path
+from typing import Any
+
+from .db import EXPORT_ROOT, connect
+from .paired_pdf_import import render_source_preview
+
+
+def export_paper(paper: dict[str, Any], file_format: str, variant: str) -> Path:
+    EXPORT_ROOT.mkdir(parents=True, exist_ok=True)
+    safe_id = re.sub(r"[^a-zA-Z0-9_-]+", "-", paper["id"])
+    target = EXPORT_ROOT / f"{safe_id}-{variant}.{file_format}"
+    if file_format == "docx":
+        export_docx(paper, variant, target)
+    elif file_format == "pdf":
+        export_pdf(paper, variant, target)
+    else:
+        raise ValueError("仅支持 pdf 和 docx 导出。")
+    return target
+
+
+def export_docx(paper: dict[str, Any], variant: str, target: Path) -> None:
+    try:
+        from docx import Document
+        from docx.shared import Inches, Pt
+    except ImportError as error:
+        raise RuntimeError("缺少 python-docx，请重新安装后端依赖。") from error
+
+    document = Document()
+    title = document.add_heading(paper["title"], level=0)
+    title.alignment = 1
+    meta = document.add_paragraph(f"模板：{paper.get('template', {}).get('name', '')}    版本：{variant}")
+    meta.runs[0].font.size = Pt(10)
+
+    current_section = None
+    question_number = 0
+    for question in paper["questions"]:
+        section_title = question.get("section_id", "")
+        if section_title != current_section:
+            current_section = section_title
+            document.add_heading(section_title, level=1)
+        question_number += 1
+        question_image = source_preview(question, "question")
+        if question_image:
+            document.add_paragraph(f"{question_number}.")
+            document.add_picture(io.BytesIO(question_image), width=Inches(6.3))
+        else:
+            document.add_paragraph(f"{question_number}. {plain_formula_text(question['stem_markdown'])}")
+            for option in question.get("options", []):
+                document.add_paragraph(f"{option.get('key', '')}. {plain_formula_text(option.get('text', ''))}")
+        if variant == "answer":
+            answer = plain_formula_text(question.get("answer_markdown", ""))
+            if answer:
+                document.add_paragraph(f"答案：{answer}")
+            analysis_image = source_preview(question, "analysis")
+            if analysis_image:
+                document.add_paragraph("原版解析：")
+                document.add_picture(io.BytesIO(analysis_image), width=Inches(6.3))
+            else:
+                document.add_paragraph(f"解析：{plain_formula_text(question.get('analysis_markdown', ''))}")
+            points = question.get("scoring_points", [])
+            if points:
+                document.add_paragraph(
+                    "评分点：" + "；".join(f"{point.get('label', '')}（{point.get('score', 0)}分）" for point in points)
+                )
+    document.save(target)
+
+
+def export_pdf(paper: dict[str, Any], variant: str, target: Path) -> None:
+    try:
+        from reportlab.lib.pagesizes import A4
+        from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+        from reportlab.lib.units import mm
+        from reportlab.pdfbase import pdfmetrics
+        from reportlab.pdfbase.ttfonts import TTFont
+        from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer
+    except ImportError as error:
+        raise RuntimeError("缺少 reportlab，请重新安装后端依赖。") from error
+
+    font_path = next(
+        (
+            path
+            for path in (
+                Path("C:/Windows/Fonts/msyh.ttc"),
+                Path("C:/Windows/Fonts/simhei.ttf"),
+                Path("/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"),
+            )
+            if path.exists()
+        ),
+        None,
+    )
+    font_name = "Helvetica"
+    if font_path:
+        try:
+            pdfmetrics.registerFont(TTFont("PaperHelperChinese", str(font_path)))
+            font_name = "PaperHelperChinese"
+        except Exception:
+            font_name = "Helvetica"
+
+    styles = getSampleStyleSheet()
+    body = ParagraphStyle(
+        "PaperHelperBody",
+        parent=styles["BodyText"],
+        fontName=font_name,
+        fontSize=10.5,
+        leading=17,
+        spaceAfter=5,
+    )
+    heading = ParagraphStyle(
+        "PaperHelperHeading",
+        parent=styles["Heading2"],
+        fontName=font_name,
+        fontSize=14,
+        leading=20,
+        spaceBefore=8,
+        spaceAfter=8,
+    )
+    document = SimpleDocTemplate(
+        str(target),
+        pagesize=A4,
+        rightMargin=18 * mm,
+        leftMargin=18 * mm,
+        topMargin=16 * mm,
+        bottomMargin=16 * mm,
+        title=paper["title"],
+    )
+    flowables: list[Any] = [Paragraph(html.escape(paper["title"]), heading)]
+    current_section = None
+    question_number = 0
+    for question in paper["questions"]:
+        section_title = question.get("section_id", "")
+        if section_title != current_section:
+            current_section = section_title
+            flowables.append(Paragraph(html.escape(section_title), heading))
+        question_number += 1
+        question_image = source_preview(question, "question")
+        if question_image:
+            flowables.append(Paragraph(f"{question_number}.", body))
+            flowables.append(image_flowable(question_image))
+        else:
+            flowables.append(Paragraph(f"{question_number}. {safe_markup(question['stem_markdown'])}", body))
+            for option in question.get("options", []):
+                flowables.append(Paragraph(f"{html.escape(option.get('key', ''))}. {safe_markup(option.get('text', ''))}", body))
+        if variant == "answer":
+            answer = question.get("answer_markdown", "")
+            if answer:
+                flowables.append(Paragraph(f"<b>答案：</b>{safe_markup(answer)}", body))
+            analysis_image = source_preview(question, "analysis")
+            if analysis_image:
+                flowables.append(Paragraph("<b>原版解析：</b>", body))
+                flowables.append(image_flowable(analysis_image))
+            else:
+                flowables.append(Paragraph(f"<b>解析：</b>{safe_markup(question.get('analysis_markdown', ''))}", body))
+        flowables.append(Spacer(1, 3))
+    document.build(flowables)
+
+
+def plain_formula_text(value: str) -> str:
+    return re.sub(r"(?<!\\)\$([^$]+)(?<!\\)\$", r"[\1]", value or "")
+
+
+def safe_markup(value: str) -> str:
+    text = html.escape(value or "")
+    text = re.sub(r"\\?\\$([^$]+)\\?\\$", r"<font color='#2858ff'>[\1]</font>", text)
+    text = text.replace("\n", "<br/>")
+    return text
+
+
+def source_preview(question: dict[str, Any], kind: str) -> bytes | None:
+    source_id = (
+        question.get("analysis_source_document_id")
+        if kind == "analysis"
+        else question.get("source_document_id")
+    )
+    regions = question.get("analysis_regions", []) if kind == "analysis" else question.get("source_regions", [])
+    if not source_id or not regions:
+        return None
+    with connect() as connection:
+        source = connection.execute(
+            "SELECT file_path FROM source_documents WHERE id = ?",
+            (source_id,),
+        ).fetchone()
+    if source is None or not source["file_path"]:
+        return None
+    path = Path(source["file_path"])
+    if not path.exists():
+        return None
+    try:
+        return render_source_preview(path, regions, scale=1.35)
+    except Exception:
+        return None
+
+
+def image_flowable(content: bytes) -> Any:
+    from reportlab.lib.units import mm
+    from reportlab.lib.utils import ImageReader
+    from reportlab.platypus import Image
+
+    width, height = ImageReader(io.BytesIO(content)).getSize()
+    max_width = 174 * mm
+    display_width = min(float(width), max_width)
+    display_height = display_width * float(height) / float(width)
+    return Image(io.BytesIO(content), width=display_width, height=display_height)
