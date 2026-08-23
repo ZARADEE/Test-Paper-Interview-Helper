@@ -1,13 +1,23 @@
 import { ArrowDown, ArrowUp, Check, CopyPlus, Plus, Save, Trash2 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { getTemplates, saveTemplate, validateTemplate } from "../api";
-import type { PaperTemplate, QuestionType, TemplateSection } from "../types";
+import type { PaperTemplate, QuestionType, SubjectDistributionRule } from "../types";
 
 type Props = {
   onChanged: () => void;
 };
 
 const typeLabels: Record<QuestionType, string> = { choice: "选择题", fill: "填空题", solution: "解答题" };
+const defaultSubjectRules: SubjectDistributionRule[] = [
+  { label: "高等数学", ratio: 0.6, tolerance: 0.08 },
+  { label: "线性代数", ratio: 0.2, tolerance: 0.08 },
+  { label: "概率论与数理统计", ratio: 0.2, tolerance: 0.08 }
+];
+const subjectLabels: Record<string, string> = {
+  "高等数学": "高等数学",
+  "线性代数": "线性代数",
+  "概率论与数理统计": "概率与统计"
+};
 
 export function TemplateView({ onChanged }: Props): JSX.Element {
   const [templates, setTemplates] = useState<PaperTemplate[]>([]);
@@ -44,13 +54,26 @@ export function TemplateView({ onChanged }: Props): JSX.Element {
   }
 
   const activeDraft = draft;
+  const subjectRules = activeDraft.distribution_rules.chapter_distribution?.length
+    ? activeDraft.distribution_rules.chapter_distribution
+    : defaultSubjectRules;
+  const subjectRatioTotal = subjectRules.reduce((sum, rule) => sum + Number(rule.ratio || 0), 0);
 
   function updateDraft(patch: Partial<PaperTemplate>): void {
     setDraft((current) => current ? { ...current, ...patch } : current);
   }
 
-  function updateSection(index: number, patch: Partial<TemplateSection>): void {
-    updateDraft({ sections: activeDraft.sections.map((section, sectionIndex) => sectionIndex === index ? { ...section, ...patch } : section) });
+  function updateSubjectRatio(index: number, percent: number): void {
+    const nextPercent = Math.max(0, Math.min(100, Number.isFinite(percent) ? percent : 0));
+    const nextRules = subjectRules.map((rule, ruleIndex) =>
+      ruleIndex === index ? { ...rule, ratio: nextPercent / 100 } : rule
+    );
+    updateDraft({
+      distribution_rules: {
+        ...activeDraft.distribution_rules,
+        chapter_distribution: nextRules
+      }
+    });
   }
 
   function moveSection(index: number, direction: -1 | 1): void {
@@ -157,7 +180,6 @@ export function TemplateView({ onChanged }: Props): JSX.Element {
       <aside className="template-inspector panel">
         <div className="panel-title">属性检查器</div>
         <label><span>模板名称</span><input value={draft.name} onChange={(event) => updateDraft({ name: event.target.value })} /></label>
-        <label><span>科目</span><input value={draft.subject} onChange={(event) => updateDraft({ subject: event.target.value })} /></label>
         <div className="two-fields">
           <label><span>总分</span><input type="number" value={draft.total_score} onChange={(event) => updateDraft({ total_score: Number(event.target.value) })} /></label>
           <label><span>时长</span><input type="number" value={draft.duration_minutes} onChange={(event) => updateDraft({ duration_minutes: Number(event.target.value) })} /></label>
@@ -170,9 +192,49 @@ export function TemplateView({ onChanged }: Props): JSX.Element {
           <span>分值状态</span><strong>{Math.abs(sectionScore - draft.total_score) < 0.01 ? "MATCH" : "CHECK"}</strong>
         </div>
         <div className="inspector-divider" />
-        <span className="eyebrow">SELECTED SECTION</span>
-        <label><span>分区标题</span><input value={draft.sections[0]?.title ?? ""} onChange={(event) => updateSection(0, { title: event.target.value })} /></label>
-        <p className="muted-copy">画布中的每个色块代表一个可组卷分区。通过上下箭头调整试卷顺序。</p>
+        <div className="distribution-heading">
+          <div className="panel-title">科目占比</div>
+          <span className={`distribution-total ${Math.abs(subjectRatioTotal - 1) < 0.001 ? "is-valid" : "is-invalid"}`}>
+            合计 {(subjectRatioTotal * 100).toFixed(0)}%
+          </span>
+        </div>
+        <div className="subject-distribution-list">
+          {subjectRules.map((rule, index) => {
+            const percent = Math.round(Number(rule.ratio || 0) * 100);
+            const label = subjectLabels[rule.label] ?? rule.label;
+            return (
+              <div className="subject-distribution-row" key={rule.label}>
+                <div className="subject-distribution-row-head">
+                  <strong>{label}</strong>
+                  <input
+                    aria-label={`${label}占比`}
+                    type="number"
+                    min="0"
+                    max="100"
+                    step="1"
+                    value={percent}
+                    onChange={(event) => updateSubjectRatio(index, Number(event.target.value))}
+                  />
+                  <span>%</span>
+                </div>
+                <input
+                  aria-label={`${label}占比滑块`}
+                  type="range"
+                  min="0"
+                  max="100"
+                  step="1"
+                  value={percent}
+                  onChange={(event) => updateSubjectRatio(index, Number(event.target.value))}
+                />
+              </div>
+            );
+          })}
+        </div>
+        <div className={`metric-line ${Math.abs(subjectRatioTotal - 1) < 0.001 ? "metric-good" : "metric-bad"}`}>
+          <span>科目比例状态</span>
+          <strong>{Math.abs(subjectRatioTotal - 1) < 0.001 ? "MATCH" : "CHECK"}</strong>
+        </div>
+        <p className="muted-copy">组卷时按这三个大类分配题目。比例合计需要保持为 100%。</p>
       </aside>
     </div>
   );

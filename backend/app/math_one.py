@@ -127,6 +127,42 @@ def normalize_group(value: str | None) -> str:
     return value
 
 
+def normalize_tag_pair(
+    tags: list[str] | None,
+    chapter: str | None = "",
+    knowledge_points: list[str] | None = None,
+) -> list[str]:
+    """Return the canonical [major subject, subcategory] tag pair."""
+    values: list[str] = []
+    for value in tags or []:
+        cleaned = str(value).strip()
+        if cleaned and cleaned not in values:
+            values.append(cleaned)
+
+    major = ""
+    for value in [*values, chapter or ""]:
+        normalized = normalize_group(value)
+        if normalized in MAJOR_GROUPS:
+            major = normalized
+            break
+    if not major:
+        major = chapter_group(chapter, values)
+
+    subcategory = ""
+    for value in values:
+        if normalize_group(value) != major:
+            subcategory = value
+            break
+    if not subcategory and chapter and normalize_group(chapter) != major:
+        subcategory = chapter.strip()
+    if not subcategory:
+        subcategory = next(
+            (str(point).strip() for point in (knowledge_points or []) if str(point).strip()),
+            "综合题",
+        )
+    return [major, subcategory]
+
+
 def chapter_group(chapter: str | None, tags: list[str] | None = None) -> str:
     for value in [chapter or "", *(tags or [])]:
         normalized = normalize_group(value)

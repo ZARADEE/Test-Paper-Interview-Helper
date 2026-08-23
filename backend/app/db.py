@@ -8,6 +8,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterator
 
+from .math_one import normalize_tag_pair
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_ROOT = ROOT / "data"
@@ -157,6 +159,47 @@ def init_db() -> None:
                 "ALTER TABLE questions ADD COLUMN analysis_regions_json TEXT NOT NULL DEFAULT '[]'"
             )
         seed_default_data(connection)
+        normalize_stored_tags(connection)
+
+
+def normalize_stored_tags(connection: sqlite3.Connection) -> None:
+    """Migrate legacy questions that stored difficulty as a third tag."""
+    rows = connection.execute(
+        "SELECT * FROM questions WHERE tags_json IS NOT NULL"
+    ).fetchall()
+    for row in rows:
+        current_tags = json_load(row["tags_json"], [])
+        knowledge_points = json_load(row["knowledge_points_json"], [])
+        normalized_tags = normalize_tag_pair(current_tags, row["chapter"], knowledge_points)
+        if current_tags == normalized_tags:
+            continue
+        now = utc_now()
+        connection.execute(
+            "UPDATE questions SET tags_json=?, updated_at=? WHERE id=?",
+            (json.dumps(normalized_tags, ensure_ascii=False), now, row["id"]),
+        )
+        updated_row = connection.execute(
+            "SELECT * FROM questions WHERE id=?",
+            (row["id"],),
+        ).fetchone()
+        if updated_row is not None:
+            write_question_json(row_to_question(updated_row), now)
+
+    review_rows = connection.execute("SELECT * FROM review_items").fetchall()
+    for row in review_rows:
+        parsed = json_load(row["parsed_question_json"], {})
+        current_tags = parsed.get("tags", [])
+        normalized_tags = normalize_tag_pair(
+            current_tags,
+            parsed.get("chapter", ""),
+            parsed.get("knowledge_points", []),
+        )
+        if current_tags != normalized_tags:
+            parsed["tags"] = normalized_tags
+            connection.execute(
+                "UPDATE review_items SET parsed_question_json=? WHERE id=?",
+                (json.dumps(parsed, ensure_ascii=False), row["id"]),
+            )
 
 
 def seed_default_data(connection: sqlite3.Connection) -> None:
@@ -263,7 +306,7 @@ def seed_default_data(connection: sqlite3.Connection) -> None:
             "answer_markdown": "C",
             "analysis_markdown": "可逆矩阵的行列式不为零。",
             "scoring_points": [],
-            "tags": ["线性代数"],
+            "tags": ["线性代数", "矩阵"],
             "chapter": "线性代数",
             "knowledge_points": ["矩阵"],
             "difficulty": "easy",
@@ -293,7 +336,7 @@ def seed_default_data(connection: sqlite3.Connection) -> None:
             "answer_markdown": "1/2",
             "analysis_markdown": "标准正态分布关于原点对称。",
             "scoring_points": [],
-            "tags": ["概率统计"],
+            "tags": ["概率论与数理统计", "正态分布"],
             "chapter": "概率论与数理统计",
             "knowledge_points": ["正态分布"],
             "difficulty": "medium",
@@ -323,7 +366,7 @@ def seed_default_data(connection: sqlite3.Connection) -> None:
             "answer_markdown": "当系数矩阵行列式不为零时有唯一解。",
             "analysis_markdown": "计算行列式并讨论其零点，再根据克拉默法则判断。",
             "scoring_points": [{"label": "计算行列式", "score": 4}, {"label": "参数讨论", "score": 4}],
-            "tags": ["线性代数"],
+            "tags": ["线性代数", "方程组"],
             "chapter": "线性代数",
             "knowledge_points": ["方程组"],
             "difficulty": "hard",
@@ -439,8 +482,12 @@ def row_to_question(row: sqlite3.Row) -> dict[str, Any]:
     result = dict(row)
     result["options"] = json_load(result.pop("options_json", "[]"), [])
     result["scoring_points"] = json_load(result.pop("scoring_points_json", "[]"), [])
-    result["tags"] = json_load(result.pop("tags_json", "[]"), [])
     result["knowledge_points"] = json_load(result.pop("knowledge_points_json", "[]"), [])
+    result["tags"] = normalize_tag_pair(
+        json_load(result.pop("tags_json", "[]"), []),
+        result.get("chapter", ""),
+        result["knowledge_points"],
+    )
     result["source_regions"] = json_load(result.pop("source_regions_json", "[]"), [])
     result["analysis_regions"] = json_load(result.pop("analysis_regions_json", "[]"), [])
     return result

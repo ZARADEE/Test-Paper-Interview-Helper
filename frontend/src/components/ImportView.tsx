@@ -19,6 +19,11 @@ type Props = {
 };
 
 const typeLabels = { choice: "选择题", fill: "填空题", solution: "解答题" };
+const majorTagLabels: Record<string, string> = {
+  "高等数学": "高等数学",
+  "线性代数": "线性代数",
+  "概率论与数理统计": "概率与统计"
+};
 const REVIEW_PAGE_SIZE = 12;
 
 export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element {
@@ -30,12 +35,19 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
   const [unmatchedCount, setUnmatchedCount] = useState(0);
   const [reviewsLoading, setReviewsLoading] = useState(false);
   const [tags, setTags] = useState<Tag[]>(initialTags);
-  const [selectedTag, setSelectedTag] = useState("");
+  const [selectedMajorTag, setSelectedMajorTag] = useState("");
+  const [selectedSubTag, setSelectedSubTag] = useState("");
   const [newTag, setNewTag] = useState("");
   const [busy, setBusy] = useState(false);
   const [actionBusy, setActionBusy] = useState(false);
   const [message, setMessage] = useState("");
   const [drafts, setDrafts] = useState<Record<string, Partial<Question>>>({});
+  const majorTagOptions = tags
+    .map((tag) => tag.name)
+    .filter((tag) => ["高等数学", "线性代数", "概率论与数理统计"].includes(tag));
+  const subTagOptions = tags
+    .map((tag) => tag.name)
+    .filter((tag) => !["高等数学", "线性代数", "概率论与数理统计"].includes(tag));
 
   async function refresh(page = 1, append = false): Promise<void> {
     setReviewsLoading(true);
@@ -80,7 +92,7 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
     try {
       const tag = await createTag(newTag.trim());
       setTags((current) => [...current, tag]);
-      setSelectedTag(tag.name);
+      setSelectedSubTag(tag.name);
       setNewTag("");
       onChanged();
     } catch (error) {
@@ -108,7 +120,10 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
         answer_markdown: draft.answer_markdown ?? "",
         analysis_markdown: draft.analysis_markdown ?? "",
         scoring_points: draft.scoring_points ?? [],
-        tags: selectedTag ? [...new Set([...(draft.tags ?? []), selectedTag])] : draft.tags ?? [],
+        tags: [
+          selectedMajorTag || draft.tags?.[0] || "",
+          selectedSubTag || draft.tags?.[1] || ""
+        ].filter(Boolean),
         chapter: draft.chapter ?? "",
         knowledge_points: draft.knowledge_points ?? [],
         difficulty: draft.difficulty ?? "medium",
@@ -203,12 +218,18 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
         <div className="toolbar-block">
           <span className="eyebrow">TAG CONTROL</span>
           <div className="tag-creator">
-            <select value={selectedTag} onChange={(event) => setSelectedTag(event.target.value)}>
-              <option value="">选择默认 tag</option>
-              {tags.map((tag) => <option key={tag.id} value={tag.name}>{tag.name}</option>)}
+            <select value={selectedMajorTag} onChange={(event) => setSelectedMajorTag(event.target.value)}>
+              <option value="">选择大类 tag</option>
+              {[...new Set(majorTagOptions)].map((tag) => (
+                <option key={tag} value={tag}>{majorTagLabels[tag] ?? tag}</option>
+              ))}
             </select>
-            <input placeholder="新建 tag" value={newTag} onChange={(event) => setNewTag(event.target.value)} />
-            <button onClick={() => void handleCreateTag()} title="新建 tag" type="button"><Plus size={17} /></button>
+            <select value={selectedSubTag} onChange={(event) => setSelectedSubTag(event.target.value)}>
+              <option value="">选择小类 tag</option>
+              {[...new Set(subTagOptions)].map((tag) => <option key={tag} value={tag}>{tag}</option>)}
+            </select>
+            <input placeholder="新建小分类 tag" value={newTag} onChange={(event) => setNewTag(event.target.value)} />
+            <button onClick={() => void handleCreateTag()} title="新建小分类 tag" type="button"><Plus size={17} /></button>
           </div>
         </div>
         <div className="queue-count">

@@ -62,7 +62,7 @@ def compose_paper(
             item
             for item in questions
             if item["type"] == section_type
-            and (not required or required.intersection(item["tags"]))
+            and (not required or required.issubset(set(item["tags"])))
             and item["id"] not in selected_ids
         ]
         candidates.sort(

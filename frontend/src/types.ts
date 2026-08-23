@@ -59,6 +59,20 @@ export type TemplateSection = {
   filters?: Record<string, unknown>;
 };
 
+export type SubjectDistributionRule = {
+  label: string;
+  ratio: number;
+  tolerance?: number;
+};
+
+export type TemplateDistributionRules = {
+  subject?: string;
+  chapter_distribution?: SubjectDistributionRule[];
+  chapter_weights_note?: string;
+  difficulty_distribution?: Array<{ label: string; ratio: number; tolerance?: number }>;
+  [key: string]: unknown;
+};
+
 export type PaperTemplate = {
   id: string;
   name: string;
@@ -66,7 +80,7 @@ export type PaperTemplate = {
   duration_minutes: number;
   total_score: number;
   sections: TemplateSection[];
-  distribution_rules: Record<string, unknown>;
+  distribution_rules: TemplateDistributionRules;
   version: number;
 };
 

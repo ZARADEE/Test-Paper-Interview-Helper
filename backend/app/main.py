@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import shutil
 import uuid
 from pathlib import Path
@@ -25,6 +26,7 @@ from .db import (
 )
 from .exporters import export_paper
 from .extractors import extract_document, sha256_file, split_question_candidates
+from .math_one import MAJOR_GROUPS, normalize_tag_pair
 from .paired_pdf_import import render_source_preview
 
 
@@ -107,8 +109,31 @@ def health() -> dict[str, Any]:
 @app.get("/api/tags")
 def list_tags() -> list[dict[str, Any]]:
     with connect() as connection:
-        rows = connection.execute("SELECT * FROM tags ORDER BY name").fetchall()
-        return [dict(row) for row in rows]
+        catalog = {
+            row["name"]: dict(row)
+            for row in connection.execute("SELECT * FROM tags ORDER BY name").fetchall()
+        }
+        question_rows = connection.execute(
+            "SELECT tags_json, chapter, knowledge_points_json FROM questions"
+        ).fetchall()
+        for row in question_rows:
+            names = normalize_tag_pair(
+                json_load(row["tags_json"], []),
+                row["chapter"],
+                json_load(row["knowledge_points_json"], []),
+            )
+            for name in names:
+                if name in catalog:
+                    continue
+                tag_hash = hashlib.sha1(name.encode("utf-8")).hexdigest()[:10]
+                color = "#52d7ff" if name in MAJOR_GROUPS else "#ffd23f"
+                catalog[name] = {
+                    "id": f"tag-catalog-{tag_hash}",
+                    "name": name,
+                    "color": color,
+                    "created_at": "",
+                }
+        return sorted(catalog.values(), key=lambda item: item["name"])
 
 
 @app.post("/api/tags")
@@ -154,6 +179,7 @@ def create_question(payload: QuestionCreate) -> dict[str, Any]:
     now = utc_now()
     data = payload.model_dump()
     data["id"] = question_id
+    data["tags"] = normalize_tag_pair(data["tags"], data["chapter"], data["knowledge_points"])
     with connect() as connection:
         connection.execute(
             """
@@ -193,6 +219,7 @@ def create_question(payload: QuestionCreate) -> dict[str, Any]:
 @app.patch("/api/questions/{question_id}")
 def update_question(question_id: str, payload: QuestionCreate) -> dict[str, Any]:
     data = payload.model_dump()
+    data["tags"] = normalize_tag_pair(data["tags"], data["chapter"], data["knowledge_points"])
     now = utc_now()
     with connect() as connection:
         existing = connection.execute("SELECT id FROM questions WHERE id = ?", (question_id,)).fetchone()
@@ -394,6 +421,7 @@ def _approve_review_row(connection: Any, row: Any) -> dict[str, Any]:
     question_id = f"question-{uuid.uuid4().hex[:10]}"
     now = utc_now()
     data = payload.model_dump()
+    data["tags"] = normalize_tag_pair(data["tags"], data["chapter"], data["knowledge_points"])
     connection.execute(
         """
         INSERT INTO questions(
@@ -513,6 +541,12 @@ def review_preview(review_id: str, kind: str = "question") -> Response:
 
 @app.patch("/api/reviews/{review_id}")
 def update_review(review_id: str, payload: ReviewUpdate) -> dict[str, Any]:
+    parsed_question = payload.parsed_question.model_dump()
+    parsed_question["tags"] = normalize_tag_pair(
+        parsed_question["tags"],
+        parsed_question["chapter"],
+        parsed_question["knowledge_points"],
+    )
     with connect() as connection:
         existing = connection.execute("SELECT id FROM review_items WHERE id = ?", (review_id,)).fetchone()
         if existing is None:
@@ -520,8 +554,8 @@ def update_review(review_id: str, payload: ReviewUpdate) -> dict[str, Any]:
         connection.execute(
             "UPDATE review_items SET parsed_question_json=?, raw_text=?, review_notes=? WHERE id=?",
             (
-                json.dumps(payload.parsed_question.model_dump(), ensure_ascii=False),
-                payload.parsed_question.stem_markdown,
+                json.dumps(parsed_question, ensure_ascii=False),
+                parsed_question["stem_markdown"],
                 payload.review_notes,
                 review_id,
             ),
@@ -617,6 +651,12 @@ def validate_template(template_id: str) -> dict[str, Any]:
         errors.append(f"分区分值合计为 {section_total:g}，与模板总分 {template['total_score']:g} 不一致。")
     if not template["sections"]:
         errors.append("模板至少需要一个题型分区。")
+    distribution = template.get("distribution_rules", {}).get("chapter_distribution", [])
+    ratio_total = sum(max(0.0, float(item.get("ratio", 0))) for item in distribution)
+    if not distribution:
+        errors.append("模板至少需要配置一个科目占比。")
+    elif abs(ratio_total - 1) > 0.001:
+        errors.append(f"科目占比合计为 {ratio_total * 100:g}%，需要调整为 100%。")
     return {"valid": not errors, "errors": errors, "template_id": template_id}
 
 

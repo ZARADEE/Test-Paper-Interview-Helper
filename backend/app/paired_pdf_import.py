@@ -354,7 +354,7 @@ def pair_question_and_analysis(
         )
         if question["chapter"] and question["chapter"] != "综合题":
             classified["chapter"] = question["chapter"]
-            classified["tags"] = [question["group"], question["chapter"], question["difficulty_label"]]
+            classified["tags"] = [question["group"], question["chapter"]]
 
         answer, analysis_text = split_analysis_answer(
             analysis["raw_text"] if analysis else "",

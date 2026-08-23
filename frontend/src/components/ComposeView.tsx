@@ -1,6 +1,6 @@
 import { AlertTriangle, Check, Download, LockKeyhole, RefreshCw, Shuffle, SlidersHorizontal } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
-import { composePaper, exportDownloadUrl, exportPaper, getQuestions, getTags, getTemplates, questionPreviewUrl } from "../api";
+import { composePaper, exportDownloadUrl, exportPaper, getQuestions, getTemplates, questionPreviewUrl } from "../api";
 import type { Paper, PaperTemplate, Question, Tag } from "../types";
 
 type Props = {
@@ -9,25 +9,29 @@ type Props = {
 };
 
 const typeLabels = { choice: "选择题", fill: "填空题", solution: "解答题" };
+const majorTagLabels: Record<string, string> = {
+  "高等数学": "高等数学",
+  "线性代数": "线性代数",
+  "概率论与数理统计": "概率与统计"
+};
 
 export function ComposeView({ tags: initialTags, onChanged }: Props): JSX.Element {
   const [templates, setTemplates] = useState<PaperTemplate[]>([]);
   const [questions, setQuestions] = useState<Question[]>([]);
-  const [tags, setTags] = useState<Tag[]>(initialTags);
   const [templateId, setTemplateId] = useState("");
   const [title, setTitle] = useState("2026 年考研数学一模拟卷");
   const [seed, setSeed] = useState(20260823);
-  const [requiredTag, setRequiredTag] = useState("");
+  const [requiredMajorTag, setRequiredMajorTag] = useState("");
+  const [requiredSubTag, setRequiredSubTag] = useState("");
   const [paper, setPaper] = useState<Paper | null>(null);
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    void Promise.all([getTemplates(), getQuestions(), getTags()])
-      .then(([nextTemplates, nextQuestions, nextTags]) => {
+    void Promise.all([getTemplates(), getQuestions()])
+      .then(([nextTemplates, nextQuestions]) => {
         setTemplates(nextTemplates);
         setQuestions(nextQuestions);
-        setTags(nextTags);
         setTemplateId((current) => current || nextTemplates[0]?.id || "");
       })
       .catch((error: unknown) => setMessage(error instanceof Error ? error.message : "无法加载组卷数据"));
@@ -42,6 +46,32 @@ export function ComposeView({ tags: initialTags, onChanged }: Props): JSX.Elemen
       ),
     [questions]
   );
+  const majorTagOptions = useMemo(
+    () =>
+      [
+        ...new Set([
+          ...initialTags
+            .map((tag) => tag.name)
+            .filter((tag) => ["高等数学", "线性代数", "概率论与数理统计"].includes(tag)),
+          ...questions.map((question) => question.tags[0]).filter(Boolean)
+        ])
+      ].sort((left, right) =>
+        left.localeCompare(right, "zh-CN")
+      ),
+    [initialTags, questions]
+  );
+  const subTagOptions = useMemo(
+    () =>
+      [
+        ...new Set(
+          questions
+            .filter((question) => !requiredMajorTag || question.tags[0] === requiredMajorTag)
+            .map((question) => question.tags[1])
+            .filter(Boolean)
+        )
+      ].sort((left, right) => left.localeCompare(right, "zh-CN")),
+    [questions, requiredMajorTag]
+  );
 
   async function buildPaper(): Promise<void> {
     if (!templateId) return;
@@ -52,7 +82,7 @@ export function ComposeView({ tags: initialTags, onChanged }: Props): JSX.Elemen
         template_id: templateId,
         title,
         seed,
-        required_tags: requiredTag ? [requiredTag] : []
+        required_tags: [requiredMajorTag, requiredSubTag].filter(Boolean)
       });
       setPaper(nextPaper);
       onChanged();
@@ -94,11 +124,36 @@ export function ComposeView({ tags: initialTags, onChanged }: Props): JSX.Elemen
             <input type="number" value={seed} onChange={(event) => setSeed(Number(event.target.value))} />
           </label>
           <label>
-            <span>必须包含 tag</span>
-            <select value={requiredTag} onChange={(event) => setRequiredTag(event.target.value)}>
-              <option value="">不限定</option>
-              {tags.map((tag) => <option key={tag.id} value={tag.name}>{tag.name}</option>)}
-            </select>
+            <span>必须包含复式 tag</span>
+            <div className="tag-filter-grid">
+              <select
+                aria-label="必须包含的大类 tag"
+                value={requiredMajorTag}
+                onChange={(event) => {
+                  const nextMajor = event.target.value;
+                  setRequiredMajorTag(nextMajor);
+                  if (
+                    requiredSubTag &&
+                    !questions.some((question) => question.tags[0] === nextMajor && question.tags[1] === requiredSubTag)
+                  ) {
+                    setRequiredSubTag("");
+                  }
+                }}
+              >
+                <option value="">大类不限</option>
+                {majorTagOptions.map((tag) => (
+                  <option key={tag} value={tag}>{majorTagLabels[tag] ?? tag}</option>
+                ))}
+              </select>
+              <select
+                aria-label="必须包含的小类 tag"
+                value={requiredSubTag}
+                onChange={(event) => setRequiredSubTag(event.target.value)}
+              >
+                <option value="">小类不限</option>
+                {subTagOptions.map((tag) => <option key={tag} value={tag}>{tag}</option>)}
+              </select>
+            </div>
           </label>
           <button className="primary-action" onClick={() => void buildPaper()} disabled={busy || !templateId} type="button">
             <Shuffle size={19} />{busy ? "正在组卷..." : "自动组卷"}
