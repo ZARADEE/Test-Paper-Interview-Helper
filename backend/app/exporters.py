@@ -161,6 +161,105 @@ def export_pdf(paper: dict[str, Any], variant: str, target: Path) -> None:
     document.build(flowables)
 
 
+def export_practice_pdf(
+    session: dict[str, Any],
+    wrong_items: list[dict[str, Any]],
+    target: Path,
+) -> None:
+    try:
+        from reportlab.lib.pagesizes import A4
+        from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+        from reportlab.lib.units import mm
+        from reportlab.pdfbase import pdfmetrics
+        from reportlab.pdfbase.ttfonts import TTFont
+        from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer
+    except ImportError as error:
+        raise RuntimeError("缺少 reportlab，请重新安装后端依赖。") from error
+
+    font_path = next(
+        (
+            path
+            for path in (
+                Path("C:/Windows/Fonts/msyh.ttc"),
+                Path("C:/Windows/Fonts/simhei.ttf"),
+                Path("/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"),
+            )
+            if path.exists()
+        ),
+        None,
+    )
+    font_name = "Helvetica"
+    if font_path:
+        try:
+            pdfmetrics.registerFont(TTFont("PracticeChinese", str(font_path)))
+            font_name = "PracticeChinese"
+        except Exception:
+            font_name = "Helvetica"
+
+    styles = getSampleStyleSheet()
+    body = ParagraphStyle(
+        "PracticeBody",
+        parent=styles["BodyText"],
+        fontName=font_name,
+        fontSize=10.5,
+        leading=17,
+        spaceAfter=5,
+    )
+    heading = ParagraphStyle(
+        "PracticeHeading",
+        parent=styles["Heading2"],
+        fontName=font_name,
+        fontSize=15,
+        leading=21,
+        spaceBefore=8,
+        spaceAfter=8,
+    )
+    document = SimpleDocTemplate(
+        str(target),
+        pagesize=A4,
+        rightMargin=18 * mm,
+        leftMargin=18 * mm,
+        topMargin=16 * mm,
+        bottomMargin=16 * mm,
+        title=f"{session.get('subject', '')} 小题狂练错题",
+    )
+    flowables: list[Any] = [
+        Paragraph(html.escape(f"{session.get('subject', '')} 小题狂练错题"), heading),
+        Paragraph(
+            safe_markup(
+                f"范围：{session.get('major_tag') or '全部大类'} / "
+                f"{session.get('sub_tag') or '全部小类'}　"
+                f"错题数：{len(wrong_items)}"
+            ),
+            body,
+        ),
+        Spacer(1, 5),
+    ]
+    for index, item in enumerate(wrong_items, start=1):
+        question = item["question"]
+        attempt = item.get("attempt", {})
+        flowables.append(Paragraph(f"{index}. {safe_markup(question.get('stem_markdown', ''))}", body))
+        for option in question.get("options", []):
+            flowables.append(
+                Paragraph(
+                    f"{html.escape(option.get('key', ''))}. {safe_markup(option.get('text', ''))}",
+                    body,
+                )
+            )
+        flowables.append(
+            Paragraph(
+                f"<b>你的答案：</b>{html.escape(', '.join(attempt.get('selected_options', [])))}"
+                f"　<b>正确答案：</b>{html.escape(', '.join(attempt.get('correct_options', [])))}",
+                body,
+            )
+        )
+        analysis = question.get("analysis_markdown", "")
+        if analysis:
+            flowables.append(Paragraph(f"<b>解析：</b>{safe_markup(analysis)}", body))
+        flowables.append(Spacer(1, 6))
+    document.build(flowables)
+
+
 def plain_formula_text(value: str) -> str:
     return re.sub(r"(?<!\\)\$([^$]+)(?<!\\)\$", r"[\1]", value or "")
 

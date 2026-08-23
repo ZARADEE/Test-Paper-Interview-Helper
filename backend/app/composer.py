@@ -6,7 +6,7 @@ import sqlite3
 from typing import Any
 
 from .db import row_to_question, row_to_template, utc_now
-from .math_one import MAJOR_GROUPS, chapter_group
+from .math_one import chapter_group
 
 
 def deterministic_key(seed: int, question_id: str) -> str:
@@ -39,8 +39,13 @@ def compose_paper(
     locked = set(locked_question_ids or [])
     required = set(required_tags or [])
     rows = connection.execute(
-        "SELECT * FROM questions WHERE review_status = 'approved' AND subject = ?",
-        (template["subject"],),
+        """
+        SELECT * FROM questions
+        WHERE review_status = 'approved'
+          AND subject = ?
+          AND question_bank_id = ?
+        """,
+        (template["subject"], template["question_bank_id"]),
     ).fetchall()
     questions = [row_to_question(row) for row in rows]
     selected_ids: set[str] = set()
@@ -52,7 +57,13 @@ def compose_paper(
         sum(int(section.get("count", 0)) for section in template["sections"]),
         chapter_rules,
     )
-    chapter_counts = {group: 0 for group in MAJOR_GROUPS}
+    chapter_counts: dict[str, int] = {}
+
+    def distribution_group(item: dict[str, Any]) -> str:
+        if item.get("subject") == "考研政治":
+            tags = item.get("tags") or []
+            return str(tags[0]) if tags else str(item.get("chapter") or "")
+        return chapter_group(item.get("chapter"), item.get("tags"))
 
     for section in template["sections"]:
         section_type = section.get("type", "solution")
@@ -69,8 +80,8 @@ def compose_paper(
             key=lambda item: (
                 0 if item.get("source_regions") else 1,
                 0
-                if chapter_counts.get(chapter_group(item.get("chapter"), item.get("tags")), 0)
-                < chapter_targets.get(chapter_group(item.get("chapter"), item.get("tags")), 0)
+                if chapter_counts.get(distribution_group(item), 0)
+                < chapter_targets.get(distribution_group(item), 0)
                 else 1,
                 deterministic_key(seed, item["id"]),
             )
@@ -81,7 +92,7 @@ def compose_paper(
         section_questions = locked_for_section[:count]
         selected_ids.update(item["id"] for item in section_questions)
         for item in section_questions:
-            group = chapter_group(item.get("chapter"), item.get("tags"))
+            group = distribution_group(item)
             chapter_counts[group] = chapter_counts.get(group, 0) + 1
 
         for item in candidates:
@@ -91,7 +102,7 @@ def compose_paper(
                 continue
             section_questions.append(item)
             selected_ids.add(item["id"])
-            group = chapter_group(item.get("chapter"), item.get("tags"))
+            group = distribution_group(item)
             chapter_counts[group] = chapter_counts.get(group, 0) + 1
 
         if len(section_questions) < count:

@@ -1,10 +1,11 @@
 import { AlertTriangle, Check, Download, LockKeyhole, RefreshCw, Shuffle, SlidersHorizontal } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { composePaper, exportDownloadUrl, exportPaper, getQuestions, getTemplates, questionPreviewUrl } from "../api";
-import type { Paper, PaperTemplate, Question, Tag } from "../types";
+import type { Paper, PaperTemplate, Question, QuestionBank, Tag } from "../types";
 
 type Props = {
   tags: Tag[];
+  questionBanks: QuestionBank[];
   onChanged: () => void;
 };
 
@@ -15,7 +16,7 @@ const majorTagLabels: Record<string, string> = {
   "概率论与数理统计": "概率与统计"
 };
 
-export function ComposeView({ tags: initialTags, onChanged }: Props): JSX.Element {
+export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Props): JSX.Element {
   const [templates, setTemplates] = useState<PaperTemplate[]>([]);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [templateId, setTemplateId] = useState("");
@@ -28,16 +29,24 @@ export function ComposeView({ tags: initialTags, onChanged }: Props): JSX.Elemen
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    void Promise.all([getTemplates(), getQuestions()])
-      .then(([nextTemplates, nextQuestions]) => {
+    void getTemplates()
+      .then((nextTemplates) => {
         setTemplates(nextTemplates);
-        setQuestions(nextQuestions);
         setTemplateId((current) => current || nextTemplates[0]?.id || "");
       })
       .catch((error: unknown) => setMessage(error instanceof Error ? error.message : "无法加载组卷数据"));
   }, []);
 
   const selectedTemplate = templates.find((template) => template.id === templateId);
+  useEffect(() => {
+    if (!selectedTemplate?.question_bank_id) {
+      setQuestions([]);
+      return;
+    }
+    void getQuestions(selectedTemplate.question_bank_id)
+      .then(setQuestions)
+      .catch((error: unknown) => setMessage(error instanceof Error ? error.message : "无法加载题库"));
+  }, [selectedTemplate?.question_bank_id]);
   const counts = useMemo(
     () =>
       questions.reduce(
@@ -50,9 +59,6 @@ export function ComposeView({ tags: initialTags, onChanged }: Props): JSX.Elemen
     () =>
       [
         ...new Set([
-          ...initialTags
-            .map((tag) => tag.name)
-            .filter((tag) => ["高等数学", "线性代数", "概率论与数理统计"].includes(tag)),
           ...questions.map((question) => question.tags[0]).filter(Boolean)
         ])
       ].sort((left, right) =>
@@ -119,6 +125,10 @@ export function ComposeView({ tags: initialTags, onChanged }: Props): JSX.Elemen
               {templates.map((template) => <option key={template.id} value={template.id}>{template.name}</option>)}
             </select>
           </label>
+          <div className="metric-line">
+            <span>关联题库</span>
+            <strong>{questionBanks.find((bank) => bank.id === selectedTemplate?.question_bank_id)?.name ?? "未关联"}</strong>
+          </div>
           <label>
             <span>固定随机种子</span>
             <input type="number" value={seed} onChange={(event) => setSeed(Number(event.target.value))} />

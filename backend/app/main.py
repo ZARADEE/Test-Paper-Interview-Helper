@@ -2,12 +2,13 @@ from __future__ import annotations
 
 import json
 import hashlib
+import random
 import shutil
 import uuid
 from pathlib import Path
 from typing import Any
 
-from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, Response
 from pydantic import BaseModel, Field
@@ -15,6 +16,8 @@ from pydantic import BaseModel, Field
 from .composer import compose_paper, load_paper
 from .db import (
     DOCUMENT_ROOT,
+    MATH_ONE_BANK_ID,
+    POLITICS_BANK_ID,
     QUESTION_ROOT,
     connect,
     init_db,
@@ -24,10 +27,18 @@ from .db import (
     utc_now,
     write_question_json,
 )
-from .exporters import export_paper
+from .exporters import export_paper, export_practice_pdf
 from .extractors import extract_document, sha256_file, split_question_candidates
 from .math_one import MAJOR_GROUPS, normalize_tag_pair
 from .paired_pdf_import import render_source_preview
+from .practice import (
+    answer_options,
+    catalog_from_rows,
+    is_correct,
+    normalize_options,
+    practice_session_payload,
+    sanitize_practice_question,
+)
 
 
 app = FastAPI(title="组卷助手 API", version="0.1.0")
@@ -43,12 +54,20 @@ app.add_middleware(
 class TagCreate(BaseModel):
     name: str = Field(min_length=1, max_length=80)
     color: str = "#ffd23f"
+    question_bank_id: str | None = None
+
+
+class QuestionBankCreate(BaseModel):
+    name: str = Field(min_length=1, max_length=80)
+    subject: str = Field(min_length=1, max_length=80)
+    description: str = ""
 
 
 class QuestionCreate(BaseModel):
     id: str | None = None
     type: str
     subject: str = "考研数学一"
+    question_bank_id: str | None = None
     stem_markdown: str
     options: list[dict[str, str]] = []
     answer_markdown: str = ""
@@ -74,6 +93,7 @@ class ReviewUpdate(BaseModel):
 class TemplateCreate(BaseModel):
     name: str
     subject: str
+    question_bank_id: str | None = None
     duration_minutes: int
     total_score: float
     sections: list[dict[str, Any]]
@@ -93,6 +113,20 @@ class ExportRequest(BaseModel):
     variant: str = "question"
 
 
+class PracticeStartRequest(BaseModel):
+    subject: str
+    question_bank_id: str | None = None
+    major_tag: str = ""
+    sub_tag: str = ""
+    count: int = Field(default=10, ge=1, le=100)
+    seed: int | None = None
+
+
+class PracticeAnswerRequest(BaseModel):
+    question_id: str
+    selected_options: list[str] = Field(default_factory=list)
+
+
 @app.on_event("startup")
 def startup() -> None:
     init_db()
@@ -106,16 +140,88 @@ def health() -> dict[str, Any]:
     return {"ok": True, "service": "paper-helper", "question_count": question_count, "template_count": template_count}
 
 
+@app.get("/api/question-banks")
+def list_question_banks() -> list[dict[str, Any]]:
+    with connect() as connection:
+        rows = connection.execute(
+            "SELECT * FROM question_banks ORDER BY name, id"
+        ).fetchall()
+    return [dict(row) for row in rows]
+
+
+@app.post("/api/question-banks")
+def create_question_bank(payload: QuestionBankCreate) -> dict[str, Any]:
+    bank_id = f"bank-{uuid.uuid4().hex[:10]}"
+    now = utc_now()
+    try:
+        with connect() as connection:
+            connection.execute(
+                """
+                INSERT INTO question_banks(id, name, subject, description, created_at, updated_at)
+                VALUES(?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    bank_id,
+                    payload.name.strip(),
+                    payload.subject.strip(),
+                    payload.description.strip(),
+                    now,
+                    now,
+                ),
+            )
+            row = connection.execute(
+                "SELECT * FROM question_banks WHERE id=?",
+                (bank_id,),
+            ).fetchone()
+    except Exception as error:
+        raise HTTPException(status_code=409, detail=f"题库名称已存在或无法创建：{error}") from error
+    return dict(row)
+
+
+def _default_bank_id(subject: str) -> str:
+    if subject == "考研政治":
+        return POLITICS_BANK_ID
+    return MATH_ONE_BANK_ID
+
+
+def _require_bank(connection: Any, bank_id: str | None, subject: str) -> Any:
+    resolved_id = bank_id or _default_bank_id(subject)
+    row = connection.execute(
+        "SELECT * FROM question_banks WHERE id=?",
+        (resolved_id,),
+    ).fetchone()
+    if row is None:
+        raise HTTPException(status_code=404, detail="关联的题库不存在。")
+    return row
+
+
 @app.get("/api/tags")
-def list_tags() -> list[dict[str, Any]]:
+def list_tags(question_bank_id: str | None = None) -> list[dict[str, Any]]:
     with connect() as connection:
         catalog = {
             row["name"]: dict(row)
-            for row in connection.execute("SELECT * FROM tags ORDER BY name").fetchall()
+            for row in connection.execute(
+                """
+                SELECT * FROM tags
+                WHERE (? IS NULL OR question_bank_id = ?)
+                ORDER BY name
+                """,
+                (question_bank_id, question_bank_id),
+            ).fetchall()
         }
-        question_rows = connection.execute(
-            "SELECT tags_json, chapter, knowledge_points_json FROM questions"
-        ).fetchall()
+        if question_bank_id:
+            question_rows = connection.execute(
+                """
+                SELECT tags_json, chapter, knowledge_points_json
+                FROM questions
+                WHERE question_bank_id=?
+                """,
+                (question_bank_id,),
+            ).fetchall()
+        else:
+            question_rows = connection.execute(
+                "SELECT tags_json, chapter, knowledge_points_json FROM questions"
+            ).fetchall()
         for row in question_rows:
             names = normalize_tag_pair(
                 json_load(row["tags_json"], []),
@@ -123,6 +229,8 @@ def list_tags() -> list[dict[str, Any]]:
                 json_load(row["knowledge_points_json"], []),
             )
             for name in names:
+                if not name:
+                    continue
                 if name in catalog:
                     continue
                 tag_hash = hashlib.sha1(name.encode("utf-8")).hexdigest()[:10]
@@ -141,9 +249,19 @@ def create_tag(payload: TagCreate) -> dict[str, Any]:
     tag_id = f"tag-{uuid.uuid4().hex[:10]}"
     try:
         with connect() as connection:
+            _require_bank(connection, payload.question_bank_id, "")
             connection.execute(
-                "INSERT INTO tags(id, name, color, created_at) VALUES(?, ?, ?, ?)",
-                (tag_id, payload.name.strip(), payload.color, utc_now()),
+                """
+                INSERT INTO tags(id, name, question_bank_id, color, created_at)
+                VALUES(?, ?, ?, ?, ?)
+                """,
+                (
+                    tag_id,
+                    payload.name.strip(),
+                    payload.question_bank_id or MATH_ONE_BANK_ID,
+                    payload.color,
+                    utc_now(),
+                ),
             )
             row = connection.execute("SELECT * FROM tags WHERE id = ?", (tag_id,)).fetchone()
             return dict(row)
@@ -154,6 +272,7 @@ def create_tag(payload: TagCreate) -> dict[str, Any]:
 @app.get("/api/questions")
 def list_questions(
     subject: str | None = None,
+    question_bank_id: str | None = None,
     question_type: str | None = None,
     status: str = "approved",
 ) -> list[dict[str, Any]]:
@@ -162,6 +281,9 @@ def list_questions(
     if subject:
         clauses.append("subject = ?")
         values.append(subject)
+    if question_bank_id:
+        clauses.append("question_bank_id = ?")
+        values.append(question_bank_id)
     if question_type:
         clauses.append("type = ?")
         values.append(question_type)
@@ -181,20 +303,23 @@ def create_question(payload: QuestionCreate) -> dict[str, Any]:
     data["id"] = question_id
     data["tags"] = normalize_tag_pair(data["tags"], data["chapter"], data["knowledge_points"])
     with connect() as connection:
+        bank = _require_bank(connection, data.get("question_bank_id"), data["subject"])
+        data["question_bank_id"] = bank["id"]
         connection.execute(
             """
             INSERT INTO questions(
-                id, type, subject, stem_markdown, options_json, answer_markdown,
+                id, type, subject, question_bank_id, stem_markdown, options_json, answer_markdown,
                 analysis_markdown, scoring_points_json, tags_json, chapter,
                 knowledge_points_json, difficulty, score, source_regions_json,
                 analysis_source_document_id, analysis_regions_json,
                 review_status, created_at, updated_at
-            ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
+            ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
             """,
             (
                 question_id,
                 data["type"],
                 data["subject"],
+                data["question_bank_id"],
                 data["stem_markdown"],
                 json.dumps(data["options"], ensure_ascii=False),
                 data["answer_markdown"],
@@ -225,9 +350,12 @@ def update_question(question_id: str, payload: QuestionCreate) -> dict[str, Any]
         existing = connection.execute("SELECT id FROM questions WHERE id = ?", (question_id,)).fetchone()
         if existing is None:
             raise HTTPException(status_code=404, detail="题目不存在。")
+        bank = _require_bank(connection, data.get("question_bank_id"), data["subject"])
+        data["question_bank_id"] = bank["id"]
         connection.execute(
             """
             UPDATE questions SET type=?, subject=?, stem_markdown=?, options_json=?,
+                question_bank_id=?,
                 answer_markdown=?, analysis_markdown=?, scoring_points_json=?, tags_json=?,
                 chapter=?, knowledge_points_json=?, difficulty=?, score=?,
                 source_regions_json=?, analysis_source_document_id=?, analysis_regions_json=?,
@@ -239,6 +367,7 @@ def update_question(question_id: str, payload: QuestionCreate) -> dict[str, Any]
                 data["subject"],
                 data["stem_markdown"],
                 json.dumps(data["options"], ensure_ascii=False),
+                data["question_bank_id"],
                 data["answer_markdown"],
                 data["analysis_markdown"],
                 json.dumps(data["scoring_points"], ensure_ascii=False),
@@ -263,7 +392,7 @@ def update_question(question_id: str, payload: QuestionCreate) -> dict[str, Any]
 @app.get("/api/questions/export-json")
 def export_questions_json() -> dict[str, Any]:
     with connect() as connection:
-        rows = connection.execute("SELECT * FROM questions ORDER BY id").fetchall()
+        rows = connection.execute("SELECT * FROM questions ORDER BY question_bank_id, id").fetchall()
     return {"questions": [row_to_question(row) for row in rows]}
 
 
@@ -313,7 +442,10 @@ def import_questions_json(payload: dict[str, Any]) -> dict[str, Any]:
 
 
 @app.post("/api/documents/import")
-async def import_document(file: UploadFile = File(...)) -> dict[str, Any]:
+async def import_document(
+    file: UploadFile = File(...),
+    question_bank_id: str = Form(...),
+) -> dict[str, Any]:
     original_name = file.filename or "untitled"
     suffix = Path(original_name).suffix.lower()
     if suffix not in {".pdf", ".docx", ".doc"}:
@@ -330,28 +462,43 @@ async def import_document(file: UploadFile = File(...)) -> dict[str, Any]:
 
     now = utc_now()
     with connect() as connection:
+        bank = _require_bank(connection, question_bank_id, "")
+        bank_id = bank["id"]
         connection.execute(
             """
             INSERT INTO source_documents(
-                id, filename, file_type, file_path, sha256, page_count, status, created_at
-            ) VALUES(?, ?, ?, ?, ?, ?, 'processed', ?)
+                id, filename, file_type, file_path, sha256, page_count,
+                question_bank_id, status, created_at
+            ) VALUES(?, ?, ?, ?, ?, ?, ?, 'processed', ?)
             """,
-            (document_id, original_name, suffix.lstrip("."), str(target), sha256_file(target), len(pages), now),
+            (
+                document_id,
+                original_name,
+                suffix.lstrip("."),
+                str(target),
+                sha256_file(target),
+                len(pages),
+                bank_id,
+                now,
+            ),
         )
         review_ids = []
         for candidate in candidates:
+            candidate["question_bank_id"] = bank_id
+            candidate["subject"] = bank["subject"]
             review_id = f"review-{uuid.uuid4().hex[:10]}"
             review_ids.append(review_id)
             connection.execute(
                 """
                 INSERT INTO review_items(
-                    id, source_document_id, raw_text, parsed_question_json,
+                    id, source_document_id, question_bank_id, raw_text, parsed_question_json,
                     confidence, status, review_notes, created_at
-                ) VALUES(?, ?, ?, ?, ?, 'pending', '', ?)
+                ) VALUES(?, ?, ?, ?, ?, ?, 'pending', '', ?)
                 """,
                 (
                     review_id,
                     document_id,
+                    bank_id,
                     candidate["stem_markdown"],
                     json.dumps(candidate, ensure_ascii=False),
                     candidate.get("confidence", 0.5),
@@ -370,33 +517,43 @@ async def import_document(file: UploadFile = File(...)) -> dict[str, Any]:
 @app.get("/api/reviews")
 def list_reviews(
     status: str = "pending",
+    question_bank_id: str | None = None,
     page: int = 1,
     page_size: int = 12,
 ) -> dict[str, Any]:
     page = max(1, page)
     page_size = min(50, max(1, page_size))
     with connect() as connection:
+        bank_clause = " AND question_bank_id = ?" if question_bank_id else ""
+        status_values: list[Any] = [status]
+        if question_bank_id:
+            status_values.append(question_bank_id)
         total = connection.execute(
-            "SELECT COUNT(*) AS count FROM review_items WHERE status = ?",
-            (status,),
+            f"SELECT COUNT(*) AS count FROM review_items WHERE status = ?{bank_clause}",
+            status_values,
         ).fetchone()["count"]
+        matched_values = list(status_values)
         matched_count = connection.execute(
-            """
+            f"""
             SELECT COUNT(*) AS count
             FROM review_items
             WHERE status = ?
               AND json_extract(parsed_question_json, '$.analysis_matched') = 1
+              {bank_clause}
             """,
-            (status,),
+            matched_values,
         ).fetchone()["count"]
+        page_values = list(status_values)
+        page_values.extend([page_size, (page - 1) * page_size])
         rows = connection.execute(
-            """
+            f"""
             SELECT * FROM review_items
             WHERE status = ?
+              {bank_clause}
             ORDER BY created_at DESC, id DESC
             LIMIT ? OFFSET ?
             """,
-            (status, page_size, (page - 1) * page_size),
+            page_values,
         ).fetchall()
     result = []
     for row in rows:
@@ -422,20 +579,24 @@ def _approve_review_row(connection: Any, row: Any) -> dict[str, Any]:
     now = utc_now()
     data = payload.model_dump()
     data["tags"] = normalize_tag_pair(data["tags"], data["chapter"], data["knowledge_points"])
+    data["question_bank_id"] = row["question_bank_id"] or data.get("question_bank_id")
+    bank = _require_bank(connection, data["question_bank_id"], data["subject"])
+    data["question_bank_id"] = bank["id"]
     connection.execute(
         """
         INSERT INTO questions(
-            id, type, subject, stem_markdown, options_json, answer_markdown,
+            id, type, subject, question_bank_id, stem_markdown, options_json, answer_markdown,
             analysis_markdown, scoring_points_json, tags_json, chapter,
             knowledge_points_json, difficulty, score, source_document_id,
             source_page, source_regions_json, analysis_source_document_id,
             analysis_regions_json, review_status, created_at, updated_at
-        ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
+        ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
         """,
         (
             question_id,
             data["type"],
             data["subject"],
+            data["question_bank_id"],
             data["stem_markdown"],
             json.dumps(data["options"], ensure_ascii=False),
             data["answer_markdown"],
@@ -461,12 +622,15 @@ def _approve_review_row(connection: Any, row: Any) -> dict[str, Any]:
 
 
 @app.post("/api/reviews/batch-approve")
-def approve_matched_reviews() -> dict[str, Any]:
+def approve_matched_reviews(question_bank_id: str | None = None) -> dict[str, Any]:
     approved: list[dict[str, Any]] = []
     skipped = 0
     with connect() as connection:
+        bank_clause = " AND question_bank_id = ?" if question_bank_id else ""
+        values: tuple[Any, ...] = ("pending", question_bank_id) if question_bank_id else ("pending",)
         rows = connection.execute(
-            "SELECT * FROM review_items WHERE status = 'pending' ORDER BY created_at, id"
+            f"SELECT * FROM review_items WHERE status = ?{bank_clause} ORDER BY created_at, id",
+            values,
         ).fetchall()
         for row in rows:
             parsed = json_load(row["parsed_question_json"], {})
@@ -483,14 +647,18 @@ def approve_matched_reviews() -> dict[str, Any]:
 
 
 @app.delete("/api/reviews/unmatched")
-def delete_unmatched_reviews() -> dict[str, Any]:
+def delete_unmatched_reviews(question_bank_id: str | None = None) -> dict[str, Any]:
     with connect() as connection:
+        bank_clause = " AND question_bank_id = ?" if question_bank_id else ""
+        values: tuple[Any, ...] = (question_bank_id,) if question_bank_id else ()
         cursor = connection.execute(
-            """
+            f"""
             DELETE FROM review_items
             WHERE status = 'pending'
               AND coalesce(json_extract(parsed_question_json, '$.analysis_matched'), 0) = 0
-            """
+              {bank_clause}
+            """,
+            values,
         )
         return {"deleted": cursor.rowcount}
 
@@ -548,9 +716,15 @@ def update_review(review_id: str, payload: ReviewUpdate) -> dict[str, Any]:
         parsed_question["knowledge_points"],
     )
     with connect() as connection:
-        existing = connection.execute("SELECT id FROM review_items WHERE id = ?", (review_id,)).fetchone()
+        existing = connection.execute(
+            "SELECT id, question_bank_id FROM review_items WHERE id = ?",
+            (review_id,),
+        ).fetchone()
         if existing is None:
             raise HTTPException(status_code=404, detail="审核项不存在。")
+        parsed_question["question_bank_id"] = (
+            existing["question_bank_id"] or parsed_question.get("question_bank_id")
+        )
         connection.execute(
             "UPDATE review_items SET parsed_question_json=?, raw_text=?, review_notes=? WHERE id=?",
             (
@@ -574,6 +748,366 @@ def approve_review(review_id: str) -> dict[str, Any]:
     return result
 
 
+def _practice_question_rows(
+    connection: Any,
+    subject: str,
+    question_bank_id: str,
+    major_tag: str = "",
+    sub_tag: str = "",
+) -> list[Any]:
+    rows = connection.execute(
+        """
+        SELECT * FROM questions
+        WHERE review_status = 'approved'
+          AND subject = ?
+          AND question_bank_id = ?
+          AND type = 'choice'
+        ORDER BY id
+        """,
+        (subject, question_bank_id),
+    ).fetchall()
+    candidates = []
+    for row in rows:
+        question = row_to_question(row)
+        tags = question.get("tags", [])
+        if not question.get("options") or not answer_options(question.get("answer_markdown", "")):
+            continue
+        if major_tag and (not tags or tags[0] != major_tag):
+            continue
+        if sub_tag and (len(tags) < 2 or tags[1] != sub_tag):
+            continue
+        candidates.append(row)
+    return candidates
+
+
+def _get_practice_session(connection: Any, session_id: str) -> Any:
+    row = connection.execute(
+        "SELECT * FROM practice_sessions WHERE id = ?",
+        (session_id,),
+    ).fetchone()
+    if row is None:
+        raise HTTPException(status_code=404, detail="刷题记录不存在。")
+    return row
+
+
+@app.get("/api/practice/catalog")
+def practice_catalog() -> dict[str, Any]:
+    with connect() as connection:
+        rows = connection.execute(
+            """
+            SELECT * FROM questions
+            WHERE review_status='approved'
+              AND type='choice'
+              AND question_bank_id IS NOT NULL
+            """
+        ).fetchall()
+        wrong_count = connection.execute(
+            "SELECT COUNT(*) AS count FROM wrong_questions"
+        ).fetchone()["count"]
+    result = catalog_from_rows(rows)
+    result["wrong_book_count"] = wrong_count
+    return result
+
+
+@app.post("/api/practice/sessions")
+def start_practice(payload: PracticeStartRequest) -> dict[str, Any]:
+    with connect() as connection:
+        bank = _require_bank(connection, payload.question_bank_id, payload.subject)
+        candidates = _practice_question_rows(
+            connection,
+            payload.subject,
+            bank["id"],
+            payload.major_tag.strip(),
+            payload.sub_tag.strip(),
+        )
+        if not candidates:
+            raise HTTPException(status_code=404, detail="当前筛选条件下没有可刷的选择题。")
+        rng = random.Random(payload.seed if payload.seed is not None else random.SystemRandom().randint(0, 2**31 - 1))
+        selected_rows = rng.sample(candidates, min(payload.count, len(candidates)))
+        session_id = f"practice-{uuid.uuid4().hex[:12]}"
+        now = utc_now()
+        question_ids = [row["id"] for row in selected_rows]
+        connection.execute(
+            """
+            INSERT INTO practice_sessions(
+                id, subject, question_bank_id, major_tag, sub_tag, total_count,
+                answered_count, question_ids_json, wrong_question_ids_json, created_at
+            ) VALUES(?, ?, ?, ?, ?, ?, 0, ?, '[]', ?)
+            """,
+            (
+                session_id,
+                payload.subject,
+                bank["id"],
+                payload.major_tag.strip(),
+                payload.sub_tag.strip(),
+                len(question_ids),
+                json.dumps(question_ids, ensure_ascii=False),
+                now,
+            ),
+        )
+        session = connection.execute(
+            "SELECT * FROM practice_sessions WHERE id=?",
+            (session_id,),
+        ).fetchone()
+    return practice_session_payload(session, selected_rows, [])
+
+
+@app.get("/api/practice/sessions/{session_id}")
+def get_practice_session(session_id: str) -> dict[str, Any]:
+    with connect() as connection:
+        session = _get_practice_session(connection, session_id)
+        question_ids = json_load(session["question_ids_json"], [])
+        rows = []
+        if question_ids:
+            placeholders = ",".join("?" for _ in question_ids)
+            found = connection.execute(
+                f"SELECT * FROM questions WHERE id IN ({placeholders})",
+                question_ids,
+            ).fetchall()
+            by_id = {row["id"]: row for row in found}
+            rows = [by_id[item] for item in question_ids if item in by_id]
+        attempts = connection.execute(
+            "SELECT * FROM practice_attempts WHERE session_id=?",
+            (session_id,),
+        ).fetchall()
+    return practice_session_payload(session, rows, attempts)
+
+
+@app.post("/api/practice/sessions/{session_id}/answer")
+def answer_practice_question(
+    session_id: str,
+    payload: PracticeAnswerRequest,
+) -> dict[str, Any]:
+    selected = normalize_options(payload.selected_options)
+    if not selected:
+        raise HTTPException(status_code=400, detail="至少选择一个选项。")
+    with connect() as connection:
+        session = _get_practice_session(connection, session_id)
+        question_ids = json_load(session["question_ids_json"], [])
+        if payload.question_id not in question_ids:
+            raise HTTPException(status_code=400, detail="题目不属于当前刷题记录。")
+        existing_attempt = connection.execute(
+            "SELECT id FROM practice_attempts WHERE session_id=? AND question_id=?",
+            (session_id, payload.question_id),
+        ).fetchone()
+        if existing_attempt is not None:
+            raise HTTPException(status_code=409, detail="本题已经提交过答案。")
+        row = connection.execute(
+            "SELECT * FROM questions WHERE id=?",
+            (payload.question_id,),
+        ).fetchone()
+        if row is None:
+            raise HTTPException(status_code=404, detail="题目不存在。")
+        question = row_to_question(row)
+        correct = answer_options(question.get("answer_markdown", ""))
+        result = is_correct(selected, correct)
+        now = utc_now()
+        connection.execute(
+            """
+            INSERT INTO practice_attempts(
+                id, session_id, question_id, selected_option,
+                correct_option, is_correct, created_at
+            ) VALUES(?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                f"attempt-{uuid.uuid4().hex[:12]}",
+                session_id,
+                payload.question_id,
+                "".join(selected),
+                "".join(correct),
+                int(result),
+                now,
+            ),
+        )
+        if not result:
+            connection.execute(
+                """
+                INSERT INTO wrong_questions(
+                    question_id, subject, first_wrong_at, last_wrong_at,
+                    wrong_count, last_selected_option, last_correct_option
+                ) VALUES(?, ?, ?, ?, 1, ?, ?)
+                ON CONFLICT(question_id) DO UPDATE SET
+                    last_wrong_at=excluded.last_wrong_at,
+                    wrong_count=wrong_questions.wrong_count + 1,
+                    last_selected_option=excluded.last_selected_option,
+                    last_correct_option=excluded.last_correct_option
+                """,
+                (
+                    payload.question_id,
+                    question.get("subject", ""),
+                    now,
+                    now,
+                    "".join(selected),
+                    "".join(correct),
+                ),
+            )
+        wrong_ids = json_load(session["wrong_question_ids_json"], [])
+        if not result and payload.question_id not in wrong_ids:
+            wrong_ids.append(payload.question_id)
+        answered_count = connection.execute(
+            "SELECT COUNT(*) AS count FROM practice_attempts WHERE session_id=?",
+            (session_id,),
+        ).fetchone()["count"]
+        completed_at = now if answered_count >= session["total_count"] else session["completed_at"]
+        connection.execute(
+            """
+            UPDATE practice_sessions
+            SET answered_count=?, wrong_question_ids_json=?, completed_at=?
+            WHERE id=?
+            """,
+            (
+                answered_count,
+                json.dumps(wrong_ids, ensure_ascii=False),
+                completed_at,
+                session_id,
+            ),
+        )
+    return {
+        "question_id": payload.question_id,
+        "selected_options": selected,
+        "correct_options": correct,
+        "correct": result,
+        "question": question,
+        "answered_count": answered_count,
+        "total_count": session["total_count"],
+        "wrong_question_ids": wrong_ids,
+    }
+
+
+@app.get("/api/practice/wrong-book")
+def list_wrong_book(
+    subject: str | None = None,
+    major_tag: str | None = None,
+    sub_tag: str | None = None,
+) -> dict[str, Any]:
+    with connect() as connection:
+        rows = connection.execute(
+            """
+            SELECT w.*, q.*
+            FROM wrong_questions w
+            JOIN questions q ON q.id=w.question_id
+            ORDER BY w.last_wrong_at DESC
+            """
+        ).fetchall()
+    items = []
+    for row in rows:
+        question = row_to_question(row)
+        tags = question.get("tags", [])
+        if subject and question.get("subject") != subject:
+            continue
+        if major_tag and (not tags or tags[0] != major_tag):
+            continue
+        if sub_tag and (len(tags) < 2 or tags[1] != sub_tag):
+            continue
+        item = {
+            **question,
+            "wrong_count": row["wrong_count"],
+            "first_wrong_at": row["first_wrong_at"],
+            "last_wrong_at": row["last_wrong_at"],
+            "last_selected_option": normalize_options(row["last_selected_option"]),
+            "last_correct_option": normalize_options(row["last_correct_option"]),
+        }
+        items.append(item)
+    return {"items": items, "count": len(items)}
+
+
+@app.delete("/api/practice/wrong-book/{question_id}")
+def delete_wrong_book_item(question_id: str) -> dict[str, Any]:
+    with connect() as connection:
+        existing = connection.execute(
+            "SELECT question_id FROM wrong_questions WHERE question_id=?",
+            (question_id,),
+        ).fetchone()
+        if existing is None:
+            raise HTTPException(status_code=404, detail="错题本中不存在这道题。")
+        connection.execute(
+            "DELETE FROM wrong_questions WHERE question_id=?",
+            (question_id,),
+        )
+    return {"ok": True, "question_id": question_id}
+
+
+@app.post("/api/practice/sessions/{session_id}/export")
+def export_practice_session(session_id: str) -> dict[str, Any]:
+    with connect() as connection:
+        session_row = _get_practice_session(connection, session_id)
+        wrong_ids = json_load(session_row["wrong_question_ids_json"], [])
+        if not wrong_ids:
+            raise HTTPException(status_code=400, detail="本次刷题还没有错题，暂时不能导出。")
+        placeholders = ",".join("?" for _ in wrong_ids)
+        question_rows = connection.execute(
+            f"SELECT * FROM questions WHERE id IN ({placeholders})",
+            wrong_ids,
+        ).fetchall()
+        attempts = connection.execute(
+            """
+            SELECT * FROM practice_attempts
+            WHERE session_id=? AND question_id IN ({})
+            """.format(placeholders),
+            [session_id, *wrong_ids],
+        ).fetchall()
+    attempts_by_id = {row["question_id"]: row for row in attempts}
+    question_by_id = {row["id"]: row for row in question_rows}
+    wrong_items = []
+    for question_id in wrong_ids:
+        row = question_by_id.get(question_id)
+        attempt = attempts_by_id.get(question_id)
+        if row is None or attempt is None:
+            continue
+        wrong_items.append(
+            {
+                "question": row_to_question(row),
+                "attempt": {
+                    "selected_options": normalize_options(attempt["selected_option"]),
+                    "correct_options": normalize_options(attempt["correct_option"]),
+                },
+            }
+        )
+    if not wrong_items:
+        raise HTTPException(status_code=400, detail="没有可导出的错题。")
+    job_id = f"practice-export-{uuid.uuid4().hex[:10]}"
+    target = Path(__file__).resolve().parents[1] / "data" / "exports" / f"{job_id}.pdf"
+    session = dict(session_row)
+    try:
+        export_practice_pdf(session, wrong_items, target)
+        with connect() as connection:
+            connection.execute(
+                """
+                INSERT INTO practice_export_jobs(
+                    id, session_id, format, status, output_path, created_at
+                ) VALUES(?, ?, 'pdf', 'completed', ?, ?)
+                """,
+                (job_id, session_id, str(target), utc_now()),
+            )
+        return {"id": job_id, "status": "completed", "format": "pdf", "path": str(target)}
+    except Exception as error:
+        with connect() as connection:
+            connection.execute(
+                """
+                INSERT INTO practice_export_jobs(
+                    id, session_id, format, status, error, created_at
+                ) VALUES(?, ?, 'pdf', 'failed', ?, ?)
+                """,
+                (job_id, session_id, str(error), utc_now()),
+            )
+        raise HTTPException(status_code=500, detail=str(error)) from error
+
+
+@app.get("/api/practice/exports/{job_id}/download")
+def download_practice_export(job_id: str) -> FileResponse:
+    with connect() as connection:
+        row = connection.execute(
+            "SELECT * FROM practice_export_jobs WHERE id=?",
+            (job_id,),
+        ).fetchone()
+    if row is None or row["status"] != "completed" or not row["output_path"]:
+        raise HTTPException(status_code=404, detail="刷题导出文件不存在。")
+    path = Path(row["output_path"])
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="刷题导出文件已被移除。")
+    return FileResponse(path, filename=path.name)
+
+
 @app.get("/api/templates")
 def list_templates() -> list[dict[str, Any]]:
     with connect() as connection:
@@ -586,17 +1120,19 @@ def create_template(payload: TemplateCreate) -> dict[str, Any]:
     template_id = f"template-{uuid.uuid4().hex[:10]}"
     now = utc_now()
     with connect() as connection:
+        bank = _require_bank(connection, payload.question_bank_id, payload.subject)
         connection.execute(
             """
             INSERT INTO templates(
-                id, name, subject, duration_minutes, total_score, sections_json,
+                id, name, subject, question_bank_id, duration_minutes, total_score, sections_json,
                 distribution_rules_json, version, created_at, updated_at
-            ) VALUES(?, ?, ?, ?, ?, ?, ?, 1, ?, ?)
+            ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?)
             """,
             (
                 template_id,
                 payload.name,
                 payload.subject,
+                bank["id"],
                 payload.duration_minutes,
                 payload.total_score,
                 json.dumps(payload.sections, ensure_ascii=False),
@@ -616,15 +1152,17 @@ def update_template(template_id: str, payload: TemplateCreate) -> dict[str, Any]
         existing = connection.execute("SELECT id, version FROM templates WHERE id=?", (template_id,)).fetchone()
         if existing is None:
             raise HTTPException(status_code=404, detail="模板不存在。")
+        bank = _require_bank(connection, payload.question_bank_id, payload.subject)
         connection.execute(
             """
-            UPDATE templates SET name=?, subject=?, duration_minutes=?, total_score=?,
+            UPDATE templates SET name=?, subject=?, question_bank_id=?, duration_minutes=?, total_score=?,
                 sections_json=?, distribution_rules_json=?, version=?, updated_at=?
             WHERE id=?
             """,
             (
                 payload.name,
                 payload.subject,
+                bank["id"],
                 payload.duration_minutes,
                 payload.total_score,
                 json.dumps(payload.sections, ensure_ascii=False),

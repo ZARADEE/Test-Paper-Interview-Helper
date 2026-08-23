@@ -3,30 +3,29 @@ import { useEffect, useState } from "react";
 import {
   approveMatchedReviews,
   approveReview,
+  createQuestionBank,
   createTag,
   deleteReview,
   deleteUnmatchedReviews,
   getReviews,
+  getQuestions,
+  getTags,
   importDocument,
   reviewPreviewUrl,
   updateReview
 } from "../api";
-import type { Question, ReviewItem, Tag } from "../types";
+import type { Question, QuestionBank, ReviewItem, Tag } from "../types";
 
 type Props = {
   tags: Tag[];
+  questionBanks: QuestionBank[];
   onChanged: () => void;
 };
 
 const typeLabels = { choice: "选择题", fill: "填空题", solution: "解答题" };
-const majorTagLabels: Record<string, string> = {
-  "高等数学": "高等数学",
-  "线性代数": "线性代数",
-  "概率论与数理统计": "概率与统计"
-};
 const REVIEW_PAGE_SIZE = 12;
 
-export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element {
+export function ImportView({ tags: initialTags, questionBanks, onChanged }: Props): JSX.Element {
   const [reviews, setReviews] = useState<ReviewItem[]>([]);
   const [reviewPage, setReviewPage] = useState(1);
   const [reviewPages, setReviewPages] = useState(1);
@@ -35,24 +34,70 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
   const [unmatchedCount, setUnmatchedCount] = useState(0);
   const [reviewsLoading, setReviewsLoading] = useState(false);
   const [tags, setTags] = useState<Tag[]>(initialTags);
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [selectedBankId, setSelectedBankId] = useState("");
+  const [showBankForm, setShowBankForm] = useState(false);
+  const [newBankName, setNewBankName] = useState("");
+  const [newBankSubject, setNewBankSubject] = useState("");
+  const [newBankDescription, setNewBankDescription] = useState("");
   const [selectedMajorTag, setSelectedMajorTag] = useState("");
   const [selectedSubTag, setSelectedSubTag] = useState("");
   const [newTag, setNewTag] = useState("");
+  const [newMajorTag, setNewMajorTag] = useState("");
+  const [configuredMajorTags, setConfiguredMajorTags] = useState<string[]>([]);
   const [busy, setBusy] = useState(false);
   const [actionBusy, setActionBusy] = useState(false);
+  const [bankDataLoading, setBankDataLoading] = useState(false);
   const [message, setMessage] = useState("");
   const [drafts, setDrafts] = useState<Record<string, Partial<Question>>>({});
-  const majorTagOptions = tags
-    .map((tag) => tag.name)
-    .filter((tag) => ["高等数学", "线性代数", "概率论与数理统计"].includes(tag));
-  const subTagOptions = tags
-    .map((tag) => tag.name)
-    .filter((tag) => !["高等数学", "线性代数", "概率论与数理统计"].includes(tag));
+  const selectedBank = questionBanks.find((bank) => bank.id === selectedBankId);
+  const observedMajorTags = questions
+    .map((question) => question.tags?.[0] ?? "")
+    .filter(Boolean);
+  const majorTagOptions = [...new Set([...observedMajorTags, ...configuredMajorTags])];
+  const observedSubTags = questions
+    .map((question) => question.tags?.[1] ?? "")
+    .filter((tag) => Boolean(tag) && !majorTagOptions.includes(tag));
+  const subTagOptions = [...new Set([
+    ...observedSubTags,
+    ...tags.map((tag) => tag.name).filter((tag) => !majorTagOptions.includes(tag))
+  ])];
+
+  useEffect(() => {
+    const fallback = questionBanks[0]?.id ?? "";
+    setSelectedBankId((current) => current || fallback);
+  }, [questionBanks]);
+
+  useEffect(() => {
+    if (!selectedBankId) return;
+    let cancelled = false;
+    setSelectedMajorTag("");
+    setSelectedSubTag("");
+    setConfiguredMajorTags([]);
+    setBankDataLoading(true);
+    void Promise.all([getTags(selectedBankId), getQuestions(selectedBankId)])
+      .then(([nextTags, nextQuestions]) => {
+        if (cancelled) return;
+        setTags(nextTags);
+        setQuestions(nextQuestions);
+      })
+      .catch((error: unknown) => {
+        if (cancelled) return;
+        setMessage(error instanceof Error ? error.message : "题库标签加载失败");
+      })
+      .finally(() => {
+        if (!cancelled) setBankDataLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [initialTags, selectedBankId]);
 
   async function refresh(page = 1, append = false): Promise<void> {
     setReviewsLoading(true);
     try {
-      const result = await getReviews(page, REVIEW_PAGE_SIZE);
+      const result = await getReviews(page, REVIEW_PAGE_SIZE, selectedBankId || undefined);
       setReviews((current) => append ? [...current, ...result.items] : result.items);
       setReviewPage(result.page);
       setReviewPages(result.pages);
@@ -68,7 +113,7 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
 
   useEffect(() => {
     void refresh(1, false);
-  }, []);
+  }, [selectedBankId]);
 
   async function handleFile(event: React.ChangeEvent<HTMLInputElement>): Promise<void> {
     const file = event.target.files?.[0];
@@ -76,7 +121,7 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
     setBusy(true);
     setMessage("");
     try {
-      const result = await importDocument(file);
+      const result = await importDocument(file, selectedBankId);
       setMessage(`${result.filename} 已提取 ${result.candidate_count} 道候选题。`);
       await refresh(1, false);
     } catch (error) {
@@ -90,13 +135,45 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
   async function handleCreateTag(): Promise<void> {
     if (!newTag.trim()) return;
     try {
-      const tag = await createTag(newTag.trim());
+      const tag = await createTag(newTag.trim(), selectedBankId);
       setTags((current) => [...current, tag]);
       setSelectedSubTag(tag.name);
       setNewTag("");
       onChanged();
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "tag 创建失败");
+    }
+  }
+
+  async function handleCreateMajorTag(): Promise<void> {
+    if (!newMajorTag.trim()) return;
+    try {
+      const tag = await createTag(newMajorTag.trim(), selectedBankId);
+      setConfiguredMajorTags((current) => [...new Set([...current, tag.name])]);
+      setSelectedMajorTag(tag.name);
+      setNewMajorTag("");
+      onChanged();
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "大类 tag 创建失败");
+    }
+  }
+
+  async function handleCreateBank(): Promise<void> {
+    if (!newBankName.trim() || !newBankSubject.trim()) return;
+    try {
+      const bank = await createQuestionBank({
+        name: newBankName.trim(),
+        subject: newBankSubject.trim(),
+        description: newBankDescription.trim()
+      });
+      setSelectedBankId(bank.id);
+      setShowBankForm(false);
+      setNewBankName("");
+      setNewBankSubject("");
+      setNewBankDescription("");
+      onChanged();
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "题库创建失败");
     }
   }
 
@@ -114,7 +191,7 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
       await updateReview(review.id, {
         ...draft,
         type: draft.type ?? "solution",
-        subject: draft.subject ?? "考研数学一",
+        subject: draft.subject ?? selectedBank?.subject ?? "",
         stem_markdown: draft.stem_markdown ?? "",
         options: draft.options ?? [],
         answer_markdown: draft.answer_markdown ?? "",
@@ -152,7 +229,7 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
     setActionBusy(true);
     setMessage("");
     try {
-      const result = await approveMatchedReviews();
+      const result = await approveMatchedReviews(selectedBankId || undefined);
       setMessage(`已一键通过 ${result.approved} 道有解析题目。`);
       await refresh(1, false);
       onChanged();
@@ -169,7 +246,7 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
     setActionBusy(true);
     setMessage("");
     try {
-      const result = await deleteUnmatchedReviews();
+      const result = await deleteUnmatchedReviews(selectedBankId || undefined);
       setMessage(`已删除 ${result.deleted} 道未匹配解析的题目。`);
       await refresh(1, false);
     } catch (error) {
@@ -212,24 +289,74 @@ export function ImportView({ tags: initialTags, onChanged }: Props): JSX.Element
           <span>{busy ? "正在提取..." : "选择题目文件"}</span>
           <input accept=".pdf,.doc,.docx" disabled={busy} onChange={(event) => void handleFile(event)} type="file" />
         </label>
+        <div className="bank-picker">
+          <span className="eyebrow">QUESTION BANK</span>
+          <select value={selectedBankId} onChange={(event) => setSelectedBankId(event.target.value)}>
+            {questionBanks.map((bank) => <option key={bank.id} value={bank.id}>{bank.name}</option>)}
+          </select>
+          <button className="outline-action" onClick={() => setShowBankForm((current) => !current)} type="button">
+            <Plus size={17} />新建题库
+          </button>
+        </div>
       </section>
+
+      {showBankForm && (
+        <section className="new-bank-form panel">
+          <label><span>题库名称</span><input value={newBankName} onChange={(event) => setNewBankName(event.target.value)} placeholder="例如：考研英语一题库" /></label>
+          <label><span>科目名称</span><input value={newBankSubject} onChange={(event) => setNewBankSubject(event.target.value)} placeholder="例如：考研英语一" /></label>
+          <label><span>说明</span><input value={newBankDescription} onChange={(event) => setNewBankDescription(event.target.value)} /></label>
+          <button className="primary-action" onClick={() => void handleCreateBank()} type="button"><Save size={17} />创建并切换</button>
+        </section>
+      )}
 
       <section className="import-toolbar panel">
         <div className="toolbar-block">
           <span className="eyebrow">TAG CONTROL</span>
           <div className="tag-creator">
-            <select value={selectedMajorTag} onChange={(event) => setSelectedMajorTag(event.target.value)}>
-              <option value="">选择大类 tag</option>
-              {[...new Set(majorTagOptions)].map((tag) => (
-                <option key={tag} value={tag}>{majorTagLabels[tag] ?? tag}</option>
-              ))}
-            </select>
-            <select value={selectedSubTag} onChange={(event) => setSelectedSubTag(event.target.value)}>
-              <option value="">选择小类 tag</option>
-              {[...new Set(subTagOptions)].map((tag) => <option key={tag} value={tag}>{tag}</option>)}
-            </select>
-            <input placeholder="新建小分类 tag" value={newTag} onChange={(event) => setNewTag(event.target.value)} />
-            <button onClick={() => void handleCreateTag()} title="新建小分类 tag" type="button"><Plus size={17} /></button>
+            <div className="tag-pair">
+              <select
+                disabled={bankDataLoading || !selectedBankId}
+                value={selectedMajorTag}
+                onChange={(event) => setSelectedMajorTag(event.target.value)}
+              >
+                <option value="">{bankDataLoading ? "正在加载大类 tag..." : "选择大类 tag"}</option>
+                {[...new Set(majorTagOptions)].map((tag) => (
+                  <option key={tag} value={tag}>{tag}</option>
+                ))}
+              </select>
+              <input
+                placeholder="新建大类 tag"
+                value={newMajorTag}
+                onChange={(event) => setNewMajorTag(event.target.value)}
+              />
+              <button
+                disabled={bankDataLoading || !selectedBankId}
+                onClick={() => void handleCreateMajorTag()}
+                title="新建大类 tag"
+                type="button"
+              >
+                <Plus size={17} />
+              </button>
+            </div>
+            <div className="tag-pair">
+              <select
+                disabled={bankDataLoading || !selectedBankId}
+                value={selectedSubTag}
+                onChange={(event) => setSelectedSubTag(event.target.value)}
+              >
+                <option value="">{bankDataLoading ? "正在加载小类 tag..." : "选择小类 tag"}</option>
+                {[...new Set(subTagOptions)].map((tag) => <option key={tag} value={tag}>{tag}</option>)}
+              </select>
+              <input placeholder="新建小分类 tag" value={newTag} onChange={(event) => setNewTag(event.target.value)} />
+              <button
+                disabled={bankDataLoading || !selectedBankId}
+                onClick={() => void handleCreateTag()}
+                title="新建小分类 tag"
+                type="button"
+              >
+                <Plus size={17} />
+              </button>
+            </div>
           </div>
         </div>
         <div className="queue-count">

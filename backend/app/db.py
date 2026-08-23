@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any, Iterator
 
 from .math_one import normalize_tag_pair
+from .politics import POLITICS_MAJORS, normalize_politics_tags
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +18,9 @@ DOCUMENT_ROOT = DATA_ROOT / "documents"
 QUESTION_ROOT = DATA_ROOT / "questions"
 EXPORT_ROOT = DATA_ROOT / "exports"
 DB_PATH = Path(os.getenv("PAPER_HELPER_DB_PATH", str(DATA_ROOT / "paper_helper.sqlite3")))
+
+MATH_ONE_BANK_ID = "bank-math-one"
+POLITICS_BANK_ID = "bank-politics"
 
 
 def utc_now() -> str:
@@ -46,9 +50,19 @@ def init_db() -> None:
     with connect() as connection:
         connection.executescript(
             """
+            CREATE TABLE IF NOT EXISTS question_banks (
+                id TEXT PRIMARY KEY,
+                name TEXT NOT NULL UNIQUE,
+                subject TEXT NOT NULL,
+                description TEXT NOT NULL DEFAULT '',
+                created_at TEXT NOT NULL,
+                updated_at TEXT NOT NULL
+            );
+
             CREATE TABLE IF NOT EXISTS tags (
                 id TEXT PRIMARY KEY,
                 name TEXT NOT NULL UNIQUE,
+                question_bank_id TEXT,
                 color TEXT NOT NULL DEFAULT '#ffd23f',
                 created_at TEXT NOT NULL
             );
@@ -60,6 +74,7 @@ def init_db() -> None:
                 file_path TEXT NOT NULL,
                 sha256 TEXT NOT NULL,
                 page_count INTEGER NOT NULL DEFAULT 0,
+                question_bank_id TEXT,
                 status TEXT NOT NULL DEFAULT 'processed',
                 created_at TEXT NOT NULL
             );
@@ -68,6 +83,7 @@ def init_db() -> None:
                 id TEXT PRIMARY KEY,
                 type TEXT NOT NULL,
                 subject TEXT NOT NULL,
+                question_bank_id TEXT,
                 stem_markdown TEXT NOT NULL,
                 options_json TEXT NOT NULL DEFAULT '[]',
                 answer_markdown TEXT NOT NULL DEFAULT '',
@@ -89,6 +105,7 @@ def init_db() -> None:
             CREATE TABLE IF NOT EXISTS review_items (
                 id TEXT PRIMARY KEY,
                 source_document_id TEXT,
+                question_bank_id TEXT,
                 raw_text TEXT NOT NULL,
                 parsed_question_json TEXT NOT NULL,
                 confidence REAL NOT NULL DEFAULT 0.5,
@@ -102,6 +119,7 @@ def init_db() -> None:
                 id TEXT PRIMARY KEY,
                 name TEXT NOT NULL,
                 subject TEXT NOT NULL,
+                question_bank_id TEXT,
                 duration_minutes INTEGER NOT NULL,
                 total_score REAL NOT NULL,
                 sections_json TEXT NOT NULL,
@@ -143,7 +161,142 @@ def init_db() -> None:
                 created_at TEXT NOT NULL,
                 FOREIGN KEY(paper_id) REFERENCES papers(id)
             );
+
+            CREATE TABLE IF NOT EXISTS practice_sessions (
+                id TEXT PRIMARY KEY,
+                subject TEXT NOT NULL,
+                question_bank_id TEXT,
+                major_tag TEXT NOT NULL DEFAULT '',
+                sub_tag TEXT NOT NULL DEFAULT '',
+                total_count INTEGER NOT NULL,
+                answered_count INTEGER NOT NULL DEFAULT 0,
+                question_ids_json TEXT NOT NULL DEFAULT '[]',
+                wrong_question_ids_json TEXT NOT NULL DEFAULT '[]',
+                created_at TEXT NOT NULL,
+                completed_at TEXT
+            );
+
+            CREATE TABLE IF NOT EXISTS practice_attempts (
+                id TEXT PRIMARY KEY,
+                session_id TEXT NOT NULL,
+                question_id TEXT NOT NULL,
+                selected_option TEXT NOT NULL,
+                correct_option TEXT NOT NULL,
+                is_correct INTEGER NOT NULL DEFAULT 0,
+                created_at TEXT NOT NULL,
+                UNIQUE(session_id, question_id),
+                FOREIGN KEY(session_id) REFERENCES practice_sessions(id) ON DELETE CASCADE,
+                FOREIGN KEY(question_id) REFERENCES questions(id) ON DELETE CASCADE
+            );
+
+            CREATE TABLE IF NOT EXISTS wrong_questions (
+                question_id TEXT PRIMARY KEY,
+                subject TEXT NOT NULL,
+                first_wrong_at TEXT NOT NULL,
+                last_wrong_at TEXT NOT NULL,
+                wrong_count INTEGER NOT NULL DEFAULT 1,
+                last_selected_option TEXT NOT NULL DEFAULT '',
+                last_correct_option TEXT NOT NULL DEFAULT '',
+                FOREIGN KEY(question_id) REFERENCES questions(id) ON DELETE CASCADE
+            );
+
+            CREATE TABLE IF NOT EXISTS practice_export_jobs (
+                id TEXT PRIMARY KEY,
+                session_id TEXT NOT NULL,
+                format TEXT NOT NULL,
+                status TEXT NOT NULL,
+                output_path TEXT,
+                error TEXT,
+                created_at TEXT NOT NULL,
+                FOREIGN KEY(session_id) REFERENCES practice_sessions(id) ON DELETE CASCADE
+            );
+
+            CREATE INDEX IF NOT EXISTS idx_practice_attempts_session
+                ON practice_attempts(session_id);
+            CREATE INDEX IF NOT EXISTS idx_wrong_questions_subject
+                ON wrong_questions(subject);
             """
+        )
+        migrations = {
+            "source_documents": {"question_bank_id": "TEXT"},
+            "questions": {"question_bank_id": "TEXT"},
+            "review_items": {"question_bank_id": "TEXT"},
+            "templates": {"question_bank_id": "TEXT"},
+            "practice_sessions": {"question_bank_id": "TEXT"},
+            "tags": {"question_bank_id": "TEXT"},
+        }
+        for table, columns in migrations.items():
+            existing_columns = {
+                row[1] for row in connection.execute(f"PRAGMA table_info({table})").fetchall()
+            }
+            for column, definition in columns.items():
+                if column not in existing_columns:
+                    connection.execute(f"ALTER TABLE {table} ADD COLUMN {column} {definition}")
+
+        now = utc_now()
+        connection.execute(
+            """
+            INSERT OR IGNORE INTO question_banks(id, name, subject, description, created_at, updated_at)
+            VALUES(?, ?, ?, ?, ?, ?)
+            """,
+            (
+                MATH_ONE_BANK_ID,
+                "考研数学一题库",
+                "考研数学一",
+                "考研数学一题目、真题和练习题。",
+                now,
+                now,
+            ),
+        )
+        connection.execute(
+            """
+            INSERT OR IGNORE INTO question_banks(id, name, subject, description, created_at, updated_at)
+            VALUES(?, ?, ?, ?, ?, ?)
+            """,
+            (
+                POLITICS_BANK_ID,
+                "考研政治题库",
+                "考研政治",
+                "考研政治真题与政治专项练习题。",
+                now,
+                now,
+            ),
+        )
+        connection.execute(
+            "UPDATE questions SET question_bank_id=? WHERE (question_bank_id IS NULL OR question_bank_id='') AND subject=?",
+            (MATH_ONE_BANK_ID, "考研数学一"),
+        )
+        connection.execute(
+            "UPDATE questions SET question_bank_id=? WHERE (question_bank_id IS NULL OR question_bank_id='') AND subject=?",
+            (POLITICS_BANK_ID, "考研政治"),
+        )
+        connection.execute(
+            "UPDATE tags SET question_bank_id=? WHERE question_bank_id IS NULL OR question_bank_id=''",
+            (MATH_ONE_BANK_ID,),
+        )
+        connection.execute(
+            "UPDATE review_items SET question_bank_id=? WHERE (question_bank_id IS NULL OR question_bank_id='') AND json_extract(parsed_question_json, '$.subject')=?",
+            (MATH_ONE_BANK_ID, "考研数学一"),
+        )
+        connection.execute(
+            "UPDATE review_items SET question_bank_id=? WHERE (question_bank_id IS NULL OR question_bank_id='') AND json_extract(parsed_question_json, '$.subject')=?",
+            (POLITICS_BANK_ID, "考研政治"),
+        )
+        connection.execute(
+            "UPDATE templates SET question_bank_id=? WHERE (question_bank_id IS NULL OR question_bank_id='') AND subject=?",
+            (MATH_ONE_BANK_ID, "考研数学一"),
+        )
+        connection.execute(
+            "UPDATE templates SET question_bank_id=? WHERE (question_bank_id IS NULL OR question_bank_id='') AND subject=?",
+            (POLITICS_BANK_ID, "考研政治"),
+        )
+        connection.execute(
+            "UPDATE source_documents SET question_bank_id=? WHERE (question_bank_id IS NULL OR question_bank_id='') AND filename LIKE '%政治%'",
+            (POLITICS_BANK_ID,),
+        )
+        connection.execute(
+            "UPDATE source_documents SET question_bank_id=? WHERE (question_bank_id IS NULL OR question_bank_id='')",
+            (MATH_ONE_BANK_ID,),
         )
         question_columns = {row[1] for row in connection.execute("PRAGMA table_info(questions)").fetchall()}
         if "source_regions_json" not in question_columns:
@@ -163,14 +316,24 @@ def init_db() -> None:
 
 
 def normalize_stored_tags(connection: sqlite3.Connection) -> None:
-    """Migrate legacy questions that stored difficulty as a third tag."""
+    """Migrate legacy questions and keep politics tags out of the math catalog."""
     rows = connection.execute(
         "SELECT * FROM questions WHERE tags_json IS NOT NULL"
     ).fetchall()
     for row in rows:
         current_tags = json_load(row["tags_json"], [])
         knowledge_points = json_load(row["knowledge_points_json"], [])
-        normalized_tags = normalize_tag_pair(current_tags, row["chapter"], knowledge_points)
+        if row["question_bank_id"] == POLITICS_BANK_ID or row["subject"] == "考研政治":
+            major_hint = " ".join(str(value) for value in current_tags if str(value) in POLITICS_MAJORS)
+            major, subtag = normalize_politics_tags(
+                row["stem_markdown"],
+                row["chapter"],
+                knowledge_points,
+                major_hint,
+            )
+            normalized_tags = [major, subtag]
+        else:
+            normalized_tags = normalize_tag_pair(current_tags, row["chapter"], knowledge_points)
         if current_tags == normalized_tags:
             continue
         now = utc_now()
@@ -189,11 +352,21 @@ def normalize_stored_tags(connection: sqlite3.Connection) -> None:
     for row in review_rows:
         parsed = json_load(row["parsed_question_json"], {})
         current_tags = parsed.get("tags", [])
-        normalized_tags = normalize_tag_pair(
-            current_tags,
-            parsed.get("chapter", ""),
-            parsed.get("knowledge_points", []),
-        )
+        if row["question_bank_id"] == POLITICS_BANK_ID or parsed.get("subject") == "考研政治":
+            major_hint = " ".join(str(value) for value in current_tags if str(value) in POLITICS_MAJORS)
+            major, subtag = normalize_politics_tags(
+                parsed.get("stem_markdown", ""),
+                parsed.get("chapter", ""),
+                parsed.get("knowledge_points", []),
+                major_hint,
+            )
+            normalized_tags = [major, subtag]
+        else:
+            normalized_tags = normalize_tag_pair(
+                current_tags,
+                parsed.get("chapter", ""),
+                parsed.get("knowledge_points", []),
+            )
         if current_tags != normalized_tags:
             parsed["tags"] = normalized_tags
             connection.execute(
@@ -204,15 +377,15 @@ def normalize_stored_tags(connection: sqlite3.Connection) -> None:
 
 def seed_default_data(connection: sqlite3.Connection) -> None:
     tags = [
-        ("tag-calculus", "高等数学", "#52d7ff"),
-        ("tag-linear", "线性代数", "#b8a0ff"),
-        ("tag-probability", "概率统计", "#35c96e"),
-        ("tag-limit", "极限", "#ffd23f"),
-        ("tag-integral", "积分", "#ff5a4f"),
+        ("tag-calculus", "高等数学", MATH_ONE_BANK_ID, "#52d7ff"),
+        ("tag-linear", "线性代数", MATH_ONE_BANK_ID, "#b8a0ff"),
+        ("tag-probability", "概率统计", MATH_ONE_BANK_ID, "#35c96e"),
+        ("tag-limit", "极限", MATH_ONE_BANK_ID, "#ffd23f"),
+        ("tag-integral", "积分", MATH_ONE_BANK_ID, "#ff5a4f"),
     ]
     for tag in tags:
         connection.execute(
-            "INSERT OR IGNORE INTO tags(id, name, color, created_at) VALUES(?, ?, ?, ?)",
+            "INSERT OR IGNORE INTO tags(id, name, question_bank_id, color, created_at) VALUES(?, ?, ?, ?, ?)",
             (*tag, utc_now()),
         )
 
@@ -262,18 +435,84 @@ def seed_default_data(connection: sqlite3.Connection) -> None:
         connection.execute(
             """
             INSERT INTO templates(
-                id, name, subject, duration_minutes, total_score,
+                id, name, subject, question_bank_id, duration_minutes, total_score,
                 sections_json, distribution_rules_json, version, created_at, updated_at
-            ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 template_id,
                 "考研数学一",
                 "考研数学一",
+                MATH_ONE_BANK_ID,
                 180,
                 150,
                 json.dumps(sections, ensure_ascii=False),
                 json.dumps(rules, ensure_ascii=False),
+                1,
+                utc_now(),
+                utc_now(),
+            ),
+        )
+
+    politics_template_id = "template-politics"
+    existing_politics_template = connection.execute(
+        "SELECT id FROM templates WHERE id = ?",
+        (politics_template_id,),
+    ).fetchone()
+    if existing_politics_template is None:
+        politics_sections = [
+            {
+                "id": "single-choice",
+                "title": "一、单项选择题",
+                "type": "choice",
+                "count": 16,
+                "score": 1,
+                "filters": {"answer_mode": "single"},
+            },
+            {
+                "id": "multiple-choice",
+                "title": "二、多项选择题",
+                "type": "choice",
+                "count": 17,
+                "score": 2,
+                "filters": {"answer_mode": "multiple"},
+            },
+            {
+                "id": "analysis",
+                "title": "三、分析题",
+                "type": "solution",
+                "count": 5,
+                "score": 10,
+                "filters": {},
+            },
+        ]
+        politics_rules = {
+            "subject": "考研政治",
+            "chapter_distribution": [
+                {"label": "马克思主义基本原理", "ratio": 0.22, "tolerance": 0.1},
+                {"label": "毛泽东思想和中国特色社会主义理论体系", "ratio": 0.28, "tolerance": 0.1},
+                {"label": "中国近现代史纲要", "ratio": 0.18, "tolerance": 0.1},
+                {"label": "思想道德与法治", "ratio": 0.16, "tolerance": 0.1},
+                {"label": "形势与政策以及当代世界经济与政治", "ratio": 0.16, "tolerance": 0.1},
+            ],
+            "chapter_weights_note": "政治题库按五个课程模块归类；题型结构按单选、多选、分析题组织。",
+        }
+        connection.execute(
+            """
+            INSERT INTO templates(
+                id, name, subject, question_bank_id, duration_minutes, total_score,
+                sections_json, distribution_rules_json, version, created_at, updated_at
+            ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            (
+                politics_template_id,
+                "考研政治标准卷",
+                "考研政治",
+                POLITICS_BANK_ID,
+                180,
+                100,
+                json.dumps(politics_sections, ensure_ascii=False),
+                json.dumps(politics_rules, ensure_ascii=False),
                 1,
                 utc_now(),
                 utc_now(),
@@ -384,15 +623,16 @@ def insert_demo_question(connection: sqlite3.Connection, sample: dict[str, Any])
     connection.execute(
         """
         INSERT OR IGNORE INTO questions(
-            id, type, subject, stem_markdown, options_json, answer_markdown,
+            id, type, subject, question_bank_id, stem_markdown, options_json, answer_markdown,
             analysis_markdown, scoring_points_json, tags_json, chapter,
             knowledge_points_json, difficulty, score, review_status, created_at, updated_at
-        ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
+        ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
         """,
         (
             sample["id"],
             sample["type"],
             sample["subject"],
+            MATH_ONE_BANK_ID if sample["subject"] == "考研数学一" else POLITICS_BANK_ID,
             sample["stem_markdown"],
             json.dumps(sample["options"], ensure_ascii=False),
             sample["answer_markdown"],

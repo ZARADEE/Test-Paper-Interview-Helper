@@ -13,6 +13,14 @@ MAJOR_GROUPS = (
     "概率论与数理统计",
 )
 
+POLITICS_MAJOR_GROUPS = (
+    "马克思主义基本原理",
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史纲要",
+    "思想道德与法治",
+    "形势与政策以及当代世界经济与政治",
+)
+
 CHAPTERS: tuple[dict[str, Any], ...] = (
     {
         "name": "函数、极限与连续",
@@ -139,6 +147,36 @@ def normalize_tag_pair(
         if cleaned and cleaned not in values:
             values.append(cleaned)
 
+    # Politics uses the same two-slot tag contract but has a different major
+    # catalog. Keep those values intact before applying the math fallback.
+    politics_major = next(
+        (
+            value
+            for value in [*values, chapter or ""]
+            if value in POLITICS_MAJOR_GROUPS
+        ),
+        "",
+    )
+    if politics_major:
+        subcategory = next(
+            (
+                value
+                for value in values
+                if value != politics_major and value not in POLITICS_MAJOR_GROUPS
+            ),
+            "",
+        )
+        if not subcategory:
+            subcategory = next(
+                (
+                    str(point).strip()
+                    for point in (knowledge_points or [])
+                    if str(point).strip() and str(point).strip() not in POLITICS_MAJOR_GROUPS
+                ),
+                "",
+            )
+        return [politics_major, subcategory]
+
     major = ""
     for value in [*values, chapter or ""]:
         normalized = normalize_group(value)
@@ -155,7 +193,9 @@ def normalize_tag_pair(
             break
     if not subcategory and chapter and normalize_group(chapter) != major:
         subcategory = chapter.strip()
-    if not subcategory:
+    if not subcategory and major in POLITICS_MAJOR_GROUPS:
+        subcategory = ""
+    elif not subcategory:
         subcategory = next(
             (str(point).strip() for point in (knowledge_points or []) if str(point).strip()),
             "综合题",

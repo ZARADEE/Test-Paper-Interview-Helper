@@ -1,9 +1,10 @@
 import { ArrowDown, ArrowUp, Check, CopyPlus, Plus, Save, Trash2 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
-import { getTemplates, saveTemplate, validateTemplate } from "../api";
-import type { PaperTemplate, QuestionType, SubjectDistributionRule } from "../types";
+import { createTemplate, getTemplates, saveTemplate, validateTemplate } from "../api";
+import type { PaperTemplate, QuestionBank, QuestionType, SubjectDistributionRule } from "../types";
 
 type Props = {
+  questionBanks: QuestionBank[];
   onChanged: () => void;
 };
 
@@ -19,7 +20,7 @@ const subjectLabels: Record<string, string> = {
   "概率论与数理统计": "概率与统计"
 };
 
-export function TemplateView({ onChanged }: Props): JSX.Element {
+export function TemplateView({ questionBanks, onChanged }: Props): JSX.Element {
   const [templates, setTemplates] = useState<PaperTemplate[]>([]);
   const [selectedId, setSelectedId] = useState("");
   const [draft, setDraft] = useState<PaperTemplate | null>(null);
@@ -94,6 +95,34 @@ export function TemplateView({ onChanged }: Props): JSX.Element {
     });
   }
 
+  async function createNewTemplate(): Promise<void> {
+    const bank = questionBanks[0];
+    if (!bank) return;
+    try {
+      const created = await createTemplate({
+        name: `${bank.name}新模板`,
+        subject: bank.subject,
+        question_bank_id: bank.id,
+        duration_minutes: 180,
+        total_score: 100,
+        sections: [
+          { id: "choice", title: "一、选择题", type: "choice", count: 10, score: 5, filters: {} },
+          { id: "solution", title: "二、解答题", type: "solution", count: 5, score: 10, filters: {} }
+        ],
+        distribution_rules: {
+          subject: bank.subject,
+          chapter_distribution: [{ label: "综合", ratio: 1, tolerance: 0.2 }]
+        }
+      });
+      setTemplates((current) => [...current, created]);
+      setSelectedId(created.id);
+      setDraft(created);
+      onChanged();
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "新建模板失败");
+    }
+  }
+
   function removeSection(index: number): void {
     updateDraft({ sections: activeDraft.sections.filter((_, sectionIndex) => sectionIndex !== index) });
   }
@@ -136,6 +165,7 @@ export function TemplateView({ onChanged }: Props): JSX.Element {
             <small>{template.total_score} 分 / {template.duration_minutes} 分钟</small>
           </button>
         ))}
+        <button className="outline-action" onClick={() => void createNewTemplate()} type="button"><Plus size={17} />新建试卷模板</button>
         <button className="outline-action" onClick={addSection} type="button"><CopyPlus size={17} />复制结构</button>
       </aside>
 
@@ -180,6 +210,18 @@ export function TemplateView({ onChanged }: Props): JSX.Element {
       <aside className="template-inspector panel">
         <div className="panel-title">属性检查器</div>
         <label><span>模板名称</span><input value={draft.name} onChange={(event) => updateDraft({ name: event.target.value })} /></label>
+        <label>
+          <span>关联题库</span>
+          <select
+            value={draft.question_bank_id}
+            onChange={(event) => {
+              const bank = questionBanks.find((item) => item.id === event.target.value);
+              if (bank) updateDraft({ question_bank_id: bank.id, subject: bank.subject });
+            }}
+          >
+            {questionBanks.map((bank) => <option key={bank.id} value={bank.id}>{bank.name}</option>)}
+          </select>
+        </label>
         <div className="two-fields">
           <label><span>总分</span><input type="number" value={draft.total_score} onChange={(event) => updateDraft({ total_score: Number(event.target.value) })} /></label>
           <label><span>时长</span><input type="number" value={draft.duration_minutes} onChange={(event) => updateDraft({ duration_minutes: Number(event.target.value) })} /></label>

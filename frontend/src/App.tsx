@@ -1,30 +1,34 @@
-import { BookOpenCheck, FileInput, FileText, LayoutTemplate, Settings2, SquareStack } from "lucide-react";
+import { BookOpenCheck, FileInput, LayoutTemplate, ListChecks, Settings2, SquareStack } from "lucide-react";
 import { useEffect, useState } from "react";
-import { getHealth, getTags } from "./api";
+import { getHealth, getQuestionBanks, getTags } from "./api";
 import { ComposeView } from "./components/ComposeView";
 import { ImportView } from "./components/ImportView";
+import { PracticeView } from "./components/PracticeView";
 import { TemplateView } from "./components/TemplateView";
-import type { TabId, Tag } from "./types";
+import type { QuestionBank, TabId, Tag } from "./types";
 
 const navItems: Array<{ id: TabId; label: string; number: string; icon: typeof BookOpenCheck }> = [
   { id: "compose", label: "考研组卷", number: "01", icon: BookOpenCheck },
-  { id: "import", label: "试题导入", number: "02", icon: FileInput },
-  { id: "templates", label: "试卷模板", number: "03", icon: LayoutTemplate }
+  { id: "practice", label: "小题狂练", number: "02", icon: ListChecks },
+  { id: "import", label: "试题导入", number: "03", icon: FileInput },
+  { id: "templates", label: "试卷模板", number: "04", icon: LayoutTemplate }
 ];
 
 export function App(): JSX.Element {
   const [activeTab, setActiveTab] = useState<TabId>("compose");
   const [tags, setTags] = useState<Tag[]>([]);
+  const [questionBanks, setQuestionBanks] = useState<QuestionBank[]>([]);
   const [status, setStatus] = useState<"online" | "offline">("offline");
   const [statusMessage, setStatusMessage] = useState("等待后端");
   const [refreshKey, setRefreshKey] = useState(0);
 
   useEffect(() => {
-    void Promise.all([getHealth(), getTags()])
-      .then(([health, nextTags]) => {
+    void Promise.all([getHealth(), getQuestionBanks(), getTags()])
+      .then(([health, nextBanks, nextTags]) => {
         setStatus(health.ok ? "online" : "offline");
         setStatusMessage(`${health.question_count} 道题 · ${health.template_count} 个模板`);
         setTags(nextTags);
+        setQuestionBanks(nextBanks);
       })
       .catch((error: unknown) => {
         setStatus("offline");
@@ -82,12 +86,14 @@ export function App(): JSX.Element {
         </header>
 
         <section className="workspace">
-          {activeTab === "compose" && <ComposeView tags={tags} onChanged={refresh} />}
-          {activeTab === "import" && <ImportView tags={tags} onChanged={refresh} />}
-          {activeTab === "templates" && <TemplateView onChanged={refresh} />}
+          {activeTab === "compose" && <ComposeView tags={tags} questionBanks={questionBanks} onChanged={refresh} />}
+          <div className={`tab-view ${activeTab === "practice" ? "" : "tab-view-hidden"}`}>
+            <PracticeView />
+          </div>
+          {activeTab === "import" && <ImportView tags={tags} questionBanks={questionBanks} onChanged={refresh} />}
+          {activeTab === "templates" && <TemplateView questionBanks={questionBanks} onChanged={refresh} />}
         </section>
       </main>
     </div>
   );
 }
-
