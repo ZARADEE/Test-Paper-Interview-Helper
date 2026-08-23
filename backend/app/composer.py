@@ -67,6 +67,7 @@ def compose_paper(
         ]
         candidates.sort(
             key=lambda item: (
+                0 if item.get("source_regions") else 1,
                 0
                 if chapter_counts.get(chapter_group(item.get("chapter"), item.get("tags")), 0)
                 < chapter_targets.get(chapter_group(item.get("chapter"), item.get("tags")), 0)

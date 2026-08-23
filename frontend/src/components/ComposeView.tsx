@@ -201,6 +201,18 @@ export function ComposeView({ tags: initialTags, onChanged }: Props): JSX.Elemen
                 <div>{paper.validation.errors.map((error) => <span key={error}>{error}</span>)}</div>
               </div>
             )}
+            <div className="export-bar panel">
+              <div>
+                <span className="eyebrow">EXPORT PACKAGE</span>
+                <strong>题卷版 / 答案版</strong>
+              </div>
+              <div className="export-actions">
+                <button onClick={() => void download("pdf", "question")} type="button"><Download size={17} />题卷 PDF</button>
+                <button onClick={() => void download("pdf", "answer")} type="button"><Download size={17} />答案 PDF</button>
+                <button onClick={() => void download("docx", "question")} type="button"><FileTextIcon />题卷 Word</button>
+                <button onClick={() => void download("docx", "answer")} type="button"><FileTextIcon />答案 Word</button>
+              </div>
+            </div>
             <div className="paper-sections">
               {paper.sections.map((section) => {
                 const sectionQuestions = paper.questions.filter((question) => question.section_id === section.id);
@@ -242,18 +254,6 @@ export function ComposeView({ tags: initialTags, onChanged }: Props): JSX.Elemen
                   </article>
                 );
               })}
-            </div>
-            <div className="export-bar panel">
-              <div>
-                <span className="eyebrow">EXPORT PACKAGE</span>
-                <strong>题卷版 / 答案版</strong>
-              </div>
-              <div className="export-actions">
-                <button onClick={() => void download("pdf", "question")} type="button"><Download size={17} />题卷 PDF</button>
-                <button onClick={() => void download("pdf", "answer")} type="button"><Download size={17} />答案 PDF</button>
-                <button onClick={() => void download("docx", "question")} type="button"><FileTextIcon />题卷 Word</button>
-                <button onClick={() => void download("docx", "answer")} type="button"><FileTextIcon />答案 Word</button>
-              </div>
             </div>
           </>
         )}

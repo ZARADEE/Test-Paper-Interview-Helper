@@ -47,23 +47,25 @@ def export_docx(paper: dict[str, Any], variant: str, target: Path) -> None:
         question_image = source_preview(question, "question")
         if question_image:
             document.add_paragraph(f"{question_number}.")
-            document.add_picture(io.BytesIO(question_image), width=Inches(6.3))
+            question_width, _ = fit_image_size(question_image, 6.3, 8.5)
+            document.add_picture(io.BytesIO(question_image), width=Inches(question_width))
         else:
+            # Keep legacy/manual questions exportable when no source document exists.
             document.add_paragraph(f"{question_number}. {plain_formula_text(question['stem_markdown'])}")
             for option in question.get("options", []):
                 document.add_paragraph(f"{option.get('key', '')}. {plain_formula_text(option.get('text', ''))}")
         if variant == "answer":
-            answer = plain_formula_text(question.get("answer_markdown", ""))
-            if answer:
-                document.add_paragraph(f"答案：{answer}")
             analysis_image = source_preview(question, "analysis")
             if analysis_image:
-                document.add_paragraph("原版解析：")
-                document.add_picture(io.BytesIO(analysis_image), width=Inches(6.3))
+                analysis_width, _ = fit_image_size(analysis_image, 6.3, 8.5)
+                document.add_picture(io.BytesIO(analysis_image), width=Inches(analysis_width))
             else:
+                answer = plain_formula_text(question.get("answer_markdown", ""))
+                if answer:
+                    document.add_paragraph(f"答案：{answer}")
                 document.add_paragraph(f"解析：{plain_formula_text(question.get('analysis_markdown', ''))}")
             points = question.get("scoring_points", [])
-            if points:
+            if points and not analysis_image:
                 document.add_paragraph(
                     "评分点：" + "；".join(f"{point.get('label', '')}（{point.get('score', 0)}分）" for point in points)
                 )
@@ -142,18 +144,18 @@ def export_pdf(paper: dict[str, Any], variant: str, target: Path) -> None:
             flowables.append(Paragraph(f"{question_number}.", body))
             flowables.append(image_flowable(question_image))
         else:
+            # Keep legacy/manual questions exportable when no source document exists.
             flowables.append(Paragraph(f"{question_number}. {safe_markup(question['stem_markdown'])}", body))
             for option in question.get("options", []):
                 flowables.append(Paragraph(f"{html.escape(option.get('key', ''))}. {safe_markup(option.get('text', ''))}", body))
         if variant == "answer":
-            answer = question.get("answer_markdown", "")
-            if answer:
-                flowables.append(Paragraph(f"<b>答案：</b>{safe_markup(answer)}", body))
             analysis_image = source_preview(question, "analysis")
             if analysis_image:
-                flowables.append(Paragraph("<b>原版解析：</b>", body))
                 flowables.append(image_flowable(analysis_image))
             else:
+                answer = question.get("answer_markdown", "")
+                if answer:
+                    flowables.append(Paragraph(f"<b>答案：</b>{safe_markup(answer)}", body))
                 flowables.append(Paragraph(f"<b>解析：</b>{safe_markup(question.get('analysis_markdown', ''))}", body))
         flowables.append(Spacer(1, 3))
     document.build(flowables)
@@ -187,21 +189,33 @@ def source_preview(question: dict[str, Any], kind: str) -> bytes | None:
     if source is None or not source["file_path"]:
         return None
     path = Path(source["file_path"])
-    if not path.exists():
+    try:
+        if not path.is_file():
+            return None
+    except OSError:
         return None
     try:
         return render_source_preview(path, regions, scale=1.35)
-    except Exception:
+    except (OSError, RuntimeError, ValueError):
         return None
 
 
 def image_flowable(content: bytes) -> Any:
     from reportlab.lib.units import mm
-    from reportlab.lib.utils import ImageReader
     from reportlab.platypus import Image
 
-    width, height = ImageReader(io.BytesIO(content)).getSize()
-    max_width = 174 * mm
-    display_width = min(float(width), max_width)
-    display_height = display_width * float(height) / float(width)
+    display_width, display_height = fit_image_size(content, 174 * mm, 230 * mm)
     return Image(io.BytesIO(content), width=display_width, height=display_height)
+
+
+def fit_image_size(content: bytes, max_width: float, max_height: float) -> tuple[float, float]:
+    """Fit a rendered source image inside a page without changing its ratio."""
+    try:
+        from PIL import Image
+
+        with Image.open(io.BytesIO(content)) as image:
+            width, height = image.size
+    except Exception as error:
+        raise RuntimeError("无法读取原版题面图片尺寸。") from error
+    scale = min(max_width / max(width, 1), max_height / max(height, 1), 1)
+    return max(1.0, width * scale), max(1.0, height * scale)
