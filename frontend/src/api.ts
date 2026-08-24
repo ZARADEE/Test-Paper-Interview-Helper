@@ -2,6 +2,7 @@ import type {
   Paper,
   PaperTemplate,
   QuestionBank,
+  PracticeMode,
   PracticeAnswerResult,
   PracticeCatalog,
   PracticeSession,
@@ -200,6 +201,7 @@ export async function startPractice(payload: {
   sub_tag: string;
   count: number;
   seed?: number;
+  mode?: PracticeMode;
 }): Promise<PracticeSession> {
   return request("/practice/sessions", {
     method: "POST",

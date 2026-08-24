@@ -223,14 +223,15 @@ def export_practice_pdf(
         bottomMargin=16 * mm,
         title=f"{session.get('subject', '')} 小题狂练错题",
     )
+    range_text = (
+        "范围：错题本全量抽取。"
+        if session.get("practice_mode") == "wrong_book"
+        else f"范围：{session.get('major_tag') or '全部大类'} / {session.get('sub_tag') or '全部小类'}。"
+    )
     flowables: list[Any] = [
         Paragraph(html.escape(f"{session.get('subject', '')} 小题狂练错题"), heading),
         Paragraph(
-            safe_markup(
-                f"范围：{session.get('major_tag') or '全部大类'} / "
-                f"{session.get('sub_tag') or '全部小类'}　"
-                f"错题数：{len(wrong_items)}"
-            ),
+            safe_markup(f"{range_text} 错题数：{len(wrong_items)}"),
             body,
         ),
         Spacer(1, 5),

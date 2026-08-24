@@ -68,6 +68,8 @@ export type PracticeCatalog = {
   wrong_book_count: number;
 };
 
+export type PracticeMode = "standard" | "wrong_book";
+
 export type PracticeAttempt = {
   question_id: string;
   selected_options: string[];
@@ -86,6 +88,7 @@ export type PracticeSession = {
   subject: string;
   major_tag: string;
   sub_tag: string;
+  mode: PracticeMode;
   total_count: number;
   answered_count: number;
   completed: boolean;

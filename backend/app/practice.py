@@ -116,6 +116,7 @@ def practice_session_payload(
         "subject": session["subject"],
         "major_tag": session["major_tag"],
         "sub_tag": session["sub_tag"],
+        "mode": session["practice_mode"],
         "total_count": session["total_count"],
         "answered_count": session["answered_count"],
         "completed": bool(session["completed_at"]),

@@ -277,6 +277,10 @@ h1, h2, p { margin: 0; }
 .practice-side-panel > strong { font-size: 19px; }
 .practice-side-panel p { font-size: 13px; font-weight: 750; line-height: 1.5; }
 .practice-side-panel .outline-action { justify-self: start; }
+.practice-side-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.practice-side-actions .outline-action { margin-top: 0; }
+.practice-side-actions button { flex: 1 1 120px; }
+.practice-finish-notice { margin: 0 16px 16px; background: var(--violet); }
 .practice-filter-line { display: flex; justify-content: space-between; gap: 8px; border-bottom: 2px solid var(--ink); padding: 8px 0; font-size: 12px; font-weight: 850; }
 .practice-filter-line strong { max-width: 150px; overflow: hidden; text-align: right; text-overflow: ellipsis; white-space: nowrap; }
 .wrong-book { grid-column: 1 / -1; overflow: hidden; }

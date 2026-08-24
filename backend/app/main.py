@@ -6,7 +6,7 @@ import random
 import shutil
 import uuid
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
@@ -120,6 +120,7 @@ class PracticeStartRequest(BaseModel):
     sub_tag: str = ""
     count: int = Field(default=10, ge=1, le=100)
     seed: int | None = None
+    mode: Literal["standard", "wrong_book"] = "standard"
 
 
 class PracticeAnswerRequest(BaseModel):
@@ -780,6 +781,26 @@ def _practice_question_rows(
     return candidates
 
 
+def _wrong_book_question_rows(connection: Any) -> list[Any]:
+    rows = connection.execute(
+        """
+        SELECT q.*
+        FROM wrong_questions w
+        JOIN questions q ON q.id = w.question_id
+        WHERE q.review_status = 'approved'
+          AND q.type = 'choice'
+        ORDER BY w.last_wrong_at DESC, w.question_id
+        """
+    ).fetchall()
+    candidates = []
+    for row in rows:
+        question = row_to_question(row)
+        if not question.get("options") or not answer_options(question.get("answer_markdown", "")):
+            continue
+        candidates.append(row)
+    return candidates
+
+
 def _get_practice_session(connection: Any, session_id: str) -> Any:
     row = connection.execute(
         "SELECT * FROM practice_sessions WHERE id = ?",
@@ -812,34 +833,50 @@ def practice_catalog() -> dict[str, Any]:
 @app.post("/api/practice/sessions")
 def start_practice(payload: PracticeStartRequest) -> dict[str, Any]:
     with connect() as connection:
-        bank = _require_bank(connection, payload.question_bank_id, payload.subject)
-        candidates = _practice_question_rows(
-            connection,
-            payload.subject,
-            bank["id"],
-            payload.major_tag.strip(),
-            payload.sub_tag.strip(),
-        )
-        if not candidates:
-            raise HTTPException(status_code=404, detail="当前筛选条件下没有可刷的选择题。")
         rng = random.Random(payload.seed if payload.seed is not None else random.SystemRandom().randint(0, 2**31 - 1))
-        selected_rows = rng.sample(candidates, min(payload.count, len(candidates)))
+        if payload.mode == "wrong_book":
+            candidates = _wrong_book_question_rows(connection)
+            if not candidates:
+                raise HTTPException(status_code=404, detail="错题本里还没有可刷的题目。")
+            selected_rows = list(candidates)
+            rng.shuffle(selected_rows)
+            session_subject = "错题本"
+            bank_id = None
+            major_tag = ""
+            sub_tag = ""
+        else:
+            bank = _require_bank(connection, payload.question_bank_id, payload.subject)
+            candidates = _practice_question_rows(
+                connection,
+                payload.subject,
+                bank["id"],
+                payload.major_tag.strip(),
+                payload.sub_tag.strip(),
+            )
+            if not candidates:
+                raise HTTPException(status_code=404, detail="当前筛选条件下没有可刷的选择题。")
+            selected_rows = rng.sample(candidates, min(payload.count, len(candidates)))
+            session_subject = payload.subject
+            bank_id = bank["id"]
+            major_tag = payload.major_tag.strip()
+            sub_tag = payload.sub_tag.strip()
         session_id = f"practice-{uuid.uuid4().hex[:12]}"
         now = utc_now()
         question_ids = [row["id"] for row in selected_rows]
         connection.execute(
             """
             INSERT INTO practice_sessions(
-                id, subject, question_bank_id, major_tag, sub_tag, total_count,
+                id, subject, question_bank_id, major_tag, sub_tag, practice_mode, total_count,
                 answered_count, question_ids_json, wrong_question_ids_json, created_at
-            ) VALUES(?, ?, ?, ?, ?, ?, 0, ?, '[]', ?)
+            ) VALUES(?, ?, ?, ?, ?, ?, ?, 0, ?, '[]', ?)
             """,
             (
                 session_id,
-                payload.subject,
-                bank["id"],
-                payload.major_tag.strip(),
-                payload.sub_tag.strip(),
+                session_subject,
+                bank_id,
+                major_tag,
+                sub_tag,
+                payload.mode,
                 len(question_ids),
                 json.dumps(question_ids, ensure_ascii=False),
                 now,

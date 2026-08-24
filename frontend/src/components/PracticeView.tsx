@@ -7,7 +7,9 @@ import {
   RefreshCw,
   RotateCcw,
   Square,
+  Sparkles,
   Trash2,
+  Target,
   X
 } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -30,12 +32,27 @@ import type {
   WrongBookItem
 } from "../types";
 
+const wrongBookVictoryLines = [
+  "这波很能打，错题本已经开始认真反省了。",
+  "今天的错题基本被你按在地上摩擦了一遍。",
+  "手感在线，这一轮回炉回得又快又稳。",
+  "错题本现在的表情，应该有点不服但又没办法。",
+  "你刚才那一下，错题都该怀疑自己是不是来错地方了。",
+  "这轮收得漂亮，错题已经被你整得有点安静。",
+  "别停，今天这个状态很像开了加速器。",
+  "错题这边刚露头，又被你顺手摁回去了。"
+];
+
 function firstSubject(catalog: PracticeCatalog): PracticeSubject | undefined {
   return catalog.subjects[0];
 }
 
 function firstMajor(subject?: PracticeSubject): PracticeMajorTag | undefined {
   return subject?.major_tags[0];
+}
+
+function pickWrongBookVictoryLine(): string {
+  return wrongBookVictoryLines[Math.floor(Math.random() * wrongBookVictoryLines.length)];
 }
 
 export function PracticeView(): JSX.Element {
@@ -50,6 +67,7 @@ export function PracticeView(): JSX.Element {
   const [answerResult, setAnswerResult] = useState<PracticeAnswerResult | null>(null);
   const [wrongBook, setWrongBook] = useState<WrongBookItem[]>([]);
   const [showWrongBook, setShowWrongBook] = useState(false);
+  const [wrongBookVictoryLine, setWrongBookVictoryLine] = useState("");
   const [busy, setBusy] = useState(false);
   const [continuousMode, setContinuousMode] = useState(false);
   const [continuousLoading, setContinuousLoading] = useState(false);
@@ -92,6 +110,7 @@ export function PracticeView(): JSX.Element {
   );
   const currentQuestion: PracticeQuestion | undefined = session?.questions[currentIndex];
   const resultQuestion = answerResult?.question;
+  const isWrongBookSession = session?.mode === "wrong_book";
   const totalAvailable = selectedMajor?.sub_tags.find((item) => item.value === subTag)?.count
     ?? selectedMajor?.count
     ?? selectedSubject?.count
@@ -112,19 +131,15 @@ export function PracticeView(): JSX.Element {
     setSubTag(nextMajor?.sub_tags[0]?.value ?? "");
   }
 
-  async function beginPractice(requestedCount = count, quiet = false): Promise<boolean> {
-    if (!subject) return false;
+  async function launchPracticeSession(
+    payload: Parameters<typeof startPractice>[0],
+    quiet = false
+  ): Promise<boolean> {
+    setWrongBookVictoryLine("");
     setBusy(true);
     if (!quiet) setError("");
     try {
-      const nextSession = await startPractice({
-        subject,
-        question_bank_id: selectedSubject?.question_bank_id ?? undefined,
-        major_tag: majorTag,
-        sub_tag: subTag,
-        count: Math.max(1, Math.min(requestedCount, Math.max(1, totalAvailable))),
-        seed: Date.now()
-      });
+      const nextSession = await startPractice(payload);
       setSession(nextSession);
       setCurrentIndex(0);
       setSelectedOptions([]);
@@ -136,6 +151,33 @@ export function PracticeView(): JSX.Element {
     } finally {
       setBusy(false);
     }
+  }
+
+  async function beginPractice(requestedCount = count, quiet = false): Promise<boolean> {
+    if (!subject) return false;
+    return launchPracticeSession({
+      subject,
+      question_bank_id: selectedSubject?.question_bank_id ?? undefined,
+      major_tag: majorTag,
+      sub_tag: subTag,
+      count: Math.max(1, Math.min(requestedCount, Math.max(1, totalAvailable))),
+      seed: Date.now()
+    }, quiet);
+  }
+
+  async function beginWrongBookPractice(): Promise<void> {
+    if (busy || !(catalog?.wrong_book_count ?? 0)) return;
+    continuousModeRef.current = false;
+    setContinuousMode(false);
+    setContinuousLoading(false);
+    await launchPracticeSession({
+      subject: "错题本",
+      major_tag: "",
+      sub_tag: "",
+      count: 1,
+      seed: Date.now(),
+      mode: "wrong_book"
+    });
   }
 
   async function beginContinuousPractice(): Promise<void> {
@@ -176,13 +218,17 @@ export function PracticeView(): JSX.Element {
     setError("");
     try {
       const result = await answerPracticeQuestion(session.id, currentQuestion.id, selectedOptions);
+      const completed = result.answered_count >= result.total_count;
       setAnswerResult(result);
       setSession((current) => current ? {
         ...current,
         answered_count: result.answered_count,
         wrong_question_ids: result.wrong_question_ids,
-        completed: result.answered_count >= result.total_count
+        completed
       } : current);
+      if (completed && session.mode === "wrong_book") {
+        setWrongBookVictoryLine(pickWrongBookVictoryLine());
+      }
       if (continuousModeRef.current) {
         setContinuousLoading(true);
         continuousTimerRef.current = window.setTimeout(() => {
@@ -262,6 +308,7 @@ export function PracticeView(): JSX.Element {
     setCurrentIndex(0);
     setSelectedOptions([]);
     setAnswerResult(null);
+    setWrongBookVictoryLine("");
   }
 
   function stopPractice(): void {
@@ -368,10 +415,19 @@ export function PracticeView(): JSX.Element {
             <div className="practice-stage-head">
               <div>
                 <div className="section-kicker">02 / ACTIVE SESSION</div>
-                <h2>{session.subject}</h2>
+                <h2>{isWrongBookSession ? "错题本" : session.subject}</h2>
                 <div className="question-meta">
-                  <span>{session.major_tag || "全部大类"}</span>
-                  <span>{session.sub_tag || "全部小类"}</span>
+                  {isWrongBookSession ? (
+                    <>
+                      <span>全量抽取</span>
+                      <span>随机顺序</span>
+                    </>
+                  ) : (
+                    <>
+                      <span>{session.major_tag || "全部大类"}</span>
+                      <span>{session.sub_tag || "全部小类"}</span>
+                    </>
+                  )}
                 </div>
               </div>
               <div className="practice-stage-actions">
@@ -381,6 +437,14 @@ export function PracticeView(): JSX.Element {
                 </button>
                 <button type="button" className="outline-action" onClick={() => void toggleWrongBook()}>
                   <BookOpen size={16} /> 错题本
+                </button>
+                <button
+                  type="button"
+                  className="outline-action"
+                  onClick={() => void beginWrongBookPractice()}
+                  disabled={busy || !(catalog?.wrong_book_count ?? 0)}
+                >
+                  <Target size={16} /> 只练错题
                 </button>
                 <button type="button" className="stop-action" onClick={stopPractice}>
                   <Square size={15} /> 停止刷题
@@ -394,6 +458,15 @@ export function PracticeView(): JSX.Element {
                 <i style={{ width: `${(session.answered_count / Math.max(1, session.total_count)) * 100}%` }} />
               </div>
             </div>
+            {isWrongBookSession && wrongBookVictoryLine && session.completed && (
+              <div className="notice notice-info practice-finish-notice">
+                <Sparkles size={18} />
+                <div>
+                  <strong>只练错题收工</strong>
+                  <span>{wrongBookVictoryLine}</span>
+                </div>
+              </div>
+            )}
             {currentQuestion && (
               <div className="practice-question">
                 <div className="practice-question-head">
@@ -479,9 +552,19 @@ export function PracticeView(): JSX.Element {
           <div className="practice-side-number">{catalog?.wrong_book_count ?? 0}</div>
           <strong>累计错题</strong>
           <p>错题不会随着新一轮刷题被清除，可在这里集中回看。</p>
-          <button type="button" className="outline-action" onClick={() => void toggleWrongBook()}>
-            <BookOpen size={16} /> {showWrongBook ? "收起错题本" : "查看错题本"}
-          </button>
+          <div className="practice-side-actions">
+            <button type="button" className="outline-action" onClick={() => void toggleWrongBook()}>
+              <BookOpen size={16} /> {showWrongBook ? "收起错题本" : "查看错题本"}
+            </button>
+            <button
+              type="button"
+              className="outline-action"
+              onClick={() => void beginWrongBookPractice()}
+              disabled={busy || !(catalog?.wrong_book_count ?? 0)}
+            >
+              <Target size={16} /> 只练错题
+            </button>
+          </div>
         </section>
         <section className="practice-side-panel panel">
           <div className="section-kicker">CURRENT FILTER</div>

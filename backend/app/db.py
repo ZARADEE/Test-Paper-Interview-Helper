@@ -168,6 +168,7 @@ def init_db() -> None:
                 question_bank_id TEXT,
                 major_tag TEXT NOT NULL DEFAULT '',
                 sub_tag TEXT NOT NULL DEFAULT '',
+                practice_mode TEXT NOT NULL DEFAULT 'standard',
                 total_count INTEGER NOT NULL,
                 answered_count INTEGER NOT NULL DEFAULT 0,
                 question_ids_json TEXT NOT NULL DEFAULT '[]',
@@ -222,7 +223,10 @@ def init_db() -> None:
             "questions": {"question_bank_id": "TEXT"},
             "review_items": {"question_bank_id": "TEXT"},
             "templates": {"question_bank_id": "TEXT"},
-            "practice_sessions": {"question_bank_id": "TEXT"},
+            "practice_sessions": {
+                "question_bank_id": "TEXT",
+                "practice_mode": "TEXT NOT NULL DEFAULT 'standard'",
+            },
             "tags": {"question_bank_id": "TEXT"},
         }
         for table, columns in migrations.items():
