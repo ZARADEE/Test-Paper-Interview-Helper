@@ -36,24 +36,25 @@ def export_docx(paper: dict[str, Any], variant: str, target: Path) -> None:
     meta = document.add_paragraph(f"模板：{paper.get('template', {}).get('name', '')}    版本：{variant}")
     meta.runs[0].font.size = Pt(10)
 
+    questions = paper.get("questions", [])
+    if not questions:
+        document.add_paragraph("当前试卷没有选中题目，已生成空卷文件。")
+
     current_section = None
     question_number = 0
-    for question in paper["questions"]:
-        section_title = question.get("section_id", "")
+    for question in questions:
+        section_title = question.get("section_title") or question.get("section_id") or "未命名分区"
         if section_title != current_section:
             current_section = section_title
             document.add_heading(section_title, level=1)
         question_number += 1
         question_image = source_preview(question, "question")
+        document.add_paragraph(f"{question_number}.")
         if question_image:
-            document.add_paragraph(f"{question_number}.")
             question_width, _ = fit_image_size(question_image, 6.3, 8.5)
             document.add_picture(io.BytesIO(question_image), width=Inches(question_width))
         else:
-            # Keep legacy/manual questions exportable when no source document exists.
-            document.add_paragraph(f"{question_number}. {plain_formula_text(question['stem_markdown'])}")
-            for option in question.get("options", []):
-                document.add_paragraph(f"{option.get('key', '')}. {plain_formula_text(option.get('text', ''))}")
+            document.add_paragraph("原题图片不可用，未导出识别文字。")
         if variant == "answer":
             analysis_image = source_preview(question, "analysis")
             if analysis_image:
@@ -63,12 +64,16 @@ def export_docx(paper: dict[str, Any], variant: str, target: Path) -> None:
                 answer = plain_formula_text(question.get("answer_markdown", ""))
                 if answer:
                     document.add_paragraph(f"答案：{answer}")
-                document.add_paragraph(f"解析：{plain_formula_text(question.get('analysis_markdown', ''))}")
-            points = question.get("scoring_points", [])
-            if points and not analysis_image:
-                document.add_paragraph(
-                    "评分点：" + "；".join(f"{point.get('label', '')}（{point.get('score', 0)}分）" for point in points)
-                )
+                analysis = plain_formula_text(question.get("analysis_markdown", ""))
+                if analysis:
+                    document.add_paragraph(f"解析：{analysis}")
+                points = question.get("scoring_points", [])
+                if points:
+                    document.add_paragraph(
+                        "评分点：" + "；".join(f"{point.get('label', '')}（{point.get('score', 0)}分）" for point in points)
+                    )
+            if not analysis_image and not question.get("answer_markdown") and not question.get("analysis_markdown"):
+                document.add_paragraph("暂无答案或解析。")
     document.save(target)
 
 
@@ -131,23 +136,24 @@ def export_pdf(paper: dict[str, Any], variant: str, target: Path) -> None:
         title=paper["title"],
     )
     flowables: list[Any] = [Paragraph(html.escape(paper["title"]), heading)]
+    questions = paper.get("questions", [])
+    if not questions:
+        flowables.append(Paragraph("当前试卷没有选中题目，已生成空卷文件。", body))
+
     current_section = None
     question_number = 0
-    for question in paper["questions"]:
-        section_title = question.get("section_id", "")
+    for question in questions:
+        section_title = question.get("section_title") or question.get("section_id") or "未命名分区"
         if section_title != current_section:
             current_section = section_title
             flowables.append(Paragraph(html.escape(section_title), heading))
         question_number += 1
         question_image = source_preview(question, "question")
+        flowables.append(Paragraph(f"{question_number}.", body))
         if question_image:
-            flowables.append(Paragraph(f"{question_number}.", body))
             flowables.append(image_flowable(question_image))
         else:
-            # Keep legacy/manual questions exportable when no source document exists.
-            flowables.append(Paragraph(f"{question_number}. {safe_markup(question['stem_markdown'])}", body))
-            for option in question.get("options", []):
-                flowables.append(Paragraph(f"{html.escape(option.get('key', ''))}. {safe_markup(option.get('text', ''))}", body))
+            flowables.append(Paragraph("原题图片不可用，未导出识别文字。", body))
         if variant == "answer":
             analysis_image = source_preview(question, "analysis")
             if analysis_image:
@@ -156,7 +162,18 @@ def export_pdf(paper: dict[str, Any], variant: str, target: Path) -> None:
                 answer = question.get("answer_markdown", "")
                 if answer:
                     flowables.append(Paragraph(f"<b>答案：</b>{safe_markup(answer)}", body))
-                flowables.append(Paragraph(f"<b>解析：</b>{safe_markup(question.get('analysis_markdown', ''))}", body))
+                analysis = question.get("analysis_markdown", "")
+                if analysis:
+                    flowables.append(Paragraph(f"<b>解析：</b>{safe_markup(analysis)}", body))
+                points = question.get("scoring_points", [])
+                if points:
+                    point_text = "；".join(
+                        f"{point.get('label', '')}（{point.get('score', 0)}分）"
+                        for point in points
+                    )
+                    flowables.append(Paragraph(f"<b>评分点：</b>{safe_markup(point_text)}", body))
+            if not analysis_image and not question.get("answer_markdown") and not question.get("analysis_markdown"):
+                flowables.append(Paragraph("暂无答案或解析。", body))
         flowables.append(Spacer(1, 3))
     document.build(flowables)
 
@@ -239,14 +256,12 @@ def export_practice_pdf(
     for index, item in enumerate(wrong_items, start=1):
         question = item["question"]
         attempt = item.get("attempt", {})
-        flowables.append(Paragraph(f"{index}. {safe_markup(question.get('stem_markdown', ''))}", body))
-        for option in question.get("options", []):
-            flowables.append(
-                Paragraph(
-                    f"{html.escape(option.get('key', ''))}. {safe_markup(option.get('text', ''))}",
-                    body,
-                )
-            )
+        flowables.append(Paragraph(f"{index}.", body))
+        question_image = source_preview(question, "question")
+        if question_image:
+            flowables.append(image_flowable(question_image))
+        else:
+            flowables.append(Paragraph("原题图片不可用，未导出识别文字。", body))
         flowables.append(
             Paragraph(
                 f"<b>你的答案：</b>{html.escape(', '.join(attempt.get('selected_options', [])))}"
@@ -254,9 +269,13 @@ def export_practice_pdf(
                 body,
             )
         )
-        analysis = question.get("analysis_markdown", "")
-        if analysis:
-            flowables.append(Paragraph(f"<b>解析：</b>{safe_markup(analysis)}", body))
+        analysis_image = source_preview(question, "analysis")
+        if analysis_image:
+            flowables.append(image_flowable(analysis_image))
+        else:
+            analysis = question.get("analysis_markdown", "")
+            if analysis:
+                flowables.append(Paragraph(f"<b>解析：</b>{safe_markup(analysis)}", body))
         flowables.append(Spacer(1, 6))
     document.build(flowables)
 
@@ -279,6 +298,8 @@ def source_preview(question: dict[str, Any], kind: str) -> bytes | None:
         else question.get("source_document_id")
     )
     regions = question.get("analysis_regions", []) if kind == "analysis" else question.get("source_regions", [])
+    if kind == "question" and not regions and question.get("source_page"):
+        regions = [{"page": question["source_page"], "bbox": [0.0, 0.0, 10000.0, 10000.0]}]
     if not source_id or not regions:
         return None
     with connect() as connection:

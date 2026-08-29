@@ -20,6 +20,7 @@ import {
   getPracticeCatalog,
   getWrongBook,
   practiceExportDownloadUrl,
+  questionPreviewUrl,
   startPractice
 } from "../api";
 import type {
@@ -473,7 +474,16 @@ export function PracticeView(): JSX.Element {
                   <span className="question-index">{currentIndex + 1}</span>
                   <div>
                     <span className="practice-mode">{isMultiple ? "多项选择题 / SELECT ALL" : "单项选择题 / SELECT ONE"}</span>
-                    <h3>{currentQuestion.stem_markdown}</h3>
+                    {currentQuestion.source_document_id && (currentQuestion.source_regions?.length || currentQuestion.source_page) ? (
+                      <img
+                        className="practice-question-image"
+                        alt="原版题面"
+                        loading="lazy"
+                        src={questionPreviewUrl(currentQuestion.id)}
+                      />
+                    ) : (
+                      <div className="question-image-missing">原题图片不可用，未显示识别文字。</div>
+                    )}
                   </div>
                 </div>
                 <div className="practice-option-grid">
@@ -490,7 +500,7 @@ export function PracticeView(): JSX.Element {
                         disabled={Boolean(answerResult) || busy}
                       >
                         <b>{option.key}</b>
-                        <span>{option.text}</span>
+                        <span>选择 {option.key}</span>
                         {answerResult && isCorrect && <Check size={19} />}
                         {answerResult && isWrongChoice && <X size={19} />}
                       </button>
@@ -603,7 +613,17 @@ export function PracticeView(): JSX.Element {
                       </button>
                     </div>
                   </div>
-                  <p>{item.stem_markdown}</p>
+                  {item.source_document_id && (item.source_regions?.length || item.source_page) ? (
+                    <img
+                      className="wrong-book-question-image"
+                      alt="原版题面"
+                      loading="lazy"
+                      src={questionPreviewUrl(item.id)}
+                    />
+                  ) : (
+                    <div className="question-image-missing">原题图片不可用，未显示识别文字。</div>
+                  )}
+                  {item.analysis_markdown ? <p className="wrong-book-analysis"><b>解析：</b>{item.analysis_markdown}</p> : null}
                   <div className="question-meta">
                     {(item.tags ?? []).map((tag) => <span key={tag}>{tag}</span>)}
                     <span>你的答案 {item.last_selected_option.join("、")}</span>

@@ -20,6 +20,7 @@ from app.db import (  # noqa: E402
     utc_now,
     write_question_json,
 )
+from app.paired_pdf_import import assign_question_regions  # noqa: E402
 from app.politics import normalize_politics_tags  # noqa: E402
 
 
@@ -338,6 +339,7 @@ def main() -> int:
     question_blocks = parse_blocks(question_pages)
     analysis_blocks = parse_blocks(analysis_pages)
     questions = build_questions(question_blocks, analysis_blocks, args.questions, args.analysis)
+    assign_question_regions(args.questions, questions)
     save_questions(questions, args.questions, args.analysis, args.dry_run)
     report = {
         "subject": "考研政治",

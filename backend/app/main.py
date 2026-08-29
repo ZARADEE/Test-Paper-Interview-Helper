@@ -29,8 +29,8 @@ from .db import (
 )
 from .exporters import export_paper, export_practice_pdf
 from .extractors import extract_document, sha256_file, split_question_candidates
-from .math_one import MAJOR_GROUPS, normalize_tag_pair
-from .paired_pdf_import import render_source_preview
+from .math_one import MAJOR_GROUPS, chapter_group, normalize_tag_pair
+from .paired_pdf_import import repair_full_page_source_regions, render_source_preview
 from .practice import (
     answer_options,
     catalog_from_rows,
@@ -44,7 +44,12 @@ from .practice import (
 app = FastAPI(title="组卷助手 API", version="0.1.0")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:5173", "http://localhost:5173"],
+    allow_origins=[
+        "http://127.0.0.1:5173",
+        "http://localhost:5173",
+        "http://127.0.0.1:5174",
+        "http://localhost:5174",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -131,6 +136,7 @@ class PracticeAnswerRequest(BaseModel):
 @app.on_event("startup")
 def startup() -> None:
     init_db()
+    repair_full_page_source_regions()
 
 
 @app.get("/api/health")
@@ -415,6 +421,8 @@ def question_preview(question_id: str, kind: str = "question") -> Response:
             if kind == "analysis"
             else json_load(row["source_regions_json"], [])
         )
+        if kind == "question" and not regions and row["source_page"]:
+            regions = [{"page": row["source_page"], "bbox": [0.0, 0.0, 10000.0, 10000.0]}]
         source = connection.execute(
             "SELECT file_path FROM source_documents WHERE id = ?",
             (source_document_id,),
@@ -692,6 +700,8 @@ def review_preview(review_id: str, kind: str = "question") -> Response:
             else row["source_document_id"]
         )
         regions = parsed.get("analysis_regions", []) if kind == "analysis" else parsed.get("source_regions", [])
+        if kind == "question" and not regions and parsed.get("source_page"):
+            regions = [{"page": parsed["source_page"], "bbox": [0.0, 0.0, 10000.0, 10000.0]}]
         source = connection.execute(
             "SELECT file_path FROM source_documents WHERE id = ?",
             (source_document_id,),
@@ -1220,7 +1230,18 @@ def validate_template(template_id: str) -> dict[str, Any]:
         if row is None:
             raise HTTPException(status_code=404, detail="模板不存在。")
         template = row_to_template(row)
+        question_rows = connection.execute(
+            """
+            SELECT chapter, tags_json, knowledge_points_json
+            FROM questions
+            WHERE review_status = 'approved'
+              AND subject = ?
+              AND question_bank_id = ?
+            """,
+            (template["subject"], template["question_bank_id"]),
+        ).fetchall()
     errors = []
+    warnings = []
     section_total = sum(float(item.get("score", 0)) * int(item.get("count", 0)) for item in template["sections"])
     if abs(section_total - float(template["total_score"])) > 0.01:
         errors.append(f"分区分值合计为 {section_total:g}，与模板总分 {template['total_score']:g} 不一致。")
@@ -1232,7 +1253,40 @@ def validate_template(template_id: str) -> dict[str, Any]:
         errors.append("模板至少需要配置一个科目占比。")
     elif abs(ratio_total - 1) > 0.001:
         errors.append(f"科目占比合计为 {ratio_total * 100:g}%，需要调整为 100%。")
-    return {"valid": not errors, "errors": errors, "template_id": template_id}
+    elif not question_rows:
+        warnings.append("关联题库中暂无已审核题目，组卷结果可能为空，但仍可导出空卷。")
+    else:
+        actual_counts: dict[str, int] = {}
+        for question_row in question_rows:
+            tags = json_load(question_row["tags_json"], [])
+            if template["subject"] == "考研政治":
+                group = str(tags[0]) if tags else str(question_row["chapter"] or "未分类")
+            else:
+                group = chapter_group(question_row["chapter"], tags)
+            actual_counts[group] = actual_counts.get(group, 0) + 1
+
+        actual_total = len(question_rows)
+        configured_groups = {str(rule.get("label", "")).strip() for rule in distribution}
+        for rule in distribution:
+            label = str(rule.get("label", "")).strip() or "未命名科目"
+            target_ratio = max(0.0, float(rule.get("ratio", 0))) / ratio_total
+            actual_count = actual_counts.get(label, 0)
+            actual_ratio = actual_count / actual_total
+            tolerance = max(0.0, float(rule.get("tolerance", 0.08)))
+            if abs(actual_ratio - target_ratio) > tolerance:
+                warnings.append(
+                    f"题库中“{label}”占比为 {actual_ratio * 100:.1f}%（{actual_count} 题），"
+                    f"模板要求 {target_ratio * 100:.1f}%，超出允许偏差 {tolerance * 100:.1f}%。"
+                )
+        for group, count in actual_counts.items():
+            if group and group not in configured_groups:
+                warnings.append(f"题库中“{group}”有 {count} 题，但未配置在模板科目占比中。")
+    return {
+        "valid": not errors,
+        "errors": errors,
+        "warnings": warnings,
+        "template_id": template_id,
+    }
 
 
 @app.post("/api/papers/compose")

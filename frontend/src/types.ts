@@ -34,6 +34,7 @@ export type Question = {
   difficulty: "easy" | "medium" | "hard";
   score: number;
   review_status?: string;
+  source_document_id?: string | null;
   source_page?: number | null;
   source_regions?: Array<{ page: number; bbox: number[] }>;
   analysis_source_document_id?: string | null;

@@ -20,6 +20,10 @@ from app.db import (  # noqa: E402
     utc_now,
     write_question_json,
 )
+from app.paired_pdf_import import (  # noqa: E402
+    assign_question_regions,
+    assign_regions_by_page_and_number,
+)
 from app.politics import POLITICS_MAJORS, POLITICS_SUBJECT, normalize_politics_tags  # noqa: E402
 
 
@@ -302,7 +306,7 @@ def parse_question_pdf(path: Path) -> list[dict[str, Any]]:
     return questions
 
 
-def parse_analysis_pdf(path: Path) -> dict[tuple[str, int, str], dict[str, str]]:
+def parse_analysis_pdf(path: Path) -> dict[tuple[str, int, str], dict[str, Any]]:
     text, page_offsets = load_pdf(path)
     pages = text.split("\f")
     majors = major_boundaries(pages, page_offsets)
@@ -329,6 +333,7 @@ def parse_analysis_pdf(path: Path) -> dict[tuple[str, int, str], dict[str, str]]
         answers[(major, number, section)] = {
             "answer": answer,
             "analysis": analysis,
+            "source_page": page_for_offset(start.start(), page_offsets),
         }
 
     solution_starts = list(SOLUTION_START.finditer(text))
@@ -381,6 +386,26 @@ def page_region(page: int | None) -> str:
     )
 
 
+def attach_analysis_regions(
+    analysis_pdf: Path,
+    answers: dict[tuple[str, int, str], dict[str, Any]],
+) -> None:
+    records = [
+        {
+            "key": key,
+            "number": key[1],
+            "match_text": item.get("analysis") or item.get("answer") or "",
+            "source_page": item.get("source_page"),
+            "source_regions": item.get("source_regions", []),
+        }
+        for key, item in answers.items()
+    ]
+    assign_regions_by_page_and_number(analysis_pdf, records)
+    for record in records:
+        item = answers[record["key"]]
+        item["source_regions"] = record.get("source_regions", [])
+
+
 def import_questions(
     questions: list[dict[str, Any]],
     answers: dict[tuple[str, int, str], dict[str, str]],
@@ -418,6 +443,11 @@ def import_questions(
             if answer:
                 question["answer_markdown"] = answer["answer"]
                 question["analysis_markdown"] = answer["analysis"]
+            source_regions = question.get("source_regions") or json.loads(page_region(question["source_page"]))
+            analysis_page = answer.get("source_page") if answer else None
+            analysis_regions = answer.get("source_regions", []) if answer else []
+            if not analysis_regions and analysis_page:
+                analysis_regions = json.loads(page_region(analysis_page))
 
             key = fingerprint(question["stem_markdown"], question["options"])
             existing = by_fingerprint.get(key)
@@ -446,9 +476,11 @@ def import_questions(
                     (
                         question["answer_markdown"],
                         question["analysis_markdown"],
-                        page_region(question["source_page"]),
+                        json.dumps(source_regions, ensure_ascii=False),
                         analysis_source_id,
-                        page_region(question["source_page"]) if question["analysis_markdown"] else "[]",
+                        json.dumps(analysis_regions, ensure_ascii=False)
+                        if question["analysis_markdown"]
+                        else "[]",
                         now,
                         existing["id"],
                     ),
@@ -489,9 +521,11 @@ def import_questions(
                     question["source_page"],
                     now,
                     now,
-                    page_region(question["source_page"]),
+                    json.dumps(source_regions, ensure_ascii=False),
                     analysis_source_id if question["analysis_markdown"] else None,
-                    page_region(question["source_page"]) if question["analysis_markdown"] else "[]",
+                    json.dumps(analysis_regions, ensure_ascii=False)
+                    if question["analysis_markdown"]
+                    else "[]",
                 ),
             )
             row = connection.execute("SELECT * FROM questions WHERE id=?", (question_id,)).fetchone()
@@ -518,7 +552,9 @@ def main() -> int:
     question_text, question_offsets = load_pdf(args.question_pdf)
     analysis_text, analysis_offsets = load_pdf(args.analysis_pdf)
     questions = parse_question_pdf(args.question_pdf)
+    assign_question_regions(args.question_pdf, questions)
     answers = parse_analysis_pdf(args.analysis_pdf)
+    attach_analysis_regions(args.analysis_pdf, answers)
 
     if args.dry_run:
         result = import_questions(

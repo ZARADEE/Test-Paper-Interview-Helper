@@ -26,6 +26,7 @@ export function TemplateView({ questionBanks, onChanged }: Props): JSX.Element {
   const [draft, setDraft] = useState<PaperTemplate | null>(null);
   const [message, setMessage] = useState("");
   const [valid, setValid] = useState<boolean | null>(null);
+  const [warnings, setWarnings] = useState<string[]>([]);
 
   useEffect(() => {
     void getTemplates()
@@ -42,6 +43,7 @@ export function TemplateView({ questionBanks, onChanged }: Props): JSX.Element {
     if (next) {
       setDraft(next);
       setValid(null);
+      setWarnings([]);
     }
   }, [selectedId, templates]);
 
@@ -143,7 +145,13 @@ export function TemplateView({ questionBanks, onChanged }: Props): JSX.Element {
     try {
       const result = await validateTemplate(activeDraft.id);
       setValid(result.valid);
-      setMessage(result.valid ? "模板结构通过校验。" : result.errors.join(" "));
+      const nextWarnings = result.warnings ?? [];
+      setWarnings(nextWarnings);
+      const messages = [
+        ...(result.valid ? ["模板结构通过校验。"] : result.errors),
+        ...nextWarnings
+      ];
+      setMessage(messages.join(" "));
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "模板校验失败");
     }
@@ -180,7 +188,11 @@ export function TemplateView({ questionBanks, onChanged }: Props): JSX.Element {
             <button className="primary-action compact" onClick={() => void save()} type="button"><Save size={17} />保存模板</button>
           </div>
         </div>
-        {message && <div className={`notice ${valid === false ? "notice-warning" : "notice-info"}`}>{message}</div>}
+        {message && (
+          <div className={`notice ${valid === false || warnings.length > 0 ? "notice-warning" : "notice-info"}`}>
+            {message}
+          </div>
+        )}
         <div className="template-canvas panel">
           <div className="template-paper">
             <div className="template-paper-head">

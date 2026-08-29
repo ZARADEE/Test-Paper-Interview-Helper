@@ -240,16 +240,16 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
                         <div className="paper-question" key={question.id}>
                           <span className="question-index">{question.position}</span>
                           <div>
-                            <p>{question.stem_markdown}</p>
-                            {question.source_regions && question.source_regions.length > 0 && (
-                              <details className="paper-source-preview">
-                                <summary>查看原版题面</summary>
+                            {question.source_document_id && (question.source_regions?.length || question.source_page) ? (
+                              <div className="paper-source-preview">
                                 <img
                                   alt={`第 ${question.source_page ?? "?"} 页原版题面`}
                                   loading="lazy"
                                   src={questionPreviewUrl(question.id)}
                                 />
-                              </details>
+                              </div>
+                            ) : (
+                              <div className="question-image-missing">原题图片不可用，未显示识别文字。</div>
                             )}
                             <div className="question-meta">
                               <span>{question.chapter || "未分类"}</span>

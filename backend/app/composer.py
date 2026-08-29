@@ -197,5 +197,26 @@ def load_paper(connection: sqlite3.Connection, paper_id: str) -> dict[str, Any] 
         """,
         (paper_id,),
     ).fetchall()
-    paper["questions"] = [row_to_question(row) for row in rows]
+    section_by_id = {
+        section.get("id", section.get("type", "")): section
+        for section in (template or {}).get("sections", [])
+    }
+    questions: list[dict[str, Any]] = []
+    for row in rows:
+        question = row_to_question(row)
+        section = section_by_id.get(question.get("section_id", ""), {})
+        question["section_title"] = section.get("title") or question.get("section_id", "")
+        question["allocated_score"] = section.get("score", question.get("score", 0))
+        questions.append(question)
+    section_order = {
+        section_id: index
+        for index, section_id in enumerate(section_by_id)
+    }
+    questions.sort(
+        key=lambda question: (
+            section_order.get(question.get("section_id", ""), len(section_order)),
+            int(question.get("position", 0)),
+        )
+    )
+    paper["questions"] = questions
     return paper

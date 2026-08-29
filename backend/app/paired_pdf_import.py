@@ -5,11 +5,13 @@ import io
 import json
 import re
 import sqlite3
+import unicodedata
 from collections import defaultdict
+from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
 
-from .db import connect, ensure_dirs, utc_now
+from .db import connect, ensure_dirs, json_load, row_to_question, utc_now, write_question_json
 from .math_one import SUBJECT, chapter_from_text, chapter_group, classify_math_one_text
 
 
@@ -77,6 +79,502 @@ def extract_layout_lines(path: Path) -> list[dict[str, Any]]:
                     }
                 )
     return lines
+
+
+PDF_QUESTION_MARKER = re.compile(
+    r"^\s*(\d{1,3})\s*"
+    r"(?:[.\u3002\u3001\uff0c,\u30fb)]|"
+    r"s(?=\s*[.\u3002\u3001\uff0c,\u30fb)]?\s*(?:\u53c2\u8003\u7b54\u6848|\u7b54\u6848|\u7b54|\u89e3\u6790|\u51fa\u5904|\u7b80\u6790))|"
+    r"(?=(?:\u53c2\u8003\u7b54\u6848|\u7b54\u6848|\u7b54|\u89e3\u6790|\u51fa\u5904|\u7b80\u6790)))\s*"
+)
+PDF_LAYOUT_NOISE = re.compile(
+    r"^\s*第[一二三四五六七八九十百\d]+(?:章|部分)"
+)
+
+
+def _is_layout_noise(text: str) -> bool:
+    compact = re.sub(r"\s+", "", text or "")
+    if PDF_LAYOUT_NOISE.match(compact):
+        return True
+    return len(compact) <= 48 and any(
+        label in compact
+        for label in ("单项选择题", "多项选择题", "材料分析题", "参考答案")
+    )
+
+
+def _without_layout_noise(lines: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    cleaned: list[dict[str, Any]] = []
+    noise_bands = [
+        (line["bbox"][1] - 4.0, line["bbox"][3] + 28.0)
+        for line in lines
+        if _is_layout_noise(line["text"])
+    ]
+    for line in lines:
+        y0, y1 = line["bbox"][1], line["bbox"][3]
+        if any(y0 <= band_end and y1 >= band_start for band_start, band_end in noise_bands):
+            continue
+        cleaned.append(line)
+    return cleaned
+
+
+def _normalized_pdf_text(value: str) -> str:
+    value = unicodedata.normalize("NFKC", value or "").lower()
+    return "".join(character for character in value if character.isalnum())
+
+
+def _page_layout_lines(page: Any) -> list[dict[str, Any]]:
+    lines: list[dict[str, Any]] = []
+    # PyMuPDF's native order preserves the document's reading flow, including
+    # PDFs whose content wraps from the bottom of one column to the next.
+    layout = page.get_text("dict", sort=False)
+    for block in layout.get("blocks", []):
+        for line in block.get("lines", []):
+            text = "".join(span.get("text", "") for span in line.get("spans", []))
+            if text.strip():
+                lines.append(
+                    {
+                        "text": text,
+                        "bbox": [float(value) for value in line["bbox"]],
+                    }
+                )
+    return lines
+
+
+def _pdf_question_markers(page: Any) -> list[dict[str, Any]]:
+    lines = _page_layout_lines(page)
+    marker_positions = [
+        (index, line, match)
+        for index, line in enumerate(lines)
+        for match in [PDF_QUESTION_MARKER.match(line["text"])]
+        if match and line["bbox"][0] <= page.rect.width * 0.75
+    ]
+    markers: list[dict[str, Any]] = []
+    for marker_index, (index, line, match) in enumerate(marker_positions):
+        next_index = (
+            marker_positions[marker_index + 1][0]
+            if marker_index + 1 < len(marker_positions)
+            else len(lines)
+        )
+        segment_lines = _without_layout_noise(
+            lines[index:next_index]
+        )
+        if not segment_lines:
+            segment_lines = [line]
+        column_lines: dict[int, list[dict[str, Any]]] = defaultdict(list)
+        for candidate in segment_lines:
+            column = 1 if (candidate["bbox"][0] + candidate["bbox"][2]) / 2 >= page.rect.width / 2 else 0
+            column_lines[column].append(candidate)
+        regions: list[dict[str, Any]] = []
+        for column in sorted(
+            column_lines,
+            key=lambda value: segment_lines.index(column_lines[value][0]),
+        ):
+            candidates = column_lines[column]
+            x0 = max(0.0, min(candidate["bbox"][0] for candidate in candidates) - 8.0)
+            y0 = max(0.0, min(candidate["bbox"][1] for candidate in candidates) - 6.0)
+            x1 = min(page.rect.width, max(candidate["bbox"][2] for candidate in candidates) + 8.0)
+            y1 = min(page.rect.height, max(candidate["bbox"][3] for candidate in candidates) + 6.0)
+            regions.append(
+                {
+                    "page": int(page.number) + 1,
+                    "bbox": [x0, y0, x1, y1],
+                }
+            )
+        markers.append(
+            {
+                "number": int(match.group(1)),
+                "page": int(page.number) + 1,
+                "text": " ".join(candidate["text"].strip() for candidate in segment_lines),
+                "bbox": regions[0]["bbox"],
+                "regions": regions,
+            }
+        )
+    return markers
+
+
+def assign_question_regions(path: Path, records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Attach tight PDF regions to records in document order."""
+    if not records or path.suffix.lower() != ".pdf" or not path.is_file():
+        return records
+    try:
+        import fitz
+    except ImportError:
+        return records
+
+    document = fitz.open(path)
+    markers: list[dict[str, Any]] = []
+    for page in document:
+        markers.extend(_pdf_question_markers(page))
+    markers_by_number: dict[int, list[int]] = defaultdict(list)
+    for index, marker in enumerate(markers):
+        markers_by_number[int(marker["number"])].append(index)
+    cursor = 0
+    for record in records:
+        target = _normalized_pdf_text(
+            str(
+                record.get("match_text")
+                or record.get("stem_markdown")
+                or record.get("raw_text")
+                or ""
+            )
+        )
+        if not target:
+            continue
+        number_value = record.get("number")
+        if isinstance(number_value, str) and number_value.isdigit():
+            number_value = int(number_value)
+        match_index: int | None = None
+        if isinstance(number_value, int) and number_value in markers_by_number:
+            for index in markers_by_number[number_value]:
+                body = _normalized_pdf_text(markers[index]["text"])
+                marker_match = PDF_QUESTION_MARKER.match(markers[index]["text"])
+                if marker_match:
+                    body = _normalized_pdf_text(markers[index]["text"][marker_match.end() :])
+                if target[:72] and target[:72] in body:
+                    match_index = index
+                    break
+                if target[:36] and target[:36] in body:
+                    match_index = index
+                    break
+            if match_index is None:
+                best_score = 0.0
+                for index in markers_by_number[number_value]:
+                    body = _normalized_pdf_text(markers[index]["text"])
+                    marker_match = PDF_QUESTION_MARKER.match(markers[index]["text"])
+                    if marker_match:
+                        body = _normalized_pdf_text(markers[index]["text"][marker_match.end() :])
+                    score = SequenceMatcher(None, target[:120], body[:180]).ratio()
+                    if score > best_score:
+                        best_score = score
+                        match_index = index
+                if best_score < 0.28:
+                    match_index = None
+        if match_index is None:
+            target_prefix = target[:72]
+            for index in range(cursor, len(markers)):
+                body = _normalized_pdf_text(markers[index]["text"])
+                marker_match = PDF_QUESTION_MARKER.match(markers[index]["text"])
+                if marker_match:
+                    body = _normalized_pdf_text(markers[index]["text"][marker_match.end() :])
+                if target_prefix and target_prefix in body:
+                    match_index = index
+                    break
+                if target[:36] and target[:36] in body:
+                    match_index = index
+                    break
+            if match_index is None:
+                best_score = 0.0
+                for index in range(cursor, min(len(markers), cursor + 24)):
+                    body = _normalized_pdf_text(markers[index]["text"])
+                    marker_match = PDF_QUESTION_MARKER.match(markers[index]["text"])
+                    if marker_match:
+                        body = _normalized_pdf_text(markers[index]["text"][marker_match.end() :])
+                    score = SequenceMatcher(None, target[:120], body[:180]).ratio()
+                    if score > best_score:
+                        best_score = score
+                        match_index = index
+                if best_score < 0.28:
+                    match_index = None
+        if match_index is None:
+            continue
+        marker = markers[match_index]
+        record["source_page"] = marker["page"]
+        record["source_regions"] = marker.get("regions") or [
+            {"page": marker["page"], "bbox": marker["bbox"]}
+        ]
+        cursor = max(cursor, match_index + 1)
+    document.close()
+    return records
+
+
+def assign_regions_by_page_order(path: Path, records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Attach regions by the native answer order across the source document."""
+    if not records or path.suffix.lower() != ".pdf" or not path.is_file():
+        return records
+    try:
+        import fitz
+    except ImportError:
+        return records
+
+    document = fitz.open(path)
+    markers: list[dict[str, Any]] = []
+    for page in document:
+        markers.extend(_pdf_question_markers(page))
+    if len(markers) >= len(records):
+        for record, marker in zip(records, markers):
+            record["source_regions"] = marker.get("regions") or [
+                {"page": marker["page"], "bbox": marker["bbox"]}
+            ]
+    document.close()
+    return records
+
+
+def assign_regions_by_page_and_number(
+    path: Path,
+    records: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Attach a region using a parsed source page and question number."""
+    if not records or path.suffix.lower() != ".pdf" or not path.is_file():
+        return records
+    try:
+        import fitz
+    except ImportError:
+        return records
+
+    document = fitz.open(path)
+    markers_by_key: dict[tuple[int, int], list[dict[str, Any]]] = defaultdict(list)
+    for page in document:
+        for marker in _pdf_question_markers(page):
+            markers_by_key[(marker["page"], marker["number"])].append(marker)
+    for record in records:
+        page = record.get("source_page")
+        number = record.get("number")
+        if isinstance(page, str) and page.isdigit():
+            page = int(page)
+        if isinstance(number, str) and number.isdigit():
+            number = int(number)
+        candidates = markers_by_key.get((page, number), [])
+        if candidates:
+            marker = candidates[0]
+            record["source_regions"] = marker.get("regions") or [
+                {"page": marker["page"], "bbox": marker["bbox"]}
+            ]
+    document.close()
+    return records
+
+
+def _region_is_full_page(page: Any, bbox: list[Any]) -> bool:
+    if len(bbox) != 4:
+        return False
+    try:
+        import fitz
+
+        rect = fitz.Rect(*[float(value) for value in bbox]) & page.rect
+    except (ImportError, TypeError, ValueError):
+        return False
+    if rect.is_empty:
+        return False
+    return (
+        rect.width / max(page.rect.width, 1) >= 0.86
+        and rect.height / max(page.rect.height, 1) >= 0.86
+    )
+
+
+def _repair_region_groups(
+    connection: sqlite3.Connection,
+    rows: list[Any],
+    *,
+    page_column: str | None,
+    regions_column: str,
+    target_column: str,
+    fallback_column: str,
+    status_marker: str,
+    page_order: bool = False,
+) -> int:
+    grouped: dict[str, list[Any]] = defaultdict(list)
+    for row in rows:
+        grouped[row["region_source_document_id"]].append(row)
+
+    updated_count = 0
+    now = utc_now()
+    for source_rows in grouped.values():
+        path = Path(source_rows[0]["region_file_path"])
+        try:
+            accessible = path.is_file()
+        except OSError:
+            accessible = False
+        if not accessible:
+            continue
+        try:
+            import fitz
+
+            document = fitz.open(path)
+            has_full_page = any(
+                any(
+                    _region_is_full_page(
+                        document[int(region.get("page", 0)) - 1],
+                        region.get("bbox", []),
+                    )
+                    for region in json_load(row[regions_column], [])
+                    if 1 <= int(region.get("page", 0)) <= len(document)
+                )
+                for row in source_rows
+            )
+        except (OSError, TypeError, ValueError):
+            continue
+
+        needs_refresh = source_rows[0]["region_source_status"] != status_marker
+        if not has_full_page and not needs_refresh:
+            document.close()
+            continue
+
+        records = [
+            {
+                "id": row["id"],
+                "match_text": row[target_column]
+                    or (
+                        row[fallback_column]
+                        if fallback_column in row.keys()
+                        else ""
+                    ),
+                "source_page": (
+                    row[page_column]
+                    if page_column
+                    else next(
+                        (
+                            int(region.get("page"))
+                            for region in json_load(row[regions_column], [])
+                            if region.get("page")
+                        ),
+                        None,
+                    )
+                ),
+                "source_regions": json_load(row[regions_column], []),
+            }
+            for row in source_rows
+        ]
+        if page_order:
+            assign_regions_by_page_order(path, records)
+        else:
+            assign_question_regions(path, records)
+        by_id = {record["id"]: record for record in records}
+        unresolved = False
+        for row in source_rows:
+            existing_regions = json_load(row[regions_column], [])
+            has_full_region = any(
+                1 <= int(region.get("page", 0)) <= len(document)
+                and _region_is_full_page(
+                    document[int(region.get("page", 0)) - 1],
+                    region.get("bbox", []),
+                )
+                for region in existing_regions
+            )
+            if not has_full_region and not needs_refresh:
+                continue
+            record = by_id.get(row["id"], {})
+            regions = record.get("source_regions", [])
+            if not regions:
+                unresolved = True
+                continue
+            source_page = record.get("source_page") or (
+                row[page_column] if page_column else None
+            )
+            new_regions = json.dumps(regions, ensure_ascii=False)
+            if (
+                (not page_column or source_page == row[page_column])
+                and new_regions == (row[regions_column] or "[]")
+            ):
+                continue
+            set_clause = (
+                f"{page_column}=?, {regions_column}=?, updated_at=?"
+                if page_column
+                else f"{regions_column}=?, updated_at=?"
+            )
+            values = (
+                (source_page, new_regions, now, row["id"])
+                if page_column
+                else (new_regions, now, row["id"])
+            )
+            connection.execute(
+                f"UPDATE questions SET {set_clause} WHERE id=?",
+                values,
+            )
+            updated_row = connection.execute(
+                "SELECT * FROM questions WHERE id=?",
+                (row["id"],),
+            ).fetchone()
+            if updated_row is not None:
+                write_question_json(row_to_question(updated_row), now)
+            updated_count += 1
+        if not unresolved:
+            connection.execute(
+                "UPDATE source_documents SET status=? WHERE id=?",
+                (status_marker, source_rows[0]["region_source_document_id"]),
+            )
+        document.close()
+    return updated_count
+
+
+def _restore_source_pages_from_regions(connection: sqlite3.Connection) -> int:
+    rows = connection.execute(
+        "SELECT id, source_page, source_regions_json FROM questions"
+    ).fetchall()
+    restored = 0
+    now = utc_now()
+    for row in rows:
+        page = next(
+            (
+                int(region.get("page"))
+                for region in json_load(row["source_regions_json"], [])
+                if region.get("page")
+            ),
+            None,
+        )
+        if not page or page == row["source_page"]:
+            continue
+        connection.execute(
+            "UPDATE questions SET source_page=?, updated_at=? WHERE id=?",
+            (page, now, row["id"]),
+        )
+        updated_row = connection.execute(
+            "SELECT * FROM questions WHERE id=?",
+            (row["id"],),
+        ).fetchone()
+        if updated_row is not None:
+            write_question_json(row_to_question(updated_row), now)
+        restored += 1
+    return restored
+
+
+def repair_full_page_source_regions() -> int:
+    """Migrate full-page question and analysis crops to question-level regions."""
+    try:
+        import fitz
+    except ImportError:
+        return 0
+
+    with connect() as connection:
+        restored_count = _restore_source_pages_from_regions(connection)
+        question_rows = connection.execute(
+            """
+            SELECT q.*, sd.id AS region_source_document_id,
+                   sd.file_path AS region_file_path,
+                   sd.status AS region_source_status
+            FROM questions q
+            JOIN source_documents sd ON sd.id = q.source_document_id
+            WHERE sd.file_type = 'pdf'
+            ORDER BY q.source_document_id, q.id
+            """
+        ).fetchall()
+        analysis_rows = connection.execute(
+            """
+            SELECT q.*, sd.id AS region_source_document_id,
+                   sd.file_path AS region_file_path,
+                   sd.status AS region_source_status
+            FROM questions q
+            JOIN source_documents sd ON sd.id = q.analysis_source_document_id
+            WHERE sd.file_type = 'pdf'
+            ORDER BY q.analysis_source_document_id, q.id
+            """
+        ).fetchall()
+        return restored_count + _repair_region_groups(
+            connection,
+            question_rows,
+            page_column="source_page",
+            regions_column="source_regions_json",
+            target_column="stem_markdown",
+            fallback_column="stem_markdown",
+            status_marker="processed-crops-v5",
+        ) + _repair_region_groups(
+            connection,
+            analysis_rows,
+            page_column=None,
+            regions_column="analysis_regions_json",
+            target_column="analysis_markdown",
+            fallback_column="answer_markdown",
+            status_marker="processed-analysis-crops-v1",
+            page_order=True,
+        )
 
 
 def canonical_chapter(raw: str) -> str:
@@ -499,7 +997,22 @@ def render_source_preview(path: Path, regions: list[dict[str, Any]], scale: floa
         if rect.is_empty or rect.width < 2 or rect.height < 2:
             continue
         pixmap = page.get_pixmap(matrix=fitz.Matrix(scale, scale), clip=rect, alpha=False)
-        images.append(Image.frombytes("RGB", (pixmap.width, pixmap.height), pixmap.samples))
+        image = Image.frombytes("RGB", (pixmap.width, pixmap.height), pixmap.samples)
+        grayscale = image.convert("L")
+        content_mask = grayscale.point(lambda value: 255 if value < 245 else 0)
+        content_bbox = content_mask.getbbox()
+        if content_bbox:
+            padding = max(4, round(scale * 5))
+            left, top, right, bottom = content_bbox
+            image = image.crop(
+                (
+                    max(0, left - padding),
+                    max(0, top - padding),
+                    min(image.width, right + padding),
+                    min(image.height, bottom + padding),
+                )
+            )
+        images.append(image)
 
     if not images:
         raise ValueError("没有可渲染的题目版面区域。")

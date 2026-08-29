@@ -157,7 +157,11 @@ export async function saveTemplate(template: PaperTemplate): Promise<PaperTempla
   });
 }
 
-export async function validateTemplate(templateId: string): Promise<{ valid: boolean; errors: string[] }> {
+export async function validateTemplate(templateId: string): Promise<{
+  valid: boolean;
+  errors: string[];
+  warnings?: string[];
+}> {
   return request(`/templates/${templateId}/validate`, { method: "POST" });
 }
 
