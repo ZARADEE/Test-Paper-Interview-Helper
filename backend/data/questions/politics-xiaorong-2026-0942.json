@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0942",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十三大提出了",
+  "answer_markdown": "D",
+  "analysis_markdown": "点拨\n党的十一届三中全会开启了我国改\n\n出处精而引用考点86 -1-00\n\n革开放和社会主义现代化建设新时期。\n\n简析1987 年10 月25 日至11 月1 日，中\n\n平南方谈话把改革开放和现代化建\n\n国共产党第十三次全国代表大会在北京举\n\n设推向新阶段。\n\n的十八大开启了中国特色社会主义新\n\n行。党的十三大的突出贡献是比较系统地\n\n阐述了关于社会主义初级阶段的理论和党\n\n时代。\n\n十八届三中全会开创了我国改革开\n\n在社会主义初级阶段的基本路线。D 正确。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 138,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "全面建设小康社会的奋斗目标"
+    },
+    {
+      "key": "B",
+      "text": "党在社会主义初级阶段的基本纲领"
+    },
+    {
+      "key": "C",
+      "text": "社会主义市场经济休制的改革目标"
+    },
+    {
+      "key": "D",
+      "text": "社会主义初级阶段理论和党的基本路线"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 138,
+      "bbox": [
+        106.56500244140625,
+        953.279052734375,
+        514.1540222167969,
+        1111.021728515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 144,
+      "bbox": [
+        448.23199462890625,
+        286.74847412109375,
+        854.8218383789062,
+        492.69024658203125
+      ]
+    }
+  ]
+}

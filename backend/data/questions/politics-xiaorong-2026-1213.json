@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1213",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国革命道德内容丰富、历久弥新，是中国共产党领导全体人民实现民族独立、人民解放的精\n神支撑，对于我们走好新时代的长征路，实现中华民族伟大复兴仍然具有极其重要的现实意义。\n中国革命道德的当代价值在于，发扬革命道德、传承红色基因，有利于",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精说期6 考点39 -1-0\n\n出处精讲践5 考点36 -3",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 176,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "加强和巩固社会主义和共产主义的理想信念"
+    },
+    {
+      "key": "B",
+      "text": "培育和践行社会主义核心价值观"
+    },
+    {
+      "key": "C",
+      "text": "引导人们树立正确的道德观"
+    },
+    {
+      "key": "D",
+      "text": "培育良好的社会道德风尚"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 176,
+      "bbox": [
+        98.48899841308594,
+        1160.5184326171875,
+        940.8214721679688,
+        1325.040283203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        9.868999481201172,
+        762.9276123046875,
+        308.6459655761719,
+        839.0521850585938
+      ]
+    }
+  ]
+}

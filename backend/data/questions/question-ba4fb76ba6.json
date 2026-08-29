@@ -1,0 +1,49 @@
+{
+  "id": "question-ba4fb76ba6",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 设A是3阶方阵,a为3维列向量,P = («,Aa,A2a)为可逆矩阵』=AP,且\nA3a-\\~2A2a = 3Aa，贝！］ | A 十 E | =________ .",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴严 °）\n{ O 2B* /•\no\n由 C-C* =| C | E,得\n-1\nc* = | c C =\nO\nB\nA\nO\nA O\nO B\n=z \\ A \\ \\ B \\ (Ao B°1 )= (1 A | AT | B\nO\n1 B 1\n1 1 A | )\n/I B 1 A*\no\n/3A*\no \\\nV O\n\\ A \\ B*\n（O\n2B* /-\nA厂\nO丿\n—(°\n常）（其中A,B均可逆）.\n【注】（3 Ox1 /A*1\nB) ~ \\ O\n諾)4",
+  "chapter": "矩阵",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 79,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.481631+00:00",
+  "updated_at": "2026-08-23T12:39:51.807688+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵",
+    "逆矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        24.0,
+        69.67851257324219,
+        482.3999938964844,
+        106.4344711303711
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 192,
+      "bbox": [
+        24.0,
+        130.68319702148438,
+        482.3999938964844,
+        267.99920654296875
+      ]
+    }
+  ]
+}

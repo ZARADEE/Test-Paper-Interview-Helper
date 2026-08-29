@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1088",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "爱因斯坦说过：“一个人的价值，应该看他贡献什么，而不应当看他取得什么。” 这句话的启示是",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 162,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人的自我价值是无足轻重的"
+    },
+    {
+      "key": "B",
+      "text": "人的自我价值与社会价值不能同时实现"
+    },
+    {
+      "key": "C",
+      "text": "社会价值是人的唯一价值"
+    },
+    {
+      "key": "D",
+      "text": "人的价值在于奉献而不在于索取"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 162,
+      "bbox": [
+        105.02999877929688,
+        116.08932495117188,
+        933.8885498046875,
+        221.4346923828125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        0.642390251159668,
+        528.244384765625,
+        308.6448669433594,
+        606.4719848632812
+      ]
+    }
+  ]
+}

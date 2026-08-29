@@ -1,0 +1,57 @@
+{
+  "id": "question-c9e1056111",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "⑴设 <2„ = j xn a/1 — j：2 djr,bn = j sin\"idi(n = 1,2, •••)，求级数刀(—1)\"~】产的和.",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)解\n=J2 sin\" £(1 - sinDck = j\nsin\" tdt — \\ sirf+Sck = bn — 仇+2・\nJ 0\n仇+2 = \\2 sin\"+2/d/ =—「sinn+1^d(cos i)\n又\nJ 0\nJ 0\ncos t • sin\ncos t •(兀 + l)sin\" t • cos tdt\n,_n\n=(72 + 1)\n圣'故#二丰'则\nsin\" £(1 — sin2 t)dt = (n + l)6„ — (n + 1)仇+2 9\n毘仇，所以 an=bn-bn+2=b,\n移项得〃卄2\n九十2\n-=\nn + 2'\nn= 1\n构造幕级数，令S（°） = > （一 IL\n•刃+2,则\n]\n/? + 2\nn= 1\nJ?\nI 工 | V 1，\n1 + JC\n积分得 S(h) —S(0)=\n丫 产\n—dt — —j:2 — jc + ln(j? + 1) ? — 1\n1.\nJ 0 1 十 t\nZ\n” I 士f，\nS(0) = 0,令 7 = 1,故工(一1)\"一\n+ a“_i，得\nn= 1",
+  "chapter": "无穷级数",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.462366+00:00",
+  "updated_at": "2026-08-23T12:39:51.480233+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        24.0,
+        397.5245361328125,
+        482.3999938964844,
+        448.52880859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 154,
+      "bbox": [
+        24.0,
+        461.5690612792969,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 155,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        102.89080810546875
+      ]
+    }
+  ]
+}

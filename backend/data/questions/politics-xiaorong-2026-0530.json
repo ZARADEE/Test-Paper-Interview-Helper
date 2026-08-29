@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0530",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我国之所以能够采取赎买的方式对资本主义工商业进行和平改造，其原因在于",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "出处精而丽j 考点46 拓展与点拨0\n\n出处精讲EZ9：考点40 -2-\n\n简析A、B、D 正确。实施乡村振兴战略是新\n\n.直近B、C、D 正确。“社会主义经济”与“社\n\n时代“三农”工作的总抓手,C 错误。\n\n会主义市场经济”不同，社会主义经济指的是",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 79,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "民族资产阶级具有两面性"
+    },
+    {
+      "key": "B",
+      "text": "中国共产党与民族资产阶级长期保持着统一战线的关系"
+    },
+    {
+      "key": "C",
+      "text": "我国已经有了人民民主专政的国家政权和掌握了国家经济命脉的强大的社会主义国营经济"
+    },
+    {
+      "key": "D",
+      "text": "国家对粮食和工业原料的统购统销，以及资本主义企业中工人群众对资本家的监督"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        88.27899932861328,
+        1253.46044921875,
+        904.510009765625,
+        1415.030517578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        17.08799934387207,
+        816.1387939453125,
+        423.9305419921875,
+        959.9345703125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "question-248c7384de",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)设数列九=(l+a)\" + (l—a)\",证明：\n(1+| a | ,\n<2工0,\n”〜8 xn 11,\nq = o.",
+  "answer_markdown": "",
+  "analysis_markdown": "（3）证 分a = 0,a>0,a< 0三种情况进行讨论.\n当a = 0时,z” = 2,故lim壬旦=1 ；\nn->oo Xn\n当a > 0时,\n（1 —a）\n1 一 a \\z\n1 + a丿\nn-*oo\nl+ez +\nlim-----------\nn-*oo\n/1 — a\n\\1+6Z\n由\n< 1，知 lim\n”f 8\n=0 ,故 lim -= 1 + a;\n1 一 a\n1 + a\n1 — a\n1 + a\n当a<0时，同理可证= 1—a.即证.\n\"f 8 JCn",
+  "chapter": "函数、极限与连续",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 12,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.437208+00:00",
+  "updated_at": "2026-08-23T12:39:50.778591+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        24.0,
+        364.4573669433594,
+        482.3999938964844,
+        417.2563171386719
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        24.0,
+        206.7088165283203,
+        482.3999938964844,
+        345.72930908203125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1148",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "程序正当是法治思维的基本内容之一。程序的正当，表现在程序的合法性、中立性、参与性、\n\n公开性、时限性等方面。正义不应缺席，也不应迟到，迟到的正义是有瑕疵的正义。这实际上\n\n指的是程序必须具有",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 168,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中立性"
+    },
+    {
+      "key": "B",
+      "text": "参与性"
+    },
+    {
+      "key": "C",
+      "text": "公开性"
+    },
+    {
+      "key": "D",
+      "text": "时限性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        102.85700225830078,
+        337.66064453125,
+        945.6289672851562,
+        466.34197998046875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 173,
+      "bbox": [
+        437.5899963378906,
+        796.4002685546875,
+        848.080078125,
+        871.199462890625
+      ]
+    }
+  ]
+}

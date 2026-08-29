@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0951",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "资本-帝国主义列强对中国的侵略，首先和主要的是进行军事侵略。此外，还对中国实行政治控\n\n制、经济掠夺和文化渗透。为了统治中国，资本-帝国主义列强在政治上采取的主要方式有",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "出处精讲E逅考点9 -2-",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 139,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "控制中国的内政、外交"
+    },
+    {
+      "key": "B",
+      "text": "镇压中国人民的反抗"
+    },
+    {
+      "key": "C",
+      "text": "控制中国的通商口岸"
+    },
+    {
+      "key": "D",
+      "text": "扶植、收买代理人"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 139,
+      "bbox": [
+        81.24199676513672,
+        1284.5322265625,
+        921.7085571289062,
+        1411.080322265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 145,
+      "bbox": [
+        429.4939880371094,
+        1029.7125244140625,
+        851.0870971679688,
+        1322.4844970703125
+      ]
+    }
+  ]
+}

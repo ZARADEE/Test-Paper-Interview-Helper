@@ -1,0 +1,46 @@
+{
+  "id": "politics-2025-004",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1916年列宁在《无产阶级革命的军事纲领》一文中指出：“社会主义将在一个或几个国家 获得胜利，而其余的国家在一段时间内将仍然是资产阶级的或资产阶级以前的国家”,列宁 得出这一结论的依据是",
+  "answer_markdown": "C",
+  "analysis_markdown": "【解析】本题考查的知识点：列宁的一国胜利论\nA选项错在已经形成， B选项错在资本主义不能为社会主义创造条件， D 选项正相关性不严 谨。故选C。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.371156+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "世界各国无产阶级的国际大联盟已经形成"
+    },
+    {
+      "key": "B",
+      "text": "资本主义普选制为社会主义革命创造了新条件"
+    },
+    {
+      "key": "C",
+      "text": "资本主义的发展在各个国家极不平衡 淘宝店铺：慧园文化"
+    },
+    {
+      "key": "D",
+      "text": "工人阶级的革命意志与经济发展水平正相关 ### 答案解析 4."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "列宁的一国胜利论"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "列宁的一国胜利论"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

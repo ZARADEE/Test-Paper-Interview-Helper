@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0386",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "19 世纪初期以圣西门、傅立叶、欧文为代表的批判的空想社会主义者，他们",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "",
+  "chapter": "第六章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 55,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "在理论上致力于对社会制度的分析"
+    },
+    {
+      "key": "B",
+      "text": "对资本主义旧制度的辛辣批判，包含着许多切中要害的见解"
+    },
+    {
+      "key": "C",
+      "text": "对社会主义新制度的描绘，闪烁着诸多天才的火花"
+    },
+    {
+      "key": "D",
+      "text": "阐明了资本主义制度下雇佣奴隶制的本质，为启发工人觉悟提供了极为宝贵的材料"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第六章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第六章"
+  ],
+  "source_regions": [
+    {
+      "page": 55,
+      "bbox": [
+        87.5469970703125,
+        1222.9310302734375,
+        855.580078125,
+        1379.4500732421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 71,
+      "bbox": [
+        3.375,
+        94.99275970458984,
+        413.065673828125,
+        269.2305908203125
+      ]
+    }
+  ]
+}

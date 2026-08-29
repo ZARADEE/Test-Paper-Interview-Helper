@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0759",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "核心价值观是一个民族赖以维系的精神纽带，是一个国家共同的思想道德基础。社会主义核心\n\n价值观",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲市子闻考点24\n\n出处精沛庆应考点70 拓展与点拨登",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 112,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "体现了社会主义本质要求"
+    },
+    {
+      "key": "B",
+      "text": "继承了中华优秀传统文化"
+    },
+    {
+      "key": "C",
+      "text": "吸收了世界文明有益成果"
+    },
+    {
+      "key": "D",
+      "text": "体现了时代精神"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 112,
+      "bbox": [
+        99.38300323486328,
+        346.70452880859375,
+        932.2169189453125,
+        476.405029296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        18.23200035095215,
+        491.62884521484375,
+        435.59027099609375,
+        941.9761352539062
+      ]
+    }
+  ]
+}

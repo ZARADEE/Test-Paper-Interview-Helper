@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1176",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "张桂梅是云南省丽江市华坪县女子高级中学党支部书记、校长，华坪县儿童福利院（华坪儿童\n\n之家）院长。张桂梅扎根贫困地区40 余年，创办全国第一所全免费女子高中，帮助1800 多名\n\n贫困山区女孩圆梦大学，是为教育事业奉献一切的“张妈妈”。她拖着病体忘我工作，持续12\n\n年家访超过1600 户，行程11 万余公里，荣获“全国脱贫攻坚楷模” 荣誉称号和“全国优秀共\n\n产党员”“全国先进工作者”“时代楷模” 等称号。张桂梅的事迹对于我们正确认识个人理想与\n\n社会理想的启示有",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "出处精讲户新考点15 -2",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 172,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "个人理想以社会理想为指引"
+    },
+    {
+      "key": "B",
+      "text": "社会理想的实现以个人理想的实现为前提和基础"
+    },
+    {
+      "key": "C",
+      "text": "社会理想是个人理想的汇聚和升华"
+    },
+    {
+      "key": "D",
+      "text": "个人理想从属于社会理想"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 172,
+      "bbox": [
+        104.20099639892578,
+        122.75982666015625,
+        937.6058349609375,
+        442.6527099609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 176,
+      "bbox": [
+        443.58099365234375,
+        494.7917785644531,
+        850.1788940429688,
+        931.7548217773438
+      ]
+    }
+  ]
+}

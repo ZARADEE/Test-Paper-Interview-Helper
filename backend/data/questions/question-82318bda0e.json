@@ -1,0 +1,65 @@
+{
+  "id": "question-82318bda0e",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)二次型 /(xi ,x2 ,工3)",
+  "answer_markdown": "B",
+  "analysis_markdown": "解用配方法，\n,鼻2，#3)= 2# — 2劝(工2 + 攵3)+ 莎(工2 + © )2 + 专工纟+ 专& 一 3攵2攵3\n1 z 「、2 「 3\n2 5 一\" ‘\n2 从'2\n=2 （劝一 *工2\n2 Q\n+㊁O] — 2恐攵3 + & ）\n=2 （攵1------- JC2\n2 Q\n+ 今（工2 —mF.\n—严\n令\n-<\n丿2\n1）3\n=攵1 _ ~2^2 —万 E\n=氐—口 ,\n=E ,\n则标准形为/= 2炭+ |■易\n【注】\n①下列做法是错误的：\n何1\n令］yz\n1^3\n=d — E，则标准形为 f = y\\+ yz+ y\\.\n=m —劝,\n_ 1\n0、\n-1是不可逆的，线性变换要求可逆.由于二次型的秩\n，1\n错误原因是矩阵 0\n—1\n为2,所以标准形中没有加\n项.\n②此题也可将平方项展开，写出二次型_/的矩阵A,求A的特征值得标准形，注意标准\n形不唯一.",
+  "chapter": "二次型",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 81,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.481631+00:00",
+  "updated_at": "2026-08-23T12:39:51.826448+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "/\"=舁+应+拆"
+    },
+    {
+      "key": "B",
+      "text": "/="
+    },
+    {
+      "key": "D",
+      "text": "_/ = 2yl + •应 + yl"
+    },
+    {
+      "key": "C",
+      "text": "y = H yz~ yl"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "二次型"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 81,
+      "bbox": [
+        24.0,
+        279.8185119628906,
+        482.3999938964844,
+        359.5474548339844
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 227,
+      "bbox": [
+        24.0,
+        237.35748291015625,
+        482.3999938964844,
+        521.3574829101562
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0765",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "治国有常，利民为本。民生是老百姓最关心的问题，涉及分配、就业、教育、医疗、住房、社\n\n会保障等方面。随着经济社会的发展进步，人民生活品质的不断提高，民生内涵也在不断丰富。\n\n民生",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "出处精讲的\n考点72 -1\n\n出处精讲下期考点77 -1\n\n简析马克思主义是我们立党立国、兴党兴国\n\n简析A、B、D 正确。科技自立自强是国家强\n\n的根本指导思想。坚持马克思主义在意识形\n\n盛之基、安全之要。C 错误。\n\n态领域指导地位的根本制度，是坚持和加强",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 113,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "事关人民的生存生活生计"
+    },
+    {
+      "key": "B",
+      "text": "事关民心所向、民情所系、民意所指"
+    },
+    {
+      "key": "C",
+      "text": "是国家强盛之基、安全之要"
+    },
+    {
+      "key": "D",
+      "text": "决定党的事业成败和国家命运兴衰"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 113,
+      "bbox": [
+        86.1449966430664,
+        173.61155700683594,
+        935.4560546875,
+        336.54156494140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        444.6780090332031,
+        713.730224609375,
+        752.926025390625,
+        790.1926879882812
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "question-ec686786d6",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4)证明：lim J a, + a? + …+ a； = max{ai ,a2, ••- ,ak} (a；〉Q,i = 1,2 ,…M).",
+  "answer_markdown": "",
+  "analysis_markdown": "（4）证 令 max{ai ,a2,…，a*} = a，则\na = \\/a^ W 寸a, + a多 + …+ a? £ Jka\".\n又由于lim ^/kan = lima恢=a,故由夹逼准则，可知\n//—>8\nn—^8\nlim J a, + a： + …+ a； = max{ai ,a2，…,ak}.\n” f oo",
+  "chapter": "函数、极限与连续",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 12,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.437208+00:00",
+  "updated_at": "2026-08-23T12:39:50.780627+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        24.0,
+        416.2563171386719,
+        482.3999938964844,
+        443.6898193359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        24.0,
+        344.72930908203125,
+        482.3999938964844,
+        402.41973876953125
+      ]
+    }
+  ]
+}

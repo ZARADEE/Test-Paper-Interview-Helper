@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0903",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中华民族从近代以来陷入深重危机走向伟大复兴的历史转折点是",
+  "answer_markdown": "B",
+  "analysis_markdown": "误,整风运动则是要从认识路线(思想路线)的\n\n出处精和通二演! 考点55 -2\n\n角度解决政治路线错误的问题。A 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 133,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "红军长征的胜利"
+    },
+    {
+      "key": "B",
+      "text": "抗日战争的胜利"
+    },
+    {
+      "key": "C",
+      "text": "解放战争的胜利"
+    },
+    {
+      "key": "D",
+      "text": "抗美援朝战争的胜利\n\n为建立新中国而奋斗\n\n第七章"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 133,
+      "bbox": [
+        85.09600067138672,
+        451.3949890136719,
+        922.239990234375,
+        515.4634094238281
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 138,
+      "bbox": [
+        444.2820129394531,
+        286.74041748046875,
+        860.4000244140625,
+        977.6836547851562
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0863",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在1922 年召开的中共二大上，中国共产党第一次明确提出了",
+  "answer_markdown": "D",
+  "analysis_markdown": "简析\n正确。“只有‘兴民权改民主’，\n\n才是中国的唯一出路”，是1905 年至1907 年\n\n出处精\n考点32 -1-i]\n\n间革命派与改良派就“要不要推翻帝制，实行\n\n简析中共二大第一次明确提出了反帝反封\n\n共和”进行论战时革命派的观点，③不符合题\n\n建的民主革命纲领。D 正确。1939 年毛泽\n\n意。因此,本题选C。\n\n东在《中国革命和中国共产党》一文中，第一",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 128,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "新民主主义革命总路线"
+    },
+    {
+      "key": "B",
+      "text": "无产阶级领导权"
+    },
+    {
+      "key": "C",
+      "text": "土地革命的总路线"
+    },
+    {
+      "key": "D",
+      "text": "反帝反封建的民主革命纲领"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 128,
+      "bbox": [
+        102.08999633789062,
+        613.3872680664062,
+        791.5602416992188,
+        710.4605712890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 132,
+      "bbox": [
+        442.4859924316406,
+        1153.4390869140625,
+        848.0859985351562,
+        1323.1629638671875
+      ]
+    }
+  ]
+}

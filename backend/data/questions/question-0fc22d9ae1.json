@@ -1,0 +1,48 @@
+{
+  "id": "question-0fc22d9ae1",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设 D：x2 + y < 9,计算 I\" = JJI J? + 夕2 _ 4 I dzdy.\nD",
+  "answer_markdown": "",
+  "analysis_markdown": "(4)解\n示，则\nI =\njj I + ry2 — 4 | dzdy\nD\n+ y2 一 4)djcdj/\ny2 — 4) djrdj; +\nDi\nd2\nJJ(jr2 y2 — 4)djEdj/ + JJ (je2 '\nj:2 y2 — 4)dj?dj;\nDi\nI\n+ J/' — 4) djcdj/ — 2\n+ y2 — 4)dxdj/\nD\n^2n\nD]\n'2k\n■2\nJ 0\n=[dd\\ (r2 — 4)rdr — 2 | d(9| (r2 — 4)rdr\nJ o J o\n=2占—2汕\no\nT\n—4tc\n41亍.\n.\n=+ 16 兀=\n无2\nJC2 + b = 1,\n+ b = 2_z,",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 41,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.454476+00:00",
+  "updated_at": "2026-08-23T12:39:51.245574+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 41,
+      "bbox": [
+        24.0,
+        279.48382568359375,
+        482.3999938964844,
+        297.4990234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 108,
+      "bbox": [
+        24.0,
+        325.016357421875,
+        482.3999938964844,
+        538.5691528320312
+      ]
+    }
+  ]
+}

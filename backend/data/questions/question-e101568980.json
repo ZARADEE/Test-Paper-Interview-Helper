@@ -1,0 +1,58 @@
+{
+  "id": "question-e101568980",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（10） 设随机变量X与Y相互独立，X〜N（0,/）,Y服从［―a,a］（a>0）上的均匀分布，\n求Z = X + Y的概率密度（可用①（刃表示）.",
+  "answer_markdown": "",
+  "analysis_markdown": "(10)解依题意,Y的概率密度为\n—a W y W a,\n=\n厉，\n0,\n其他，\nX 的概率密度为 fxS = ~^=-e-i , -\nCXD.\nV 2tt(7\n由于X与Y相互独立二由卷积公式，得\n'/x(Z -))_/¥(，)* =\nfzCz)=\n，a 1__  e 2/\n~a v 27TCT\n①a — z\n①—CL 一 N\n(J\n为将其化为标准正态分布的分布函数①(Z)，令~~~- =— t,则dy = crck,故\na\nfz3 — [ a x\n・ y-df =\n」a/2tt\n2a 2a",
+  "chapter": "随机变量及其分布",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 91,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.488264+00:00",
+  "updated_at": "2026-08-23T12:39:51.960011+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "概率",
+    "独立"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        24.0,
+        654.151123046875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 92,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        56.20097351074219
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 251,
+      "bbox": [
+        24.0,
+        279.9376220703125,
+        482.3999938964844,
+        434.1324768066406
+      ]
+    }
+  ]
+}

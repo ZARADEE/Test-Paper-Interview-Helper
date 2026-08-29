@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0594",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "发展理念是发展行动的先导，是发展思路、发展方式、发展着力点的集中体现。发展理念从根\n\n本上决定着发展成效乃至成败。新发展阶段必须坚定不移贯彻创新、协调、绿色、开放、共享\n\n的新发展理念。其中，创新是",
+  "answer_markdown": "A",
+  "analysis_markdown": "为政府更好结合。A 正确,B、C、D 错误。\n\n出处精讲下的考点36 -2-0",
+  "chapter": "第六章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 90,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "引领发展的第一动力"
+    },
+    {
+      "key": "B",
+      "text": "国家繁荣发展的必由之路"
+    },
+    {
+      "key": "C",
+      "text": "持续健康发展的内在要求"
+    },
+    {
+      "key": "D",
+      "text": "中国特色社会主义的本质要求"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第六章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第六章"
+  ],
+  "source_regions": [
+    {
+      "page": 90,
+      "bbox": [
+        106.4229965209961,
+        625.3854370117188,
+        937.6820678710938,
+        782.7047119140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 100,
+      "bbox": [
+        442.9729919433594,
+        720.8812866210938,
+        849.7933349609375,
+        926.089111328125
+      ]
+    }
+  ]
+}

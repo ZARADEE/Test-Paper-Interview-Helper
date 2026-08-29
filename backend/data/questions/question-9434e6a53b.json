@@ -1,0 +1,67 @@
+{
+  "id": "question-9434e6a53b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 设 g 满足 /(rc)+2/(^)+ g = 0,且\nr+oo\n/(0) = 1 ,/\\0) = 0,a” = I /(J7)djc.\n(I)求 /Xz)及 a” ；\n(U)求级数的和.",
+  "answer_markdown": "",
+  "analysis_markdown": "(3)解\n解为\n/(j:) = €\\严+ G 攵厂.\n=l,/(0) = 0,得 G = C2 = 1•所以\n由 /(0)\ne\n»-|-oo\ny(H)=亍+°亍=(1 + jr)e-J.\nf+8\nan =\n=\n(1 + jr)de'\n(1 + <r)e-^ djc =\ne\n(1 + j?) e\n=(1 + 7?)e_w + e~n = ne~n + 2e_n.\n七令\n(H)工 a.\n=工肚一\"十2工厂\"，而丫亍=\nn= 1\nn= 1\nn= 1\nn= 1\ne\"1\nI — /\noo\n比=_ 丫 (eF)' =— ( 丫才“)\nS(z) = ne~\nn=l\n一(」)\nn=1\nm=1\np\n,\ne-\n-----I = ------------- > 0.\n(e’ - l)2\nV1 - e~\"7\n(\n士沪故\n令 7 = 1,则ne~n = S(l)=\nn= 1\ne\nn= 1\n(e- I)2 + e— 1\n3e- 2\n(e—1严",
+  "chapter": "无穷级数",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.462366+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        24.0,
+        506.0570068359375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 55,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 155,
+      "bbox": [
+        24.0,
+        424.2439270019531,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 156,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

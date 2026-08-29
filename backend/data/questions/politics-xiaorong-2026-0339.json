@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0339",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "产业资本循环不断进行的基本前提条件是",
+  "answer_markdown": "AB",
+  "analysis_markdown": "余价值的转化形式。当剩余价值转化为利\n\n出处精讲P7r考点72 -2\n\n润时，剩余价值和可变资本的关系便被掩",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 49,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "三种职能形式在时间上继起"
+    },
+    {
+      "key": "B",
+      "text": "三种职能形式在空间上并存"
+    },
+    {
+      "key": "C",
+      "text": "商品资本循环顺利进行"
+    },
+    {
+      "key": "D",
+      "text": "生产资本循环顺利进行"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 49,
+      "bbox": [
+        90.96399688720703,
+        1164.170166015625,
+        788.0860595703125,
+        1261.1524658203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 66,
+      "bbox": [
+        442.2460021972656,
+        31.974929809570312,
+        601.3444213867188,
+        69.51119613647461
+      ]
+    },
+    {
+      "page": 66,
+      "bbox": [
+        54.65700149536133,
+        56.143463134765625,
+        432.04290771484375,
+        593.7025146484375
+      ]
+    }
+  ]
+}

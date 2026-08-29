@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1009",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1931 年，中国共产党在总结土地革命的经验的基础上，制定了土地革命中的阶级路线，即",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 148,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "依靠贫农、雇农"
+    },
+    {
+      "key": "B",
+      "text": "联合中农"
+    },
+    {
+      "key": "C",
+      "text": "限制富农"
+    },
+    {
+      "key": "D",
+      "text": "保护中小工商业者，消灭地主阶级"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 148,
+      "bbox": [
+        100.51300048828125,
+        441.42266845703125,
+        887.7788696289062,
+        536.3718872070312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 153,
+      "bbox": [
+        438.28399658203125,
+        16.401046752929688,
+        858.8915405273438,
+        477.66326904296875
+      ]
+    }
+  ]
+}

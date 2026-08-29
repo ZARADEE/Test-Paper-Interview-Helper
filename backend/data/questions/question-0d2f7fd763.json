@@ -1,0 +1,68 @@
+{
+  "id": "question-0d2f7fd763",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设A是3阶矩阵，向量0 = (3,3,3)丁，非齐次线性方程组Ax = p的通解为\n餌(1,2, — 2)丁+爲(2,1,2)丁 +(1,1,1厂，码，爲为任意常数.\n(I )证明：任意3维列向量a可由A的三个特征向量线性表示；\n(II)若 a = (1,2, — I)1\",求 Aa.",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解 (I )依题设，(1,1,1)T 是 Ax =0 的特解，(1,2,—2)丁，(2,1,2)丁 是 Ax = o 的\n基础解系，故\nA\n所以右=3是A的特征值,5\n是A的一个特征向量.\n[1 ] [ 1 ] [2] [21\nA 2 | = 0 = 0\n, A 1 = 0 = 0 •\n1 ,\n故入2 =入3 = 0为A的特征值,ct2 = (1,2, — 2)T ,a3 = (2,1,2)T是A的特征向量.而\n1 1 2\nI (ai ,a2 ,a3) 1=1\n1 =—3工0,\n1-2 2\n故为三个线性无关的？维列向量，即ai,a2，a3可作为便的一组基，所以任意3维\n列向量a可由ai ,a2心线性表示.\n(II)由(I )可设 a = XiOi + 恐a2 + m,艮卩\n解方程组\n得唯一解(劝,乂2 ,攵3厂\ndi|-\nAa — A(xiai + ^2a2 +ma3)= ziAai + ^zAa2 + x3Aa->, = 3心\nr\n1 = 3\nij",
+  "chapter": "线性方程组",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 75,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.479594+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "向量",
+    "方程组"
+  ],
+  "tags": [
+    "线性代数",
+    "线性方程组"
+  ],
+  "source_regions": [
+    {
+      "page": 75,
+      "bbox": [
+        24.0,
+        241.03717041015625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 76,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 212,
+      "bbox": [
+        24.0,
+        380.282470703125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 213,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

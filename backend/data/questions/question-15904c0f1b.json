@@ -1,0 +1,58 @@
+{
+  "id": "question-15904c0f1b",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "（1）设£a”丹的收敛半径为3,则£必”（工+ 1）卄1的收敛区间为________ .\nn=0\nn=Q\noo\noo",
+  "answer_markdown": "(-4,2).",
+  "analysis_markdown": "(-4,2).\n解 根据逐项求导收敛半径不变，即与工收敛半径相同.令\nn=Q\nn=1\nz + 1 = / ,则〉2血”严与严工nantn~x收敛半径相同，故由| J； + 1 | < 3 ,得一-4<zV2,收\nn=l\nn—1\n敛区间为(-4,2).",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 52,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.461257+00:00",
+  "updated_at": "2026-08-23T12:39:51.449096+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 52,
+      "bbox": [
+        24.0,
+        656.8562622070312,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 53,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        68.56146240234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 147,
+      "bbox": [
+        24.0,
+        451.27117919921875,
+        482.3999938964844,
+        525.2450561523438
+      ]
+    }
+  ]
+}

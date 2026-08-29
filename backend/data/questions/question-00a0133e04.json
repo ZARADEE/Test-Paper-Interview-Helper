@@ -1,0 +1,50 @@
+{
+  "id": "question-00a0133e04",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)设以—22 , u„ — axa2 (« = 1,2 , •••)，求limu„.",
+  "answer_markdown": "",
+  "analysis_markdown": "（2）解 由于\"”\n丄\n=2忑• 2「・・22\" = 2\nlimfy + ^-H----- 卜占\n1 一丄，\n]__  丄T\n故 lim 冷=21 = 2.\noo\n【注】此题相乘的因子不是有限项，不能用极限的四则运算法则.",
+  "chapter": "函数、极限与连续",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 12,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.437208+00:00",
+  "updated_at": "2026-08-23T12:39:50.777544+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        24.0,
+        336.88336181640625,
+        482.3999938964844,
+        365.4573669433594
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        24.0,
+        116.71421813964844,
+        482.3999938964844,
+        207.7088165283203
+      ]
+    }
+  ]
+}

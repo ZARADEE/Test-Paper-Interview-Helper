@@ -1,0 +1,44 @@
+{
+  "id": "politics-2017-009",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "帝国主义侵略中国的最终目的是要瓜分中国，灭亡中国。1895年中国在甲午战争中战败后，列强掀起了瓜分中国的狂潮，这集中表现在（ ）",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】帝国主义列强对中国的争夺和瓜分的图谋，在1894年中日甲午战争爆发后达到高潮。《中日马关条约》的签定，更大大刺激了帝国主义列强瓜分中国领土的野心，并激化了列强争夺中国的矛盾。俄国法国德国三国干涉还辽，要求租借中国港湾作为报酬。由此，德、俄、英、法、日等国于1898年至1899年竞相租借港湾和划分势力范围，掀起了瓜分中国才狂潮。因此，本题答案选B。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.527582+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "设立完全由外国人直接控制和统治的租界"
+    },
+    {
+      "key": "B",
+      "text": "竞相租借港湾和划分势力范围"
+    },
+    {
+      "key": "C",
+      "text": "外国资本主义在中国近代工业中争夺垄断地位"
+    },
+    {
+      "key": "D",
+      "text": "从侵占中国边邻国发展到蚕食中国边疆地区 ### 答案解析 9."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

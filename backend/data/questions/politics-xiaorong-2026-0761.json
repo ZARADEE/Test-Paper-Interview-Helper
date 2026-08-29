@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0761",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "海纳百川，有容乃大。文明的繁荣、人类的进步，离不开求同存异、开放包容，离不开文明交流、\n\n互学互鉴。中华文明自古就以开放包容闻名于世。中华文明具有突出的包容性，从根本上决定了",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "D 错误。\n\n出处精讲友\n考点74\n表格\n地A、B、C 正确。中华文明具有的和平性",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 112,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中华民族交往交流交融的历史取向"
+    },
+    {
+      "key": "B",
+      "text": "中国各宗教信仰多元并存的和谐格局"
+    },
+    {
+      "key": "C",
+      "text": "中华文化对世界文明兼收并蓄的开放胸怀"
+    },
+    {
+      "key": "D",
+      "text": "中国不断追求文明交流互鉴而不搞文化霸权"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 112,
+      "bbox": [
+        99.62300109863281,
+        623.3631591796875,
+        942.2998046875,
+        752.3350830078125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        19.672000885009766,
+        1007.8866577148438,
+        436.37200927734375,
+        1329.339599609375
+      ]
+    }
+  ]
+}

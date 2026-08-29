@@ -1,0 +1,48 @@
+{
+  "id": "question-afbdc77a11",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(33) 证明：方程In a： = — — f yi — cos 2x6.x在(0, +oo)内有且仅有两个不同实根.\ne J o",
+  "answer_markdown": "",
+  "analysis_markdown": "(33) 证\n「/T 一 cos 2_z(lz = I V^sin x<\\x = 2 ^2 ,\nJ o\nJ o\n令 /(jc) = — — In j; — 2 a/2~,由 f (Q = 0,得唯一驻点 x = e.\ne\n当0 <_z<e时，由(x) < 0,知/(jr)单调减少；\n当e V z <+ oo时，由> 0,知/(j?)单调增加，故/(e) =— 2罷<Z 0是fO 的\n极小值.又\nlim =+*, lim fix') =+ oo,\n—o+\n—+，'\n所以方程仅有两个不同实根.",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.441266+00:00",
+  "updated_at": "2026-08-23T12:39:50.878280+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        24.0,
+        644.3081665039062,
+        482.3999938964844,
+        671.9588623046875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 36,
+      "bbox": [
+        24.0,
+        230.831298828125,
+        482.3999938964844,
+        318.2411804199219
+      ]
+    }
+  ]
+}

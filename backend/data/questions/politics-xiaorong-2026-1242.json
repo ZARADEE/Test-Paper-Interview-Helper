@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1242",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "完善中国特色社会主义法治体系，对于进一步全面深化改革、推进中国式现代化具有重大而深\n\n远的意义。完善中国特色社会主义法治体系，是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "知识储备题\n\n出处精讲F丽考点49 -1-障\n\n简析A、B、C 正确。法治社会是构筑法治国\n\n箍近宪法在中国特色社会主义法律体系中\n\n家的基础,D 错误。\n\n居于核心地位。我国宪法具有最高的法律地",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 180,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持和发展中国特色社会主义的内在要求"
+    },
+    {
+      "key": "B",
+      "text": "在法治轨道上全面建设社会主义现代化国家的重要任务"
+    },
+    {
+      "key": "C",
+      "text": "全面推进依法治国的总抓手"
+    },
+    {
+      "key": "D",
+      "text": "构筑法治国家的基础"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 180,
+      "bbox": [
+        102.93199920654297,
+        216.7117919921875,
+        935.2036743164062,
+        406.6426696777344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 184,
+      "bbox": [
+        13.403999328613281,
+        787.8931274414062,
+        420.70733642578125,
+        895.7675170898438
+      ]
+    }
+  ]
+}

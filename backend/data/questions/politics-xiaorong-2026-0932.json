@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0932",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "毛泽东在《关于正确处理人民内部矛盾的问题》一文中明确提出，正确处理人民内部矛盾的问\n\n题是社会主义国家政治生活的主题。这一论断的根本着眼点，在于",
+  "answer_markdown": "D",
+  "analysis_markdown": "主要任务。大会指出，虽然还有阶级斗争，\n\n出处精讲有必在1 考点14 2(2)0\n\n还要加强人民民主专政，但根本任务已经是\n\n在新的生产关系下保护和发展生产力。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 137,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "科学揭示社会主义社会发展的动力"
+    },
+    {
+      "key": "B",
+      "text": "克服领导工作中还存在的官僚主义等问题"
+    },
+    {
+      "key": "C",
+      "text": "帮助广大人民在我国的政治生活中判断人们言论和行动的是非"
+    },
+    {
+      "key": "D",
+      "text": "调动一切积极因素，团结一切可以团结的力量，把全党的注意力转到社会主义建设上米"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 137,
+      "bbox": [
+        87.61399841308594,
+        364.67620849609375,
+        927.9229125976562,
+        550.0968017578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 143,
+      "bbox": [
+        0.6102399826049805,
+        394.1820983886719,
+        409.751220703125,
+        736.5469970703125
+      ]
+    }
+  ]
+}

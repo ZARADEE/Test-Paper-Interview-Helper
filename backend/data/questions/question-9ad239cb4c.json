@@ -1,0 +1,48 @@
+{
+  "id": "question-9ad239cb4c",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 已知二次型/' = 2/ + 3/ + 3/ + 2处2©(a > 0),经过正交变换化成标准形\ny\\ + 2喝+ 5扇，求参数a及所用的正交变换.",
+  "answer_markdown": "",
+  "analysis_markdown": "(2) 解\n二次型/■的矩阵为A = 0 3 a\n0 a 3\nI XE — A | = (A — 2) (A2 — 6A + 9 — a2).\n由已知正交变换下的标准形为弭+ 2应+ 5阴，故A的特征值为\n入I = 1，入2 = 2，入3 = 5 ,\n所以 | 1E — A |=0,即 4一 / =0,得 a = 2(a>0).\n对入 1 = 1,由(lE — A)x = 0,得 ai = (0,l, — l)T;\n对入2 =2,由(2E — A)x = 0,得 a2 = (1,0,0)丁；\n对入3 — 5,由(5E — A)x = 0,得= (0,1,1)丁.\n显然ai ,a2 ,a3已两两正交，单位化得\n71 =彳(0,1, — 1)丁，y2 = (1,0,0)T, y3 =\n令0= (X'h’yQ,则Q为正交矩阵,x = Qy为所求正交变换.",
+  "chapter": "二次型",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 82,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.482942+00:00",
+  "updated_at": "2026-08-23T12:39:51.838692+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "二次型"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        24.0,
+        85.24220275878906,
+        482.3999938964844,
+        120.5528335571289
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 229,
+      "bbox": [
+        24.0,
+        250.98129272460938,
+        482.3999938964844,
+        392.3177185058594
+      ]
+    }
+  ]
+}

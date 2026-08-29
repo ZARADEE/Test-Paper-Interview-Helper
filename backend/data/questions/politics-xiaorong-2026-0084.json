@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0084",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国北方有句俗语：“没吃过猪肉，也见过猪跑”。这种略带戏谑的提法常用来比喻有些事情虽\n\n然人们没有亲身经历过，但是也听说过、见识过，略有了解。与物质资料匮乏的年代相比，在\n\n城镇化、农业现代化大力推进的当下，很多年轻人只“吃过猪肉” 没“见过猪跑”，然而这句流\n\n传广泛的俗语依然能够被广大群众理解并继续使用。这一现象对我们的启示是",
+  "answer_markdown": "D",
+  "analysis_markdown": "中具有决定意义,D 错误。\n\n出处精讲P47) 考点44 -3-(2)",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 13,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "间接经验比直接经验更重要"
+    },
+    {
+      "key": "B",
+      "text": "语言文化具有绝对稳定性"
+    },
+    {
+      "key": "C",
+      "text": "意识具有调控人的行为和生理活动的作用"
+    },
+    {
+      "key": "D",
+      "text": "社会意识具有相对独立性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 13,
+      "bbox": [
+        89.39199829101562,
+        642.1180419921875,
+        929.5823364257812,
+        834.254638671875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        13.542999267578125,
+        399.8485107421875,
+        422.1209716796875,
+        1030.4776611328125
+      ]
+    }
+  ]
+}

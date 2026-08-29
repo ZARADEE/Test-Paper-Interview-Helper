@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0043",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "近年来全球金融市场频频发生大幅震荡，有经济学家认为2008 年金融危机以来形成的新的经济\n\n泡沫可能又将破裂。对此，有人对过去几百年间著名的泡沫时期进行了研究，得出了这样的结\n\n论：每个泡沫都会破裂，无一例外。但是预测泡沫何时会达到临界状态并破灭，总是比较困难。\n\n它就像掉落到地板上的沙粒，慢慢积成沙堆，顶部变得日渐狭窄。在某个节点，一粒沙就会引\n\n发崩塌。谁知道是哪一粒呢？以上材料蕴含的哲学原理是",
+  "answer_markdown": "B",
+  "analysis_markdown": "性与抽象的（非现实的）可能性的依据，\n\nD 错误。\n\n出处精讲P23］考点22 -❷",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 7,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "可能性与不可能性相互转化"
+    },
+    {
+      "key": "B",
+      "text": "必然要通过偶然表现出来，并为自己开辟道路"
+    },
+    {
+      "key": "C",
+      "text": "人类活动的结果是完全无法预见的"
+    },
+    {
+      "key": "D",
+      "text": "事物的发展就是循环往复"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 7,
+      "bbox": [
+        94.78900146484375,
+        121.81240844726562,
+        945.113037109375,
+        402.3228759765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 10,
+      "bbox": [
+        16.954999923706055,
+        254.14865112304688,
+        435.13861083984375,
+        1210.88232421875
+      ]
+    }
+  ]
+}

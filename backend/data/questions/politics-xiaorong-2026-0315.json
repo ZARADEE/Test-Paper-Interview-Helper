@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0315",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "价值规律是商品经济的基本经济规律，它贯穿于商品经济的全部过程。价值规律的作用表现在",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "动。从较长时间来看，价格高于价值的部\n\n出处精沛下弱考点65 -3-0\n\n分和价格低于价值的部分能够相抵，商品\n\n的平均价格和价值是相一致的。A、C 正确，",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "自发地调节生产资料和劳动力在社会各生产部门之间的分配比例"
+    },
+    {
+      "key": "B",
+      "text": "自发地调节雇佣工人与资本家之间的利益再分配"
+    },
+    {
+      "key": "C",
+      "text": "自发地刺激社会生产力的发展"
+    },
+    {
+      "key": "D",
+      "text": "自发地调节社会收入的分配"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        88.0510025024414,
+        128.5256805419922,
+        922.3792724609375,
+        286.5448303222656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 62,
+      "bbox": [
+        18.139999389648438,
+        823.10693359375,
+        433.904541015625,
+        1319.8712158203125
+      ]
+    },
+    {
+      "page": 62,
+      "bbox": [
+        479.56500244140625,
+        29.020606994628906,
+        858.9743041992188,
+        493.7471008300781
+      ]
+    }
+  ]
+}

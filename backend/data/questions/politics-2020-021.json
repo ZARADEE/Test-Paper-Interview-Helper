@@ -1,0 +1,44 @@
+{
+  "id": "politics-2020-021",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "为了加强对各国垄断资本的协调和制约。第二次世界大战后，国际垄断资本建立了国际货币基金组织，世界银行和世界贸易组织等国际经济机构。这些国际经济机构在协调和合作的基础上促进了经济全球化的发展，主要表现在 （ ）",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "本题考查垄断资本国际化条件下的垄断组织的作用。垄断资本国际化条件下各种形式的国际垄断组织、国际\n垄断同盟和国际经济协调机构的发展，加快了资本 、技术等生产要索在国际的流动，推动了商品和服务 贸易的\n迅速增加，加强了各国之间的经济联系，促进了经济全球化的发展。因此，ABD 正确。C表述错误，这些国际\n机构只能在一定程度上缓和局部范围的经济波动，难以对全球性经济波动和经济危机发挥有效的协调作用。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:40:47.524542+00:00",
+  "updated_at": "2026-08-23T15:56:23.611169+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "加强了各国和各经济体之间的联系"
+    },
+    {
+      "key": "B",
+      "text": "推动了商品和服务贸易的迅速增加"
+    },
+    {
+      "key": "C",
+      "text": "有效应对全球性经济波动和经济危机"
+    },
+    {
+      "key": "D",
+      "text": "加快了资本和技术等要素的国际流动 ### 答案解析 21.【"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

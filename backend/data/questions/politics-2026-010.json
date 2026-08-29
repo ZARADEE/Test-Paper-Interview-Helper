@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-010",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1840年，英国发动鸦片战争，清政府最终以失败告终。此后，列强通过一系列不平等条约在中国攫取了大量特权，中国社会发生了重大转折。最主要的表现是",
+  "answer_markdown": "B",
+  "analysis_markdown": "",
+  "chapter": "中国近现代史",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.401960+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国出现资本主义因素"
+    },
+    {
+      "key": "B",
+      "text": "中国社会性质发生变化"
+    },
+    {
+      "key": "C",
+      "text": "地主阶级退出历史舞台"
+    },
+    {
+      "key": "D",
+      "text": "清政府集团出现分化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

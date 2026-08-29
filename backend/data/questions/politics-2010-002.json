@@ -1,0 +1,44 @@
+{
+  "id": "politics-2010-002",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "有一则箴言：“在溪水和岩石的斗争中，胜利的总是溪水，不是因为力量，而是因为坚持。”“坚持就是胜利”的哲理在于：",
+  "answer_markdown": "C",
+  "analysis_markdown": "【解析】通过题干中的关键句——坚持就是胜利的哲理是什么，坚持意味着量大，马上就想到了量变导致质变知识点，答案为选项C。选项ABD不符合题意，与题干无关，故错误。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.365737+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "必然性通过偶然性开辟道路"
+    },
+    {
+      "key": "B",
+      "text": "肯定中包含着否定的因素"
+    },
+    {
+      "key": "C",
+      "text": "量变必然引起质变"
+    },
+    {
+      "key": "D",
+      "text": "有其因必有其果"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

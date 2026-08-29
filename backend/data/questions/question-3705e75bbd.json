@@ -1,0 +1,49 @@
+{
+  "id": "question-3705e75bbd",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(7) 微分方程yf — y = sin2的通解为_______ •",
+  "answer_markdown": "夕=Ge* + C2e^ — 土 +罟尹(G，C2为任意常数).",
+  "analysis_markdown": "夕=Ge* + C2e^ — 土 +罟尹(G，C2为任意常数).\n解 特征方程为r2-l = 0,r =±1,故对应齐次微分方程的通解为\n= C] eT + C2 厂.\nT7 北立、治炳斗\n-2\n1 — COS 2,JC 1\n, — COS 2jC\n又非齐次项为\nsin'z = ------ 2------  = y + ——2——，\n方程y — y = y和『一 y =—竺号空的特解分别令为\n= A，对 =Bcos 2x + Csin 2力，\n将其分别代入上两个方程，可求得A=—*,£ =需,C = 0,所以W =—*和W二22甞二\n故原方程的通解为y = C& + Ge= --| +罟尹(G ,C2为任意常数).\n(8 哼(云+1).\n解 将攵=0代入已知等式，有f(a) = [ \"「天\"d/ + /(0).\nJ 0 J \\t)\n上式两边同时对a求导，得f (a)=十D，故2/Xa) /'(a) = 2a 2a3 ,积分得\n/ (a)\n^2/(<2)/，(a)da = J(2a + 2a3 )da ,故[/(a)]2 = a2 +\n+ C.\n由/(l)=施，得C = *，故fS =晋(>2+1)(由/(l)=施，知开方取正).",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.459048+00:00",
+  "updated_at": "2026-08-23T12:39:51.371951+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分方程",
+    "通解"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        24.0,
+        282.6579895019531,
+        482.3999938964844,
+        298.61480712890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 131,
+      "bbox": [
+        24.0,
+        189.33078002929688,
+        482.3999938964844,
+        453.82574462890625
+      ]
+    }
+  ]
+}

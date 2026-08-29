@@ -1,0 +1,66 @@
+{
+  "id": "question-de003012f7",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设n元二次型\n_/(工1 ,乞2，…，工”)=(乂1 + <21^2)2 +(攵2 +\n)2 + …+(Z” + <2”工1 尸，\n其中a,{i = b2,-,/2)均为实数，若二次型正定，则(\n).\n\n丰 0\n\n\n= 0\n\nH 0",
+  "answer_markdown": "A",
+  "analysis_markdown": "解 由正定二次型的定义，可知/\"(劝，攵2，…，©)正定的充分必要条件是对任意\nTX ,JC2 , ••- ,Xn ,有/(J：i，攵2，…，乞”)N 0，其中当且仅当方程组①只有零解时等号成立.\n+ axx2 = 0,\n^2 +如心=0 ,\n①\nxn 十 anxx = 0.\n方程组①只有零解的充分必要条件是其系数行列式不为零，即\nill\n<22\n0:=1 + (― 1)卄匕02…a” H 0,\nQ“一1\ni\na”\n因此，当1 + (— 1)\"+1<21<22 •••«„ H 0时，对任意不全为0的Q \"2 ,…，2”都有\n/'(心,X2，…，g”)> 0 ,\n故正定，A正确.\n【注】 按第1列展开计算行列式.",
+  "chapter": "二次型",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 82,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.482942+00:00",
+  "updated_at": "2026-08-23T12:39:51.844358+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "1 + (— l)n+1a1a2"
+    },
+    {
+      "key": "B",
+      "text": "1 + (— axa2 '''an = 0"
+    },
+    {
+      "key": "D",
+      "text": "1 — (— 1 )\"+1 a}a2"
+    },
+    {
+      "key": "C",
+      "text": "1 — (— 1 )\"+1 <2ia2"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "二次型",
+    "正定"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        24.0,
+        333.1153869628906,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 230,
+      "bbox": [
+        24.0,
+        428.9068603515625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

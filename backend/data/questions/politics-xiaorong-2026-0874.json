@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0874",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "大革命失败后，在国民党的统治下，白色恐怖笼罩着全国，中国革命转入低潮。在严峻的考验面\n\n前，中国共产党人表现了坚定的革命立场和大无畏的英雄气概，独立高举起反帝反封建的革命旗\n\n帜，中国革命由此发展到了一个新的阶段。由大革命失败到土地革命战争兴起的历史性转变是",
+  "answer_markdown": "B",
+  "analysis_markdown": "出处精沛两6 考点36 -2-\n\n大革命失败的含义,C、D 不符合题意。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 129,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "遵义会议"
+    },
+    {
+      "key": "B",
+      "text": "八七会议"
+    },
+    {
+      "key": "C",
+      "text": "三湾改编"
+    },
+    {
+      "key": "D",
+      "text": "党的六大"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 129,
+      "bbox": [
+        89.45600128173828,
+        1185.849365234375,
+        930.1576538085938,
+        1316.699951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 134,
+      "bbox": [
+        443.4700012207031,
+        289.9996643066406,
+        850.8790893554688,
+        591.191650390625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "question-6766f88412",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(15) 设曲面 S：Z = J? +y2(0£z£])，取上侧，计算 I =\n+ Ddj/dz + zdjcdj/.\ns",
+  "answer_markdown": "",
+  "analysis_markdown": "(15)解法1 (投影法)如图9-11所示.\n(T\n记\nI —\n& + 1) dydz + zcLzdy == 11 + 12.\ns\nII =JJ\n乂 + 1) dydz +』(<r + 1) dydz\nz + DdydN = H (\nS\ns前\n[\\/n — $2 dydz +\ns后\nJz —夕2 ) dj/dz\n'1\ny\n图 9-11\n=—2jJ Jz — 亍 dydz =— 2\nI\n=-2r\n1 y • Cl — y2)^dy\n荻-小I]\nJ -1\n_ _4 .\n• 2 f2 cosbdt\no\nf1\no 3 , y = sin t\n(1 — b )三 dj/\n=\nJ 0\n…3、，\n—T °\n_+ X2X#X*X》=—号，£\n…4 \"、\n'2k\n(x2 + yz')dxdy = J d&J\nzdjrdj/ =\n1 _ 7C\n■ 7\n2兀X* =\n飞\n%\n°\n'\n故/ =人十h =—专+ y = 0.\n解法2 (转换公式法)上虫=举=虫虫= dS.\ncos a cos 0 cos y\n曲面S-.z = x2 + y2上侧的法向量为n = (— 2x, 一 2y」)9故\n-\n—2力\n①\n—2夕\n—\n—\n，cos p =-------------—\n一\n门\n〜\ncos a = ---------------------- ，cos B = —\n9 cos y = —\n■---.......\nyi + 4jc2 +4y\n丿1 + 2 +4j/\nJl + G + 4b\n所以 dydz = C°S adxdy = (—\n故\ncos y\nI = (jc + 1) dydz + zdxdy\nS\n2jj2 + n) dxdj/\n\\_Qx + 1) • (— 2x) + z]dx^y =\ns\no\nd0 [ (r2 sin2 9 — r2 cos2 9) rdr\nJ 0\n'2tz\n2 k\ns\n'2n\njj\n[_— 2je2 + xz + j/2]dxdj/ =\n召g\n^\n(sin2(9 — cos2(?)d(9f r3dr =—寺sin 2,9\nJ o\n解法3 (高斯公式法)\n:仃;yi,取下侧，则u\n添加辅助面Si：\n•又\nS+S] S]\n‘2*\ndoj rdrj 2 dz =\n亚(z + 1) dydz + zdxdy\n—7t.\n柱坐标\n(1 + 0 + l)dV——-2\nV\n‘2：\nOFS]\njj (x + l)dj/d^ + zAxAy = 0 +』zdxdy =—\ndo] rdr =一 兀\nJJ ldzdy =—\n%\nS1\nS]\n故 I =— 7t — (— 7T)= 0.\n【注】计算第二类曲面积分有三种方法：\n讲义》）.\n以上三种解法中，高斯公式法较简单.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 57,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.469411+00:00",
+  "updated_at": "2026-08-23T12:39:51.518399+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 57,
+      "bbox": [
+        24.0,
+        91.78978729248047,
+        482.3999938964844,
+        114.76557159423828
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 163,
+      "bbox": [
+        24.0,
+        133.38427734375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 164,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        97.65336608886719
+      ]
+    }
+  ]
+}

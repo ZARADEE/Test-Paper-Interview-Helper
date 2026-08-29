@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0965",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1898 年的“百日维新” 如同昙花一现，只经历了103 天就夭折了。除京师大学堂（北京大学的\n\n前身）被保留下来以外，其余新政措施大都被废除，维新派人土和参与或同情变法的官员，或\n\n被囚禁，或被革职，或遭放逐。戊戌维新运动宣告失败。戊戌维新运动的失败，主要是由于",
+  "answer_markdown": "AC",
+  "analysis_markdown": "民用企业，在客观上对中国的早期工业和民\n\n出处精而近习考点16 -2-(1)\n\n族资本主义的发展起了某些促进作用。洋务",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 141,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "维新派自身的局限"
+    },
+    {
+      "key": "B",
+      "text": "资产阶级革命派的强烈反对"
+    },
+    {
+      "key": "C",
+      "text": "以慈禧太后为首的强大的守旧势力的反对"
+    },
+    {
+      "key": "D",
+      "text": "帝国主义列强的粗暴干涉"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 141,
+      "bbox": [
+        89.18499755859375,
+        1006.6646728515625,
+        928.672607421875,
+        1155.7838134765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 147,
+      "bbox": [
+        441.1310119628906,
+        577.46728515625,
+        852.4967041015625,
+        1245.7947998046875
+      ]
+    }
+  ]
+}

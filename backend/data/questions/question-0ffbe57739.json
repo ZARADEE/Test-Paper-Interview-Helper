@@ -1,0 +1,49 @@
+{
+  "id": "question-0ffbe57739",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(28) 设在(—oo, + oo)内有连续导数，证明：\nlim\n+ a) —/Xt — a)］dt = /\"'(0).\na-> ()+ 4<2 J —a",
+  "answer_markdown": "",
+  "analysis_markdown": "(28)证 由积分中值定理，有\nlim占『\n+ a) — f{t — a)］ dt\n—a\na-o+ 4a J -\n—lim 右［y(g + a) — _/(£—a)］ , — a M £ £ a.\nlo+ /a\ng 在［£ —a,g+a］上使用拉格朗日中值定理，\n/XW + a) — /\"(€— a) = 2af'yE— a<7/<£+a.\n而f 3在(—oo,4-oo)內连续，故\n原式=lim (?7)=\n= f\\0).\na—o+\na—0+\n【注】 此题也可利用积分换元法及洛必达法则证明，证明如下：\na = u\nf一2a\n=-j f(u)du^\n*a\n_\n/ + a = %\nfit + a)dt 八」.............:\n—a\n*2a\nPa\n/（w）du, /（Z — a）dt\nJ -a\n故\n'2a\n*~2a\n/(u)du +\n原式=lim\n8a\n=lim 2/~'(2a)+2/~'(— 2a)\n0 /(\")d\" _ |\n2f(2a)-2f(—2a)\n—\n—11 m ----------------------------\n心\n—\n=/(0).\na-* ()+",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 29,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.446744+00:00",
+  "updated_at": "2026-08-23T12:39:51.036845+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 29,
+      "bbox": [
+        24.0,
+        614.5653686523438,
+        482.3999938964844,
+        656.30712890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 72,
+      "bbox": [
+        24.0,
+        364.3051452636719,
+        482.3999938964844,
+        581.9324951171875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0032",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "没有上，就无所谓下；没有先进，就无所谓落后；没有正确，就无所谓错误。这说明",
+  "answer_markdown": "C",
+  "analysis_markdown": "出处精讲下将考点17 -2-0\n\n简析量变是质变的必要准备c 任何事物的\n\n出处精讲P16］考点16 -2-(2)-iJ\n\n变化都有一个量变的积累过程，没有量变的\n\n简析题干讲的都是矛盾双方相互依存(互为\n\n积累，质变就不会发生。题干材料中这个人\n\n存在的前提)，不是讲相互排斥、相互渗透，也\n\n的错误就在于只看到最后的质变，忽略了之\n\n不是讲相互转化，所以C 是最准确的答案。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 5,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "矛盾双方是相互排斥的"
+    },
+    {
+      "key": "B",
+      "text": "矛盾双方是相互渗透的"
+    },
+    {
+      "key": "C",
+      "text": "矛盾双方是相互依存的"
+    },
+    {
+      "key": "D",
+      "text": "矛盾双方是相互转化的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 5,
+      "bbox": [
+        94.99700164794922,
+        745.8295288085938,
+        843.9719848632812,
+        843.5775146484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 8,
+      "bbox": [
+        13.910999298095703,
+        859.404296875,
+        420.50042724609375,
+        1031.677490234375
+      ]
+    }
+  ]
+}

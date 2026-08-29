@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-1217",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "网络空间同现实社会一样，既要提倡自由，也要保持秩序。公共生活需要公共秩序，有序的公\n\n共生活是",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "出处精耕用时考点42 -1-0\n置近法律的国家强制性，既表现为国家对违\n\n出处精讲强比考点38 -1-\n\n置反公共秩序是由一定规范维系的人们公\n\n法行为的否定和制裁，也表现为国家对合法\n\n行为的肯定和保护。A、B 正确。国家强制力\n\n共生活的一种有序化状态。公共生活领域越",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 177,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "调整和规范人际关系的行为准则"
+    },
+    {
+      "key": "B",
+      "text": "社会生产活动的重要基础"
+    },
+    {
+      "key": "C",
+      "text": "提高社会成员生活质量的基本保障"
+    },
+    {
+      "key": "D",
+      "text": "社会文明的重要标志"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 177,
+      "bbox": [
+        88.7969970703125,
+        307.47686767578125,
+        929.256103515625,
+        437.1035461425781
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        9.705999374389648,
+        1178.839599609375,
+        419.4291076660156,
+        1316.947021484375
+      ]
+    },
+    {
+      "page": 181,
+      "bbox": [
+        470.0509948730469,
+        32.3353157043457,
+        851.7111206054688,
+        258.4220733642578
+      ]
+    }
+  ]
+}

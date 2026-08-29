@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0620",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新时代，统一战线面临的时和势、肩负的使命和任务发生了重大变化。新时代爱国统一战线的\n\n历史责任是",
+  "answer_markdown": "B",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 93,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "高举爱国主义、社会主义旗帜"
+    },
+    {
+      "key": "B",
+      "text": "促进中华儿女大团结"
+    },
+    {
+      "key": "C",
+      "text": "坚持和完善中国特色社会主义制度"
+    },
+    {
+      "key": "D",
+      "text": "巩固和维护国家安全的民心基础"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        88.14099884033203,
+        461.3515319824219,
+        928.9376831054688,
+        590.2620239257812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        432.635986328125,
+        396.1024475097656,
+        843.146484375,
+        671.5243530273438
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-2594ae53e2",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(7)(选做)设D：弓+占Wl,则I =\na b\ny2 da:dy =\nb",
+  "answer_markdown": "",
+  "analysis_markdown": "⑺畔.\n4 °\n由于D为椭圆形区域，故用广义极坐标进行计算.\n解\n令工=ar cos 9,y = 6rsin 0,贝 I」D：与 + 务\n»2 「2 £1，变为 D，：0<r<l,0<^<27r,其变换\na b\n雅可比行列式为\ndjc\n丽\nacos 9 一 ar sin 9\nt d（x,y）\n6sin 9 brcos 9\n=abr,\ndx_\ndr\nd y\na?\n=1对:\"曲0・如1一哼.\n故\n^y2dxdy =\nJJ （6rsin 9）2 \\ J \\ drdO\nD\nD'\n【注】广义极坐标属于了解内容.",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 42,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.455396+00:00",
+  "updated_at": "2026-08-23T12:39:51.277663+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 42,
+      "bbox": [
+        24.0,
+        554.4899291992188,
+        482.3999938964844,
+        585.2396850585938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        24.0,
+        346.20098876953125,
+        482.3999938964844,
+        509.82989501953125
+      ]
+    }
+  ]
+}

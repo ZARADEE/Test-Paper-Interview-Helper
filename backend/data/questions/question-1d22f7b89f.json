@@ -1,0 +1,58 @@
+{
+  "id": "question-1d22f7b89f",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(14) 设v是由^2+y+Z2 =用与y+y+ Q—r)2 =疋所围的区域，计算？ = jpdv.\nV",
+  "answer_markdown": "",
+  "analysis_markdown": "(14)解 如图6-34所示,V由两个球面所围.\n.(JC2 4- 3^2 + Z2 = R2，\n田 \\x2 +y2 -\\-{z-RY = R2,\n2 I 2 _\nv H +夕=\nN = 0.\n考虑到被积函数仅含Z，采用直角坐标•的“先二后一”，有\ntR\n2 z2dz\nJ 山巧+];/血\nV\n,R\n:N2(R2 -Z2)dz\n2 z2 ( 2Rz — z2)dz tc\n~2\n0 ・\n7t\n=7T\nR\n7 +x\n—护］|;=孟凤\n【注】 此题也可采用下列方法：\ndjjdy\n厂2--…2…2 ' dz,显然积分较烦琐.\nR— V R —X —y\n①“先一后二”，1 =\n[J广皿\n②柱面坐标，I =\nR-^rz2dz'\nJ 0 J 0\n.\nR\nz =-- .\n2，\n③球面坐标.由V\n2化为球坐标，得\njc2 + y2 —\nrcos 卩=|\nR\nrcos cp =—\nLi\n2即<\nrsin cp =\nr2 sin2 =\n解得（p =专\"9故分区域积分有\n'R\n'2-K\n*21?cos <p\nsin\no\nsin (p&(p\nde\n0 ・\nin 卩cos?\nr4 dr + J dO\n比较以上情形，知选择“先二后一”较为方便.\nr4dr.\no",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 41,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.455396+00:00",
+  "updated_at": "2026-08-29T13:35:34.333306+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 41,
+      "bbox": [
+        24.0,
+        656.7088623046875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 42,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 111,
+      "bbox": [
+        91.19999694824219,
+        628.7931518554688,
+        288.6252136230469,
+        713.1045532226562
+      ]
+    }
+  ]
+}

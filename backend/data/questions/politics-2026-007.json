@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-007",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国特色社会主义制度中具有统领地位的是",
+  "answer_markdown": "B",
+  "analysis_markdown": "",
+  "chapter": "中国化理论成果",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.397410+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "民族区域自治制度"
+    },
+    {
+      "key": "B",
+      "text": "党的领导制度"
+    },
+    {
+      "key": "C",
+      "text": "社会主义基本经济制度"
+    },
+    {
+      "key": "D",
+      "text": "全过程人民民主制度"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1111",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "恩格斯说：“人们自觉地或不自觉地，归根到底总是从他们阶级地位所依据的实际关系中——从\n\n他们进行生产和交换的经济关系中，获得自己的伦理观念。” 这说明，道德的产生、发展和变\n化，归根结底源于",
+  "answer_markdown": "B",
+  "analysis_markdown": "答。A 正确,B、C、D 错误。\n\n出处(SffP349 考点31 -2-0\n\n面提核心价值观的24个字，分3组分别在国\n\n直近道德是反映社会经济关系的特殊意识\n\n家层面、社会层面、公民层面回答了这几个\n\n形态。道德的产生、发展和变化，归根结底\n\n问题。\n\n源于社会经济关系。B 正确。各种社会关系",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 164,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "各种社会关系"
+    },
+    {
+      "key": "B",
+      "text": "社会经济关系"
+    },
+    {
+      "key": "C",
+      "text": "社会存在"
+    },
+    {
+      "key": "D",
+      "text": "社会的阶级关系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 164,
+      "bbox": [
+        104.99800109863281,
+        861.9244995117188,
+        937.7201538085938,
+        990.1079711914062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 169,
+      "bbox": [
+        433.510986328125,
+        413.5506896972656,
+        843.8453369140625,
+        720.185791015625
+      ]
+    }
+  ]
+}

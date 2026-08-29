@@ -1,0 +1,49 @@
+{
+  "id": "question-6f8e08796c",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(15) 设z =才(弓，寺)+g仔)，•/具有二阶连续偏导数，g具有二阶连续导数刚舟話=",
+  "answer_markdown": "/i— -^A+xyfn —岂佻—\\g —卷(•",
+  "analysis_markdown": "/i— -^A+xyfn —岂佻—\\g —卷(•\ny\ny\nx\nx\n解 字=曲十丄兀一弓8‘，\ny\ndz _\ndx\nAn\ndxdy\nf y 〃\ny '\n=fL 孑h +巧£1_頁九2_^g —戸g・\n【注】此题g'不能写成g；・",
+  "chapter": "多元函数微分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 35,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.450061+00:00",
+  "updated_at": "2026-08-23T12:39:51.143514+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 35,
+      "bbox": [
+        24.0,
+        505.0570068359375,
+        482.3999938964844,
+        548.0365600585938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 87,
+      "bbox": [
+        24.0,
+        332.126220703125,
+        482.3999938964844,
+        437.8902282714844
+      ]
+    }
+  ]
+}

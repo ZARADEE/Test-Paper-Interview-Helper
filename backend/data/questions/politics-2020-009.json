@@ -1,0 +1,44 @@
+{
+  "id": "politics-2020-009",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "近代以来中华民族面临着争取民族独立、人民解放和实现国家富强、人民富裕两大历史任务。近代中国的历史表明，要争得民族独立和人民解放，必须首先 （ ）",
+  "answer_markdown": "D",
+  "analysis_markdown": "本题考查的是近代以来中华民族两大历史任务。近代以来中华民族面临的两大历史任务分别是争得民族独\n立和人民解放，实现国家富强和人民富裕。前者是要从根本上推翻半殖民地半封建的统治秩序，改变落后的\n生产关系和上层建筑，因此，要实现这一历史任务，必须首先进行反帝反封建的资产阶级民主革命。后者是\n要改变近代中国经济文化落后的地位和状况，发展生产力，实现中国现代化。D 正确。ABC 不符合题意。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:40:47.524542+00:00",
+  "updated_at": "2026-08-23T15:56:23.603402+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "发展教育提高国民素质"
+    },
+    {
+      "key": "B",
+      "text": "废除封建地主土地所有制"
+    },
+    {
+      "key": "C",
+      "text": "改变经济技术落后的面貌"
+    },
+    {
+      "key": "D",
+      "text": "进行反帝反封建的民主革命 ### 答案解析 9.【"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

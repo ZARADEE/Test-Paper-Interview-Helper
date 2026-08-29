@@ -1,0 +1,48 @@
+{
+  "id": "question-d660517d91",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(37) 设如图3-2(a),3-2(b)所示为同一等腰三角形薄板，已知其底为2b、高为爪将其垂\n直放入静水中，图(a)是其底与水面相齐，图(b)是其顶点与水面相齐，设图(a)与图(b)薄板\n(a)\n图3-2",
+  "answer_markdown": "",
+  "analysis_markdown": "(37)解\nrt\n+ djr]\n9 则 dPj = ^pgxy dx =\n一\n故\nPi = f dFi = f 超空(/l — jOzcLz = -Trpghh2.\nJ o\nJo h\n如图 3-18(b)中直线 OA 方程为 y =竽，则 dP2 = 2.pgxy6.x =\nAx,故\n” 2b 2\n严沪\n图 3-18\n(a)\n所以甞=2,即P2 = 2Pi.\n尸1",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 30,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.447851+00:00",
+  "updated_at": "2026-08-23T12:39:51.052102+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 30,
+      "bbox": [
+        24.0,
+        377.21966552734375,
+        482.3999938964844,
+        545.2877197265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 75,
+      "bbox": [
+        24.0,
+        168.87484741210938,
+        482.3999938964844,
+        382.7497253417969
+      ]
+    }
+  ]
+}

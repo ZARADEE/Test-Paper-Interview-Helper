@@ -1,0 +1,44 @@
+{
+  "id": "politics-2018-003",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "坚持以人民为中心，就必须坚持人民主体地位，坚持立党为公、执政为民，践行全心全意为人民服务的根本宗旨，把党的群众路线贯彻到治国理政全部活动之中，把人民对美好生活的向往作为奋斗目标，“坚持以人民为中心”的理论基础是唯物史观关于（ ）",
+  "answer_markdown": "A",
+  "analysis_markdown": "本 题 考查 人 民 群 众 在 创造 历史 过 程 中 的 决定 作用 。 人 民 群 众 是 社会 历史 实践 的 主体 ,是 历史 的 创造 者 。 这\n是 我 们 坚持 马克 轧 主义 群 众 观 点 ,贯彻 群众 路 线 , 坚 持 以 人 民 为 中 心 的 哲学 基础 或 理论 基础 。 故 A 正确。B\n说 明 的 是 人 的 本 质问 题 , 表 述 正确 但 与 题 干 无 关 。C 说 明 的 是 人 民 群 众 在 创造 历史 过 程 中 应 受到 社会 历史\n条 件 制 约 , 表 述 正确 但 与 题 意 无 关 。D 表述 错误 “总 体 的 人 \"实际 上 是 抽象 的 人 ,这 与 唯物 史 观 恰好 相悖 , 唯\n物 史 观 要 求 我 们 从 现实 性 的 角度 去 理解 人 。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:40:47.524542+00:00",
+  "updated_at": "2026-08-23T15:56:23.591640+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人的本质是一切社会关系的总和的原理"
+    },
+    {
+      "key": "B",
+      "text": "人民群众是历史的创造者的原理"
+    },
+    {
+      "key": "C",
+      "text": "人民群众的活动受到社会历史条件制约的原理"
+    },
+    {
+      "key": "D",
+      "text": "总体的人在总体的历史过程中的主体地位的原理 ### 答案解析 3.【"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

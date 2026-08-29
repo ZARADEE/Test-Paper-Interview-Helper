@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0227",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "据媒体爆料，日前某事业单位的公开招聘中，笔试、面试均为第一的硕士却被拒录，理由令人\n\n哭笑不得：报考者所学的“比较文学与世界文学” 属于“中国语言文学类”，但不是招聘要求\n\n的“中国语言文学”，“差一个字都不行”。此前在另一事业单位的招聘中也出现过“世界史不\n\n是历史学\" 的笑话。从哲学上讲，这种“白马非马” 式招聘的曾族在于朝.1\n\n.\n•\n•",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "B 符合题意,是正确选项。C 强调的是适度原\n\n出处精讲吨考点16 -3-（3）、拓展\n\n则的重要性,不符合题意。D 讲的是思想品\n\n与点拨\n\n德修养方面的问题，也不符合题意。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 32,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "一般与个别的关系"
+    },
+    {
+      "key": "B",
+      "text": "共性与个性防交系"
+    },
+    {
+      "key": "C",
+      "text": "整体与部分的关系"
+    },
+    {
+      "key": "D",
+      "text": "普遍与特殊的关系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        106.0999984741211,
+        344.689453125,
+        936.916015625,
+        533.2002563476562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        5.696999549865723,
+        612.473388671875,
+        415.2445983886719,
+        1108.668701171875
+      ]
+    }
+  ]
+}

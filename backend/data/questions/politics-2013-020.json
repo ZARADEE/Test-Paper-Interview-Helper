@@ -1,0 +1,44 @@
+{
+  "id": "politics-2013-020",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "伴随着生产力发展、科技进步及阶级关系调整，当代资本主义社会的劳资关系和分配关系发生了很大变化。其中资本家及其代理人为缓和劳资关系所采取的激励制度有：",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "【解析】随着社会生产力的发展和工人阶级反抗力量的不断壮大，资本家及其代理人开始采取一些缓和劳资关系的激励制度，促使工人自觉的服从资本家的意志。这些制度主要有：职工参与决策制度，职工终身雇佣制度以及职工持股制度。此外，社会福利制度的健全也保证了劳动者的最低生活水平，进而缓解劳资关系的紧张。故本题选ABD。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.464111+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "职工参与决策制度"
+    },
+    {
+      "key": "B",
+      "text": "职工终身雇佣制度"
+    },
+    {
+      "key": "C",
+      "text": "职工选举管理者制度"
+    },
+    {
+      "key": "D",
+      "text": "职工持股制度"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "question-92a764573e",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "（4）设有两个数列｛a”｝与｛仇｝,若limb” = 0,则（\n）.\n”一>8\n\nB当\"J I an I收敛时，2讪”收敛\nn=1\nn=1\n（：.当5>”发散时，£必”发散\nn— 1\nn=1\n\n”=1\nn=1",
+  "answer_markdown": "B",
+  "analysis_markdown": "解 对于E：由limb” = 0,知｛仇｝有界，即存在M>0,使得丨b”\n故| anbn |<M\noo\noo\noo\noo\nla” |.又因为工|a” |收敛，所以由比较审敛法，知》；f anbn \\收敛，故\n收敛，E正确.\nn=l\nn=l\nn= 1\noo\noo\noo\n对于△：若取a” = b” = 一 ，则》a”收敛，limb” =0,但》a,0” =工丄发散，排除A.\n-y 72\nn= 1\nn->°°\nn= 1\nn= 1 \"\n对于C,D：若取a” =札=丄，则可排除C,D.\nn",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 52,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.461257+00:00",
+  "updated_at": "2026-08-23T12:39:51.442993+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "当Y a”收敛时，为a”b”收敛"
+    },
+    {
+      "key": "D",
+      "text": "当S I |发散时，£a⑹发散"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛",
+    "发散"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 52,
+      "bbox": [
+        24.0,
+        336.3614807128906,
+        482.3999938964844,
+        413.3002014160156
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 146,
+      "bbox": [
+        24.0,
+        596.0355224609375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 147,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        79.84080505371094
+      ]
+    }
+  ]
+}

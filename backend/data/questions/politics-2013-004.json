@@ -1,0 +1,44 @@
+{
+  "id": "politics-2013-004",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "某资本家投资100万元，每次投资所获得的利润是15万元，假定其预付资本的有机构成是4:1，那么该资本家每次投资所实现的剩余价值率为：",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】剩余价值率m’=m/v，利润与剩余价值在量上是一样的，都是15万元，本题预付资本是100万，资本有机构成即C:V是4:1，那么可变资本是20万，资本家获得的利润即剩余价值是15万，那么剩余价值率=15/20=75%。因此本题正确答案是选项B。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.456059+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "50%"
+    },
+    {
+      "key": "B",
+      "text": "75%"
+    },
+    {
+      "key": "C",
+      "text": "100%"
+    },
+    {
+      "key": "D",
+      "text": "125%"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1173",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2017 年10 月，习近平总书记在上海瞻仰巾共一大代表群像浮雕时，曾对着浮雕一一列数中共\n\n一大13 名代表的姓名，感叹英雄辈出，也感叹大浪淘沙。个人坚守理想信念力量的强弱决定着\n\n人生命运的方向。理想信念的作用和意义在于",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "践中。A、C、D 正确,B 错误。\n\n出处精萨可驼考点13",
+  "chapter": "第二章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 171,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "昭示奋斗目标"
+    },
+    {
+      "key": "B",
+      "text": "催生前进动力"
+    },
+    {
+      "key": "C",
+      "text": "提供精神支柱"
+    },
+    {
+      "key": "D",
+      "text": "提高精神境界"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第二章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第二章"
+  ],
+  "source_regions": [
+    {
+      "page": 171,
+      "bbox": [
+        84.88700103759766,
+        931.6903686523438,
+        924.6052856445312,
+        1056.142578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 176,
+      "bbox": [
+        17.62700080871582,
+        881.7118530273438,
+        274.8105773925781,
+        955.0565795898438
+      ]
+    }
+  ]
+}

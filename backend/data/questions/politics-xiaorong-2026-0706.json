@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0706",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十八大以来，我们党及时总结新鲜经验，不断深化对改革的规律性认识，形成了习近平总\n书记关于全面深化改革的一系列新思想、新观点、新论断，为进一步全面深化改革提供了根本\n遵循。关于进一步全面深化改革，以下说法正确的有",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "知识储备题",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 104,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "要始终朝着总目标指引的方向前进，该改的坚决改，不该改的不改"
+    },
+    {
+      "key": "B",
+      "text": "要全面协调推进各方面改革，确保同时满足所有人的利益诉求"
+    },
+    {
+      "key": "C",
+      "text": "要做到重大改革于法有据，平等保护全体公民和法人的合法权益"
+    },
+    {
+      "key": "D",
+      "text": "要稳步扩大制度型开放，主动对接国际高标准经贸规则\n\n第六章\n推动高质量发展"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 104,
+      "bbox": [
+        104.58699798583984,
+        609.0195922851562,
+        938.4010620117188,
+        828.6473999023438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 112,
+      "bbox": [
+        443.1969909667969,
+        275.50640869140625,
+        753.8564453125,
+        351.37554931640625
+      ]
+    }
+  ]
+}

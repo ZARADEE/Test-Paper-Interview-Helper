@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1049",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "过渡时期总路线反映了历史的必然性，过渡时期总路线的制定，是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "出处丽保6 考点68 -3\n\n出处精讲P302 考点65 -2\n\n简析A、B、C 正确。人民大众同帝国主义、\n\n封建主义和国民党反动派残余势力之间的\n\n矛盾，是1949 年10 月到1952 年底土地改",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 154,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "党依据新中国成立后的经济、政治条件的新变化作出的重大决策"
+    },
+    {
+      "key": "B",
+      "text": "党的总路线、总任务及发展战略上的重大转变"
+    },
+    {
+      "key": "C",
+      "text": "符合新中国社会发展的实际和规律的"
+    },
+    {
+      "key": "D",
+      "text": "解决人民大众同帝国主义、封建主义和国民党反动派残余势力之间矛盾的需要"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 154,
+      "bbox": [
+        102.38700103759766,
+        490.81427001953125,
+        826.11181640625,
+        645.7237548828125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 159,
+      "bbox": [
+        439.4880065917969,
+        296.05609130859375,
+        850.0382690429688,
+        889.0867309570312
+      ]
+    }
+  ]
+}

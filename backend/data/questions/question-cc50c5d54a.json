@@ -1,0 +1,64 @@
+{
+  "id": "question-cc50c5d54a",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设当工一+oo时J(_z),g(_z)都是无穷大，则当H-+OO时，下列结论正确的\n是( )・\n\n。第消是无穷小",
+  "answer_markdown": "D",
+  "analysis_markdown": "lim /了)J\"严(F = lim , + lim /\n= 0.\n解 由题可得\nHf+oo f ^X) g^X)\nX->+oo g{X) L+oo /(h)",
+  "chapter": "函数、极限与连续",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 8,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.434498+00:00",
+  "updated_at": "2026-08-23T12:39:50.697842+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "B",
+      "text": "/'(•z)+g(Q是无穷大"
+    },
+    {
+      "key": "A",
+      "text": "f(x)-ga)是无穷小"
+    },
+    {
+      "key": "C",
+      "text": "熙一1"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "无穷小",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 8,
+      "bbox": [
+        24.0,
+        360.7061462402344,
+        482.3999938964844,
+        434.48309326171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 7,
+      "bbox": [
+        24.0,
+        544.4720458984375,
+        482.3999938964844,
+        578.072021484375
+      ]
+    }
+  ]
+}

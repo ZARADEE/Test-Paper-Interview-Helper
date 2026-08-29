@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1216",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "当代公共生活的特征主要表现在",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲P355) 考点38 T-U",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 177,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "B",
+      "text": "活动内容的开放性"
+    },
+    {
+      "key": "A",
+      "text": "活动范围的广泛性"
+    },
+    {
+      "key": "D",
+      "text": "活动方式的多样性"
+    },
+    {
+      "key": "C",
+      "text": "交往对象的复杂性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 177,
+      "bbox": [
+        88.6989974975586,
+        213.8668975830078,
+        704.8209228515625,
+        312.8221435546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        9.674999237060547,
+        1107.7037353515625,
+        343.6835021972656,
+        1182.9654541015625
+      ]
+    }
+  ]
+}

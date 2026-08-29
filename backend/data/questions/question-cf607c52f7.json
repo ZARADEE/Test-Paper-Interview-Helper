@@ -1,0 +1,49 @@
+{
+  "id": "question-cf607c52f7",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)有三个盒子，第一个盒子中有3个黑球、1个白球，第二个盒子中有2个黑球、3个白\n球，第三个盒子中有3个黑球、2个白球.\n(1) 任取一个盒子，再从该盒子中取出一个球，求这个球是白球的概率；\n(D)已知取出的是白球，求此球属于第三个盒子的概率.",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)解 (I )设A = ｛取出的是白球｝,B = ｛取到第i只盒子｝\" = 1,2,3.\n依题设,P(B)=寺，由全概率公式，得\nP(A)=》P(B)P(A I B.)=专 X\n(H)\ni= 1\n由(I)及贝叶斯公式，得\n|xf\nP(B3 I A)= P(B3)P(A I B3)\nP(A)\n25\"",
+  "chapter": "随机事件与概率",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 86,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.484944+00:00",
+  "updated_at": "2026-08-23T12:39:51.889250+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机事件",
+    "概率"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机事件与概率"
+  ],
+  "source_regions": [
+    {
+      "page": 86,
+      "bbox": [
+        24.0,
+        292.4932861328125,
+        482.3999938964844,
+        351.85162353515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 239,
+      "bbox": [
+        24.0,
+        341.73248291015625,
+        482.3999938964844,
+        459.1183166503906
+      ]
+    }
+  ]
+}

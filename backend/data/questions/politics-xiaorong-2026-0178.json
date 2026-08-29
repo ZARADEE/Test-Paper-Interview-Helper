@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0178",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "垄断是通过一定的垄断组织形式实现的。垄断组织是指在一个或几个经济部门中占据垄断地位\n\n的大企业联合。垄断组织的形式多种多样，而且在各个国家、各个时期也不同。尽管垄断组织\n\n的形式多种多样，且不断变化发展，但它们在本质上是一样的，都是",
+  "answer_markdown": "A",
+  "analysis_markdown": "出处精讲询］考点76 -1-iJ\n\n出处精讲下庭考点78 -3-0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 24,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "通过联合来操纵垄断价格以攫取高额垄断利润"
+    },
+    {
+      "key": "B",
+      "text": "通过签订各种协定阻止其他企业进入高利润行业"
+    },
+    {
+      "key": "C",
+      "text": "通过消除竞争达到独自占有市场的目的"
+    },
+    {
+      "key": "D",
+      "text": "通过兼并小企业以达到生产集中和资本集中的目的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 24,
+      "bbox": [
+        104.08300018310547,
+        824.2825927734375,
+        936.3909301757812,
+        1045.2015380859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 33,
+      "bbox": [
+        436.5660095214844,
+        592.6691284179688,
+        857.7225952148438,
+        1022.69384765625
+      ]
+    }
+  ]
+}

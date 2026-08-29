@@ -1,0 +1,50 @@
+{
+  "id": "question-0ded3ee0e6",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)设S为平面鼻+ y + z = 4被圆柱面= 1截出的有限部分，则J = 肿S\ns",
+  "answer_markdown": "4 a/^7T・",
+  "analysis_markdown": "4 a/^7T・\n—夕，得必=—1, = — 1,则 dS = a/ 1 + Zy-\\- Zy dzdy =\n,\n解\n由 S：z — 4 — x\nFds=\n故\nS\n(4 一 x — y) • y/3dj：dy\n% -\nj\n=| ( 4 — rcos(9 — rsin 9) rdr — 4\n( Diy : x2 +护£1).\n'2n\nJ 0",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 55,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.462366+00:00",
+  "updated_at": "2026-08-23T12:39:51.489607+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 55,
+      "bbox": [
+        24.0,
+        412.3885192871094,
+        482.3999938964844,
+        457.8085021972656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 156,
+      "bbox": [
+        24.0,
+        463.1869201660156,
+        482.3999938964844,
+        539.6588134765625
+      ]
+    }
+  ]
+}

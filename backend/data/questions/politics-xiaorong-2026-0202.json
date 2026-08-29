@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0202",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思、恩格斯科学总结了哲学和自然科学发展的成果，继承了以往唯物主义关于世界物质性的\n\n基本观点，同时批判了旧唯物主义对物质世界的直观、消极、机械的理解，强调要",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "态进行了列表总结，可作为参考。",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 27,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "用辩证的观点把握世界"
+    },
+    {
+      "key": "B",
+      "text": "从意识对于物质的独立性和根源性中把握和规定物质"
+    },
+    {
+      "key": "C",
+      "text": "从实践出发去把握现实世界"
+    },
+    {
+      "key": "D",
+      "text": "从自然存在和社会存在的统一中把握世界的物质性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 27,
+      "bbox": [
+        85.93299865722656,
+        1038.0927734375,
+        926.2395629882812,
+        1226.384521484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        434.20098876953125,
+        375.8697814941406,
+        845.396728515625,
+        853.8320922851562
+      ]
+    }
+  ]
+}

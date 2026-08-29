@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0848",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "毛泽东说过，“民国元年的《中华民国临时约法》，在那个时期是一个比较好的东西；当然，是\n\n不完全的、有缺点的”。这里之所以说《中华民国临时约法》“在那个时期是一个比较好的东\n\n西”，是因为它",
+  "answer_markdown": "B",
+  "analysis_markdown": "的任务。C 正确。A、B、D 是资产阶级革命派\n\n的具体的弱点、错误，不是产生这些弱点、错\n\n出处精诚围\n考点22 -4\n\n误的根源,不符合题意。\n\n简析毛泽东说:“民国元年的《中华民国临时\n\n约法》，在那个时期是一个比较好的东西；当\n\n然，是不完全的、有缺点的,是资产阶级性的，",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 126,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "以根本大法的形式否定了封建土地所有制"
+    },
+    {
+      "key": "B",
+      "text": "带有革命性、民主性"
+    },
+    {
+      "key": "C",
+      "text": "是中国近代历史上第一个比较系统的发展资本主义的方案"
+    },
+    {
+      "key": "D",
+      "text": "明确拒绝承认清政府与列强所订的一切不平等条约"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 126,
+      "bbox": [
+        103.01300048828125,
+        308.48797607421875,
+        936.1293334960938,
+        525.8858642578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 130,
+      "bbox": [
+        442.9849853515625,
+        833.9420166015625,
+        859.99072265625,
+        1319.322998046875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0160",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "某资本家投资100 万元，每次投资的剩余价值率为125%, 每次投资的利润为25 万元，该资本\n家预付资本的有机构成是",
+  "answer_markdown": "B",
+  "analysis_markdown": "的，只有C、D 是用了“再生产” 三个字，\n\n这就可以缩小选择范围。\n\n出处精讲户71］考点70 -4",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 22,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "3 ：1"
+    },
+    {
+      "key": "B",
+      "text": "4 ：1"
+    },
+    {
+      "key": "C",
+      "text": "5 ：1"
+    },
+    {
+      "key": "D",
+      "text": "2 ：1"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 22,
+      "bbox": [
+        104.47200012207031,
+        540.0108642578125,
+        937.395751953125,
+        643.0441284179688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 31,
+      "bbox": [
+        3.4940004348754883,
+        812.87451171875,
+        401.60870361328125,
+        889.684814453125
+      ]
+    }
+  ]
+}

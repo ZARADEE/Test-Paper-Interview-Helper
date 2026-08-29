@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1045",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新民主主义革命的胜利，中华人民共和国的成立，实现了中国从几千年封建专制政治向人民民\n\n主的伟大飞跃，实现了中国高度统一和各民族空前团结。中国人从此站立起来了，从此把命运\n\n牢牢掌握在自己手中，成为国家、社会和自己命运的主人，中华民族发展进步从此开启了新纪\n\n元。新民主主义革命的胜利，中华人民共和国的成立",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "过渡时期总路线是要解决无产阶级与资产\n\n出处精讲用四考点66\n\n阶级的矛盾，使我国由新民主主义社会进入",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 153,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "彻底结束了旧中国半殖民地半封建社会的历史"
+    },
+    {
+      "key": "B",
+      "text": "彻底结束了极少数剥削者统治广大劳动人民的历史"
+    },
+    {
+      "key": "C",
+      "text": "彻底结束了旧中国一盘散沙的局面"
+    },
+    {
+      "key": "D",
+      "text": "彻底废除了列强强加给中国的不平等条约和帝国主义在中国的一切特权"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 153,
+      "bbox": [
+        89.0,
+        928.3030395507812,
+        929.3694458007812,
+        1174.1553955078125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 159,
+      "bbox": [
+        5.791999816894531,
+        1027.7454833984375,
+        278.79669189453125,
+        1102.4449462890625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-004",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "列宁在谈到对未来社会时写道：“我们可以绝对有把握地说，剥夺资本家一定会使人类社会的生产力蓬勃发展。但是，生产力将以什么样的速度向前发展，将以什么样的速度发展到打破分工、消灭脑力劳动和体力劳动的对立、把劳动变为生活的第一需要’,这都是我们所不知道而且也不可能知道的。”列宁的表述中可以看出，未来社会必然会发生的是",
+  "answer_markdown": "B",
+  "analysis_markdown": "",
+  "chapter": "政治经济学",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.392534+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "生产力发展的具体方式"
+    },
+    {
+      "key": "B",
+      "text": "生产力将有更大发展"
+    },
+    {
+      "key": "C",
+      "text": "劳动成为生活的唯一需要"
+    },
+    {
+      "key": "D",
+      "text": "实现人的无差别的全面发展"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

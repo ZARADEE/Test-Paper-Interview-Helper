@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0654",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“一国两制” 是中国共产党领导人民实现祖国和平统一的伟大构想。“一国两制” 方针的最高原\n\n则是",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "第十五章］坚持“一国两制”和推进祖国完全统一",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 97,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "维护国家主权、安全、发展利益"
+    },
+    {
+      "key": "B",
+      "text": "实现祖国和平统一"
+    },
+    {
+      "key": "C",
+      "text": "确保中华民族伟大复兴进程不被迟滞甚至中断"
+    },
+    {
+      "key": "D",
+      "text": "政权必须掌握在爱国者手中"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十五章］坚持“一国两制”和推进祖国完全统一"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十五章］坚持“一国两制”和推进祖国完全统一"
+  ],
+  "source_regions": [
+    {
+      "page": 97,
+      "bbox": [
+        87.87100219726562,
+        176.184326171875,
+        927.9502563476562,
+        367.042724609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 107,
+      "bbox": [
+        4.020999908447266,
+        434.81024169921875,
+        413.97747802734375,
+        939.0782470703125
+      ]
+    }
+  ]
+}

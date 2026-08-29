@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1229",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平法治思想是经过长期发展而形成的内涵丰富、论述深刻、逻辑严密、系统完备的法治理\n\n论体系，为建设法治中国指明了前进方向，在中国特色社会主义法治建设进程中具有重大政治\n\n意义、理论意义、实践意义。习近平法治思想",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "的道德、最高统治者的言论等形式中。B、D\n\n正确,A、C 错误。\n\n出处精讲P365 考点45 -1",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 178,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "揭示了社会主义法治的生命力和优越性"
+    },
+    {
+      "key": "B",
+      "text": "推动了中国特色社会主义法治理论创新发展"
+    },
+    {
+      "key": "C",
+      "text": "擘画了新时代全面依法治国的宏伟蓝图"
+    },
+    {
+      "key": "D",
+      "text": "引领着法治中国建设迈向良法善治新境界"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 178,
+      "bbox": [
+        103.72000122070312,
+        702.54638671875,
+        935.9990234375,
+        867.6199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 182,
+      "bbox": [
+        441.3039855957031,
+        493.06182861328125,
+        848.6392822265625,
+        830.0152587890625
+      ]
+    }
+  ]
+}

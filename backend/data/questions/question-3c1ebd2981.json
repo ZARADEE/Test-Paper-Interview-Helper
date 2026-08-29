@@ -1,0 +1,57 @@
+{
+  "id": "question-3c1ebd2981",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 微分方程岁=咗兰满足j/d) =0的特解为________ .",
+  "answer_markdown": "*ln［（密•） + 1 ］十 arctan 工 + In 工=0.",
+  "analysis_markdown": "*ln［（密•） + 1 ］十 arctan 工 + In 工=0.\n解\n已知方程变形为学=-―，为一阶齐次微分方程.\n工+ 1\n令工=“,贝！|》=必.卫=\n.卫=丁屯丰〃.帥“亠了屯=生二2.分离变量得\nX\n积分得\n+ arctan — + In jc = 0.\nx\n1+ / —\n+ X\n解 由（tan yY = sec2 y,令u = tan %则原方程为/ + ；\n=力，为一阶线性微\n1 —|— x\n分方程，故通解为\n丿1 +工2\n£•，故所求特解为tan夕=+/ —\n由夕（0） = 0,得C =一 了•，故所求特解为tan夕=石\n【注】 这类利用导数去“找变量替换”的方法，值得注意.",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.457941+00:00",
+  "updated_at": "2026-08-23T12:39:51.369424+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        24.0,
+        216.61148071289062,
+        482.3999938964844,
+        244.563720703125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 130,
+      "bbox": [
+        24.0,
+        385.73541259765625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 131,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        57.35120391845703
+      ]
+    }
+  ]
+}

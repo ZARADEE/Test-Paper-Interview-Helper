@@ -1,0 +1,59 @@
+{
+  "id": "question-5c9138309d",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "（7）设夕=/\"（工）在m处有三阶连续导数，/''（工0）= 1, f'5）= 2,厂（工0）= 3,夕=\nfS 有反函数攵=g(y)，且夕0 =\n，则 g〃(y))= ________ •",
+  "answer_markdown": "9.",
+  "analysis_markdown": "9.\n解 由反函数求导法则，可知g'（jO =尹g.\n由复合函数求导法则，可知\ndz\ndy f)\n［\"）了 尹而—；&）丁,\n护八春％）］—右m\n_ & I f'(z) 1 .主\n_\n_\ndjr \\ [/\"'(z)]3 I dj；\n=_ 严Q)y)：p~-3Lr(j了 •[严(工)]2 i\n[_/■'&)丁\n771)\n=_ f)y)F —3[”Q)了 y&)了\n[\")丁\n,\n故\n&〃（％）=_ 严（心）［/•'（工。）£ ;3［彳（氏）了［厂（心）了 = 9",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 20,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.442361+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 20,
+      "bbox": [
+        24.0,
+        667.6031494140625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 21,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 40,
+      "bbox": [
+        24.0,
+        119.55250549316406,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

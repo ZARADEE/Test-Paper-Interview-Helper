@@ -1,0 +1,55 @@
+{
+  "id": "question-828e44e28e",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)设S：^2+3/2+^2 =B(n$O),S]为S在第一卦限的部分，则(\n).\nA』\nzdS = 4 H j：dS\nB』ydS = 4』ydS\ns\nS\nSj\nsi\nzdS = 4肿 S\n\nS\nS]\nS\nS]",
+  "answer_markdown": "C",
+  "analysis_markdown": "解 由z = zT°y°,知z关于工，夕均为偶函数，故jJzdS = 4jJzdS.\nS\nS]\n由 S 关于工Oz 面,yOz 面均对称，知jprdS = 0, jj*ydS = 0, JJzj/zdS = 0,而jpcdS > 0,\nS\nS\nS\nS]\nJJydS > o, JJ^zdS > 0,故排除 A,B,D,所以 C 正确.\nsi\nsi",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 55,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.462366+00:00",
+  "updated_at": "2026-08-23T12:39:51.488605+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "C",
+      "text": "D. JJxyzdS = 4jj xyz dS"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 55,
+      "bbox": [
+        24.0,
+        313.1590881347656,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 156,
+      "bbox": [
+        24.0,
+        348.685546875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

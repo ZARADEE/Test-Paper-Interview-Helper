@@ -1,0 +1,44 @@
+{
+  "id": "politics-2010-032",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2009年9月18日，中国共产党第十七届中央委员会第四次全体会议胜利闭幕，全会审议通过了《中共中央关于加强和改进新形势下党的建设若干重大问题的决定》，对当前和今后一个时期加强和改进党的建设作出了部署，其中除了强调要建设马克思主义学习型政党、坚持和健全民主集中制外，还要：",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "【解析】国内时事。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.402256+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "弘扬党的优良作风"
+    },
+    {
+      "key": "B",
+      "text": "深化干部人事制度改革"
+    },
+    {
+      "key": "C",
+      "text": "做好抓基层打基础工作"
+    },
+    {
+      "key": "D",
+      "text": "加快推进惩治和预防腐败体系建设"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "demo-fill-004",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "计算表达式 f_4(0) 的值为 $\\underline{\\quad}$。",
+  "options": [],
+  "answer_markdown": "1",
+  "analysis_markdown": "代入定义域内的指定点即可得到结果。",
+  "scoring_points": [
+    {
+      "label": "步骤完整",
+      "score": 5
+    }
+  ],
+  "tags": [
+    "高等数学",
+    "极限"
+  ],
+  "chapter": "高等数学",
+  "knowledge_points": [
+    "函数"
+  ],
+  "difficulty": "medium",
+  "score": 5,
+  "review_status": "approved",
+  "created_at": "2026-08-23T10:09:58.419089+00:00",
+  "updated_at": "2026-08-23T10:09:58.419089+00:00"
+}

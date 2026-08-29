@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1169",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "辩证对待人生矛盾，要树立正确的荣辱观。中国古人向来注重荣与辱。以下名言体现出中国古\n\n人注重荣与辱的有",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "是否用自己的劳动和聪明才智为国家和社会\n\n出处精甫死匈考点10 -1-(5)\n\n真诚奉献，为人民群众尽心尽力服务。个体\n\n道近A、B、C 正确。“舍生取义”属于生死\n\n对社会和他人的生存和发展贡献越大,其人生\n\n观,D 不符合题意。\n\n的社会价值也就越大;反之，人生的社会价值\n\n就越小。A、C、D 正确,B 显然错误。\n\n第二章",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 171,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "“知耻近乎勇”"
+    },
+    {
+      "key": "B",
+      "text": "“无羞恶之心，非人也”"
+    },
+    {
+      "key": "C",
+      "text": "“礼义廉耻，国之四维”"
+    },
+    {
+      "key": "D",
+      "text": "“舍生取义”\n\n第二章\n追求远大理想坚定崇高信念"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 171,
+      "bbox": [
+        84.62899780273438,
+        367.5006408691406,
+        924.7147827148438,
+        493.01348876953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 175,
+      "bbox": [
+        438.71600341796875,
+        989.3118896484375,
+        848.7642211914062,
+        1131.565673828125
+      ]
+    }
+  ]
+}

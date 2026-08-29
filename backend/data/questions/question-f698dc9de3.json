@@ -1,0 +1,49 @@
+{
+  "id": "question-f698dc9de3",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 已知向量 ai = (1,2,3)T , a2 = (2, — 1,1)T , a3 = (一2,怡，4)丁 线性相关，则\nk =________ .",
+  "answer_markdown": "6.",
+  "analysis_markdown": "6.\n解 对于3个3维向量线性相关性的问题，用行列式或秩.本题用秩进行计算.\n‘1 2\n-2\n'1 2\n-2\n怡+ 4\nA = (ai ,a2 ,a3)=\n6 — k\n0 - 5\n0 -5\n0 - 5 怡 + 4 ,\n10 0\n-2'\n2-1 k —\n.3\n由ai ,a2 a 线性相关，则r(A) V 3,故k =",
+  "chapter": "向量",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 68,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.476288+00:00",
+  "updated_at": "2026-08-23T12:39:51.705246+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "向量",
+    "线性相关"
+  ],
+  "tags": [
+    "线性代数",
+    "向量"
+  ],
+  "source_regions": [
+    {
+      "page": 68,
+      "bbox": [
+        24.0,
+        585.4320068359375,
+        482.3999938964844,
+        617.5296020507812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 197,
+      "bbox": [
+        24.0,
+        350.4411926269531,
+        482.3999938964844,
+        412.8091735839844
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0136",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在资本主义生产过程中，劳动力的价值是借助于",
+  "answer_markdown": "D",
+  "analysis_markdown": "响商品的价格，不能决定商品的价值，商\n\n出处精讲P63）考点62 -1\n逾具体劳动对应的是：\n（创造）\n\n品的价值是由生产商品的社会必要劳动时\n\n间决定的。C 错误。\n\n商品的使用价值；\n转移生产资料的价值",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 19,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "具体劳动转移到新产品中"
+    },
+    {
+      "key": "B",
+      "text": "抽象劳动转移到新产品中"
+    },
+    {
+      "key": "C",
+      "text": "具体劳动再生产出来而增殖"
+    },
+    {
+      "key": "D",
+      "text": "抽象劳动再生产出来而增殖"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 19,
+      "bbox": [
+        91.4010009765625,
+        1160.5166015625,
+        790.4179077148438,
+        1259.1728515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 27,
+      "bbox": [
+        6.8470001220703125,
+        523.08447265625,
+        418.24395751953125,
+        792.7269287109375
+      ]
+    }
+  ]
+}

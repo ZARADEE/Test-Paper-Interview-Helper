@@ -1,0 +1,48 @@
+{
+  "id": "question-47199d301b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(12) 设V是由曲面z = /—— b与z + i = C 所围的区域,计算\nUJW\nV",
+  "answer_markdown": "",
+  "analysis_markdown": "(12)解\n用柱面坐标.积分区域V如图6-32所示,\n0£&=2兀,0£广=1, r — 1 W z W ^/1 — r2 ,\n故\n【注】\n显然计算量较大.",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 41,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.455396+00:00",
+  "updated_at": "2026-08-23T12:39:51.257410+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 41,
+      "bbox": [
+        24.0,
+        583.864501953125,
+        482.3999938964844,
+        644.0757446289062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 111,
+      "bbox": [
+        24.0,
+        55.54951095581055,
+        482.3999938964844,
+        213.68106079101562
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0518",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新民主主义革命理论，是以毛泽东同志为主要代表的中国共产党人，把马克思列宁主义基本原\n\n理同中国革命具体实践相结合，在认真总结中国革命实践经验基础上形成的具有独创性的革命\n\n理论。新民主主义革命理论",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "时富裕，也不是所有地区同时达到一个富裕\n\n出处睛讲P172）考点31 -0\n\n水准。A、B 正确,C、D 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 78,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是对中国革命实践经验的概括和总结"
+    },
+    {
+      "key": "B",
+      "text": "揭示了近代中国革命发展的客观规律，解决了中国革命的一系列理论问题"
+    },
+    {
+      "key": "C",
+      "text": "科学地回答了近代中国革命向何处去的问题，以及中国革命的发展阶段问题"
+    },
+    {
+      "key": "D",
+      "text": "开辟了马克思主义中国化时代化的发展道路\n\n第三章\n社会主义改造理论"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        107.55799865722656,
+        710.2645263671875,
+        940.536865234375,
+        932.4282836914062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        4.23799991607666,
+        511.80316162109375,
+        413.77154541015625,
+        978.3069458007812
+      ]
+    }
+  ]
+}

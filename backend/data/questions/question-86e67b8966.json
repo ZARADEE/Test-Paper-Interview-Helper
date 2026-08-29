@@ -1,0 +1,48 @@
+{
+  "id": "question-86e67b8966",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(8)设 V 是由 n = \\/jc2 + y2 ,z = 1,n =\n2所围成的立体，计算/ =\ne：\nMl _______djcdydz =\nv v^2 + y2\n1— —z",
+  "answer_markdown": "27te2 ・",
+  "analysis_markdown": "27te2 ・\n解 积分区域V如图6-41所示，考虑到被积函数，可采用直角\n坐标下的“先二后一”，则\n「2 rr\nDz\n其中0心+b 又因为’\ny\n『J—d汉片S\n—\ndjrdy,\n=丄rdr = 2ttz,\nJ o Jo r\nd, + y2\n-\nC2\n所以\n2izzezdz = 2兀(之&\nezdz） = 27te2 ・\ni\n【注】此题若采用“先一后二”或球面坐标的方法，计算量较大.",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 42,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.455396+00:00",
+  "updated_at": "2026-08-23T12:39:51.279710+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 42,
+      "bbox": [
+        24.0,
+        584.2396850585938,
+        482.3999938964844,
+        627.1842651367188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        24.0,
+        508.82989501953125,
+        482.3999938964844,
+        646.7092895507812
+      ]
+    }
+  ]
+}

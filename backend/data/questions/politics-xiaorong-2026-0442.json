@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0442",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国革命走农村包围城市、武装夺取政权的道路，根本在于处理好",
+  "answer_markdown": "C",
+  "analysis_markdown": "业现代化是实现高质量发展的必然要求;更好\n\n统筹质的有效提升和量的合理增长是推动高\n\n出处精讲P176 ）考点36 -1\n\n质量发展的重要举措。B 正确,A、C、D 错误。\n\n，置近发展理念是发展行动的先导，是管全",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 68,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "土地革命、武装斗争、农村革命根据地建设三者之间的关系"
+    },
+    {
+      "key": "B",
+      "text": "统一战线、武装斗争、党的建设三者之间的关系"
+    },
+    {
+      "key": "C",
+      "text": "工人阶级、农民阶级、民族资产阶级三者之间的关系"
+    },
+    {
+      "key": "D",
+      "text": "进步势力、中间势力、顽固势力三者之间的关系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 68,
+      "bbox": [
+        98.87000274658203,
+        556.3995971679688,
+        692.1717529296875,
+        716.1265869140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 81,
+      "bbox": [
+        433.114990234375,
+        730.2432250976562,
+        750.4581909179688,
+        807.0949096679688
+      ]
+    }
+  ]
+}

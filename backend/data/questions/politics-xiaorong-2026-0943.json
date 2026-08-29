@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0943",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十五大提出了",
+  "answer_markdown": "D",
+  "analysis_markdown": "放新局面。\n\n出处晴诉电3 考点90 -0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 138,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "全面建设小康社会的奋斗目标"
+    },
+    {
+      "key": "B",
+      "text": "社会主义初级阶段理论和党的基本路线"
+    },
+    {
+      "key": "C",
+      "text": "社会主义市场经济体制的改革目标"
+    },
+    {
+      "key": "D",
+      "text": "党在社会主义初级阶段的基本纲领"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 138,
+      "bbox": [
+        106.78600311279297,
+        1107.1671142578125,
+        512.9530029296875,
+        1263.638916015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 144,
+      "bbox": [
+        449.1889953613281,
+        490.13848876953125,
+        856.4404907226562,
+        887.2732543945312
+      ]
+    }
+  ]
+}

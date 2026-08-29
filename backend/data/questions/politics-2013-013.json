@@ -1,0 +1,44 @@
+{
+  "id": "politics-2013-013",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "个体的人生活动不仅具有满足自我需要的价值属性，还必然包含着满足社会需要的价值属性。个人的需要能不能从社会中得到满足，在多大程度上得到满足，取决于他的：",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】人生价值内在地包含了人生的自我价值和社会价值两个方面。人生的社会价值，是个体的人生活动对社会、他人来说所具有的价值。人生的自我价值，是个体的人生活动对自己的生存和发展所具有的价值，主要表现为对自身物质和精神需要的满足程度。评价人生价值的 基本尺度是劳动以及通过劳动对社会和他人做出的贡献。人生的社会价值是实现人生自我价值的基础，没有社会价值，人生的自我价值就无法存在。一个人的需要能不能从社会中得到满足，在多大程度上得到满足，取决于他的人生活动对社会和他人的贡献，即他的社会价值。因此，B为正确答案。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.457567+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会影响"
+    },
+    {
+      "key": "B",
+      "text": "社会价值"
+    },
+    {
+      "key": "C",
+      "text": "社会地位"
+    },
+    {
+      "key": "D",
+      "text": "社会理想"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "思想道德修养"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "politics-2020-020",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "资本循环是资本实现价值增殖的重要前提。所谓资本循环，是指资本从一种形式出发，经过一系列形式的变化，又回到原来出发点的运动，产业资本循环过程中在空间上同时存在的资本形式有 （ ）",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "本题考查产业资本执行的三种职能。产业资本在循环过程中要经历购买、生产、售卖三个阶段，与此相应的\n是资本依次执行三种不同的职能。第一个阶段是购买阶段，产业资本执行的是货币资本的职能;第二个阶\n2020年思想政治理论试题 第11页（共 14 页）\n\n---\n\n[PDF page 3]\n\n段是生产阶段，产业资本执行的是生产资本的职能;第三个阶段是售卖阶段，产业资本执行的是商品资本的\n职能。因此，ACD 正确。借贷资本是垄断资本向世界范围扩展的基本形式之一，并非产业资本执行的三种\n职能之一，B 错误。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:40:47.524542+00:00",
+  "updated_at": "2026-08-23T15:56:23.609663+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "生产资本"
+    },
+    {
+      "key": "B",
+      "text": "借贷资本"
+    },
+    {
+      "key": "C",
+      "text": "货币资本"
+    },
+    {
+      "key": "D",
+      "text": "商品资本 ### 答案解析 20.【"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

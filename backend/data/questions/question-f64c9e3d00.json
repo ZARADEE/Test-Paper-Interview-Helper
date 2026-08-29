@@ -1,0 +1,48 @@
+{
+  "id": "question-f64c9e3d00",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 从1,2,3,4,5中任取一数X,再从1，…，X中任取一数Y,则EY =________ .",
+  "answer_markdown": "2.",
+  "analysis_markdown": "2.\n解先求Y的分布律.\nY的所有可能取值为1,2,3,4,5,由全概率公式得\nb\n1 5 ]\nP{Y =耐=》P{X =汀• P{Y = k \\ X=^ i} =\n—Ck = 1,2,-5),\ni=k\n2 = 1\nb — I\nEY =\n• P{Y = &} = £#•\n故\nk=l\n=2.\nk=l\n/>= 1",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.490264+00:00",
+  "updated_at": "2026-08-23T12:39:51.998406+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "大数定律"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        24.0,
+        58.27349090576172,
+        482.3999938964844,
+        76.22505187988281
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 259,
+      "bbox": [
+        24.0,
+        337.5672912597656,
+        482.3999938964844,
+        423.043212890625
+      ]
+    }
+  ]
+}

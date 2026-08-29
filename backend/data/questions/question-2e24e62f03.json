@@ -1,0 +1,49 @@
+{
+  "id": "question-2e24e62f03",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(13) 证明：/(^) = I 2’\n'满足拉格朗日中值定理，并求满足定理的W\n\\1 — x, —1£工<0\n的值.",
+  "answer_markdown": "",
+  "analysis_markdown": "(13)解 由 lim/(jc) = lim/(jc) = 1 = /(O),知 /(t：)在 = 0 处连续，故/\"(乞)在\n工一o+\nx-^Q~\n［—1,1］上连续•又\n/~(工)T(o)\n1-\n(1+力2) — 1\n门\n=lim ------------------ = 0，\n岸(0) = lim\nX\n心)一/(0)\nfL (0) = lim\n—o+\nH\nr (1 —;) —1\n=lim ------------------\n”o 一\n*\no,\n0—\njc\n知/■&)在工=0处可导，所以了乙)在(-1,1)内可导，故*小 在［—1,1］上满足拉格朗日\n中值定理•由\n1,\n而\nf (匚、=f ⑴—卡(—1)= 2 _ 0 =\n八㈢ 1 - (- 1)\n= I 2工,0 < j； < 1,\n丁\n\\ 一 2x, 一1 re <C 0,\n1，得{-2^=1,故& =芥 & =_*\n由 f\\x)=",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 17,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.440266+00:00",
+  "updated_at": "2026-08-23T12:39:50.847490+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分",
+    "中值定理"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        24.0,
+        544.4483032226562,
+        482.3999938964844,
+        598.4815063476562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 31,
+      "bbox": [
+        24.0,
+        286.79119873046875,
+        482.3999938964844,
+        452.7310791015625
+      ]
+    }
+  ]
+}

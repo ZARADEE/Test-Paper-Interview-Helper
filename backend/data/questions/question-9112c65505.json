@@ -1,0 +1,59 @@
+{
+  "id": "question-9112c65505",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设随机变量X的分布函数FQ) = 0. 3①(肓^)+0. 7①(马辽)，其中 W)为标准\n正态分布的分布函数，则EX =________ .",
+  "answer_markdown": "0. 5.",
+  "analysis_markdown": "0. 5.\n解 先求X的概率密度，再求EX.\nx 一 4\n* + 0. 1 (p\n/(x) = Fz (jc) = 0. 3(p\nH + 1\nI\n其中心)为X\n工+ 1\n'4-00 1\nN(0,l)的概率密度.\n好(工)山=I 0. 3 •寺• z申\ndj? +\n0. 7 • — • x(p\nEX =\ndx\nx — 4\n~2\n•-J-OO\n■T + 1\nx — 4\n=0. 3 X *\n•-|-OO\nxcp\nxcp\ndz\ndx + 0. 7 X y\n(2/ + 4)爭(£)• 2d£ + 0. 7 X +\n=0. 3 X *\n*4-00 (3/—1)申(£)• 3d/\n■oo\nO ,\n=0. 3 X 4 + 0. 7 X (- 1) = 0. 5.\n叶8\n【注】① | Up^Odt — fi = Q.\nJ —oo\n②设X〜N(〃,/)©>()),则分布函数\nx — “ v * — 口\nFQ) = P{X £刃=P\na\na\nh —卩\n即分布函数为①\n，相应随机变量X,有EX = fi.\na\nX 一\"1\n③一般结论：若 FQ)=虹①\n+爲①工 〃2\n当尿 + 為=1 时，有 EX = d/Zl + k2fJL2.",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.490264+00:00",
+  "updated_at": "2026-08-23T12:39:51.999419+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "分布函数",
+    "正态分布"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        24.0,
+        75.22505187988281,
+        482.3999938964844,
+        86.99128723144531
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 259,
+      "bbox": [
+        24.0,
+        422.043212890625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 260,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        57.60038757324219
+      ]
+    }
+  ]
+}

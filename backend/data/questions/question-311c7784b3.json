@@ -1,0 +1,48 @@
+{
+  "id": "question-311c7784b3",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4)计算/=\narctan 孑 、\ncos 6\nci\nr cos Oar・\nJ sin Geos 6",
+  "answer_markdown": "",
+  "analysis_markdown": "(4)解\n7T〜\n厂＞)=工；\n直接计算极坐标下的二次积分较烦琐，将其化为直角坐标下的二次积分.\ne =\nr\nr\ncos 尸 ” = 2;\n一 》= z___________\nr =\ndsin 0cos 8\nA/r2sin(9cos d\n1 = —xy = 1.\nV\n*2\n积分区域如图6-48所示，故在直角坐标系下有\n_!丿\n*2\n•2\ndjr = J jc2 djc — | dj?\nI =\ndjc\n1 . 严dy =\n./2_工2",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 43,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.455396+00:00",
+  "updated_at": "2026-08-23T12:39:51.290876+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        24.0,
+        238.87286376953125,
+        482.3999938964844,
+        262.13861083984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 116,
+      "bbox": [
+        24.0,
+        455.4441223144531,
+        482.3999938964844,
+        605.0167846679688
+      ]
+    }
+  ]
+}

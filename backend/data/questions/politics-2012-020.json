@@ -1,0 +1,44 @@
+{
+  "id": "politics-2012-020",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "关于共产主义理想实现的必然性，马克思主义除了从社会形态更替规律上作了一般性的历史观论证外还通过对资本主义社会的深入实证的剖析，科学地论证了：",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "【解析】本题考查的是共产主义实现的历史必然性这个考点。马克思主义从社会形态更替规律的角度剖析了资本主义的历史暂时性，资本主义的发展具有自我否定的趋势，必然要被社会主义代替 ，答案A和B是正确的。马克思主义还通过对资本主义社会矛盾的深入分析认为，工人阶级推翻资产阶级的统治是历史发展的必然趋势，工人阶级具有推翻旧世界建设新世界的历史使命。答案C是错误的，马克思主义并没有明确指出资本主义灭亡的具体途径和方式。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.450910+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "资本主义的历史暂时性"
+    },
+    {
+      "key": "B",
+      "text": "资本主义发展的自我否定趋势"
+    },
+    {
+      "key": "C",
+      "text": "资本主义灭亡的具体途径和方式"
+    },
+    {
+      "key": "D",
+      "text": "工人阶级推翻旧世界建设新世界的历史使命 ### 答案解析 20"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

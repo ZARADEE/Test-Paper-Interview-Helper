@@ -1,0 +1,59 @@
+{
+  "id": "question-2dbd14bade",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(8)设曲面S由方程F (or — bz ,ay — cz) = 0所确定，F有连续偏导数,a,b,c是不为零\n的常数，则曲面S上任一点的切平面都平行于直线(\n).\n= f = f\n= 7 D-f = f = f",
+  "answer_markdown": "B",
+  "analysis_markdown": "M 设方程F(<zz — bz ,ay — cz) = 0确定的隐函数为z = z(z,y)，则其切平面的法向\n\\djj^ dy^\n/\n量n\n0 —c字\n痣)+K\n方程两边同时对x,y求偏导，得\n=0,\nf\"o-唏)+码\ndX\ndz\na — c —\n解得\n=o,\ndz _\ndz _ aF；\ndjc bF；+ cF； ' 3y bF\\-\\- cF['\n设]=(b,c,a),由于\ncaF；\n0,\n,\nabF\\ . caF； , , 、 abF\\-\\- caF\\— a{bF\\-\\- cF\\)\n八\"=們匚耳+血匚尿+ —\")=—\nbF：+cF；\n故B正确.",
+  "chapter": "多元函数微分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 34,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.450061+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 34,
+      "bbox": [
+        24.0,
+        657.4216918945312,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 35,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 85,
+      "bbox": [
+        24.0,
+        134.6219940185547,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

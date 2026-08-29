@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0888",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1931 年9 月18 日，日本发动九一八事变，武装侵占中国东北。中国人民在九一八事变后开始\n\n的局部抗日战争",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 131,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "揭开了世界反法西斯战争的序幕"
+    },
+    {
+      "key": "B",
+      "text": "宣告了抗日民族统一战线的形成"
+    },
+    {
+      "key": "C",
+      "text": "开始了中国抗战的战略防御阶段"
+    },
+    {
+      "key": "D",
+      "text": "标志着全民族抗战的开始"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 131,
+      "bbox": [
+        89.26499938964844,
+        876.6614379882812,
+        929.8976440429688,
+        1010.5556030273438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 136,
+      "bbox": [
+        19.636999130249023,
+        1143.9368896484375,
+        383.09991455078125,
+        1222.1605224609375
+      ]
+    }
+  ]
+}

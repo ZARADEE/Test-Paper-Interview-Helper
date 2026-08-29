@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0646",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "构建新安全格局是应对国家安全形势新变化、新趋势的战略选择。要坚定不移走中国特色国家\n\n安全道路，加快构建统筹各领域安全的新安全格局。应对各领域安全风险挑战的首要任务是",
+  "answer_markdown": "B",
+  "analysis_markdown": "",
+  "chapter": "第十三章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 96,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "维护国土安全"
+    },
+    {
+      "key": "B",
+      "text": "维护政治安全"
+    },
+    {
+      "key": "C",
+      "text": "维护社会安全"
+    },
+    {
+      "key": "D",
+      "text": "维护粮食安全"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十三章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十三章"
+  ],
+  "source_regions": [
+    {
+      "page": 96,
+      "bbox": [
+        105.53299713134766,
+        343.5914306640625,
+        937.6171264648438,
+        448.1727294921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 106,
+      "bbox": [
+        442.656005859375,
+        170.4298553466797,
+        849.0166015625,
+        312.0828857421875
+      ]
+    }
+  ]
+}

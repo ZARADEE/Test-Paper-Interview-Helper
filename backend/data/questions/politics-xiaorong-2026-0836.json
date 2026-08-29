@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0836",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在维新派与守旧派之间的激烈论战中，守旧派认为“民权之说，无一益而有百害”，“民权之说\n\n一倡，愚民必喜，乱民必作，纪纲不行，大乱四起。”维新派则运用西方资产阶级政治学说，对\n\n封建君主专制制度作了批判。谭嗣同指出:“君末也；民本也。” 严复甚至认为，国家是“民之公\n\n产”，王侯将相不过是“通国之公仆隶”，而专制帝王则是“窃国者耳”。这说明维新派主张",
+  "answer_markdown": "D",
+  "analysis_markdown": "统治。A、C、D 不符合题意。\n\n出处精解药1酒\" 考点15 -2-0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 124,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "只有“兴民权改民主”，才是中国的唯一出路"
+    },
+    {
+      "key": "B",
+      "text": "推翻帝制，实行共和"
+    },
+    {
+      "key": "C",
+      "text": "进行社会革命"
+    },
+    {
+      "key": "D",
+      "text": "兴民权、设议院，实行君主立宪"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 124,
+      "bbox": [
+        107.41999816894531,
+        770.0303344726562,
+        939.33056640625,
+        1027.8968505859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 129,
+      "bbox": [
+        6.2089996337890625,
+        778.7875366210938,
+        426.49114990234375,
+        1243.5419921875
+      ]
+    }
+  ]
+}

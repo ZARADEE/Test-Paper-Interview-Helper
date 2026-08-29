@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1196",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "爱国、敬业、诚信、友善，这一价值追求回答了我们要培育什么样的公民的重大问题，是每一\n\n个公民都应当遵守的价值规范。爱国、敬业、诚信、友善，涵盖了",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "是人类社会进步的标尺，是社会主义制度的\n\n本质要求。法治是人类政治文明的重要成\n\n出处精讲下又直考点24 t— 1g\n\n果，是现代社会的主要特征。A、C、D 正确,\n\n简析爱国才能承担时代赋予的使命,敬业才\n\nB 错误。\n\n能创造更大的人生价值,诚信才能赢得良好",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 174,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会公德"
+    },
+    {
+      "key": "B",
+      "text": "职业道德"
+    },
+    {
+      "key": "C",
+      "text": "家庭美德"
+    },
+    {
+      "key": "D",
+      "text": "个人品德"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 174,
+      "bbox": [
+        102.14299774169922,
+        1112.1087646484375,
+        934.239990234375,
+        1208.3521728515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 178,
+      "bbox": [
+        446.7019958496094,
+        1093.3038330078125,
+        863.04150390625,
+        1327.031982421875
+      ]
+    }
+  ]
+}

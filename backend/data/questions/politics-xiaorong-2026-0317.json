@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0317",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在以私有制为基础的商品经济中，商品生产者的劳动具有两重性：既是具有社会性质的社会劳\n\n动，又是具有私人性质的私人劳动。私人劳动和社会劳动的矛盾",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "本规律。这一规律贯穿于商品经济的全部\n\n出处精讲下田考点66 -2-0\n\n过程，它既支配商品生产，又支配商品流通。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "构成私有制基础上商品经济的基本矛盾"
+    },
+    {
+      "key": "B",
+      "text": "决定着商品经济的本质及发展过程"
+    },
+    {
+      "key": "C",
+      "text": "是商品经济其他一切矛盾的基础"
+    },
+    {
+      "key": "D",
+      "text": "决定着商品生产者的命运"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        87.79100036621094,
+        372.8913879394531,
+        927.9263916015625,
+        501.89349365234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 62,
+      "bbox": [
+        443.1130065917969,
+        568.1741943359375,
+        860.4000244140625,
+        909.5179443359375
+      ]
+    }
+  ]
+}

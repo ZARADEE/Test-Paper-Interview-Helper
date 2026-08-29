@@ -1,0 +1,57 @@
+{
+  "id": "question-69c5e970ad",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(18) 求积分In = JAnXcLzG$ 0且为整数)的递推关系，并计算In.",
+  "answer_markdown": "",
+  "analysis_markdown": "(18)解\ni\ni\nnlnw_1 j: • — • x1 Ax\nJC\n!” = £[ lnnj?d(j72) =\nI---- [\n/Jo\nZ\nI o /Jo\n=一善[却旷匕山=—善(这里利用了\n= 0).\nZ J o\nZ\nlo+\nn 一 1\nn 一 2\n1)(-\nn—3\n由递推公式，有/” =_专■(— \" 2 1)人\nn-2\n)\\ 2\nn — 1\ni =•“=(-今)(_\nn — 2\nI\n=(-l)S!\n而几== *，故/” =( ” £丄吨!・*\n2卄i",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 29,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.446744+00:00",
+  "updated_at": "2026-08-23T12:39:51.019587+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 29,
+      "bbox": [
+        24.0,
+        89.1614990234375,
+        482.3999938964844,
+        114.70630645751953
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 68,
+      "bbox": [
+        24.0,
+        667.624755859375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 69,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        165.62664794921875
+      ]
+    }
+  ]
+}

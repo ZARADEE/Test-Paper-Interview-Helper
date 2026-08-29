@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0430",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国民主主义革命经历了旧民主主义革命和新民主主义革命两个阶段，“旧” 阶段转变到“新”\n\n阶段的根本标志是",
+  "answer_markdown": "A",
+  "analysis_markdown": "放和发展社会生产力，是改革开放的鲜明特\n\n出处精讲国7 考点23 -3\n\n征和首要任务，也是新时代贯彻新发展理念、\n\n简析人民性是马克思主义的本质属性和鲜\n\n构建新发展格局、推动高质量发展的必然要\n\n明品格。坚持以人民为中心，是新时代坚持\n\n求。解放和增强社会活力，是社会主义改革\n\n和发展中国特色社会主义的根本立场，是贯\n\n的内在要求和基本目的,也是新时代全面深\n\n穿党治国理政全部活动的一条红线。A 正\n\n化改革的关键所在。B 正确,A、C、D 错误。\n\n确,B、C、D 错误。\n\n点拨关于“首要任务”的提法：",
+  "chapter": "第二章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 67,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "B",
+      "text": "中国革命主要对象的变化"
+    },
+    {
+      "key": "A",
+      "text": "中国革命领导阶级的变化"
+    },
+    {
+      "key": "D",
+      "text": "中国社会主要矛盾的变化"
+    },
+    {
+      "key": "C",
+      "text": "中国革命基本性质的变化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第二章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第二章"
+  ],
+  "source_regions": [
+    {
+      "page": 67,
+      "bbox": [
+        94.55899810791016,
+        117.29940795898438,
+        939.754638671875,
+        252.21409606933594
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        431.8659973144531,
+        749.6032104492188,
+        841.5958251953125,
+        1243.6585693359375
+      ]
+    }
+  ]
+}

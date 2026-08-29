@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0466",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1957 年2 月，毛泽东作了《关于正确处理人民内部矛盾的问题》的报告，阐明社会主义社会的\n\n重大理论问题。毛泽东指出，用民主的方法解决人民内部矛盾，这是一个总方针。针对人民内\n\n部矛盾在具体实践中的不同情况，毛泽东提出了一系列具体方针、原则。在政治思想领域，毛\n\n泽东提出的解决人民内部矛盾的具体方针是",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 71,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "“团结一批评一团结”"
+    },
+    {
+      "key": "B",
+      "text": "“惩前忠后、治病救人”"
+    },
+    {
+      "key": "C",
+      "text": "“长期共存、互相监督”"
+    },
+    {
+      "key": "D",
+      "text": "统筹兼顾、适当安排"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 71,
+      "bbox": [
+        86.75700378417969,
+        359.44464111328125,
+        927.6709594726562,
+        552.6242065429688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 84,
+      "bbox": [
+        441.90399169921875,
+        1091.326416015625,
+        550.7124633789062,
+        1162.6749267578125
+      ]
+    }
+  ]
+}

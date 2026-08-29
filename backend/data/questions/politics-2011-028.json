@@ -1,0 +1,44 @@
+{
+  "id": "politics-2011-028",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "延安整风运动是一场非常伟大的思想解放运动。这一运动最主要的任务是反对主观主义。主观主义的主要表现形式为：",
+  "answer_markdown": "AC",
+  "analysis_markdown": "【解析】1941年5月，毛泽东作了《改造我们的学习》的报告，整风运动首先在党的高级干部中进行。1942年2月，毛泽东先后作了《整顿党的作风》和《反对党八股》的讲演，整风运动在全党范围普遍展开。 整风运动的主要内容是：反对主观主义以整顿学风、反对宗派主义以整顿党风、反对党八股以整顿文风。其中，反对主观主义是整风运动最主要的任务。主观主义是中国共产党内反复出现“左”、右倾错误的思想认识根源。主观主义的实质是理论脱离实际，它颠倒了认识和实践的关系，是实际工作中的唯心主义。当时它的主要表现形式是教条主义和经验主义，尤其教条主义是整风运动的重点。选项B形式主义和D宗派主义不符合此题的要求，故正确答案为选项AC。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.425846+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "教条主义"
+    },
+    {
+      "key": "B",
+      "text": "形式主义"
+    },
+    {
+      "key": "C",
+      "text": "经验主义"
+    },
+    {
+      "key": "D",
+      "text": "宗派主义"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0762",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "统一性是中华文明的突出特性之一，从根本上决定了",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "民文化需求和增强人民精神力量相统一。深\n\n邂精讲：P204 考点74\n表格\n\n刻把握新时代新征程的历史方位和民族复兴\n\n的时代主题，唱响昂扬的时代主旋律,充分发",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 112,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中华民族各民族文化融为一体、即使遭遇重大挫折也牢固凝聚"
+    },
+    {
+      "key": "B",
+      "text": "国土不可分、国家不可乱、民族不可散、文明不可断的共同信念"
+    },
+    {
+      "key": "C",
+      "text": "国家统一永远是中国核心利益的核心"
+    },
+    {
+      "key": "D",
+      "text": "一个坚强统一的国家是各族人民的命运所系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 112,
+      "bbox": [
+        100.36699676513672,
+        744.5203247070312,
+        700.4153442382812,
+        904.6539916992188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        443.98199462890625,
+        32.16039276123047,
+        703.0166625976562,
+        105.74620056152344
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0704",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "进一步全面深化改革的总目标是继续完善和发展中国特色社会主义制度，推进国家治理体系和\n\n治理能力现代化。到2035 年的目标是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 104,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "全面建成高水平社会主义市场经济体制"
+    },
+    {
+      "key": "B",
+      "text": "中国特色社会主义制度更加完善"
+    },
+    {
+      "key": "C",
+      "text": "基本实现国家治理体系和治理能力现代化"
+    },
+    {
+      "key": "D",
+      "text": "基本实现社会主义现代化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 104,
+      "bbox": [
+        104.50599670410156,
+        304.5095520019531,
+        938.7758178710938,
+        433.4947509765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 112,
+      "bbox": [
+        22.740999221801758,
+        1096.5062255859375,
+        283.69781494140625,
+        1173.068115234375
+      ]
+    }
+  ]
+}

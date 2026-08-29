@@ -1,0 +1,50 @@
+{
+  "id": "question-8ec36d619c",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设A】，4,…，A”为\"个相互独立的事件，且P(At) = pkCk = 1,2,…皿),求下列事\n件的概率：\n(I )A = 5个事件全不发生｝;\n(D)B = 5个事件不全发生〉；\n(in)c= a个事件中至少有一个发生｝.",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解 (I )«个事件全不发生，即n个事件的对立事件同时发生，故\nn\nn\nP(A) = P(AX A2-AJ = IlP(A)= U(1—勲)・\nb = 1\n= 1\n(U )“个事件不全发生，即n个事件中至多有n 一 1个发生，故\nn\nn\nP(B) = 1-P{A1A2-A„} = 1—\n= 1— H”\nb = 1\nk — 1\n(皿)P(C) = P(A] u A2 U - u A„) = 1-P(n AJ = 1- n(l-A).\nk = 1\nk = l",
+  "chapter": "随机事件与概率",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 85,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.483945+00:00",
+  "updated_at": "2026-08-23T12:39:51.872934+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机事件",
+    "概率",
+    "独立"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机事件与概率"
+  ],
+  "source_regions": [
+    {
+      "page": 85,
+      "bbox": [
+        24.0,
+        239.63673400878906,
+        482.3999938964844,
+        318.3353271484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 237,
+      "bbox": [
+        24.0,
+        178.4824981689453,
+        482.3999938964844,
+        282.09375
+      ]
+    }
+  ]
+}

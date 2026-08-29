@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1093",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "理想是多方面和多类型的。从主体上划分，理想有",
+  "answer_markdown": "B",
+  "analysis_markdown": "要表现为对自身物质和精神需要的满足程度。\n\n出处精讲P335 考点12 -1-(1)\n\n一个人的生活具有什么样的价值,从根本上说\n\n置近理想是多方面和多类型的。从时序上\n\n是由社会所规定的，而社会对于一个人的价值\n\n划分，有近期理想和远期理想等;从主体上划\n\n评判，也主要是以他对社会所作的贡献为标\n\n分，有个人理想和社会理想等;从内容上划\n\n准。人生的自我价值和社会价值，既相互区\n\n分，有政治理想、道德理想、职业理想和生活\n\n另力又密切联系、相互依存，共同构成人生\n\n理想等。B 正确,A、C、D 不符合题意。\n\n价值的矛盾统一体。C 正确。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 162,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "政治理想和道德理想"
+    },
+    {
+      "key": "B",
+      "text": "个人理想和社会理想"
+    },
+    {
+      "key": "C",
+      "text": "近期理想和远期理想"
+    },
+    {
+      "key": "D",
+      "text": "职业理想和生活理想"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 162,
+      "bbox": [
+        102.2249984741211,
+        845.4383544921875,
+        731.7144775390625,
+        950.9529418945312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        433.3039855957031,
+        273.0517578125,
+        843.6767578125,
+        512.9874877929688
+      ]
+    }
+  ]
+}

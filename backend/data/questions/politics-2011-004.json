@@ -1,0 +1,44 @@
+{
+  "id": "politics-2011-004",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "邓小平指出：“社会主义究竟是个什么样子，苏联搞了很多年，也并没有完全搞清楚。可能列宁的思路比较好，搞了个新经济政策，但是后来苏联的模式僵化了。”列宁新经济政策关于社会主义的思维之所以“比较好”是因为：",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】列宁新经济政策表明列宁的社会主义建设思想发生了重大转变，对在俄国这样一个小农占优势的国家走向社会主义的道路又有了新的认识，标志着列宁找到了一条符合俄国情况的建设社会主义的道路。因此此题正确答案是选项B。列宁新经济政策期间对苏维埃俄国如何建设社会主义进行了深刻的思考，提出了许多精辟的论述。提出了一些经济建设措施，阐明了思想和文化建设的重要意义，把马克思基本原理同俄国实际相结合，探索适合俄国的国情的社会主义道路，因此选项ACD错误。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.406578+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "提出了比较系统的社会主义建设纲领"
+    },
+    {
+      "key": "B",
+      "text": "根据俄国的实际情况来探索社会主义建设的道路"
+    },
+    {
+      "key": "C",
+      "text": "为俄国找到了一种比较成熟的社会发展模式"
+    },
+    {
+      "key": "D",
+      "text": "按照马克思主义关于未来社会主义的设想来建设社会主义"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

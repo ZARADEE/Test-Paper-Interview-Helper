@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-029",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十一届三中全会标志着中国共产党重新确立了马克思主义的思想路线、政治路线、组织路线，实现了新中国成立以来党的历史上具有深远意义的伟大转折，开启了我国改革开放和社会主义现代化建设的新时期。全会作出实行改革开放的历史性决策，是基于()",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "解析：本题考查十一届三中金会。党的十一届三中全会的胜利召开，标志着粉碎“四\n人帮”后党和国家工作在律面中前进的局面的结束。全会作出实行改革开放的历史性决\n\n---\n\n[PDF page 7]\n\n策，是基于对党和国家前途命运的深刻把握，是基于对社会主义革命和建设实践的深刻\n总结，是基于对时代潮流的深刻洞察，是基于对人民群众期盼和需要的深刻体悟。改革\n开放是中国共产党的一次伟大觉醒，正是这个伟大觉醒，孕育了党从理论到实践的伟大\n创造。故本题正确选项为ABCD。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.578789+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "对党的和国家前途命运的深刻把握"
+    },
+    {
+      "key": "B",
+      "text": "对社会主义革命和建设实践的深刻总结"
+    },
+    {
+      "key": "C",
+      "text": "对时代潮流的深刻洞察"
+    },
+    {
+      "key": "D",
+      "text": "对人民群众期盼和需要的深刻体悟 ### 答案解析 29."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "中国化理论成果"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

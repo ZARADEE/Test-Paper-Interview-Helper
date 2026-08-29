@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1235",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "坚持党的领导，是社会主义法治的根本要求，是全面依法治国的题中应有之义。坚持党的领导,\n\n体现在党",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "中，以法治承载道德理念。要运用法治手段\n\n出处精评两为1 考点50 -1-W\n\n解决道德领域突出问题，依法加强对群众反",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 179,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "领导立法"
+    },
+    {
+      "key": "B",
+      "text": "保证执法"
+    },
+    {
+      "key": "C",
+      "text": "支持司法"
+    },
+    {
+      "key": "D",
+      "text": "带头守法"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 179,
+      "bbox": [
+        88.78199768066406,
+        400.0238342285156,
+        932.9750366210938,
+        497.15093994140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 183,
+      "bbox": [
+        11.916999816894531,
+        1244.011474609375,
+        343.3604736328125,
+        1320.1566162109375
+      ]
+    }
+  ]
+}

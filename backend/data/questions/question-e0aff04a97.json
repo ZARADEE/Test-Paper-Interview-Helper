@@ -1,0 +1,48 @@
+{
+  "id": "question-e0aff04a97",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(17) 设/'(工)=工；\n十工\"满足\nn !\nn = 0\nf'〈工)—f (鼻)—2/(j?) = 0,\ny(o)= o,y'(o)= 1,\n求 /(J；)及 a”.",
+  "answer_markdown": "",
+  "analysis_markdown": "(17)解\n特征方程为r2 -r-2 = 0,得厂]=-l,r2 =2,故通解为\nfCx) = Ci e_x + C2 e2x.\n由 /(0) = 0，/'(0) = 得 Ci + C2 = ()9 — Ci + 2C2\n1，解得 G =— y，c2 = *1•，故\ng\n*尹\n(2工)\n将 2）展开为z的幕级数，\n2）=_+。一工 + 斗尹=—+\nn !\n3佔巾！\n°° （— 1）\"丹 +丄 B 土\n9n\nx\nn !\n故 a” = *[(—1)+ +2”].",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.462366+00:00",
+  "updated_at": "2026-08-23T12:39:51.477122+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        24.0,
+        274.9278259277344,
+        482.3999938964844,
+        307.66595458984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 154,
+      "bbox": [
+        24.0,
+        60.87474822998047,
+        482.3999938964844,
+        214.0746612548828
+      ]
+    }
+  ]
+}

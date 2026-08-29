@@ -1,0 +1,46 @@
+{
+  "id": "politics-2024-002",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "一个地方的气候主要取决于纬度、海陆位置、地形以及大气环流和洋流等因素。纬度、海陆位置、地形等因素在一定时期内基本保持不变。大气环流和洋流二者相互作用就形成相对稳定的气候状态。但当其中一个因素突然“掉链子”，就会发生厄尔尼诺之类的异常现象。厄尔尼诺现象不仅推高全球变暖幅度，更可能导致频次更多、范围更广、强度更大的极端天气，进而影响全球气候。厄尔尼诺现象对全球气候的影响表明，偶然因素是（ ）",
+  "answer_markdown": "C",
+  "analysis_markdown": "【解析】本题考查的知识点：必然和偶然\n 偶然是指事物联系和发展过程中并非确定发生的，可以出现，也可以不出现，可以这样出现，也可以那样出现的不确定的趋势。故本题的正确答案是选项C。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.347599+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "决定事物发展趋势的根本性因素"
+    },
+    {
+      "key": "B",
+      "text": "事物发展中可有可无的影响因素"
+    },
+    {
+      "key": "C",
+      "text": "事物发展中不可忽视的影响因素"
+    },
+    {
+      "key": "D",
+      "text": "事物发展中确定不移的因素 ### 答案解析 2."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "必然和偶然"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "必然和偶然"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

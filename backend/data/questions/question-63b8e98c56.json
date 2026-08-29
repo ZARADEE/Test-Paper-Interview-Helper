@@ -1,0 +1,49 @@
+{
+  "id": "question-63b8e98c56",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(7)设夕(匚)在Ro, + °°)上有一阶连续导数，且lim ［夕'(工)+夕(刃］=\nx-*H-oo",
+  "answer_markdown": "",
+  "analysis_markdown": "(7) 解 令“(z) +夕(工)=fy 则由一阶线性微分方程的通解公式，得\n夕(z) = e~x I\" [\n+ C~|,\nef/(i)d^ + C\nfJ工0\nlim夕(工)=\n+8\nlim\n当工—+oo时，若 </■(/)(!/ — *,则由洛必达法则，知\nJ x0\nlim = lim © 产严)=lim /(j;) = k ；\nx-*+oo\nh—+oo\n_xf+8\ne\nx-*-+°°\n00，贝!J必有k = Q,故\n当X -*+ oo时，若I e'fQt^dt不趋于\nJ XQ\nef/(i)dz + C = 0 =怡・\n% 」\nlim 夕(工)=lim e\nH->+oo\n+oo",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.459048+00:00",
+  "updated_at": "2026-08-23T12:39:51.382234+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "导数",
+    "微分"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        24.0,
+        604.8577270507812,
+        482.3999938964844,
+        622.4735107421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 133,
+      "bbox": [
+        24.0,
+        370.5465393066406,
+        482.3999938964844,
+        535.3997802734375
+      ]
+    }
+  ]
+}

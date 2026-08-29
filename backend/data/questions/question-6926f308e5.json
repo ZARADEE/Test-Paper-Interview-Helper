@@ -1,0 +1,48 @@
+{
+  "id": "question-6926f308e5",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(7) 曲线夕=［%/cos t ck的全长s = ________ .\nJ _f",
+  "answer_markdown": "4.",
+  "analysis_markdown": "4.\n解 函数> =j ” Jcos /d/的定义域为卜号煜],全长\npA\nc-H.\np-5.\ns =\n\\/1 + y2 dx =\na/1 + cos =\nJ _号\nJ _于\nJ _芳",
+  "chapter": "一元函数积分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 24,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.444620+00:00",
+  "updated_at": "2026-08-23T12:39:50.965414+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 24,
+      "bbox": [
+        24.0,
+        482.248779296875,
+        482.3999938964844,
+        510.6788330078125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 51,
+      "bbox": [
+        24.0,
+        185.58888244628906,
+        482.3999938964844,
+        255.63375854492188
+      ]
+    }
+  ]
+}

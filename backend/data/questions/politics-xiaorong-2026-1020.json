@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1020",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "抗日民族统一战线中的中间势力包括",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "义会议召开前，“左” 倾错误先后三次在党\n\n出处精讲下型考点48 -3-IJ\n\n中央领导机关取得了统治地位，尤其是以王\n\n明为代表的“左”倾教条主又错误，使中国\n\n简析A、C、D 正确。B 项“城市小资产阶级”\n\n革命遭受严重挫折。\n\n是坚决要求抗日、赞成民主的,整体属于进步",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 149,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "民族资产阶级"
+    },
+    {
+      "key": "B",
+      "text": "城市小资产阶级"
+    },
+    {
+      "key": "C",
+      "text": "地方实力派"
+    },
+    {
+      "key": "D",
+      "text": "开明绅土"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 149,
+      "bbox": [
+        82.56600189208984,
+        1168.0125732421875,
+        799.529541015625,
+        1233.916259765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 155,
+      "bbox": [
+        0.07411956787109375,
+        698.7598876953125,
+        410.00238037109375,
+        906.6306762695312
+      ]
+    }
+  ]
+}

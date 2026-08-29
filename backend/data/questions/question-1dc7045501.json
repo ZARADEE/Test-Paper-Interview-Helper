@@ -1,0 +1,58 @@
+{
+  "id": "question-1dc7045501",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(12) 设 V：x2 + y2 + z2 W 2)— 2z,则 / =\n+ y + z)dV = ________ .\nv",
+  "answer_markdown": "0.",
+  "analysis_markdown": "0.\n解 V是以（-1,1,0）为球心、施为半径的球体，若视其密度为常数，则质心（形心）坐\n标为（一 1,1,0）,则\n而JJdV为球的体积y V2tt,故\nV\nV\nI = ]|[& +』+ N)dV = 0・\n于是\nV\n(⑶ T(T_T)^3-\n解 xOy坐标面上方部分立体如图6-14所示，则\n=必 ^/R2 — x2 — y2 dzd^ = 4p d(9\n'Rcos 0 丿疋—厂2 .厂孑厂\nD\nV\no2(l-sin^)d^=|(f-f)K3.\n图6 14\n屮）（證三备°）.\n解\"如图6-15所示，由对称性，知y = 0..又由于\n,_K\n■l+cos 6\ndoj rcos 0 • rdr 十 2 [ d0\nrcos 9 • rdr\no\nJJjcdjrdj/ 2\n_ D\nx —\nl+cos 0\nrdr\nX 卩 +2 ,0\n2\"K\nD\n~2 '\n30兀一48\n?\nT71-2\n故形心坐标为（證三I，oj.\n（⑸缶齐\n解\n对工轴与夕轴的转动惯量分别为匚=JP2d^ 与/\nx2dj：dy,故\ny\n~D\nL = ^y2dxdy =\nD\n4 Cx\no（lz| y2dy\nx~2\n=/o j3\n3 djr =\n,\nxz-\nD\n|J*r2 djrdj/ =\n= A\n36'\nD\ny —\n【注】 质点（质量为m）对轴Z的转动惯量为Ii = m •於，其中耳表示质点到轴2的距离.\n平面区域D,对工轴的转动惯量可以采用微元法：任取一个小区域曲（曲也表示面\n积），如图6-16所示，看成质量集中为一点（#,》），则微元dlx = p • y2daCp表示D禹面密\n度），故乙=",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 40,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.453376+00:00",
+  "updated_at": "2026-08-29T14:15:23.241326+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 40,
+      "bbox": [
+        24.0,
+        603.9287109375,
+        482.3999938964844,
+        622.2080688476562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 105,
+      "bbox": [
+        40.79999923706055,
+        254.64297485351562,
+        448.0,
+        694.6558227539062
+      ]
+    },
+    {
+      "page": 105,
+      "bbox": [
+        20.25,
+        359.1335144042969,
+        284.8999938964844,
+        716.1141967773438
+      ]
+    }
+  ]
+}

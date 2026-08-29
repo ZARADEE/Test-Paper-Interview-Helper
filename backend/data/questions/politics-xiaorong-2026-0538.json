@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0538",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在中国确立社会主义基本制度是中国共产党百年奋斗的伟大成就之一。社会主义基本制度的确立",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "出处精讲百的考点47 .\n❷\n\n力量。A、B、C、D 全选。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 81,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是中国历史上最深刻最伟大的社会变革，为当代中国一切发展进步奠定了制度基础"
+    },
+    {
+      "key": "B",
+      "text": "实现了马克思主义同中国实际的“第二次结合”"
+    },
+    {
+      "key": "C",
+      "text": "极大地促进了我国社会生产力的发展"
+    },
+    {
+      "key": "D",
+      "text": "使广大劳动人民真正成为国家的主人，这是中国几千年来阶级关系的最根本变革\n\n第四章\n社会主义建设道路初步探索的理论成果"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 81,
+      "bbox": [
+        88.94300079345703,
+        277.4345703125,
+        916.7716674804688,
+        437.6125793457031
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        2.4630002975463867,
+        509.53912353515625,
+        421.64794921875,
+        693.1924438476562
+      ]
+    }
+  ]
+}

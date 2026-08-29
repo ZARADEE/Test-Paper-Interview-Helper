@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0882",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在20 世纪30 年代前期、中期，中国共产党内屡次出现严重的“左”倾错误，其原因是多方面\n的。主要的原因在于",
+  "answer_markdown": "C",
+  "analysis_markdown": "泽东起草的古田会议决议，其中最重要的是\n\n关于纠正党内错误思想的决议案，确立了思\n\n出处精讲p280 考点38 -3\n\n想建党、政治建军原则。古田会议决议是中\n\n简析从1927 年7 月大革命失败到1935 年\n\n国共产党和红军建设的纲领性文献，是党和\n\n1 月遵义会议召开之前，中国共产党内屡次\n\n人民军队建设史上的重要里程碑。D 正确。\n\n出现严重的“左”倾错误,其原因是多方面的。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 130,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "八七会议以后党内一直存在着的浓厚的“左”倾情绪始终没有得到认真的清理"
+    },
+    {
+      "key": "B",
+      "text": "共产国际对中国革命的错误指导"
+    },
+    {
+      "key": "C",
+      "text": "党不善于把马克思列宁主义与中国实际全面地、正确地结合起来"
+    },
+    {
+      "key": "D",
+      "text": "中国国情的复杂性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 130,
+      "bbox": [
+        104.177001953125,
+        1225.8065185546875,
+        936.1704711914062,
+        1410.087890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 135,
+      "bbox": [
+        433.7569885253906,
+        63.412620544433594,
+        855.2214965820312,
+        402.2072448730469
+      ]
+    }
+  ]
+}

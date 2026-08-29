@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0833",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国近代教育开始于",
+  "answer_markdown": "A",
+  "analysis_markdown": "正确。A、B 两项的内容是1905 年至1907 年\n\n出处精讲衣引考点14 -3-0\n\n间，以孙中山为代表的革命派与以康有为、梁\n\n置近洋务运动时期，为了培养通晓洋务的人\n\n启超为代表的改良派之间争论的问题，与题\n\n才,开办了一批新式学堂，派出了最早的官派\n\n意不符，不选。在中国兴办近代企业，是维新\n\n留学生，这是中国近代教育的开始。与此同\n\n派与洋务派都赞同的，并不是维新派与洋务\n\n时,还翻译了一批近代自然科学书籍，给当时\n\n派的分歧,更不是分歧的实质,C 错误。\n\n的中国带来了新的知识,使人们开阔了眼界。\n\nA 正确,B、C、D 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 124,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "洋务运动时期"
+    },
+    {
+      "key": "B",
+      "text": "戊戌维新运动时期"
+    },
+    {
+      "key": "C",
+      "text": "辛亥革命时期"
+    },
+    {
+      "key": "D",
+      "text": "新文化运动时期"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 124,
+      "bbox": [
+        106.69300079345703,
+        492.4133605957031,
+        899.5639038085938,
+        564.7161865234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 129,
+      "bbox": [
+        9.013999938964844,
+        61.47034454345703,
+        426.9229736328125,
+        304.7356262207031
+      ]
+    }
+  ]
+}

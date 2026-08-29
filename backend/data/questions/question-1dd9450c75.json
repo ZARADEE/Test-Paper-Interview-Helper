@@ -1,0 +1,57 @@
+{
+  "id": "question-1dd9450c75",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "⑶设随机变量X,Y均服从区间为［0,4］的均匀分布,P{max{X,y} = 3}=暮，则\nP{min{X,Y} > 3} = ________ .",
+  "answer_markdown": "",
+  "analysis_markdown": "⑶召\n0H，\n其他，\n解 依题设,X,Y的概率密度均为 g\n0,\n故 P{X>3} =P{y>3} =|,\nP{(X>3) U (Y>3)} = 1-P{X<3,Y<3}\n=1 — P{max{X,Y} £3} = 1- 暮=召，\n16 16\n所以\nP{min{X,y} > 3} = P{X> 3,Y > 3}\n=P{X> 3} +P{Y > 3} -P{(^> 3) U (Y> 3)}\n1 , 1\n------- -4— ------- -----  ------- -------\n16*",
+  "chapter": "随机变量及其分布",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 90,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.488264+00:00",
+  "updated_at": "2026-08-23T12:39:51.941211+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 90,
+      "bbox": [
+        24.0,
+        477.2193603515625,
+        482.3999938964844,
+        517.6598510742188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 246,
+      "bbox": [
+        24.0,
+        587.2811889648438,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 247,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        124.34063720703125
+      ]
+    }
+  ]
+}

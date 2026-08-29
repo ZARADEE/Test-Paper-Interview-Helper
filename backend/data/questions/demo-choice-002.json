@@ -1,0 +1,45 @@
+{
+  "id": "demo-choice-002",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "设矩阵 $A$ 可逆，则下列命题正确的是（ ）。",
+  "answer_markdown": "C",
+  "analysis_markdown": "可逆矩阵的行列式不为零。",
+  "chapter": "线性代数",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T10:08:05.382893+00:00",
+  "updated_at": "2026-08-23T12:39:50.686676+00:00",
+  "analysis_source_document_id": null,
+  "options": [
+    {
+      "key": "A",
+      "text": "det(A)=0"
+    },
+    {
+      "key": "B",
+      "text": "rank(A)<n"
+    },
+    {
+      "key": "C",
+      "text": "det(A)≠0"
+    },
+    {
+      "key": "D",
+      "text": "A 必为对称矩阵"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

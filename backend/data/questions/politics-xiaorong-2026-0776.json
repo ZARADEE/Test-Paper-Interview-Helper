@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0776",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十八大以来，我们把生态文明建设作为关系中华民族永续发展的根本大计，开展了一系列\n\n开创性工作，决心之大、力度之大、成效之大前所未有，生态文明建设从理论到实践都发生了\n\n历史性、转折性、全局性变化，美丽中国建设迈出重大步伐。我们实现",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "简析习近平总书记在主持中共中央政治局\n\n就促进高质量充分就业进行第十四次集体\n\n出处精讲团昨考点85 -2\n\n学习时强调，促进高质量充分就业,是新时",
+  "chapter": "第十二章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 114,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "由重点整治到系统治理的重大转变"
+    },
+    {
+      "key": "B",
+      "text": "由被动应对到主动作为的重大转变"
+    },
+    {
+      "key": "C",
+      "text": "由全球环境治理参与者到引领者的重大转变"
+    },
+    {
+      "key": "D",
+      "text": "由实践探索到科学理论指导的重大转变"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十二章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十二章"
+  ],
+  "source_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        107.37699890136719,
+        804.76416015625,
+        939.2384033203125,
+        1024.3922729492188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 119,
+      "bbox": [
+        436.5669860839844,
+        343.67254638671875,
+        740.4617919921875,
+        418.1751708984375
+      ]
+    }
+  ]
+}

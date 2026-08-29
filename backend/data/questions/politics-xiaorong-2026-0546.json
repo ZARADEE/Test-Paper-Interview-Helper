@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0546",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "以毛泽东同志为主要代表的中国共产党人对社会主义建设道路的初步探索",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "简析人民代表大会制度，坚持中国共产党领\n\n出处精讲\n考点54 拓展与点拨\n\n导，坚持马克思主义国家学说的基本原则，适",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 82,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "彻底摆脱了苏联模式的影响"
+    },
+    {
+      "key": "B",
+      "text": "巩固和发展了我国的社会主义制度"
+    },
+    {
+      "key": "C",
+      "text": "丰富了科学社会主义的理论和实践"
+    },
+    {
+      "key": "D",
+      "text": "为开创中国特色社会主义提供了宝贵经验、理论准备、物质基础\n\n第五章\n中国特色社会主义理论体系的形成发展"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        101.375,
+        723.1029663085938,
+        750.4324951171875,
+        888.0838012695312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 94,
+      "bbox": [
+        22.398000717163086,
+        951.0889892578125,
+        433.50848388671875,
+        1092.2012939453125
+      ]
+    }
+  ]
+}

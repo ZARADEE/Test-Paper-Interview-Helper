@@ -1,0 +1,67 @@
+{
+  "id": "question-70e4c0fc4d",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设随机变量X的概率密度为/(工)，且/(—工)=的分布函数为FQ),则对\n任意实数虹有(\n).\n\n\nJ o\nZ Jo",
+  "answer_markdown": "B",
+  "analysis_markdown": "解 考虑到/(-X)= *2空知/(x)为偶函数”，故\nF(—&)=J\n= J /\"(小山=+ J f\n=tU\")山—£/(工)眄=j[l-£/(x)d^]= |-J7(^)dx.",
+  "chapter": "随机变量及其分布",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 87,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.486227+00:00",
+  "updated_at": "2026-08-23T12:39:51.894332+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "F(— ^) = 1 — f /(jc)djr"
+    },
+    {
+      "key": "B",
+      "text": "F(— «) = £—『 /(jc)dj?"
+    },
+    {
+      "key": "C",
+      "text": "F(—厂=2F(Q — 1"
+    },
+    {
+      "key": "D",
+      "text": "F(-^) = F(k)"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "分布函数",
+    "概率密度"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 87,
+      "bbox": [
+        24.0,
+        254.68478393554688,
+        482.3999938964844,
+        345.3564453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 240,
+      "bbox": [
+        24.0,
+        191.06671142578125,
+        482.3999938964844,
+        258.509765625
+      ]
+    }
+  ]
+}

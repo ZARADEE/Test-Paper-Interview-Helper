@@ -1,0 +1,44 @@
+{
+  "id": "politics-2017-018",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "唯物史观在坚持人民群众是历史的创造者这一基本前提下，高度重视个人在历史上的作用。历史人物是一定历史事件的主要倡导者、组织领导者或思想理论、科学文化的重要代表人物。下列关于历史人物作用的正确认识是（ ）",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "【解析】历史人物往往会因其自身的智慧、性格等因素对社会的具体进程产生一定的或加速或延缓的影响，但历史人物改变不了历史发展的基本方向，具有进步意义的历史人物往往能够发现或提出历史进程中的新的历史任务。历史人物按其作用性质可以分为杰出人物和反面人物，其中杰出人物对历史发展起推动作用，所以选项A说法错误。因此，本题的正确答案是选项BCD。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.530598+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "历史人物对历史发展的作用都是积极的"
+    },
+    {
+      "key": "B",
+      "text": "历史人物会因其智慧、性格等因素对社会过程发生影响"
+    },
+    {
+      "key": "C",
+      "text": "具有进步意义的历史人物往往能够首先发现或提出历史进程中新的历史任务"
+    },
+    {
+      "key": "D",
+      "text": "历史人物无论发挥什么样的历史作用都不能决定和改变历史发展的总进程和总方向 ### 答案解析 18."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

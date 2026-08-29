@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0651",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人民军队的鲜明特色和政治优势，也是人民军队战无不胜、攻无不克的重要保证的是",
+  "answer_markdown": "C",
+  "analysis_markdown": "出处精讲器4 考点ioi -1-0\n\n出处精讲衣可考点98 -2-日",
+  "chapter": "第十四章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 96,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "听党指挥"
+    },
+    {
+      "key": "B",
+      "text": "能打胜仗"
+    },
+    {
+      "key": "C",
+      "text": "作风优良"
+    },
+    {
+      "key": "D",
+      "text": "本领过硬"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十四章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十四章"
+  ],
+  "source_regions": [
+    {
+      "page": 96,
+      "bbox": [
+        104.5719985961914,
+        1137.649169921875,
+        845.7049560546875,
+        1209.1912841796875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 106,
+      "bbox": [
+        443.8789978027344,
+        951.9644775390625,
+        858.5511474609375,
+        1219.464111328125
+      ]
+    }
+  ]
+}

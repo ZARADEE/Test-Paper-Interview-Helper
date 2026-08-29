@@ -1,0 +1,65 @@
+{
+  "id": "question-6549c779cd",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "⑹设X\nN(O,1),Y 〜N (1,4),且脣\n=1,则(\n).",
+  "answer_markdown": "A",
+  "analysis_markdown": "侖军 由 = 1U P {Y = aX + 5} = 1,且 a>0,排除 E,C.又\n1 = EY = E(aX + b) = aEX + b,\n由于EX = 0,故6=1,所以A正确.\n【注】结论：\nI pXY I = 1 少存在常数 a(a # 0)和 b,使得 P{Y = aX 4- b} = 1,且\n_ /1» a > 0,\nPxy — \\— ] , a V 0.",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 94,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.489264+00:00",
+  "updated_at": "2026-08-23T12:39:51.991168+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "P{Y = 2X+ 1} = 1"
+    },
+    {
+      "key": "B",
+      "text": "P{Y =-2X+ 1} = 1"
+    },
+    {
+      "key": "C",
+      "text": "P{Y =—2X —1} = 1"
+    },
+    {
+      "key": "D",
+      "text": "P{Y - 2X- 1} = 1"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "大数定律"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 94,
+      "bbox": [
+        24.0,
+        437.6580505371094,
+        482.3999938964844,
+        481.0009765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 258,
+      "bbox": [
+        24.0,
+        559.9097900390625,
+        482.3999938964844,
+        667.181884765625
+      ]
+    }
+  ]
+}

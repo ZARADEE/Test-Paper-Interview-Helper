@@ -1,0 +1,36 @@
+{
+  "id": "politics-2017-004",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "从历史发展的角度看，资本主义生产资料所有制是不断演进和变化的，当今资本主义社会居主导地位的资本所有制形式是（ ）",
+  "answer_markdown": "A",
+  "analysis_markdown": "【解析】此题考查的知识点是资本所有制形式。第二次世界大战后，资本主义所有制发生了新的变化，这就是国家资本所有制形式形成并发挥重要作用，法人资本所有制崛起并成为居主导地位的资本所有制形式，所以答案选A。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.524064+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "法人资本所有制 B.私人资本所有制"
+    },
+    {
+      "key": "C",
+      "text": "私人股份资本所有制 D.垄断资本私人所有制 ### 答案解析 4."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "question-563726d601",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)设D为由直线工+夕=*,工+夕=1与两坐标轴所围的区域,\njJ(j： + j/)9dj?dj/, I3 =\n+ ^)]9dj7dj/,\n[ln(x + j/) ]9 dxdy, 12 =\nD\nD\nD\n则( )•\n\n\n\n\n).",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴B\n解 D如图6-1所示，在D上有\n[ln(_z + y)]9 W [sin (x + j^)]9 W (j? + j；)9\n故E正确.",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 39,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.453376+00:00",
+  "updated_at": "2026-08-23T12:39:51.211072+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "Ji < I2 < h"
+    },
+    {
+      "key": "B",
+      "text": "h < h < I2"
+    },
+    {
+      "key": "C",
+      "text": "I3 < I2 < h"
+    },
+    {
+      "key": "D",
+      "text": "/3 < /1 < I2"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 39,
+      "bbox": [
+        24.0,
+        191.9273223876953,
+        482.3999938964844,
+        280.0103454589844
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 101,
+      "bbox": [
+        24.0,
+        157.697021484375,
+        482.3999938964844,
+        342.685546875
+      ]
+    }
+  ]
+}

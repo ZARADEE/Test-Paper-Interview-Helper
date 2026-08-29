@@ -1,0 +1,48 @@
+{
+  "id": "question-85029c75c4",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(12) 求曲线工？+巧，十夕2 = 1上的点到坐标原点的最长距离与最短距离.",
+  "answer_markdown": "",
+  "analysis_markdown": "(12)解 曲线工2 + xy+y2 = 1上任意一点O,》)到坐标原点的距离为〃 =f(.x,y}=\nJ/+b，则原问题转化为求fa® = Jh+b在条件y +巧+# = 1下的最大值与最\n小值的问题.\n令 L = x2 + b +入(/ + xy + j/2 — 1),贝！J\n= 2工十(2z + y)入=0,\n①\n<L；= 2》十(工+ 2夕)入=0,\n②\n[L^= X2 + xy y2 — 1 = 0.\n③\n由①X y —②X z,得(护—x2 )A = 0,解得入=0或工=士 y\n若入=0,则由①②衣，得工=y = 0不满足③式，筱入=0舍去.\n将工=一夕代入③式，解得\n或其J\n工=1,\ny =_ 1\nT或\n丄,\nV3\nV3\n将= y代入③式，解得\n比较大小：由于\n/(I, -1)=丽,/(-1,1) =72,\n=#\n—~3~，\n故最长距离为血，最短距离为普.",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 38,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.452279+00:00",
+  "updated_at": "2026-08-23T12:39:51.203379+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 38,
+      "bbox": [
+        24.0,
+        209.8978729248047,
+        482.3999938964844,
+        228.626708984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 98,
+      "bbox": [
+        24.0,
+        166.06185913085938,
+        482.3999938964844,
+        407.3876647949219
+      ]
+    }
+  ]
+}

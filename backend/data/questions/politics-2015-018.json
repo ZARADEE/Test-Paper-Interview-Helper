@@ -1,0 +1,44 @@
+{
+  "id": "politics-2015-018",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "平衡是事物发展的一种状态，小到体操中人在平衡木上的行走，杂技中的骑车走钢丝，独轮车表演，直升机在空中的悬停，大到人类的生存，地球的运转，天体的运行等等，都是保持平衡的一种状态，世间的万事万物，之所以能不停的运动、发展、前进，一个重要原因就在于保持了平衡，要使“平衡”成为人们的“大智慧”，就要 :",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "【解析】平衡就是“度”，打破了平衡就会超出“度”。保持平衡就要精确把握事物的度。保持了平衡，万事万物才能不停地运动、发展、前进，故A入选。平衡状态的保持也是事物内部各种因素相互作用的结果。相对静止是事物平衡表现出来的状态，而事物内部的运动是绝对的，故C、D入选。选项B不合题意，故本题答案为ACD。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.504347+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "精确把握事物的度"
+    },
+    {
+      "key": "B",
+      "text": "准确掌握辩证否定的方式和方向"
+    },
+    {
+      "key": "C",
+      "text": "善于协调事物内部各种因素的相互关系"
+    },
+    {
+      "key": "D",
+      "text": "全面理解绝对运动和相对静止的辩证关系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

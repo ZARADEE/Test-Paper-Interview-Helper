@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1252",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "\"吃百姓之饭，穿百姓之衣，莫道百姓可欺，自己也是百姓；得一官不荣，失一官不辱，勿说一\n\n官无用，地方全靠一官。” 这副流传至今的对联，蕴含着官自民来、官为表率的朴素道理。推进\n\n全民守法，必须抓住领导干部这个“关键少数”。各级领导干部要带头依法办事，带头遵守法\n\n律。法律是约束权力最大的“笼子”，具有制约公权力的重要功能。权力制约的要求有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "的履行为条件；法律义务的设定和履行也\n\n必须以法律权利的行使为根据。离开了法\n\n出处WP373j 考点51 -2-(2)\n\n律权利，法律义务就失去了履行的价值和动",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 181,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "权力由法定"
+    },
+    {
+      "key": "B",
+      "text": "有权必有责"
+    },
+    {
+      "key": "C",
+      "text": "用权受监督"
+    },
+    {
+      "key": "D",
+      "text": "违法受追究"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        86.60800170898438,
+        432.32574462890625,
+        926.9676513671875,
+        589.1976318359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 185,
+      "bbox": [
+        7.020999908447266,
+        664.5296630859375,
+        355.089599609375,
+        746.4135131835938
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "question-45bffb05f7",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(11) 设曲线L为z = 4—工2—b与g = 3的交线，从z轴正向看是逆时针方向，计算\nI = ® X2 y3 6.x + zdj/ + jdz.",
+  "answer_markdown": "",
+  "analysis_markdown": "(11)解法1\n^2+y2 = 1，\nz = 3 9\nZ = 4 —\nN = 3 9\n故其参数方程为\nX = cos t,\ny = sin t, (0 W t £ 2兀)・\nz = 3\nh\n匸\nj?2j/3 dj? + zdy + ydz\nL\n*2k\n7t£\n=3上，则\nC)yi y\ncos a\n=扌工 $ b dz + zdjy + ydz = J|\ndS.\ncos y\na\n衣\n-TV\n• d_\ndx\n[cos2^sin3^(一 sin t) + 3cos t + O]ck =—\no\n解法2利用斯托克斯公式，考虑L在平面z\nCOS B\nd_\n3y\nz\nX/\na 9 cos i\n0，cos y) = (0,0,1) 9故\ns\n由z = 3 ,知单位法向量为(cos\n图9-7\na\ndS = — jj3jr2j/2 dS.\nd_\ndjC\nd_\ndy dz\ns\ns\nz\ny\n对 S：z = 39有 dS =\na/ 1 +』+ J； djrdj/ = dzdy,故\n3x2 y2 dxdy =—3 d0 r2 cos2 • r2 sin2(9 • rdr\n'2k\n=—3 | cos20sin26Ad\\ r5dr =— -|-J (1 — sin20)sin2<9d(9\n2 k\n[\\m4O)=-|,\nsin2(9d(9 —\n其中D刃心+b = 1.\n【注】①计算空间曲线积分常有两种方法：\n（i ）利用参数方程化为定积分计算；\n（ii）对于空间闭曲线L,可利用斯托克斯公式.\n『“sin\"0d0 = 4「sin\"0d0,\n②结论:\nJ 0\n'2n\nsin2(9d(9,\nsin4 Odd = 4\no\n.\nC2n\n如 sin'OdO = 4\nJ o\n.\n讲义》)・\n880题(数学一 •解析分册)\n③ 此题也可将N = 3代入被积表达天，消去ds化为平面曲线积分:\nI =扌 $ $ 夕3 dr + zcly + ydz =\n由格林公式，知/ =\n7t£\n3x2y2 dxdy\nx2 y3 <\\x + 3dj/ (Li : j:2 y2 = 1).\nh\nj：zy3\n4- 3dj/ =—",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 56,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.468404+00:00",
+  "updated_at": "2026-08-23T12:39:51.512185+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 56,
+      "bbox": [
+        24.0,
+        522.6907958984375,
+        482.3999938964844,
+        564.189208984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 161,
+      "bbox": [
+        24.0,
+        285.2510986328125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 162,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        115.53813171386719
+      ]
+    }
+  ]
+}

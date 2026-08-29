@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0114",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思指出：“如果物没有用，那么其中包含的劳动也就没有用，不能算作劳动，因此不形成\n\n价值\n这段话说明",
+  "answer_markdown": "A",
+  "analysis_markdown": "动，也没有价值。一种物品尽管具有使用\n\n价值，但如果不是劳动产品，也没有价\n\n出处精丽对考点61 -4\n地作为商品，必须同时具有使用价值和\n\n值，比如自然界中的阳光、空气等。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 17,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "价值的存在以物的有用性为前提"
+    },
+    {
+      "key": "B",
+      "text": "价值的存在与物的有用性互为前提"
+    },
+    {
+      "key": "C",
+      "text": "物只要有用就有价值"
+    },
+    {
+      "key": "D",
+      "text": "物越是有用就越有价值"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        91.11000061035156,
+        647.4500732421875,
+        931.6492919921875,
+        776.53466796875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 23,
+      "bbox": [
+        431.74700927734375,
+        158.2722625732422,
+        845.7318725585938,
+        596.292724609375
+      ]
+    }
+  ]
+}

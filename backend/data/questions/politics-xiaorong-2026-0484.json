@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0484",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "20 世纪80 年代，胡乔木说过：“如果没有毛泽东思想，很难设想中国革命能够胜利。中国革命\n\n曾经经历了那么多的艰难，那么多的曲折，那么多的牺牲，并不是因为中国共产党不相信马克思\n\n主义，而是因为把马克思主义同中国革命的实际结合起来很不容易，这不是一件很简单的事情。”\n\n马克思主义中国化时代化，就是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "第一章\n\n出处精讲百可考点2 拓展与点拨",
+  "chapter": "导论",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 73,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "立足中国国情和时代特点"
+    },
+    {
+      "key": "B",
+      "text": "坚持把马克思主义基本原理同中国具体实际相结合、同中华优秀传统文化相结合"
+    },
+    {
+      "key": "C",
+      "text": "深入研究和解决中国革命、建设、改革不同历史时期的实际问题"
+    },
+    {
+      "key": "D",
+      "text": "科学回答时代提出的重大理论和实践课题，创造新的理论成果"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "导论"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "导论"
+  ],
+  "source_regions": [
+    {
+      "page": 73,
+      "bbox": [
+        92.2750015258789,
+        690.6893920898438,
+        936.6690063476562,
+        931.3307495117188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 87,
+      "bbox": [
+        434.9540100097656,
+        323.5478820800781,
+        849.0552368164062,
+        627.5966186523438
+      ]
+    }
+  ]
+}

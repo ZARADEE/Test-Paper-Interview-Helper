@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0405",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思主义经典作家揭示的共产主义社会的基本特征有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "于研究未来社会制度的科学方法。马克思\n\n出处精讲P102）考点93\n\n主义经典作家并没有给我们提供各国社会",
+  "chapter": "第七章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "物质财富极大丰富"
+    },
+    {
+      "key": "B",
+      "text": "消费资料按需分配"
+    },
+    {
+      "key": "C",
+      "text": "社会关系高度和谐，人们精神境界极大提高"
+    },
+    {
+      "key": "D",
+      "text": "每个人得到自由而全面的发展，人类实现从必然王国向自由王国的飞跃"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第七章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第七章"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        104.81199645996094,
+        1344.7376708984375,
+        613.6853637695312,
+        1416.4808349609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 73,
+      "bbox": [
+        2.3319997787475586,
+        821.9398803710938,
+        422.13677978515625,
+        1087.2783203125
+      ]
+    },
+    {
+      "page": 73,
+      "bbox": [
+        473.5530090332031,
+        29.200271606445312,
+        847.8849487304688,
+        510.0003356933594
+      ]
+    }
+  ]
+}

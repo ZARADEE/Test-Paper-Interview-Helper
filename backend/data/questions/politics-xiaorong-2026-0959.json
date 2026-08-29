@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0959",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在半殖民地半封建的中国，太平天国农民起义及其失败表明",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "资本主义经济的发展，也有利于社会风气的\n\n出处精讲P249 考点12 -2\n\n改变。A、C、D 正确。\n\n“裁撤绿营，建立新军”是清末“新政”的\n\n简析A、B、C 正确。农民阶级不是新的生产\n\n内容。甲午战争一役北洋水师全军覆没就说\n\n力和生产关系的代表。他们无法克服小生产\n\n明洋务运动并没有实现巩固国防和边防的目\n\n者所固有的阶级局限性,因而无法从根本上\n\n的。B 错误。\n\n提出完整的、正确的政治纲领和社会改革方",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 141,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "农民具有伟大的革命潜力"
+    },
+    {
+      "key": "B",
+      "text": "农民自身不能担负起领导反帝反封建斗争取得胜利的重任"
+    },
+    {
+      "key": "C",
+      "text": "单纯的农民战争不可能完成争取民族独立和人民解放的历史任务"
+    },
+    {
+      "key": "D",
+      "text": "单纯的农民战争对反帝反封建斗争是没有意义的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 141,
+      "bbox": [
+        91.31900024414062,
+        125.0194091796875,
+        697.8484497070312,
+        277.2426452636719
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 146,
+      "bbox": [
+        449.5039978027344,
+        838.5018920898438,
+        862.0800170898438,
+        1329.9033203125
+      ]
+    }
+  ]
+}

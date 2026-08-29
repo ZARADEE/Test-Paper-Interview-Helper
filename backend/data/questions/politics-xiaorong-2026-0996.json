@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0996",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国共产党的先驱们创建了中国共产党，形成了伟大建党精神，这是中国共产党的精神之源。\n正是对这一精神的坚守与践行、光大与发扬，构建起中国共产党人的精神谱系，激励中国共产\n党和中国人民创造了人间奇迹。伟大建党精神的内容是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "从资产阶级民主主义转向社会主义。五四运\n\n出处精讲巨协1 考点31 -3-(2)\n\n动以后，社会主义思潮在中国蓬勃兴起，马",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 146,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持真理、坚守理想"
+    },
+    {
+      "key": "B",
+      "text": "践行初心、担当使命"
+    },
+    {
+      "key": "C",
+      "text": "不怕牺牲、英勇斗争"
+    },
+    {
+      "key": "D",
+      "text": "对党忠诚、不负人民"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 146,
+      "bbox": [
+        111.11499786376953,
+        522.755615234375,
+        953.6019287109375,
+        685.9174194335938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 151,
+      "bbox": [
+        439.6679992675781,
+        336.469482421875,
+        850.786376953125,
+        894.458740234375
+      ]
+    }
+  ]
+}

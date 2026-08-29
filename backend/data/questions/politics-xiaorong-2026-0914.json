@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0914",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新中国成立前夕，毛泽东在回顾中国共产党走过的历史道路时指出：总结我们的经验，集中到\n一点，就是",
+  "answer_markdown": "C",
+  "analysis_markdown": "性质的合作社经济、农民和手工业者的个体\n\n出处精两再位考点65 -3-0\n\n经济、私人资本主义经济和国家资本主义经\n\n置近革命的根本问题是国家政权问题。毛\n\n济。其中半社会主义性质的合作社经济是\n\n个体经济向社会主义集体经济过渡的形\n\n泽东在回顾中国共产党走过的历史道路时",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 134,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "统一战线，武装斗争，党的建设"
+    },
+    {
+      "key": "B",
+      "text": "理论联系实际，密切联系群众，批评与自我批评"
+    },
+    {
+      "key": "C",
+      "text": "工人阶级（经过共产党）领导的以工农联盟为基础的人民民主专政"
+    },
+    {
+      "key": "D",
+      "text": "坚持把马克思列宁主义的基本原理同中国具体实际结合起来"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 134,
+      "bbox": [
+        108.69999694824219,
+        1030.681884765625,
+        939.0325317382812,
+        1214.983154296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 140,
+      "bbox": [
+        20.427000045776367,
+        798.7135620117188,
+        427.9976501464844,
+        1103.5947265625
+      ]
+    }
+  ]
+}

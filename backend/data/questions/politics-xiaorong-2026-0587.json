@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0587",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全面深化改革必须牢牢把握总目标，实施好“六个紧紧围绕” 的路线图。统筹推进各领域各方\n\n面改革开放的突破口是",
+  "answer_markdown": "B",
+  "analysis_markdown": "Ayr > - jag.\n第八章\n\n出处精讲丽n 考点29 -g",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 89,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "制度建设"
+    },
+    {
+      "key": "B",
+      "text": "重要领域和关键环节改革"
+    },
+    {
+      "key": "C",
+      "text": "经济体制改革"
+    },
+    {
+      "key": "D",
+      "text": "文化体制改革"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        88.375,
+        920.833251953125,
+        928.83203125,
+        1048.092041015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 99,
+      "bbox": [
+        435.5899963378906,
+        227.9749755859375,
+        845.57373046875,
+        595.9053344726562
+      ]
+    }
+  ]
+}

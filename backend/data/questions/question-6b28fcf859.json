@@ -1,0 +1,48 @@
+{
+  "id": "question-6b28fcf859",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(7)设 D： — 1 =工=0,1 —\n— £ y £— x,则",
+  "answer_markdown": "",
+  "analysis_markdown": "⑺辽.\n解 D如图6-10所示，用极坐标有\n誓 W 0 W 兀，0 < r < 2sin 9,\n兀9\n故\nI\nf 2sin 0\nr_____ dr\n0 r \\/4 — r2\n• r 12s[n6 An\narcsm — at/\nt\n2 Io\n*n\n_2\n匪(兀一e)do =\n=2的",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 40,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.453376+00:00",
+  "updated_at": "2026-08-23T12:39:51.232202+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 40,
+      "bbox": [
+        24.0,
+        428.70074462890625,
+        482.3999938964844,
+        467.39190673828125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        24.0,
+        477.0279541015625,
+        482.3999938964844,
+        602.3423461914062
+      ]
+    }
+  ]
+}

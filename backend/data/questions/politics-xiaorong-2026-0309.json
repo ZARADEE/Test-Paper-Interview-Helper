@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0309",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "生产商品所需要的社会必要劳动时间随着劳动生产率的变化而变化。劳动生产率的高低可以用",
+  "answer_markdown": "AD",
+  "analysis_markdown": "有，如本题的B 项，一般就是指总量。历\n\n出处精讲P6a 考点63 -2\n\n年真题中此类题目众多，考生在复习时也\n\n可结合真题进行练习。\n\n简析劳动生产率指的是劳动者生产使用价",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 46,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "单位劳动时间内生产的商品数量来测量"
+    },
+    {
+      "key": "B",
+      "text": "单位劳动时间内劳动者所耗费的劳动量来测量"
+    },
+    {
+      "key": "C",
+      "text": "单位劳动时间内生产的价值总量来测量"
+    },
+    {
+      "key": "D",
+      "text": "单位商品中所耗费的劳动时间来测量"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 46,
+      "bbox": [
+        104.77300262451172,
+        367.2753601074219,
+        932.8460083007812,
+        526.9379272460938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 61,
+      "bbox": [
+        5.534000396728516,
+        485.16259765625,
+        425.32012939453125,
+        1081.327392578125
+      ]
+    }
+  ]
+}

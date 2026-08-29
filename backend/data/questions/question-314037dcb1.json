@@ -1,0 +1,50 @@
+{
+  "id": "question-314037dcb1",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（15）求下列极限:\n1+d]\nIn\n(I )设 lim —\nsin\nax-l '\n£ (a〉0 ? a 丰])9 求 lim ;\n•Zf 0\nL\n工〜o x\n(H)设 /(^)是三次多项式，且有lim\n= Km\n= l(a H 0),求 lim\n・\n工f 2a JC 一 La\nHf 4a X — 4(2\nHf 3a JC 一 0(2",
+  "answer_markdown": "",
+  "analysis_markdown": "(15)解 (I)由已知lim\n工一> 0\na= _ 1\nln「1 + 4^]\nL sin工」\n_ 1 ,\n工 i\n—石十a,\na 一 1\nL\n其中lima = 0.又当z — O时,ax — 1〜_zln a,所以\nln「l + 3\nsm x\na + az In q，\n从而*---- zln a(这里ar In a是比a:高阶的无穷小),即有/\"虫?\nsin x L\n— sin x\\n a，故\nX\n-^-sin jcln a\nlim 彎=lim\n*lna.\nJC\nh->0 JC\n工一> 0\n(1[)由\nlim^-\nx-*-2a 3C\n=\n4a X 一 4a\n1 (a 工 0),\n—La\n可知f(2a) = /(4a) = 0(否则极限为*).\n因而x — 2a,x — 4：a均为f O 的因式，又fO 是三次多项式，故可令\n/(j;) = A(x 一 2a)(_z — 4a) Qx 一 B),\n其中A,B为待定常数.由\nlim2£^_ = limAQ_ 2a)Cz：4a)Cz —E) =_2Aa(2a_B),\n①\n知\n由\n•r->2a SC 2(2\nx-*-2a\nx 一 2a\n一2Aa(2a — B) = 1.\nlim 空占=lim A& ——E) = 2血(4a — B),\n•Zf 4a OC 4(2\nH-*4a\n②\n知\nX 一 4(2\n2Aa (4a — B) = 1.\n联立①②式，解得 A = ,B = 3a,从而\n工一2a) (_z — 4a) (jc —■ 3a),故\nLa\nLa\n— 2a) (_z — 4a) (z — 3a) n\n，-/(jc)\n].\n2a'\nlim 丄------  =lim-----------------------z------------------  =— v\nzf 3a JC uGL Hf 3a\n3C O6Z\nu",
+  "chapter": "函数、极限与连续",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 13,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.438262+00:00",
+  "updated_at": "2026-08-23T12:39:50.797386+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 13,
+      "bbox": [
+        24.0,
+        304.4997253417969,
+        482.3999938964844,
+        382.31390380859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 21,
+      "bbox": [
+        24.0,
+        67.51773834228516,
+        482.3999938964844,
+        458.02227783203125
+      ]
+    }
+  ]
+}

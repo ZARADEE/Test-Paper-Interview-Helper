@@ -1,0 +1,44 @@
+{
+  "id": "politics-2010-008",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "随着经济的快速发展和物质生活水平的提高。人们的精神文化需求日益增长，迫切要求通过深化文化体制改革，激发文化发展的活力，为人民群众提供更多更好的文化产品和文化服务，保障人民的基本文化权益。保障人民基本文化权益的主要途径是：",
+  "answer_markdown": "C",
+  "analysis_markdown": "【解析】深化文化体制改革，要坚持一手抓公益性文化事业,一手抓经营性文化产业。公益性文化事业和经营性文化产业要协调发展，公益性文化事业是保障人民基本文化权益的主要途径，是政府主导的公共文化服务体系。所以选项C为正确答案。A选项“繁荣社会主义文化，提高文化软实力”、B选项“协调发展公益性文化事业，经营性文化产业”、D选项“调动社会力量在市场竞争中发展壮大文化产业”虽然都属于大力发展文化事业和文化产业，但不是保障人民基本文化权益的主要途径，不选。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.376768+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "繁荣社会主义文化，提高文化软实力"
+    },
+    {
+      "key": "B",
+      "text": "协调发展公益性文化事业，经营性文化产业"
+    },
+    {
+      "key": "C",
+      "text": "发展公益性事业，建立政府主导的公共文化体系"
+    },
+    {
+      "key": "D",
+      "text": "调动社会力量在市场竞争中发展壮大文化产业"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

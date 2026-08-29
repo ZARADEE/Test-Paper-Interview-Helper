@@ -1,0 +1,21 @@
+{
+  "id": "demo-fill-001",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "计算极限：$\\lim_{x\\to 0}\\frac{\\sin x}{x}=\\underline{\\quad}$。",
+  "options": [],
+  "answer_markdown": "1",
+  "analysis_markdown": "这是三角函数的基本极限。",
+  "scoring_points": [],
+  "tags": [
+    "高等数学",
+    "极限"
+  ],
+  "chapter": "高等数学",
+  "knowledge_points": [
+    "基本极限"
+  ],
+  "difficulty": "easy",
+  "score": 5,
+  "updated_at": "2026-08-23T10:08:05.384118+00:00"
+}

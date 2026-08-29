@@ -1,0 +1,66 @@
+{
+  "id": "question-5e54aff47d",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "（2）设二维随机变量（X「X2）的概率密度为九（心，比），丫1 = 2Xi M = 3X2,则\n（匕，丫2）的概率密度九（卩，夕2）=（\n）.",
+  "answer_markdown": "D",
+  "analysis_markdown": "解\n记(Xi ,X2)的分布函数为Fl a，观)，(Y1 ,y2)的分布函数为F2(yi ,力)，则\nF2(3^1，:y2)- P{Y1 < 夕1 ,丫2 < 3^2} = P{2X1 < y! ,3X2 < y2}\n=P{Xi £ -|-^i, X2 W \"|~夕2} = Fi (*力 ‘ *夕2),\n…•••、―疋®,\"—眄(話,j)\n故\n九®以)—讪勿2 —\n勿內2\n_ 1\n1 z- / 1\n\\ _ 1 r / 1\n\\\n=7 • ~3fl\\Tyi,Jy2)=石九",
+  "chapter": "随机变量及其分布",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 92,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.489264+00:00",
+  "updated_at": "2026-08-23T12:39:51.962594+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "/i (2力,3y2)"
+    },
+    {
+      "key": "B",
+      "text": "右(和9 )"
+    },
+    {
+      "key": "C",
+      "text": "y/i (2必,3力)"
+    },
+    {
+      "key": "D",
+      "text": "*九(和,”2 )"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "概率密度"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        24.0,
+        263.73199462890625,
+        482.3999938964844,
+        350.16064453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 252,
+      "bbox": [
+        24.0,
+        188.21664428710938,
+        482.3999938964844,
+        302.3406677246094
+      ]
+    }
+  ]
+}

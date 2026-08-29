@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1092",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "\"塞翁失马，焉知非福”，这句话对我们辩证对待人生矛盾的启示是",
+  "answer_markdown": "C",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 162,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "不要拘泥于个人利益的得失"
+    },
+    {
+      "key": "B",
+      "text": "不要满足于一时的得"
+    },
+    {
+      "key": "C",
+      "text": "不要惧怕一时的失"
+    },
+    {
+      "key": "D",
+      "text": "要树立正确的幸福观\n\n追求远大理想坚定崇高信念"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 162,
+      "bbox": [
+        103.0260009765625,
+        679.56298828125,
+        732.4734497070312,
+        845.2527465820312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        433.96099853515625,
+        29.030128479003906,
+        843.5382690429688,
+        203.90293884277344
+      ]
+    }
+  ]
+}

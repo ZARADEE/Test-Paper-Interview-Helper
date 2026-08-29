@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0727",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "科技自立自强是国家强盛之基、安全之要。加快建设科技强国，必须坚持走中国特色自主创新\n\n道路，发挥新型举国体制优势，完善国家创新体系，加快关键核心技术攻关，实现高水平科技\n\n自立自强。要打赢关键核心技术攻坚战，这是因为",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲P192\n考点55 -1-0",
+  "chapter": "第七章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 107,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "关键核心技术是要不来、买不来、讨不来的"
+    },
+    {
+      "key": "B",
+      "text": "关键核心技术是国之重器"
+    },
+    {
+      "key": "C",
+      "text": "关键核心技术必须掌握在自己手中"
+    },
+    {
+      "key": "D",
+      "text": "掌握最关键最核心的技术才能从根本上保障国家经济安全、国防安全和其他安全"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第七章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第七章"
+  ],
+  "source_regions": [
+    {
+      "page": 107,
+      "bbox": [
+        83.24099731445312,
+        666.3089599609375,
+        923.6328125,
+        883.4624633789062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        446.4360046386719,
+        1086.7060546875,
+        716.3353271484375,
+        1157.732421875
+      ]
+    }
+  ]
+}

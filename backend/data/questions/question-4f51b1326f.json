@@ -1,0 +1,57 @@
+{
+  "id": "question-4f51b1326f",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(26) 证明下列不等式：\n(I)当0 <力<兀时9有sin耳■〉王；\n/\n7t\n(U)当 e<a<b 时，有 6? > 伊；\n(IK)当工>0 时 9有(工? — l)ln jc (a： — I)2 ；\n(IV)若lim\n= 19且厂(工)〉0,有/(鼻)上工・\nx->0 X",
+  "answer_markdown": "",
+  "analysis_markdown": "（26）证\n(I)只需证\n・ X\nlnT\ni\n—>\no<^<\nX\n7T\nX\nX\nX\n》COS》一 Sing\nX ▲ X \\\n厉一tan》）cos\n・ X\nsm y i\n/—丄，则fS\nX\n~2\n令2)=\nX\n7T\nX2\nX2\n当0 V_Z<兀时,cos号>0,tan^>守,故/7(工)<0,从而/'(工)单调减少，于是/(^) >\n/（7T）= 0，即\n/（JC）= -------- — —〉0.\nX\n7T\n（n）要证 & > ba，只需证 ebina > ealn\\ 即证 bin a > aln b.\n令 /Xh） = xln a — aln 且 2彳。，则”（h） = In a ——，由 e <C a <C 6,得\nx\nIn b〉In a〉In e = 1,\n故门工）> 1 -\n> 0,从而当X > «时,*工）严格单调增加，于是f⑹ > /Xa）,即\nbln a > aln b,所以原不等式成立.\n（DI）令 /（z） = （j?2 — l）ln x — {x — l）2，则\nf （a：） = 2jcln x — jc + 2 — 丄，/z（l） = 0，\nx\n严（工）=21n j? + 1 +\n, F（l）〉0，\nx\n冲/、\n2Q2 — 1)\nJ (工)=----\n；---\n.\nX\n当0 VhV 1时，严(久)<0；当1<攵<+ oo时，厂(_z) > 0,故_/'(#)在(0,1)内单调\n减少，在(1, +°°)内单调增加，因而y7©)在工=1处敢到最小值.文/z( 1)>o,所以当\n(o, +*)时,>0,从而/Z(J7)在co, +°°)内单调增加.又/z(i)= 0,可知当 o<z<\n1时»/z(x) V 0；当1 <工<+°°时,f O > 0.同理可知/(j?)在x = \\处取到最小值，又\n/(I) = 0,所以> 0,故原不等式成立.\n(N)由已知，有\n/(0) = lim/(j?) = limjc •\n= 0,\n•z-*0\n龙-*0\nJC\nr(o)= iim\n= iim g = i.\njc 0\nj?-*o jc\n由泰勒公式，有\n，\n，\n= /(o)+ /z(o)jc + f+ f 拿)*($介于z 与 o 之间),\n由/z(jc) > 0,知/(jc) $工,故原不等龙成立.",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.441266+00:00",
+  "updated_at": "2026-08-23T12:39:50.867926+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        24.0,
+        400.94439697265625,
+        482.3999938964844,
+        492.9922180175781
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 33,
+      "bbox": [
+        24.0,
+        432.82989501953125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 34,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        230.48419189453125
+      ]
+    }
+  ]
+}

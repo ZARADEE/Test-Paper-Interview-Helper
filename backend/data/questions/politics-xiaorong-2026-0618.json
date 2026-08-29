@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0618",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "统一战线是中国共产党夺取革命、建设、改革事业胜利的重要法宝，也是实现中华民族伟大复\n\n兴的重要法宝。统战工作的本质要求是",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 93,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "大团结大联合"
+    },
+    {
+      "key": "B",
+      "text": "围绕中心、服务大局"
+    },
+    {
+      "key": "C",
+      "text": "在尊重多样性中寻求一致性"
+    },
+    {
+      "key": "D",
+      "text": "统一思想"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        89.34200286865234,
+        241.53111267089844,
+        929.2661743164062,
+        372.647705078125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        1.4677400588989258,
+        1117.7845458984375,
+        410.7414245605469,
+        1318.150146484375
+      ]
+    },
+    {
+      "page": 103,
+      "bbox": [
+        463.2510070800781,
+        31.614459991455078,
+        842.5010375976562,
+        159.91973876953125
+      ]
+    }
+  ]
+}

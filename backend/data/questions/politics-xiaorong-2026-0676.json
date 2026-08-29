@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0676",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十八届六中全会明确了习近平同志党中央的核心、全党的核心地位，党的十九大把习近平\n\n新时代中国特色社会主义思想确立为党必须长期坚持的指导思想。“两个确立” 对新时代党和国\n\n家事业发展、对推进中华民族伟大复兴历史进程具有决定性意义。“两个确立”",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "知识储备题\n\n出处精讲下语二而考点2 -EJ3",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 100,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是党在新时代取得的重大政治成果"
+    },
+    {
+      "key": "B",
+      "text": "反映了全党全军全国各族人民共同心愿"
+    },
+    {
+      "key": "C",
+      "text": "是新时代党和国家事业取得历史性成就、发生历史性变革的决定性因素"
+    },
+    {
+      "key": "D",
+      "text": "是党和人民应对一切不确定性的最大确定性、最大底气、最大保证\n\n雷一音\n新时代坚持和发展中国特色社会主义"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 100,
+      "bbox": [
+        104.7750015258789,
+        307.5788269042969,
+        937.4344482421875,
+        589.181884765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        2.135000228881836,
+        665.4602661132812,
+        417.27484130859375,
+        840.6280517578125
+      ]
+    }
+  ]
+}

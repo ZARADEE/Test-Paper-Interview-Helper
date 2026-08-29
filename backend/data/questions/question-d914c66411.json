@@ -1,0 +1,49 @@
+{
+  "id": "question-d914c66411",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(17) 设水工)在［0,+cxd)上连续，在(0,+oo)内可导，且o W/Q)\n证明：至\n少存在一*点 $ € (0, +oo),使得 f ® = (: + f)2 •",
+  "answer_markdown": "",
+  "analysis_markdown": "(17)证 令 FQ) = /■&) —7~各乜，则 F(0) = 0.\n1十工\n=0\nlim F(无)=lim\nHf+8\n工_>+8\n、 z\n乂)_\n1 + J7\nX_\n(由 o^f(x)< 1 +\n，及夹逼准则，知 /(0) = 0, lim /(jc) = 0).\nJ72\n由上一题结论知，存在一点FC(0,+oo),使得F'(g) =0,即/(f) = 7y~L2.\n(1 + W )\n爭皿］上分别应用拉格朗日中值定理，得",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.440266+00:00",
+  "updated_at": "2026-08-23T12:39:50.854270+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        24.0,
+        76.61140441894531,
+        482.3999938964844,
+        122.60062408447266
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        24.0,
+        55.45881271362305,
+        482.3999938964844,
+        155.54885864257812
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "politics-xiaorong-2026-0333",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "第二次世界大战以后，资本主义生产中的自动化程度加强。自动化生产线的广泛使用，使直接\n\n从事生产操作的工人大大减少，甚至出现了少数所谓的“无人工厂”。这意味着，在生产自动\n\n化条件下",
+  "answer_markdown": "AD",
+  "analysis_markdown": "具有十分重要的理论意义和现实意义。C\n\n错误（这是劳动价值论的意义，题目问的是\n\n出处精讲他考点70 -6\n\n资本积累学说的意义）。\n\n简析资本主义条件下的生产自动化只是意",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 49,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "剩余价值生产所使用的生产工具更加先进B. 技术和科学成为独立的剩余价值源泉"
+    },
+    {
+      "key": "C",
+      "text": "资本的有机构成进一步降低"
+    },
+    {
+      "key": "D",
+      "text": "劳动的复杂程度和强度日益提高"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 49,
+      "bbox": [
+        88.03800201416016,
+        244.28236389160156,
+        928.4387817382812,
+        405.72216796875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        7.324000358581543,
+        594.1382446289062,
+        426.8730163574219,
+        1085.881103515625
+      ]
+    }
+  ]
+}

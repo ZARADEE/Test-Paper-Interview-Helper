@@ -1,0 +1,74 @@
+{
+  "id": "question-fd9a23cf8a",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)设矩阵B相似于A =\n，则 H — r(B), r2 =\n—\n, r3 = r(B — 2E)\n满足(\n).\n\n\n\n\n[0\n).\n既相似又合同的矩阵是(\n-1",
+  "answer_markdown": "C",
+  "analysis_markdown": "解由\n1,知 r(A) = n — 1 = 3 —\nr(A* )\na\nb b\n=(a + 26) (a — 6)2 — 0 ,\n1 A | =\nh\na b =(a+ 26)\na 一 b\nb\nb a\na — b\n得a + 2b = 0或a =b.\n又当a = b时,r(A) = 1 # 2 ,故a + 2b = 0(由a,b均不为零，可知a + 26 = 0已经蕴含\na H b),故C正确.\n7zOr(A) = n，\n【注】 设A是\"阶方阵，则r（A*） =\nlOr(A) = n — 1,\n0少厂(A) <Z n — 1.",
+  "chapter": "矩阵",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 78,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.480630+00:00",
+  "updated_at": "2026-08-23T12:39:51.800229+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "ri < r2 < r3"
+    },
+    {
+      "key": "B",
+      "text": "r2 < r3 < 厂i"
+    },
+    {
+      "key": "C",
+      "text": "厂3 <厂1 V厂2"
+    },
+    {
+      "key": "D",
+      "text": "厂 1 <厂3 V r2"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        24.0,
+        242.00791931152344,
+        482.3999938964844,
+        322.5570983886719
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 191,
+      "bbox": [
+        24.0,
+        574.032958984375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 192,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        89.28306579589844
+      ]
+    }
+  ]
+}

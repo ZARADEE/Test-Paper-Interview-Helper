@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0190",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "无产阶级夺取政权的第一次伟大尝试是",
+  "answer_markdown": "C",
+  "analysis_markdown": "出处精布两6 考点86\n\n简析托马斯\n• 莫尔于1516 年发表的《乌\n\n托邦》是空想社会主义的开山之作。受《乌",
+  "chapter": "第六章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 26,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "B",
+      "text": "1864 年国际工人协会（第一国际）的成立"
+    },
+    {
+      "key": "A",
+      "text": "1848 年欧洲革命"
+    },
+    {
+      "key": "D",
+      "text": "1889 年第二国际的诞生"
+    },
+    {
+      "key": "C",
+      "text": "1871 年爆发的巴黎公社革命"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第六章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第六章"
+  ],
+  "source_regions": [
+    {
+      "page": 26,
+      "bbox": [
+        103.94999694824219,
+        403.9781188964844,
+        911.255859375,
+        499.9814758300781
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 35,
+      "bbox": [
+        434.4209899902344,
+        297.7401123046875,
+        857.1774291992188,
+        950.0337524414062
+      ]
+    }
+  ]
+}

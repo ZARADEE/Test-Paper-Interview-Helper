@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-018",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "苏轼在《题西林壁》中写道\"横看成岭侧成峰，远近高低各不同\"人们之所以对同一个事物会有横侧、远近、高低等评价差异，是因为：",
+  "answer_markdown": "BD",
+  "analysis_markdown": "解析：本题考查价值评价及其特点。评价结果取决于人对客体和主体的双重认识，\n这种认识不仅包括对客体属性和规律的认识，也包括对主体的规定性和需要的认识。只\n有对主体和客体都有了正确认识，才能对主客体间的价值关系作出正确评价。因此选项\nD 说法正确，A 说法错误。选项B 正确，评价结果与评价主体直接相关。知识性认识是\n人的主观反映客观的过程，认识结果不以主体意志为转移；而价值评价则要揭示和表达\n客体对于主体的意义。因而主体的存在状态作为价值关系的构成要素必然会对评价结果\n产生影响，使评价结果受到主体意志的影响。选项C 说法错误，评价结果有正确与错误\n之分，价值评价也有科学与非科学之别。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.566112+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "评价客体没有自身固有的本质与特性"
+    },
+    {
+      "key": "B",
+      "text": "评价过程与评价主体有着直接的关系"
+    },
+    {
+      "key": "C",
+      "text": "评价没有正确与错误、善恶的区别"
+    },
+    {
+      "key": "D",
+      "text": "评价结果随之客体的相互关系而改变。 ### 答案解析 18."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

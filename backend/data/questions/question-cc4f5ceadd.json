@@ -1,0 +1,50 @@
+{
+  "id": "question-cc4f5ceadd",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(10) 设21 =亦(a > 0) ,2卄1 = Ja +工”，证明:limx„存在，并求其值.",
+  "answer_markdown": "",
+  "analysis_markdown": "(10)解 依题意，有 ^1 =Va,x2 = \\! a +7a ,\n,x,\nV\n\"个根号\n可知&”｝严格单调增加.\n由 #卄1 = y/a + 云，得-^h-i = a + 九，故 工卄i =------- 1\n— V —----k 1.\n而z卄1〉石，因此力卄1 <¥+1 = Va + 1,即&”｝有上界，故lim©存在.\nJa\n设limz” = A,等式z鴛=a + _z”两边同时取极限(/? f oo)，得A2 = a十A,解得\n”f 8\nA = 1 +\n+ 4a 人 _ 1 —+ 4a\n(舍去)，\n故limz” =］十\"冷 +全.\n“fOO\nLJ",
+  "chapter": "函数、极限与连续",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 10,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.436189+00:00",
+  "updated_at": "2026-08-23T12:39:50.735014+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 10,
+      "bbox": [
+        24.0,
+        249.38990783691406,
+        482.3999938964844,
+        270.2569885253906
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        24.0,
+        59.63810729980469,
+        482.3999938964844,
+        209.46849060058594
+      ]
+    }
+  ]
+}

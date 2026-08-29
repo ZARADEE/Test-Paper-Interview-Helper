@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0671",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平总书记总结党百年来的理论创新经验，在强调坚持“第一个结合”的基础上，明确提出把马\n\n克思主义基本原理同中华优秀传统文化相结合的重大命题，这是又一次的思想解放。“两个结合”",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "择，是历史和人民的选择。中国特色社会主\n\n出处隔蒋的考点2\n\n义，既坚持了科学社会主义基本原则，又根据",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 99,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是对坚持和发展马克思主义作出的重大理论贡献"
+    },
+    {
+      "key": "B",
+      "text": "表明我们党对中国道路、理论、制度的认识达到了新高度"
+    },
+    {
+      "key": "C",
+      "text": "表明我们党的历史自信、文化自信达到了新高度"
+    },
+    {
+      "key": "D",
+      "text": "表明我们党在传承中华优秀传统文化中推进理论创新的自觉性达到了新高度"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 99,
+      "bbox": [
+        87.71800231933594,
+        573.068115234375,
+        928.3967895507812,
+        764.7827758789062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        5.142999649047852,
+        209.464599609375,
+        243.5262451171875,
+        282.57318115234375
+      ]
+    }
+  ]
+}

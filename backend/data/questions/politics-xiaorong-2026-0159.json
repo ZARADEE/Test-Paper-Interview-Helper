@@ -1,0 +1,62 @@
+{
+  "id": "politics-xiaorong-2026-0159",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "某资本家投资100 万元，其预付资本的有机构成是3 ：1, 每次投资的剩余价值率为200%, 该\n资本家每次投资的利润为",
+  "answer_markdown": "C",
+  "analysis_markdown": "划分为不变资本和可变资本；依据资本价\n\n出处精讲P711 考点70 -4\n\n值周转方式的不同，划分为固定资本和流\n\n考点71 -3\n\n动资本。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 22,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "20 万元"
+    },
+    {
+      "key": "B",
+      "text": "25 万元\nC50 万元"
+    },
+    {
+      "key": "D",
+      "text": "75 万元"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 22,
+      "bbox": [
+        104.31600189208984,
+        444.79644775390625,
+        937.470703125,
+        547.7191162109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 31,
+      "bbox": [
+        4.133999824523926,
+        384.3003845214844,
+        432.98297119140625,
+        816.4541625976562
+      ]
+    }
+  ]
+}

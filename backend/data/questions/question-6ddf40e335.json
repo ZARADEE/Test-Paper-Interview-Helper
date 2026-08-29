@@ -1,0 +1,57 @@
+{
+  "id": "question-6ddf40e335",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(40) 设D位于曲线夕=工(］丄)丹(a〉0,2 G V+oo)下方，工轴上方的无界区域.\n(I)求D的面积S(a);\n(U )求S(a)的最小值.",
+  "answer_markdown": "",
+  "analysis_markdown": "(40) 解 (I )依题设，\n=\nI\n(In 工)—Lid(ln h)\nf+oo\nS(a)=J2 ^(lnrc)\nI H-oo\n]\na(In 2)°*\n=一 —(In\na\n(n)令 /(a) = a(ln 2)°，则由\nfr (a) = (In 2)a + a • (In 2)\" • ln(ln 2) = (In 2)叮1 + aln(ln 2)] = 0,\n諾厉是唯一驻点・\n得«0\n当*—諾厉时'\"）＞°；当°＞：卅②时，门。）＜0,故\ng 一 m）（ln 2厂為=-K（l?2） •\n为最大值，所以SQ）的最小值为丿下=—ln（ln 2） • （In 2）岛.\n•H-1",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 30,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.447851+00:00",
+  "updated_at": "2026-08-23T12:39:51.057214+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 30,
+      "bbox": [
+        24.0,
+        600.7510375976562,
+        482.3999938964844,
+        666.24072265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 75,
+      "bbox": [
+        24.0,
+        592.3909912109375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 76,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        160.59890747070312
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "politics-2017-027",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在半殖民地半封建社会的条件下，中国不可能在独立的基础上与外国发生经济往来，资本-帝国主义列强同中国发生经济关系，不是为了推动中国经济的发展，而是为了控制中国的经济。列强控制中国经济的方式有：（ ）",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "【解析】本题考查是列强控制中国经济的方式，所以涉及到的是经济方面。BCD都是经济方面的措施，A不是经济方面，是文化方面，所以排除不符合题意的选项，正确答案是BCD。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.536699+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "在中国设立出版机构宣传西学"
+    },
+    {
+      "key": "B",
+      "text": "控制中国的关税和盐税"
+    },
+    {
+      "key": "C",
+      "text": "在中国设立银行"
+    },
+    {
+      "key": "D",
+      "text": "控制中国的交通运输业 ### 答案解析 27."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

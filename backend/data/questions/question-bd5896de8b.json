@@ -1,0 +1,49 @@
+{
+  "id": "question-bd5896de8b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(11) ( I )设办/)在［0,+oo)上是非负连续函数，证明：当且仅当 a(t)dt发散时，微\nJ 0\n分方程学+ a(t)z = 0的每一个解x(t')满足limzQ) = 0 ；\ndt\nc->+8\n(n)设a>0,f(t)在［0,十oo)上连续有界，证明：方程竽+处=的所有\n解在［0, + oo)上有界.",
+  "answer_markdown": "",
+  "analysis_markdown": "(11)证\ndx\nd?\na(s)ds\na(t)dt 发\n散时，\na(s)d、s — »— oo(i ->+ oo),\n故有 limx(i)\n=0.\ni->4-oo\nC + joe^/(5)d5j(i>O),满足工(0) =_ro 的解为\n(U)该方程的通解为K(t) =\n■Zo+] ea'/(5)d5^|(z > 0).\n当 / & [o, +*)时，田已知，设 | 7(0 |^M(M>0),lflljRl 得\n^—a(t—s)\nf(s)ds W| 工。| + m| [ e-\"L『)ds £ |\n| + — •\nM\nI 氏⑺ IM zo 1 +\na",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 48,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.459048+00:00",
+  "updated_at": "2026-08-23T12:39:51.389644+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 48,
+      "bbox": [
+        24.0,
+        141.77716064453125,
+        482.3999938964844,
+        236.3897247314453
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 134,
+      "bbox": [
+        24.0,
+        280.8984069824219,
+        482.3999938964844,
+        408.5637512207031
+      ]
+    }
+  ]
+}

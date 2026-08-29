@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0917",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "《论人民民主专政》是毛泽东在中国新民主主义革命取得决定性胜利、全国性政权即将建立的\n时刻，为纪念中国共产党成立28 周年而撰写的文章。文章论述了即将成立的中华人民共和国\n的国家性质，各阶级在国家中的地位及其相互关系，国家对内、对外政策等。《论人民民主专\n政》这篇文章",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 135,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "定了新中国国家政权的理论基础和一定发展阶段上的政策基础"
+    },
+    {
+      "key": "B",
+      "text": "为即将成立的新中国作了政治理论准备"
+    },
+    {
+      "key": "C",
+      "text": "共七届二中全会的决议一起构成了《中国人民政治协商会议共同纲领》的基础"
+    },
+    {
+      "key": "D",
+      "text": "国共产党人开始探索适合中国国情的社会主义建设道路的标志"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 135,
+      "bbox": [
+        85.26599884033203,
+        117.29940795898438,
+        925.2798461914062,
+        414.9339904785156
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 140,
+      "bbox": [
+        444.364013671875,
+        379.0519714355469,
+        851.7286376953125,
+        520.0072631835938
+      ]
+    }
+  ]
+}

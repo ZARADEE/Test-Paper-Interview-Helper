@@ -1,0 +1,44 @@
+{
+  "id": "politics-2015-019",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思主义从必然性和偶然性的辩证统一中理解杰出人物的历史作用,认为 :",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "【解析】历史人物特别是杰出人物的作用受到社会历史条件的限制，受人民群众及其实践活动的制约。任何杰出人物的出现都体现了必然性和偶然性的统一。杰出人物往往会因其自身的智慧、性格等因素对社会的具体进程产生一定的或加速或延缓的影响，但杰出人物改变不了历史发展的基本方向，人民群众的总体意愿和行动代表了历史发展的方向，人民群众的社会实践最终决定历史发展的结局。故排除A选项，本题正确答案是BCD。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.505864+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "杰出人物能够改变历史发展的基本方向"
+    },
+    {
+      "key": "B",
+      "text": "杰出人物的历史作用受到一定历史条件的制约"
+    },
+    {
+      "key": "C",
+      "text": "杰出人物历史作用的形成和发挥与其服务人民群众的意愿,密不可分"
+    },
+    {
+      "key": "D",
+      "text": "杰出人物们因其智慧性格因素对社会进程发生影响"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

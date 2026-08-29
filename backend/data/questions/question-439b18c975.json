@@ -1,0 +1,67 @@
+{
+  "id": "question-439b18c975",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（6） 将下列函数展开为工的幕级数，并确定收敛域：\n（I）/1（X）= .2-L + 2；\n（II ）/2（-X）= ln（l — x — 2jc2 ）\n（IV ）/4 Q） = Harctan x 一 In\n.\n（DI ）/3（工）=ln（j; + \\/1 + j：2 ）",
+  "answer_markdown": "",
+  "analysis_markdown": "(6)解\n(I )\nf (工)=_____11_______ — _1\nj:2—3工 + 2\n(1—j?) (2 — jc)\n1—x 2 一 x\nI z丨V 1,则\n由于r土\nn=0\n]\n2 — x\nn = 0\n1 X\n1 —空\n工(1 _珂\n所以\nJi (z)\n9 x G(— 1，1)・\nn = 0 '\n乙\n1 一 x 2 — x\n(U)\nln(l +je)=\n由 ln(l — x — 2jc2 ) = ln[( 1 一 2工)(1+工)]=ln( 1 +\n+ ln( 1 一 2工)，且\n-1 1,\n”=1\n九\nn=\\\nVI 2”丹\nln(l — 2工)=VC-l)^1\nU\nn\n故\nfz (z) = ln( 1 一 x — 2x2)=刀\n(-l)\"+i 一 2\" ” 一\n------------------ x ，x G\n7?\n（皿）由 /3 (j?) = lnO+ a/1 + a：2),得/VQ)\nn=\\\n14)-\n2 T'\n]------- 竺——\n2^1?=—=,而\nX + Jl + J?\na/1 +\n_=\n1 2 | 1 X 3 4\n1X3X561\n…一―八\nTf^j-尹 +亦丫 -2X4X6, +…n=l)'\n故 ln(j； + ^1 + x2) = [ f3‘(t)(lt + 于3(0)\n3丄 1X3\n1X3X5\n,\n2X3\n2X4X5\n2X4X6X7 十\n【注】 由 f3 (-r) — fs(0)=\nf3f (Odt,其中 f3 (0) = 0,知\nf~3(工) '—九(0) + f /s^Odi.\nJ 0\n/4 (无)=j：arctan x 一 In Jl +\n=\n(IV)\narctan tdt,\nJ 0\n(-1)\"\narctan t = t — £尸 + g护一£卩 ---- p 打…十 产卄i ---- ， | ^ |< 1,\n而\n故\n.2\n2\"\nb\n(\n如十1\nfd («X)= ――—\n— -------工4 + -------无6 —\n— --- 3：---乂8 I ... -1—\n3 X 4 十5X6\n7X8 十十\n(2“ + 1)(2兀 + 2)\"\n+ …，I \" V 1.\n【注】 此题也可以分别将Harctan h和In\n展开为x的幕级数.\nn\n---------------- 1\n1 吕\n丁2卄2\n.吕\n丁2卄2\nIn a/1 + * = yln(l + j;2)=空召(—1)\"\n= Y(—1)\"\nI \"W 1，\nn 4~ 1\nn—Q\n2n + 2\n(arctan _z)' = —~~p =另(一iyjc2n,\n丄十工\nn = 0\n・工\nJL\n异卄1\n积分得\n(arctan t)fdt = arctan x — arctan 0 =\no\nX K 1,所以\n吕\n丁2卄2\n故 zarctan x =〉，(一 1)\"-,\nn = Q\n\"十 1\n工2卄2\njrarctan 无一In Jl + j? =\nOOS (一 1)\" 2n + 1 -工(―1)\"\n2n + 2\n严\nn==0\n'丄 n=«0\n[ [\nS(\"1)n(^+i\n2n + 2\n工2卄2\nOO§(_ir (2/?+；)⑵+ 2)，W 】•",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 51,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.460149+00:00",
+  "updated_at": "2026-08-23T12:39:51.427206+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 51,
+      "bbox": [
+        24.0,
+        405.2913818359375,
+        482.3999938964844,
+        465.3148193359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 142,
+      "bbox": [
+        24.0,
+        618.0691528320312,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 143,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 144,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        64.5941162109375
+      ]
+    }
+  ]
+}

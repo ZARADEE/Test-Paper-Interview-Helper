@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0449",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新民主主义革命时期，党领导的革命统一战线包含着两个联盟。其中作为统一战线的基础的联\n\n盟是",
+  "answer_markdown": "A",
+  "analysis_markdown": "题，开放发展注重的是解决发展内外联动问\n\n出处精讲下够考点44 —到\n\n题，共享发展注重的是解决社会公平正义问\n\n简析构建新发展格局最本质的特征是实现\n\n题。C 正确,A、B、D 不符合题意。\n\n高水平的自立自强。科技自立自强是我国经",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 69,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "工人阶级同城市小资产阶级的联盟"
+    },
+    {
+      "key": "B",
+      "text": "工人阶级同农民阶级、广大知识分子及其他劳动者的联盟"
+    },
+    {
+      "key": "C",
+      "text": "工人阶级同农民阶级、小资产阶级和民族资产阶级的联盟"
+    },
+    {
+      "key": "D",
+      "text": "工人阶级同可以合作的非劳动人民的联盟"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 69,
+      "bbox": [
+        86.44499969482422,
+        279.4863586425781,
+        927.447998046875,
+        472.80413818359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        442.75,
+        173.82144165039062,
+        855.8154296875,
+        424.2584228515625
+      ]
+    }
+  ]
+}

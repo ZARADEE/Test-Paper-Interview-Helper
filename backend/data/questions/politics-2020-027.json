@@ -1,0 +1,44 @@
+{
+  "id": "politics-2020-027",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "鸦片战争后，资本列强通过发动侵略战争，强迫中国签订一系列不平等条约。但列强也没能如英国在印度那样，对中国实施殖民统治，这是因为 （ ）",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "本题考查帝国主义不能灭亡和瓜分中国的原因。西方列强侵略中国的目的，是要把它变成自己的殖民地。但\n是由于中国长期以来一直是统一的大国，中国人民进行了顽强、持久的反侵略，同时帝国主义列强间争夺中国\n的矛盾无法协调，使得它们中的任何一个国家无法单独征服中国，也使得它们不可能共同瓜分中国。ABD正\n确。C表述错误。帝国主义势力与中国的封建势力、买办势力相勾结共同压迫剥削中国人民，镇压中国革命。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:40:47.524542+00:00",
+  "updated_at": "2026-08-23T15:56:23.614181+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国人民顽强、持久的反抗"
+    },
+    {
+      "key": "B",
+      "text": "列强间争夺中国的矛盾无法协调"
+    },
+    {
+      "key": "C",
+      "text": "中国封建势力拒绝与列强合作"
+    },
+    {
+      "key": "D",
+      "text": "中国长期以来是一个统一的大国 ### 答案解析 27.【"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

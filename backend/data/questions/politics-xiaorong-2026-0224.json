@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0224",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "\"和实生物，同则不继，以它平它谓之和，故能丰长而物归之。” 这里包含的辩证法思想有",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 31,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "矛盾的同一是包含差别的同一"
+    },
+    {
+      "key": "B",
+      "text": "对立面的统一是事物发展的动力"
+    },
+    {
+      "key": "C",
+      "text": "不包含内部差别的事物就不能存在和发展"
+    },
+    {
+      "key": "D",
+      "text": "矛盾的一方只有克服另一方才能达到统一"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 31,
+      "bbox": [
+        88.36499786376953,
+        955.8698120117188,
+        883.164794921875,
+        1110.8956298828125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 42,
+      "bbox": [
+        441.3489990234375,
+        24.525684356689453,
+        859.6723022460938,
+        761.8141479492188
+      ]
+    }
+  ]
+}

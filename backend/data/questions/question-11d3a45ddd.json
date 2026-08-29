@@ -1,0 +1,67 @@
+{
+  "id": "question-11d3a45ddd",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)设(X】，X2,…，X”，X„+i)为总体X〜NQz,/)的简单随机样本，记戈=丄£x,,\nn : = 1\ns2\nS2 =衣)2,Y= / 二、2 ・(X卄 1 -X)2,T=肛料—X)2\n(« + l)a\n(I )求 EY 和 DY；\n(H)若T服从F分布，求怡的值.",
+  "answer_markdown": "",
+  "analysis_markdown": "（3）解（i）先确定y服从的分布.依题设，\nX卄1\nN（p,/）,戈〜N\n\" +》），所以\n且X卄］与灭相互独立，故x„+1 -x\nNO,\n\\ n\n= 〜\"）•\n由X2分布的性质,EY= 1，PY= 2.\n（UL由已知，样本方差s2与衣独立，x申 与s2独立，且灭,x卄i,s2相互独立，故s2与\n（X卄1 -X）2也独立，所以\n右斗至〜\nS2\n即“命•",
+  "chapter": "数理统计",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 101,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.492264+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "样本"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数理统计"
+  ],
+  "source_regions": [
+    {
+      "page": 101,
+      "bbox": [
+        24.0,
+        579.213623046875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 102,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 277,
+      "bbox": [
+        24.0,
+        480.80255126953125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 278,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

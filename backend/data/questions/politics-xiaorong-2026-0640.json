@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0640",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "经过接续奋斗，我国社会建设全面加强，人民安居乐业、社会安定有序的良好局面不断巩固发\n\n展，人民对美好生活的向往不断变为现实。新时代加强社会建设的重要着力点是",
+  "answer_markdown": "A",
+  "analysis_markdown": "出处精讲衣在n 考点91 -2\n\n出处精丽丽考点79 -3-(2)\n\n简析总体国家安全观以人民安全为宗旨，以\n\n置近健全和完善社会保障体系是新时代加\n\n政治安全为根本，以经济安全为基础，以军\n\n强社会建设的重要着力点。A 正确。正确把\n\n事、科技、文化、社会安全为保障，以促进国际\n\n握民生和发展的关系，是保障和改善民生的\n\n安全为依托。B 正确。\n\n重要前提。B、C、D 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "健全和完善社会保障体系"
+    },
+    {
+      "key": "B",
+      "text": "正确把握民生和发展的关系"
+    },
+    {
+      "key": "C",
+      "text": "全面推进健康中国建设"
+    },
+    {
+      "key": "D",
+      "text": "防范化解重大风险\n\n建设社会主义生态文明\n\n第十二章"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        86.822998046875,
+        772.6548461914062,
+        927.5523681640625,
+        900.97802734375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 105,
+      "bbox": [
+        433.9070129394531,
+        436.00408935546875,
+        844.82861328125,
+        783.2410888671875
+      ]
+    }
+  ]
+}

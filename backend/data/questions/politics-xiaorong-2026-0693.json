@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0693",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "坚持党的全面领导，必须依靠制度来保障。党的领导制度是",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "简析实现共同富裕不仅是经济问题. 而且\n\n出处WP165］考点21\n\n是关系党的执政基础的重大政治问题。实现\n\n简析B、C、D 正确。党的领导制度是我国的\n\n共同富裕，首先要通过全国人民共同奋斗把\n\n根本领导制度,不是根本政治制度，我国的根\n\n“蛋糕”做大做好，然后通过合理的制度安\n\n本政治制度是人民代表大会制度,A 错误。\n\n排正确处理增长和分配关系，把“蛋糕”切\n\n好分好，让人民群众真真切切感受到共同富\n\n第四章\n\n裕不仅仅是一个口号，而是看得见、摸得着、",
+  "chapter": "第二章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 102,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "我国的根本政治制度"
+    },
+    {
+      "key": "B",
+      "text": "党的领导核心地位的必然反映和内在要求"
+    },
+    {
+      "key": "C",
+      "text": "中国特色社会主义制度体系的核心"
+    },
+    {
+      "key": "D",
+      "text": "国家治理体系和治理能力现代化的关键\n\n第四章\n坚持以人民为中心"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第二章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第二章"
+  ],
+  "source_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        103.26799774169922,
+        782.0389404296875,
+        904.9130249023438,
+        883.9505615234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 111,
+      "bbox": [
+        3.2930002212524414,
+        435.38958740234375,
+        261.4402313232422,
+        512.9486083984375
+      ]
+    }
+  ]
+}

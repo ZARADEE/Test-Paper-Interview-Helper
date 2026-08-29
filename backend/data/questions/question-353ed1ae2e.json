@@ -1,0 +1,59 @@
+{
+  "id": "question-353ed1ae2e",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（5） 求下列极限：\n(II)lim\n（a,b,c为正数）；\n2 I\n•丄\nx 十 jcsin —\nJC\n(IV) Hn/l+d\"\n(V ) lim -—厂巳\nx-*0 x\n(Vffl) limj;!\n(W) limd-x2)1-7^",
+  "answer_markdown": "",
+  "analysis_markdown": "(5)解(I)\nlim\nZf 8\n1 — —sin 工\nx\n1 = L\n1 +丄sin丄\njc2 + «zsin —\nx\njc\nx\ni i i\n3______\nT~~T~~T~~\n3 •丄\n3 +a±\n启+卅+ c-\n+ 定 + ci - 3\nx +bx +cx -3\n(U)由于lim\nZ->+8\nlim\nx->4-oo\n吕+卅+占一3\n丿\n]im(\" ~~ 1) + (b匚—1) + (c： — 1)\nlim\nX-*-H-oo\n3 •丄\n:〜+8\no •—\nx\n=-y(ln a + 1 n b + In c) = ln(a6c)^ ,\n丄\n^ln(a6c)T\n故原式\n_ ]曲 ln(sin2+ ex) — In ex\n=(abc)^・\ni. ln(sin2 j： + e^)—x\nlim\n(DI)\n工一>0\nln(e2x — x2) — 2工\nln(e2x — x2) — In e2x\nsin jc\n叫1+于\nlim\nT~*0\n•\nlim(-e\")芈二=-l.\n•Tf 0\nx2\nlim\nx-*0 x\nIn 1\ne2\"\n31n(l+x)t 一 1\n一 J\n31n(l+z)\ne ~\ne3 lim\nlim\nx-*0\nx—0\n(IV)\nlim\nx—0\nx\n(1 + JC)7\nx\n31n(l + h) _ 3\n3e3 limln(l+刃一.\ne3 lim\nx2\nx\n土 T\n3e3 lim\n2工\n-Ae3\netanx _ ex\n于(出“厂工\nlim------ ；----- = lim\n—\n——=limex ■\n(V)\n丄3\n].3 工 _ 1\nlim 丁 P\nx—0\nx->0\ntan jc —\n—x\n•Z3\njc — sin x\nH3\nx-*-0\nx-*0\nx — sm x\ntan x • sin x • x =lim\n(VI)\nlimcot x\n丄\nsin x x =lim\n=lim\nx—0\n丄工2\n1 一 cos jc 1.\n3x2\nx—O\n-丿\n]\n由于 lim( 1 — x2 ) i- /-‘\n(MI)\nlim[(l\nj-->0\nx->0\nx2\n，且\n/(1+/Lf —2,\n=lim\nJC2\nx-*0\n故原式=e-2\nsin x* In\nlim x* In\n&fo+\nlim\neL o+\nlim屮\nW o+ 7\n_1_\nlim :\n-r = e。= 1.\n(I) limxsin\nx-*0+\n—o+\n=lim esinxln",
+  "chapter": "函数、极限与连续",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 9,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.435593+00:00",
+  "updated_at": "2026-08-23T12:39:50.727246+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 9,
+      "bbox": [
+        24.0,
+        509.2581787109375,
+        482.3999938964844,
+        651.1527099609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 10,
+      "bbox": [
+        24.0,
+        198.7310333251953,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 11,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        54.26832962036133
+      ]
+    }
+  ]
+}

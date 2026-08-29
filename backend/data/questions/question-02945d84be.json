@@ -1,0 +1,67 @@
+{
+  "id": "question-02945d84be",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) A是\"阶实对称矩阵，则A合同于矩阵〃的充分必要条件是(\n).\n①r(A) = r(B),\n②A与B的正惯性指数相等，\n③A与B均正定矩阵，\n④B是实对称矩阵.",
+  "answer_markdown": "C",
+  "analysis_markdown": "解 首先④是必要条件.\n若A与B合同，则存在可逆矩阵C,使得CTAC = 故r(A) = r(B),且正、负惯性指数\n不变，即Pa =伽，反之，若厂(A) = r(B)，且Pa = Pb，由亍\n=r(A) , /b + Qb =\n故= qB ,所以A与〃合同.\n③是充分条件.\n【注】 存在可逆矩阵C,使得CTAC = B,称A与〃合同，定义中并没有要求A,B是实\n对称矩阵，但当A是实对称阵时，由(CtAC)t = BS即CTATC = 刃，故(5 AC = BT = B,\n说明B也是实对称矩阵.一般情况下，只讨论对称矩阵的正、负惯性指数.",
+  "chapter": "二次型",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 82,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.482942+00:00",
+  "updated_at": "2026-08-23T12:39:51.840783+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "①成立"
+    },
+    {
+      "key": "B",
+      "text": "④成立"
+    },
+    {
+      "key": "C",
+      "text": "①②④均成立"
+    },
+    {
+      "key": "D",
+      "text": "③成立"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "二次型",
+    "正定",
+    "正惯性指数"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        24.0,
+        214.96878051757812,
+        482.3999938964844,
+        286.9591064453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 230,
+      "bbox": [
+        24.0,
+        118.55966186523438,
+        482.3999938964844,
+        232.2593231201172
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-1015",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "以国共两党合作为基础的抗日民族统一战线正式形成的标志是",
+  "answer_markdown": "BC",
+  "analysis_markdown": "B 正确。\n\n出处精讲P284 考点44 -5\n地B、C 正确。国民党五届三中全会只是\n\n中共七大在党的历史上具有重要里程碑\n\n意义，标志着党在政治上、思想上、组织上走\n\n向成熟。C 错误。抗日战争的胜利是中华民\n\n标志着抗日民族统一战线初步形成。\n\n族从近代以来陷入深重危机走向伟大复兴的",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 149,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "西安事变的和平解决"
+    },
+    {
+      "key": "B",
+      "text": "国民党中央通讯社发表《中共中央为公布国共合作宣言》"
+    },
+    {
+      "key": "C",
+      "text": "蒋介石发表实际上承认中国共产党合法地位的谈话"
+    },
+    {
+      "key": "D",
+      "text": "国民党五届三中全会"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 149,
+      "bbox": [
+        83.66899871826172,
+        360.52435302734375,
+        644.2112426757812,
+        517.7130126953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 154,
+      "bbox": [
+        15.201000213623047,
+        1244.6192626953125,
+        310.5389404296875,
+        1316.46240234375
+      ]
+    },
+    {
+      "page": 154,
+      "bbox": [
+        470.1570129394531,
+        28.365684509277344,
+        855.7036743164062,
+        323.80279541015625
+      ]
+    }
+  ]
+}

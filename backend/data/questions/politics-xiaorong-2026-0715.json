@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0715",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我国非公有制经济是改革开放以来在中国共产党的方针政策指引下发展起来的，我们要毫不动\n\n摇鼓励、支持、引导非公有制经济发展。非公有制经济是",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "出处精而丽j 考点46 拓展与点拨0\n\n出处精讲EZ9：考点40 -2-\n\n简析A、B、D 正确。实施乡村振兴战略是新\n\n.直近B、C、D 正确。“社会主义经济”与“社\n\n时代“三农”工作的总抓手,C 错误。\n\n会主义市场经济”不同，社会主义经济指的是",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 105,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会主义经济的重要组成部分和我国经济社会发展的重要基础"
+    },
+    {
+      "key": "B",
+      "text": "国家税收的重要来源和就业创业的重要领域"
+    },
+    {
+      "key": "C",
+      "text": "稳定经济的重要基础和金融发展的重要依托"
+    },
+    {
+      "key": "D",
+      "text": "技术创新的重要主体和经济持续健康发展的重要力量"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 105,
+      "bbox": [
+        88.9990005493164,
+        885.7843627929688,
+        928.9861450195312,
+        1079.9158935546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 113,
+      "bbox": [
+        433.00201416015625,
+        578.986572265625,
+        853.2470092773438,
+        1323.5321044921875
+      ]
+    }
+  ]
+}

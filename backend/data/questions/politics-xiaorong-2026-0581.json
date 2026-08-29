@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0581",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新时代坚持和发展中国特色社会主义的根本立场是",
+  "answer_markdown": "A",
+  "analysis_markdown": "放和发展社会生产力，是改革开放的鲜明特\n\n出处精讲国7 考点23 -3\n\n征和首要任务，也是新时代贯彻新发展理念、\n\n简析人民性是马克思主义的本质属性和鲜\n\n构建新发展格局、推动高质量发展的必然要\n\n明品格。坚持以人民为中心，是新时代坚持\n\n求。解放和增强社会活力，是社会主义改革\n\n和发展中国特色社会主义的根本立场，是贯\n\n的内在要求和基本目的,也是新时代全面深\n\n穿党治国理政全部活动的一条红线。A 正\n\n化改革的关键所在。B 正确,A、C、D 错误。\n\n确,B、C、D 错误。\n\n点拨关于“首要任务”的提法：",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 89,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持以人民为中心"
+    },
+    {
+      "key": "B",
+      "text": "坚持以经济建设为中心"
+    },
+    {
+      "key": "C",
+      "text": "坚持四项基本原则"
+    },
+    {
+      "key": "D",
+      "text": "坚持改革开放"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        90.61000061035156,
+        168.23548889160156,
+        748.475341796875,
+        265.58416748046875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 98,
+      "bbox": [
+        443.3890075683594,
+        1192.1064453125,
+        849.4134521484375,
+        1324.585205078125
+      ]
+    }
+  ]
+}

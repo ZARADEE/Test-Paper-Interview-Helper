@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-022",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国共产党的历史，是一部不断推进的马克思主义中国化、时代化的历史，是一部不断推进理论创新、进行理论创造的历史。在这一历程中，毛泽东是马克思主义中国化的伟大开拓者和毛泽东思想的主要创立者，其主要贡献是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "解析：本题考查毛泽东思想的历史地位。在中国共产党的历史上，毛泽东第一个明\n确提出了“马克思主义中国化”的命题，深刻论证了马克思主义中国化的必要性和极端重\n要性，系统阐述了马克思主义中国化的科学内涵和实现马克思主义中国化的正确途径，\n开辟了马克思主义在中国发展的道路。故本题正确选项为ABC。选项D 说法错误。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.572197+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "第一次明确提出了“马克思主义中国化”的科学命题和重大任务"
+    },
+    {
+      "key": "B",
+      "text": "深刻论证了马克思主义中国化的必要性和重要性"
+    },
+    {
+      "key": "C",
+      "text": "系统阐述了马克思主义中国化的科学内涵"
+    },
+    {
+      "key": "D",
+      "text": "全面清除了马克思主义中国化认识上的各种障碍 ### 答案解析 22."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "中国化理论成果"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0006",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在马克思主义的经典著作中，被誉为“工人阶级的圣经\" 的著作是",
+  "answer_markdown": "C",
+  "analysis_markdown": "归结为物质，主张物质第一性,意识第二性,\n\n出处精讲两考点2 拓展与点拨0\n\n意识是物质的产物;唯心主义把世界的本原",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 1,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "《共产党宣言》"
+    },
+    {
+      "key": "B",
+      "text": "《反杜林论》"
+    },
+    {
+      "key": "C",
+      "text": "《资本论》"
+    },
+    {
+      "key": "D",
+      "text": "《德意志意识形态》"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 1,
+      "bbox": [
+        93.70899963378906,
+        1320.80908203125,
+        732.2190551757812,
+        1415.69384765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 2,
+      "bbox": [
+        19.704999923706055,
+        1184.995361328125,
+        362.64483642578125,
+        1260.7598876953125
+      ]
+    }
+  ]
+}

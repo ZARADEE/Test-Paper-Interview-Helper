@@ -1,0 +1,66 @@
+{
+  "id": "question-d19f1192be",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（4）设二维随机变量（X,Y）服从D= {&,》）丨夕$0,* +夕2〈1}上的均匀分布，令\n'0, XV0,\nU = Jl, 0£X<Y,\nJo, X^V3Y,\n11, X<V3Y.\n、2, Y < X,\n(I )求(U,V)的联合概率分布；\n(U)求 P{UV# 0}.\n(1—(1 + ),丨工|<1, |歹|<1,",
+  "answer_markdown": "",
+  "analysis_markdown": "(4)解 (I )依题设，(X,Y)的概率密度为\n〔0,其他，\n二维随机变量(U,V)有六个取值分别为(0,0), (0,1), (1,0), (1,1), (2,0), (2,1),则\nP{U - Q,V =0} = P{X<0,X^V3Y} = P(0) -- 0,\nP{U = 1,V = 0} = P{0 £ X< Y,X$a/TT} = P(0) = 0.\n考虑到 2® 的非零取值为常数Z,可直接利用面积求解概率，如图18-10所示,\n7T\nZAOD =乎,ZBOD =手,ZCOD =寻，可得\n6 *\nZ\np{o< x<y} = — x4x4xi2\nP{U = 1,V = 1}\n1、，兀\n2八4\nZ\nP{U = 0,V = 1}\nTV\nP{X<0} = y,\nP{X^^3Y} = g,\nP{U = 2,V = 0}\nP{U = 2,V = 1}\nP{Y< X<73Y}=\n1 1 _ 1\nT~~6 ~ 12,\n故（U,V）的联合概率分布为\n(n)p{uv^o} = p{u = i,v = i} + p{u = 2,v = i}\n丄亠丄=丄\n_ 4\n3 '",
+  "chapter": "随机变量及其分布",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 92,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.489264+00:00",
+  "updated_at": "2026-08-23T12:39:51.971024+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "概率"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        24.0,
+        613.4063110351562,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 93,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        86.23361206054688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 254,
+      "bbox": [
+        24.0,
+        582.381103515625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 255,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        323.3683166503906
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0124",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "俗话说：“一分钱一分货”，但是在实际的商品交换过程中，既有“一分钱二分货” 的现象,\n也有“一分钱半分货”的现象。这说明",
+  "answer_markdown": "C",
+  "analysis_markdown": "值的效率，它的高低可以用单位劳动时间内\n\n生产的商品数量来测量，也可以用单位商品\n\n出处精沛可否考点65 -2\n\n中所耗费的劳动时间来测量。B 正确。\n\n简析C 正确。价格是价值的货币表现，",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "价格并不反映价值"
+    },
+    {
+      "key": "B",
+      "text": "价格的变化都是价值变化的表现"
+    },
+    {
+      "key": "C",
+      "text": "价格围绕商品的价值自发波动"
+    },
+    {
+      "key": "D",
+      "text": "供求关系变动决定商品的价值量"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        103.65699768066406,
+        773.369873046875,
+        938.5465087890625,
+        901.332763671875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 25,
+      "bbox": [
+        0.1274099349975586,
+        569.4859008789062,
+        419.76812744140625,
+        1288.035888671875
+      ]
+    }
+  ]
+}

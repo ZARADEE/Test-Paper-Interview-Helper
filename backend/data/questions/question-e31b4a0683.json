@@ -1,0 +1,62 @@
+{
+  "id": "question-e31b4a0683",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "（4）设A是\"\n则（ ）.\n\nBA与B相似、合同但不等价\n\n与JB相似但不合同",
+  "answer_markdown": "A",
+  "analysis_markdown": "解 A的第d列与第丿列、第0行与第丿行交换，相当于右乘、左乘初等矩阵，即\n•B = EitjAEi,j,\n又 — Ei,j ,E；j = Eitj，故\nB = Ei,jAE— E~}jAEitj = Ej.jAEi^ ,\n所以A与B等价、相似且合同.",
+  "chapter": "二次型",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 81,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.482942+00:00",
+  "updated_at": "2026-08-23T12:39:51.829564+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "A与B等价、相似且合同"
+    },
+    {
+      "key": "C",
+      "text": "A"
+    },
+    {
+      "key": "D",
+      "text": "A与〃等价但不相似"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "相似",
+    "二次型"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 81,
+      "bbox": [
+        24.0,
+        432.071533203125,
+        482.3999938964844,
+        489.058837890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 228,
+      "bbox": [
+        24.0,
+        58.58428192138672,
+        482.3999938964844,
+        128.20977783203125
+      ]
+    }
+  ]
+}

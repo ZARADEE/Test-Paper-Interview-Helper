@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0685",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国共产党团结带领中国人民追求民族复兴的历史，也是一部不断探索现代化道路的历史。在\n\n新中国成立特别是改革开放以来长期探索和实践基础上，经过党的十八大以来在理论和实践上\n\n的创新突破，我们成功推进和拓展了中国式现代化。中国式现代化",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "简析A、D 正确。改革开放以来我们取得一\n\n出处精讲有\n考点tips\n\n切成绩和进步的根本原因,归结起来就是：开",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 101,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "既基于自身国情、又借鉴各国经验"
+    },
+    {
+      "key": "B",
+      "text": "既传承历史文化、又融合现代文明"
+    },
+    {
+      "key": "C",
+      "text": "是具有中国特色、符合中国实际的现代化"
+    },
+    {
+      "key": "D",
+      "text": "是强国建设、民族复兴的唯一正确道路"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 101,
+      "bbox": [
+        87.41000366210938,
+        707.2579345703125,
+        928.5111083984375,
+        868.2096557617188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 110,
+      "bbox": [
+        16.10300064086914,
+        318.21905517578125,
+        424.0343017578125,
+        654.36865234375
+      ]
+    }
+  ]
+}

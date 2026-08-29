@@ -1,0 +1,49 @@
+{
+  "id": "question-7e1bad6dda",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设数列｛a”｝满足a” =a()+加，“ =1,2,…，其中血工。,〃工0为常数.\n(I)求工 anxn的收敛域;\nn = 0\n(U)求工算\nn = Q J",
+  "answer_markdown": "",
+  "analysis_markdown": "（4）解 （I）利用公式求收敛半径.\nI Qn+l =lim\nQo + (咒 +1)〃\n=1，\n” f oo\naQ\nnd\nlim\n”f 8\n故尺=1,收敛区间为（一1,1）1\n当久=± 1时，工（士 1）\" • an发散（由lima” H 0），故收敛域为（一 1,1）.\n”=0\n”一8\n(n)求工a”g\"的和函数S(x).\nn = 0\noo\noo\noo\n=丫 (a0 + nd)j：n = 丫 a0j2n + d 丫 nxn —— Si (工)+ S2 (^c) ?\nS(j?) = anxn\nn=0\nn=0\nn=0\nn=0\n，_ Qo\n51 («z) = 丫 aQx'\n1 一 X\nn = 0\ndx\n=dr=必另(y1)'=必(另z\" ) = dx\n52 Q) = d nxn\n1 — x\nn=0\nQo\nn=Q\nn = 0\nn=0\ndx\n令得工;-\n2a()+ 2d.\n故 S(z) = ---° + 卞.\n1 — x (1 —工)'\nn = 0 °\n=，0以\"9得(1 —工一工2 )= 1，即",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 53,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.461257+00:00",
+  "updated_at": "2026-08-23T12:39:51.463343+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 53,
+      "bbox": [
+        24.0,
+        342.4177551269531,
+        482.3999938964844,
+        428.26763916015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 150,
+      "bbox": [
+        24.0,
+        264.4183349609375,
+        482.3999938964844,
+        479.2683410644531
+      ]
+    }
+  ]
+}

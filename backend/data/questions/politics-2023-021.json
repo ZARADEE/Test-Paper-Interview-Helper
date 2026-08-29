@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-021",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "十月革命胜利后，为捍卫年轻的苏维埃政权，列宁领导的苏维埃政权从1918年夏到1921年春实行了战时共产主义政策。战时共产主义政策是苏维埃俄国面临帝国主义武装干涉和国内战争被迫采取的一种临时性政策。战时国产主义政策主要内容有()。",
+  "answer_markdown": "AB",
+  "analysis_markdown": "解析：本题考查社会主义要苏联一国的实践。从1918 年夏到1921 年春，列宁领导\n的苏维埃政权实行了以取消商品货币关系为主要特征的战时共产主义政策，在经济上采\n取一系列非常的、特殊的义带有强制性的措施。选项AB 说法正确。选项CD 说法错误，\n战时共产主义政策取消了自由贸易，CD 不符合题意。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.571186+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "余粮收集制"
+    },
+    {
+      "key": "B",
+      "text": "取消商品货币关系"
+    },
+    {
+      "key": "C",
+      "text": "发展多种所有制"
+    },
+    {
+      "key": "D",
+      "text": "支持农民耕种自留地 ### 答案解析 21."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "中国近现代史"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

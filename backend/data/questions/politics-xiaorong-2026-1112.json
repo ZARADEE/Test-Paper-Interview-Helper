@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1112",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "道德具有多方面的功能和效力。通过评价等方式，指导和纠正人们的行为和实践活动、协调社\n\n会关系和人际关系的功效与能力，是道德的",
+  "answer_markdown": "B",
+  "analysis_markdown": "会是否高度发展、充满活力、和谐有序的重\n\n出处精耕强0 考点31 -3- (2)-0\n\n要标志。A 正确。判断社会性质的主要标准\n\n简析在道德的功能系统中，认识功能、规范\n\n是生产关系的性质;生产力是社会进步的根\n\n功能、调节功能是最基本的功能,此外还有导\n\n本内容，也是衡量社会进步的根本尺度。B、\n\n向、激励、教育等功能。道德的调节功能是指\n\nC、D 错误。\n\n道德通过评价等方式，指导和纠正人们的行",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 164,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "认识功能"
+    },
+    {
+      "key": "B",
+      "text": "调节功能"
+    },
+    {
+      "key": "C",
+      "text": "导向功能"
+    },
+    {
+      "key": "D",
+      "text": "规范功能"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 164,
+      "bbox": [
+        104.27799987792969,
+        1076.0775146484375,
+        937.0812377929688,
+        1176.376953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 169,
+      "bbox": [
+        432.1679992675781,
+        716.3699951171875,
+        842.9938354492188,
+        923.7131958007812
+      ]
+    }
+  ]
+}

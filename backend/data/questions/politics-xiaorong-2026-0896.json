@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0896",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "抗日战争时期，中国共产党的土地政策是",
+  "answer_markdown": "D",
+  "analysis_markdown": "日，蒋介石发表实际上承认共产党合法地位\n\n出处的际保考点49 -2-O\n置近减租减息是中国共产党在抗日根据地\n\n的谈话。以国共两党第二次合作为基础的抗\n\n日民族统一战线正式形成。C 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 132,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "没收地主阶级土地"
+    },
+    {
+      "key": "B",
+      "text": "消灭富农"
+    },
+    {
+      "key": "C",
+      "text": "征收富农多余财产"
+    },
+    {
+      "key": "D",
+      "text": "减租减息"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 132,
+      "bbox": [
+        103.41799926757812,
+        706.4181518554688,
+        643.8209838867188,
+        800.4215698242188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 137,
+      "bbox": [
+        432.7650146484375,
+        478.0364074707031,
+        770.8468627929688,
+        559.4422607421875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-890c202bf4",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(14)设人=\n,A~ BA = 6A + B4,求 B.\n丄",
+  "answer_markdown": "",
+  "analysis_markdown": "(14)解 由 A BA = 6A +BA，得 A BA - BA\n由已知,A 可逆,AT — E 可逆，故 B = (A\"1 -E)-1(6A)A~1\n6A,即£ -E)BA = 6A.\n=6 £ — EL.\n-1\n又\n0 ,(A^ -E)\n故\nB =6(厂-EY'\n【注】设a} ,a2 ,a3均不为零，则\n-1\n丄、\na3\n，0\nai\n«1\n丄\n_1_\n-1\na2\naz\n^2\n0、\n心，\n丄\n丄\n、Q1",
+  "chapter": "矩阵",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 66,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.475218+00:00",
+  "updated_at": "2026-08-23T12:39:51.672737+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 66,
+      "bbox": [
+        24.0,
+        92.45692443847656,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 191,
+      "bbox": [
+        24.0,
+        101.77226257324219,
+        482.3999938964844,
+        310.42486572265625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1101",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在5000 多年的历史发展进程中，中华民族形成了伟大民族精神。中华民族伟大民族精神的核\n\n心是",
+  "answer_markdown": "B",
+  "analysis_markdown": "出处精讲网日考点20 -2-0\n\n出处精讲丙而考点20 _2_w\n\n置近爱自己的骨肉同胞是爱国主义的基本\n\n简析爱国主义体现了人们对自己祖国的深\n\n内涵之一。骨肉同胞之爱反映了对民族利益\n\n厚感情，揭示了个人对祖国的依存关系，是人\n\n共同体的自觉认同，是检验一个人对祖国忠\n\n们对自己家园以及民族和文化的归属感、认\n\n诚程度的试金石。A 正确。B、C、D 不符合\n\n同感、尊严感与荣誉感的统一,是调节个人与\n\n题意0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 163,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "团结统一"
+    },
+    {
+      "key": "B",
+      "text": "爱国主义"
+    },
+    {
+      "key": "C",
+      "text": "勤劳勇敢"
+    },
+    {
+      "key": "D",
+      "text": "自强不息"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 163,
+      "bbox": [
+        86.93499755859375,
+        865.5647583007812,
+        928.2703857421875,
+        963.7040405273438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        448.2049865722656,
+        699.5811767578125,
+        864.0,
+        1038.161376953125
+      ]
+    }
+  ]
+}

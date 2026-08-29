@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0291",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "以下选项中属于观念上层建筑的有",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "意识和社会经济之间在发展上存在着不平衡\n\n出处獭T丽］考点46 -2-(1)\n\n性。例如，19世纪经济上落后的德国却产生\n\n了黑格尔哲学。\n\n简析A、B、C 正确。政党属于政治上层建",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 43,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "政治法律思想"
+    },
+    {
+      "key": "B",
+      "text": "道德"
+    },
+    {
+      "key": "C",
+      "text": "艺术"
+    },
+    {
+      "key": "D",
+      "text": "政党"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        86.4219970703125,
+        797.521240234375,
+        784.5593872070312,
+        865.2515869140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 57,
+      "bbox": [
+        435.13800048828125,
+        1104.4088134765625,
+        845.9803466796875,
+        1245.1334228515625
+      ]
+    }
+  ]
+}

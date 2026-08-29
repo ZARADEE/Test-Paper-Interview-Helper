@@ -1,0 +1,58 @@
+{
+  "id": "question-ce9da93a57",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4)设X|,X2,“・，X”是来自总体X的简单随机样本,X的概率密度为\nfO =盘e-甲，一 oo V 工 <+ * ,0 > 0.\nZC7\nA\nA\n求参数3的矩估计量0及EC/).",
+  "answer_markdown": "",
+  "analysis_markdown": "(4)解 由于 EX =\nx2\n=\nE(X2)=\nf+°o\nI t2e~ldt\nX\n-oo\n三=t\nr+°° r2\n工\nu\n=\n-7-e~« dj? \"\nJ 0 t)\n=护F(3)=护• ？！ = 2护，\nXf.又由俨=舟^2 Xf,得\nA\n故9的矩估计量9\nJ = 02.\nE（护）=+空 E（Xf）",
+  "chapter": "参数估计",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 102,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.492264+00:00",
+  "updated_at": "2026-08-23T12:39:52.062056+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "样本",
+    "参数估计"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "参数估计"
+  ],
+  "source_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        24.0,
+        376.01068115234375,
+        482.3999938964844,
+        439.3751220703125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 278,
+      "bbox": [
+        24.0,
+        552.2881469726562,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 279,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        75.48438262939453
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1156",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“法律既不是铭刻在大理石上，也不是铭刻在铜表上，而是铭刻在公民们的内心里。” 卢梭这句\n\n话强调的是",
+  "answer_markdown": "A",
+  "analysis_markdown": "出处精讲商9 考点55 1(1)、(2)n\n蜀虹法律的权威源自人民的内心拥护和真\n\n受法律维护或保障，具有不可侵犯性。由国\n\n家强制力保障其实现，这是法律权利区别于\n\n诚信仰。人民权益要靠法律保障，法律权威\n\n其他权利的根本所在。B 正确,A、C、D 都不\n\n要靠人民维护。尊重法律权威，就要信仰法\n\n符合题意。\n\n律，对法律常怀敬畏之心。卢梭这句话强调",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 168,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "法律必须被信仰，否则形同虚设"
+    },
+    {
+      "key": "B",
+      "text": "要用实际行动保障法律实施"
+    },
+    {
+      "key": "C",
+      "text": "应当拥护法律的规定，接受法律的约束"
+    },
+    {
+      "key": "D",
+      "text": "对违法犯罪行为要敢于揭露、敢于抵制\n\n\f\n二、多项选择题\n\n担当复兴大任成就时代新人\n\n绪论"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        102.95500183105469,
+        1201.3634033203125,
+        935.7656860351562,
+        1386.5802001953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 174,
+      "bbox": [
+        441.2149963378906,
+        286.260498046875,
+        857.7510375976562,
+        551.1182861328125
+      ]
+    }
+  ]
+}

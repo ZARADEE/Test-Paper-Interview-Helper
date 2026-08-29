@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0170",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "资本主义经济危机爆发的根本原因是资本主义的基本矛盾。经济危机的抽象的一般的可能性首\n\n先是由",
+  "answer_markdown": "B",
+  "analysis_markdown": "均化，不同部门的资本家按照等量资本获得\n\n出处精证委：考点75 -2-6\n\n等量利润的原则来瓜分剩余价值。在利润\n\n率平均化的过程中，形成了社会的平均利润\n\n箍板经济危机的抽象的一般的可能性，首\n\n率，按照平均利润率来计算和获得的利润，\n\n先是由货币作为流通手段和支付手段引起\n\n叫作平均利润。B 正确。\n\n的。以货币为媒介的商品买卖在时间上分",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 23,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会的绝对的消费能力引起的"
+    },
+    {
+      "key": "B",
+      "text": "货币作为流通手段和支付手段引起的"
+    },
+    {
+      "key": "C",
+      "text": "商品价格和价值之间量的不一致引起的"
+    },
+    {
+      "key": "D",
+      "text": "社会总产品两大部类比例失衡引起的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 23,
+      "bbox": [
+        88.20999908447266,
+        496.08245849609375,
+        929.2765502929688,
+        628.9561157226562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        442.8330078125,
+        491.8568420410156,
+        849.994873046875,
+        857.9032592773438
+      ]
+    }
+  ]
+}

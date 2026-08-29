@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0379",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "进入21 世纪以来，资本主义呈现出一些新变化、新特征。科技创新加速资本主义生产方式变\n\n化，这表现在",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "构等方式对政府的政策施加影响体现的是\n\n出处精萨西n 考点82 -0\n\n金融寡头(不是普通民众)对垄断资本主义\n\n简析科技创新加速资本主义生产方式变\n\n国家的控制和影响,B 错误。\n\n化，表现在:u产业结构的调整。\n生产组",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 55,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "产业结构调整，一般制造业占比逐渐下降，高新技术产业和金融业所占比重日趋上升"
+    },
+    {
+      "key": "B",
+      "text": "生产组织和劳动形式变化，数据成为一种新的生产要素，数字劳动在生产中的地位愈加突出"
+    },
+    {
+      "key": "C",
+      "text": "社会阶级层级结构呈现复杂性、多样化，“知识工人” 数量和增长速度均超过“非知识工人”"
+    },
+    {
+      "key": "D",
+      "text": "新经济形态出现，数字经济、智能经济、共享经济等已成为近年来全球经济发展的新形态"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 55,
+      "bbox": [
+        91.12999725341797,
+        118.991943359375,
+        930.6417236328125,
+        310.2043151855469
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        446.4389953613281,
+        389.3811950683594,
+        741.237060546875,
+        465.7375793457031
+      ]
+    }
+  ]
+}

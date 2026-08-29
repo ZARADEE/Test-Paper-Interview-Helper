@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0528",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我国对个体手工业的社会主义改造，采取了类似改造个体农业的逐步过渡的方法。以下逐步过\n\n渡的形式中，在性质上相一致的过渡形式是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "济体和制造业第一大国，国内经济循环同国\n\n际经济循环的关系客观上早有调整的要求。\n\n出处精讲向元\n考点39 -1\n\n“内需是中国经济发展的基本动力，也是",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 79,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "手工业供销合作社"
+    },
+    {
+      "key": "B",
+      "text": "手工业供销小组"
+    },
+    {
+      "key": "C",
+      "text": "手工业生产合作社"
+    },
+    {
+      "key": "D",
+      "text": "初级农业生产合作社"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        88.27899932861328,
+        1072.3843994140625,
+        928.3825073242188,
+        1204.8375244140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        16.851999282836914,
+        401.01318359375,
+        423.0545349121094,
+        610.3226928710938
+      ]
+    }
+  ]
+}

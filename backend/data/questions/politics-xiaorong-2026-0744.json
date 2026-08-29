@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0744",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新时代统战工作取得的最大成果，就是在实践中形成了关于做好新时代党的统一战线工作的重\n\n要思想，就加强和改进统战工作提出了一系列新理念新思想新战略。必须充分发挥统一战线的\n\n重要法宝作用。统一战线是",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "知识储备题\n\n错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 109,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国共产党区别于其他任何政党的显著标志"
+    },
+    {
+      "key": "B",
+      "text": "党克敌制胜、执政兴国的重要法宝"
+    },
+    {
+      "key": "C",
+      "text": "团结海内外全体中华儿女实现中华民族伟大复兴的重要法宝"
+    },
+    {
+      "key": "D",
+      "text": "党的总路线总政策的重要组成部分"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        87.56999969482422,
+        1166.64892578125,
+        928.07568359375,
+        1382.4156494140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 116,
+      "bbox": [
+        17.700000762939453,
+        1125.6688232421875,
+        427.44659423828125,
+        1329.112060546875
+      ]
+    },
+    {
+      "page": 116,
+      "bbox": [
+        471.8500061035156,
+        36.1605110168457,
+        848.4884033203125,
+        130.6384735107422
+      ]
+    }
+  ]
+}

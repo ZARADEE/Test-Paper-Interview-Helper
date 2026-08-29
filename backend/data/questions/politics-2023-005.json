@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-005",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "什么是社会主义，怎样建设社会主义，是邓小平在改革开放和现代化建设过程中，不断提出和反复思考的首要的基本的理论问题。搞清这一基本理论问题，关键是要",
+  "answer_markdown": "D",
+  "analysis_markdown": "---\n\n[PDF page 2]\n\n解析：本题考查邓小平理论回答的基本问题，搞清楚什么是社会主义、怎样建设社\n会主义，关键是要在坚持社会主义基本制度的基础上进一步认清社会主义的本质。故本\n题正确选项为D。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.559851+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "科学分析我国社会主要矛盾"
+    },
+    {
+      "key": "B",
+      "text": "廓清不合乎时代进步和社会发展规律的模糊观念"
+    },
+    {
+      "key": "C",
+      "text": "系统总结社会主义社会发展的经验"
+    },
+    {
+      "key": "D",
+      "text": "在坚持社会主义基本制度基础上进一步认识社会主义本质 ### 答案解析 5."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

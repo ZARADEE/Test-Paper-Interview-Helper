@@ -1,0 +1,44 @@
+{
+  "id": "politics-2013-018",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "唯物史观第一次科学地解决了历史创造者的问题，认为人民群众是历史的创造者。人民群众：",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "【解析】人民群众是一个历史范畴。人民群众从质上说是指一切对社会历史发展起推动作用的人们，从量上说是指社会人口中的绝大多数。在不同的历史时代，人民群众有着不同的内容，包含着不同的阶级、阶层和集团。人民群众的最稳定的主体部分始终是从事物质资料生产的劳动群众及其知识分子。因此本题正确答案是选项ABD。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.460086+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "从量上说是指社会人口的绝大多数"
+    },
+    {
+      "key": "B",
+      "text": "从质上说是对社会历史发展起推动作用的人们"
+    },
+    {
+      "key": "C",
+      "text": "在任何历史时期都不包括剥削阶级"
+    },
+    {
+      "key": "D",
+      "text": "最稳定的主体部分始终是从事物质资料生产的劳动群众及其知识分子"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

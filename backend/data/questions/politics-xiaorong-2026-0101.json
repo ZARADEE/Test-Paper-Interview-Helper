@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0101",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人类同疾病较量最有力的武器就是科学技术，人类战胜大灾大疫离不开科学发展和技术创新。\n\n马克思主义认为，科学技术是",
+  "answer_markdown": "C",
+  "analysis_markdown": "众的选择性,A、B、D 内容本身就是错误的。\n\n出处励而画考点54\n\n点拨自然运动过程是自发的, 而社会活动",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 15,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会形态变革的决定力量"
+    },
+    {
+      "key": "B",
+      "text": "社会存在和发展的基础及决定力量"
+    },
+    {
+      "key": "C",
+      "text": "先进生产力的集中体现和主要标志"
+    },
+    {
+      "key": "D",
+      "text": "区分社会经济时代的客观依据"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 15,
+      "bbox": [
+        90.8010025024414,
+        962.8056640625,
+        941.545166015625,
+        1093.29931640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 20,
+      "bbox": [
+        445.27398681640625,
+        862.7296142578125,
+        851.8233032226562,
+        1256.377685546875
+      ]
+    }
+  ]
+}

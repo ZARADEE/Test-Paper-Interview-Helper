@@ -1,0 +1,59 @@
+{
+  "id": "question-747f50a44a",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(11) 设曲面S为由圆柱面^2+y =R\\平面Z = O和Z-X = R(R>O)所围立体的\n表面，计算/= ©zdS.\nS",
+  "answer_markdown": "",
+  "analysis_markdown": "（11）解\nS1：\n则\n*jR+z\nJ\n对S3分两块，其方程分别为夕=皿—工2* =-丿应―工2,将其投影到面上,九\n为三角形的区域，又dS = Vl + y2-\\- y'z dj?dz = / R\n二djcdz,由对称性，知\nVR2 -x2\nr r\nZ •\n—dw\nzc!n\nR\ndzdz = 2\nE 一分\n■\n>~R\nx2・\n._ZL\nz = Rsin t R 3\nrds =2>\n(1 + sin £)2 di\n=r\n(R + 工)? dz =\n-R JW — *\n=3兀疋\n—2 '\n0,\n显然在平面S2 ：z = 0上zdS =\nS2\n故\n/ =届用 + 0 +誓=nR3 (V2 + -|).",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 59,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.470862+00:00",
+  "updated_at": "2026-08-23T12:39:51.556474+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 59,
+      "bbox": [
+        24.0,
+        84.49624633789062,
+        482.3999938964844,
+        125.22906494140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 171,
+      "bbox": [
+        24.0,
+        373.284423828125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 172,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        102.42228698730469
+      ]
+    }
+  ]
+}

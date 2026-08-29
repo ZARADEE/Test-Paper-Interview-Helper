@@ -1,0 +1,44 @@
+{
+  "id": "politics-2010-023",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1954年9月，第一届全国人民代表大会第一次会议在北京召开，标志着人民代表大会制度在全国范围内建立起来。人民代表大会制度是中国人民当家作主的根本政治制度，这一制度是：",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "【解析】人民代表大会制度是中国人民当家作主的根本政治制度，这一是制度我党把马克思主义基本原理同中国具体实际相结合的伟大创造，是近代以来中国社会发展的必然选择，是中国共产党带领全国各族人民长期奋斗的重要成果，反映了全国各族人民的共同利益和共同愿望，在实践中显示出强大的生命力和巨大的优越性。所以选项ABCD为正确答案。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.395392+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国共产党把马克思主义与中国实际相结合的伟大创造"
+    },
+    {
+      "key": "B",
+      "text": "中国共产党带领全国人民长期奋斗的重要成果"
+    },
+    {
+      "key": "C",
+      "text": "全国各族人民的共同利益和共同愿望的反映"
+    },
+    {
+      "key": "D",
+      "text": "近代以来中国社会发展的必然选择"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "question-1c4ecf4a1b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 设随机变量X的概率密度为于Q)=< 阿\n求Y=X2的分布函数和\n严，\n工>0,\n概率密度(可用 g 和①(工)表示).",
+  "answer_markdown": "",
+  "analysis_markdown": "(3) 解\n用定义法，Fy(y) = P{Y^y} = P{X2 <j}.\n当 y W o 时,Fy(p)= o；\n当夕 >0 时， FY(y) = P{X2 ^y} =\n=F(v3?) * F(— \\［y},\nF&)是X的分布函数.\n当 z £ 0 时，F(z)=①(z)，故 F(— Vj)=①(一 vS')；\n当工> 0时,\nFQ) = £ +「e\"a = 1 + 1(1-e七)，\nZ Jo\nZ Z\n故 F(V7)= y + yd-e-2^),所以\n(0 9\ny W 0 9\nFy°)= 卅£(i —「亦)一①(一77),\n》>o,\n［0，\nj/ W 0，\n心 ®)=Fy'O)左［e-師 + 卩(_7?)］，$〉0.\n—宀.拓棗题心---------\n解 y = x2 + l(-l<x<l)不是单调函数，用定义法.\nFY(y) = P{Y^y} = P{X2+l<j/} = P{X2 ^y-1}.\n当 y V 1 时,FY(y) = 0；\n当 1 £夕<2 时，FY(y) = P{- Vj^TCXC\nC\nf J厂］\n—|\n(1 — | a： | ) djr = 2 |\n(1 — jc) dx\nJ —寸 y~\\\n=1 — (1 — — 1 )2 ；\n当 J > 2 时,Fy (y) = 1 ,故\nro,\nFy(jO = S 1 — (1 — a/j — l)2 ,\nA < 1，\n1 W A < 2,\n11,\n> 2,\n1 V y V 2 ,\n其他.",
+  "chapter": "随机变量及其分布",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 89,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.487265+00:00",
+  "updated_at": "2026-08-23T12:39:51.938129+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "分布函数",
+    "概率密度"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        24.0,
+        441.57623291015625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 245,
+      "bbox": [
+        24.0,
+        216.581298828125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 246,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

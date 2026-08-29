@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1197",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "真理的力量加上道义的力量，才能行之久远。社会主义核心价值观站在人类道义制高点，彰显\n\n出独特而强大的价值观优势。因为社会主义核心价值观具有",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "简析自古以来,人们就在探讨道德的起源并\n\n出处精讲P346 考点tips\n\n提出了种种见解或理论。“情感欲望论” 认.\n\n简析真理的力量加上道义的力量，才能行之\n\n为道德起源于人们的情感欲望，是人们为实\n\n久远。社会主义核心价值观以其先进性、人\n\n现情感欲望而形成的行为要求；\n“动物本能\n\n民性、真实性站在人类道义制高点上，彰显\n\n论”则认为道德观念是动物本能的延续，进\n\n出独特而强大的价值观优势。A、B、D 正确。\n\n而把动物基于本能的活动与人类有目的、有",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 174,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "先进性"
+    },
+    {
+      "key": "B",
+      "text": "人民性"
+    },
+    {
+      "key": "C",
+      "text": "普适性"
+    },
+    {
+      "key": "D",
+      "text": "真实性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 174,
+      "bbox": [
+        102.44499969482422,
+        1202.0557861328125,
+        934.9483642578125,
+        1299.171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 179,
+      "bbox": [
+        12.451000213623047,
+        128.0618438720703,
+        421.3699645996094,
+        334.94061279296875
+      ]
+    }
+  ]
+}

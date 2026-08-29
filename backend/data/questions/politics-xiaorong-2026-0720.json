@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0720",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "建设农业强国，必须走中国特色社会主义乡村振兴道路，大力实施乡村振兴战略，全面推进乡\n\n村振兴。实施乡村振兴战略",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲百游考点46 -2-0\n\n资本功能的方针，深化国资国企改革，推动\n\n国有资本和国有企业做强做优做大。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 106,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "农业农村现代化是总目标"
+    },
+    {
+      "key": "B",
+      "text": "坚持农业农村优先发展是总方针"
+    },
+    {
+      "key": "C",
+      "text": "产业兴旺、生态宜居、乡风文明、治理有效、生活富裕是总要求"
+    },
+    {
+      "key": "D",
+      "text": "建立健全城乡融合发展体制机制和政策体系是制度保障"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 106,
+      "bbox": [
+        103.56500244140625,
+        621.1004028320312,
+        936.7439575195312,
+        811.7979736328125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        18.80299949645996,
+        903.0222778320312,
+        280.8674011230469,
+        977.6796875
+      ]
+    }
+  ]
+}

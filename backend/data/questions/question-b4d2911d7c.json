@@ -1,0 +1,50 @@
+{
+  "id": "question-b4d2911d7c",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设连续型随机变量X的概率密度为/(x),求Y = sin X的分布函数和概率密度.\n—-—e 2 9 h W 0，",
+  "answer_markdown": "",
+  "analysis_markdown": "(2) 解 Y= sin X的值域为［―1,叮.\n当一1£夕< 1时，\nF(j) =\n= P{sinX£jO = P{X 6 D},\n其中\nD = {x \\ sin z £ y} = |J ［2kit — 7t — arcsin y, 2怡兀 + arcsin\n,\nk = —oo\n、\"、f 2^7rl_arcsin y\n故 F(y) =\n& = —ooJ 2^7r~7t—arcsin y\n当j/<-1时，F(y) = 0；当夕$1时，F(y) = l.Y的概率密度为心(夕)=F'(y),即\n另［/X2怡兀 + arcsin y) +\n— x — arcsin y) ］ •\n— 1 W y V 1,\n*=_g\n/ 一 J?\nto,\n其他.",
+  "chapter": "随机变量及其分布",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 89,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.487265+00:00",
+  "updated_at": "2026-08-23T12:39:51.936618+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "分布函数",
+    "概率密度"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        24.0,
+        413.2430419921875,
+        482.3999938964844,
+        442.57623291015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 245,
+      "bbox": [
+        24.0,
+        77.38419342041016,
+        482.3999938964844,
+        217.581298828125
+      ]
+    }
+  ]
+}

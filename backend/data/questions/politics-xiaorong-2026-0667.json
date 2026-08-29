@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0667",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "以伟大自我革命引领伟大社会革命是新时代中国特色社会主义发展的显著特点。实现伟大自我\n革命的重要途径是",
+  "answer_markdown": "A",
+  "analysis_markdown": "我们党对马克思主义党建理论的重大创新。\n\n出处精而通）考点113 .b\n\nA 正确。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 98,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "自我净化、自我完善、自我革新、自我提高"
+    },
+    {
+      "key": "B",
+      "text": "自我管理、自我服务、自我教育、自我监督"
+    },
+    {
+      "key": "C",
+      "text": "道路自信、理论自信、制度自信、文化自信"
+    },
+    {
+      "key": "D",
+      "text": "政治意识、大局意识、核心意识、看齐意识\n\n二、多项选择题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 98,
+      "bbox": [
+        104.33699798583984,
+        725.9151000976562,
+        936.0552978515625,
+        912.5146484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 108,
+      "bbox": [
+        443.49200439453125,
+        353.2535400390625,
+        707.499755859375,
+        433.1339111328125
+      ]
+    }
+  ]
+}

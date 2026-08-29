@@ -1,0 +1,48 @@
+{
+  "id": "question-75a8be1c02",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) /(^)=『e-山展开为工的幕级数为_______ •",
+  "answer_markdown": "/(x) = ±(—1)\"",
+  "analysis_markdown": "/(x) = ±(—1)\"\nn = 0\n. x A (—\n—oo . -4- oo)\n(2” + 1)“！'兀 j\n，十)•\n“2\n解\n丁2\nn\n由 e° = 1+^ + 777 + 77 + …+ -7 + …9 jc G (— 00, 4- 00)，知\n心=\n2!\n「ef =\nJ 0\n!\nn !\nJ:[1T+鲁一鲁+••• + (_])\"寻+•••»/\n了 2卄1\nS(_ir (2/z + lM!\n，x G(― °°，+ °°)・",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 50,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.460149+00:00",
+  "updated_at": "2026-08-23T12:39:51.412530+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 50,
+      "bbox": [
+        24.0,
+        358.86376953125,
+        482.3999938964844,
+        386.34185791015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 138,
+      "bbox": [
+        24.0,
+        218.27572631835938,
+        482.3999938964844,
+        325.54315185546875
+      ]
+    }
+  ]
+}

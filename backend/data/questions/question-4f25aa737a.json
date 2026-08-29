@@ -1,0 +1,71 @@
+{
+  "id": "question-4f25aa737a",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(7) 设yQ)在如的某邻域内连续，且lim /f(；。)=］,则(\n).\n\nB当\"为奇数时，如是的极小值点",
+  "answer_markdown": "C",
+  "analysis_markdown": "解利用极值的定义判别.\n> 0,即\n由iim\n= 1 > o,知在口的去心邻域内有\nx-^jcq\n(JC JCq )\nVJT JCq )\n/(^) -/(^o)的正负由(工一氏)\"确定.\n(I )当\"为奇数时，若久 > ①，则 /(jc) — /(\n)> 0 ；若 x <Zx0,则 — /(J7O)<C 0,\n故工。不是于(刃的极值点.\n(II)当花为偶数时，当JC> X0或X <JC0时，者b有f(x) —/(a?o)> 0,故工。是/'(攵)的\n极小值点，C正确.",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 19,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.442361+00:00",
+  "updated_at": "2026-08-23T12:39:50.892649+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "当\"为奇数时，工°是/(J7)的极大值点"
+    },
+    {
+      "key": "C",
+      "text": "当\"为偶数时,工。是fS 的极小值点"
+    },
+    {
+      "key": "D",
+      "text": "当\"为偶数时，工q是/(a-)的极大值点"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 19,
+      "bbox": [
+        24.0,
+        565.3809814453125,
+        482.3999938964844,
+        654.9448852539062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        24.0,
+        617.7575073242188,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 38,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        105.30974578857422
+      ]
+    }
+  ]
+}

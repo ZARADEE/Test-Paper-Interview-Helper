@@ -1,0 +1,44 @@
+{
+  "id": "politics-2011-020",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "19世纪中叶，马克思恩格斯把社会主义由空想变为科学，奠定这一飞跃的理论基石是：",
+  "answer_markdown": "CD",
+  "analysis_markdown": "【解析】马克思创立的唯物史观和剩余价值学说，揭示了人类历史发展的规律和资本主义剥削的秘密，论证了无产阶级的历史使命，从而超越了空想社会主义，创立了科学社会主义。社会主义从理论到实践是通过无产阶级革命实现的。因此此题的正确答案是选项CD。选项AB是干扰项，故排除。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.420830+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "阶级斗争学说"
+    },
+    {
+      "key": "B",
+      "text": "劳动价值论"
+    },
+    {
+      "key": "C",
+      "text": "唯物史观"
+    },
+    {
+      "key": "D",
+      "text": "剩余价值理论"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

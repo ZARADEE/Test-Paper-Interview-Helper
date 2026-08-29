@@ -1,0 +1,61 @@
+{
+  "id": "question-35882538a3",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "⑶设直线L：(°\n平面兀：4工一 2夕+ 2： — 2 = 0,则直线L( ).\n[2工 一 y 一 — 1 = 0 ,\n\nB在平面兀上",
+  "answer_markdown": "C",
+  "analysis_markdown": "解直线L的方向向量为\nj\n_ 1\n-10 =(-28,14,-7),\n显然s与平面兀的法向量\"=(4, -2,1)平行，故直线L垂直于平面；r,C正确.",
+  "chapter": "空间解析几何",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 32,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.448957+00:00",
+  "updated_at": "2026-08-23T12:39:51.072322+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "平行于平面7T"
+    },
+    {
+      "key": "C",
+      "text": "垂直于平面兀"
+    },
+    {
+      "key": "D",
+      "text": "与平面兀斜交"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "空间解析几何"
+  ],
+  "tags": [
+    "高等数学",
+    "空间解析几何"
+  ],
+  "source_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        24.0,
+        273.2345275878906,
+        482.3999938964844,
+        327.9449157714844
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        24.0,
+        283.10821533203125,
+        482.3999938964844,
+        347.4317626953125
+      ]
+    }
+  ]
+}

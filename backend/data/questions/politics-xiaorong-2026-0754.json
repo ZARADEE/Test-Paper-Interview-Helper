@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0754",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中华文明源远流长、博大精深，是世界上唯一绵延不断且以国家形态发展至今的伟大文明。中\n\n华文明是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 111,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中华民族独特的精神标识"
+    },
+    {
+      "key": "B",
+      "text": "当代中国文化的根基"
+    },
+    {
+      "key": "C",
+      "text": "维系全世界华人的精神纽带"
+    },
+    {
+      "key": "D",
+      "text": "中国文化创新的宝藏"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "国际形势与政策"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "国际形势与政策"
+  ],
+  "source_regions": [
+    {
+      "page": 111,
+      "bbox": [
+        91.7969970703125,
+        703.4425048828125,
+        931.91943359375,
+        832.7999877929688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 117,
+      "bbox": [
+        434.260986328125,
+        405.61260986328125,
+        697.2352294921875,
+        478.10162353515625
+      ]
+    }
+  ]
+}

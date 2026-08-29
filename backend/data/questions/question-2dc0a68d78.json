@@ -1,0 +1,66 @@
+{
+  "id": "question-2dc0a68d78",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(29) 设曲线夕=a (a > 0)与夕=In后在点(氐，M)处有公切线.\n(I )求常数a及点(m，M);\n(U)求两曲线与工轴所围图形绕工轴旋转一周所得旋转体的体积.",
+  "answer_markdown": "",
+  "analysis_markdown": "(29)解 (I )y = a后,夕=lnV7的导数分别为\n/ _ a t _\n_ 1\ny =^y =芯玮=盂\n如图3-12所示，由于两曲线在(©,%)处有公切线，则\n{a = In vCzT,\n{ a _ I\n解得 Ho = e2 ,a = e_1，切点为(V ,1).\n(II)V = j\"兀drc - J 7t(ln v^)2d-Lz = $\nxAx 一 于\n(In xY<\\oc\n=-^-e2 — -y-[j：(ln jcY — 2zln x + 2«z]",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 29,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.446744+00:00",
+  "updated_at": "2026-08-23T12:39:51.038873+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 29,
+      "bbox": [
+        24.0,
+        655.30712890625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 30,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        72.74246978759766
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 72,
+      "bbox": [
+        24.0,
+        580.9324951171875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 73,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        108.00019836425781
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "question-8194c98e2c",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（2） 设函数于（工）满足好（工）+ ”（ + ）=「其中a*,c均为常数，且U |#| 6 | ,求\nS 的表达式，并证明 g 是奇函数.",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解 由已知,\nX\n在①式中用丄代替工，得\n好仔)+好(z)\nCJC.\n②\nX\n再由①Xq—②Xb,得(公\n—62\n=竺一bcx.由于 | q | H | b | ,故\nX\n—— bx\\.\n心=庐£护\n而\n刃=严孑\n=—/(JC)9\nJC\n——+ bx\nx\n所以fS是奇函数.",
+  "chapter": "函数、极限与连续",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 9,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.435593+00:00",
+  "updated_at": "2026-08-23T12:39:50.722199+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 9,
+      "bbox": [
+        24.0,
+        417.7919006347656,
+        482.3999938964844,
+        460.47735595703125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 9,
+      "bbox": [
+        24.0,
+        551.87744140625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 10,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        55.14976501464844
+      ]
+    }
+  ]
+}

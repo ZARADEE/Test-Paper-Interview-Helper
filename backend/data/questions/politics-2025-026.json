@@ -1,0 +1,46 @@
+{
+  "id": "politics-2025-026",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "推动高质量发展，文化是重要支点。近年来，我国文化产业蓬勃发展，文化消费活力进一 步增强，文化在经济活动中的作用越来越突出。文化之所以能够成为推动高质量发展的重要 支点，是因为",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "【解析】本题考查的知识点：文化建设\n文化之所以能够成为推动高质量发展的重要支点，是因为文化能为经济社会发展提供价值 指引和精神力量，文化融入经济活动有助于激活发展动能、提升发展品质，文化繁荣有助于 促进社会创新创始的活力动力。文化建设不是解决新时代我国社会主要矛盾的根本途径。所 以本题正确答案是 ACD。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.382425+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "文化能为经济社会发展提供价值指引和精神力量"
+    },
+    {
+      "key": "B",
+      "text": "文化建设是解决新时代我国社会主要矛盾的根本途径"
+    },
+    {
+      "key": "C",
+      "text": "文化融入经济活动有助于激发社会动能、提升发展品质"
+    },
+    {
+      "key": "D",
+      "text": "文化繁荣有助于促进社会创新创造的活力动力 ### 答案解析 26."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "文化建设"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "文化建设"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

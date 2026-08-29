@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0311",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "同一劳动在同一时间内，当部门劳动生产率提高时会使",
+  "answer_markdown": "AB",
+  "analysis_markdown": "定回答的是价值的实体是什么，价值的量的\n\n出处精讲P朗考点63 表格\n\n规定则回答价值的大小由什么决定和怎样\n\n决定。商品的价值是凝结在商品中的无差\n\n简析同一劳动在同一时间内, 不管劳动生\n\n别的一般人类劳动（抽象劳动），而不是使用\n\n产率怎样提高，劳动者的抽象劳动形成的\n\n价值,C 错误。\n\n价值总量是不变的。而劳动生产率越高，同",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 46,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "单位商品的价值量降低"
+    },
+    {
+      "key": "B",
+      "text": "商品的使用价值量增加"
+    },
+    {
+      "key": "C",
+      "text": "单位商品的价值量不变"
+    },
+    {
+      "key": "D",
+      "text": "单位商品的价值量提高"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 46,
+      "bbox": [
+        104.52400207519531,
+        675.0917358398438,
+        758.5540161132812,
+        774.0891723632812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 61,
+      "bbox": [
+        435.635986328125,
+        244.7786407470703,
+        734.5161743164062,
+        327.57904052734375
+      ]
+    }
+  ]
+}

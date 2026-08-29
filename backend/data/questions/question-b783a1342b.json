@@ -1,0 +1,57 @@
+{
+  "id": "question-b783a1342b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(13) 设 A =(；,且(ATB~1)T\n= (E — 〃t)t,求 B.\n2I",
+  "answer_markdown": "",
+  "analysis_markdown": "(13)解 由(ATB~1)T -A(BTA)-1 = (E —RT)T,得\n(BT)TA—A(AT)(RT) -1 =gT —(^T)T,\n即(B-1)TA-(BT)-1 + (B-1)T =E 因为(B7)\"1 = (〃T)T,所以(0)-1 = A-1, B 卩\no i)\n2 2r\nE.因为(BT)-J =\nBr = A, B = AT =",
+  "chapter": "矩阵",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 65,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.475218+00:00",
+  "updated_at": "2026-08-23T12:39:51.671217+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        24.0,
+        634.632080078125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 66,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        93.45692443847656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 191,
+      "bbox": [
+        24.0,
+        48.05794143676758,
+        482.3999938964844,
+        102.77226257324219
+      ]
+    }
+  ]
+}

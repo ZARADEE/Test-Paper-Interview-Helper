@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0972",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1905 年至1907 年间，资产阶级革命派与改良派分别以《民报》《新民丛报》为主要舆论阵地,\n\n展开了一场大论战。这场论战的主要内容包括",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 142,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "要不要以革命手段推翻清王朝"
+    },
+    {
+      "key": "B",
+      "text": "要不要废八股、改科举和兴西学"
+    },
+    {
+      "key": "C",
+      "text": "要不要推翻帝制，实行共和"
+    },
+    {
+      "key": "D",
+      "text": "要不要进行社会革命"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 142,
+      "bbox": [
+        102.8010025024414,
+        959.3502197265625,
+        938.0439453125,
+        1085.840087890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 148,
+      "bbox": [
+        438.54400634765625,
+        984.2089233398438,
+        845.2756958007812,
+        1319.154541015625
+      ]
+    }
+  ]
+}

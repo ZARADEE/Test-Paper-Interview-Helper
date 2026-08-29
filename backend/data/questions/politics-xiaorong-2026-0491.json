@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0491",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "群众路线是毛泽东思想活的灵魂的三个基本方面的内容之一。群众路线就是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "知识储备题\n\n出处精讲下语二而考点2 -EJ3",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 74,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "一切为了群众"
+    },
+    {
+      "key": "B",
+      "text": "一切依靠群众"
+    },
+    {
+      "key": "C",
+      "text": "从群众中来"
+    },
+    {
+      "key": "D",
+      "text": "到群众中去"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 74,
+      "bbox": [
+        99.91999816894531,
+        1102.16064453125,
+        767.2191772460938,
+        1201.19091796875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 88,
+      "bbox": [
+        15.599000930786133,
+        498.2115478515625,
+        302.1028137207031,
+        574.0912475585938
+      ]
+    }
+  ]
+}

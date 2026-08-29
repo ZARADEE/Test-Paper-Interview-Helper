@@ -1,0 +1,58 @@
+{
+  "id": "question-fa3d6e7420",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)计算下列二重积分：\n(1) 设D 由 x — y = Q + 夕=0 及 h = 1 所围，求/ = jjzj/ Cx — jOdzdy ；\nD\n(H)设D由》=丘=工所围，求J=］j sin ^djrdj/ ；\nD 夕\n(HI )设 D 由夕=j;2 (jc > 0) ,y = 1\n=0 所围，求 / =『.Xy d-zdj/；\nJb vi+y\n(IV)设 D： — 1 w 2 W sin y, I y V 号,求/ = jpc(e'+czsin y — Ddjrdjz.\nD",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴解 （I）D如图6-17所示，先对歹积分较简便.\nI = jjzj/ （工一y）dxdy\nD\n=J jcy （j; 一\nri\no \\z\n7 J o\nlb\n宁旳不能表示\n（II ）D如图6-18所示，若先对夕积分，则\n为初等函数，故只能先对工积分.\nT宁\ndjrdj/ = dy\nJ o .\nD\n=f沁o—护)曲=「\n(1 —\n—j/)sin ydy\no\no\n1 一 sin 1.\nJo y\nJ o\n=[—(1 — j/)cos y 一 sin y] |(\n(HI)D如图6-19所示，先对龙积分，则\nV7\n=I\n- d v | jcAx\no\n3/2 dy\n_丄\n—T\n° vT+y\no\n2/[ I 3、丄\n•可(1+夕)2\n=y (a/2 — 1).\n(1V)D如图6-20所示，作辅助线y=— arcsin x\n将D划分为D与02,则\n+cos 丿 sin y 一 1) djrdj/\nsin j/djrdj/ 一\nze'+cosysin ydxdy\n11 =\n\"b\njjze'+c°2sin yAx^y +\n•ze'+cgysin ydzdjy.\nA\n;?+cos^sin 3/关于工是奇函数，故\n由Di关于夕轴对称口&\nJJd+z\nsin ydzdy = 0.\nD1\n『ze'+cgysin y^rdy = 0,故 = 0.\n同理,\nD2\n=+ jJjcdjcdj/，\nIz =\nD\nD]\nD2\n根据对称性寸”d\"y = O.又\nD1\n7T_",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 41,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.453376+00:00",
+  "updated_at": "2026-08-23T12:39:51.242541+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "重积分及其应用",
+    "二重积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 41,
+      "bbox": [
+        24.0,
+        95.19010162353516,
+        482.3999938964844,
+        225.25283813476562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 106,
+      "bbox": [
+        24.0,
+        530.667724609375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 107,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        560.5012817382812
+      ]
+    }
+  ]
+}

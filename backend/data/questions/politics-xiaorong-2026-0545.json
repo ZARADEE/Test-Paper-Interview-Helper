@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0545",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "以毛泽东为核心的第一代中央领导集体在创建新中国和探索适合中国情况的社会主义建设道路\n\n过程中，形成了一系列重要的理论，主要有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "知识储备题\n\n出处精讲P193\n考点56 -0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 82,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "在社会主义经济建设方面，实行以农业为基础，以工业为主导，以农轻重为序发展国民经济\n\n的总方针"
+    },
+    {
+      "key": "B",
+      "text": "社会主义可以分为不发达的社会主义和比较发达的社会主义两个阶段，后一阶段可能比前一\n\n阶段需要更长的时间"
+    },
+    {
+      "key": "C",
+      "text": "应当采取“两步走” 的发展战略，把中国建设成为一个具有现代农业、现代工业、现代国防\n\n和现代科学技术的社会主义强国"
+    },
+    {
+      "key": "D",
+      "text": "发展面向现代化、面向世界、面向未来的，民族的科学的大众的社会主义文化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        102.35199737548828,
+        439.170654296875,
+        934.348876953125,
+        729.7962646484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 94,
+      "bbox": [
+        18.099000930786133,
+        425.83697509765625,
+        438.9346008300781,
+        952.9049682617188
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0779",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "保护生态环境必须依靠制度、依靠法治。必须把制度建设作为生态文明建设的重中之重，构建\n生态文明制度体系，把生态文明建设纳入制度化、法治化轨道。生态文明制度体系的内涵是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲F受（考点98 -2-O\n箍板听党指挥是灵魂，决定军队建设的政\n\n出处精讲距⑷考点88\n\n治方向。坚持党对人民军队的绝对领导是\n\n第十三章\n\n人民军队永远不变的军魂。实践证明，听党",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 114,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "产权清晰"
+    },
+    {
+      "key": "B",
+      "text": "多元参与"
+    },
+    {
+      "key": "C",
+      "text": "激励约束并重"
+    },
+    {
+      "key": "D",
+      "text": "系统完整\n\n\f\n维护和塑造国家安全"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        105.61100006103516,
+        1295.3380126953125,
+        937.2725830078125,
+        1393.6689453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 119,
+      "bbox": [
+        436.3139953613281,
+        947.9151611328125,
+        744.82763671875,
+        1020.8327026367188
+      ]
+    }
+  ]
+}

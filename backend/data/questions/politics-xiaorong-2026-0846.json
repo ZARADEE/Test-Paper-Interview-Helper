@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0846",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国资产阶级革命派与改良派的根本不同之处在于，资产阶级革命派",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 125,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "在踏上革命道路之时就高举起民主革命的旗帜"
+    },
+    {
+      "key": "B",
+      "text": "始终重视广泛动员人民群众的力量"
+    },
+    {
+      "key": "C",
+      "text": "最先制定了明确的反帝反封建的革命纲领"
+    },
+    {
+      "key": "D",
+      "text": "选择了以武装起义推翻清王朝统治的斗争方式"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 125,
+      "bbox": [
+        86.97000122070312,
+        1220.8126220703125,
+        744.6061401367188,
+        1410.2991943359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 130,
+      "bbox": [
+        17.934999465942383,
+        1213.2100830078125,
+        424.7806701660156,
+        1319.1824951171875
+      ]
+    },
+    {
+      "page": 130,
+      "bbox": [
+        465.3659973144531,
+        32.391502380371094,
+        849.3109130859375,
+        766.1261596679688
+      ]
+    }
+  ]
+}

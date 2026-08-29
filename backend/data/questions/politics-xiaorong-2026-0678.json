@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0678",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "改革开放以来，我们取得一切成绩和进步的根本原因，归结起来就是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "答了新形势下“实现什么样的发展、怎样发展”\n\n这一重大问题,D 不符合题意。\n\n出处精覆尸函］考点8 -IJ",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 100,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "开辟了中国特色社会主义道路"
+    },
+    {
+      "key": "B",
+      "text": "形成了中国特色社会主义理论体系"
+    },
+    {
+      "key": "C",
+      "text": "确立了中国特色社会主义制度"
+    },
+    {
+      "key": "D",
+      "text": "发展了中国特色社会主义文化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 100,
+      "bbox": [
+        104.53399658203125,
+        769.5548095703125,
+        849.094970703125,
+        867.2402954101562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        433.968994140625,
+        153.1525421142578,
+        675.7867431640625,
+        229.60018920898438
+      ]
+    }
+  ]
+}

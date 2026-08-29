@@ -1,0 +1,49 @@
+{
+  "id": "question-05dd113907",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 设矩阵A = (ai ,a2,…，a,”)心 为n维列向量，d = 1,2,…，加，且加£ “，证明：\na“2,…，％线性无关的充分必要条件是I ATA |H0.",
+  "answer_markdown": "",
+  "analysis_markdown": "(6) 证 (I)当加=九時，利用结论.\n«i ,a2，…，％ 线性无关<=> I A | = | (仙，価，…，a,”)|工0,由\n| ATA | = I AT | | A | = | A |2,\n知ai ,a2，…，a,”线性无关少| A |工0<=> I A |2\n0少| ATA |丰0.\n(H )当m<n时,A不是方阵，不能取行列式，利用方程组证.\nai ,a2，…,%线裡无关U(ai ,a2，― ,am)x Ax = 0只有零解=>ATAx = 0只有零解0\n| \"A I H 0.\n| AtA | 丰 OOATAx = 0 只有零解=>xtAtAx = (Ax)T(Ax) = 0 只有零解=>Ax = 0 只\n有零解Qai心，…,am线性芜矣.\n综上所述命题得证.",
+  "chapter": "向量",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 70,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.478451+00:00",
+  "updated_at": "2026-08-23T12:39:51.747682+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "向量",
+    "线性无关"
+  ],
+  "tags": [
+    "线性代数",
+    "向量"
+  ],
+  "source_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        24.0,
+        558.9717407226562,
+        482.3999938964844,
+        591.7911376953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 203,
+      "bbox": [
+        24.0,
+        510.49078369140625,
+        482.3999938964844,
+        620.6895751953125
+      ]
+    }
+  ]
+}

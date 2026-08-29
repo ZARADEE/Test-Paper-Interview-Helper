@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0402",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平总书记指出：“社会主义从来都是在开拓中前进的。” 这是对社会主义历史进程的全面总\n\n结，也是对社会主义事业发展的深刻启示。社会主义在开拓中前进，是因为",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "知识储备题\n\n正确。\n\n列宁领导了十月革命，建立起世界上第\n\n一个社会主义国家并探索了在俄国建设社\n\n会主义的道路,取得了预见未来社会的实践",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会主义是亿万人民群众的伟大实践"
+    },
+    {
+      "key": "B",
+      "text": "社会主义是崭新的事业，社会主义实践是一个不断探索的过程"
+    },
+    {
+      "key": "C",
+      "text": "实践探索中出现某种曲折并不改变社会主义的前进趋势"
+    },
+    {
+      "key": "D",
+      "text": "推进社会主义实践发展必须有开拓奋进的精神状态\n\n第七章\n共产主义崇高理想及其最终实现"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        105.29900360107422,
+        685.939453125,
+        936.9391479492188,
+        874.4443359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 72,
+      "bbox": [
+        446.79901123046875,
+        1085.835205078125,
+        853.2951049804688,
+        1319.651611328125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "question-a84ffb5a3b",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 设向量 a = (1,2,1 ),b = (—1,0,2),c = (0M, —3)共面，则 k =(\n).",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴D.\n解 向量a, b,\n共面 U[abc] = 0,即 一1\nk\n2-3 =0,解得怡=—2.",
+  "chapter": "空间解析几何",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 32,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.447851+00:00",
+  "updated_at": "2026-08-23T12:39:51.068289+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "1"
+    },
+    {
+      "key": "B",
+      "text": "2"
+    },
+    {
+      "key": "C",
+      "text": "— 1"
+    },
+    {
+      "key": "D",
+      "text": "— 2"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "空间解析几何"
+  ],
+  "tags": [
+    "高等数学",
+    "空间解析几何"
+  ],
+  "source_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        24.0,
+        184.761474609375,
+        482.3999938964844,
+        216.0688934326172
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        24.0,
+        159.2081298828125,
+        482.3999938964844,
+        205.45965576171875
+      ]
+    }
+  ]
+}

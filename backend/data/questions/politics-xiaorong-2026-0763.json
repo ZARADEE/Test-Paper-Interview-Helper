@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0763",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "英国哲学家罗素这样评价中国文化中的和平传统：“中国至高无上的伦理品质中的一些东西，现\n\n代世界极为需要”，“若能够被世界采纳，地球上肯定比现在有更多的欢乐祥和”。中华文明历来\n\n崇尚“以和邦国”“和而不同”“以和为贵”，中华民族的血液中没有侵略他人、称王称霸的基\n\n因。中华文明具有的和平性，从根本上决定了中国",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "挥文化引领风尚、教育人民、服务社会、推\n\n出处精语两4 考点74\n表格\n\n动发展的作用。A、B 正确。坚持百花齐放、",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 112,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "始终是世界和平的建设者、全球发展的贡献者、国际秩序的维护者"
+    },
+    {
+      "key": "B",
+      "text": "不断追求文明交流互鉴而不搞文化霸权"
+    },
+    {
+      "key": "C",
+      "text": "不会把自己的价值观念与政治体制强加于人"
+    },
+    {
+      "key": "D",
+      "text": "坚持合作、不搞对抗，决不搞“党同伐异” 的小圈子"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 112,
+      "bbox": [
+        100.35900115966797,
+        898.6861572265625,
+        931.7680053710938,
+        1150.00439453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        443.9939880371094,
+        102.95025634765625,
+        861.4501342773438,
+        429.52899169921875
+      ]
+    }
+  ]
+}

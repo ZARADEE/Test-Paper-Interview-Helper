@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1139",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全面依法治国是一个系统工程，要整体谋划，更加注重系统性、整体性、协同性。推进全面依\n\n法治国，要坚持依法治国、依法执政、依法行政共同推进，坚持法治国家、法治政府、法治社\n\n会一体建设。其中，构筑法治国家的基础是",
+  "answer_markdown": "C",
+  "analysis_markdown": "是全面依法治国的总抓手。D 错误。\n\n出处精而噪图考点47 -2-0\n地要坚持法治国家、法治政府、法治社会",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 167,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "法治政府"
+    },
+    {
+      "key": "B",
+      "text": "依法执政"
+    },
+    {
+      "key": "C",
+      "text": "法治社会"
+    },
+    {
+      "key": "D",
+      "text": "依法行政"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        87.49800109863281,
+        610.0925903320312,
+        929.1986694335938,
+        739.02490234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 172,
+      "bbox": [
+        443.4639892578125,
+        546.6307983398438,
+        861.4537353515625,
+        841.1450805664062
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0993",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "五四运动以后，在李大钊等的影响和当时形势的推动下，一批爱国的进步青年，走上了马克思\n\n主义的道路。为适应中国社会发展和革命发展的需要，早期马克思主义者在中国掀起了一场研\n\n究、传播马克思主义的思想运动。中国早期马克思主义思想运动的特点是",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "运动呈现出崭新局面。A、B、C、D 全选。\n\n出处精讲下注8 考点29 -2",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 145,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "重视对马克思主义基本理论的学习，从一开始就坚持了马克思主义的革命原则和正确方向"
+    },
+    {
+      "key": "B",
+      "text": "明确提出了“马克思主义的中国化” 的命题"
+    },
+    {
+      "key": "C",
+      "text": "注意从中国实际出发，学习、运用马克思主义的理论去研究和解决中国面临的实际问题"
+    },
+    {
+      "key": "D",
+      "text": "开始提出知识分子应当同劳动群众相结合的思想，主张知识分子“向农村去”“到民间去”"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 145,
+      "bbox": [
+        84.95700073242188,
+        1037.322509765625,
+        924.8013305664062,
+        1259.7919921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 151,
+      "bbox": [
+        9.629999160766602,
+        602.6826782226562,
+        421.17205810546875,
+        1248.6131591796875
+      ]
+    }
+  ]
+}

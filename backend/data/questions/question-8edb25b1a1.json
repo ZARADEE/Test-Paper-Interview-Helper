@@ -1,0 +1,48 @@
+{
+  "id": "question-8edb25b1a1",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "⑷ 设f(x) = nz(1 — j;)\"(n为正整数)，求在［0,1］上的最大值M(”)及limM(n).\nX | \"sin —, 工工 0,\nx",
+  "answer_markdown": "",
+  "analysis_markdown": "(4)解对求导，得\nf (J7)= 71(1 一 工)\"+卅險(1 —\n• (— 1 )\n=7Z(1 — J7)n_1[l —(7Z + l)jr](O <C X <Z 1)，\n令 /Z(JCO)=。9解得 Xo =]・\n72 十 JL\n当0 <工<二^时,/■'&)>0；当一「<工< i吋，/(^)<0,故y(Q在点工。处取\n7? + 1\n72 十 1\n得极大值.\n又因为/(0) = 0,/(1) = 0,所以\n卄］\nn\nM(/2)= /(J7o)=\n? 1 (1 _\n77 + 1\n卄］\n72 + 1\nn\ne_1.\n72 + 1 \\\n为f(x)在[0,1]上的最大值，且limM(/?) = lim (\n” f 00\n72 + 1\n”f 8",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 21,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.442361+00:00",
+  "updated_at": "2026-08-23T12:39:50.918793+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 21,
+      "bbox": [
+        24.0,
+        221.6098175048828,
+        482.3999938964844,
+        255.22528076171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 41,
+      "bbox": [
+        24.0,
+        211.27236938476562,
+        482.3999938964844,
+        355.5909729003906
+      ]
+    }
+  ]
+}

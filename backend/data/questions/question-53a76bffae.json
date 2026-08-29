@@ -1,0 +1,50 @@
+{
+  "id": "question-53a76bffae",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(20)设*\")在° = {(\"段+y 1}上有二阶连续偏导数，且詁+券=\ne-W)，计算 j =\ndX\nIf\"迪.\nD",
+  "answer_markdown": "",
+  "analysis_markdown": "(20)解积分区域D如图9-29所示.\n3f\ndx\nIf)\n(*2n\nD\n极坐标\n'2n\nrcos 0 + £ • rsin 0)厂d厂\nJ o\n=£rdr| (£■\no\nrcos(9 + fy9 rsin 0)d0.\n设 Lr：x2+y2 = r2(0<r< 1),取逆时针,Dr：x2-]-y2 三产，则\nC2k\nI (X •厂cos 0 + £ • rsin 0) dd\nt — fydx + f^dy\n+\nLr\nDr\ndrdy = tt(1 — e\nDr\n\"丄\ndjsdj/ = J 7rr(l 一 e_' )dr =\n故\n~d\n八",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 59,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.472143+00:00",
+  "updated_at": "2026-08-23T12:39:51.568724+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 59,
+      "bbox": [
+        24.0,
+        517.2294311523438,
+        482.3999938964844,
+        583.451416015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 176,
+      "bbox": [
+        24.0,
+        125.79862976074219,
+        482.3999938964844,
+        327.9593505859375
+      ]
+    }
+  ]
+}

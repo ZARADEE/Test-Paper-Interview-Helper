@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0741",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "75 年来的实践充分证明，人民政协在人类政治制度发展史上具有独特政治价值，已经并将不断\n\n展现出旺盛生命力。人民政协\n..",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "在,统战工作不是过时了、不重要了，而是更\n\n重要了。B、C、D 正确。勇于自我革命是中国\n\n共产党区别于其他政党的显著标志。A 错误。\n\n出处精丽祠考点56 -0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 109,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "作为多党派参政的国家权力机关，有利于贯彻民主集中制、保证国家政治生活既充满活力又\n\n安定有序"
+    },
+    {
+      "key": "B",
+      "text": "作为最广泛的爱国统一战线组织，有利于最大限度把全体中华儿女的智慧和力量汇聚起来"
+    },
+    {
+      "key": "C",
+      "text": "作为社会主义协商民主的重要渠道和专门协商机构，有利于促进科学决策、有效施策，提升\n\n国家治理效能"
+    },
+    {
+      "key": "D",
+      "text": "作为中国共产党领导的政治组织，有利于完善人民当家作主的制度体系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        90.46299743652344,
+        524.82080078125,
+        930.6417846679688,
+        777.4760131835938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        435.08599853515625,
+        1243.467529296875,
+        845.7723999023438,
+        1319.2176513671875
+      ]
+    }
+  ]
+}

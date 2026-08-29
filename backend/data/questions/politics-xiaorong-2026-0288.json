@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0288",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思说：“手推磨产生的是封建主的社会，蒸汽磨产生的是工业资本家的社会。” 这句话说明",
+  "answer_markdown": "AB",
+  "analysis_markdown": "筑，不属于观念上层建筑,D 错误。\n\n出处(精讲P49 考点45 -3- (1)-0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 43,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "历史上的各种生产关系都是适应一定的生产力发展需要而产生的"
+    },
+    {
+      "key": "B",
+      "text": "生产力状况是生产关系形成的客观前提和物质基础"
+    },
+    {
+      "key": "C",
+      "text": "生产力和生产关系共同组成生产的社会形式"
+    },
+    {
+      "key": "D",
+      "text": "社会形态更替归根结底是科技进步的结果"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        86.66200256347656,
+        364.3514099121094,
+        914.2337646484375,
+        525.8003540039062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 57,
+      "bbox": [
+        4.829999923706055,
+        1205.333740234375,
+        414.6185607910156,
+        1316.712646484375
+      ]
+    },
+    {
+      "page": 57,
+      "bbox": [
+        465.2439880371094,
+        28.80400848388672,
+        847.3734130859375,
+        446.87030029296875
+      ]
+    }
+  ]
+}

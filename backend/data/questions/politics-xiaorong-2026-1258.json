@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1258",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思说：“没有无义务的权利，也没有无权利的义务。”法律权利与法律义务的关系，就像一\n\n枚硬币的两面，不可分割，相互依存。以下选项内容正确的有",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "出处精胪西可考点50 -2\n\n出处精讲用污3花,考点52\n3(1)",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 181,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "法律权利的实现必须以相应法律义务的履行为条件"
+    },
+    {
+      "key": "B",
+      "text": "法律义务的设定和履行必须以法律权利的行使为根据"
+    },
+    {
+      "key": "C",
+      "text": "一个行为不可以同时是权利行为和义务行为"
+    },
+    {
+      "key": "D",
+      "text": "每个人既是享受法律权利的主体，又是承担法律义务的主体"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        85.32499694824219,
+        1135.0660400390625,
+        926.5534057617188,
+        1320.8665771484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 185,
+      "bbox": [
+        438.2590026855469,
+        393.9017028808594,
+        859.6405639648438,
+        956.4099731445312
+      ]
+    }
+  ]
+}

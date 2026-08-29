@@ -1,0 +1,50 @@
+{
+  "id": "question-0fdf0cd43f",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(4)设曲线L为工2+》2+n2 = _|.与z + z=i的交线，贝I] / =扌(/ +护+ / )ds =",
+  "answer_markdown": "18tt.",
+  "analysis_markdown": "18tt.\n解将+誉=号代入被积函数，得Z =\nH^2+y+ ^2)ds =\n,2\n)ds.\n—I八知变形为\n交线L的弧长不易直接计算，考虑写出L的参数式，将L：\nX z = 1\n+ T = b\n•Z + z = 1.\nx — 一\n令—\ncos t, ¥ = sin t,贝!jz=l — 2 =寺一施cos t,即\nU\n乙\n=+ + a/2cos t^y = 2sin t^z =— 一施cos KO W £ £ 2tc).\nX\nds = J F ⑴ +$\"(/)+/(/)山 = a/ (—a/^sih tY + (2cos tY + (V^sin tY dt = 2ck,\n> (x2 + ;/ + z2 ) ds = ~\n故\n2ck = 18tc.\nS\nS由八块等边三角形组成，等边三角形边长为施(如图9-2),\n故S的面积为8 •专• \")2 • sin寺=4届所以/ = * X 4箱=\n3 °",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 55,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.462366+00:00",
+  "updated_at": "2026-08-23T12:39:51.494200+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 55,
+      "bbox": [
+        24.0,
+        551.308837890625,
+        482.3999938964844,
+        592.1165161132812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 157,
+      "bbox": [
+        24.0,
+        242.33628845214844,
+        482.3999938964844,
+        614.6957397460938
+      ]
+    }
+  ]
+}

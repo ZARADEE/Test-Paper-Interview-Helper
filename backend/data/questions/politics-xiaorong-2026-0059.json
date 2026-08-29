@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0059",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "天空繁星密布，而首先成为天文学研究对象的是与人们确定季节关系密切的星体；地球上的生物\n品种难以计数，而人们首先研究的还是与农业和畜牧业有关的为数不多的植物和动物。这说明",
+  "answer_markdown": "B",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 9,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "实践是认识的起点，认识是实践的归宿"
+    },
+    {
+      "key": "B",
+      "text": "实践的需要推动认识的产生和发展"
+    },
+    {
+      "key": "C",
+      "text": "实践锻炼和提高了主体的认识能力"
+    },
+    {
+      "key": "D",
+      "text": "科学研究具有相对独立性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 9,
+      "bbox": [
+        88.02300262451172,
+        753.2182006835938,
+        929.5728149414062,
+        879.8679809570312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 13,
+      "bbox": [
+        0.0,
+        957.0768432617188,
+        408.595703125,
+        1318.8779296875
+      ]
+    },
+    {
+      "page": 13,
+      "bbox": [
+        460.96099853515625,
+        33.03299331665039,
+        841.6170043945312,
+        320.21539306640625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1006",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1927 年9 月9 日，毛泽东等领导的湘赣边界秋收起义爆发。起义军公开打出了“工农革命军”\n\n的旗帜，在攻打中心城市长沙受挫后，毛泽东果断改变计划，决定向敌人控制比较薄弱的农村\n\n转移。10 月7 日，起义部队抵达江西省宁冈县茅坪，开始了创建井冈山农村革命根据地的斗争。\n\n井冈山革命根据地的建立",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "出处精讲P278二279\n考点37 -2-(2)\n\n出处:精丽罚二为8\n考点37 -1-(2)",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 147,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "集中体现中国革命的正确方向"
+    },
+    {
+      "key": "B",
+      "text": "点燃了工农武装割据的星星之火"
+    },
+    {
+      "key": "C",
+      "text": "为中国革命开辟出了农村包围城市、武装夺取政权这样一条前人没有走过的道路"
+    },
+    {
+      "key": "D",
+      "text": "是由大革命失败到土地革命战争兴起的历史性转变"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 147,
+      "bbox": [
+        92.04299926757812,
+        1010.8374633789062,
+        942.9845581054688,
+        1258.4002685546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 153,
+      "bbox": [
+        7.4639997482299805,
+        152.72254943847656,
+        427.9151611328125,
+        492.87554931640625
+      ]
+    }
+  ]
+}

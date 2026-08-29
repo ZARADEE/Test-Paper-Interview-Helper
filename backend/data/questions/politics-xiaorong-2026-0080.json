@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0080",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人类社会物质性的集中体现是",
+  "answer_markdown": "A",
+  "analysis_markdown": "出处!精讲百T 考点11\n-2-到\n\n出处精讲的6 考点的\n\n精题法考点27 -2-0\n简析实践是人类有意识的活动，体现了自觉\n\n简析物质生产方式是指人们为获取物质生\n\n活资料而进行的生产活动的方式，是生产力\n\n的能动性，可以创造出自然界原本不存在的\n\n和生产关系的统一体。物质资料的生产方式\n\n事物。D 正确。由于科学技术条件的限制，\n\n构成了人类社会存在和发展的基础，集中体\n\n目前世界上还有很多事物未被人类认识,A\n\n现着人类社会的物质性。A 正确。\n\n错误。运动是物质的根本属性或存在方式。",
+  "chapter": "第三章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 12,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "B",
+      "text": "自然地理环境"
+    },
+    {
+      "key": "A",
+      "text": "生产方式"
+    },
+    {
+      "key": "D",
+      "text": "生产力"
+    },
+    {
+      "key": "C",
+      "text": "人口"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第三章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第三章"
+  ],
+  "source_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        106.46099853515625,
+        986.464111328125,
+        684.5659790039062,
+        1085.06103515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        439.03900146484375,
+        173.1283416748047,
+        849.98974609375,
+        483.3079833984375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0687",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国式现代化是中国共产党领导人民长期探索和实践的重大成果。中国式现代化",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "主义制度，发展了中国特色社会主义文化。B\n\n出处精沛诃豆: 考点16\n\n错误。马克思主义深刻揭示了社会主义必然\n\n代替资本主义的客观规律，这是我们坚定“四\n\n简析中国式现代化，深深植根于中华优秀传\n\n个自信”的理论支撑和根本依据。C 错误。\n\n统文化,体现科学社会主义的先进本质，借鉴",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 101,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "深深植根于中华优秀传统文化"
+    },
+    {
+      "key": "B",
+      "text": "体现科学社会主义的先进本质"
+    },
+    {
+      "key": "C",
+      "text": "借鉴吸收一切人类优秀文明成果"
+    },
+    {
+      "key": "D",
+      "text": "代表人类文明进步的发展方向"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 101,
+      "bbox": [
+        88.4280014038086,
+        1014.9869995117188,
+        804.5741577148438,
+        1112.7431640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 110,
+      "bbox": [
+        441.65899658203125,
+        220.27987670898438,
+        737.5259399414062,
+        298.6972351074219
+      ]
+    }
+  ]
+}

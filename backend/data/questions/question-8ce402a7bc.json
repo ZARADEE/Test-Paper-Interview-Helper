@@ -1,0 +1,50 @@
+{
+  "id": "question-8ce402a7bc",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(11) 设劝=a $ 0』=bk Q,a <\n= ^xnyn , yn+1 =才 ％ (兀=1,2,…)，\n证明：limz” = limy”.\nJJ―► OO\nfl―► oo",
+  "answer_markdown": "",
+  "analysis_markdown": "(11)证 由已知，有攵卄1 2 0,夕卄1 N。，九=1,2,…).\n由此可推得\n工卄］=Jxnyn >丿云=工”，\n)卄］----- 2— W —2— = %，\n故｛\"”｝单调增加,｛yn｝单调减少.又zi £工” £夕卄1 £夕1(兀=1,2,…),所以&”｝与｛%｝都有界.\n由单调有界准则，知limz”与limy”都存在，设lim#” = A,limy” = B.\n* OO\nn-*OO\n71—>oo\n► oo\n互护两端分\n又由九Wy”，可推得A < B,当\"-*oo时，将攵卄i =丿工”夕”和夕卄—\n别取极限，得A = ^AB,B =筈空，由此可得A = £,即limg = lim%.\nLt\nn—>oo\n«—>oo",
+  "chapter": "函数、极限与连续",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 10,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.436189+00:00",
+  "updated_at": "2026-08-23T12:39:50.737537+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 10,
+      "bbox": [
+        24.0,
+        269.2569885253906,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        24.0,
+        208.46849060058594,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

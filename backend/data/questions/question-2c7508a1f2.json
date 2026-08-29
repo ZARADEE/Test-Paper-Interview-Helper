@@ -1,0 +1,59 @@
+{
+  "id": "question-2c7508a1f2",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(9) 证明:lim［sin(7r J代 + 1) • sin(7r J代 + 兀)］=0.\n[[(3 + 2tan tY —\n(]0)计算极限lim -------------------------------\nx-»o\nJ” —]",
+  "answer_markdown": "",
+  "analysis_markdown": "(9)证\nlimsin(7t Vn2 + 1) = limsin\nzif OO\nnit + 7T( \\/并2 + ]—\n—72)\nZl-*OO\nL\n」\nlim(— l)\"sin[7r( ^/n2 + 1 — «)]\nn-*oo\n1—八小•而=\nOO\nn-*oo\n=0,所以\n\\/??2 + 1 + n\n因为lim7r •\n7C •\n=0,\nlim(- l)wsin\nW-*OO\n\\/”2 + ] + n\n从而limsinC兀 + 1) = 0.而 | sin(兀 J朮 + \") | £ 1 有界，故\n”f 8\nlim[sin(7t a//?2 + 1) • sin(7v J点 + ”)] = 0.\nn-*oo *-\n」\n【注】 limsin(jc J朮 + /?) = limsin[九兀+ 兀(J代 + 7?— ”)]\nn-*oo\nlim(— l)\"sin[7t( \\/n2 n — n)]\n”f 8\nn\n”f 8\nlim(— l)”sin(兀•\n----\nyn +卅+咒\nn\n因为limTr •\nM-*OO\n口—\n扌，所以\nyn2 +九+咒\n厶\nn\nlimsin 兀• C…；—)=1，\n\\ yn + n + n /\nn\n从而lim(— l)\"sin(兀* ,\n~~ )不存在，故limsinG y/n2 + n)不存在，所以此题不能\n”一8\n\\\na/« +“ + ”/\n”一8\n用极限的运算法则.",
+  "chapter": "函数、极限与连续",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 12,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.438262+00:00",
+  "updated_at": "2026-08-23T12:39:50.789494+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        24.0,
+        664.6735229492188,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 13,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        99.80799102783203
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 19,
+      "bbox": [
+        24.0,
+        100.16912841796875,
+        482.3999938964844,
+        393.9407653808594
+      ]
+    }
+  ]
+}

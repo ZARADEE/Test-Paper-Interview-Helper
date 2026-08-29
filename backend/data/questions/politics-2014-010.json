@@ -1,0 +1,44 @@
+{
+  "id": "politics-2014-010",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1924年1月，中国国民党第一次全国代表大会在广州召开，大会通过的宣言对三民主义作出了新的解释。新三民主义成为第一次国共合作的政治基础，究其原因，是由于新三民主义的政纲：",
+  "answer_markdown": "A",
+  "analysis_markdown": "【解析】此题考查的是国共第一次合作的内容。国共第一次合作形成的政治基础是新三民主义，新三民主义在民族主义中突出了反帝的内容，强调对外实行中华民族的独立，同时主张国内各民族一律平等；在民权主义中强调了民主权利应“为一般平民所共有”，不应为“少数人所得而私”；把民生主义概括为“平均地权”和“节制资本”两大原则（后来又提出了“耕者有其田”的主张），并提出要改善工农的生活状况。其政纲和共产党在民主革命阶段的纲领基本一致。正确选项是A。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.480407+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "同中国共产党在民主革命阶段的纲领基本一致"
+    },
+    {
+      "key": "B",
+      "text": "把斗争的矛头直指向北洋军阀"
+    },
+    {
+      "key": "C",
+      "text": "体现了联俄、联共、扶助农工三大革命政策"
+    },
+    {
+      "key": "D",
+      "text": "把民主主义概括为“平均地权”"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

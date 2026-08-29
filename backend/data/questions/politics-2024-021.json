@@ -1,0 +1,46 @@
+{
+  "id": "politics-2024-021",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平指出:“经济全球化是社会生产力发展的客观要求和科技进步的必然结果，不是哪些人、哪些国家人为制造出来的。经济全球化为世界经济增长提供了强劲动力，促进了商品和资本流动、科技和文明进步、各国人民交往。”导致经济全球化迅猛发展的因素有（ ）",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "【解析】本题考查的知识点：经济全球化的动因\n C选项广大发展中国家成为经济全球化主要受益者不符合实际，所以C选项说法错误，不选。A、B、D三个选项本身说法正确且符合题意，都构成了经济全球化的原因，因此ABD入选,本题正确答案是ABD。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.360391+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "信息技术革命打破了生产要素的地域限制，使整个世界生产连成一片"
+    },
+    {
+      "key": "B",
+      "text": "国际分工和生产要素全球流动的比较优势，促进了产业链深度融合"
+    },
+    {
+      "key": "C",
+      "text": "发达国家主导制定的贸易和竞争规则，使广大发展中国家成为主要受益者"
+    },
+    {
+      "key": "D",
+      "text": "国际经济组织成员国对本国或本地区市场控制的放松，加快了贸易投资自由化 ### 答案解析 21."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "经济全球化的动因"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "经济全球化的动因"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

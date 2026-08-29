@@ -1,0 +1,57 @@
+{
+  "id": "question-f516b70e9f",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 设 u(jc,y,z) — 1 +辛 + 备 + 訂,\"=占(1,1,1),则字 |\n—\n•\n6 1Z 18 箱\ndn I(1,2,3)",
+  "answer_markdown": "",
+  "analysis_markdown": "⑹晋.\n話罢=討为单位向量，故\n解薯=知誇=話空=討为单位向量，故\n解 令F = j:2 + j/2 — 5,外法线方向\"=(2z,2j;,0),则曲面在点P(1,2, — 1)处\"的\n方向余弦为\ncos\n, cos B = —» cos y = 0.\n字 =(-4) X^+(-4) X— + 12X0 =-^V5.\n加“\nV5\nV5",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 37,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.452279+00:00",
+  "updated_at": "2026-08-23T12:39:51.181400+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        24.0,
+        442.1993408203125,
+        482.3999938964844,
+        470.5399169921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        24.0,
+        518.8098754882812,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 94,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

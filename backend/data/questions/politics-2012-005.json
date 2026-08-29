@@ -1,0 +1,44 @@
+{
+  "id": "politics-2012-005",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "毛泽东曾在不同的场合多次谈到，调查研究有两种方法：一是走马看花、一是下马看花。走马看花，不深入，还必须用第二种方法，就是下马看花，过细看花，分析一朵花。毛泽东强调“下马看花”的实际意义在于：",
+  "answer_markdown": "D",
+  "analysis_markdown": "【解析】A选项讲的是要有先进理论的指导，观点正确，但在题干中没有体现；B选项“运用多种综合方法分析”不符合题意，因为题干说的是“下马看花”这一种方法；C选项“马克思主义理论必须适合中国革命的具体实际”表述错误，正确表述是马克思主义理论必须同中国革命的具体实际相结合。故ABC选项不符合题意。题干中的“下马看花”主要强调了在调查研究中要注重中国的具体实际，D选项符合题意。因此，本题的正确答案是D选项。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.435379+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "解决实际问题必须要有先进理论的指导"
+    },
+    {
+      "key": "B",
+      "text": "运用多种综合方法分析调查研究的材料"
+    },
+    {
+      "key": "C",
+      "text": "马克思主义理论必须适合中国革命的具体实际"
+    },
+    {
+      "key": "D",
+      "text": "只有全面深入地了解中国的实际，才能找出规律 ### 答案解析 5"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0639",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "实现共同富裕不仅是经济问题，而且是关系党的执政基础的重大政治问题。促进共同富裕的基\n\n础性制度是",
+  "answer_markdown": "B",
+  "analysis_markdown": "我国对外工作的出发点和落脚点：维护国\n\n出处精讲下频考点79 -1-(1)\n\n家主权、安全、发展利益。\n\n\f\n简析分配制度是促进共同富裕的基础性制\n\n成绿色生产方式和生活方式，厚植高质量发\n\n展的绿色底色。\n\n度。在社会再生产过程中，分配是联结生产\n\n与消费的重要纽带，对激励生产者的积极性\n\n和创造性、对保证和促进消费，具有重要作\n\n用。不断解放和发展社会生产力，创造更高",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会保障制度"
+    },
+    {
+      "key": "B",
+      "text": "分配制度"
+    },
+    {
+      "key": "C",
+      "text": "基本养老保险制度"
+    },
+    {
+      "key": "D",
+      "text": "以人民为中心的法律制度"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        86.8489990234375,
+        650.5096435546875,
+        927.5547485351562,
+        778.0845336914062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 105,
+      "bbox": [
+        433.5409851074219,
+        104.98541259765625,
+        855.2027587890625,
+        445.76983642578125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "politics-2013-002",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "一位机械工程专家讲过这样一件事：“文革”中，他在农场劳动，有一天领导要他去割羊草。他没养过羊，怎么认得羊草呢？但脑子一转办法就来了。他把羊都赶去，看羊吃什么就割什么。不到半天就割回了羊草。这位专家之所以这样做是因为他意识到，“羊吃草”与“割羊草”两者之间存在着：",
+  "answer_markdown": "C",
+  "analysis_markdown": "【解析】“羊吃草”引起“割羊草”,“羊吃草”与“割羊草”之间的关系是因果联系。选项C为正确答案。",
+  "chapter": "2013 考研政治（通用）：马原题目汇总",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.205353+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "主观联系"
+    },
+    {
+      "key": "B",
+      "text": "必然联系"
+    },
+    {
+      "key": "C",
+      "text": "因果联系"
+    },
+    {
+      "key": "D",
+      "text": "本质联系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "2013 考研政治（通用）：马原题目汇总"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

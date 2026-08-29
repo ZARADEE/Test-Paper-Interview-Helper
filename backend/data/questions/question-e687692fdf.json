@@ -1,0 +1,58 @@
+{
+  "id": "question-e687692fdf",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(5)设 a =(如宀，…,a”)1\" ,0 = (6i ,b2,,bnY 均为非零列向量,A = afiT.\n(I )求A的全部特征值；\n(U)问满足什么条件时,A可以相似于对角矩阵A,并求可逆矩阵P,使KAP=A.\na\n1 ・• 1\na\n1 • • 1",
+  "answer_markdown": "",
+  "analysis_markdown": "(5)解\n由 A BA = 2BA-8E,得(A\" - 2E)BA =-8E,可验证(A* - 2E)可逆，故\nB\n——\n—(A* —2E)T(—8E)AT\n=-8(A* _2$)一也一1 =- 8[A(A* —2E)『\n=-8(AA * — 2A)T =- 8( | A | E- 2A)_1 ,\n而丨A | =— 2,故\nB ——8(—2E — 2A)T =一8[一2 (E + A) J-1\n丄\n=—8 ■\n(E + A)-1 = 4(E + A)T.\n-1\n又\n(E + A)T\n'2\n-1\n丄\n0-1\n丄\n'2\n所以\nB =4\n-1\n、0\n0 -4\n乓,\no\n-2\n【注】①由A\nri\n,知A可逆，A* 也可逆，直接计算A* - 2E,证明\no\no\nA* —2E可逆，计算量较大.可考虑利用A的特征值;G = 1, & =—2,入3 = 1,故A*的特\n征值为\n=\n2,屮= M = 1,中= ¥=—2,\n丄\n人2\n/\nA3\n入2\n第—章矩阵\nA * — 2,E 的特征值为一2 — 2,1 — 2, — 2 — 2,故\n| A* -2E |= (-4) X (-1) X (-4) ^0,\n所以A' -2E可逆.\n2E,故 A*\n②验证A* -2E可逆，也可利用公式AA* = | A | E =\n=—2A-1,即\nA*\n-2E =—2AT -2E =—2(屮 +E)\n0 )=—2\nT\n0'\nfl\n0、\no'\n2(\n—T\n0 +\n显然可逆.\n，贝!j \\ A |=0,故A不可逆.\n1、\n-1 .\n2 ,\n，0\n,A y2\n-2",
+  "chapter": "矩阵",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 79,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.481631+00:00",
+  "updated_at": "2026-08-23T12:39:51.816490+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵",
+    "逆矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        24.0,
+        405.3816833496094,
+        482.3999938964844,
+        484.95709228515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 194,
+      "bbox": [
+        24.0,
+        416.966796875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 195,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        182.33700561523438
+      ]
+    }
+  ]
+}

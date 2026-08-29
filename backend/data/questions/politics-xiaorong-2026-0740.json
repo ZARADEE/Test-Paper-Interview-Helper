@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0740",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国共产党领导的多党合作和政治协商制度、民族区域自治制度、基层群众自治制度构成了我\n国的基本政治制度，反映了我国社会主义民主政治的独特优势，是保障各政党、各阶层、各民\n\n族和基层人民群众当家作主的重要基础。中国人民政治协商会议是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "宝，是团结海内外全体中华儿女实现中华民\n\n族伟大复兴的重要法宝，必须长期坚持。现\n\n出处精丽函1 考点56 -0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 109,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "实行中国共产党领导的多党合作和政治协商制度的重要机构"
+    },
+    {
+      "key": "B",
+      "text": "我国政治生活中发扬社会主义民主、实践全过程人民民主的重要形式"
+    },
+    {
+      "key": "C",
+      "text": "社会主义协商民主的重要渠道和专门协商机构"
+    },
+    {
+      "key": "D",
+      "text": "国家治理体系的重要组成部分"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        91.19200134277344,
+        307.8262023925781,
+        931.5289306640625,
+        529.2796020507812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        434.9469909667969,
+        715.32568359375,
+        855.8079223632812,
+        1254.9393310546875
+      ]
+    }
+  ]
+}

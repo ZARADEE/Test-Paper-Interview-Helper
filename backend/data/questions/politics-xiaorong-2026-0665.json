@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0665",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国共产党区别于其他政党的显著标志，也是我们党最大的优势、最鲜明的品格的是",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 98,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "勇于自我革命"
+    },
+    {
+      "key": "B",
+      "text": "密切联系群众"
+    },
+    {
+      "key": "C",
+      "text": "独立自主"
+    },
+    {
+      "key": "D",
+      "text": "守正创新"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 98,
+      "bbox": [
+        105.03600311279297,
+        485.665283203125,
+        857.2747802734375,
+        555.24560546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 108,
+      "bbox": [
+        19.527000427246094,
+        986.3617553710938,
+        436.8487854003906,
+        1321.139404296875
+      ]
+    },
+    {
+      "page": 108,
+      "bbox": [
+        472.7659912109375,
+        29.775028228759766,
+        860.4285888671875,
+        128.22593688964844
+      ]
+    }
+  ]
+}

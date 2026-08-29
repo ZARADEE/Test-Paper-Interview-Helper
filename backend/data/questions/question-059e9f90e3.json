@@ -1,0 +1,48 @@
+{
+  "id": "question-059e9f90e3",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(30) 设 /(J?)在［a,刃上可导，f(a) > 0,\n> 0,Si (工)\n与S2(Q为如图3-1所示阴影部分的面积，证明：存在唯一的&\n使得翳=以\"为正的常数).",
+  "answer_markdown": "",
+  "analysis_markdown": "(30)证\ny\ny=f(x)\n设FQ)\n如图3-13所示,依题设，需证明存在唯一的&使得\nSg—匕(£) = 0.\n=S](工)一阳2 &),即证明存在唯一的&使\nSi (工)=(J： — a)/(j?) — f f(t)dt9\nF(g) = 0.又\nJ a\n(*b\n/(z)dz — (6 —\n,\nS2(z)=\n则 S](o) = 0,S2(6) = 0•于是\n— (6 — a)/(a)\nF(q) =— kS2 (<2)=— k\n图3 13\n=—q [/(^) — /(a)]d^,\n「b\nF(b) = fgb — a) 一\n又 y'Q) >0,可知 /(a)</(^)</(6).又由 k>0,可知 F(a) <0,F(6) >0.由连续\n函数的零点定理，存在EC (a，6),使得F(g) =0,即第鲁=厦\n再证F的唯一性，由\nF'(h) = S； (sc) —\n(z)\n—(jc) (jc — a) + /(^) — /Xa) — k\\_— fix) — f^Jc) (6 — x) + /(j;)]\n=f' (jc) (j: — a) + kf' (:r) (b — z) > 0,\n可知F&)在(a,6)内严格单调增加，故W是唯一的.",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 30,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.447851+00:00",
+  "updated_at": "2026-08-23T12:39:51.040883+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 30,
+      "bbox": [
+        24.0,
+        71.74246978759766,
+        482.3999938964844,
+        129.7757568359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 73,
+      "bbox": [
+        24.0,
+        107.00019836425781,
+        482.3999938964844,
+        361.92388916015625
+      ]
+    }
+  ]
+}

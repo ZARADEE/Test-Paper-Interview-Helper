@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0325",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "由于资本主义劳动过程的要素都为资本家所占有，这就决定了资本主义劳动过程有其自身的特\n点。这些特点包括",
+  "answer_markdown": "BC",
+  "analysis_markdown": "本原始积累过程中逐渐形成的。因此，劳动\n\n出处精而由6 考点70\n\n力商品和其他商品一样，都不是从来就有\n\n简析生产物质资料的劳动过程包括三个基\n\n的，都属于历史范畴。D 正确。\n电座劳动力商品首先是商品，具有商品的\n\n本要素，即劳动者的劳动、劳动对象和劳动\n\n资料。劳动过程是劳动者通过有目的的活\n\n一般属性，如都具有商品的二因素，价值\n\n动，即运用劳动资料对劳动对象进行加工，\n\n规律都起作用等。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 48,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "劳动者获得的工资远远小于劳动力的价值"
+    },
+    {
+      "key": "B",
+      "text": "工人在资本家的监督下劳动，他们的劳动隶属于资本家"
+    },
+    {
+      "key": "C",
+      "text": "劳动的成果或者产品全部归资本家所有"
+    },
+    {
+      "key": "D",
+      "text": "雇佣工人与资本家形成人身依附的关系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 48,
+      "bbox": [
+        102.875,
+        466.00982666015625,
+        935.2528076171875,
+        656.8317260742188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 63,
+      "bbox": [
+        434.8810119628906,
+        492.2644958496094,
+        852.5449829101562,
+        802.6065063476562
+      ]
+    }
+  ]
+}

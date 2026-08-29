@@ -1,0 +1,57 @@
+{
+  "id": "question-126cf89a0d",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(17)设/•(“)在［-1,1］上连续，D： u l+H IW I,证明:",
+  "answer_markdown": "",
+  "analysis_markdown": "（17）证 积分区域如图6-57（a）所示，\nD\n•0 fl4-2x\nf(u)du + ( dr\nx-\\- y = u\n2l1\ndjt:\n如图6-57(b)所示，在M况坐标下，交换积切顺序，则\n,u+l\n^/(x + y^dxdy =\nf(u)du.\n“ ]/(u)djc =\nD\n积分区域如图6-58(a)所示，用极坐标，有\n•2L\n‘2/cos 9",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 44,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.456828+00:00",
+  "updated_at": "2026-08-23T12:39:51.309835+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 44,
+      "bbox": [
+        24.0,
+        241.29452514648438,
+        482.3999938964844,
+        287.0237121582031
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 120,
+      "bbox": [
+        24.0,
+        645.5381469726562,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 121,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        299.8248596191406
+      ]
+    }
+  ]
+}

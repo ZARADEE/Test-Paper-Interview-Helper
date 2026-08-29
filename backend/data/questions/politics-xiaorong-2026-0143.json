@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0143",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "资本家提高对工人剥削程度的方法是多种多样的，最基本的方法有两种，即绝对剩余价值的生\n\n产和相对剩余价值的生产。绝对剩余价值的生产和相对剩余价值的生产都是依靠",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 20,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "延长工作日获得的"
+    },
+    {
+      "key": "B",
+      "text": "提高劳动生产率获得的"
+    },
+    {
+      "key": "C",
+      "text": "缩短工人的必要劳动时间获得的"
+    },
+    {
+      "key": "D",
+      "text": "延长工人的剩余劳动时间获得的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 20,
+      "bbox": [
+        102.81700134277344,
+        972.8993530273438,
+        934.5053100585938,
+        1107.9017333984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 28,
+      "bbox": [
+        18.479000091552734,
+        1088.4464111328125,
+        424.3248291015625,
+        1324.0009765625
+      ]
+    },
+    {
+      "page": 28,
+      "bbox": [
+        481.7550048828125,
+        34.51789855957031,
+        860.4955444335938,
+        552.67724609375
+      ]
+    }
+  ]
+}

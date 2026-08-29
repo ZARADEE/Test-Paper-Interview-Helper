@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0721",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平总书记指出：“在现代化进程中，如何处理好工农关系、城乡关系，在一定程度上决定着\n\n现代化的成败J 党的二十届三中全会通过的《中共中央关于进一步全面深化改革推进中国式\n\n现代化的决定》，对完善城乡融合发展体制机制作出重要战略部署，必将对推进中国式现代化产\n\n生重大而深远影响。完善城乡融合发展体制机制是",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 106,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "补上农业农村短板、建设农业强国的现实选择"
+    },
+    {
+      "key": "B",
+      "text": "拓展现代化发展空间、推动高质量发展的迫切需要"
+    },
+    {
+      "key": "C",
+      "text": "新时代“三农” 工作的总抓手"
+    },
+    {
+      "key": "D",
+      "text": "满足人民对美好生活的向往、促进共同富裕的内在要求"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 106,
+      "bbox": [
+        103.7969970703125,
+        805.8143920898438,
+        935.9821166992188,
+        1058.5621337890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        19.954999923706055,
+        973.885986328125,
+        281.1697692871094,
+        1045.59765625
+      ]
+    }
+  ]
+}

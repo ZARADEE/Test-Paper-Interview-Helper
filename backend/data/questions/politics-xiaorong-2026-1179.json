@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1179",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在几千年的历史进程中，中国人民用勤劳和智慧书写了辉煌的中华历史，也培育铸就了独特的\n\n中国精神，为中国发展和人类文明进步提供了强大的精神动力。中国精神的内涵是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "化，爱自己的国家。A、B、C 正确。爱国主义\n\n出处精胪P药9 考点18\n\n是具体的、现实的，在不同历史条件下所形成\n\n的爱国主义具有不同的内涵和特点。在新民",
+  "chapter": "第二章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 172,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "伟大创造精神"
+    },
+    {
+      "key": "B",
+      "text": "伟大奋斗精神"
+    },
+    {
+      "key": "C",
+      "text": "伟大团结精神"
+    },
+    {
+      "key": "D",
+      "text": "伟大梦想精神"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第二章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第二章"
+  ],
+  "source_regions": [
+    {
+      "page": 172,
+      "bbox": [
+        104.1729965209961,
+        952.4600830078125,
+        937.5533447265625,
+        1081.9080810546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 177,
+      "bbox": [
+        7.890000343322754,
+        31.85620880126953,
+        267.25421142578125,
+        109.88739776611328
+      ]
+    }
+  ]
+}

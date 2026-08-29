@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0519",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新民主主义社会是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "第三章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 78,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国由新民主主义转变到社会主义的过渡性社会形态"
+    },
+    {
+      "key": "B",
+      "text": "无产阶级推翻资产阶级建立政权过程中必然经历的一个独立的社会形态"
+    },
+    {
+      "key": "C",
+      "text": "属于社会主义体系的逐步过渡到社会主义社会的过渡性质的社会"
+    },
+    {
+      "key": "D",
+      "text": "既有社会主义因素又有非社会主义因素存在的社会"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第三章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第三章"
+  ],
+  "source_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        107.11000061035156,
+        1008.8713989257812,
+        764.6583251953125,
+        1169.4375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        4.001999855041504,
+        977.253173828125,
+        416.3614807128906,
+        1180.0606689453125
+      ]
+    }
+  ]
+}

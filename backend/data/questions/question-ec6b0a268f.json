@@ -1,0 +1,50 @@
+{
+  "id": "question-ec6b0a268f",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(7) 设于(工)在(-oo,+oo)内有连续导数丄为从点列3,壬)到点3(1,2)的直线段，计\n算/=[ 1+心8)山十割厂(型)—1]収\n•JL\ny\ny",
+  "answer_markdown": "",
+  "analysis_markdown": "（7）解法 1 记卩=1K8）,q =弓□，则\n|2 =竽=/（jcj；） + 巧f'〈巧）—g（夕工 °）,\nox dy\ny\n故当夕工0时，积分与路径无关.\n取折线AC + CB,A（3,|-kc（l,y）,B（l,2）,如图 9-21 所示,\nAC：\n工=1，\n夕=歹，\n“丁，CB：\nX = X 9\n‘ 1+也型2山+务[阳（）一]血\n故\ny\nyu~\nL\n夕\n“\n伶）.\ndjc\n了）\n1+舒\n=L\n于（年）山+|丿（夕心一\n•2\n:躺\n‘ 2 f1\nf夕\nI 2_\n」T\nr2_\nI T\n3八 八，\n■2\n号（1 —3）+j；y ⑺山+社/'。）巧 + * —号=—4,\n2x _\n,T =\n这里\"l\"\n解法2 取积分路径为巧=2,则\ndy =一 4.\nI = J； [1 + 丁■⑵（-7）+ 黄几（2） — 1]\n第二类曲线积分（平面），当积分与路径无关时，可选简单路径积分，如折线、圆\n【注】\n周等.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.470862+00:00",
+  "updated_at": "2026-08-23T12:39:51.548207+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        24.0,
+        519.86572265625,
+        482.3999938964844,
+        573.0853881835938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 170,
+      "bbox": [
+        24.0,
+        120.12699890136719,
+        482.3999938964844,
+        428.050048828125
+      ]
+    }
+  ]
+}

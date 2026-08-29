@@ -1,0 +1,67 @@
+{
+  "id": "question-6cdbf98a6c",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 设y = f(^在氏的某邻域内有四阶连续导数，且/''(©) =/(□)=厂(心)=0,\n且y⑷(工。)<0,则(\n).\n\n\n\n是，=/(-X)的拐点",
+  "answer_markdown": "B",
+  "analysis_markdown": "解 由已知/'(如)=f'g)=厂(尹)=o,及泰勒公弓，有\nfix') = /(J：o)+ y，(工。) (g - Zo ) + f ；；o)Q — JEo)2 +\n— Xo)3 +\n扌4 ；◎ (z — m)\"(W介于如与z之间)\n=) + 了 4 f s 一 2。)\"，x c(□ — &，m + &),\n故\nflQ 一 /~(zo)= / 4 f)a — m)\" vo,\n于是fS在Zo处取得极大值.",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 19,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.442361+00:00",
+  "updated_at": "2026-08-23T12:39:50.889962+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "fS 在工。处取得极小值"
+    },
+    {
+      "key": "B",
+      "text": "f(x)在x0处取得极大值"
+    },
+    {
+      "key": "C",
+      "text": "(jc0"
+    },
+    {
+      "key": "D",
+      "text": "fS 在x.的某邻域内单调减少"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "导数",
+    "微分",
+    "拐点"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 19,
+      "bbox": [
+        24.0,
+        487.87255859375,
+        482.3999938964844,
+        566.3809814453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        24.0,
+        496.072021484375,
+        482.3999938964844,
+        618.7575073242188
+      ]
+    }
+  ]
+}

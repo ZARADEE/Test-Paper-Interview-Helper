@@ -1,0 +1,49 @@
+{
+  "id": "question-bffabdec9b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 设 f (工)是连续函数，且 /(a：) = cos re — [ (je — t)f(t)dt,求 /(jc).\nJ 0",
+  "answer_markdown": "",
+  "analysis_markdown": "(3)解\n已知等式变形为fS = cos x — x\n+ | tfMdt,两边同时对z求导，得\nf (工)=一 sin x —\n/(£)山9\no\n①\n再对工求导，得\n②\n/(Odz 一\n+ xf(x) =一 sin x 一\no f(H)+ /(JC)=一 COS 工・\n对应齐次方程的特征方程为严+ 1 = 0,得厂=± i,故齐次方程的通解为\n/(jc) = Ci cos + C2 sin x.\n由非齐次项一cos工,知0 土 i是特征粮，故令特廂为f* = j：(Acos x + Bsin工)，将其代\n入②式，得 A = 0,B =一 *,所以②的通解为 fQ) = Geos jc + C2sin x — -|-J；sin x.\n又由已知等式及①式，知/'(0) = 1,/(0) =0,故得G = 1,C2 =0,所以\nf(_z) = cos x 一 -^-j;sin x.",
+  "chapter": "微分方程",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 46,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.457941+00:00",
+  "updated_at": "2026-08-23T12:39:51.348752+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 46,
+      "bbox": [
+        24.0,
+        166.82310485839844,
+        482.3999938964844,
+        194.67166137695312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 127,
+      "bbox": [
+        24.0,
+        316.047119140625,
+        482.3999938964844,
+        447.285888671875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-017",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "恩格斯说：“单凭观察所得的经验，是决不能充分证明必然性的。这是如此正确，以至于不能从太阳总是在早晨升起来判断它明天会再升起。”这说明()",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "---\n\n[PDF page 4]\n\n解析：本题考查个人在社会历史中的作用。无产阶级领袖在历史上所提出的思想能\n够成为社会变革的先导，引领社会发展的方向。能够影响历史事件的进程，凝聚人民群\n众的力量，但是，不能创造人类社会的历史，不管什么样的历史人物，在历史上发挥什\n么样的作用，都要受到社会发展客观规律的制约，而不能决定和改变历史发展的总进程\n和总方向，所以不能创造人类社会的历史。故选项D 说法错误，本题正确选项为ABC。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.564097+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "感性认识有待于上升为理性认识"
+    },
+    {
+      "key": "B",
+      "text": "感性认识具有局限性"
+    },
+    {
+      "key": "C",
+      "text": "事物的必然性与感性认识毫无关系"
+    },
+    {
+      "key": "D",
+      "text": "归纳方法是有局限性的 ### 答案解析 17."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "demo-choice-006",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "若函数 f_6(x) 在定义域内满足连续性条件，则下列结论正确的是（ ）。",
+  "options": [
+    {
+      "key": "A",
+      "text": "结论甲"
+    },
+    {
+      "key": "B",
+      "text": "结论乙"
+    },
+    {
+      "key": "C",
+      "text": "结论丙"
+    },
+    {
+      "key": "D",
+      "text": "结论丁"
+    }
+  ],
+  "answer_markdown": "C",
+  "analysis_markdown": "连续函数的基本性质。",
+  "scoring_points": [
+    {
+      "label": "步骤完整",
+      "score": 5
+    }
+  ],
+  "tags": [
+    "高等数学",
+    "极限"
+  ],
+  "chapter": "高等数学",
+  "knowledge_points": [
+    "连续性"
+  ],
+  "difficulty": "easy",
+  "score": 5,
+  "review_status": "approved",
+  "created_at": "2026-08-23T10:09:58.410187+00:00",
+  "updated_at": "2026-08-23T10:09:58.410187+00:00"
+}

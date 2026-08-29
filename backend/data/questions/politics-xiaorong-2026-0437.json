@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0437",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新民主主义革命时期，党内犯“左”倾错误的人提出“毕其功于一役”的主张，搞所谓的“无\n\n间断” 革命，这种错误倾向实质上是",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 67,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "混淆了新民主主义革命和社会主义革命的界限"
+    },
+    {
+      "key": "B",
+      "text": "割裂了新民主主义革命和社会主义革命的联系"
+    },
+    {
+      "key": "C",
+      "text": "混淆了新民主主义革命和资产阶级革命的界限"
+    },
+    {
+      "key": "D",
+      "text": "割裂了新民主主义革命和资产阶级革命的联系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 67,
+      "bbox": [
+        94.18000030517578,
+        856.7147827148438,
+        934.93896484375,
+        1052.298828125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 80,
+      "bbox": [
+        449.0639953613281,
+        854.6721801757812,
+        861.1199951171875,
+        1121.9522705078125
+      ]
+    }
+  ]
+}

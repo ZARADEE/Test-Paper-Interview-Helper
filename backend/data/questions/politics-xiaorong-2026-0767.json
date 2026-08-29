@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0767",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "保障和改善民生的重要前提，是正确把握民生和发展的关系。以下说法正确的有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 113,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "发展是解决民生问题的“总钥匙”"
+    },
+    {
+      "key": "B",
+      "text": "民生是发展的“指南针”"
+    },
+    {
+      "key": "C",
+      "text": "发展是改善民生的物质基础"
+    },
+    {
+      "key": "D",
+      "text": "持续不断改善民生能够调动人们发展生产的积极性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 113,
+      "bbox": [
+        85.30500030517578,
+        489.44244384765625,
+        806.3638305664062,
+        648.5021362304688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        445.1990051269531,
+        854.10205078125,
+        755.2725219726562,
+        968.9385375976562
+      ]
+    }
+  ]
+}

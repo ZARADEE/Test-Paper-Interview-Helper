@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0980",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "辛亥革命与戊戌变法的共同点有",
+  "answer_markdown": "BD",
+  "analysis_markdown": "没有明确地把汉族军阀、官僚、地主作为革命\n\n对象，从而给了这部分人后来从内部和外部\n\n出处精讲下位考点16\n\n破坏革命以可乘之机。C 错误。\n\n考点23\n画考点25 -2-(1)",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 143,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "都是自上而下的救亡运动"
+    },
+    {
+      "key": "B",
+      "text": "都主张在中国发展资本主义"
+    },
+    {
+      "key": "C",
+      "text": "都主张改革君主专制制度"
+    },
+    {
+      "key": "D",
+      "text": "都未提出彻底的反帝反封建的纲领"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 143,
+      "bbox": [
+        92.78399658203125,
+        945.2796630859375,
+        845.7974243164062,
+        1047.684326171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 149,
+      "bbox": [
+        431.3139953613281,
+        846.0982666015625,
+        841.85107421875,
+        986.2848510742188
+      ]
+    }
+  ]
+}

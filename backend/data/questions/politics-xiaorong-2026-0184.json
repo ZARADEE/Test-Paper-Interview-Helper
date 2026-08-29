@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0184",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "经济全球化是当代世界经济的重要特征之一，也是世界经济发展的重要趋势。为经济全球化提\n\n供了坚实的物质基础和根本的推动力的是",
+  "answer_markdown": "A",
+  "analysis_markdown": "从而阻碍了资本在各部门之间的自由转移,\n\n出处精沛两a 考点80 -2-11\n\n限制了利润平均化的趋势，这样一来，垄断\n\n资本家有可能长期获得大大超过平均利润",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 25,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "科学技术的进步和生产力的发展"
+    },
+    {
+      "key": "B",
+      "text": "跨国公司在全球范围内的迅速发展"
+    },
+    {
+      "key": "C",
+      "text": "各国经济体制的变革和国际经济组织的发展"
+    },
+    {
+      "key": "D",
+      "text": "金融自由化与金融创新"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 25,
+      "bbox": [
+        88.27300262451172,
+        647.920166015625,
+        929.3569946289062,
+        779.5774536132812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 34,
+      "bbox": [
+        441.30499267578125,
+        537.1380615234375,
+        857.8445434570312,
+        1320.8663330078125
+      ]
+    }
+  ]
+}

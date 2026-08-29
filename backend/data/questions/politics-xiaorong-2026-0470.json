@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0470",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "邓小平理论是逐步形成和发展起来的。邓小平理论逐步走向成熟始于",
+  "answer_markdown": "C",
+  "analysis_markdown": "建设是全面依法治国的重点任务和主体工程,\n\n出处精所丽考点63 -3-0\n地坚持和拓展中国特色社会主义法治道\n\n法治社会是构筑法治国家的基础。B 正确。\n\n第十章\n\n路是一个深入探索和不断实践的过程，必须\n\n毫不动摇坚持以下原则:坚持中国共产党的",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 71,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "党的十一届三中全会"
+    },
+    {
+      "key": "B",
+      "text": "党的十二大"
+    },
+    {
+      "key": "C",
+      "text": "党的十三大"
+    },
+    {
+      "key": "D",
+      "text": "1992 年南方谈话\n\n第六章\n邓小平理论"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 71,
+      "bbox": [
+        86.01699829101562,
+        955.1976928710938,
+        893.54736328125,
+        1028.9950561523438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 85,
+      "bbox": [
+        4.866000175476074,
+        984.6329956054688,
+        417.78955078125,
+        1323.82177734375
+      ]
+    },
+    {
+      "page": 85,
+      "bbox": [
+        463.8210144042969,
+        33.453189849853516,
+        845.2136840820312,
+        99.87135314941406
+      ]
+    }
+  ]
+}

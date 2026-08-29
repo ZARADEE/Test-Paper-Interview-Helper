@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0057",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "恩格斯在谈到欧洲文艺复兴时期自然科学的迅速发展时指出：“资产阶级为了发展工业生产，需\n要科学来查明自然物体的物理特性，弄清自然力的作用方式。” 这段话说明",
+  "answer_markdown": "A",
+  "analysis_markdown": "法是正确的：任何一般都是个别的（一部\n\n分，或一方面，或本质），任何个别都是一\n\n出处精讲用Tj 考点30 -❷\n\n般的。\n\n黄虹实践是认识发展的动力。实践的需要",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 9,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "实践是认识发展的动力"
+    },
+    {
+      "key": "B",
+      "text": "认识对实践具有相对独立性"
+    },
+    {
+      "key": "C",
+      "text": "实践是检验认识是否具有真理性的标准"
+    },
+    {
+      "key": "D",
+      "text": "认识对实践具有决定作用"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 9,
+      "bbox": [
+        90.40499877929688,
+        301.2846984863281,
+        931.7764282226562,
+        427.6639709472656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 13,
+      "bbox": [
+        1.458979606628418,
+        224.03250122070312,
+        410.50140380859375,
+        495.7553405761719
+      ]
+    }
+  ]
+}

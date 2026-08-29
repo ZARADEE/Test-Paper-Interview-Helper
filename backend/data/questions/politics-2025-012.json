@@ -1,0 +1,46 @@
+{
+  "id": "politics-2025-012",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "七大是一次胜利的大会，团结的大会，下列选项中符合七大最大的贡献的是",
+  "answer_markdown": "A",
+  "analysis_markdown": "【解析】本题考查的知识点：中共七大\n中共七大把党在长期奋斗中形成的优良作风概括为三大作风，即理论和实践相结合的作风， 和人民群众紧密地联系在一起的作风，自我批评的作风。中共七大将以毛泽东为主要代表的 中国共产党人把马克思列宁主义基本原理同中国具体实际相结合所创造的理论成果，正式命 名为毛泽东思想，并将毛泽东思想规定为党的一切工作的指针。把毛泽东思想确立为党的指 导思想并写入党章，是中共七大的历史性贡献。故选A。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.376237+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "将毛泽东思想确立为党的指导思想，并写入党章"
+    },
+    {
+      "key": "B",
+      "text": "提出了工作重心由农村转向城市"
+    },
+    {
+      "key": "C",
+      "text": "提出思想建党政治建军"
+    },
+    {
+      "key": "D",
+      "text": "概括了毛泽东思想活的灵魂 ### 答案解析 12."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中共七大"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "中共七大"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

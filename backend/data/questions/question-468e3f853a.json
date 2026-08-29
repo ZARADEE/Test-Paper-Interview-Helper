@@ -1,0 +1,48 @@
+{
+  "id": "question-468e3f853a",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "（12） 设 y = /（rr）由参数方程广\n：+['（/$ °）确定，贝U limn「+ 1）_ 3\n\\y = it — t\n\\_ \\ n /",
+  "answer_markdown": "1.",
+  "analysis_markdown": "1.\n解\nlinw2w + 1 )-31= lim 八 十\"~-\nw->oo L \\ TL\n/\n」\nn-»oo\nn\n由已知，当z = 2时，t = \\ ,y — 3,故\n打 2 + +)_*2)\n原极限=lim---------- 片--------=/' (2).\n而岁I = 4 严|\n= 1,故原式 =y'(2) = 1.\nOlX I x=2\nLt I r=l\n(⑶-}•\n解 由厶y = Lx + o(Aje),有尹= 1 + \"^^，等式两边同时取极限\n恼乂=\n+\n1,\n心~*0 △•X\nAz-*-0 L\n」\n即/(l) = 1.又由已知，有\n/(l) = 0, x2 + ln(l + j;3 )〜j;2 (x -* 0),\n故\n’\n原式=limL^ = lim马匕。=Umf・心]_ f⑴・兰二=\n工-> 0\nx\n0 Zj;\n0 Z\ne — 1\nT",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 16,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.439350+00:00",
+  "updated_at": "2026-08-23T12:39:50.819074+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 16,
+      "bbox": [
+        24.0,
+        403.99365234375,
+        482.3999938964844,
+        445.7691345214844
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 27,
+      "bbox": [
+        24.0,
+        367.1596374511719,
+        482.3999938964844,
+        635.3724975585938
+      ]
+    }
+  ]
+}

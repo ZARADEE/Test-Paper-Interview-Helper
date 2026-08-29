@@ -1,0 +1,46 @@
+{
+  "id": "politics-2024-019",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平指出:“人类文明多样性是世界的基本特征，也是人类进步的源泉。世界上有200多个国家和地区、2500多个民族、多种宗教。不同历史和国情，不同民族和习俗，孕育了不同文明，使世界更加丰富多彩。”唯物史观关于社会形态的理论中，内在地包含着文明多样性的思想。下列关于人类文明多样性表述正确的有（ ）",
+  "answer_markdown": "AC",
+  "analysis_markdown": "【解析】本题考查的知识点：唯物史观关于文明多样性的理解\nB选项，文明之间没有高低优劣之分，不能进行比较，所以说法错误，不选。D选项，文明不是在相互隔离的状态下发展起来的，所以说法错误，不选。A、C说法正确且符合题意，因此本题正确答案是AC。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.357663+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "独特的生产方式和生活方式决定着文明发展的不同样态"
+    },
+    {
+      "key": "B",
+      "text": "各种文明都具有独自的比其他文明更优越、更强大的文化基因"
+    },
+    {
+      "key": "C",
+      "text": "每一种文明都代表着一方文化的独特性，是人类文明的重要组成部分"
+    },
+    {
+      "key": "D",
+      "text": "每一种文明都是在与其他文明相隔离的状态下独自产生、发展和演变的 ### 答案解析 19."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "唯物史观关于文明多样性的理解"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "唯物史观关于文明多样性的理解"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "politics-2025-002",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思认为：“对人类生活形式的思索，从而对这些形式的科学分析，总是采取同实际发 展相反的道路。这种思索是从事后开始的，就是说，是从发展过程的完成的结果开始的。” 这一方法所揭示的实际内涵是：历史的发展总是按照时间顺序从过去到现在以至未来，而对 历史的认识则要遵循相反的顺序，与从后思索法一致的是",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】本题考查的知识点：社会形态更替的过程\nA选项为笛卡尔的主观唯心主义， C 选项错在各个具体环节， D选项错在拒斥这个词。所以 本题正确答案是 B。",
+  "chapter": "2025 考研政治（通用）：马原题目汇总",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.367600+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "我思故我在"
+    },
+    {
+      "key": "B",
+      "text": "人体解剖是对猴子解剖的钥匙"
+    },
+    {
+      "key": "C",
+      "text": "逻辑和历史在具体环节上具有一致性"
+    },
+    {
+      "key": "D",
+      "text": "世界发展的一般过程拒斥事物个别发展过程的特殊性 ### 答案解析 2."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "社会形态更替的过程"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "社会形态更替的过程"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

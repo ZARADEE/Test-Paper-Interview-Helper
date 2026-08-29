@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0696",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我们正在向第二个百年奋斗目标迈进。适应我国社会主要矛盾的变化，更好满足人民日益增长\n\n的美好生活需要，必须推动全体人民共同富裕取得更为明显的实质性进展。实现共同富裕",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "tBfth\nP165j 考点20 -1\n\n出处精讲P168\n考点25 -1. 3",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 103,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "不仅是经济问题，而且是关系党的执政基础的重大政治问题"
+    },
+    {
+      "key": "B",
+      "text": "首先要通过全国人民共同奋斗把“蛋糕”做大做好，然后通过合理的制度安排把“蛋糕” 切\n\n好分好"
+    },
+    {
+      "key": "C",
+      "text": "是一个长期的历史过程"
+    },
+    {
+      "key": "D",
+      "text": "必须等实现了现代化再来解决"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        90.38899993896484,
+        120.3994140625,
+        930.1953125,
+        338.5233459472656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 111,
+      "bbox": [
+        1.1160802841186523,
+        813.1135864257812,
+        409.8197326660156,
+        985.466796875
+      ]
+    }
+  ]
+}

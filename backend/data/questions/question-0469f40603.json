@@ -1,0 +1,49 @@
+{
+  "id": "question-0469f40603",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(15) 求极限lim — /72(卅 + 1)(卅 + 2)・・・(2兀 —1).\nf+°°\nq—工 fH-°°\nf+oo",
+  "answer_markdown": "",
+  "analysis_markdown": "(15)解 令1\nn\n71 + 2\nZ2 + 1\n“ +(7? — 1)\nn\nn\nn\nn\nn\n即 In jc, = +gln(l + ¥)，故\nIn ±.\n1 +\nn—1\nlimln xn = lim — 丫 In (\n\"fOO\n”f8 72\n= 0\n\\\nln(l +\n= 21n 2 — 1 =\no\ne\n/■(h)cLz = A(A 为常数).\n综上可知，原极限=\ne\n由于f /(^)dx收敛，记\nJ 0\n.\n对已知等式两端分别积分，得\n*4-oo\n*8\nP亠\n「+°°\nr\ny(j；)dj： = |\nA =\n•+8 d#\n其中\n-~r— dw — A\n1 + .\nJ 0\n=于•又\n1 uC2\narctan x\nI 0\n°+°°\ne~\"工\neP + eJ 仕-\n' dj:\neJ + 1\n1 + ex\nr+oo\n=Jo\n*8 6\nI 4-00 f-\nX|o\n=一 e\ndr = 1 + ln(l + e~x)\n=1 — In 2,\no\n1 + e\n故 A =\n— (1 — In 2)A,解得 A = J\n°+8/(J7)dj?=\n7T\n2(2-In 2T\nx",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 28,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.446744+00:00",
+  "updated_at": "2026-08-23T12:39:51.016127+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 28,
+      "bbox": [
+        24.0,
+        640.0787353515625,
+        482.3999938964844,
+        659.87451171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 68,
+      "bbox": [
+        24.0,
+        316.86260986328125,
+        482.3999938964844,
+        581.12744140625
+      ]
+    }
+  ]
+}

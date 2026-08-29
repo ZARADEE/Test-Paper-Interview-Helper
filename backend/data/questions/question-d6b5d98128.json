@@ -1,0 +1,60 @@
+{
+  "id": "question-d6b5d98128",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(29) 设函数y = y(z)由参数方程』\n1 .\n(t$l)确定，求;y = y(z)的单调区间、\nP = yin t\n凹凸区间、极值和拐点.",
+  "answer_markdown": "",
+  "analysis_markdown": "(29)解\n_d_T 1 一 In /\n1 d/\n」_ d?L2(l + ln Oj* 苍\n_d_\ndjr\n2(\n1 — In t\nZ? (1 + In /)\n,n21 — 2)\ni3(l + ln tY\n令兽=0,得/\n0,得上=醉.\n列表如下:\nt\n(l,e)\ne\n(e,/)\n(/: + °°)\nX\n(0,e)\ne\n(e,Qe®\n(吃+oo)\n上\ndrc\n+\n—\n—\n—\ndS\ndjr2\n-4\n—\n—\n—\n+\n丄\nV2\n\\\ne\n故夕 =yG) 在(0,e) 内单调增力⑺在仁，+*) 内单调减少.\ny(e)=丄为极大值，向上凹区间为(雄护，+oo),向上凸区间为(0,施/),拐点为\ne",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.441266+00:00",
+  "updated_at": "2026-08-23T12:39:50.873127+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分",
+    "单调",
+    "极值",
+    "拐点"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        24.0,
+        548.7905883789062,
+        482.3999938964844,
+        591.7987670898438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 34,
+      "bbox": [
+        24.0,
+        655.7738647460938,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 35,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        280.48431396484375
+      ]
+    }
+  ]
+}

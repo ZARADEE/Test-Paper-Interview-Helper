@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0644",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "总体国家安全观是新时代国家安全工作的基本遵循。总体国家安全观的根本是",
+  "answer_markdown": "B",
+  "analysis_markdown": "",
+  "chapter": "第十三章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人民安全"
+    },
+    {
+      "key": "B",
+      "text": "政治安全"
+    },
+    {
+      "key": "C",
+      "text": "经济安全"
+    },
+    {
+      "key": "D",
+      "text": "军事安全"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十三章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十三章"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        86.83399963378906,
+        1324.8973388671875,
+        831.6141967773438,
+        1388.4422607421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 106,
+      "bbox": [
+        16.308000564575195,
+        603.278076171875,
+        312.4620361328125,
+        678.6963500976562
+      ]
+    }
+  ]
+}

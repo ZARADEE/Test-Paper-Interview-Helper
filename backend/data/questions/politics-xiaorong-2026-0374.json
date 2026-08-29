@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0374",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "从20 世纪70 年代起，随着资本主义经济陷入滞胀和新自由主义思潮的泛滥，西方国家普遍走\n\n上强化市场机制、弱化政府干预的道路。与此同时，经济危机呈现新的特点，包括",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "是资本家获取高额剩余价值的手段，而雇\n\n佣工人的剩余劳动仍然是这种剩余价值的\n\n出处精讲两\n考点81 -1-(4)-0\n\n唯一源泉。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "去工业化和产业空心化日趋严重"
+    },
+    {
+      "key": "B",
+      "text": "两极分化和社会对立加剧"
+    },
+    {
+      "key": "C",
+      "text": "周期性危机与结构性危机交织在一起"
+    },
+    {
+      "key": "D",
+      "text": "虚拟经济与实体经济严重脱节"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        103.63500213623047,
+        587.89599609375,
+        935.9407348632812,
+        717.28076171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 69,
+      "bbox": [
+        432.0050048828125,
+        1245.66748046875,
+        842.0321044921875,
+        1316.961669921875
+      ]
+    }
+  ]
+}

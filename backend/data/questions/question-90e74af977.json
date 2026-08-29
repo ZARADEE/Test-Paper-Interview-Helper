@@ -1,0 +1,48 @@
+{
+  "id": "question-90e74af977",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(11)设 3 阶方阵 A = (ai ,a2 ,ct3)\n= (3ai — a2,3a2 — 2a} ,2a3 — ai — 2a2),且\nI B 丨=14,则 | A 丨=________ .",
+  "answer_markdown": "1.",
+  "analysis_markdown": "1.\n14 = 14,\nA\n• 3\n2 - r\n解 由J3 = (a】皿2，a、3) -1\n-2\n，知\no\n--2\n—1\nB | = | (ai ,ot2 心)\n1 -1\n-2\n故丨A | = 1.",
+  "chapter": "行列式",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 61,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.473201+00:00",
+  "updated_at": "2026-08-23T12:39:51.594353+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "行列式"
+  ],
+  "tags": [
+    "线性代数",
+    "行列式"
+  ],
+  "source_regions": [
+    {
+      "page": 61,
+      "bbox": [
+        24.0,
+        249.38316345214844,
+        482.3999938964844,
+        281.47857666015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 180,
+      "bbox": [
+        24.0,
+        219.63221740722656,
+        482.3999938964844,
+        309.2753601074219
+      ]
+    }
+  ]
+}

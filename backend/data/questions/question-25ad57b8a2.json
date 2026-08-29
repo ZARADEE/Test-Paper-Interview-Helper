@@ -1,0 +1,49 @@
+{
+  "id": "question-25ad57b8a2",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)设总体X的概率分布为\nX\nP\ne2\n20(1 —0)\n(1—0)2\n已知容量为3的样本值为R\n1,工2 = 2,攵3 = 1 ,求0的矩估计值和最大似然估计值.\n—Ar In 入，\n■Z>0，(0<A< 1),(X],X2,…,",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)解 由 EX =併 + 2 • 20(1 二0) +3(1 —0严=-2d +3,\n=匕存’故0的矩估计值6 ='产•又\n得o\n—_ 心+ X2 H- ^3 _ 1+2 + 1 _ 4\n0C ――------------------------ ——--------------------=—\n所以》\n5_\n?•\n似然函数为L(e)=伊• 2&(1 — 0)• e2 = 2伊(i — 0).取对数，得\nIn L((9) — In 2 + 51n 0+ ln(l — 0),\n入din L(0)\n歹—]\nA\nR\n=0,解得d的最大似然估计值为e = 4,\nv dT~\n~+8",
+  "chapter": "参数估计",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 102,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.492264+00:00",
+  "updated_at": "2026-08-23T12:39:52.057507+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "样本",
+    "参数估计"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "参数估计"
+  ],
+  "source_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        24.0,
+        183.76348876953125,
+        482.3999938964844,
+        263.278076171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 278,
+      "bbox": [
+        24.0,
+        150.51724243164062,
+        482.3999938964844,
+        286.5668029785156
+      ]
+    }
+  ]
+}

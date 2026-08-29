@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0378",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "进入21 世纪以来，资本主义呈现出一些新变化、新特征，表现在",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精布西6 考点81 -1-(5)\n\n出处睛讲P91~M 考点82\n\n简析A、C、D 正确。通过建立政策咨询机",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "科技创新加速资本主义生产方式变化"
+    },
+    {
+      "key": "B",
+      "text": "国际金融垄断资本主义影响日益显现"
+    },
+    {
+      "key": "C",
+      "text": "社会阶级层级结构呈现复杂性、多样化"
+    },
+    {
+      "key": "D",
+      "text": "发达资本主义国家凭借经济、科技、文化传播等超级优势，在世界范围内推行霸权主义和\n\n强权政治"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        102.44100189208984,
+        1200.4063720703125,
+        933.9963989257812,
+        1386.913818359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        20.290000915527344,
+        770.1483764648438,
+        427.3945617675781,
+        1324.9501953125
+      ]
+    },
+    {
+      "page": 70,
+      "bbox": [
+        485.2929992675781,
+        34.12244415283203,
+        851.0508422851562,
+        390.5915222167969
+      ]
+    }
+  ]
+}

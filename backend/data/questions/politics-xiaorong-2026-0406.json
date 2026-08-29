@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0406",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在共产主义社会，不仅社会是和谐的，而且社会与自然之间也将达成和谐。恩格斯指出，只有\n\n在这样的社会状态下，人们才第一次能够“谈到那种同已被认识的自然规律和谐一致的生活”。\n\n在共产主义社会",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "知识储备题\n\n主义发展道路的现成方案。A、B 正确。经",
+  "chapter": "第七章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 59,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "为生产而生产的利润动机不复存在"
+    },
+    {
+      "key": "B",
+      "text": "物质生产不再不顾人的实际需要而盲目扩张"
+    },
+    {
+      "key": "C",
+      "text": "人类文明与自然环境之间将达到动态平衡与和谐"
+    },
+    {
+      "key": "D",
+      "text": "人类以合乎自然发展规律的方式来改造和利用自然"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第七章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第七章"
+  ],
+  "source_regions": [
+    {
+      "page": 59,
+      "bbox": [
+        85.16400146484375,
+        211.126953125,
+        932.603515625,
+        431.8148193359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 73,
+      "bbox": [
+        433.6099853515625,
+        505.89739990234375,
+        706.6361083984375,
+        580.8328857421875
+      ]
+    }
+  ]
+}

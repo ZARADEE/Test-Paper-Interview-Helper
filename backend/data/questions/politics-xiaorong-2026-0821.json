@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0821",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "帝国主义列强掀起瓜分中国的狂潮是在",
+  "answer_markdown": "A",
+  "analysis_markdown": "职业特征上讲的，无产阶级则是从其社会地\n\n出处精讲反祈考点7\n好\n蒯中日甲午战争后签订的《马关条约》规\n\n位上讲的。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 123,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "B",
+      "text": "第一次鸦片战争爆发后"
+    },
+    {
+      "key": "A",
+      "text": "中日甲午战争爆发后"
+    },
+    {
+      "key": "D",
+      "text": "第二次鸦片战争爆发后"
+    },
+    {
+      "key": "C",
+      "text": "八国联军战争爆发后"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 123,
+      "bbox": [
+        84.29100036621094,
+        400.2662658691406,
+        743.9794921875,
+        499.2535400390625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 127,
+      "bbox": [
+        2.456000328063965,
+        1204.8408203125,
+        411.6784362792969,
+        1313.09033203125
+      ]
+    },
+    {
+      "page": 127,
+      "bbox": [
+        456.4360046386719,
+        29.792945861816406,
+        847.88037109375,
+        225.4693145751953
+      ]
+    }
+  ]
+}

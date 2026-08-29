@@ -1,0 +1,62 @@
+{
+  "id": "question-9d8a6b5534",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)设随机变量X的概率密度为fdx),若当一oo <_zV+oo时，恒有0\n<1,则\nX可能服从(\n).\n\nBN(〃，1)",
+  "answer_markdown": "B",
+  "analysis_markdown": "解 若X〜N（p,/）,则x的概率密度为\n/■（工）= J_\n* V g <+ oo.\nV 27TCT\n〃时,/（工）取得最大值二1,显然JQ）的最大值与戶无关，故当X〜NS，*）\nV 27t（T\n当X\n时,y\\p）= J_ .\nV2tcj\n当 <7=1 时,/（〃）= +二 V 1，从而 0 u V 1,故 E 正确.\nv 2tt\n当/ V -  时，于（〃）=> 1，所以A£,D不正确.\nV 2?t\nV 271（7",
+  "chapter": "随机变量及其分布",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 89,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.487265+00:00",
+  "updated_at": "2026-08-23T12:39:51.923127+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "N(l,/)"
+    },
+    {
+      "key": "C",
+      "text": "N(〃,/)"
+    },
+    {
+      "key": "D",
+      "text": "N(0,/)"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "概率密度"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        24.0,
+        101.56261444091797,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 243,
+      "bbox": [
+        24.0,
+        184.7489776611328,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

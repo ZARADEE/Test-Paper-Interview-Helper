@@ -1,0 +1,58 @@
+{
+  "id": "question-cdac99e860",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(9) 设函数 z =\n由方程工? 一6巧 + lOj/2 — 2yz—z2 +18 = 0 确定，求 z = zO,jy)\n的极值.",
+  "answer_markdown": "",
+  "analysis_markdown": "(9)解 已知方程两边同时对工,夕求偏导，得\n§\n2h — 6夕—2夕夢 —2z 字 =0,\nJ\ndx\ndJC\n一 6je 4- 20y 一 2z — 2,y 竺一2z 竺=0.\n令琴=0,宇=0,得\n3y dy\n-7J+W- z = 0,解得°\n= y,代入原方程解得\ndx\ndy\ny =— 3,z =— 3.\nx = 9，夕=3,n = 3 或 7=—9,\n①②式两边同时对求偏导，得\nq2\n-力当=0,\ndz \\\n石丿\nd2Z\ndz\nrK\ndxz\no dz dz Q d2 Z _ 八\n一 2石•石—2z硏 =0,\n—2z 7-^- = o,\n3y2\nv — 6 — 2 窪—24\ndx\ndxdy\n20_2字_2字 _2夕鹽 —2\n3y dy ‘ dy2\ndx\n'dz\n~3y\n将字=o,宇=o 口\n9 ,y = 3 ,z = 3代入上方程组，得\nox\ndy\nA上\n1 厂 加z I\n=丄，B~ 32z \\\n(9,3,3)\ndx2\n(9,3,3)\n§ I\ndxdy I(9,3,3)\n故 AC — B2 = -^ > 0 ,A = g>0,所以 z(9,3)\n3为极小值.\n同理，得\n_ d2z\n(—9,—3,—3)\nJ\"\nd2z\ndxdy\n(—9,—3,—3)\n(—933)\ndx2\n故 AC - B2 =\n秒〉0, A=—g<0,所以 z(—9,—3) =-3 为极大值.\no\n由 z — /(j?)ln fCy), M zx — f' (j:) In fCy) , zy = /(j：) • 了存］.",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 38,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.452279+00:00",
+  "updated_at": "2026-08-23T12:39:51.196770+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分",
+    "极值"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 38,
+      "bbox": [
+        24.0,
+        117.02369689941406,
+        482.3999938964844,
+        144.7090606689453
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 96,
+      "bbox": [
+        24.0,
+        554.5858154296875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 97,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        247.4911651611328
+      ]
+    }
+  ]
+}

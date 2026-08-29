@@ -1,0 +1,49 @@
+{
+  "id": "question-f307b53161",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "（17）设兀工）可导，且lim /（I）—/（I—工）\n•Zf 0\nLX\n=_],则曲线y = fix')在点(1,/(!))处的\n切线斜率为________ .",
+  "answer_markdown": "-2.",
+  "analysis_markdown": "-2.\nyxi)—*1 —工)—工=z lim 丄.m + G)—yxi)\n解\nlim\nX—0\n2工\n△/-♦■o 2\n/\\z\n=j/(l) =-1,\n故 ⑴=—2.\n的邻域内，COS I I = COS X,JC2 \\ X丨在龙=0处二阶可导9三阶不可导，",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 16,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.439350+00:00",
+  "updated_at": "2026-08-23T12:39:50.824237+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分",
+    "切线"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 16,
+      "bbox": [
+        24.0,
+        569.9141235351562,
+        482.3999938964844,
+        611.49365234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 28,
+      "bbox": [
+        24.0,
+        259.39556884765625,
+        482.3999938964844,
+        327.2317810058594
+      ]
+    }
+  ]
+}

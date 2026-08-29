@@ -1,0 +1,48 @@
+{
+  "id": "question-039b4a9f1e",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设随机变量X在(0,a)(a = 12)上服从均匀分布，则X位于EX与DX之间的概率\n为________•",
+  "answer_markdown": "1 _ a",
+  "analysis_markdown": "1 _ a\n~2~12 ・\n解 由已知,X〜U(0,a),则EX =号,DX = 务\n当 6<a £12 时,<劭=\n1 , _ a 1\n_f匚肛=辽_空；\n—診,故所求概率为* —診•\n/ 2\n当a W 6时,P ]卷V X V号\n7' 12",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 96,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.491264+00:00",
+  "updated_at": "2026-08-23T12:39:52.023647+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "概率"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 96,
+      "bbox": [
+        24.0,
+        266.821533203125,
+        482.3999938964844,
+        296.1584167480469
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 264,
+      "bbox": [
+        24.0,
+        159.05975341796875,
+        482.3999938964844,
+        250.94248962402344
+      ]
+    }
+  ]
+}

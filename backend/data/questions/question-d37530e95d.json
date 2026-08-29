@@ -1,0 +1,48 @@
+{
+  "id": "question-d37530e95d",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(12)设V：0<z<皿一工2一甘，求\n(3 工2 + 5/ +7z2)dV.\nV",
+  "answer_markdown": "",
+  "analysis_markdown": "(12)解 考虑到被积函数3^2+5y+7z2关于z是偶函\n数，对V补上下半球体得Vi：/+b+J <^2(如图6-53),\n则Vi关于直线x = y = z对称，故\n]pdV = jpdV = J^2dv= yj(-2+y + \",\nV1\nV1\nV1\nV]\n于是\n(3jc2 +5j/2 +7z2)dV\n(3jc2 +5y +7z2)dV\nV]\nJydV + 7>MV)\nv\n= *(3 j冷+ 5\nvi\nV]\n+ J/2 +z2)dV\nV]\n-\n丄\n，7 v\n图6 53\nvi\n'R\n+ J/2 +z2)dv 球坐标\n0n 卩卄\nrdrj ^z2 + /(r2 ) ]dz\n'2n\n[z2 + /(J：2 + j/2) ] dV = f 胡\nV1\n• 2』sin 6pdcpf r4 dr = 2nR5.\nL J o r J o",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 43,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.456828+00:00",
+  "updated_at": "2026-08-23T12:39:51.303604+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        24.0,
+        632.8759765625,
+        482.3999938964844,
+        668.0745239257812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 119,
+      "bbox": [
+        24.0,
+        51.41122055053711,
+        482.3999938964844,
+        263.24078369140625
+      ]
+    }
+  ]
+}

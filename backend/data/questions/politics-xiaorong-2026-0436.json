@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0436",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新民主主义革命理论的核心问题是",
+  "answer_markdown": "B",
+  "analysis_markdown": "Ayr > - jag.\n第八章\n\n出处精讲丽n 考点29 -g",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 67,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "分清敌友"
+    },
+    {
+      "key": "B",
+      "text": "农民问题"
+    },
+    {
+      "key": "C",
+      "text": "无产阶级领导权"
+    },
+    {
+      "key": "D",
+      "text": "土地问题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 67,
+      "bbox": [
+        94.18299865722656,
+        793.302734375,
+        842.205078125,
+        870.02294921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 80,
+      "bbox": [
+        446.6210021972656,
+        585.8153076171875,
+        859.3357543945312,
+        858.3187255859375
+      ]
+    }
+  ]
+}

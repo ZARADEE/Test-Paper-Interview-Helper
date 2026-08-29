@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0332",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在资本主义商品生产的条件下，每个资本家总是力图不断改进技术，改善经营管理，从而获得\n\n超额剩余价值。各个资本家追求超额剩余价值的结果是",
+  "answer_markdown": "AC",
+  "analysis_markdown": "出处精讲市引考点71 7、2-到\n\n出处精讲亘0 考点70 -5-\n\n简析A、C、D 正确。资本主义经济危机爆\n\n简析全社会劳动生产率的提高是资本家追\n\n发的根本原因是资本主义的基本矛盾，B\n\n逐超额剩余价值的结果。为了追求超额剩\n\n错误。\n\n余价值，资本家之间进行着激烈的竞争。某",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 49,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "整个资本家阶级普遍获得相对剩余价值"
+    },
+    {
+      "key": "B",
+      "text": "劳动力商品的价值增加"
+    },
+    {
+      "key": "C",
+      "text": "全社会劳动生产率的提高"
+    },
+    {
+      "key": "D",
+      "text": "剩余劳动时间缩短"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 49,
+      "bbox": [
+        88.29900360107422,
+        121.5547866821289,
+        928.0677490234375,
+        251.85215759277344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        8.556999206542969,
+        29.555816650390625,
+        427.1009521484375,
+        595.6590576171875
+      ]
+    }
+  ]
+}

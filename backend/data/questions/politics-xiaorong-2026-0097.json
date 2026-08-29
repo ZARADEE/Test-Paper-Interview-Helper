@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0097",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思指出，“社会形态发展是自然历史过程”，这是指",
+  "answer_markdown": "C",
+  "analysis_markdown": "的反复、停滞和倒退现象,D 不符合题意。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 15,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会形态的发展与自然界的发展完全一样"
+    },
+    {
+      "key": "B",
+      "text": "社会形态的发展也是自发的过程"
+    },
+    {
+      "key": "C",
+      "text": "社会形态的发展是客观的、有规律的发展过程"
+    },
+    {
+      "key": "D",
+      "text": "社会形态的发展与主体的活动无关"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 15,
+      "bbox": [
+        92.06400299072266,
+        271.6282043457031,
+        598.618408203125,
+        434.0834045410156
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 20,
+      "bbox": [
+        19.479999542236328,
+        520.7279052734375,
+        436.0602722167969,
+        829.8272094726562
+      ]
+    }
+  ]
+}

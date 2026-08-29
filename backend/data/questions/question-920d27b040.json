@@ -1,0 +1,49 @@
+{
+  "id": "question-920d27b040",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "⑺设于(2)= v *\n、0,\n工=0.\n(I )当怡为何值时,于(工)在工=0处不可导；\n(n)当怡为何值时在攵=o处可导，但导函数不连续；\n(m) 当怡为何值时,/■&)在工=o处导函数连续.",
+  "answer_markdown": "",
+  "analysis_markdown": "(7)解 (I)\nlim /(J：)~{(Q) = lim ——\n= lim^sin-,\nHf 0\nX — 0\nHf 0\nX\nx-*o\nX\n当1时,/(o)不存在；当怡> 1时,/(o)存在，且/(O) = o.\n(U)当e>i时JQ)的导函数为\nkxk~x sin — — jck~2 cos —, 工 工 0,\nX\nX\n0 9\n2 = 0.\n也？t sin\n— xk~2 cos g)不存在，故 1 < 怡 W 2 时，_/&)在\nf S =\n若 b W 2 ,则 lim/7 (j?) = lim\nX—0\nx-*0\nH = 0处可导，但导函数不连续.\n(III)当b〉2时Jim/'Q) = 0 = /z.(0)，此时/(x)在z = 0处导函数连续.\n■z-*0\n【注】 下列解法是错误的：\n=(J?sin —\nj b—\\\nk—2\n=kx sin------x cos —，\nx\nx\n当攵=0时，没有意义，故(0)不存在；当工工0时，(z) = kx\nk—1 •\n]   k—2\nsin —\n——x\nx\ncos —.错\nX\n在当工=0时，需用导数定义求解.",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 17,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.440266+00:00",
+  "updated_at": "2026-08-23T12:39:50.838830+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        24.0,
+        318.29248046875,
+        482.3999938964844,
+        402.046142578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 30,
+      "bbox": [
+        24.0,
+        143.7310791015625,
+        482.3999938964844,
+        344.3667907714844
+      ]
+    }
+  ]
+}

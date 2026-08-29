@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0859",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "十月革命发生在其国情与中国相同或近似的俄国，因而对中国的先进分子具有特殊吸引力。青\n年毛泽东说，“我看俄国式的革命，是无可如何的山穷水尽诸路皆走不通了的一个变计”，“只此\n方法较之别的改造方法所含可能的性质为多”。十月革命发生时的俄国国情与中国“相同或近\n似” 是指",
+  "answer_markdown": "D",
+  "analysis_markdown": "主革命的主力军是农民）；五四运动发生在新\n\n出处精加法a 考点27 -i-n\n\n文化运动之后,A、B、C 错误。D 符合题意。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 127,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "半殖民地半封建的社会性质"
+    },
+    {
+      "key": "B",
+      "text": "“三座大山”阻碍了社会进步和发展"
+    },
+    {
+      "key": "C",
+      "text": "封建压迫严重"
+    },
+    {
+      "key": "D",
+      "text": "经济文化落后"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 127,
+      "bbox": [
+        91.08399963378906,
+        937.3195190429688,
+        932.262939453125,
+        1160.539306640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 132,
+      "bbox": [
+        441.37200927734375,
+        543.2239379882812,
+        847.69970703125,
+        748.218994140625
+      ]
+    }
+  ]
+}

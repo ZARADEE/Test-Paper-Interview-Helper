@@ -1,0 +1,44 @@
+{
+  "id": "politics-2010-006",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“发展才是硬道理”、“发展是党执政兴国的第一要务”、“发展是解决中国一切问题的总钥匙”，这是对社会主义建设历史经验的深刻总结。中国解决所有问题的关键是要靠自己的发展，而发展的根本目的是：",
+  "answer_markdown": "D",
+  "analysis_markdown": "【解析】关于发展的重要性，邓小平说“发展才是硬道理”、江泽民说“发展是党执政兴国的第一要务”。这体现了中国解决所有问题的关键是要靠自己的发展，发展是为了创造出比资本主义更发达的生产力，增强我国的综合国力，使人民群众享受更多的实际利益，使社会主义更好地显示出自己的优越性。但是发展的根本目的是使人民共享发展成果，实现共同富裕。所以选项D为正确答案。该题可联系科学发展观，社会发展的根本目的是以人为本。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.373280+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "增强综合国力"
+    },
+    {
+      "key": "B",
+      "text": "体现社会主义优越性"
+    },
+    {
+      "key": "C",
+      "text": "消灭剥削，消除两极分化"
+    },
+    {
+      "key": "D",
+      "text": "使人民共享发展成果，实现共同富裕"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

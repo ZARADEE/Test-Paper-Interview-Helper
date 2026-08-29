@@ -1,0 +1,44 @@
+{
+  "id": "politics-2012-013",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人生目的是人在人生实践中关于自身行为的根本指向和人生追求，它所认识和回答的根本问题是：",
+  "answer_markdown": "A",
+  "analysis_markdown": "【解析】人生观主要是通过人生目的、人生态度和人生价值三个方面体现出来的。人生目的，回答人为什么活着；人生态度，表明人应当怎样对待生活；人生价值，判别什么样的人生才有意义。这三个方面相辅相成，其中人生目的是人生观的核心，有什么样的人生目的就会有什么样的人生态度，就会追求什么样的人生价值。BCD不符合题意，只有A符合题意。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.444787+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人为什么活着"
+    },
+    {
+      "key": "B",
+      "text": "人如何对待生活"
+    },
+    {
+      "key": "C",
+      "text": "怎样对待人生境遇"
+    },
+    {
+      "key": "D",
+      "text": "怎样选择人生道路 ### 答案解析 13"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "哲学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

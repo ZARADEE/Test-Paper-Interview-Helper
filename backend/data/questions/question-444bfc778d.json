@@ -1,0 +1,58 @@
+{
+  "id": "question-444bfc778d",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 设z = z(hq)是由方程=丄确定的隐函数，其中F可微，求\n\\ jc y z / z\n2 3z |\n2 3z\nx石+》看",
+  "answer_markdown": "",
+  "analysis_markdown": "（3）解法1\n方程F\n_ 1 dz\nZ2 dx\n1 dz \\\nF' •(—丄+丄空\n\\ x2 z2 dx\n(A+\nF' •\n1 dz\n/亏\ndz\n解①②式，得\nz2Ff\ndz _\n花=(F' + l)#2，Ty =_ (Fz+ l)y，\n故+ b宇=0.\ndx\ndy\n解法2 用公式求.\n丄_丄\n力 y\n令G = F\n廿,G；=F ・*=F・占+右,\n故\nG'\nz2 Ff dz\n£ = PF' + l)'乔=\nz2^\nb(F' + l)'\ndz\ndj3\n从而*学+ y器=o.\ndx\ndy\n①",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 37,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.452279+00:00",
+  "updated_at": "2026-08-23T12:39:51.188093+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "隐函数",
+    "多元函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        24.0,
+        570.7511596679688,
+        482.3999938964844,
+        626.4728393554688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 94,
+      "bbox": [
+        24.0,
+        627.04833984375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 95,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        247.2881317138672
+      ]
+    }
+  ]
+}

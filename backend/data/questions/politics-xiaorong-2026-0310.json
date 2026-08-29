@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0310",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "影响劳动生产率的主要因素有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲响考点63 -2\n\n规定与量的规定两个方面。价值的质的规",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 46,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "劳动者的平均劳动熟练程度"
+    },
+    {
+      "key": "B",
+      "text": "科学技术的发展水平及其在生产中的应用程度"
+    },
+    {
+      "key": "C",
+      "text": "生产过程的社会结合"
+    },
+    {
+      "key": "D",
+      "text": "生产资料的规模和效能以及自然条件"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 46,
+      "bbox": [
+        104.74400329589844,
+        522.4906005859375,
+        568.0549926757812,
+        681.1992797851562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 61,
+      "bbox": [
+        3.8319997787475586,
+        1073.2418212890625,
+        413.21343994140625,
+        1313.1241455078125
+      ]
+    },
+    {
+      "page": 61,
+      "bbox": [
+        475.2300109863281,
+        28.109634399414062,
+        846.9805908203125,
+        255.28314208984375
+      ]
+    }
+  ]
+}

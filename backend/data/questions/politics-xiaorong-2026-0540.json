@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0540",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1956 年4 月和5 月，毛泽东先后在中央政治局扩大会议和最高国务会议上，作了《论十大关\n\n系》的报告。《论十大关系》提出",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "多国家的产业关联和相互依赖程度都比较\n\n出处精讲百\n考点49\n\n高,内外需市场本身是相互依存、相互促进",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 81,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "以苏为鉴，独立自主地探索适合中国情况的社会主义建设道路"
+    },
+    {
+      "key": "B",
+      "text": "调动一切积极因素为社会主义事业服务"
+    },
+    {
+      "key": "C",
+      "text": "探索在中国实行改革开放的道路"
+    },
+    {
+      "key": "D",
+      "text": "“向外国学习” 的口号"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 81,
+      "bbox": [
+        90.14399719238281,
+        700.0416870117188,
+        931.37255859375,
+        891.8348999023438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        0.0,
+        1162.81591796875,
+        296.12384033203125,
+        1246.125
+      ]
+    }
+  ]
+}

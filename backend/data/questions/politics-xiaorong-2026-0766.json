@@ -1,0 +1,60 @@
+{
+  "id": "politics-xiaorong-2026-0766",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平指出，以人民为中心是我们党的根本执政理念，让人民生活幸福是“国之大者”。全面\n\n建设社会主义现代化国家，出发点和落脚点是让人民生活越过越好。要增进民生福祉，扎实推\n\n进各项民生事业，使改革发展成果更多更公平惠及全体人民。增进民生福祉是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "党对宣传思想文化工作全面领导的本质要\n\n出处精讲市初考点77 -2\n\n求，是发展社会主义先进文化的有力保障,是\n\n简析A、B、C 正确。加快构建新发展格局\n\n历史的结论，是坚持和巩固我国社会主义制\n\n是推动高质量发展的战略基点,D 错误。\n\n度、保证我国文化建设正确方向的必然要求。\n\nA、B、C、D 全选。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 113,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持立党为公、执政为民的本质要求"
+    },
+    {
+      "key": "B",
+      "text": "社会主义生产的根本目的"
+    },
+    {
+      "key": "C",
+      "text": "全面建设社会主义现代化国家的应有之义D. 推动高质量发展的战略基点"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 113,
+      "bbox": [
+        85.14700317382812,
+        332.32244873046875,
+        925.322265625,
+        492.2330017089844
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        445.2070007324219,
+        784.6920776367188,
+        753.1718139648438,
+        860.5147705078125
+      ]
+    }
+  ]
+}

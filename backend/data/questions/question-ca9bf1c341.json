@@ -1,0 +1,49 @@
+{
+  "id": "question-ca9bf1c341",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 设A是5X4矩阵,r(A) = 2,已知a】,a2 ,a3是非齐次线性方程组Ax = 〃的三个解\n向量，且 ai +a2 = (4,6, —8,4)T ,a3 = (1,2, — 1,1)T ,又(0,1,—3,0)丁 是 Ax = 0 的解，求\nAx = b的通解.",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)解 由已知条件及Ax = b的通解结构，只需求Ax = 0的基础解系，而基础解系有\n/?-r(A) = 4-2 = 2 个，(0,1,—3,0)丁 是 Ax = O 的一个解，于是再求一个与(0,1, -3,0)T\n线性无关的解即可.\n注意到«!+«2-2«3是山=0的解，事实上，\nA(«! + a2 一 2a3) = +Aa2 — 2Aa3 =b + b — 2b = 0,\n且\nai+a2—2a3 = (4,6,—8,4)丁一 2(1,2, — 1,1)丁 = (2,2, —6,2)丁，\n又(2,2, —6,2)丁与(0,1, —3,0)丁线性无关(分量不成比例)，所以Ax = b的通解为\nkl\n-3 + k.2\n—6 +\n2-1\n(尿，為为任意常数).\n〔2\n〔1 .\n【注】 结论：设ai ,。2,…，a”是Ax = b的n个解，当ki + k2 + ••- + kn = 1时，\nkiai + k2a2 + …+ kna„ 也是Ax = 〃的解.",
+  "chapter": "线性方程组",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 75,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.479594+00:00",
+  "updated_at": "2026-08-23T12:39:51.785352+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "向量",
+    "方程组"
+  ],
+  "tags": [
+    "线性代数",
+    "线性方程组"
+  ],
+  "source_regions": [
+    {
+      "page": 75,
+      "bbox": [
+        24.0,
+        198.08775329589844,
+        482.3999938964844,
+        242.03717041015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 212,
+      "bbox": [
+        24.0,
+        234.44117736816406,
+        482.3999938964844,
+        381.282470703125
+      ]
+    }
+  ]
+}

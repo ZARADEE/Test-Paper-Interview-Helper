@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0472",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "所谓精髓，对于理论而言，指的是能使这一理论得以形成和发展并贯穿始终，同时又体现在这\n\n一理论中最本质的东西。邓小平理论的精髓是",
+  "answer_markdown": "C",
+  "analysis_markdown": "盛，就没有中华民族伟大复兴。”A 正确。\n\n出处精丽的考点63 -3-0",
+  "chapter": "第六章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 71,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "解放思想、实事求是"
+    },
+    {
+      "key": "B",
+      "text": "发展是硬道理"
+    },
+    {
+      "key": "C",
+      "text": "什么是社会主义、怎样建设社会主义"
+    },
+    {
+      "key": "D",
+      "text": "社会主义市场经济理论"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第六章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第六章"
+  ],
+  "source_regions": [
+    {
+      "page": 71,
+      "bbox": [
+        86.04399871826172,
+        1283.774169921875,
+        927.5086059570312,
+        1407.5111083984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 85,
+      "bbox": [
+        435.2040100097656,
+        503.15966796875,
+        856.4927368164062,
+        824.114501953125
+      ]
+    }
+  ]
+}

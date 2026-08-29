@@ -1,0 +1,46 @@
+{
+  "id": "politics-2024-010",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "鸦片战争前夕，中国是封建的国家，鸦片战争后独立的中国变成半殖民地的中国，封建的中国变成半封建的中国，这里的“半封建”是指（ ）",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】本题考查的知识点：半殖民地半封建社会\n 鸦片战争后，中国逐步变成半封建社会的原因有：第一，外国资本主义列强用武力打开中国的门户，把中国卷入世界资本主义经济体系和世界市场之中。第二，西方列强并不愿意中国成为独立的资本主义国家。在中国农村中，地主剥削农民的封建生产关系，在社会经济生活中依然占着显然的优势。这样，中国的经济既不再是完全的封建经济，也不是完全的资本主义经济，而成为半封建的经济了。故B项是正确的，A项表述错误，CD两项不符合实际。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.353077+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "封建经济占据国家经济的一半"
+    },
+    {
+      "key": "B",
+      "text": "中国出现资本主义生产关系"
+    },
+    {
+      "key": "C",
+      "text": "中国丧失完全的独立"
+    },
+    {
+      "key": "D",
+      "text": "封建剥削制度的根本动摇 ### 答案解析 10."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "半殖民地半封建社会"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "半殖民地半封建社会"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

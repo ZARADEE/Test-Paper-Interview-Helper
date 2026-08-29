@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1227",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我国大部分的法律法规都是由行政机关执行的。行政执法是法律实施和实现的重要环节，必须\n\n坚持的基本原则有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "进一步全面依法治国紧密结合起来，着力处\n\n出处精讲下证4 考点44 -2-©\n\n理好改革和法治的关系，实现立法和改革决",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 178,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "合法性"
+    },
+    {
+      "key": "B",
+      "text": "合理性"
+    },
+    {
+      "key": "C",
+      "text": "信赖保护"
+    },
+    {
+      "key": "D",
+      "text": "效率"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 178,
+      "bbox": [
+        103.97000122070312,
+        458.8029479980469,
+        935.7827758789062,
+        560.8101196289062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 182,
+      "bbox": [
+        16.42799949645996,
+        1248.577392578125,
+        348.22216796875,
+        1325.7518310546875
+      ]
+    }
+  ]
+}

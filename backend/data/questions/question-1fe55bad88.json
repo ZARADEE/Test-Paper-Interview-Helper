@@ -1,0 +1,65 @@
+{
+  "id": "question-1fe55bad88",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)与 A =\n0 0 '\n0、\n\n1 — 1\n\n0 -1\n— 2\n、0\n2 -2\n、0\n-2\n— 4.\n0、\n\n~~2\n~2\n\n_ 1\n、0\n2J\n~2\n).\n相似的是(",
+  "answer_markdown": "A",
+  "analysis_markdown": "解 P是初等矩阵,P左乘A,相当于把A的第1,3行交换，故交换偶数次，相当于不变,\n右乘A相当于把A的第1,3列交换，同理交换偶数次，相当于不变，故A正确.",
+  "chapter": "矩阵",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 78,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.480630+00:00",
+  "updated_at": "2026-08-23T12:39:51.802267+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "A ="
+    },
+    {
+      "key": "B",
+      "text": "B ="
+    },
+    {
+      "key": "C",
+      "text": "C ="
+    },
+    {
+      "key": "D",
+      "text": "D ="
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        24.0,
+        321.5570983886719,
+        482.3999938964844,
+        476.24200439453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 192,
+      "bbox": [
+        24.0,
+        88.28306579589844,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

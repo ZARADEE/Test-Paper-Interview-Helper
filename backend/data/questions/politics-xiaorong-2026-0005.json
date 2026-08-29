@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0005",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1844 年8 月底，马克思、恩格斯在巴黎会面。这次会面使他们发现彼此的基本观点完全一致，于\n\n是开始了在科学理论研究和革命活动中的长期合作。马克思、恩格斯第一次合作的著作是",
+  "answer_markdown": "A",
+  "analysis_markdown": "性是人的意识所固有的本质属性。\n\n出处酶可考点2 拓展与点拨。\n\n客观性是真理的本质属性。\n\n人的本质属性是社会属性，表现在各种社\n\n简析1844 年8 月底，马克思、恩格斯在巴黎\n\n会关系中。\n\n会面。此前他们曾有过一面之缘，但这次会面",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 1,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "《神圣家族》"
+    },
+    {
+      "key": "B",
+      "text": "《德意志意识形态》"
+    },
+    {
+      "key": "C",
+      "text": "《哲学的贫困》"
+    },
+    {
+      "key": "D",
+      "text": "《共产党宣言》"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 1,
+      "bbox": [
+        93.45999908447266,
+        1190.8154296875,
+        934.2239990234375,
+        1325.4219970703125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 2,
+      "bbox": [
+        16.788999557495117,
+        298.32147216796875,
+        435.58245849609375,
+        1184.7821044921875
+      ]
+    }
+  ]
+}

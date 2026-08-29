@@ -1,0 +1,48 @@
+{
+  "id": "question-c75ca7a872",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(21) 设/'(工)在［0,1］上二阶可导，丨严(刃IWIJQ)在(0,1)内取得最小值，证明：\nI X(o)|+| /(I) |<i.",
+  "answer_markdown": "",
+  "analysis_markdown": "(21)证\n由fS 在(0,1)内取得最小值，知存在一点乩6(0,1),使得/(^0)为 2)\n在(0,1)上的最小值，于是f 5)= o.\n由拉格朗日中值定理，有\n/■'(■Zo) —\n(0) = _/'(&) (zo — 0) ,0 V & V m ,\n/(1)-/(^0)=严(&)(1一 2° ) , Ho\n1，\n于是\nI /(0) I = I\n|(J?O — 0) < J70 ,\nI /(l) 1 = 1 F(&)I (l-Xo) W 1—m，\n两式相加，得\n丨/(0)l + l /(l) |< 1.",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.440266+00:00",
+  "updated_at": "2026-08-23T12:39:50.860395+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        24.0,
+        234.43077087402344,
+        482.3999938964844,
+        263.01519775390625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        24.0,
+        500.29949951171875,
+        482.3999938964844,
+        590.5051879882812
+      ]
+    }
+  ]
+}

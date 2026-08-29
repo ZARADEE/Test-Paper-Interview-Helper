@@ -1,0 +1,48 @@
+{
+  "id": "question-e6b05b2631",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "⑵若\n0,则入=\nA — a\nA — a\n-1\n-1",
+  "answer_markdown": "a+l 或 a — 2.",
+  "analysis_markdown": "a+l 或 a — 2.\n解\n原式=\nA — a 一 1\n-1\n_ 1\n一 a 一1\n0 I |A —a — 1\nA — a\n1 =\n-1\nA - a + 1\n入一a |\n-1\nA — a\nl-a)2 + (A-a)-2] =0,\n=（A — a 一\n得入 = a + l 或入 =a — 2.",
+  "chapter": "行列式",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 60,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.472143+00:00",
+  "updated_at": "2026-08-23T12:39:51.578950+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "行列式"
+  ],
+  "tags": [
+    "线性代数",
+    "行列式"
+  ],
+  "source_regions": [
+    {
+      "page": 60,
+      "bbox": [
+        24.0,
+        542.3084716796875,
+        482.3999938964844,
+        592.9590454101562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 179,
+      "bbox": [
+        24.0,
+        128.4079132080078,
+        482.3999938964844,
+        194.19898986816406
+      ]
+    }
+  ]
+}

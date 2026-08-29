@@ -1,0 +1,65 @@
+{
+  "id": "question-7973cf2bd2",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(5) 设/(JC)在2 = 0的某邻域内有定义，则F(z) = /(je) I sin x丨在jc = Q处可导的\n充要条件是(\n)•\n\nX—0\n\nx-*0\n\n\nx->0\nj—*0\nHf 0\njt-*O",
+  "answer_markdown": "D",
+  "analysis_markdown": "解利用导数定义，有\n£(0) = lim F(z)_ f(22\n科(0) = lim F(Q\n_ 1-\n— /(x)sin x _\n1-\n/-/ 、\n— 11 m\n—\n11 m j \\oc)\n—\nT\n—\n•Z-* 0\n工-*0\n_ v f(j?)sin x _ v // 、\n—11 m\n— 11 m j I jc ) 9\ngf °+\n\"\n工 ”。+\n(0)0 一 lim/(jc) = lim/(j?),\nF(rr)在 z = 0 处可导 (0)\nJt—0_\nHf o+\n故D正确.",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 19,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.442361+00:00",
+  "updated_at": "2026-08-23T12:39:50.888962+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "lim/(jr)存在"
+    },
+    {
+      "key": "B",
+      "text": "lim/(jc) = /(0)"
+    },
+    {
+      "key": "C",
+      "text": "/(a-)在z = 0处可导"
+    },
+    {
+      "key": "D",
+      "text": "lim/(j;)与 lim/Ca：)均存在，且 lim —— lim fix')"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 19,
+      "bbox": [
+        24.0,
+        388.796142578125,
+        482.3999938964844,
+        488.87255859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        24.0,
+        398.52197265625,
+        482.3999938964844,
+        497.072021484375
+      ]
+    }
+  ]
+}

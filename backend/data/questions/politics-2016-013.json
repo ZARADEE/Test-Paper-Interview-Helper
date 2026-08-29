@@ -1,0 +1,36 @@
+{
+  "id": "politics-2016-013",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "爱国主义在不同的历史和文化背景下有着不同的内涵和特点。在新民主主义革命时期，爱国主义主要表现为致力于****帝国主义、封建主义和官僚主资本主义的反动统治，把黑暗的旧中国改造成光明的新中国。在现阶段，爱国主义主要表现为心系国家的前途和命运，献身于社会主义现代化事业，献身于祖国统一大业。这表明",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】爱国主义是历史的、具体的，不是抽象的，在不同的历史条件和文化背景下所形成的爱国主义，总是具有不同的内涵和特点。在新民主主义革命时期和在现阶段爱国主义都有不同的特点，爱国主义的丰富性和生命力，正是通过它的历史性和具体性来表现的。因此本题答案是选项B。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.513423+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "爱国主义是主观的、现实的 B.爱国主义是历史的、具体的"
+    },
+    {
+      "key": "C",
+      "text": "爱国主义是客观的、抽象的 D.爱国主义是客观的、具体的 ### 答案解析 13."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

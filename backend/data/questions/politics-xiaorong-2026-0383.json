@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0383",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "长期以来，西方国家标榜民主并不遗余力地向外输出民主，但近年来移植西式民主的国家陷入\n\n动荡，西方国家本身也出现了某些治理危机，暴露出西式民主的弊端和局限，具体表现在",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "点拨在资本主义发展的初期, 资本家主要\n\n出处精而酝考点83 -0\n\n依靠绝对剩余价值生产来提高剥削程度。\n\n第六章\n\n随着生产技术条件的不断改进和工人阶级\n\n反抗资本家延长工作日的斗争力量的增",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 55,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "西式选举往往难以选贤"
+    },
+    {
+      "key": "B",
+      "text": "政党利益可能凌驾于国家利益之上"
+    },
+    {
+      "key": "C",
+      "text": "“民主陷阱” 会阻碍国家治理"
+    },
+    {
+      "key": "D",
+      "text": "传统精英政治走向衰落\n\n第六章\n社会主义的发展及其规律"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 55,
+      "bbox": [
+        88.9489974975586,
+        708.9578247070312,
+        929.1920166015625,
+        840.3948364257812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        446.41400146484375,
+        904.27392578125,
+        851.6392822265625,
+        1045.5849609375
+      ]
+    }
+  ]
+}

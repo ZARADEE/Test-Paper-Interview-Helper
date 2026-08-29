@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0854",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1919 年5 月爆发的五四运动，是中国近代史上一个划时代的事件。关于五四运动，以下说法正\n\n确的是",
+  "answer_markdown": "D",
+  "analysis_markdown": "争后）、普遍觉醒（甲午战争后）、全面觉\n\n出处精讲下通考点28 -2-（1）\n\n醒（五四运动）等。具体可以参见《2026考\n\n简析五四运动是中国革命的新阶段即新民\n\n研政治知识点精讲精练》第268页表格。\n\n主主义革命阶段的开端，但它没有改变中国",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 127,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "改变了中国半殖民地半封建社会的性质，中国革命从此进入新民主主义革命时期"
+    },
+    {
+      "key": "B",
+      "text": "工人阶级开始代替资产阶级成了资产阶级民主革命的主力军"
+    },
+    {
+      "key": "C",
+      "text": "促进了新思想的传播，为新文化运动的兴起准备了理论基础"
+    },
+    {
+      "key": "D",
+      "text": "表现了反帝反封建的彻底性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 127,
+      "bbox": [
+        92.09400177001953,
+        208.54934692382812,
+        932.150634765625,
+        407.7240295410156
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 131,
+      "bbox": [
+        436.0010070800781,
+        985.41552734375,
+        846.50634765625,
+        1315.864990234375
+      ]
+    }
+  ]
+}

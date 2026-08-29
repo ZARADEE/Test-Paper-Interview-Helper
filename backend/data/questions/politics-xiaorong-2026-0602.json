@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0602",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新质生产力由技术革命性突破、生产要素创新性配置、产业深度转型升级而催生，以劳动者、\n\n劳动资料、劳动对象及其优化组合的跃升为基本内涵。新质生产力的核心标志是",
+  "answer_markdown": "A",
+  "analysis_markdown": "高质量发展的必由之路;加快构建新发展格\n\n出处精进F页］考点38 -1\n\n局，是推动高质量发展的战略基点;推进农\n\n\f\n富裕是总要求，建立健全城乡融合发展体制\n\n简析新质生产力由技术革命性突破、生产要\n\n机制和政策体系是制度保障。B 正确,A、C、D\n\n素创新性配置、产业深度转型升级而催生，以\n\n错误。\n\n劳动者、劳动资料、劳动对象及其优化组合的",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 91,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "全要素生产率大幅提升"
+    },
+    {
+      "key": "B",
+      "text": "创新和质优"
+    },
+    {
+      "key": "C",
+      "text": "稳定的产业链供应链"
+    },
+    {
+      "key": "D",
+      "text": "催生新产业、新模式、新动能"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        85.33000183105469,
+        613.2823486328125,
+        936.1924438476562,
+        742.9398193359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 101,
+      "bbox": [
+        435.0419921875,
+        426.4999694824219,
+        856.4080810546875,
+        758.9121704101562
+      ]
+    }
+  ]
+}

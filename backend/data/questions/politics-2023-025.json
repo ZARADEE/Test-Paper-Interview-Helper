@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-025",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "湿地保护是生态文明建设的重要内容。古往今来人类逐水而居，文明伴水而生，人类生产生活同湿地有着密切联系，十年来，我国大力推进生态文明建设，加强湿地保护修复，构建保护制度体系，出台《湿地保护法》，使湿地生态状况得以持续改善，目前，我国湿地面积达到5635万公顷。在《湿地公约》认定的43个国际湿地城市中，我国13个城市入选，是全球入选国际湿地城市数量最多的国家。湿地保护有利于()",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "解析：本题考查湿地保护的意义。湿地保护有利于（促进人与自然和谐共生，推行\n草原、森林、河流、湖泊、湿地休养生息，提升生态系统多样性、稳定性、持续性，发\n挥湿地功能，推进可持续发展，应对气候变化。故本题正确选项为ABCD。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.575458+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "促进人与自然和谐共生"
+    },
+    {
+      "key": "B",
+      "text": "推行草原、森林、河流、湖泊、湿地休养生息"
+    },
+    {
+      "key": "C",
+      "text": "提升生态系统多样性、稳定性、持续性"
+    },
+    {
+      "key": "D",
+      "text": "发挥湿地功能，推进持续发展，应对气候变化 ### 答案解析 25."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "国际形势与政策"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

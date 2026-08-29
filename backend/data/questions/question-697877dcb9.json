@@ -1,0 +1,50 @@
+{
+  "id": "question-697877dcb9",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)( I )设/•&)=\nsin(jc — tY dtj 则 f (jc)=\no\n(H )设 F(x')=\nM JQ)是连续函数，则Fj)=\n(ID)设 F(z) = tf^jc2 —Z2 )dz ,/(x)在久二。某邻域内可导，且/\"(0) = 0, /z (0) = 1,\nJ 0\n则lim哼\n■Zf 0\n3C\n(IV )设 a(2)=［韭口山9 P(H)= f (1 + + d(9 贝Ijlim虫］=\nJot\nJ 0\nx-*0 0(e)\ntin tdt\nCOS X\ng4\n(V )极限lim\n工一*0\narctanC 1 + f)dt dw\n(VI)极限lim\nx—>0\nJ? (1 — cos x)\nr2\n「",
+  "answer_markdown": "(I)sin*； (UWE)；(皿)+； (N) -；",
+  "analysis_markdown": "(I)sin*； (UWE)；(皿)+； (N) -；\n(V)_£; (VI) 4-\ne\n' X\nU\nsin u2 du =\nsin(jc 一 O2=\nsin u2 Au,\n解 （I）\nf o —羊\n故\nsin u2 du = sin j?.\no\n（H）\ndjr,\n=_ J_\n\"¥\ntf(JC2 — t2)dt\no\n*X2\n•o\nX2 — t2\nf(x2 -t2)d(x2 —产)\n丄_ 1\n丄\n/(zz) dzz,\n故\nF'Q)\n^1~2\n（in）利用（U）,有lim舍2\nx->0\nx->0 X\n2 f(u)du =-\n[t] /(u)d«J= xf^x2>).\n[.xf(jc2) ]. /(j?2)\nlim ~3— = lim ―~厂\nlo 4z'\nh—0 4rc\n4 工一0 X2 —0\n【注】错误做法：\n心）洛必达lim 2M'（*）= 1\n，l\nlim -\n— o\nx-*0 4工\n法则 x-*0\n8 J?\n由于没有fJ）连续的条件，故lim/（^）未必存在.\njr-*O\n5 • sin 5工\n=_5\n(IV ) lim ；严! = lim\nx->0 Rd)\n工->0\ne\n5«z\ncos 工•( 1 + sin 工)亦\nJo t-\n1 •\n^7---------- :— =\n(1+/)〒山 z\n/In tAt\ni. 一 cos x • ln(cos j?) • (— sin j?)\n=lim\ng4\nIn tdt\nlim-\nx->0\nsin x\n•Zf 0\noc\n1. ln(cos J：)\nlim 2\nl 0\nx\n(V ) lim\n•z—o x\n=—limcos x • lim\n4 x-*o\nx-*0\n4 j?3\n1 1. 一 sin x\n=~T lim 5-------------\n4 — o lx • cos x\n+ £)dz[d况\narctand\narctan( 1\n一 托\n」 =]曲 <2________________________ 一 ]曲乙工* arctan(] 十无)\n(VI) lim\n—了\n■z~*0\n工(1 一 cos x)\nx-*-0\n•z—>0\n3x",
+  "chapter": "一元函数积分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 24,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.444620+00:00",
+  "updated_at": "2026-08-23T12:39:50.958781+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 24,
+      "bbox": [
+        24.0,
+        165.20944213867188,
+        482.3999938964844,
+        376.48651123046875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 50,
+      "bbox": [
+        24.0,
+        150.52667236328125,
+        482.3999938964844,
+        534.0887451171875
+      ]
+    }
+  ]
+}

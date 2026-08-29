@@ -1,0 +1,58 @@
+{
+  "id": "question-65a23b3057",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 设A3X3有三个不同的特征值入1，入2,入3,它们对应的特征向量分别为6，/，03,令\nP =ai + a2 + a3.\n(I )证明：p.Ap,A2p线性无关；\n(H)若 Afi =邙，求 r(A-E).\n1 a\n0 2",
+  "answer_markdown": "",
+  "analysis_markdown": "(3)解用数学归纳法.\n0'\n0'\n当72 = 3时，\nA2 =\n()\n0 ,A3 =\nV1\n[1\n故满足” =A+ A2 -E.\n假设 A\"T = An~3 + A2 —E(n > 3)成立,则\nAn = A(A”t)= A(A\"7 +A2 — E)\n+\n— A\n+ A2 — E,\n=A\"~2\nA”\" + (A2 + A - E) - A = An~2\n故对兀$3,所证等式成立.\n由递推关系，得\n0'\n0 .\nA100 = A98 +A2 -E = (A96 +A2 -E) +公—E = A96 +2 (A2 - E)\n…=A2 + 49(A2 -E) = 5OA2 一 49E =\n由丨A | =\n—2\n—1\n0-1\n-4 =一2工0,可知A可逆.\n-1\n将A作一系列初等行变换（相当于左乘初等矩阵），化A为单位矩阵.\n第3行X （-2）加到第2行\n,1\n1 2\n第1行加到第3行\n[1\n—2\n— 4\n0 --2\n-4\n〔一 1\n—1 — 1,\n[0\n第2行X寺加到第1行\n第2行X（—*）\n0〕\n-2\n-4\n[o\n将上述4次初等行变换用初等矩阵表达，得\n• E12 （\n蘇(-2) • &(-寺\n• E31 (1)A = E,\n其中，码（a）表示第丿行乘以a加到第z•行上，乩Q）表示第怡行乘以b,故\n.-I\nA =\nE3i(1)\n（—2） • E2\n• Ei\n.ee23(-2)]-1\n£.31(-1) • Ei\nE2 (— 2) • E23 (2)\n_1\n，1\n°〕P\nO'\n-2\n（）\n[o\n0-1\nI",
+  "chapter": "矩阵",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 79,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.481631+00:00",
+  "updated_at": "2026-08-23T12:39:51.813404+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "向量",
+    "线性无关"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        24.0,
+        258.1700439453125,
+        482.3999938964844,
+        344.7077331542969
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 193,
+      "bbox": [
+        24.0,
+        588.8983154296875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 194,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        417.966796875
+      ]
+    }
+  ]
+}

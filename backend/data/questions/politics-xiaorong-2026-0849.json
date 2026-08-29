@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0849",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "南京临时政府在《告友邦书》中",
+  "answer_markdown": "B",
+  "analysis_markdown": "党是辛亥革命失败的主观方面的原因。\n\n出处精讲P260 考点22 -3\n\n错误，也不符合题意。因此,本题选D。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 126,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "决定废除清政府与列强所订的一切不平等条约"
+    },
+    {
+      "key": "B",
+      "text": "试图承认清政府与列强所订的一切不平等条约和清政府所欠的一切外债"
+    },
+    {
+      "key": "C",
+      "text": "决定拒绝偿还清政府所欠的一切外债"
+    },
+    {
+      "key": "D",
+      "text": "决定拒绝偿还清政府与列强所订的不平等条约中的赔款"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 126,
+      "bbox": [
+        103.25299835205078,
+        519.7597045898438,
+        761.3558959960938,
+        676.8939208984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 131,
+      "bbox": [
+        6.767999649047852,
+        222.0144805908203,
+        415.96746826171875,
+        826.1215209960938
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0723",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新形势下促进区域协调发展，要深入实施区域协调发展战略、区域重大战略、主体功能区战略。\n健全主体功能区制度，要逐步形成的空间格局分为",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "出处精讲百的考点47 .\n❷\n\n力量。A、B、C、D 全选。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 106,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "城市化地区"
+    },
+    {
+      "key": "B",
+      "text": "农产品主产区"
+    },
+    {
+      "key": "C",
+      "text": "科技园区"
+    },
+    {
+      "key": "D",
+      "text": "生态功能区\n\n\f\n第七章\n社会主义现代化建设的教育、科技、人才战略"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 106,
+      "bbox": [
+        102.82499694824219,
+        1265.872314453125,
+        945.140380859375,
+        1394.318115234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        442.37200927734375,
+        289.2861022949219,
+        775.3242797851562,
+        365.10223388671875
+      ]
+    }
+  ]
+}

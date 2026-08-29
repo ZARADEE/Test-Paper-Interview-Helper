@@ -1,0 +1,49 @@
+{
+  "id": "question-6c7b522ad7",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(42)设 an = \\ j：n a/1 — dj； 9 5\n「sinXcosXdz，求 lira 如・\nJ 0\nJ 0\n\"f oo a n",
+  "answer_markdown": "",
+  "analysis_markdown": "（42）解 bn = |2 sisin\" j： cos\" j; dj? = 2_n_1\nsinNclr\no\n• 2「sinXdz = 2_,\nsinn2j：d(2j：) = 2_n_1\no\nJ2 sin”H(lz.\n记c” =\nsinnx dx,则 bn = 2~ncn 9\na.\nsin\"£ • cos'tck\no\nf1\n/------------ . x = sin t\n= jcn \\/l — x2 dx ••…\nJ o\n=「sin\" (1 — sinDdt = [ sinhck —\nsin\"+2/ck = cn — c 卄2・\n又\nc卄2\nJ 0\nJ 0\np A\np-H.\n=\n2 sin\"4-2tdt =—\n2 sin\"+i/d(cos i)\nJ 0\nJ 0\nd：-Lf cos t • (n l)sin\"E • cos tdt\ncos t • sinn+1\n=5 + 1)\n移项，得》2=宦“，故a”=c“-g\nsin\"i(1 — sin2^)dz = (“ + l)c” 一(兀 + 1)cn+2 ,\nf gC” = j_ • 2P”,所以\nn + z\n??十 2\nlim — = lim \"总? = 0.\n“f 8 a n\nn-*oo Z",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 31,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.447851+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 31,
+      "bbox": [
+        24.0,
+        74.29335021972656,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 76,
+      "bbox": [
+        24.0,
+        329.47772216796875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

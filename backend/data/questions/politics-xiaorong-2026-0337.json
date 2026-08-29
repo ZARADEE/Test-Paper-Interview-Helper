@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0337",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "资本主义生产的唯一动机和直接目的就是追求剩余价值。为了达到这一目的，资本家便尽可能\n\n改进技术，提高劳动生产率，加快资本积累，通过资本积聚和资本集中扩大生产规模。在生产\n\n技术水平不断提高的条件下，资本积累不断增长，必然伴随着资本的积聚和集中，使个别资本\n\n的规模日益增大。这一过程的结果是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 49,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "每个劳动力所推动的生产资料的数量大幅度增加"
+    },
+    {
+      "key": "B",
+      "text": "可变资本在资本总额中所占的比重日益下降"
+    },
+    {
+      "key": "C",
+      "text": "不可避免地造成大批工人失业，形成相对过剩人口"
+    },
+    {
+      "key": "D",
+      "text": "资产阶级政府不得不通过各种干预措施来彻底消灭失业"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 49,
+      "bbox": [
+        89.49400329589844,
+        769.3153686523438,
+        930.3945922851562,
+        1019.3930053710938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        435.864990234375,
+        1178.3533935546875,
+        845.1799926757812,
+        1316.0732421875
+      ]
+    }
+  ]
+}

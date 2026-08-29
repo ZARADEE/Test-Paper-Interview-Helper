@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0916",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在中国共产党七届二中全会上，毛泽东提出了“两个务必”的思想，其原因主要是",
+  "answer_markdown": "A",
+  "analysis_markdown": "知识储备题\n\n一次会议召开前，中国人民政治协商会议代\n\n简析题干强调的“两个务必”是从党的作风\n\n行全国人民代表大会的职权。\n\n的高度提出来的,A 是最符合题意的正确选",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 134,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国共产党即将成为执政党"
+    },
+    {
+      "key": "B",
+      "text": "党的工作方式发生了变化"
+    },
+    {
+      "key": "C",
+      "text": "全国大陆即将解放"
+    },
+    {
+      "key": "D",
+      "text": "中国将由新民主主义社会转变为社会主义社会"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 134,
+      "bbox": [
+        107.24600219726562,
+        1326.5672607421875,
+        938.2716674804688,
+        1422.373046875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 140,
+      "bbox": [
+        21.77899932861328,
+        1172.790283203125,
+        429.0323486328125,
+        1317.1256103515625
+      ]
+    },
+    {
+      "page": 140,
+      "bbox": [
+        483.635009765625,
+        28.601715087890625,
+        862.0800170898438,
+        383.75360107421875
+      ]
+    }
+  ]
+}

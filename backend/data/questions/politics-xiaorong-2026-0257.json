@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0257",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思主义哲学在批判继承前人认识论成果的基础上，把实践观点引入认识论，把辩证法应用\n\n于反映论，创立了能动的革命的反映论。马克思主义认识论揭示的认识的辩证过程是",
+  "answer_markdown": "BC",
+  "analysis_markdown": "识的辩证运动过程，本身就是错误的。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 37,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "从直接经验到间接经验的转化"
+    },
+    {
+      "key": "B",
+      "text": "从感性认识到理性认识，再从理性认识到实践"
+    },
+    {
+      "key": "C",
+      "text": "实践、认识、再实践、再认识的循环往复和无限发展"
+    },
+    {
+      "key": "D",
+      "text": "从抽象到具体再到抽象"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        90.947998046875,
+        709.865478515625,
+        932.178955078125,
+        899.7833251953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 50,
+      "bbox": [
+        16.90399932861328,
+        34.368385314941406,
+        424.43572998046875,
+        731.6649169921875
+      ]
+    },
+    {
+      "page": 50,
+      "bbox": [
+        473.10400390625,
+        36.48945617675781,
+        798.084716796875,
+        68.94016647338867
+      ]
+    }
+  ]
+}

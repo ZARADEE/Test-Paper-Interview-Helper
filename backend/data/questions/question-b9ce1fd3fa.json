@@ -1,0 +1,58 @@
+{
+  "id": "question-b9ce1fd3fa",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(14) 求级数丫攵厂“的收敛域及和函数.\nn = Q",
+  "answer_markdown": "",
+  "analysis_markdown": "(14)解所给级数不是幕级数.\n由\n= z丫(尹)\"，令 e_x = /,而〉2广=\ne(—1,1),故当一iv 严 vi\n1 — t\nn = 0\nn=0\nn=0\n(e^ > 0恒成立)，即^>0时，原级数收敛，且\nyx G(0, + oo).\nS\n_池\nJC\n/e\n= E\n当工=0,级数和为0,故三肚一处\n工〉0，\nn = 0\nJ3ex\nex - r\n0 9\nh = 0.\n_ 2",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.462366+00:00",
+  "updated_at": "2026-08-23T12:39:51.473063+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        24.0,
+        166.10821533203125,
+        482.3999938964844,
+        190.3306121826172
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 152,
+      "bbox": [
+        24.0,
+        661.8876342773438,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 153,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        163.57388305664062
+      ]
+    }
+  ]
+}

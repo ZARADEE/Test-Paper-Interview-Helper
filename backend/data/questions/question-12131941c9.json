@@ -1,0 +1,63 @@
+{
+  "id": "question-12131941c9",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "⑵设q>O，Y 啤 收敛，£ 迈壬1宁鱼三1发散，则（）.\n\nBa = e\n\n\n乙\nu",
+  "answer_markdown": "D",
+  "analysis_markdown": "解记见=啤,用比值法，\na\n_ a\ne\n1 +丄\nn\ni・况卄 1\n]•\na\"+i(?? + l)! nn\n]•\nlim----- = lim —— ‘41\n• ------- = hm\nn-*oo Un\n“foo (72 十 1)\"\nCl nYi ! \"foo\nTI\n则级数工啤当a<e时收敛，当a>e时发散，当a\ne时，比值法失效.\nn=l 72\n又由(1 + —\n< e,知如旦> 1,故lim“”工0,从而当a = e时级数发散.\nUn\n\"f 8\n\\ n\n\\/咒 + 2 一 a/72 — 2\nn\n兀 a ( Jzz + 2 + \\/ n — 2 ) 才+\n即迈王生必三2〜而工 厶，当o<a + *£l时发散，由\nn\nna+^\n”=i na+^\n厶\n0<a + * £ 1与a <e及a > 0(已知)，得0 <a《*,故D正确.\n卄1\nVe< (1 + +\n【注】 常见不等式:(1 + -\n(n为正整数).\n\\ n",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 52,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.461257+00:00",
+  "updated_at": "2026-08-23T12:39:51.439284+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "a>e"
+    },
+    {
+      "key": "C",
+      "text": "寺 <a<e"
+    },
+    {
+      "key": "D",
+      "text": "OVaW£"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛",
+    "发散"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 52,
+      "bbox": [
+        24.0,
+        152.2054901123047,
+        482.3999938964844,
+        205.22116088867188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 146,
+      "bbox": [
+        24.0,
+        281.140625,
+        482.3999938964844,
+        511.224609375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "question-ca43a20a5a",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4)设\"阶实对称矩阵A只有两个不同的特征值入1 = 1和入2,且A属于右=1的特征\n向量仅有怡(1,0,…，o,i)t(怡工0).\n(I )求矩阵A；\n(U )当入2满足什么条件时,A是正定矩阵.",
+  "answer_markdown": "",
+  "analysis_markdown": "（4）解 （I）设入2对应的特征向量为x =（工1，22,・\"，2”）丁，由A是实对称矩阵，得\nxTa„ = 0,其中a” = （1 ,（）,••• ,0,l）T , gp + xn =0.解此方程，得A2对应的特征向量为\n0 -\n•\nai\n9 Cf„-i\n心=\n，…心—2 =\n:\n:\n.0\n、0\n< 0 .\n显然，入i = 1与入2对应的n—\\个特征向量已两两正交，贝lj单位化得正交矩阵\n•• 0\n•• 0\n()\n•• 0\nQ =\n•• i\n••\n+(1 -入 2)\n…\n故 Q XAQ = A = diag(入2，…,A2,1)，于是* +入2)\n入2\n…\nA = QAQ1 = QAQT =\n:\n*( 1 + 入2 )\n…\n（U）由于A是实对称矩阵，所以A正定的充要条件是其特征值全大于0,故人2 > 0.\n【注】 证明矩阵是正定矩阵，应先验证其是对称矩阵.",
+  "chapter": "二次型",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 83,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.483945+00:00",
+  "updated_at": "2026-08-23T12:39:51.856862+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "特征值",
+    "二次型",
+    "正定"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 83,
+      "bbox": [
+        24.0,
+        144.7643280029297,
+        482.3999938964844,
+        207.60540771484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 232,
+      "bbox": [
+        24.0,
+        386.9310607910156,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 233,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        52.21126937866211
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "question-394694910d",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "⑴设L为由r = a(a>O),0= 0和0 =于所围凸平面区域的边界Ar,O')为极坐标,\n计算",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)解计算第一类曲线积分时要化为定积分，关键是正确\n写出积分曲线的参数方程.\nL由如图9-3所示申J ,L2丄3三条曲线构成.\n[y z 0, ds = ckz,则\nL1：\nds = J er do- = ea — 1 ；\ne v\n0 W £ W于9则\nL2:\nI X = QCOS 19\n\\y = asin 19\n=f ea Va2sin2^ + a2cos2tdt =\ne丿'+『ds\n7T «\n~4ae ；\nJ 0\nL2\nL3：\nds = yi2 + l2 Ax =罷&工，贝I」\n(J； = I\n\\j： = X 9\n[0炉九=•屁z = e“ _ 1,\nJ l3\nJ 0\n故\nI = ea — 1 + 于 ae\" + ea — 1 =(予a + 2)e\" — 2.\n【注】计算第一类曲线积分应掌握：\n① 计算公式，写出L的参数方程，化为定积分计算，即“变量参数化，计算定积分，上限\n大于下限”；\n② 将L的方程代入被积函数化简；\n③ 对称性包括奇偶性和轮换对称性(与二重积分、三重积分对称性类似).",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 55,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.463914+00:00",
+  "updated_at": "2026-08-23T12:39:51.497637+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 55,
+      "bbox": [
+        24.0,
+        666.6492919921875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 56,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        82.52305603027344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 158,
+      "bbox": [
+        24.0,
+        141.71376037597656,
+        482.3999938964844,
+        387.2633056640625
+      ]
+    }
+  ]
+}

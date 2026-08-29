@@ -1,0 +1,57 @@
+{
+  "id": "question-d84d97f35e",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "（2） 设A是\"阶矩阵，对方程组（I）Ax = 0和（U）ATAx =0,必有（\n）.\na.（ n）的解是（I）的解，（I）的解也是（n）的解\n\nc.（I）的解不是（11）的解,（n）的解也不是（I）的解",
+  "answer_markdown": "A",
+  "analysis_markdown": "解 由 Ax = 0,得 ATAx = Ar (Ax) = 0,故 Ax = 0 的解是 A1 Ax = 0 的解.\n皮之，若x是ATAx = 0的解，令= 则决=(Ax)T = x1 AT，从而\nb' b = xTATAx = 0,\n于是b的各分量的平方和为0,故方=0,从而Ax = 0,因此ATAx = 0的解是Ax = 0的解.\n【注】 证明列向量b = 0,即证b的每个分量为0,可证bl b — 0,这是证明向量为零向\n量的一种方法.",
+  "chapter": "线性方程组",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 72,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.478451+00:00",
+  "updated_at": "2026-08-23T12:39:51.752099+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "B",
+      "text": "（D）的解是（I）的解，但（I）的解不是（U）的解"
+    },
+    {
+      "key": "D",
+      "text": "（ I ）的解是（］［）的解，但（H）的解不是（I）的解"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "线性方程组"
+  ],
+  "source_regions": [
+    {
+      "page": 72,
+      "bbox": [
+        24.0,
+        268.142822265625,
+        482.3999938964844,
+        344.90771484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 205,
+      "bbox": [
+        24.0,
+        400.86883544921875,
+        482.3999938964844,
+        481.94244384765625
+      ]
+    }
+  ]
+}

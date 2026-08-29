@@ -1,0 +1,57 @@
+{
+  "id": "question-57be8efe76",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设A为3阶实对称矩阵，二次型/'(心，工2,心)=xTAr在正交变换x = Qy下的标准\n形为一炭+2疋+a拥,其中Q的第1列为(点，点，点)，且| A | =-4.\n(I )求a的值；\n(U)求正交矩阵2",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解 (I )由二次型在正交变换x = Qy下的标准形为一yl+2yl+ayl，知矩阵A的\n特征值分别为A1 =一 1,入2 = 2，入3 = a.\n又由 I A | = A1A2A3 = (— 1) X 2 X tz = — 4,得 a = 2.\nT\n，可知特征值右=—1对应的特征向量为\n(U)由正交矩阵Q的第I列为\n忑\nai = (1,1,1)T.令a =(劝，忌厂是入2 =辰=2对应的特征向量，则由\naja = q + 工2 + m = 0,\n/ 1\n\\ T\n解得a2 = (1, — 1,0)T ,a3 = (yjyt — 1 j是入2 =入3对应的特征向量，且a2 ,a3正交.\n将ai ,a2 >a3单位化，得\n1 -1\n» 丁3 = ¥\na/2\nV6 -2\n丄\nV3\n-\n丄\n为所求的正交矩阵.\nV3\n则\n丄\nV3",
+  "chapter": "二次型",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 83,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.483945+00:00",
+  "updated_at": "2026-08-23T12:39:51.861479+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 83,
+      "bbox": [
+        24.0,
+        332.90765380859375,
+        482.3999938964844,
+        406.50909423828125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 233,
+      "bbox": [
+        24.0,
+        587.2479248046875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 234,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        193.881103515625
+      ]
+    }
+  ]
+}

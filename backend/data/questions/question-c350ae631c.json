@@ -1,0 +1,67 @@
+{
+  "id": "question-c350ae631c",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(7)设F(_z,y)在点Q。，％)的某邻域内有二阶连续偏导数，且F&。，％) = 0,\nF：(zo，y>)=O,F；(go ,y))> 0,FL (工。，y>)< 0,则由方程 FQ,》)=0 确定的隐函数\n夕=J/(J7)在 X — JCq 处( ).",
+  "answer_markdown": "A",
+  "analysis_markdown": ",\n解 由£（© ,%）= o,得兽| _ =— 岁］=故z = m是夕=夕（z）的驻点.\nF（x,y） = 0两边对X求导，得F：（_z,y） + F：（z,_y） •兽=0.再对■求导，得\n昭（工,夕）+码（工,夕）•兽+ ［总（夂,夕）+昭（2,夕）兽］兽+ F；（z,夕）器=0.\n将（如，％）代入上式，解得£黑| _ =~~ g：；\n＞ 0,故_y = jy（z）在z =如处取得\n极小值，A正确.",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 37,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.452279+00:00",
+  "updated_at": "2026-08-23T12:39:51.175325+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "取得极小值"
+    },
+    {
+      "key": "B",
+      "text": "取得极大值"
+    },
+    {
+      "key": "C",
+      "text": "不取得极值"
+    },
+    {
+      "key": "D",
+      "text": "不能确定是否取得极值"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "偏导",
+    "隐函数",
+    "多元函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        24.0,
+        203.77285766601562,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        24.0,
+        444.3025207519531,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "question-4567628729",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(13) 设总体X服从参数为入的泊松分布,(Xi,X2,・“，X”)是总体X的样本，灭是样本均\n值,S?是样本方差.\n(I )对任意实数C,证明：统计量T = CX + (1-C)S2是参数A的无偏估计；\n(n)求概率p{x$ 1}的最大似然估计量.",
+  "answer_markdown": "",
+  "analysis_markdown": "(13)解\n注意到对任何总体冬，戈和审是总体X的期望和方差的无偏估计量.\n(I)由X眼从泊松分布，故E乂 = E(S2)=入，于是\nE[CX + (1-C)S2] = CEX + (1-C)E(S2) = Q + (1-C)A = A,\n即T是入的无偏估计量.\n(U)先求入的最大似然估计量•泊松分布的概率密度为\n似然函数为\nl(a)= n磐胃=(n右)入点•尹•\nn\n取对数，得\nIn\n八\n对入求导，有\n为入的最大似然估计量，由于PJX^I} = 1~P{X=O} = 1 —是入的单调函数,根据最\n大似然估计量的不变性，1 —厂衣为P{X$1}的最大似然估计量.",
+  "chapter": "参数估计",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 103,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.493264+00:00",
+  "updated_at": "2026-08-23T12:39:52.075728+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "样本",
+    "统计量",
+    "参数估计"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "参数估计"
+  ],
+  "source_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        24.0,
+        329.9805908203125,
+        482.3999938964844,
+        384.42840576171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 281,
+      "bbox": [
+        24.0,
+        440.77685546875,
+        482.3999938964844,
+        616.7367553710938
+      ]
+    }
+  ]
+}

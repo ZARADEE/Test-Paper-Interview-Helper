@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1186",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2023 年10 月24 日，第十四届全国人大常委会第六次会议表决通过了《中华人民共和国爱国主\n\n义教育法》，自2024 年1 月1 日起施行。制定该法的目的是加强新时代爱国主义教育，传承和\n\n弘扬爱国主义精神，凝聚全面建设社会主义现代化国家、全面推进中华民族伟大复兴的磅礴力\n\n量。爱国主义是中华民族精神的核心。中国特色社会主义进入新时代，实现中华民族伟大复兴\n\n的中国梦是新时代爱国主义的鲜明主题。大力弘扬新时代爱国主义，必须",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "务，是对祖国的报答。A、B、C、D 全选。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 173,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持爱国爱党爱社会主义相统一"
+    },
+    {
+      "key": "B",
+      "text": "维护祖国统一和民族团结"
+    },
+    {
+      "key": "C",
+      "text": "尊重和传承中华民族历史文化"
+    },
+    {
+      "key": "D",
+      "text": "坚持立足中国又面向世界"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 173,
+      "bbox": [
+        88.68900299072266,
+        638.4305419921875,
+        929.6405639648438,
+        857.8165283203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 177,
+      "bbox": [
+        434.9440002441406,
+        855.9476928710938,
+        694.1243286132812,
+        929.0316772460938
+      ]
+    }
+  ]
+}

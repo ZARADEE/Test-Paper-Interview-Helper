@@ -1,0 +1,58 @@
+{
+  "id": "question-6897eab58c",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（3） 设随机变量X和丫都在［a,刃上服从均匀分布，且X与Y相互独立.\n（I ）求乙=max{X,Y}和乙=min{X,Y}的概率密度；\n（U）求（Zi,Z2）的联合概率密度.",
+  "answer_markdown": "",
+  "analysis_markdown": "(3)解 (i)依题设,x与y的分布函数分别为\n-0,\njc <Z a,\na W 工 V b,\nFx(z)=\nfCOdt = V\nz — a\nb — a\n11,\nh A b、\n0 ,\ny <Z a,\nFy(jz) =\n—\n11,\ny^b.\nZi 的分布函数为 Fz] (z) = P{ZX M z} = P{max{X,Y} £ z}\n=P{X^z,Y^z} = P{X^z}P{Y^z}.\n当a W z W b时，\n当 z < a 时 ‘Fz】(z) = 0;当 z> b 时，Fz】(z) = 1,故\nZ2的分布函数为\nFz2 (z) = P{Z2 z} = 1 — P{Z2 > z} = 1 — P{min{X,Y} > z}\n=l-P{X>z,Y>z} = l-El-P{X<z}]2\n、1,\nb,\nf2(6 — z)\n—孑 a\nfz2(z) = Fz；(z) =Ub-ay^ aH，\nlo,\n其他.\n(n)(z1,z2)的联合分布函数为\nF(zi ,z2)= P {Zi £ © , Z2 z2}\n=P{max{X,Y} W zi , min{X,Y} £ 勺}.\n当 Zi < z2 时，F(zi ,z2)= 0；当 zi > z2 时，\nF(zi 心)=jP{ (max{X,Y} W 勺)A [Q — (min{X,Y} > z2)]}\n=P{(max{X,Y} W 勺)一[(max{X,Y} £ 引)门(min{X,Y} > z2)]}\n=P{max(X,Y) £ Zi) — P{ (max{X,Y} £ 勺)门(min{X,Y} > z2)}\n=FZi(z1)-P{(X<z1,Y<z1) n (X>z2,Y>z2)}\n=Fz】a ) — P&2 < X < Zj ,z2 < V < Zi}.\n由(I)的结果，可得\nZi —勺\nb — a\na W 勺 < b V Zi ,\nb z2 V Zi ,\n故(乙，Z2)的联合概率密度为\n/ 2\n*引心)=臂护2 =］祐二齐'-\ndZ13z2 〔0,\n其他",
+  "chapter": "随机变量及其分布",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 92,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.489264+00:00",
+  "updated_at": "2026-08-23T12:39:51.968831+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "概率",
+    "独立"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        24.0,
+        571.3977661132812,
+        482.3999938964844,
+        614.4063110351562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 253,
+      "bbox": [
+        24.0,
+        611.0907592773438,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 254,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        583.381103515625
+      ]
+    }
+  ]
+}

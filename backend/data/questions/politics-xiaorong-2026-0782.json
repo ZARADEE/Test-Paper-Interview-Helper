@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0782",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "构建统筹各领域安全的新安全格局，必须把维护政治安全作为应对各领域安全风险挑战的首要\n\n任务。这是因为",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "优势，也是人民军队战无不胜、攻无不克的\n\n出处精讲下加考点93 -2\n\n重要保证。C 错误。能打胜仗是核心，D\n\n简析国土安全是立国之基，老祖宗留下来\n\n错误。\n\n的领土一寸也不能丢,我们决不会坐视领土",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 115,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "政治安全是国家安全的根本"
+    },
+    {
+      "key": "B",
+      "text": "政治安全是一切国家生存和发展的基础条件"
+    },
+    {
+      "key": "C",
+      "text": "政治安全决定和影响着国家其他各个领域的安全"
+    },
+    {
+      "key": "D",
+      "text": "政治安全是立国之基"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        90.77100372314453,
+        567.9703369140625,
+        931.0185546875,
+        762.3840942382812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 120,
+      "bbox": [
+        16.202999114990234,
+        318.1462097167969,
+        286.9841613769531,
+        391.03900146484375
+      ]
+    }
+  ]
+}

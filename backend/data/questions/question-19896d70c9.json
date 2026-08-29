@@ -1,0 +1,49 @@
+{
+  "id": "question-19896d70c9",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(7) 设/(«)有二阶连续导数,z = /(厶2 + b )满足奈+器=工2 +夕2 ,求z的表达\n式.",
+  "answer_markdown": "",
+  "analysis_markdown": "⑺解 令J亡十b =\"，则\n____________ n2\n由Z = 心+护)关于工,夕具有轮换对称性，知鹽=务/■'(“)十与严(“)，将其代入\ndy u\nU\n= x2 y2 ,得 f (w) + —/z(w) = “2 ,即 uf' Ju} + f' (u) = “3 ,\n= w3 ,\ndx dy\nu\n积分得 uf'(u) = -^-u4 + Cl ,故 y'(“) = ^-u3 + G,积分得 /(u) =\n+ Clin “ + C2,故\nu\nz=^a2+y2y+CAn 心+b +C2(G,C2 为任意常数).",
+  "chapter": "微分方程",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 46,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.457941+00:00",
+  "updated_at": "2026-08-23T12:39:51.355401+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "导数",
+    "微分"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 46,
+      "bbox": [
+        24.0,
+        279.6430358886719,
+        482.3999938964844,
+        320.5993347167969
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 128,
+      "bbox": [
+        24.0,
+        143.54315185546875,
+        482.3999938964844,
+        277.91259765625
+      ]
+    }
+  ]
+}

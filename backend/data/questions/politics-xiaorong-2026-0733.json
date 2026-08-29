@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0733",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全过程人民民主的提出、实践和发展，鲜明展示了我们党始终高举人民民主旗帜、实现人民当\n\n家作主的坚定立场，深刻彰显了我国人民民主的鲜明特色和显著优势，实现了",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "误,A、B、D 正确。",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 108,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "过程民主和成果民主相统一"
+    },
+    {
+      "key": "B",
+      "text": "程序民主和实质民主相统一"
+    },
+    {
+      "key": "C",
+      "text": "直接民主和间接民主相统一"
+    },
+    {
+      "key": "D",
+      "text": "人民民主和国家意志相统一"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 108,
+      "bbox": [
+        108.15399932861328,
+        462.0543518066406,
+        939.7159423828125,
+        587.6571044921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        5.918000221252441,
+        731.1766967773438,
+        410.953857421875,
+        778.02099609375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "question-ea7d72f7b7",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(11) 已知 z =\n的全微分 dz = (y — j?)d_z+(_r—l)dy,且/'(1,1) =—\n,求\n/Xz ,夕)在D：0^j/^7 — je, 0£乞=7上的最大值.",
+  "answer_markdown": "",
+  "analysis_markdown": "(11) 解 依题意,字=夕一 ,字=jc — 1,故\n.2 3z\n，3y\nz\ndz = | (y 一 j?2 ) djr +(p〈y) = xy — -yjr3 +(p(y),\n-y + C,所以\ndx\ndy\ndz\ndx\n又= z +爭'(夕)=X — 1,得爭'(夕)=一 1,积分得甲(夕)\nz = jcy — -|-JC3 — y + C.\n一 y-\n由 /(1,1) =— *,得 C = 0,于是 z =\n= xy — yjc3\n(I)在D内，如图5-2所示.由\nd Z\n八 d Z\n-1\nc\n—=y — x = 0, — = x 一 1 = 0 9\ndjc\ndy\n解得唯一驻点(1 J).\n(n )在 D 的边界上，夕=0(0£zW7),/(JC,O) = — yj：3 ,\n显然在［0,7］上最大值为 0口 = 0(0 W y W 7)\n=-y,\n最夫值为0；\njc + 3/ = 7, /(j;97 一 jc) =一 — 一 +\n— 7(0Wh《7)9\n由一工)［=—x2 —\n+ 8 = O9得力=2 ,jc =— 4(舍).\n比较大小:\n/(1,1)=一 才，于(0,0) = 0,/(2,5) = y, /(0,7) =-7, f(7,0)=—才\n故在D上的最大值为/(2,5)=\n【注】 此题已知全微分，求也可利用凑微分法：\ndz = (y — )dz + (z — l)dj/ = ydx + jcdy — x2 Ax — dj/\n=d(j7j/) — d(牙)—dj/ = d(\nX3\n\\\n巧_ —打，\nz = xy — — — j/ + C ・",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 38,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.452279+00:00",
+  "updated_at": "2026-08-23T12:39:51.201349+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "全微分",
+    "多元函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 38,
+      "bbox": [
+        24.0,
+        179.60914611816406,
+        482.3999938964844,
+        210.8978729248047
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 97,
+      "bbox": [
+        24.0,
+        408.7441711425781,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 98,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        167.06185913085938
+      ]
+    }
+  ]
+}

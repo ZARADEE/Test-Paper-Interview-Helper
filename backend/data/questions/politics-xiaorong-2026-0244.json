@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0244",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "古人云：“智者虑事，虽处利地，必思所以害；虽处害地，必思所以利。” 从哲学的角度来说,\n\n这是因为",
+  "answer_markdown": "AD",
+  "analysis_markdown": "形式具有相对独立性,这种相对独立性使得在\n\n内容与形式的关系中，同一内容可以通过多种\n\n出处丽下方考点16 -2-(2)-U\n\n形式来体现。D 项后半句正确，前半句错误。\n\n丽也不存考点25 -1",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 35,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "矛盾双方相互依存、相互贯通"
+    },
+    {
+      "key": "B",
+      "text": "事物的本质是多样易变的"
+    },
+    {
+      "key": "C",
+      "text": "事物内部的否定方面始终处于优势和支配地位"
+    },
+    {
+      "key": "D",
+      "text": "辩证法要求全面、发展地看问题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 35,
+      "bbox": [
+        90.63600158691406,
+        123.36599731445312,
+        933.466064453125,
+        249.74551391601562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        5.0889997482299805,
+        123.43252563476562,
+        423.55108642578125,
+        756.7413330078125
+      ]
+    }
+  ]
+}

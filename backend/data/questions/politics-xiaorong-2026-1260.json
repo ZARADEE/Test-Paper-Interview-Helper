@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-1260",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人身自由是人们一切行动和生活的前提条件。人身自由是指",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "住、生活、休息的场所不受非法侵入或搜查\n\n的权利属于住宅安全权利。D 错误。\n\n出处精讲下环考点53 -3-0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 182,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人的身体不受拘束"
+    },
+    {
+      "key": "B",
+      "text": "人的行动自由"
+    },
+    {
+      "key": "C",
+      "text": "人身自由不受非法限制和剥夺"
+    },
+    {
+      "key": "D",
+      "text": "公民居住、生活、休息的场所不受非法侵入或搜查的权利"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 182,
+      "bbox": [
+        107.0009994506836,
+        125.951904296875,
+        661.2716064453125,
+        299.6315002441406
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 186,
+      "bbox": [
+        15.506000518798828,
+        27.637664794921875,
+        433.7130432128906,
+        293.1397399902344
+      ]
+    },
+    {
+      "page": 186,
+      "bbox": [
+        481.7640075683594,
+        28.867633819580078,
+        849.4803466796875,
+        92.63074493408203
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-220454331a",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 设X〜N (0,/),X在区间(a,6)内取值的概率最大，其中a>0,则/ = ________ .",
+  "answer_markdown": "a2-b2",
+  "analysis_markdown": "a2-b2\n2(ln a — In 6)*\n依题意，有圣二卫〜N(0,l),故\n解\n(J\nP{a <Z X <Z b} = P\n5),\n所以\n心)\n一 e\na X\nb \\\na\n(7\ncr )\n也\n° e_分 ckr_\n(-4\n,2\n_ r2\n_\n令f d = 0,得，取对数，得In 6 +\n- = In a +瓦厂解得\na2 ~bz\n2 — __________________\n2(In a 一 In b)'",
+  "chapter": "随机变量及其分布",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 89,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.487265+00:00",
+  "updated_at": "2026-08-23T12:39:51.932064+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "概率"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        24.0,
+        332.4510498046875,
+        482.3999938964844,
+        350.4399108886719
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 244,
+      "bbox": [
+        24.0,
+        211.60977172851562,
+        482.3999938964844,
+        376.59381103515625
+      ]
+    }
+  ]
+}

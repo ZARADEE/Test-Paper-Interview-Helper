@@ -1,0 +1,57 @@
+{
+  "id": "question-1fb67737a0",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(8)设 f(x,y)在区域：0<^<1,0<3；<1 上连续,/(0,0) =0,且/'(工,夕)在点(0,0)\ndz f (t,u)du\n0 J X\n处可微,A(0,0)=］，求 lim --------------- s------ .\n□+\n1 —严",
+  "answer_markdown": "",
+  "analysis_markdown": "(8)解 交换积分顺序，如图6-50所示，\ndH f(t,u)du =—\ndu |\n故\n•x2\ndu J\n洛必达\n0________________\nJ 0\n原式=lim\n法则\nlim\nT-0+\nX3\nHf0+\n—X\n*x\n= /X&h)； (0 W g £\n) 9\n由积分中值定理,\n故\n原式=lim\n+\njC\n由f(x,y)在点(0,0)处奇微，则由可微的定义，有\n/(“)= /(o,o)+ /；(o,o)e+y；(o,o)x + o(y^2 + ^),\n亢(0,0用\nV(0,0)g\n又\n=| //(0,0)j; | ,\nX\n/；(Q，Q)e = 0, lim\n+F)= lim 凹=0,\n则\nlim\nX\n—o+\nlo+ h\n=hm /'(0,0) +//(0,0)g+/；(0,0)2 + o(/z2 +孑)\n故\n无3\n一 X\no+\n=—fy (0,0) =— 1.\ny",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 43,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.455396+00:00",
+  "updated_at": "2026-08-23T12:39:51.297510+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        24.0,
+        440.453125,
+        482.3999938964844,
+        491.42364501953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 117,
+      "bbox": [
+        24.0,
+        474.274658203125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 118,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        128.8033905029297
+      ]
+    }
+  ]
+}

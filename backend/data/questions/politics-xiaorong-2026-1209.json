@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1209",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "根据我国现阶段经济社会生活和人们思想道德的实际，对公民最基本的集体主义的道德要求是",
+  "answer_markdown": "CD",
+  "analysis_markdown": "碍社会的发展和人的素质的提高。D 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 176,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "无私奉献、一心为公"
+    },
+    {
+      "key": "B",
+      "text": "先公后私、先人后己"
+    },
+    {
+      "key": "C",
+      "text": "顾全大局、遵纪守法"
+    },
+    {
+      "key": "D",
+      "text": "热爱祖国、诚实劳动"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 176,
+      "bbox": [
+        99.64800262451172,
+        495.189697265625,
+        917.0922241210938,
+        591.2039794921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 180,
+      "bbox": [
+        441.27899169921875,
+        1175.3782958984375,
+        736.6710815429688,
+        1250.355712890625
+      ]
+    }
+  ]
+}

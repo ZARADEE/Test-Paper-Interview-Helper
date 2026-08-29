@@ -1,0 +1,34 @@
+{
+  "id": "demo-solution-001",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "求函数 $f(x)=x\\ln x$ 在 $x=1$ 处的切线方程，并讨论其单调性。",
+  "options": [],
+  "answer_markdown": "切线方程为 $y=x-1$。",
+  "analysis_markdown": "先求 $f'(x)=\\ln x+1$，再代入 $x=1$。单调性由 $f'(x)$ 的符号确定。",
+  "scoring_points": [
+    {
+      "label": "求导",
+      "score": 2
+    },
+    {
+      "label": "切线方程",
+      "score": 3
+    },
+    {
+      "label": "单调性讨论",
+      "score": 5
+    }
+  ],
+  "tags": [
+    "高等数学",
+    "积分"
+  ],
+  "chapter": "高等数学",
+  "knowledge_points": [
+    "导数应用"
+  ],
+  "difficulty": "medium",
+  "score": 10,
+  "updated_at": "2026-08-23T10:08:05.387592+00:00"
+}

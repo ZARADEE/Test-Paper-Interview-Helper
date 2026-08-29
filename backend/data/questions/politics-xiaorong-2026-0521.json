@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0521",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "与新民主主义时期三种主要的经济成分相联系，新民主主义社会的阶级构成主要表现为三种基\n本的阶级力量，它们是",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "知识储备题",
+  "chapter": "第三章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 78,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "工人阶级"
+    },
+    {
+      "key": "B",
+      "text": "大资产阶级"
+    },
+    {
+      "key": "C",
+      "text": "农民阶级和其他小资产阶级"
+    },
+    {
+      "key": "D",
+      "text": "民族资产阶级"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第三章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第三章"
+  ],
+  "source_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        106.45500183105469,
+        1284.9154052734375,
+        938.564453125,
+        1413.8734130859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        434.3009948730469,
+        253.03567504882812,
+        791.7875366210938,
+        364.0213623046875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "question-de4ca04bc7",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(9)设y = j/Q)有一阶连续导数，y(0)= 1,且满足\ny (j：) + 3 yf(t)dt + 2x\\ j/(jcu)dw + e~x = 0,\nJ 0\nJ 0\n求y =》(％)・",
+  "answer_markdown": "",
+  "analysis_markdown": "(9)解\n1 / \\ 1 xu\ny(j：u)du =\no\njc\nx 1\"\n故原方程化为\ny (^c)十 (t)dt + 2 | y(t)dt +\ne~x = 0,\n①\n②\nJ 0\n..\nj/'Q)十 3j/(z) + 2y(j：) = e\n①式两边同时对工求导，得\n.\n且 y(0) = l, _y'(0) =— 1,特征方程为 r2 + 3r + 2 = 0,得/=—1, r2 =—2,令特解\n；=Azer代入②式可得A = 1,故方程②的通解为y = Cie- + C2e^+^e-\\\n又由 y(0) = 1 ,j/(0) =— 1，得 Cl = 0,C2 = 1,故夕=y(T)= e_2x +\n.",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.459048+00:00",
+  "updated_at": "2026-08-23T12:39:51.386573+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "导数",
+    "微分"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        24.0,
+        677.0652465820312,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 48,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        98.5570068359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 133,
+      "bbox": [
+        24.0,
+        649.243896484375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 134,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        129.4747772216797
+      ]
+    }
+  ]
+}

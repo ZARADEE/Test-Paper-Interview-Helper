@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1184",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“河山只在我梦萦……长江长城，黄山黄河，在我心中重千斤。” 这一首歌体现了人们对祖国大\n\n好河山的热爱之情。爱祖国的大好河山是爱国主义的基本内涵之一，这是因为",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "面，是我国社会主义制度的内在精神之魂。\n\n出处\n考点20 -2- 辟",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 173,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "祖国的河山在人们的心中占据着至高无上的地位"
+    },
+    {
+      "key": "B",
+      "text": "祖国的山山水水滋养哺育着她的子子孙孙"
+    },
+    {
+      "key": "C",
+      "text": "祖国的大好河山是自然风光，更是主权、财富、民族发展和进步的基本载体"
+    },
+    {
+      "key": "D",
+      "text": "祖国的大好河山是涵养民族心理、民族个性、民族精神的摇篮"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 173,
+      "bbox": [
+        89.58899688720703,
+        307.10791015625,
+        930.1588745117188,
+        493.7066955566406
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 177,
+      "bbox": [
+        436.21099853515625,
+        388.2691650390625,
+        846.2763671875,
+        788.2103881835938
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0828",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "《天朝田亩制度》是太平天国定都天京后颁布的最能体现太平天国社会理想和这次农民起义特\n\n色的纲领性文件；《资政新篇》是太平天国后期颁布的社会发展方案。二者的共同点在于",
+  "answer_markdown": "D",
+  "analysis_markdown": "国图志》仅仅主张向西方学习军事和科学技\n\n出处精讲衣取电后考点10 2(1)日、\n(2)\n\n术，所以，“向西方学习”是两者的共同点。\n\nB 正确。\n\n简析《天朝田亩制度》是最能体现太平天国",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 123,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "都主张向西方学习先进的制度"
+    },
+    {
+      "key": "B",
+      "text": "都主张在中国发展资本主义"
+    },
+    {
+      "key": "C",
+      "text": "都在实践中得到贯彻"
+    },
+    {
+      "key": "D",
+      "text": "都具有反封建的进步性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 123,
+      "bbox": [
+        83.5459976196289,
+        1281.731201171875,
+        924.4937133789062,
+        1408.6148681640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 128,
+      "bbox": [
+        18.010000228881836,
+        532.69970703125,
+        425.22381591796875,
+        997.8809204101562
+      ]
+    }
+  ]
+}

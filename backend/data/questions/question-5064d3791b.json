@@ -1,0 +1,57 @@
+{
+  "id": "question-5064d3791b",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(9)积分 I = f djc[ d』\n(1 —\ndj/ =\nJ 0 J 0 J 0",
+  "answer_markdown": "",
+  "analysis_markdown": "⑼言.\n解 直接积分比较困难，交换积分顺序，积分区域如图6-42所示，先对鼻积分，得\n(1—do-\ndydz\no\nj/)(l — j/ — z)e_<1^2)dydz\n']p\n(1 — j/一\ndz\n(1 — y)dy\no\n.\n图6 42",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 42,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.455396+00:00",
+  "updated_at": "2026-08-23T12:39:51.280729+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 42,
+      "bbox": [
+        24.0,
+        626.1842651367188,
+        482.3999938964844,
+        663.57373046875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        24.0,
+        645.7092895507812,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 115,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        209.9917755126953
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1250",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "宪法的力量不仅因其地位崇高，更源于其有效的监督。在新的历史条件下，推进全面依法治国、\n\n加强宪法实施，对宪法监督提出了新的更高要求。这些新的更高要求是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 181,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "健全人大工作机制"
+    },
+    {
+      "key": "B",
+      "text": "健全宪法解释机制"
+    },
+    {
+      "key": "C",
+      "text": "健全备案审查机制"
+    },
+    {
+      "key": "D",
+      "text": "健全合宪性审查机制"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        87.10399627685547,
+        213.49240112304688,
+        937.2696533203125,
+        343.093994140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 185,
+      "bbox": [
+        8.229999542236328,
+        385.2576599121094,
+        306.34161376953125,
+        468.2981872558594
+      ]
+    }
+  ]
+}

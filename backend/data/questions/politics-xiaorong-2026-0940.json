@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0940",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "《关于建国以来党的若干历史问题的决议》对于新时期我国社会主要矛盾作出正确判断，指出\n\n社会主义改造基本完成以后，我国所要解决的主要矛盾是",
+  "answer_markdown": "A",
+  "analysis_markdown": "中国工业化道路的内容之一。B 错误。\nmam\n\n出处精讲市丽考点83 -3\n\n简析A 正确。B、C 是党的八大对于社会主\n\n义改造基本完成以后我国社会主要矛盾的",
+  "chapter": "第九章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 138,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人民日益增长的物质文化需要同落后的社会生产之间的矛盾"
+    },
+    {
+      "key": "B",
+      "text": "人民对于经济文化迅速发展的需要同当前经济文化不能满足人民需要的状况之问的矛盾"
+    },
+    {
+      "key": "C",
+      "text": "人民对于建立先进的工业国的要求同落后的农业国的现实之间的矛盾"
+    },
+    {
+      "key": "D",
+      "text": "人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第九章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第九章"
+  ],
+  "source_regions": [
+    {
+      "page": 138,
+      "bbox": [
+        106.76599884033203,
+        582.60107421875,
+        939.0172729492188,
+        771.2428588867188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 144,
+      "bbox": [
+        22.691999435424805,
+        396.00750732421875,
+        441.4430847167969,
+        1150.069091796875
+      ]
+    }
+  ]
+}

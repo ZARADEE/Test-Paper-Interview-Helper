@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0653",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十八大以来，我们深入推进政治建军理论探索和实践创造，形成了新时代政治建军方略,\n明确政治建军是",
+  "answer_markdown": "B",
+  "analysis_markdown": "出处精讲下方g 考点107 -1-0\n\n出处精河改亚考点99 -2-0",
+  "chapter": "第十四章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 96,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "掌握一切领导的基础"
+    },
+    {
+      "key": "B",
+      "text": "人民军队立军之本"
+    },
+    {
+      "key": "C",
+      "text": "我军胜利法宝"
+    },
+    {
+      "key": "D",
+      "text": "我军的生命线\n\n\f\n第十五章］坚持“一国两制”和推进祖国完全统一"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十四章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十四章"
+  ],
+  "source_regions": [
+    {
+      "page": 96,
+      "bbox": [
+        104.09300231933594,
+        1286.70068359375,
+        938.4889526367188,
+        1420.664306640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 107,
+      "bbox": [
+        4.489999771118164,
+        198.39358520507812,
+        423.1078796386719,
+        439.4665832519531
+      ]
+    }
+  ]
+}

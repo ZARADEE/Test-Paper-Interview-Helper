@@ -1,0 +1,62 @@
+{
+  "id": "politics-xiaorong-2026-0582",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平总书记指出：“时代是出卷人，我们是答卷人，人民是阅卷人。” 我们党做好一切工作的\n\n价值取向和根本标准是",
+  "answer_markdown": "D",
+  "analysis_markdown": "高质量发展是全面建设社会主义现代化国\n\n出处精讲前7：考点24 -3-0\n\n家的首要任务。\n\n简析我们党是全心全意为人民服务的党，党\n\n和发展社会生产力，是改革开放的鲜\n\n的执政水平和执政成效不是由自己说了算,\n\n明特征和首要任务。\n\n要把推进农业转移人口市民化作为新型城\n\n必须而且只能由人民来评判。要始终把人民",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 89,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "促进国民经济发展B. 维护国家长治久安"
+    },
+    {
+      "key": "C",
+      "text": "增强国际影响力"
+    },
+    {
+      "key": "D",
+      "text": "让群众满意"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        90.31300354003906,
+        259.31146240234375,
+        930.29931640625,
+        357.58355712890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 99,
+      "bbox": [
+        5.72599983215332,
+        222.8002166748047,
+        414.7657165527344,
+        432.5823974609375
+      ]
+    }
+  ]
+}

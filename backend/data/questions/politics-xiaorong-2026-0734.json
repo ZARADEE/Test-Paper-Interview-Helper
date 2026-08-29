@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0734",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全过程人民民主，既有完整的制度程序，也有完整的参与实践，把民主选举、民主协商、民主\n\n决策、民主管理、民主监督贯通起来，涵盖经济、政治、文化、社会、生态文明等各个方面，\n\n聚焦国家发展大事、社会治理难事、百姓日常琐事，具有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲团88 考点51 -1",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 108,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "时间上的连续性"
+    },
+    {
+      "key": "B",
+      "text": "内容上的整体性"
+    },
+    {
+      "key": "C",
+      "text": "运行上的协同性"
+    },
+    {
+      "key": "D",
+      "text": "人民参与上的广泛性和持续性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 108,
+      "bbox": [
+        108.875,
+        582.6823120117188,
+        952.1547241210938,
+        737.7042236328125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        5.932000160217285,
+        768.1752319335938,
+        370.85107421875,
+        845.728515625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-06bc409e8d",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)证明：D” =\ni = l\nX\n_ 1\nQ2\nJ? + «!\na n~l\na”一2\n0 0\n2 - 1 0\n-1 2 -1",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)证法1用数学归纳法.\n当？7=1时，Di =工十©；当72 = 2时，\n八\nH\n— 1\n9 I\n|\n6 =如=X十如” +血'\n结论成立.\n〜\n假设•当n = b — 1时，结论成立，有\nDi = gi +ai#m + a2a:a_1)_2 + …+ ak-2x +\n,\n则当n = b时，将D&按第1列展开，得\nDk =\n+ a& = % + ©\n+ …+ ak-2^c2 + 以_12 + ak,\n故对任意正整数〃，有D” =工\"+a“\"T H-------a”_“ + a”，结论成立.\n证法2用递推法，将Dn按第1列展开，得\nDn = _zD”_i 十(—iy+1a„ • (— 1)\"_1 = hD”_i + a”，\n①\n故\nD„_! = xD„-2 + a,Li，…,o3 = xD2 + a3 , D2 = xD^ a2 = 十 + 血，\n将其依次彳弋入①式，得D” = z\" + a“\"T H-------H a„_ix + a„.\n【注】此题也可对第n行展开进行计算.",
+  "chapter": "行列式",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 61,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.473201+00:00",
+  "updated_at": "2026-08-23T12:39:51.599515+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "行列式"
+  ],
+  "tags": [
+    "线性代数",
+    "行列式"
+  ],
+  "source_regions": [
+    {
+      "page": 61,
+      "bbox": [
+        24.0,
+        417.9964904785156,
+        482.3999938964844,
+        494.40106201171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        24.0,
+        200.0620880126953,
+        482.3999938964844,
+        382.0912780761719
+      ]
+    }
+  ]
+}

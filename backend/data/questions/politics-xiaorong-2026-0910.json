@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0910",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "标志着中国的新型政党制度——中国共产党领导的多党合作和政治协商制度的确立的事件是",
+  "answer_markdown": "C",
+  "analysis_markdown": "出处精讲百h 考点64 -2-0\n\n其他任何政党的显著标志。毛泽东指出，统\n\n一战线、武装斗争和党的建设，是中国共产\n\n简析1949 年9 月21 日，中国人民政治协商会\n\n党在中国革命中战胜敌人的三大法宝。A、\n\n议第一届全体会议的召开，标志着中国的新型\n\nB、D 不符合题意。\n\n政党制度一一中国共产党领导的多党合作和政",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 134,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "55 名民主党派的领导人和著名的无党派民主人士联合发表《对时局的意见》"
+    },
+    {
+      "key": "B",
+      "text": "中共中央发布《纪念五一国际劳动节的口号》"
+    },
+    {
+      "key": "C",
+      "text": "中国人民政治协商会议第一届全体会议的召开"
+    },
+    {
+      "key": "D",
+      "text": "第一届全国人民代表大会的召开"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 134,
+      "bbox": [
+        110.48600006103516,
+        397.66015625,
+        908.6587524414062,
+        554.2020874023438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 139,
+      "bbox": [
+        435.51300048828125,
+        319.58819580078125,
+        855.8438110351562,
+        758.7060546875
+      ]
+    }
+  ]
+}

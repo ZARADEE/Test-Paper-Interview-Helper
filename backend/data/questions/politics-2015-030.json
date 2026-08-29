@@ -1,0 +1,44 @@
+{
+  "id": "politics-2015-030",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "个人品德是通过社会道德教育和个人自觉的道德修养所形成的稳定的心理状态和行为习惯。它是个体对某种道德要求认同和践履的结果，集中体现了道德认知、道德情感、道德意志和道德行为的内在统一，这表明个人品德是:",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "【解析】通过题干，可获知“集中体现了道德认知、道德情感、道德意志和道德行为的内在统一”即说明“个人行为的统一整体及知、情、意、行的综合体现”；可获知“稳定的心理状态和行为习惯”即是“在实践活动中表现出来的行为的稳定倾向”；可获知“它是个体对某种道德要求认同和践履的结果”即“在实践活动中锻炼而成的一种特殊品性”。而D项“偶然的、短暂的道德行为现象”与题干中个人品德的定义相悖，故排除。所以，本题正确答案是ABC。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.511904+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "个人行为的统一整体及知、情、意、行的综合体现"
+    },
+    {
+      "key": "B",
+      "text": "在实践活动中表现出来的行为的稳定倾向"
+    },
+    {
+      "key": "C",
+      "text": "在实践活动中锻炼而成的一种特殊品性"
+    },
+    {
+      "key": "D",
+      "text": "偶然的、短暂的道德行为现象"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

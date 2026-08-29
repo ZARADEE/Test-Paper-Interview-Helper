@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0299",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人类历史中的文明，不论是古代文明，还是近现代文明，都在不同民族那里有不同的表现。人\n\n类文明具有多样性，每一种文明都",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "进程产生影响，但这些作用仅仅是历史进程\n\n出处精好科考点50 -2\n\n中的偶然现象，只能成为社会发展的个别原",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 44,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是在特定的自然环境、历史背景、民族传统中生长起来的"
+    },
+    {
+      "key": "B",
+      "text": "体现着独特的生产、生活、交往方式"
+    },
+    {
+      "key": "C",
+      "text": "代表着一方文化的沃土和绿洲"
+    },
+    {
+      "key": "D",
+      "text": "是人类文明的重要组成部分"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 44,
+      "bbox": [
+        108.95500183105469,
+        1198.1622314453125,
+        940.17626953125,
+        1385.2783203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 59,
+      "bbox": [
+        4.793000221252441,
+        317.3114318847656,
+        413.5937805175781,
+        1169.7852783203125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "politics-2020-003",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在相同的劳动时间里，复杂劳动创造的价值大于简单劳动创造的价值。在以私有制为基础的商品经济条件下，复杂劳动转化为简单劳动 （ ）",
+  "answer_markdown": "D",
+  "analysis_markdown": "本题考查复杂劳动和简单劳动的转化。简单劳动是指不需要经过专门训练和培养就能从事的劳动。复杂劳\n动则是需要经过专门训练和培养才能从事的劳动。在以私有制为基础的商品经济下，复杂劳动转化为简单\n劳动是在商品交换过程中自发实现的。D 正确，ABC 不符合题意。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:40:47.524542+00:00",
+  "updated_at": "2026-08-23T15:56:23.599402+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是商品生产者自觉计算出来的"
+    },
+    {
+      "key": "B",
+      "text": "是市场管理部门事先规定的"
+    },
+    {
+      "key": "C",
+      "text": "是商品生产者协商出来的"
+    },
+    {
+      "key": "D",
+      "text": "是商品交换过程中市场机制自发实现的 ### 答案解析 3.【"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

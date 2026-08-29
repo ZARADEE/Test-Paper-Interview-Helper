@@ -1,0 +1,48 @@
+{
+  "id": "question-b7fef6b996",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)计算积分\nI =「山\n+ cos2^)djz + J dz\ne(卄(sin2 j: + cos2j/)dj/.\n1—x\nJ 0\n. I® (sir?z\n- ci .\n0 J X",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解 积分区域D如图6-46所示，显然D关于直线工=\n[(sin2jc + cos^jOdzdj/\n-jj [e(j4_j)2 (sin2 j; + cos2 j/) + e(y4_<r\" (sin2j/ + cos2\nD\n_1\n，D\ncos Mn 0\n2 (a 歼血 ff)2\ne(卄，护 dzdj/ =「d0\n• rdr\n]\n7 cos 歼 sin 0\n穹____________1_______\ncos 外sin 0 .\n=丄「\n.(cos 什sin O')2\n} dd\n2 J<\no (cos 9 + sin 0严\n于 d(tan 0)\n= *(—e)\n首 d0\nJo (cos d + sin 0严\no (1 + tan 0)\ncos 卅*sin 0\n=-y (e4 — e)\n7—\n=寺(e“ 一 e)\n.......\n\\\n1 + tan 9",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 43,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.455396+00:00",
+  "updated_at": "2026-08-23T12:39:51.287702+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        24.0,
+        167.07113647460938,
+        482.3999938964844,
+        207.45025634765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 116,
+      "bbox": [
+        24.0,
+        98.06758880615234,
+        482.3999938964844,
+        269.58062744140625
+      ]
+    }
+  ]
+}

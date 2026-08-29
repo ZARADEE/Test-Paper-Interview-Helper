@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-003",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思在《资本论》中指出：“不管生产力发生了什么变化。同一劳动在同样的时间内提供的价值量总是相同的。但它在同样的时间内提供的使用价值量是不同的，生产力提高时就多些，生产力降低时就少些。”这段话表明，生产力的变化",
+  "answer_markdown": "C",
+  "analysis_markdown": "解析：本题考查商品的价值量，商品价值的量是由生产商品所耗费的劳动量决定的，\n而劳动量则是按劳动时间来计量的。生产力的变化会影响劳动生产率，商品的价值量与\n生产商品所耗费的劳动时间成正比，与劳动生产率成反比。故本体正确选项为C。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.558344+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "不影响同一劳动在同样的时间内生产的商品数量"
+    },
+    {
+      "key": "B",
+      "text": "不改变同一劳动在同样的时间内的生产效率"
+    },
+    {
+      "key": "C",
+      "text": "影响同一劳动在同样的时间内生产的单个商品价值量"
+    },
+    {
+      "key": "D",
+      "text": "改变同一劳动在同样的时间内提供的价值总量 ### 答案解析 3."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

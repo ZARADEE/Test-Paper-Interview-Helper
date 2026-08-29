@@ -1,0 +1,48 @@
+{
+  "id": "question-c58eea213f",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 设X与Y的概率分布分别为\nx o 1\ny -1 o 1\n~1\n2-\nF\n1~\nP 池\n乓\nT\nT\nT\n且 p{x2 = y2} = i.\n(I )求(X,Y)的概率分布；\n(U )求 g.",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴解 (I)由 P{X2 =Y2} = 1,知 P{X2 # Y2} = 0,故\nP{X = Q ,Y =— 1} = P{X = o ,y = 1} = P{X = 1 ,Y = 0} = 0.\n又 P{X = 1,Y=—1} = P{X = 0,Y = 0} = P{X = i ,y = 1} = -y,\n故(X,Y)的联合概率分布为\n<n）由（i）,知xy的概率分布为\nXY — 1\n故 E(XY) = 0.\n又 EX = j,EY = 0,故 Cov(X,Y) = E(XY) _ EX ・ EY = 0,所以 PxY = 0.",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.490264+00:00",
+  "updated_at": "2026-08-23T12:39:52.004107+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "概率"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        24.0,
+        179.72731018066406,
+        482.3999938964844,
+        278.349365234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 260,
+      "bbox": [
+        24.0,
+        235.26829528808594,
+        482.3999938964844,
+        471.48419189453125
+      ]
+    }
+  ]
+}

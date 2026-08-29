@@ -1,0 +1,50 @@
+{
+  "id": "question-cdcc651d2a",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设D：x2+y2^l,x^O,y^Q,L为D的正向边界，证明扌严&pe叫心贪",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)证\nJ (ey2 + e~\"' )dzdy.\n由格林公式，有\np dj； — _ye_，d_z =\nD\n又D关于直线夕=工对称(如图9-17),则\nJJ(ej2 + e_J?2 )dj?dj/ = jje' dzdy +\ndj-dj =\ndxdy +\nD\nD\nD\nD\nD\n+ e~x $ JJ? Je' ■ e\" dzdy\nD\nD\n— 2jJdj?dj/ = 2 X -~-k XI2— —\nD\n2・\n【注】这里分开利用轮换对称性.\n设L的参数方程为\n•z = 2cost,则\ny = sin t,\n—3ydx +^/r (jc\n+ fy(T9y)dy\n'2it\n=—J (— 3sin £)d(2cos i) + 中\n=—6兀 + 0 =— 6 k.\n【注】\n；d [/（工，夕）]=0是利用了积分与路径无关的等价命题.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.470862+00:00",
+  "updated_at": "2026-08-23T12:39:51.542826+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        24.0,
+        292.32806396484375,
+        482.3999938964844,
+        321.6217346191406
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        24.0,
+        135.11959838867188,
+        482.3999938964844,
+        368.360107421875
+      ]
+    }
+  ]
+}

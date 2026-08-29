@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0457",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新民主主义社会的民族资产阶级仍然是一个具有两面性的阶级。这种两面性是指",
+  "answer_markdown": "D",
+  "analysis_markdown": "知识储备题",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 70,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "既有剥削工人取得利润的一面，又有拥护中国共产党的领导、拥护宪法、愿意接受社会主义\n改造的一面"
+    },
+    {
+      "key": "B",
+      "text": "既有剥削者与被剥削者的阶级利益相互对立的对抗性的一面，又有相互合作、具有相同利益\n的非对抗性的一面"
+    },
+    {
+      "key": "C",
+      "text": "既有走资本主义道路的一面，又有走社会主义道路的一面"
+    },
+    {
+      "key": "D",
+      "text": "作为一个剥削阶级是被消灭的对象，作为可以接受工人阶级及其政党领导的社会力量又是可\n以团结和改造的对象"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        109.44000244140625,
+        308.4970397949219,
+        941.2705078125,
+        556.2055053710938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 83,
+      "bbox": [
+        435.27801513671875,
+        187.18310546875,
+        856.1281127929688,
+        593.0867309570312
+      ]
+    }
+  ]
+}

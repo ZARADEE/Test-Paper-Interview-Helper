@@ -1,0 +1,49 @@
+{
+  "id": "question-94c8d9f13d",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设随机变量X的概率密度为m\n]2、'则E(min{|^|,l})= _________.\n7t( 1十无)",
+  "answer_markdown": "-In 2+ 4-.",
+  "analysis_markdown": "-In 2+ 4-.\n7t\n/\n解用期望的定义计算.\n*4-00\nE(min{ | 力 | , 1})=\nmin{ I jc I , 1} • /(jc)dj：・\n当 | h 丨 w 1 时,min{ |\n| ,1} = I X | ；当 | 2 | $ 1 时\nf min{ | j： | ,1}/(j7)dj? = —[ J\n+\n，+o° dx 1\n，min{ I x I ,1} = 1,所以\n「王+\nJ-oo 1 +/ 十\nJ -oo\n兀LJ 一1丄十工\n:2山+ (\n\"+8 d.z n\n1+工2」\n=—In 2 + 寺.\n0 1 十 H\nJ\n1 1+*」\n7T\n/\n0：影霹黠需(2 = 3,…,150),则",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 96,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.491264+00:00",
+  "updated_at": "2026-08-23T12:39:52.026705+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "概率密度"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 96,
+      "bbox": [
+        24.0,
+        324.3832702636719,
+        482.3999938964844,
+        352.7531433105469
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 264,
+      "bbox": [
+        24.0,
+        453.1571044921875,
+        482.3999938964844,
+        565.5640869140625
+      ]
+    }
+  ]
+}

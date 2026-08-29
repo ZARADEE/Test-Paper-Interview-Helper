@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0637",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "改善民生、实现发展成果由人民共享最重要最直接的方式是",
+  "answer_markdown": "D",
+  "analysis_markdown": "是中国核心利益的核心，决定了一个坚强统\n\n出处精讲衣5a 考点79 -1-d)\n\n一的国家是各族人民的命运所系。A、B 错\n\n直机收入分配是民生之源，是改善民生、\n\n误。中华文明的创新性，从根本上决定了中\n\n实现发展成果由人民共享最重要最直接的方\n\n华民族守正不守旧、尊古不复古的进取精神,\n\n式。D 正确。就业是最基本的民生，是劳动者\n\n决定了中华民族不惧新挑战、勇于接受新事\n\n赖以生存和发展的基础、共享经济发展成果的\n\n物的无畏品格。C 错误。",
+  "chapter": "第十一章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "稳就业"
+    },
+    {
+      "key": "B",
+      "text": "城镇化"
+    },
+    {
+      "key": "C",
+      "text": "社会保障"
+    },
+    {
+      "key": "D",
+      "text": "收入分配"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十一章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十一章"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        86.822998046875,
+        372.8000183105469,
+        831.2959594726562,
+        439.9039611816406
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 105,
+      "bbox": [
+        3.998000144958496,
+        646.2821044921875,
+        301.9568176269531,
+        729.9714965820312
+      ]
+    }
+  ]
+}

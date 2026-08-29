@@ -1,0 +1,58 @@
+{
+  "id": "question-ebb933e31b",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(17) 曲线L： 2：：\n“'在点卩(3，1，1)处的切线方程为________ ，法平面方程\n\\xl +\n= 10\n为________ •",
+  "answer_markdown": "〒‘",
+  "analysis_markdown": "〒‘\n解由｛\n'确定函数夕=夕(2)，N = z(x) 9视x为参数9故曲线L的切线的\ny _ 1 = i\n_ 3\nX2 +y2 = 10,\nx2 + z2 = 10\n，N (z))・\n方向向量为T = （1 ,＜（工）\n2z + 2y 兽=0 ,\n已知方程组两边同时对鼻求导，得\n将z = 3,y=l,z= 1代入上方程\n2x + 2z = 0，\ndx\n组，解得学=一3,半=—3,所以T= (1,-3,-3),故切线方程为三尹 =乂# = 匸［,\ndj?\nAx\n— 3\n— o\n法平面方程为\n(工一3)— 3(夕一1)—3(z—1) = 0,\n即\njc — 3夕一3z + 3 = 0.\n【注】求空间曲线的切线的方向向量时，视为参数方程处理.",
+  "chapter": "多元函数微分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 35,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.451169+00:00",
+  "updated_at": "2026-08-23T12:39:51.146558+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分",
+    "切线"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 35,
+      "bbox": [
+        24.0,
+        572.0426025390625,
+        482.3999938964844,
+        618.934814453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 87,
+      "bbox": [
+        24.0,
+        526.4551391601562,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 88,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        76.68203735351562
+      ]
+    }
+  ]
+}

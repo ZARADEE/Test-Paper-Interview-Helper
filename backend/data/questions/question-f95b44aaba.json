@@ -1,0 +1,48 @@
+{
+  "id": "question-f95b44aaba",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)设a,0是九维列向量，且a'p = 2,证明:A = E + afi'可逆，并求A-1.",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解\nA2 = (E + a/T)(E + a“T) = E +\n+ af\n=E + 4妙丁 = 4£ + 4妙丁 一 3E = 4A — 3E,\n即 A(A-4E) =—3E,故 A 可逆，且 = 4£~A.\n【注】 结论：设a,0为/?维列向量人工0,叫工占，则A = E-kiapr可逆，且\n左1\nA-1 = E — k2ap v,",
+  "chapter": "矩阵",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 65,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.475218+00:00",
+  "updated_at": "2026-08-23T12:39:51.654247+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        24.0,
+        356.9237060546875,
+        482.3999938964844,
+        384.69342041015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 189,
+      "bbox": [
+        24.0,
+        193.84393310546875,
+        482.3999938964844,
+        293.2536315917969
+      ]
+    }
+  ]
+}

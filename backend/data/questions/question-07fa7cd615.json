@@ -1,0 +1,48 @@
+{
+  "id": "question-07fa7cd615",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(31) 求曲线 4y = f jc \\/12 — j:2i/2du(j? $ 0)的全长.\nJ 0",
+  "answer_markdown": "",
+  "analysis_markdown": "(31)解\n*2\n________________ jQn\nx v 12 — j?2u2 du =\n\\/12 — t2 dr 9\no\n'2x\n故4夕=J』12 —产ck.两边同时对z求导，得\ny —\n%/12 — 4工2 • 2 =丿3 — j?.\n曲线的全长为\nS\nx2 dr\n>2L\na/1 + y2 dx — f 丿4 —\nJ o\nJ o\nx = 2sin t\n■f\n\\/4 — 4sin2^ • 2cos tdt\no\n=4 | cos2 tdt = 2(/ + *sin 2t\no\n2兀 _|_ 71^\n晋卜警+\n=2 X",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 30,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.447851+00:00",
+  "updated_at": "2026-08-23T12:39:51.042397+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 30,
+      "bbox": [
+        24.0,
+        128.7757568359375,
+        482.3999938964844,
+        152.7910614013672
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 73,
+      "bbox": [
+        24.0,
+        360.92388916015625,
+        482.3999938964844,
+        527.5581665039062
+      ]
+    }
+  ]
+}

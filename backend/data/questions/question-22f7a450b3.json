@@ -1,0 +1,58 @@
+{
+  "id": "question-22f7a450b3",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "⑴设总体X〜N(0,1),(Xi,X2,“・，X2”)为X的简单随机样本，求下列统计量的分布.\n2n\n(DTx =寺左Xf + $X2iX2i；(U)T2 =\n1=1 :=1\n2n\n3工疋\n乂\n(2〃一3)》疋\n^-2-\n1X1 ；( in)r3 =\n!=1\n:=4\nT + x2 + x3",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴解 (1)0 =*YXf +》X2lX2,\n1=1\n1=1\n=寺(x( + x] + …+ xfn-i + XL) + X1X2 + X3X4 + …+ x2n-i x2i\n=*(Xi + X2)2 +y(X3 + X4)2 + …十寺(X2”_1 + X2n)2\n= s(^^)2=s^-\n由 X2I 〜N(0,l),左;〜N(0,l),知 X21 +X2!-〜N(0,2),故\n■yr   —1 I -^2i\nN(O,1),\n所以T. = 〜才(“).\n1 = 1\nXi\n（n）r2 =畑 _ 1务=\n2n\n______\nZ(2n-1)(这里工 Xf 〜才(2“一 1)).\n■2\ni = 2\n2/2-1\n2n\n（HD由〜才（3）,〜才（2/2 —3）,且相互独立，故\n:=1\n£ = 4\ni=]\nF(3,2n — 3).\n2n\n(2n-3)^Xf\nT3 =\ni\n2n\n3丫疋\ni = 4\n；=4\n2n — 3",
+  "chapter": "数理统计",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 101,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.492264+00:00",
+  "updated_at": "2026-08-23T12:39:52.053411+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "样本",
+    "统计量"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数理统计"
+  ],
+  "source_regions": [
+    {
+      "page": 101,
+      "bbox": [
+        24.0,
+        459.2774963378906,
+        482.3999938964844,
+        545.0978393554688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 276,
+      "bbox": [
+        24.0,
+        632.67529296875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 277,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        330.6498107910156
+      ]
+    }
+  ]
+}

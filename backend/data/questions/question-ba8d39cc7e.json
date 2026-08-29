@@ -1,0 +1,66 @@
+{
+  "id": "question-ba8d39cc7e",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 求椭球面弓+ £ +号■ = l(a』,c>0)在第一卦限上的切平面与三个坐标面围成的\na b c\n四面体的最小体积.",
+  "answer_markdown": "",
+  "analysis_markdown": "(6)解 设点P(d，z)为椭球面在第一卦限上的任一点，则过点P的切平面方程为\n写(X — Q+铝(丫一夕)+年(Z—z) = 0,\na2\nb乙\nc厶\n“2 A2\n该切平面在三个坐标轴上的截距分别为乞，匚，故四面体的体积\nx y z\n”\n11a2\nb2 c2 a2b2 c2\n2，-\n「\n(力〉0 9夕〉0 ,N〉0) 9\n( jc y z bxyz\n2 a,2 “2\n问题转化为求QZ在条件务+音+务=1下的最大值.\na b c\n令L = jcyz +入(令 +器■ + 右 一1)，则\nL： = w + 2入脊=0,\n①\n②\n<\n③\n④\na\nL： = g + 2入备=0,\nb2\nL；=巧+ 2入务=0,\n—弓+ V】 = o.\na b c\n“2\n由①②③式，畔=若=右代入④式,可解得7T\"京\nb2 cu\n故所求最小体积为v= ——a七\n6 . Q . b . c\na/3 73 V3",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 37,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.452279+00:00",
+  "updated_at": "2026-08-23T12:39:51.192638+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        24.0,
+        663.5838012695312,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 38,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        74.80050659179688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        24.0,
+        541.4881591796875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 96,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        232.06961059570312
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0380",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "进入21 世纪以来，资本主义呈现出一些新变化、新特征。国际金融垄断资本主义影响日益显\n\n现，国际金融资本的垄断成为当代资本主义最突出、最鲜明、最主要的特征，这表现在",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 55,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "金融垄断寡头化"
+    },
+    {
+      "key": "B",
+      "text": "金融垄断国际化"
+    },
+    {
+      "key": "C",
+      "text": "经济虚拟化"
+    },
+    {
+      "key": "D",
+      "text": "产业空心化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 55,
+      "bbox": [
+        90.1780014038086,
+        306.7579650878906,
+        930.3726806640625,
+        435.52362060546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        446.4460144042969,
+        460.6741638183594,
+        851.577880859375,
+        762.6270141601562
+      ]
+    }
+  ]
+}

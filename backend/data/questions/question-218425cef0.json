@@ -1,0 +1,59 @@
+{
+  "id": "question-218425cef0",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设A,B,C是三个相互独立的随机事件，且0 <P(C)<1,则下列四对事件中不相互\n独立的是(\n).",
+  "answer_markdown": "B",
+  "analysis_markdown": "______ _____  _\n解\n由A,B,C相互独立，知丽与C相互独立,R左与C相互独立,A-B与C相互\n独立，故排除A,C,D.\n【注】事件A,B,C相互独立，“不重叠分组，各自运算后仍独立”(见《李林考研数学",
+  "chapter": "随机事件与概率",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 84,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.483945+00:00",
+  "updated_at": "2026-08-23T12:39:51.870143+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "A U B与C B紀与C"
+    },
+    {
+      "key": "C",
+      "text": "才二左与巴 D. AB与C"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机事件",
+    "概率",
+    "独立"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机事件与概率"
+  ],
+  "source_regions": [
+    {
+      "page": 84,
+      "bbox": [
+        24.0,
+        360.33782958984375,
+        482.3999938964844,
+        404.1590881347656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 235,
+      "bbox": [
+        24.0,
+        394.572021484375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

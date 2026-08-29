@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0166",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "利润平均化规律，反映了在瓜分剩余价值上，资本家之间虽然存在竞争和矛盾，但在加强对工\n人阶级的剥削以榨取更大量的剩余价值这一点上，资本家之间有着共同的阶级利益。平均利润\n的出现是",
+  "answer_markdown": "B",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 22,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "同一部门内不同企业之间竞争的结果"
+    },
+    {
+      "key": "B",
+      "text": "不同部门之间竞争的结果"
+    },
+    {
+      "key": "C",
+      "text": "国际上同类企业之间竞争的结果"
+    },
+    {
+      "key": "D",
+      "text": "不同行业之间工人联合斗争的结果"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 22,
+      "bbox": [
+        101.68000030517578,
+        1263.473876953125,
+        933.9196166992188,
+        1426.130615234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        16.107999801635742,
+        287.67034912109375,
+        429.9749450683594,
+        560.8489990234375
+      ]
+    }
+  ]
+}

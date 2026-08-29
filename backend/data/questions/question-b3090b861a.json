@@ -1,0 +1,59 @@
+{
+  "id": "question-b3090b861a",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 设 f(z)有二阶连续导数，/(0) =y'(0) = Q,f (0) >0,w = “(z)是曲线 y = /(j:)\n在点(jc,/(j?))处的切线在x轴上的截距，求lim予…、.\nX—0 U \\X)",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)解 y = fS 在点Q,*刃)处的切线方程为\ny = ys) +y'(_z)(x — H).\n令Y= 0,可得切线在工轴上的截距为\nx=j：—=“( z),\n故\n1. X\n!•\nx\nxf (x)\n既 u(Q = 摞 £(工)=出 M'(z)—于(工)\n= l + lim爭独\n乂 y'Q)\n洛必达 1. f O + xfff (X\nx->0 XJ \\3C)\n法则 2^0\nJcf’G)—\n=]+ 站3-”0).\nl o\nx — 0\n-1\nI /(0)\n~ 1 + 77o)_ 1 + 1 _ 2-",
+  "chapter": "一元函数微分学",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 22,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.443472+00:00",
+  "updated_at": "2026-08-23T12:39:50.950747+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "导数",
+    "微分",
+    "切线"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 22,
+      "bbox": [
+        24.0,
+        549.2614135742188,
+        482.3999938964844,
+        590.0731201171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 46,
+      "bbox": [
+        24.0,
+        524.1342163085938,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 47,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        49.41829299926758
+      ]
+    }
+  ]
+}

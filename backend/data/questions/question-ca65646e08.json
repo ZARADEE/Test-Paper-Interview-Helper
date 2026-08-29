@@ -1,0 +1,49 @@
+{
+  "id": "question-ca65646e08",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(5) 设 n 维向量组 ai ,。2,…，< n)线性无关，且 a*+i =入 g + X2a2 H---- + Xkak,\nA； #0,z = 1,2,…证明:ai ,a2，…心,ak+i中任何k个向量都线性无关.",
+  "answer_markdown": "",
+  "analysis_markdown": "(5) 证法1 (角定义)由已知条件，需证明从a【皿2,…，a& ,a&+i中去掉一个后，剩下的k\n个是线性无关的，不失一般性，不妨设去掉ai,即需证明a2 ,a3，…心，磁+i线性无关.\n将 Uk+\\\n设\n(J.7.V.1 + //3«3 +\n+ [J-kO- k + 円+1以+1 =0,\n①\n=Aiai + X2a2 +…+ Xk(Xk代入①式整理得\n侔+1入1 ai + (“2 + 抄+1入2)«2 + … + (抄 + 抄+1入》)族 =0 ,\n由ai心，…，a&线性无关，故肴\n[J.k+\\ Al = “2 + 円+1 入2 =…=冷 + (J-k+\\ = 0-\n又 Ai 工 0(2 = 1,2,…，&),可得 fXk+i = 0,二2 = 0,…9fj.k = 0，故 o>2 ,。3，…,a& ,a&+i 线性无关.\n证法2 不失一般性，考查向量组(I )ai心，…，负，(U)。2，…,a* ,如.\n由已知条件，(I)与(h)可互为线性表示，所以r(i)= r(n)= ^ap(n)中怡个向量\n是线性无关的.\n证法3 (反证法)\n假设a2,-,ak,ak+1线性相关，而已知血，…，弧线性无关，故a屮可由a2 ,••• ,ak线性表\n示，设\nak+1 = a2a2 H---- + akak,\n①\n又\nam = Aia] + A2a2 H---- + Xkak.\n②\n②一①得\n0 =几％ + (入2 —如)。2 +…+ (入》—以)a&,\n其中至少有Ai H 0,这表明a, ,a2，…，城线性相关，与已知条件矛盾，故a2，…皿申线性无关.",
+  "chapter": "向量",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 70,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.478451+00:00",
+  "updated_at": "2026-08-23T12:39:51.746661+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "向量",
+    "线性无关"
+  ],
+  "tags": [
+    "线性代数",
+    "向量"
+  ],
+  "source_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        24.0,
+        528.1912841796875,
+        482.3999938964844,
+        559.9717407226562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 203,
+      "bbox": [
+        24.0,
+        319.4640197753906,
+        482.3999938964844,
+        511.49078369140625
+      ]
+    }
+  ]
+}

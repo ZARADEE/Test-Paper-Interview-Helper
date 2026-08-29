@@ -1,0 +1,59 @@
+{
+  "id": "question-8cac18f008",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(16)设曲面 S-x2 + y2 +/ = R2 ,z^0,n —(\ncos a,cos ^3,cos y)是S向外的单位法向\n量，计算J =\n—y\")cos a 十(z\" — z\")cos 〃十(y — h\")cos y]dS(?? $ 1).\ns",
+  "answer_markdown": "",
+  "analysis_markdown": "(16)解\nI\n(n\" — 夕\")dydz + (龙\"一zn) dzdx + (yn — xn) djcdj/・\ns\n记 P = zn — yn jQ = xn — zn jT = yn — jcn 如图 9-26 所示，\n添加辅助面S] :N = 0,* +)2 = R2，取下侧，由高斯公式，得\nI = if -ff・\nJJ JJ\nS+S] S]\n# Pdydz + Qd^dj? + Tdjcdj/\n而\ndV\nV\nV\nS+S]\n又\nyn) dydz + {xn 一 zn) d^drc + (yn — xn) dxdy\nsi\n'2n\n= 0 + 0 _{[o” 一…\nyn — z\" ) djrdj/ =—\no\n(厂\"sin\"0 — rncos\"。)rdr\nJ o\n'R\n— Dn+2\n'2n\nf 2n\n- (sin\"0 — cos\"&)de\n(sin\"& —cos\"0 )d&\no\n—K\"+2\n• 4 J 2 (sin\"0 — cos\"0) d0 = 0 (因 | ' sin\"0d0 =\n2 cos”0d0)・\no\nJ o\no\n72 + 2\n【注】 ①此题也可利用对称性计算：\n令 F = x2+y2+z2-R2,则(F；,F；,F【)=(2^,2y,2z).\ncos “ = ___________ 空__________  = ______ _______  =乞\ny(2^)2 + (2j/)2 + (2Z)2\n^z+y2+z2 R\n■y\nZ »\n]\n同理，cos 0 =并，cos 了 =应,故\"=(cos a, cos j3,cos y)=卫■(•z,y,z),故\n育+ 3—h) i]ds-\n由S关于xOy面，yOz面对称9且（n\"—，\"）宾•，（刃一之\n）舟■分别关于工9』是奇函数9\n—夕\"）青+（力\"一n\"）栄\n故\nH\"zdS，即\ndS = 0.\ns\n又S关于平面x = y对称，由轮换对称性，知JJyZdS =\ns\ns\nxn） ~-dS = 0.\ns\n综上所述9 7 = 0.\n（2）jJ/（x，3/,z）dS与三重积分Jj/Xiy ,N）dV —样，利用轮换对称性时，可以三个变量\ns\nv\n轮换，也可以两个变量轮换.\n由于被积表达式在点（0,0,0）处没有意义，先将\n曲面S：N=丿应―）2代入化简，得\nI =\ndydz + （I? + zY djrd^.\ns\n2 +? £R2 ,取上\n为了利用高斯公式，添加辅助面S】:\n侧，如图9-27所示，故\n+ # Rxdydz + （K + ^）2djcdj/\n(K + 2R + 2n)c!V =\n(3R + 2z)dV\nS+S]\n制\n图 9-27\nV\nzdV\nV\n=_十・张诗鈕.*_訓\nV\n'R\nrcos （p • r2 sin <pdr\n1\\ J 0 J 0 J (\n=_ 2-jvR3 _ ~tzR3 =_ -^-tcK3 .\n又由于.\n+ （K + z）2dj?dj/ =。+ 吉 jj R2 dxdy = -^-jR2 • nR2 = itR3,\nS1\n如冬尺？\n：，\n故Z = f\n=一号兀疋—击3 =_\nS4-S] S]",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 59,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.472143+00:00",
+  "updated_at": "2026-08-23T12:39:51.563358+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 59,
+      "bbox": [
+        24.0,
+        329.52593994140625,
+        482.3999938964844,
+        377.04498291015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 173,
+      "bbox": [
+        24.0,
+        450.3748779296875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 174,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        588.4746704101562
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0527",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我国对个体农业实行社会主义改造遵循的原则有",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "知识储备题\n\n增强大局意识,正确对待改革中的利益关系\n\n调整和个人利害得失。B 错误。\n\n简析站在新的起点上,必须围绕发展新质生\n\n产力布局产业链，完善现代化产业体系。一\n\n第六章\n\n方面，战略性新兴产业、未来产业是发展新\n\n质生产力的主阵地，要打造生物制造、商业航",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 79,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "自愿互利"
+    },
+    {
+      "key": "B",
+      "text": "典型示范"
+    },
+    {
+      "key": "C",
+      "text": "国家帮助"
+    },
+    {
+      "key": "D",
+      "text": "公私兼顾"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        88.27899932861328,
+        1011.8663940429688,
+        835.7486572265625,
+        1083.9293212890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        16.849000930786133,
+        324.8413391113281,
+        349.5311584472656,
+        403.89117431640625
+      ]
+    }
+  ]
+}

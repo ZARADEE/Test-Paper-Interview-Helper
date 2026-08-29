@@ -1,0 +1,46 @@
+{
+  "id": "politics-2024-022",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "毛泽东在谈到党对民主革命规律的认识时指出，从党的建立到抗日时期,我们经过了两次胜利两次失败。“在抗日时期，我们才制定了合乎情况的党的总路线和一整套具体政策。这时候,中国民主革命这个必然王国才被我们认识,我们才有了自由”。这表明（ ）",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "【解析】本题考查的知识点：新民主主义革命理论\n 选项A本身说法错误，选项B马克思主义必须与中国革命具体实际相结合，选项C党对民主革命规律的认识必须有一个过程，选项D新民主主义革命理论是总结正反两方面经验形成的，都符合我党对民主革命规律的认识。故BCD正确。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.362420+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "党已完全掌握了新民主主义革命的发展规律"
+    },
+    {
+      "key": "B",
+      "text": "马克思主义必须与中国革命具体实际相结合"
+    },
+    {
+      "key": "C",
+      "text": "党对民主革命规律的认识必须有一个过程"
+    },
+    {
+      "key": "D",
+      "text": "新民主主义革命理论是总结正反两方面经验形成的 ### 答案解析 22."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "新民主主义革命理论"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "新民主主义革命理论"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

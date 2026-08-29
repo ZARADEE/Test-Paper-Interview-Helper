@@ -1,0 +1,48 @@
+{
+  "id": "question-fe5fa4450f",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(19) 设/'(z) = a】 sin x-\\~a2 sin 2z+…+a”sin nr ,其中如 心，…,\na”为实数，”为正整数.\n(I)求 /(0)；\n(U)若丨 /\"(g)丨 W 丨 sin X |，证明：丨 ai + 2(12 ---- + na„ \\ £ 1.",
+  "answer_markdown": "",
+  "analysis_markdown": "(19)解\n故 /z(o)= <\nQl (I ) f G) =cos x + 2a2 • cos + …+ m„cos nx 9\n+ 2血+…\n(fl)\nI /(0) H\n=1 9\n1口*刃—*°）=lim 加2 < lim sin x\nx-*o\nx — 0\nx—*0 |\n3C\n|\nx-*-0\nX\n故",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 22,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.443472+00:00",
+  "updated_at": "2026-08-23T12:39:50.942242+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 22,
+      "bbox": [
+        24.0,
+        303.0081481933594,
+        482.3999938964844,
+        361.3417663574219
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 45,
+      "bbox": [
+        24.0,
+        392.6248779296875,
+        482.3999938964844,
+        459.3238830566406
+      ]
+    }
+  ]
+}

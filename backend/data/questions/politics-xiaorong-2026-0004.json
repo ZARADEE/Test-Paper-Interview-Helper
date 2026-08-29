@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0004",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1845 年，恩格斯在给马克思的一封信中提出：“目前首先需要我们做的，就是写出几本较大的著\n\n作，以便给许许多多非常愿意干但自己又干不好的一知半解的人以一个必要的支点。” 由此可见,\n\n马克思、恩格斯之所以要创立马克思主义，是为了",
+  "answer_markdown": "B",
+  "analysis_markdown": "述马克思主义理论体系的著作）。马克思、恩\n\n格斯的经典著作总结见《2026考研政治知识\n\n出处精讲距考点2 - ❷\n\n点精讲精练》第2~3页拓展与点拨。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 1,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:15:23.241326+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "证明社会主义革命可能在一国或数国首先发生并取得胜利"
+    },
+    {
+      "key": "B",
+      "text": "适应无产阶级实际斗争的要求"
+    },
+    {
+      "key": "C",
+      "text": "推动无产阶级从自觉转向自发"
+    },
+    {
+      "key": "D",
+      "text": "将无产阶级夺取政权的成功经验推广到所有国家"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 1,
+      "bbox": [
+        93.697998046875,
+        987.2550659179688,
+        937.2235717773438,
+        1204.2926025390625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 1,
+      "bbox": [
+        431.5889892578125,
+        870.1861572265625,
+        843.8814697265625,
+        1323.6324462890625
+      ]
+    }
+  ]
+}

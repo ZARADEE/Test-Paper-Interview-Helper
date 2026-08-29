@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1030",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国人民的抗日战争从1931 年开始，到1945 年结束，前后经历了14 年的浴血奋战。在世界反\n\n法西斯战争的进程中，中国人民的抗日战争被称为“最早的抗争，最后的胜利”。中国人民抗日\n\n战争的伟大胜利，是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲1%页3可考点55 -2\n\n事上,必须采取集中优势兵力、各个歼灭敌人\n\n的作战原则。B 、C 正确。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 151,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "近代以来中国人民反抗外敌入侵第一次取得完全胜利的民族解放斗争"
+    },
+    {
+      "key": "B",
+      "text": "中华民族从近代以来陷入深重危机走向伟大复兴的历史转折点"
+    },
+    {
+      "key": "C",
+      "text": "世界反法西斯战争胜利的重要组成部分"
+    },
+    {
+      "key": "D",
+      "text": "中国人民的胜利、世界人民的胜利"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 151,
+      "bbox": [
+        83.177001953125,
+        496.4958190917969,
+        923.0009765625,
+        716.2113037109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 156,
+      "bbox": [
+        447.3599853515625,
+        1182.0040283203125,
+        861.5999755859375,
+        1320.1134033203125
+      ]
+    }
+  ]
+}

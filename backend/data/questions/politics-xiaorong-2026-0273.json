@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0273",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "真理与价值在实践中是辩证统一的。以下说法正确的有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "会关系中从事实践的具体的人，随着实践和\n\n出处精讲P41) 考点39 -3\n电遢真理必然是具有价值的。同一真理对\n\n历史的发展，主体和客体以及主客体之间的\n\n关系发生变化，导致人们对客体价值的判断\n\n不同的主体有不同的价值，真理的具体价值\n\n也发生改变。如石油、核能、太阳能、潮汐发\n\n是在真理本身所揭示的可能性范围内，由主\n\n电、互联网等，从未被认识到被发现、发明和\n\n体的选择所形成的。\n\n利用，都体现了价值的社会历史性。随着社",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 40,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "任何实践活动都是在真理尺度和价值尺度共同制约下进行的"
+    },
+    {
+      "key": "B",
+      "text": "价值尺度必须以真理为前提"
+    },
+    {
+      "key": "C",
+      "text": "脱离了价值尺度，真理就缺失了主体意义"
+    },
+    {
+      "key": "D",
+      "text": "真理尺度与价值尺度的统一是具体的和历史的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 40,
+      "bbox": [
+        102.27300262451172,
+        303.81195068359375,
+        666.4513549804688,
+        462.70001220703125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 53,
+      "bbox": [
+        432.5429992675781,
+        976.8834838867188,
+        842.471435546875,
+        1178.970458984375
+      ]
+    }
+  ]
+}

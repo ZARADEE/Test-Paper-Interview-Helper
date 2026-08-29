@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-026",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "坚持和发展马克思主义，必须同中华优秀传统文化相结合，中华优秀传统文化源远流长，博大精深是中华文明的智慧结晶，蕴含着天下为公、民为根本、为政为德、革故鼎新、任人唯贤、天人合一、自强不息、厚德载物、讲信修睦、亲仁善邻等思想观念，这些()",
+  "answer_markdown": "BD",
+  "analysis_markdown": "解析：本题考查坚持和发展马克思主义。中华优秀传统文化源远流长、博大精深，\n是中华文明的智慧结晶，其中蕴含的天下为公、民为邦本、为政以德、革故鼎新、任人\n唯贤、天人合一、自强不息、厚德载物、讲信修睦、亲仁善邻等，是中国人民在长期生\n产生活中积累的字宙观、天下观、社会观、道德观的重要体现，同科学社会主义价值观\n主张具有高度契合性。故本题正确选项为BD。选项A 一脉相承不能用来描述中国传统\n文化和马克思主义之间的关系。选项C 错在不是完整体现，应该是部分体现。故本题正\n确选项为BD。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.577765+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "与马克思主义理论一脉相承"
+    },
+    {
+      "key": "B",
+      "text": "同科学社会主义价值观主张是有高度契合性"
+    },
+    {
+      "key": "C",
+      "text": "完整体现了马克思主义的主场观点和方法"
+    },
+    {
+      "key": "D",
+      "text": "体现着中国人民的宇宙观、天下观、社会观、道德观 ### 答案解析 26."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

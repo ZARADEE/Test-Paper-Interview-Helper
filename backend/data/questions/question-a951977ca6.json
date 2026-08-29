@@ -1,0 +1,49 @@
+{
+  "id": "question-a951977ca6",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4)求直线L：\"扌$ = 2 ])= 律1在平面7r：2j： + 3y+3z — 8 = 0上的投影直线方程.",
+  "answer_markdown": "",
+  "analysis_markdown": "(4) 解\n用平面束方程求出经过直线L且与平面7T垂直的平面,该平面与平面7T的方程\n联立，便可得投影直线方程.\n将直线L变形为一般式：|芥I3寸二1二°6,故过L的平面束方程为\nJ? + 3j/ 一 4 +入(2工 一 3n+1) = 0，\n即\n(1 + 2入)h + 3夕一3入n + A — 4 = 0 9\n此平面与平面兀垂直，故\n(1+2入，3, — 3入)•(2,3,3) = 11 —5入=0,\n解得入=¥，于是与平面兀：2z + 3》+ 3z — 8 = 0垂直的平面方程为\n(1 + 乎” + 3》—学+ ¥_4 = 0'\n即9_z + 5y—llz —3 = 0,故所求投影直线方程为\n(9jc + 5j/ — 11n — 3 = 0,\n+ 3j/ + 3^ 一 8 = 0.",
+  "chapter": "空间解析几何",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 33,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.448957+00:00",
+  "updated_at": "2026-08-23T12:39:51.098168+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "空间解析几何",
+    "直线方程"
+  ],
+  "tags": [
+    "高等数学",
+    "空间解析几何"
+  ],
+  "source_regions": [
+    {
+      "page": 33,
+      "bbox": [
+        24.0,
+        309.6678466796875,
+        482.3999938964844,
+        338.0430603027344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 81,
+      "bbox": [
+        24.0,
+        310.38128662109375,
+        482.3999938964844,
+        483.831298828125
+      ]
+    }
+  ]
+}

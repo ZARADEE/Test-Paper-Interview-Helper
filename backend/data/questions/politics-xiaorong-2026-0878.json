@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0878",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1929 年12 月，红四军党的第九次代表大会在福建上杭县古田村召开（史称古田会议）。大会根\n\n据中央九月来信精神，通过了毛泽东起草的古田会议决议，其中最重要的是关于纠正党内错误\n\n思想的决议案。该决议案确立了",
+  "answer_markdown": "D",
+  "analysis_markdown": "战线性质的政权,是一切赞成抗日又赞成民\n\n出处精讲下营市考点37 拓展与点拨\n\n主的人们的政权;解放战争时期建立的政权\n\n的性质是各个革命阶级的联合专政;新中国\n\n简析1929 年12 月，红四军党的第九次代表\n\n成立初期建立的政权的性质是人民民主专\n\n大会在福建上杭县古田村召开(史称古田会\n\n政。B、C、D 错误。\n\n议)。大会根据中央九月来信精神，通过了毛",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 130,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "土地革命方针"
+    },
+    {
+      "key": "B",
+      "text": "支部建在连上的原则"
+    },
+    {
+      "key": "C",
+      "text": "民主集中制原则"
+    },
+    {
+      "key": "D",
+      "text": "思想建党、政治建军原则"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 130,
+      "bbox": [
+        107.14099884033203,
+        432.3123474121094,
+        939.2217407226562,
+        588.3767700195312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 135,
+      "bbox": [
+        4.409000396728516,
+        28.984447479248047,
+        413.6628112792969,
+        265.5813293457031
+      ]
+    }
+  ]
+}

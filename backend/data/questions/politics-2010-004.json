@@ -1,0 +1,44 @@
+{
+  "id": "politics-2010-004",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "劳动力成为商品是货币转化为资本的前提条件，这是因为：",
+  "answer_markdown": "C",
+  "analysis_markdown": "【解析】与一般商品不同的是，劳动力商品的消费过程也就是劳动过程。在劳动过程中，能创造出新价值，而且这个新的价值比劳动力自身的价值更大。这里劳动力的买卖并不同价值规律相矛盾，一切都按商品交换的原则办事。在工人将剩余价值生产出来的同时，货币也随之转化为资本了。因此，此题的正确答案是C选项。选项A说法错误，资本家购买的是劳动力的使用价值。选项B本身说法正确，但与题干无关。选项D说法本身错误。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.368254+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "资本家购买的是劳动力的价值"
+    },
+    {
+      "key": "B",
+      "text": "劳动力商品具有价值和使用价值"
+    },
+    {
+      "key": "C",
+      "text": "货币所有者购买的劳动力能够带来剩余价值"
+    },
+    {
+      "key": "D",
+      "text": "劳动力自身的价值能够在消费过程中转移到新的商品中去"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

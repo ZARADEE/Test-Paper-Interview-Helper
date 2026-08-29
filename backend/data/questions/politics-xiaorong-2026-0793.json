@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0793",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“一国两制” 方针是一个完整的体系。关于“一国” 和“两制”的关系，以下说法正确的有",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "出处精讲加26 考点103\n\n出处精丽多考点ioi -i-o\n置近“一国”是实行“两制”的前提和基础,",
+  "chapter": "第十五章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 116,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "“一国” 是实行“两制”的前提和基础"
+    },
+    {
+      "key": "B",
+      "text": "“两制” 从属和派生于“一国”，并统一于“一国” 之内"
+    },
+    {
+      "key": "C",
+      "text": "“一国” 是根，根深才能叶茂；“一国”是本，本固才能枝荣"
+    },
+    {
+      "key": "D",
+      "text": "“一国” 之内的“两制” 等量齐观、比肩并列"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十五章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十五章"
+  ],
+  "source_regions": [
+    {
+      "page": 116,
+      "bbox": [
+        99.06400299072266,
+        1233.3834228515625,
+        911.2626953125,
+        1391.19775390625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 121,
+      "bbox": [
+        7.718999862670898,
+        78.84991455078125,
+        356.68133544921875,
+        161.83181762695312
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1095",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "理想与现实是一对矛盾，它们是对立统一的关系。二者的统一性表现在",
+  "answer_markdown": "D",
+  "analysis_markdown": "出处精讲下频考点4",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 162,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "理想属于“应然”，现实属于“实然”"
+    },
+    {
+      "key": "B",
+      "text": "理想是主观的，现实是客观的"
+    },
+    {
+      "key": "C",
+      "text": "理想是完美的，现实是有缺陷的"
+    },
+    {
+      "key": "D",
+      "text": "现实中包含着理想的因素，理想中也包含着现实"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 162,
+      "bbox": [
+        100.52899932861328,
+        1183.0933837890625,
+        730.14892578125,
+        1347.242431640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        432.32000732421875,
+        930.726806640625,
+        852.9514770507812,
+        1319.686279296875
+      ]
+    }
+  ]
+}

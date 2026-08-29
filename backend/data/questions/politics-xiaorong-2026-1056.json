@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1056",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "毛泽东提出，处理中国共产党与民主党派的关系，应坚持的方针是",
+  "answer_markdown": "AB",
+  "analysis_markdown": "标志着社会主义基本制度在中国的确立，\n\n出处精丽苑考点75 -0\n\n标志着我国已经进入了社会主义初级阶段。\n\n简析A、B 正确。“肝胆相照、荣辱与共”作\n\n因此，本题的正确答案是A、B、D。\n\n我国步入社会主义改革时期是20 世纪\n\n为处理中国共产党与民主党派关系方针的\n\n内容是1982 年党的十二大报告增加的，不\n\n70 年代末、80 年代初的事情。C 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 155,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "长期共存"
+    },
+    {
+      "key": "B",
+      "text": "互相监督"
+    },
+    {
+      "key": "C",
+      "text": "肝胆相照"
+    },
+    {
+      "key": "D",
+      "text": "荣辱与共"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 155,
+      "bbox": [
+        87.76599884033203,
+        336.58380126953125,
+        803.455322265625,
+        401.01409912109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 160,
+      "bbox": [
+        436.9020080566406,
+        191.61927795410156,
+        853.9927978515625,
+        816.9691772460938
+      ]
+    }
+  ]
+}

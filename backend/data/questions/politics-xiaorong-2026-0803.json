@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0803",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全面从严治党是一项管党治党的系统工程，客观上需要一个布局合理、内容科学、要素齐备、\n\n统一高效的全面从严治党体系。要落实新时代党的建设总要求，把全的要求、严的基调、治的\n\n理念落实到全面从严治党全过程，坚持",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "第十七章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 118,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "内容上全涵盖"
+    },
+    {
+      "key": "B",
+      "text": "对象上全覆盖"
+    },
+    {
+      "key": "C",
+      "text": "责任上全链条"
+    },
+    {
+      "key": "D",
+      "text": "制度上全贯通"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十七章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十七章"
+  ],
+  "source_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        108.62300109863281,
+        425.81939697265625,
+        951.831787109375,
+        553.6964111328125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 121,
+      "bbox": [
+        434.89801025390625,
+        762.401611328125,
+        845.556884765625,
+        1243.589599609375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1054",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1954 年9 月，中华人民共和国第一届全国人民代表大会第一次会议通过《中华人民共和国宪\n\n法》，标志着人民代表大会制度这一国家根本政治制度正式建立。人民代表大会制度是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "题干限定问的是毛泽东的提法。\n\n出处精讲下前可考点72 .2",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 154,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国共产党领导中国人民艰辛探索长期奋斗的成果"
+    },
+    {
+      "key": "B",
+      "text": "从中国土壤中生长起来的全新政治制度"
+    },
+    {
+      "key": "C",
+      "text": "人类政治制度史上的伟大创造"
+    },
+    {
+      "key": "D",
+      "text": "实现我国全过程人民民主的重要制度载体"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 154,
+      "bbox": [
+        103.59300231933594,
+        1239.523193359375,
+        935.0794677734375,
+        1420.185302734375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 160,
+      "bbox": [
+        16.297000885009766,
+        985.7373046875,
+        287.2712097167969,
+        1060.3680419921875
+      ]
+    }
+  ]
+}

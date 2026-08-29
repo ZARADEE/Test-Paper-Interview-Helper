@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1123",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在社会道德建设中具有基础性作用的是",
+  "answer_markdown": "D",
+  "analysis_markdown": "法律规范，还有道德规范和纪律规范等。与\n\n道德规范和纪律规范不同，法律规范的实施\n\n出处精讲P358 考点41\n\n是由国家强制力来保障的。虽然道德规范和\n\n简析个人品德在社会道德建设中具有基础\n\n纪律规范的实施也具有一定程度的强制力,\n\n性作用。社会公德、职业道德和家庭美德建\n\n但这些强制力并不以国家强制为后盾。国家\n\n设，最终都要落实到个人品德的养成上。无\n\n强制性是法律规范区别于其他社会规范的一\n个重要特征。A 正确。\n\n论是社会的和谐有序,还是个人的人格健全,\n\n都有赖于个人品德的不断提升。D 正确,A、\n\nB、C 也是法律一般含义的内容,但不是\n\nB、C 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 165,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "D",
+      "text": "个人品德"
+    },
+    {
+      "key": "A",
+      "text": "社会公德"
+    },
+    {
+      "key": "B",
+      "text": "职业道德"
+    },
+    {
+      "key": "C",
+      "text": "家庭美德"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 165,
+      "bbox": [
+        90.38400268554688,
+        1256.757568359375,
+        830.630615234375,
+        1323.3924560546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 170,
+      "bbox": [
+        449.9289855957031,
+        1057.5169677734375,
+        856.1099243164062,
+        1322.0511474609375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0790",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“一国两制” 立足中国国情，把原则性和灵活性、现实性和长远性、一致性和差异性统一起\n\n来，凝结了中国共产党人为解决国家统一问题展现出的超凡勇气和卓越智慧，是前无古人的伟\n大创举。“一国两制”",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "第十五章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 116,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是中国特色社会主义制度创新的重要成果"
+    },
+    {
+      "key": "B",
+      "text": "是中国共产党领导人民实现祖国和平统一的伟大构想"
+    },
+    {
+      "key": "C",
+      "text": "包含了中华文化中的和合理念"
+    },
+    {
+      "key": "D",
+      "text": "为国际社会解决类似问题提供了新思路、新方案"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十五章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十五章"
+  ],
+  "source_regions": [
+    {
+      "page": 116,
+      "bbox": [
+        101.00900268554688,
+        646.9347534179688,
+        933.2379150390625,
+        867.6742553710938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 120,
+      "bbox": [
+        442.5920104980469,
+        704.8169555664062,
+        747.3036499023438,
+        776.7409057617188
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0152",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "资本家为了进一步扩大和加强对工人的剥削和统治，不断地利用无偿占有的工人创造的剩余价\n\n值来扩大自己的资本规模，这就是资本积累的本质。马克思关于资本积累的学说认为，资本积\n\n累的源泉是",
+  "answer_markdown": "B",
+  "analysis_markdown": "D 不符合题意。\n\n出处前市元〕考点71\n一2-❸",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 21,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "资本积聚和资本集中"
+    },
+    {
+      "key": "B",
+      "text": "工人创造的剩余价值"
+    },
+    {
+      "key": "C",
+      "text": "用暴力手段掠夺货币财富"
+    },
+    {
+      "key": "D",
+      "text": "资本主义扩大再生产"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 21,
+      "bbox": [
+        92.59700012207031,
+        916.4610595703125,
+        933.897705078125,
+        1078.414306640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 30,
+      "bbox": [
+        19.606000900268555,
+        61.03144836425781,
+        425.7980651855469,
+        462.3768005371094
+      ]
+    }
+  ]
+}

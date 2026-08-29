@@ -1,0 +1,46 @@
+{
+  "id": "politics-2025-020",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思在分析使用价值和价值时，“一个物可以有用，并且是劳动产品，但是不是商品。 ”下列选项中符合马克思说“一个物”的是",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "【解析】本题考查的知识点：劳动产品与商品\nABD选项都是劳动产品，但不是商品。C 选项为获取利润，而生产的农产品是商品，本题考 查的是劳动产品，所以正确答案ABD。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.379327+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中世纪农民为封建主作为代役租的粮食"
+    },
+    {
+      "key": "B",
+      "text": "农民为家人生产并用于消费的农副产品"
+    },
+    {
+      "key": "C",
+      "text": "农业资本家为获取利润而生产的农产品"
+    },
+    {
+      "key": "D",
+      "text": "封建社会时期佃农生产给地主的地租 ### 答案解析 20."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "劳动产品与商品"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "劳动产品与商品"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

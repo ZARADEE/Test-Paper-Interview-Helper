@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0758",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思主义是我们立党立国、兴党兴国的根本指导思想。坚持马克思主义在意识形态领域指导\n\n地位的制度是中国特色社会主义制度体系的一项根本制度。坚持马克思主义在意识形态领域指\n\n导地位的根本制度是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 112,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持和加强党对宣传思想文化工作全面领导的本质要求"
+    },
+    {
+      "key": "B",
+      "text": "发展社会主义先进文化的有力保障"
+    },
+    {
+      "key": "C",
+      "text": "坚持和巩固我国社会主义制度、保证我国文化建设正确方向的必然要求"
+    },
+    {
+      "key": "D",
+      "text": "历史的结论"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 112,
+      "bbox": [
+        98.18199920654297,
+        130.66448974609375,
+        931.496337890625,
+        353.28204345703125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        17.913000106811523,
+        103.55998229980469,
+        435.1140441894531,
+        494.8545227050781
+      ]
+    }
+  ]
+}

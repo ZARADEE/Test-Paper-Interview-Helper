@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-016",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2025年6月16日，联合国大会表决一项决议，宣布每年12月4日为“反对单边强制措施国际日”,其目的在于",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "国际形势与政策",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.412363+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "敦促各国不采取、不颁布、不实行任何单边经济、金融或贸易措施"
+    },
+    {
+      "key": "B",
+      "text": "促进国际社会联合起来反对美发动的单边关税战"
+    },
+    {
+      "key": "C",
+      "text": "彻底消除国际关系中的单边主义现象"
+    },
+    {
+      "key": "D",
+      "text": "重新确立指导国家间和平关系的规范和原则"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "国际形势与政策"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "国际形势与政策"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

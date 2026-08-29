@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1131",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "国家司法机关及其公职人员依照法定职权和程序适用法律处理案件的专门活动，称为",
+  "answer_markdown": "D",
+  "analysis_markdown": "出处精讲历可考点42 1 期拓展与点拨\n\n出处精讲P364 考点44 -3-0\n\n简析调整人们行为的社会规范有多种，除了",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 166,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "法律执行"
+    },
+    {
+      "key": "B",
+      "text": "法律制裁"
+    },
+    {
+      "key": "C",
+      "text": "法律遵守"
+    },
+    {
+      "key": "D",
+      "text": "法律适用"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 166,
+      "bbox": [
+        101.78399658203125,
+        886.73388671875,
+        843.4786376953125,
+        956.8063354492188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 171,
+      "bbox": [
+        433.697998046875,
+        1040.2288818359375,
+        854.7420654296875,
+        1244.3004150390625
+      ]
+    }
+  ]
+}

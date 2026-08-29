@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0487",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "大革命时期，毛泽东关于新民主主义革命的基本思想的提出，标志着毛泽东思想开始萌芽。毛泽\n\n东关于新民主主义革命的基本思想的内容是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "时代条件赋予其鲜明的中国特色，是科学社\n\n出处葡布直考点3 -1\n\n会主义理论逻辑和中国社会发展历史逻辑的\n\n简析a、b、c 正确。科学发展观创造性地回\n\n辩证统一。A、B、C、D 全选。",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 74,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "分析了中国社会各阶级在革命中的地位和作用"
+    },
+    {
+      "key": "B",
+      "text": "明确指出无产阶级领导农民斗争的极端重要性"
+    },
+    {
+      "key": "C",
+      "text": "解决了无产阶级领导权的中心问题，即如何领导农民斗争的问题"
+    },
+    {
+      "key": "D",
+      "text": "提出了“工农武装割据” 的思想"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 74,
+      "bbox": [
+        99.83200073242188,
+        172.35606384277344,
+        932.8359985351562,
+        364.0848388671875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 87,
+      "bbox": [
+        435.2239990234375,
+        798.6173706054688,
+        752.6429443359375,
+        870.5901489257812
+      ]
+    }
+  ]
+}

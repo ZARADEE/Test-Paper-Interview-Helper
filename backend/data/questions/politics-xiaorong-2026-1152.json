@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1152",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我国《立法法》明文规定，限制公民人身和财产权利的法律必须由国家立法机关制定，行政机\n\n关即政府不得制定限制公民人身或财产权利的法规。党的十八届四中全会决定指出，行政机关\n\n要“坚持法无授权不得为”，不得通过行政法规减损公民的权利。这体现的法律义务的特点是",
+  "answer_markdown": "C",
+  "analysis_markdown": "的是法律必须被信仰，否则形同虚设。A 正\n\n出处精都可污) 考点52 -2-(5)-0\n\n确。B、C、D 涉及的是遵守法律、服从法律和",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 168,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "法律义务是历史的"
+    },
+    {
+      "key": "B",
+      "text": "法律义务源于现实需要"
+    },
+    {
+      "key": "C",
+      "text": "法律义务必须依法设定"
+    },
+    {
+      "key": "D",
+      "text": "法律义务可能发生变化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        102.71499633789062,
+        799.5560913085938,
+        935.7398681640625,
+        959.18359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 174,
+      "bbox": [
+        15.46500015258789,
+        505.3221740722656,
+        422.57904052734375,
+        735.2545776367188
+      ]
+    }
+  ]
+}

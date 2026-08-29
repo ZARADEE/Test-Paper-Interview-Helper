@@ -1,0 +1,58 @@
+{
+  "id": "question-4c5ae40587",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(8) 设于(工)在(一m,0］上连续，且满足\n［(产一分)d/ = —— £ln(l + / ),\nJ o\n1十工 /\n求函数/&)及其极值.",
+  "answer_markdown": "",
+  "analysis_markdown": "(8)解\n3工2\n-a-2)=\n即-*\nJ，\nT2\ni\n/(u)du = ——\n—7 — -^\"lnd + Jr2 )・\no\n1十亢/\n1 ' f(u)du = -— — £ln(l — £)，两边同时对 t 求导，得\n令t =— x2，得\no\n1 — t L\n/(0 =门 2、2 —亍丄-=(f + [2 9 £ W\n(1 — tr 1 — t (1 — 0\n即 3 =\ne £ o.\n由f 3 = / T [3，知分=一3为(一°° ,0]上的唯一驻点，且可判别当-r = —3时,/(x)\n取得极小值/(-3)",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 28,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.445726+00:00",
+  "updated_at": "2026-08-23T12:39:51.006024+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 28,
+      "bbox": [
+        24.0,
+        363.95819091796875,
+        482.3999938964844,
+        411.48443603515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 66,
+      "bbox": [
+        24.0,
+        661.619140625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 67,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        197.743896484375
+      ]
+    }
+  ]
+}

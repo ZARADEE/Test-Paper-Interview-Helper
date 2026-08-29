@@ -1,0 +1,67 @@
+{
+  "id": "question-39d18ce089",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设3阶实对称矩阵A = (ay)3xs有特征值右=入2=2,且工s=l,a = (1,0,—2)丁\n1=1\n是方程组A* x = 4a的解向量.\n(I )求矩阵A；\n(D)求正交变换x = ©，将二次型于(心皿，如)=xTAx化为标准形.\n2 '\n'(&+ 3)^1 + x2 + 2口 = °，",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解 (I)由已知A*a ==4a,等式两边同时左乘A,得44 * a = 4Aa,即\nI A | a = 4Aa,\n①\n故加_ 厶丨a.又\nS = 1 = A/ =右 + 入2 +入3 = 2 + 2 + 入3 9\n:=1\ni= 1\n得入3 = — 3,于是有丨 A | = A1A2A3 = — 12.\n由①式，得Aa =— 3a,入3 =— 3对应的特征向量为a3 = a= (1,0, — 2)T.\n由A是实对称矩阵，令入1 = & = 2对应的特征向量为x =(Q ,x2 ,m)T,则x1 a3 = 0,\n即 xx — 2jc3 = 0,解得 a】=(0,1,0)T,a2 — (2,0,l)T.\n由 A(cti iU2,1X3) = (Aicti 9X2OI2，入3CC3)，得\nA = (AiOi ,A2a2，入3。3)((/1 ,a2 »a3)_1\n‘0\n-31\n〔°\n-1\n2 '\n=\n【0\n6 J |o\n—2,\n-2\n（II）由于ai ,a2已正交，所以只需将ai ,a2 ,a3单位化，得\nv 一\n一 1 v 一\n一 If） v 一 a：3 一 1 n\n71 - II II —旦‘負_而可—石忖'人_而可_希|」2 .\n令Q=（?1艸2 ,%）,为正交矩阵,X = Qy为所求正交变换，标准形为2拜+2疋一3鸩.",
+  "chapter": "二次型",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 82,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.483945+00:00",
+  "updated_at": "2026-08-23T12:39:51.853259+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "向量",
+    "方程组"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        24.0,
+        620.32958984375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 83,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        68.69645690917969
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 231,
+      "bbox": [
+        24.0,
+        632.0810546875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 232,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        236.81773376464844
+      ]
+    }
+  ]
+}

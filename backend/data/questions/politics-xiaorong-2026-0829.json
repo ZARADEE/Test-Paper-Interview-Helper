@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0829",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "太平天国农民起义失败的根本原因是",
+  "answer_markdown": "A",
+  "analysis_markdown": "式出版)，他用“物竞天择”“适者生存”的社\n\n出处精1T庆福考点12 -1-(2)\n\n会进化论思想，为这种危机意识和民族意识",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 124,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "农民阶级自身的局限性"
+    },
+    {
+      "key": "B",
+      "text": "军事战略失误导致北伐失利"
+    },
+    {
+      "key": "C",
+      "text": "遭到中外反动势力的联合绞杀"
+    },
+    {
+      "key": "D",
+      "text": "领导集团的内部斗争"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 124,
+      "bbox": [
+        105.0979995727539,
+        121.63233184814453,
+        794.2750244140625,
+        223.63414001464844
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 128,
+      "bbox": [
+        19.927000045776367,
+        994.0115356445312,
+        426.8193359375,
+        1324.24609375
+      ]
+    },
+    {
+      "page": 128,
+      "bbox": [
+        446.4010009765625,
+        31.774002075195312,
+        855.2880249023438,
+        144.88394165039062
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0529",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "三大改造时，初级形式的国家资本主义表现为",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "满足人民日益增长的美好生活需要的必然要\n\n出处精讲P179\n考点40 -1-0\n点显要坚持有利于国有资产保值增值、有\n\n求” 出自习近平主席在博鳌亚洲论坛2018年\n\n年会开幕式上的主旨演讲。\n\n利于提高国有经济竞争力、有利于放大国有",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 79,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "委托加工"
+    },
+    {
+      "key": "B",
+      "text": "计划订货"
+    },
+    {
+      "key": "C",
+      "text": "统购统销"
+    },
+    {
+      "key": "D",
+      "text": "经销代销"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        88.27899932861328,
+        1193.182373046875,
+        835.3741455078125,
+        1265.31591796875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        16.368999481201172,
+        609.11083984375,
+        423.79449462890625,
+        817.76220703125
+      ]
+    }
+  ]
+}

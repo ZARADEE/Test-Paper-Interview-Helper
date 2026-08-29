@@ -1,0 +1,44 @@
+{
+  "id": "politics-2013-032",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“可上九天揽月，可下五洋捉鳖”。2012年6月24日，在航天员的手动操控下，我国“神舟九号”宇宙飞船与“天宫一号”交会对接成功，向未来建设宇宙空间站迈出坚实一步。就在同一天，我国的“蛟龙号”载人潜水器成功下潜7020米的深度，再次创造历史记录。这两项成就的里程碑意义在于：",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "【解析】国内时事。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.471688+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "完成了“近地空间长期载人飞行”和“南海深部计划”"
+    },
+    {
+      "key": "B",
+      "text": "丰富了人类认识和开发宇宙的梦想和实践"
+    },
+    {
+      "key": "C",
+      "text": "为中国在太空和海底参与国际合体提供了更多机会"
+    },
+    {
+      "key": "D",
+      "text": "为中国在太空和大洋这两个尚未充分利用空间的活动创造了新的可能性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

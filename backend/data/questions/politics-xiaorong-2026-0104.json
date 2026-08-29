@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0104",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "恩格斯在《路德维希•费尔巴哈和德国古典哲学的终结》中明确指出，“在社会历史领域内进\n\n行活动的，是具有意识的、经过思虑或凭激情行动的、追求某种目的的人；任何事情的发生都\n\n不是没有自觉的意图，没有预期的目的的。” 这说明",
+  "answer_markdown": "C",
+  "analysis_markdown": "学技术“日益成为生产发展的决定性\n\n因素” 是对的，但不能说科学技术“是社\n\n出处厨T城考点57 -2\n\n会历史发展的决定力量”。\n\n简析C 正确。A 是唯心史观的观点，不符",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 16,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会历史发展是人主观意志的结果"
+    },
+    {
+      "key": "B",
+      "text": "社会发展的过程同自然界的发展过程是一样的"
+    },
+    {
+      "key": "C",
+      "text": "历史是无数个追求着自己目的的人的活动的合力"
+    },
+    {
+      "key": "D",
+      "text": "社会发展总是符合人们的预期的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 16,
+      "bbox": [
+        104.40899658203125,
+        349.6148376464844,
+        936.9717407226562,
+        570.0410766601562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 21,
+      "bbox": [
+        436.06500244140625,
+        26.139671325683594,
+        848.1132202148438,
+        563.953369140625
+      ]
+    }
+  ]
+}

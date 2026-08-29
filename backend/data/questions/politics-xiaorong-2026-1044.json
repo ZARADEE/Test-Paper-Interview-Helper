@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1044",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会主义革命和建设时期，党面临的主要任务是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处丽n丽a 考点tips\n\n革完成前我国社会的主要矛盾，这个主要矛\n\n盾在1952 年底土地改革完成后就解决了。",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 153,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "实现从新民主主义到社会主义的转变"
+    },
+    {
+      "key": "B",
+      "text": "进行社会主义革命"
+    },
+    {
+      "key": "C",
+      "text": "推进社会主义建设"
+    },
+    {
+      "key": "D",
+      "text": "为实现中华民族伟大复兴奠定根本政治前提和制度基础"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 153,
+      "bbox": [
+        89.4800033569336,
+        778.9903564453125,
+        621.6609497070312,
+        935.824951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 159,
+      "bbox": [
+        6.517999649047852,
+        881.472900390625,
+        304.8314514160156,
+        955.7990112304688
+      ]
+    }
+  ]
+}

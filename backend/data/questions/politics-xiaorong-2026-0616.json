@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0616",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新时代我国民主政治领域具有重大创新意义的标志性成果是",
+  "answer_markdown": "D",
+  "analysis_markdown": "非直虹我们要建设的教育强国,是中国特色社\n\n出处精讲百页〕考点55 -1\n\n会主义教育强国,必须以坚持党对教育事业\n\n置近全过程人民民主植根于我国社会主义\n\n的全面领导为根本保证，以立德树人为根本\n\n任务，以为党育人、为国育才为根本目标，以\n\n民主的长期实践，是中国特色社会主义民主\n\n服务中华民族伟大复兴为重要使命，以教育\n\n政治理论和实践的重大成果，是新时代我国\n\n理念、体系、制度、内容、方法、治理现代化为\n\n民主政治领域具有重大创新意义的标志性成\n\n果。D 正确o\n\n基本路径，以支撑引领中国式现代化为核心",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 92,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "协商民主"
+    },
+    {
+      "key": "B",
+      "text": "中国特色社会主义政治发展道路"
+    },
+    {
+      "key": "C",
+      "text": "党内民主"
+    },
+    {
+      "key": "D",
+      "text": "全过程人民民主"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        109.84200286865234,
+        1258.316162109375,
+        836.0087890625,
+        1356.2103271484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        2.447999954223633,
+        675.2796020507812,
+        422.1944885253906,
+        975.810546875
+      ]
+    }
+  ]
+}

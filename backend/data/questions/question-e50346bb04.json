@@ -1,0 +1,50 @@
+{
+  "id": "question-e50346bb04",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(8) 设 fQx) ,g(z)在(0,+oo)内有连续导数，且\n= yf^xy^Ax + zg(zy)dy.\n(I )若存在函数u{x,y}，使得du — V,求f(xy') — g (巧)；\n(II)若 /(^)=屛(z),求函数 u{x,y},使 du = V.",
+  "answer_markdown": "",
+  "analysis_markdown": "（8）解\n(I )由血=v,/(^),g(x)有连续导数，得\n—=舟 Rg(巧)］,\n即\n(巧)+ yf(XJ/) • X = gCxy) + jeg'^xy} • y.\n令弓=/>0,得 y(t)+1d［y)］ = g®+1a［豊⑺］,\ndt\ndt\n即沁”⑷匚占⑺］=—［〃)—g(/)］,当ya) HgU)时，变形为巴护?「弓?］=—生\ndt\nf(<t) — g{t)\nt\n(Co 工 0),\n积分得 — g(t)=—\n当= g(t)时，即/(Z) -gU) = y也成立，故\nf^y)-g(xy) = —(C 为任意常数).\njcy\n(U)当于(工)=/(z)，由(I)有\nf {jcy^Ax + 工［卩/ (巧)- —Jdj/\ndzz =\ny(p\nf\n/\nC\n=yep (gjOdz + xcp (巧)dy — 一Ay\ny\n=d［伞(巧)］—Cd(ln I p I ) = d［爭(巧)—Cln | 夕 | ］，\n故\n\"（工,夕）=<p5）— Cln | y | + Co （Co ,C 为任意常数）.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.470862+00:00",
+  "updated_at": "2026-08-23T12:39:51.550245+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        24.0,
+        572.0853881835938,
+        482.3999938964844,
+        615.2760009765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 170,
+      "bbox": [
+        24.0,
+        427.050048828125,
+        482.3999938964844,
+        661.9176025390625
+      ]
+    }
+  ]
+}

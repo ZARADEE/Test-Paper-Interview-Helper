@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0493",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "革命军队建设和军事战略的理论是毛泽东思想的主要内容之一，是毛泽东对马克思列宁主义军\n\n事理论极为杰出的贡献。毛泽东系统解决了如何把以农民为主要成分的革命军队建设成为一支\n\n无产阶级性质的、具有严格纪律的、同人民群众保持亲密联系的新型人民军队的问题，解决了",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "答了新形势下“实现什么样的发展、怎样发展”\n\n这一重大问题,D 不符合题意。\n\n出处精覆尸函］考点8 -IJ",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 75,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "如何开展人民革命战争的问题"
+    },
+    {
+      "key": "B",
+      "text": "应当实行什么样的战略战术的问题"
+    },
+    {
+      "key": "C",
+      "text": "如何巩固国防的问题"
+    },
+    {
+      "key": "D",
+      "text": "如何建成世界一流军队的问题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 75,
+      "bbox": [
+        88.8740005493164,
+        118.85379028320312,
+        928.8190307617188,
+        279.85205078125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 88,
+      "bbox": [
+        442.9339904785156,
+        36.52257537841797,
+        800.0723876953125,
+        113.99398040771484
+      ]
+    }
+  ]
+}

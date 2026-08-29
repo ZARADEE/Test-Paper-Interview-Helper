@@ -1,0 +1,57 @@
+{
+  "id": "question-b8d1cdb4ca",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)判别下列级数的敛散性：\n(1)£ 厂嘗 \\“；\n(U)£ 4(a>0\">0)；\n\"=1 (/j + — )\n\"i \"\n(HI)另 C”，\n；\n(IV)Y (川一a卅)(a > 0);\n\"=i I yi+n=i\n(V)£[+-ln(l + +)];\n(VI)g 临—Jl + £)(a>0).",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴解 （I）由\nlim\nn-*oo\n,1 \\\"\nn H-----n /\n故级数发散（根据级数收敛的必要条件）.\nnp庐7\n（U）用比值法，\nlim /°亠\n” f 8 （ 77 十 1 ）卩\n当0 <a<l时，级数收敛；当a > 1时，级数发散；当a = 1时，工 g为p级数.当\n0<^<1时，级数发散；当p>l时，级数收敛.\n（in）用比较审敛法，\n1 ＜\n] =]\n+ h3 dx\no\na/?- djf\n丁\no\n而£ 屯收敛，故级数收敛.\nn=\\ Tl 2\n（W ）a万—a用=（2円（a万—丹—1） = a占—\n—1]\nIn a\nIn a /\n、\n/z(n + l)\n八\n丿，\nn\n而工；哼收敛，由比较审敛法，知原级数收敛.\n丄_丄\nn= 1\n\"\n(V)由泰勒公式，得\n丄_ln(l +丄\nn\nn\nn 2\n占+。\n=2^ + °\nn\n/. . 1\n—-lnfl + —\n即 lim-\n=1,由比较审敛法，知原级数收敛.\nn-*oo\n\\ n\n~T~\n2n2\noo\noo\n【注】比较审敛法的极限形式：设有正项级数Y\nn— 1\nn—1\noo\noo\n0 < I <+ 00, U “”与〉2 S的敛散性相同，\nn— 1\nn—1\noo\noo\nlim — =\n/ = 0,当工vn收敛时9 丫 un也收敛9\nn-*Qo X) n\nn—1\n”h]\noo\noo\nI =+°°,当A Q”发散时，工\"”也发散.\nn= 1\nn=l\n利用其判别级数的敛散性，关键是找同阶或等价无穷小.\n(VI) 公式，得\n血-Ji +丄=\nIn a\ne_\n1 +丄\nn\nV n\n=1 + —In a + 土 ■\n•丄+\n+待叭十2) +\n0 右)•\n占+。\nn\n=(lna_T\nn\n当Ina —* = 0,即a =辰时，级数收敛；\nI ane'\n当In a — y yt 0,即a =辰时,级数发散.",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 50,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.460149+00:00",
+  "updated_at": "2026-08-23T12:39:51.417966+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 50,
+      "bbox": [
+        24.0,
+        549.871826171875,
+        482.3999938964844,
+        677.718994140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 138,
+      "bbox": [
+        24.0,
+        479.1407775878906,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 139,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        399.5177001953125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0714",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "公有制经济是全体人民的宝贵财富，公有制主体地位不能动摇，国有经济主导作用不能动摇,\n\n这是我国各族人民共享发展成果的制度性保证，也是巩固党的执政地位、坚持我国社会主义制\n\n度的重要保证。国有企业是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "满足人民日益增长的美好生活需要的必然要\n\n出处精讲P179\n考点40 -1-0\n点显要坚持有利于国有资产保值增值、有\n\n求” 出自习近平主席在博鳌亚洲论坛2018年\n\n年会开幕式上的主旨演讲。\n\n利于提高国有经济竞争力、有利于放大国有",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 105,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国特色社会主义的重要物质基础"
+    },
+    {
+      "key": "B",
+      "text": "中国特色社会主义的政治基础"
+    },
+    {
+      "key": "C",
+      "text": "我们党执政兴国的重要支柱"
+    },
+    {
+      "key": "D",
+      "text": "我们党执政兴国的依靠力量"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 105,
+      "bbox": [
+        88.76000213623047,
+        740.1473388671875,
+        931.7860717773438,
+        897.1349487304688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 113,
+      "bbox": [
+        433.968994140625,
+        307.15960693359375,
+        847.0880737304688,
+        582.6397705078125
+      ]
+    }
+  ]
+}

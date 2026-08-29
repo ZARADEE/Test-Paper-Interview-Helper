@@ -1,0 +1,72 @@
+{
+  "id": "question-2a58deca9f",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设卩，刃是一阶线性非齐次微分方程j/ + PQ)y = QQ)的两个解，若常数入，幻使\n得入夕1 +如2是该方程的解，心1 — 口2是对应的齐次微分方程的解，则(\n)•\n\n1 _ 1\n» _ 2 2",
+  "answer_markdown": "B",
+  "analysis_markdown": "解 由Aj»i + fiy2是：/ +卩(攵)夕=Q(h)的解，知\n(心 1 + 倒 2 )' + P(Z)(心 1 + 〃夕2)= Q(z),\n即\naHj// + P(z)jh］ + /jLy2 + PS)%］ = Q(z),\n即(入+ “)Q(z) = Q(h)(Q(z)工 0),故入+ 戶=1.\n由心1 一〃夕2是/ + P(z)y = 0的解，知\n(小1 一倒2)' + P(z)(心 1 一倒2)= 0,\n即\n入［)1' +\n— 〃［必‘十卩(広)夕2］ = 0，\n即(A — p)Q(H)= 0(Q(x)工0),故入一〃 =0,解得 A =\n= 土，故 E 正确.\n【注】 设；yi ,力是yr +\n= Q(a?)的解，则\n① 伽夕1 + k2y2是非齐次微分方程y' + P(x)y — QO)的解U尿+爲=1;\n②\n+ k2yz是对应齐次微分方程y + P(x)y = 0的解U局+爲=0.\n对n阶线性微分方程有类似结果.",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 46,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.457941+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [
+    {
+      "key": "B",
+      "text": "A ="
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 46,
+      "bbox": [
+        24.0,
+        659.414306640625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 47,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 129,
+      "bbox": [
+        24.0,
+        521.7799072265625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 130,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

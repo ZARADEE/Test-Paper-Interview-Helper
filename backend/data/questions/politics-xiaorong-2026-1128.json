@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-1128",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "决定法律本质、内容和发展方向的根本因素是",
+  "answer_markdown": "A",
+  "analysis_markdown": "服;到慎独自律的方法,强调在“隐”和“微”\n\n上下功夫，是对个人内心深处比较隐蔽的意\n\n出处丽户殉考点42 -1-0\n\n识、情绪进行管理和自律的一种修养方式；",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 166,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "生产方式"
+    },
+    {
+      "key": "B",
+      "text": "生产力的发展水平"
+    },
+    {
+      "key": "C",
+      "text": "文化的发展程度"
+    },
+    {
+      "key": "D",
+      "text": "人的素质"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 166,
+      "bbox": [
+        102.69400024414062,
+        640.1356811523438,
+        712.2498168945312,
+        739.9823608398438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 171,
+      "bbox": [
+        3.0240001678466797,
+        1209.737060546875,
+        412.8453063964844,
+        1312.360595703125
+      ]
+    },
+    {
+      "page": 171,
+      "bbox": [
+        466.1610107421875,
+        28.953781127929688,
+        851.4790649414062,
+        544.0821533203125
+      ]
+    }
+  ]
+}

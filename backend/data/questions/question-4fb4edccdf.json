@@ -1,0 +1,62 @@
+{
+  "id": "question-4fb4edccdf",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 下列选项中(C为任意常数)，是微分方程^ + - = 0的通解的是(\n).",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴A.\n解 3^ + - = °为可分离变量方程，故曲+工吐=0,积分得/ +夕2 = G，G 3 0,\nax y\n即X2 + y2 = & ,故A正确.",
+  "chapter": "微分方程",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 45,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.456828+00:00",
+  "updated_at": "2026-08-23T12:39:51.318776+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "x2 + y2 C2 B. x2 一 y2 = C2"
+    },
+    {
+      "key": "C",
+      "text": "jc2 y2 = C"
+    },
+    {
+      "key": "D",
+      "text": "x2 一 y2 = C"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分方程",
+    "通解"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 45,
+      "bbox": [
+        24.0,
+        188.3217315673828,
+        482.3999938964844,
+        229.84500122070312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 124,
+      "bbox": [
+        24.0,
+        158.3084259033203,
+        482.3999938964844,
+        205.77456665039062
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "question-1007404b4a",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "（5）设工妬（“” > 0）收敛，则下列结论正确的是（\n）.\nn= 1\nOO\nOO\n\n±77\nU\nUn\nLOO",
+  "answer_markdown": "A",
+  "analysis_markdown": "解 由> 0）收敛，知limu„ = 0,故当n充分大时，| \"” | = \"” < 1（有界性），\n”=1\n”—\n则谓 < “”，由比较审敛法，可知£尤收敛.\nb选项：取u„ = 4,贝y丫\n= 22 —发散.\n\"\nn= 1\nn= 1 \"\nC与D不正确是由于比值法和根值法的条件是充分非必要的.",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 49,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.460149+00:00",
+  "updated_at": "2026-08-23T12:39:51.403540+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "工；谄收敛 B. V 收敛 C. lim < 1 D. lim < 1"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 49,
+      "bbox": [
+        24.0,
+        636.0579833984375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 50,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        62.19538879394531
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 137,
+      "bbox": [
+        24.0,
+        256.3223571777344,
+        482.3999938964844,
+        359.0262451171875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "question-86b42951cd",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设平面兀与点P(l,2,l)的距离为1,且过直线1：[3\"：幻+ 2 ： 0,求平面兀的\n\\x — Ly 一 z + b =。9\n方程.\njx* I 5 a/ -1~ n ~~~ 0\n[,-'且与平面心山一4夕一血+ 12 = 0的夹角为\njc — z + 4 = 0,\nI\n45°,求平面7T的方程.",
+  "answer_markdown": "",
+  "analysis_markdown": "(2) 解 过直线L的平面束方程为\n(3jc — 2j/ + 2) + A(j： — 2j/ — z + 6) = 0,\n即\n(3+入)工 一 (2 + 2X) y —入n + (2 + 6/O =0.\n由已，\n& — I (3+入)一2(2 +2入)一入+ (2 + 6入)| _ ]\n____________y(3+A)2 + (2 + 2A)2+A2\n即| 2入+ 1 |= J6入2 + 14入+ 13 9化简得\n入$ + 5入 + 6 = 0 9\n解得入=—2,A =—3,故所求平面兀的方程为\nz + 2y + 2n — 10 = 0 或 4歹 + 3n — 16 = 0.\n【注】 求过直线的平面方程，常利用平面束方程进行求解.",
+  "chapter": "空间解析几何",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 33,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.448957+00:00",
+  "updated_at": "2026-08-23T12:39:51.097161+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "空间解析几何"
+  ],
+  "tags": [
+    "高等数学",
+    "空间解析几何"
+  ],
+  "source_regions": [
+    {
+      "page": 33,
+      "bbox": [
+        24.0,
+        217.76934814453125,
+        482.3999938964844,
+        310.6678466796875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 80,
+      "bbox": [
+        24.0,
+        644.1126098632812,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 81,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        166.9011993408203
+      ]
+    }
+  ]
+}

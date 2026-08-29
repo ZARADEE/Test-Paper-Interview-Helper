@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0826",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "甲午战争后，严复翻译的《天演论》所宣传的重要思想是",
+  "answer_markdown": "C",
+  "analysis_markdown": "《资政新篇》主张向西方学习先进的制\n\n度，主张在中国发展资本主义，而《天朝田亩\n\n出处精进回三丽］考点9 -3-\n\n制度》没有这些思想,A、B 错误。《天朝田亩\n\n简析中国在甲午战争中的失败，对中国人的\n\n制度》中的平分土地方案即使在太平军占领\n\n刺激极大。接踵而来的瓜分狂潮，更使中华\n\n地区也并未付诸实施,《资政新篇》限于当时\n\n民族的各阶级、各阶层普遍产生了亡国灭种\n\n的历史条件，也未能付诸实施,C 错误。\n\n的危机感。严复翻译了《天演论》(1898 年正",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 123,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "“师夷长技以制夷”"
+    },
+    {
+      "key": "B",
+      "text": "“中学为体，西学为用”"
+    },
+    {
+      "key": "C",
+      "text": "“物竞天择，适者生存”"
+    },
+    {
+      "key": "D",
+      "text": "“天下兴亡，匹夫有责”"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 123,
+      "bbox": [
+        83.7770004272461,
+        1019.045166015625,
+        756.5433349609375,
+        1115.9149169921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 127,
+      "bbox": [
+        433.8789978027344,
+        1206.634033203125,
+        781.93359375,
+        1319.298095703125
+      ]
+    }
+  ]
+}

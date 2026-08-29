@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1073",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十九大是在全面建成小康社会决胜阶段、中国特色社会主义进入新时代的关键时期召开的\n\n一次十分重要的大会，是一次不忘初心、牢记使命、高举旗帜、团结奋进的大会。党的十九大\n\n的主要贡献有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "的思想路线，实现了党的历史上具有深远\n\n意义的伟大转折。\n\n出处精沛甬过考点94\n\n1981年6月，党的十一届六中全会通过的",
+  "chapter": "第十章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 157,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "确立习近平新时代中国特色社会主义思想的指导地位"
+    },
+    {
+      "key": "B",
+      "text": "作出中国特色社会主义进入新时代、我国社会主要矛盾发生转化的重大政治论断"
+    },
+    {
+      "key": "C",
+      "text": "确定决胜全面建成小康社会、开启全面建设社会主义现代化国家新征程的目标"
+    },
+    {
+      "key": "D",
+      "text": "对新时代推进中国特色社会主义伟大事业和党的建设伟大工程作出全面部署"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第十章"
+  ],
+  "source_regions": [
+    {
+      "page": 157,
+      "bbox": [
+        85.50900268554688,
+        1205.57958984375,
+        925.7730712890625,
+        1409.025390625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 163,
+      "bbox": [
+        438.4639892578125,
+        156.881591796875,
+        711.6336059570312,
+        232.3511199951172
+      ]
+    }
+  ]
+}

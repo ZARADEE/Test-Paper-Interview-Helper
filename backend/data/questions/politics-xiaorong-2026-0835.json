@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0835",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "近代中国资产阶级思想与封建主义思想的第一次正面交锋是",
+  "answer_markdown": "A",
+  "analysis_markdown": "国同盟会。这是近代中国第一个领导资产阶\n\n出处精讲市风考点15 -2-0\n\n级革命的全国性政党。同盟会的成立，标志\n\n\f\n虏，恢复中华”两项内容。一是要以革命手段\n\n着中国资产阶级民主革命进入了一个新的阶\n\n段。\nA 正确。\n\n推翻清朝政府，改变它一贯推行的民族歧视",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 124,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "维新派与守旧派的论战"
+    },
+    {
+      "key": "B",
+      "text": "洋务派与顽固派的论战"
+    },
+    {
+      "key": "C",
+      "text": "改良派与革命派的论战"
+    },
+    {
+      "key": "D",
+      "text": "革命派与洋务派的论战"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 124,
+      "bbox": [
+        107.40899658203125,
+        677.3313598632812,
+        759.21533203125,
+        781.2055053710938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 129,
+      "bbox": [
+        7.333000183105469,
+        509.311279296875,
+        427.22906494140625,
+        785.2285766601562
+      ]
+    }
+  ]
+}

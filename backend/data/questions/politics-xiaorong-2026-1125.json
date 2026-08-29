@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1125",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "东汉安帝时，昌邑县令王密为感谢杨震的提挈之恩，夜里怀金十斤馈赠，被杨震拒绝。王密说:\n“暮夜无知者。” 杨震答道：“天知，神知，我知，子知。何谓无知!” 王密听后“愧而出”。个\n人加强道德修养，应借鉴历史上思想家们所提出的各种积极有效的道德修养方法，并结合当今\n社会发展的需要和当代人道德修养的实践经验，身体力行。这个故事告诉我们，个人加强道德\n修养，要采取",
+  "answer_markdown": "C",
+  "analysis_markdown": "动，是法律运行的起始性和关键性环节。在\n\n出处精讲F359 考点41 -2-（1）-电\n\n狭义上，法律执行（执法）是指国家行政机关\n\n及其公职人员执行法律的活动，也被称为行",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 166,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "学思并重的方法"
+    },
+    {
+      "key": "B",
+      "text": "省察克治的方法"
+    },
+    {
+      "key": "C",
+      "text": "慎独自律的方法"
+    },
+    {
+      "key": "D",
+      "text": "积善成德的方法"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 166,
+      "bbox": [
+        104.13200378417969,
+        124.12887573242188,
+        936.6912231445312,
+        317.8634033203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 171,
+      "bbox": [
+        7.013999938964844,
+        283.6748352050781,
+        425.6809997558594,
+        821.7451171875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "question-e50c486712",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(5)设可导函数于Q)满足limS = 1,求极限\nlO JC\n./2 _工2\n/2, [.f( Vy2)+ 2;y] djy\nlim\n—o+\n/工0,\n求函数F(t)的表达式.",
+  "answer_markdown": "",
+  "analysis_markdown": "(5)解\n_ /2_工2 [/( Vy2)+ 2夕]旳\n’ /( ^2+y)dj/\n=2\njc2 + y2 = u £\nuflu) d巩\na/况2 —才\n故\n原式=lim ------- ;\n—o+\n2p dx\n....1 - -d.\n0 J & — g2\nuf\n0 .\n/3\nufJ乱\n应二亡 =2 lim\n. J 0\n.\n=lim--------\n—o+\n—o+\nuf (zz)dw\no________\n?3\n兀Hm空2 = A\n拐3严3-\n=7t lim\n—o+",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 43,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.455396+00:00",
+  "updated_at": "2026-08-23T12:39:51.293407+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        24.0,
+        261.13861083984375,
+        482.3999938964844,
+        348.16510009765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 116,
+      "bbox": [
+        24.0,
+        604.0167846679688,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 117,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        173.09393310546875
+      ]
+    }
+  ]
+}

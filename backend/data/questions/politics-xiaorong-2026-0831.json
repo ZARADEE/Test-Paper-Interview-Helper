@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0831",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "洋务派所标榜的洋务运动的目标是",
+  "answer_markdown": "A",
+  "analysis_markdown": "出处精讲透丽; 考点13 -2-g\n\n简析要不要兴民权、设议院,实行君主立宪\n\n*直近“自强”“求富”是洋务运动的目标。\n\n是维新派与守旧派论战的问题之一。维新派\n\n认为只有君主立宪制度才是当时中国理想的\n\nA 正确。“中学为体，西学为用”是洋务派兴\n\n政治方案，兴民权、设议院,实行君主立宪，才\n\n办洋务事业的指导思想;“师夷长技以制夷”\n\n是“治国之大经”。D 正确。A、B、C 都是资产\n\n是魏源在《海国图志》中提出的;“振兴中华”\n\n阶级革命派与改良派论战中革命派的观点。\n\n是孙中山提出的。B、C、D 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 124,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "“自强”“求富”"
+    },
+    {
+      "key": "B",
+      "text": "“师夷长技以制夷”"
+    },
+    {
+      "key": "C",
+      "text": "“中学为体，西学为用”"
+    },
+    {
+      "key": "D",
+      "text": "“振兴中华”"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 124,
+      "bbox": [
+        106.45500183105469,
+        306.2994079589844,
+        734.248046875,
+        410.4055480957031
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 128,
+      "bbox": [
+        443.8210144042969,
+        725.6813354492188,
+        785.9541625976562,
+        804.5092163085938
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0229",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“天下难事，必作于易；天下大事，必作于细。” 下列选项中与老子的这句话蕴含的哲理相似\n\n的是",
+  "answer_markdown": "AB",
+  "analysis_markdown": "点拨人的认识的一般规律就是由认识个别\n\n出处精游脸布1 考点17\n\n上升到认识一般，再由一般到个别的辩证发\n\n展过程。\n\n简析题干反映的是量变质变规律原理, A、",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 32,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "“不积度步，无以至千里；不积细流，无以成江海”"
+    },
+    {
+      "key": "B",
+      "text": "“善不积不足以成名，恶不积不足以灭身”"
+    },
+    {
+      "key": "C",
+      "text": "“掌握火候”“过犹不及”"
+    },
+    {
+      "key": "D",
+      "text": "“见善如不及，见不善如探汤”"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        104.75800323486328,
+        805.25341796875,
+        936.1240844726562,
+        993.2639770507812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        435.3949890136719,
+        510.16986083984375,
+        856.7266845703125,
+        721.1754150390625
+      ]
+    }
+  ]
+}

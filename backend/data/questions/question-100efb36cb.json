@@ -1,0 +1,69 @@
+{
+  "id": "question-100efb36cb",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)设当z — 0时,\na(z) = tan x 一 sin 工,仔(工)=\n+ j? — J\\ —工'，y(z)= j\nsin tAt\n都是无穷小，将它们关于鼻的阶数从低到高排列，正确的顺序为(\n).",
+  "answer_markdown": "D",
+  "analysis_markdown": "解 当夂-> 0时，\n/?(x) = %/1 + JC2\n2/\n______ _______ 才\n%/] +___+ a/1 — 3?\n无3\na(z) = tan x — sin z = (1 — cos j;)tan ~\n,\nfl—COS X\nI 1—COS X\ny(j?) = I sin tdt =一 cos t\n、\n(1 一 cos x)2\n=1 — cos( 1 — cos x)〜----- ------〜—,8\n故D正确.",
+  "chapter": "函数、极限与连续",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 10,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.436189+00:00",
+  "updated_at": "2026-08-29T13:35:34.333306+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [
+    {
+      "key": "A",
+      "text": "a(j?)，B(jc) ,yCj：)"
+    },
+    {
+      "key": "B",
+      "text": "a(z),/(je) ,0(z)"
+    },
+    {
+      "key": "C",
+      "text": "y(je) ,a(H),0(工)"
+    },
+    {
+      "key": "D",
+      "text": ",a(H),y(z)"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "无穷小",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 10,
+      "bbox": [
+        24.0,
+        515.1854248046875,
+        482.3999938964844,
+        596.8070068359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        35.75,
+        525.1148681640625,
+        367.75,
+        697.114013671875
+      ]
+    }
+  ]
+}

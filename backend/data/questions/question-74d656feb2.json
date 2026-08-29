@@ -1,0 +1,59 @@
+{
+  "id": "question-74d656feb2",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(6)设f(.y)有连续导数，/'(0) = 0,曲线QA的极坐标方程为r = a( 1 — cos 0) ,a > 0,\n0 £0£兀,0(0,0)与A分别对应于0 = 0与0 = 7t,计算\n/ = 卜[f— 7ty]dz + Lf\\y)ex — 7t]d^.\nJ OA",
+  "answer_markdown": "",
+  "analysis_markdown": "(6)解\ndx dy\n设曲线Q4与线段而所围区域为D,如图9-20所示,\n了 二？(-2aK0).\nAO：\n利用格林公式，得\ndjjdy\n（）小—P dj? + Qdy\nJ OA+AO\nD\n(1 — cos 6)2 dd\nTX.1\n—2cos 9 + *cos\nrl\n朋= 37t2a2\n穿J\n•o\n又\n0,\n・o / ( 0 ) dje\n_P dx + Qdj/ =\nAO\nP (无，0)dz =\n-2a\n-2a\n故 / = -|-7r2a2.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.470862+00:00",
+  "updated_at": "2026-08-23T12:39:51.547195+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        24.0,
+        460.7865905761719,
+        482.3999938964844,
+        520.86572265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 169,
+      "bbox": [
+        24.0,
+        559.6439208984375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 170,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        121.12699890136719
+      ]
+    }
+  ]
+}

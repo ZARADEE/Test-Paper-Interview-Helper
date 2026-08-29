@@ -1,0 +1,67 @@
+{
+  "id": "question-1dc1ef51c0",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 设3阶实对称矩阵A满足A? = 2A,已知二次型/■(劝，工2,口)=HAx经正交变换\n0 a\nx = Qy化为心；+心：(入工0),其中Q = — 0\nc 0 (b〉0,c>0).\n0 1,\n(I )求a,b,c的值；\n(D)求一个可逆线性变换X = PZ化于为规范形.",
+  "answer_markdown": "",
+  "analysis_markdown": "(3)解 (I)由Q是正交矩阵,\n(b =\n得fc =施，当a = 1时,Q的第1列与第3列不正交，故a =- 1.\n〔a =丄 1.\n综上所述，a =—l,b = 1 ,c = a/2-\n(U)由已知，/■经正交变换x =©化为标准形2拐+2^.\n令\n，故\n:Ni =力，\n£\n°\n。］［夕1\n匕=^2y2,即\nZ2 =\n0 72\nj/2\n= V2 V3，\n*\n0 0 府卜3,\n-1 鼻1'\n力2\n=Q 0\n工3,\n1*3\nV2\n令P =\n为所求的一个可逆线性变换，规范形为易+送.\n，则X =Pz\nV2",
+  "chapter": "二次型",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 83,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.483945+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 83,
+      "bbox": [
+        24.0,
+        405.50909423828125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 84,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 234,
+      "bbox": [
+        24.0,
+        192.881103515625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 235,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

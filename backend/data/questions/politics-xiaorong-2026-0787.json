@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0787",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "90 多年来，人民军队之所以能够始终保持强大的凝聚力、向心力、战斗力，经受住各种考验,\n\n不断从胜利走向胜利，最根本的就是靠党的坚强领导。实践证明，听党指挥是",
+  "answer_markdown": "AB",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 116,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人民军队建设的首要"
+    },
+    {
+      "key": "B",
+      "text": "人民军队的命脉所在"
+    },
+    {
+      "key": "C",
+      "text": "人民军队的鲜明特色和政治优势"
+    },
+    {
+      "key": "D",
+      "text": "新时代强军目标的核心"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 116,
+      "bbox": [
+        100.88400268554688,
+        121.33828735351562,
+        937.2420043945312,
+        257.1728515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 120,
+      "bbox": [
+        16.440000534057617,
+        1099.1483154296875,
+        422.54901123046875,
+        1326.78173828125
+      ]
+    },
+    {
+      "page": 120,
+      "bbox": [
+        481.114013671875,
+        34.383628845214844,
+        646.0220947265625,
+        68.5428237915039
+      ]
+    }
+  ]
+}

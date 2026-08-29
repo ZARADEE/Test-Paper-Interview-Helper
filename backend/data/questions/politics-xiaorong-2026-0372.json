@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0372",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "第二次世界大战后资本主义国家在劳资关系和分配关系上出现的变化有",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "助于问题解决。D 错误。A、B、C 正确。\n\n出处精讲两\n考点81 -1-(2)",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "职工参与决策"
+    },
+    {
+      "key": "B",
+      "text": "终身雇佣、职工持股"
+    },
+    {
+      "key": "C",
+      "text": "建立并实施了普及化、全民化的社会福利制度"
+    },
+    {
+      "key": "D",
+      "text": "建立职工选举管理者制度"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        104.12799835205078,
+        218.60394287109375,
+        743.860107421875,
+        378.3219299316406
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 69,
+      "bbox": [
+        432.47900390625,
+        708.0433349609375,
+        853.6840209960938,
+        1107.229248046875
+      ]
+    }
+  ]
+}

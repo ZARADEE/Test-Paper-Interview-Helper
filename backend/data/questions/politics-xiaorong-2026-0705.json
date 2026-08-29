@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0705",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "进一步全面深化改革的总目标是继续完善和发展中国特色社会主义制度，推进国家治理体系和\n\n治理能力现代化。这一总目标",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "知识储备题\n\n启了改革开放和社会主义现代化建设新时\n\n简析A、B、D 正确。进一步全面深化改革的\n\n期。A 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 104,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "同党的十八届三中全会确定的全面深化改革总目标一脉相承"
+    },
+    {
+      "key": "B",
+      "text": "同党的二十大作出的战略部署相衔接"
+    },
+    {
+      "key": "C",
+      "text": "揭示了进一步全面深化改革的出发点和落脚点"
+    },
+    {
+      "key": "D",
+      "text": "为进一步全面深化改革明确了目标导向"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 104,
+      "bbox": [
+        104.27200317382812,
+        426.4995422363281,
+        938.5358276367188,
+        615.2877807617188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 112,
+      "bbox": [
+        22.375999450683594,
+        1161.46826171875,
+        429.60833740234375,
+        1327.65625
+      ]
+    },
+    {
+      "page": 112,
+      "bbox": [
+        472.2749938964844,
+        32.62986755371094,
+        859.472412109375,
+        281.3925476074219
+      ]
+    }
+  ]
+}

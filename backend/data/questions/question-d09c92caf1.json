@@ -1,0 +1,58 @@
+{
+  "id": "question-d09c92caf1",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 微分方程(夕一Hsin JcLz + xdy = 0的通解为_______ .",
+  "answer_markdown": "夕=丄(sin z — zcos h + C)(C 为任意常数).",
+  "analysis_markdown": "夕=丄(sin z — zcos h + C)(C 为任意常数).\nx\n解\n原方程变形为兽+ £夕=sin#,为一阶线性微分方程，故通解为\n夕=e-R<-)d- ^Q(j；)efp(J)cb'd^ + C] = eT^([sin _z ・ ef>d^ + C)\n=eTn® (]尹川 sin xdx + C)= £ Jjrsin xdx + (?)=丄(sin x — arcos a: + C),\n其中C为任意常数.\n【注】”①若令P = ：-\"\"Qi,则薯二罵=1,所以该方程为全微分方程,\n故通解为『P(j?,0)dj： +〔 Q(_r,；y)dy = C,即\nC,\nj (0 — arsin\n+ | xdy =\n故 jccos x — sin x-Y xy — C 为通解.\n②P（j7,j/）da: + Q（x, v）dv = 0.当—=—时.该方程为全微分方程，有通解公式",
+  "chapter": "微分方程",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 45,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.456828+00:00",
+  "updated_at": "2026-08-23T12:39:51.327486+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分方程",
+    "通解"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 45,
+      "bbox": [
+        24.0,
+        503.2716979980469,
+        482.3999938964844,
+        518.9613037109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 124,
+      "bbox": [
+        24.0,
+        492.3077697753906,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 125,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        105.43540954589844
+      ]
+    }
+  ]
+}

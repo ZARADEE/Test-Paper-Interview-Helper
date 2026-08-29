@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1182",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中华民族有着源远流长的爱国主义传统。以下关于爱国主义说法正确的有",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "出处精讲P341\n考点21\n\n出处精讲用苑考点20 -2-",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 173,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "爱国主义揭示了个人对祖国的依存关系"
+    },
+    {
+      "key": "B",
+      "text": "爱国主义是具体的"
+    },
+    {
+      "key": "C",
+      "text": "爱国主义是永恒的"
+    },
+    {
+      "key": "D",
+      "text": "爱国主义是现实的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 173,
+      "bbox": [
+        90.30599975585938,
+        121.36959838867188,
+        744.7604370117188,
+        219.99476623535156
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 177,
+      "bbox": [
+        3.8219995498657227,
+        877.698486328125,
+        424.5769348144531,
+        1182.951904296875
+      ]
+    }
+  ]
+}

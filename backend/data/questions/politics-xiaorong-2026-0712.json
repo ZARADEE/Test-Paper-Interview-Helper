@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0712",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平总书记提出，发展新质生产力是推动高质量发展的内在要求和重要着力点。关于新质生\n\n产力，以下理解正确的有",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "知识储备题\n\n增强大局意识,正确对待改革中的利益关系\n\n调整和个人利害得失。B 错误。\n\n简析站在新的起点上,必须围绕发展新质生\n\n产力布局产业链，完善现代化产业体系。一\n\n第六章\n\n方面，战略性新兴产业、未来产业是发展新\n\n质生产力的主阵地，要打造生物制造、商业航",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 105,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "战略性新兴产业、未来产业是发展新质生产力的主阵地"
+    },
+    {
+      "key": "B",
+      "text": "传统产业通过转型升级，也能成为新质生产力的重要部分"
+    },
+    {
+      "key": "C",
+      "text": "科技创新是发展新质生产力的核心要素"
+    },
+    {
+      "key": "D",
+      "text": "发展新质生产力以劳动者、劳动资料、劳动对象及其优化组合的跃升为核心标志"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 105,
+      "bbox": [
+        88.75900268554688,
+        392.5093688964844,
+        928.5442504882812,
+        589.04296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 113,
+      "bbox": [
+        0.5199098587036133,
+        1250.3917236328125,
+        312.6591491699219,
+        1325.06689453125
+      ]
+    }
+  ]
+}

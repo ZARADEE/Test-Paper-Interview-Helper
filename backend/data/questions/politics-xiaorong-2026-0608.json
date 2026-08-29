@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0608",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "城镇化是现代化的必由之路，是解决农业、农村、农民问题的重要途径，是推动区域协调发展\n\n的有力支撑，是扩大内需和促进产业升级的重要抓手。新型城镇化的首要任务是",
+  "answer_markdown": "C",
+  "analysis_markdown": "知识储备题\n\n融合的关键是强化企业科技创新主体地位；\n\n简析《深入实施以人为本的新型城镇化战略\n\n融合的途径是促进科技成果转化应用。B 正\n\n五年行动计划》指出，深入实施以人为本的新\n\n确,A、C、D 错误。\n\n型城镇化战略，要坚持以人为本。把推进农",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 92,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "进一步深化户籍制度改革"
+    },
+    {
+      "key": "B",
+      "text": "推进公共服务共建共享"
+    },
+    {
+      "key": "C",
+      "text": "推进农业转移人口市民化"
+    },
+    {
+      "key": "D",
+      "text": "强化产业分工协作\n\n社会主义现代化建设的教育、科技、人才战略"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        107.13899993896484,
+        120.28836822509766,
+        940.26123046875,
+        324.0374755859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        17.808000564575195,
+        923.4979248046875,
+        424.4194030761719,
+        1158.2232666015625
+      ]
+    }
+  ]
+}

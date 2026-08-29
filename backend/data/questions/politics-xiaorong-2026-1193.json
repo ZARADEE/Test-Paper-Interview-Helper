@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1193",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "友善是维系良好人际关系和社会关系的基本价值准则。友善要求人们",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "知识储备题\n\n中体现，在一个社会的思想观念体系中处于\n\n主导地位，体现着社会制度的阶级属性、社\n\n简析友善是维系良好人际关系和社会关系\n\n会运行的基本原则和社会发展的基本方向。\n\n的基本价值准则。友善要求人们善待亲友、\n\nA、B、D 正确。在整个上层建筑中，政治上层\n\n他人，对社会抱有善意，与自然和谐共处。\n\n建筑处于主导地位,C 错误。\n\n善待亲人以和谐家庭关系，善待朋友以凝结",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 174,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "善待亲人以和谐家庭关系"
+    },
+    {
+      "key": "B",
+      "text": "善待朋友以凝结牢固的友谊"
+    },
+    {
+      "key": "C",
+      "text": "善待他人以构建和谐的人际关系"
+    },
+    {
+      "key": "D",
+      "text": "与自然和谐共处以形成和谐的自然生态"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 174,
+      "bbox": [
+        100.37300109863281,
+        682.53076171875,
+        880.6032104492188,
+        780.71826171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 178,
+      "bbox": [
+        444.4070129394531,
+        360.6293640136719,
+        861.384033203125,
+        691.9212646484375
+      ]
+    }
+  ]
+}

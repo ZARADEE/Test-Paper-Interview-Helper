@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1234",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "走中国特色社会主义法治道路，必须坚持从中国实际出发，坚持",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "道德对法治的支撑作用，重视发挥道德的教\n\n出处精弹死6两回考点46 -2\n\n化作用；又要把道德要求贯彻到法治建设",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 179,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国共产党的领导"
+    },
+    {
+      "key": "B",
+      "text": "人民主体地位"
+    },
+    {
+      "key": "C",
+      "text": "法律面前人人平等"
+    },
+    {
+      "key": "D",
+      "text": "依法治国和以德治国相结合"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 179,
+      "bbox": [
+        89.29000091552734,
+        307.3437805175781,
+        781.7313232421875,
+        404.9048767089844
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 183,
+      "bbox": [
+        11.669000625610352,
+        1172.945556640625,
+        358.58135986328125,
+        1246.4085693359375
+      ]
+    }
+  ]
+}

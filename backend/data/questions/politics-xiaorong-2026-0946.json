@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0946",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十九大报告提出新时代党的建设总要求，提出要全面推进党的政治建设、思想建设、组织\n\n建设、作风建设、纪律建设，其中摆在首位的是",
+  "answer_markdown": "",
+  "analysis_markdown": "",
+  "chapter": "第十章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 139,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "政治建设"
+    },
+    {
+      "key": "B",
+      "text": "思想建设"
+    },
+    {
+      "key": "C",
+      "text": "组织建设"
+    },
+    {
+      "key": "D",
+      "text": "作风建设"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第十章"
+  ],
+  "source_regions": [
+    {
+      "page": 139,
+      "bbox": [
+        81.78700256347656,
+        357.0412902832031,
+        922.6336059570312,
+        455.92333984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 145,
+      "bbox": [
+        2.7679996490478516,
+        130.42860412597656,
+        411.099365234375,
+        304.8759765625
+      ]
+    }
+  ]
+}

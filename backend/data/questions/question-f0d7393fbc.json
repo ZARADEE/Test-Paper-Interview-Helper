@@ -1,0 +1,59 @@
+{
+  "id": "question-f0d7393fbc",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设L为工2 +b = R2(煜0)上由点A(_g，畚)到点B(K,0)的一段弧，则卜ds =\n________ .",
+  "answer_markdown": "",
+  "analysis_markdown": "⑵耳各2,迂刍2.\n解\n2—\n弧忑的图形如图9-1所示，取工为参数，则弧AB的方\n鳥—（掳HL\n程为\nds — / + 夕” d_r = — R\n[yds = f VR2 —\n故\n—dj? 9\nx2\n-——d_z\n=2+心2,\nJ L\n万\n=（1 +\n，R ,- -- ---------= x = Rcos t\nc\nR /R2 —工2吐. ........= _R2\n■o,sinLd/\n=R2\n3tc + 2 d2\n—r~R ■\nt 1 — cos 2t,\n0 —2—曲= 普+ +\n」注匸本题若取夕为参数，由图知，曲线上的点与，不是——对应的，则应将曲线1分\n为AC和CE两段分别积分.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 55,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.462366+00:00",
+  "updated_at": "2026-08-23T12:39:51.490609+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 55,
+      "bbox": [
+        24.0,
+        456.8085021972656,
+        482.3999938964844,
+        512.0917358398438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 156,
+      "bbox": [
+        24.0,
+        538.6588134765625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 157,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        124.67970275878906
+      ]
+    }
+  ]
+}

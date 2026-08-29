@@ -1,0 +1,44 @@
+{
+  "id": "politics-2010-018",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "历史经验表明，经济危机往往孕育着新的科技革命。1857年的世界经济危机引发了电气革命，推动人类社会从蒸汽时代进入电气时代。1929年的世界经济危机引发了电子革命，推动人类社会从电气时代进入电子时代。由此证明：",
+  "answer_markdown": "CD",
+  "analysis_markdown": "【解析】在题干中，我们可以看到，科技革命在社会形态更替中发挥重要作用，但是，不是根本标志，当然，也不是摆脱社会危机的根本处理，社会危机的解决必须从社会基本矛盾入手，社会实践的需要是科技发展的强大动力，科技创新能够推动社会经济跨越式发展，所以，此题的正确答案是选项CD。选项AB本身不对，社会形态更替的根本标志是生产方式。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.386106+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "科技革命是摆脱社会危机的根本出路"
+    },
+    {
+      "key": "B",
+      "text": "科学技术是社会形态更替的根本标志"
+    },
+    {
+      "key": "C",
+      "text": "社会实践的需要是科技发展的强大动力"
+    },
+    {
+      "key": "D",
+      "text": "科技创新能够推动社会经济跨越式发展"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

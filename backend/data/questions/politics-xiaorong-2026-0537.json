@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0537",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1956 年底我国对农业、手工业和资本主义工商业的社会主义改造的基本完成",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "知识储备题\n\n社会主义性质的经济。非公有制经济显然不\n\n简析A、B、C 正确。2023 年5 月，习近平总\n\n是社会主义性质的,但它和公有制经济都是\n\n书记在河北考察时强调,推动京津冀协同发\n\n社会主义市场经济的重要组成部分，都是我\n\n展不断迈上新台阶，努力使京津冀成为中国\n\n国经济社会发展的重要基础。A 错误。\n\n式现代化建设的先行区、示范区。2021 年5",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 81,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "标志着中国历史上长达数千年的阶级剥削制度的结束"
+    },
+    {
+      "key": "B",
+      "text": "实现了由新民主主义向社会主义的转变"
+    },
+    {
+      "key": "C",
+      "text": "标志着社会主义基本制度在我国确立"
+    },
+    {
+      "key": "D",
+      "text": "标志着我国的社会主义初级阶段从此开始"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 81,
+      "bbox": [
+        89.09400177001953,
+        122.89237976074219,
+        769.1913452148438,
+        282.87408447265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        5.359000205993652,
+        85.07406616210938,
+        416.3694152832031,
+        523.9172973632812
+      ]
+    }
+  ]
+}

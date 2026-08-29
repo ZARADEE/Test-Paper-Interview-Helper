@@ -1,0 +1,62 @@
+{
+  "id": "question-dc65433fe6",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设f(x,y)在点(0,0)处连续，且lim ①® = 1,则(\n).\n；二£ e\"7 +『—1",
+  "answer_markdown": "A",
+  "analysis_markdown": "解利用保号性和极值的定义.\n由lim\n=1,知lim/(jc，3/) = 0 = /(0,0).\nx-*o\n+y 一 ]\n工->o\njy—► o\ny~^ o\n又由保号性，知在点(0,0)的去心邻域内有于&,夕)>0 = /(0,0).由极值的定义，可知\n/■&,》)在点(0,0)处取得极小值，故A正确.",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 36,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.451169+00:00",
+  "updated_at": "2026-08-23T12:39:51.166406+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "_/■©,》)在点(0,0)处取得极小值"
+    },
+    {
+      "key": "B",
+      "text": "f(x,y)在点(0,0)处取得极大值"
+    },
+    {
+      "key": "C",
+      "text": "f(x,y)在点(0,0)处不取得极值 D.不能确定 2，y)在点(0,0)处取得极值"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 36,
+      "bbox": [
+        24.0,
+        471.3688049316406,
+        482.3999938964844,
+        532.6259765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        24.0,
+        338.30975341796875,
+        482.3999938964844,
+        408.52197265625
+      ]
+    }
+  ]
+}

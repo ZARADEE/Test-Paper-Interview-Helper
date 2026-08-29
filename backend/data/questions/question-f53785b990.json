@@ -1,0 +1,58 @@
+{
+  "id": "question-f53785b990",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 求£「”J；。、厂的收敛区间，并讨论在端点处的敛散性•\n~1九L3十(―幻」",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解\n1 +\nlim---------\nQ”+i\n讥3\" 土 (—2)\"]\n=[巴(7?十1)[3讯十(一2)卄1]\n”+i\nlim8\n丄\n3「1 +\n”一>8\nz\nT\n故收敛半径R = 3,收敛区R]为(-3,3).\n当° = 3时,级数为£讥3”+3；_2)”]'\n3\"\n而乞 尹发散，由比较审敛法，知级数发散.\nn= 1\n(—3)\"\n当工=—3时,级数为g 応昇芒莎丁拆成两个级数，\n(一\n+ (— 2)\"] — 2\n(—3)\"\nn[_3n + (—2)\"]\n3\" + (- 2)\"\n9'\n(-1)\" —-\n/\nn\n3\" + (— 2)\"\n丄，用比值法，\nn\n17•\noo\nOO\n斗(一1)” +条件收敛，对斗3\" + (—2)“\nn\n2卄1\n严】+ (— 2)\"+i\nlim = lim -\nn-*oo CLn\nO\n「3\" + (—2)\"]・ /?\n” +1 2\"\n3\" + (— 2)\"\n=2 lim ?\n“fOO Q\n_2\nT\n，卄1 + (— 2)卄1\"J\n3 L 8 1 十 |\nx\n故级数收敛，所以苔応3\"匚(_2)”］在工=—彳处收敛.",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 53,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.461257+00:00",
+  "updated_at": "2026-08-23T12:39:51.459603+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 53,
+      "bbox": [
+        24.0,
+        263.1142883300781,
+        482.3999938964844,
+        299.8514404296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 149,
+      "bbox": [
+        24.0,
+        390.7939147949219,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 150,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        128.26832580566406
+      ]
+    }
+  ]
+}

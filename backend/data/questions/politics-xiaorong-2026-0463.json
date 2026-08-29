@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0463",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "毛泽东在《论十大关系》中提出的中国社会主义建设的基本方针是",
+  "answer_markdown": "B",
+  "analysis_markdown": "出处精讲下田考点61 -1\n\n出处精讲P191l 考点54 -3",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 70,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "不要四面出击"
+    },
+    {
+      "key": "B",
+      "text": "积极引导，稳步前进"
+    },
+    {
+      "key": "C",
+      "text": "调动一切积极因素为社会主义事业服务"
+    },
+    {
+      "key": "D",
+      "text": "实现工业、农业、国防和科学技术的现代化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        104.78399658203125,
+        1202.3055419921875,
+        931.2642211914062,
+        1303.058349609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 84,
+      "bbox": [
+        16.19099998474121,
+        1098.0484619140625,
+        425.3932189941406,
+        1333.989501953125
+      ]
+    },
+    {
+      "page": 84,
+      "bbox": [
+        461.0,
+        39.36750411987305,
+        858.1676635742188,
+        266.8196105957031
+      ]
+    }
+  ]
+}

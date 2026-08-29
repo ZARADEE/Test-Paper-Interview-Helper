@@ -1,0 +1,59 @@
+{
+  "id": "question-550df36ff8",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "（4）设a > 0,若lim工卩（吕一a士）\nI e‘ — 1",
+  "answer_markdown": "P<2.",
+  "analysis_markdown": "P<2.\n解若\n.p . a士. _H 纟—\n工(工+ 1)\nlim xp (a~ 一 a币)= lim xp • a审(―(卄i)一 1) = lim x\nx->4-oo\n_r->+8\nx->4-oo\n存在，则有P<2.当P V 2时，极限为0；当P = 2时,极限为In a.",
+  "chapter": "函数、极限与连续",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 9,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.435593+00:00",
+  "updated_at": "2026-08-23T12:39:50.716326+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 9,
+      "bbox": [
+        24.0,
+        263.6470031738281,
+        482.3999938964844,
+        338.5137939453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 8,
+      "bbox": [
+        24.0,
+        674.0130615234375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 9,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        103.0888900756836
+      ]
+    }
+  ]
+}

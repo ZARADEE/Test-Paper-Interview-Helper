@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0346",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思通过分析剩余价值的生产、积累、流通以及分配过程，揭示了剩余价值的运动规律及其\n作用，创立了剩余价值理论。剩余价值理论",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "出处精话版］考点78 -2\n地A、B、D 正确。最简单的、初级的垄\n\n出处精讲市8 考点74\n\n简析剩余价值理论深刻揭露了资本主义生\n\n断组织形式是短期价格协定，即几个企业在\n\n产关系的剥削本质，阐明了资产阶级与无\n\n短期内订立一种或几种产品的售价协定，所\n\n产阶级之间阶级斗争的经济根源，指出了\n\n有参加方必须遵守协定所规定的商品销售\n\n无产阶级革命的历史必然性。剩余价值理\n\n价格。C 错误。\n\n论是马克思经济学说的核心内容和基石，是",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 50,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "深刻揭露了资本主义生产关系的剥削本质"
+    },
+    {
+      "key": "B",
+      "text": "阐明了资产阶级与无产阶级之间阶级斗争的经济根源"
+    },
+    {
+      "key": "C",
+      "text": "指出了无产阶级革命的历史必然性"
+    },
+    {
+      "key": "D",
+      "text": "是“理解政治经济学的枢纽”"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 50,
+      "bbox": [
+        102.6449966430664,
+        858.5004272460938,
+        933.9122314453125,
+        1048.84375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 67,
+      "bbox": [
+        6.755999565124512,
+        488.1216125488281,
+        419.16204833984375,
+        1022.8759765625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "question-4fb81836b4",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)设分块矩阵P= (°\n为正交矩阵,A,B分别是加阶和\"阶方阵，证明:A与〃是\n正交矩阵.",
+  "answer_markdown": "",
+  "analysis_markdown": "（2）证 要证A,B是正交矩阵，只要证/TA\n依题设,PTP = E,则\npT p _ M C\nP P — （o B\nT\nH爲*\n)=E=(\nA C\nO B\nATC\nCTC+BB\nC\nB\nO\nO En\n)(o\nEm\n故\nATA = Em, ATC = O, CTA = O, CTC + BTB = E„.\n由P是正交矩阵，故P可逆，|P| = |A||B|#0,因此| A |\n0 ,A可逆，从而\"可逆.\n由AtC= 0知0 = O,所以BTB = JE”，于是A,B是正交矩阵.",
+  "chapter": "矩阵",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 67,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.476288+00:00",
+  "updated_at": "2026-08-29T14:15:23.241326+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 67,
+      "bbox": [
+        24.0,
+        475.07879638671875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 68,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 195,
+      "bbox": [
+        279.45001220703125,
+        126.71942138671875,
+        387.5994873046875,
+        167.602783203125
+      ]
+    },
+    {
+      "page": 195,
+      "bbox": [
+        38.45000076293945,
+        146.87216186523438,
+        216.7985382080078,
+        225.57029724121094
+      ]
+    }
+  ]
+}

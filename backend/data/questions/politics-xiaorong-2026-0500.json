@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0500",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "毛泽东把新民主主义革命和社会主义革命比喻为文章的上篇和下篇。“两篇文章，上篇与下篇,\n只有上篇做好，下篇才能做好”。毛泽东这段话的含义是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "简析A、D 正确。改革开放以来我们取得一\n\n出处精讲有\n考点tips\n\n切成绩和进步的根本原因,归结起来就是：开",
+  "chapter": "第二章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 76,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "民主主义革命是社会主义革命的必要准备"
+    },
+    {
+      "key": "B",
+      "text": "社会主义革命是民主主义革命的必然趋势"
+    },
+    {
+      "key": "C",
+      "text": "在民主主义革命和社会主义革命中间要经历一个独立的资本主义发展阶段"
+    },
+    {
+      "key": "D",
+      "text": "“一次革命论” 是错误的，“二次革命论” 是正确的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第二章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第二章"
+  ],
+  "source_regions": [
+    {
+      "page": 76,
+      "bbox": [
+        105.625,
+        123.24752807617188,
+        941.3912963867188,
+        312.588134765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        6.133999824523926,
+        417.1395263671875,
+        322.889404296875,
+        493.5072021484375
+      ]
+    }
+  ]
+}

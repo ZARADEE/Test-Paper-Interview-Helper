@@ -1,0 +1,48 @@
+{
+  "id": "question-2594e2f857",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(10) 设方阵A满足< =A，则(A + E)T =________ .",
+  "answer_markdown": "-y(A-2E).",
+  "analysis_markdown": "-y(A-2E).\n解 由 A? = A,知 A? — A — 2E + 2E = O,即(A + E)(A —2E) =—2E,故\n(A + E)-1 =-y(A-2E).\n【注】 下列解法是错误的：\n由 A2 = A,< A(A-E) = O,于是当 A = O 时+\n=旷=E；\n当 A = E 时，(A+E)T = (2E)t =\n错误原因在于忽略了矩阵运算与数的运算的区别：由AB = O不能得出A = O或\nB = O.",
+  "chapter": "矩阵",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 65,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.475218+00:00",
+  "updated_at": "2026-08-23T12:39:51.646305+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        24.0,
+        158.89306640625,
+        482.3999938964844,
+        175.16372680664062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 188,
+      "bbox": [
+        24.0,
+        269.5865173339844,
+        482.3999938964844,
+        390.9716491699219
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "question-81977587cd",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(7) 设/'(工)连续，g(#) = j xf 且 g(l) = l,g'(l) = 5,则 /(l) = ________ .",
+  "answer_markdown": "2.",
+  "analysis_markdown": "2.\n解\ng(«z)= 好(t)dt = x\nJ o\n.\n=1，知[= 1.又 g'(z) = j /(t)ck + 2工丁(工2)，由 gz(D = 5 9知\n由 g(l)\n5 = £f(Od^ + 2f(l) = 1 + 2/C1),\n故/'(1) = 2.",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 27,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.445726+00:00",
+  "updated_at": "2026-08-23T12:39:50.992307+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 27,
+      "bbox": [
+        24.0,
+        610.1897583007812,
+        482.3999938964844,
+        640.5717163085938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 64,
+      "bbox": [
+        24.0,
+        647.5621337890625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 65,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        115.76478576660156
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "question-f3bb9e9d31",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(12) 设函数j/Q)©》。)二阶可导，且_y'(z) >0,》(0) = 1,过曲线夕=y(z)上任一\n点P(x,y)作曲线的切线及工轴的垂线，上述两条直线与工轴所围三角形的面积记为S，区\n间［0,刃上以夕=夕(工)为曲边的曲边梯形的面积记为S2,且2Si—S2 = 1,求曲线夕=夕(工).",
+  "answer_markdown": "",
+  "analysis_markdown": "(12)解 y =夕(刃在点PCx,y)处的切线方程为Y —夕=\"(X — R ,它与工轴的交点\n为(力一马，0).由 j/(0) =\n〉0,知\n>夕(0) = 1 >0(工>0),于是\nS1 = I 1 1\n「(T)卜y2 s _\nW,S2~\ny(t)dt 9\no\n由 23 — S2 = 1,得\nyCOdt = 1.\n由此知$(0) = I9上式两边同时对工求导并化简9得yyf = y2.令$ = P $ = P学9\ndp\n则方程为\npy = P2・\ndy\n由/ > o,即0 >。9故嬰=业,积分得p = cxy,由3/=19“=19得C1 =1,即学=y.\np y\nax\n于是y = Czb 9再由y(0) = 19得G = 19所求曲线为y =\n.\n由牛顿第二定律，F阻=皿，故由已知条件，有一局=m豊.又",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 48,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.459048+00:00",
+  "updated_at": "2026-08-23T12:39:51.390703+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分",
+    "切线"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 48,
+      "bbox": [
+        24.0,
+        235.3897247314453,
+        482.3999938964844,
+        281.65142822265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 134,
+      "bbox": [
+        24.0,
+        407.5637512207031,
+        482.3999938964844,
+        574.5247802734375
+      ]
+    }
+  ]
+}

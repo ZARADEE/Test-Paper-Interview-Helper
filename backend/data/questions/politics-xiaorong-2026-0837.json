@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0837",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "甲午战争后，维新运动迅速兴起。针对洋务派提出的“中体西用” 的方针，维新派指出，体与\n\n用是不可分的。中学有中学的“体” 与“用工西学有西学的“体” 与“用”，把中学之“体”\n\n与西学之“用” 凑在一起，就如同让“牛体” 产生“马用” 一样荒谬。维新派与洋务派分歧的\n\n实质是",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 124,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "要不要进行社会革命"
+    },
+    {
+      "key": "B",
+      "text": "要不要以革命手段推翻清王朝"
+    },
+    {
+      "key": "C",
+      "text": "要不要在中国兴办近代企业"
+    },
+    {
+      "key": "D",
+      "text": "要不要学习西方的政治制度与思想文化\n\n第三章\n辛亥革命与君主专制制度的终结"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 124,
+      "bbox": [
+        107.41699981689453,
+        1016.9074096679688,
+        944.2962646484375,
+        1211.974853515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 129,
+      "bbox": [
+        6.12399959564209,
+        1240.5858154296875,
+        341.6669921875,
+        1317.7154541015625
+      ]
+    }
+  ]
+}

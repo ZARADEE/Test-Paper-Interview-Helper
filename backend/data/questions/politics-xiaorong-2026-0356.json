@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0356",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "垄断资本所获得的高额利润，归根到底来自无产阶级和其他劳动人民所创造的剩余价值，具体\n\n来说，垄断利润的来源包括",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "错误。\n\n出处精讲P84遍考点78 -60",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 51,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "加强对本国无产阶级和其他劳动人民的剥削"
+    },
+    {
+      "key": "B",
+      "text": "通过控制市场获得一些其他企业特别是非垄断企业的利润"
+    },
+    {
+      "key": "C",
+      "text": "加强对其他国家劳动人民的剥削和掠夺"
+    },
+    {
+      "key": "D",
+      "text": "通过资本主义国家政权进行有利于垄断资本的再分配"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 51,
+      "bbox": [
+        91.83399963378906,
+        1132.796142578125,
+        931.9947509765625,
+        1321.512939453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 68,
+      "bbox": [
+        15.115999221801758,
+        445.1961364746094,
+        348.70458984375,
+        524.8984985351562
+      ]
+    }
+  ]
+}

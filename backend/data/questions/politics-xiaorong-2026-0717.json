@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0717",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "构建以国内大循环为主体、国内国际双循环相互促进的新发展格局，是推动高质量发展的战略\n\n基点，是关系我国发展全局的重大战略任务。构建新发展格局，是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "简析健全主体功能区制度，逐步形成城市化\n\n出处精布吨0 考点43\n\n地区、农产品主产区、生态功能区三大空间格",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 105,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "适应我国发展新阶段要求的必然选择"
+    },
+    {
+      "key": "B",
+      "text": "塑造国际合作和竞争新优势的必然选择"
+    },
+    {
+      "key": "C",
+      "text": "基于我国比较优势变化，审时度势作出的重大决策"
+    },
+    {
+      "key": "D",
+      "text": "把握未来发展主动权的先手棋"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "国际形势与政策"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "国际形势与政策"
+  ],
+  "source_regions": [
+    {
+      "page": 105,
+      "bbox": [
+        88.91799926757812,
+        1218.87646484375,
+        929.1939697265625,
+        1410.7044677734375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        16.847999572753906,
+        175.36041259765625,
+        421.8563537597656,
+        380.7143249511719
+      ]
+    }
+  ]
+}

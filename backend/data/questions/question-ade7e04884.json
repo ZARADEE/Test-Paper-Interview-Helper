@@ -1,0 +1,58 @@
+{
+  "id": "question-ade7e04884",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(14) 设总体X〜U(O,0)(0 > 0), (X1,X2,…，X”)为X的简单随机样本,X(”)=\nmax{Xi ,X2，…，X”}.\n(I)证明：》i =2戈,加=匸±&”是0的无偏估计；\nn\n(U)当心2时，问仏和02哪一个有效.",
+  "answer_markdown": "",
+  "analysis_markdown": "(14)解(I)由已知，X的概率密度为fg = ]©'\n°\nto,其他，\nQ<x<0,\n九 &)= Q)=\nff'\n0,\n其他，\n所以\nE(2 禺=E仔$XJ=#\n9 — A\n• n •\n九+ ]\n72 + 1 .\nE\n•e\n\"+ 1 v\nT~x(n)\nn\n±e = e，\n7Z + 1\nnx 」djc\nen\nn 7\n故滋，》2是0的无偏估计.\n£\n(n )\nD(》1)= D(2X)=\n3n\n4—•\nn\n卄]\n~B竺\nn\nE(Xb)=\ndjr =\no ~en\n刃十z\n72 + 1\n故\n{E(X^)-EEX(n)]2}\nA\nZX02)=\nn\ne2\n讥/? + 2)'\n八、\n_ , A\n… A\n当 心2时,DC%) < D(3i),故02比61有效.\nX\"\n0 V h v 久\n【注】X（”）= max{Xi ,X2，…，X”}的分布函数Fx（n）Q）=\n0,\n其他.",
+  "chapter": "参数估计",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 103,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.493264+00:00",
+  "updated_at": "2026-08-23T12:39:52.077988+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "样本",
+    "参数估计"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "参数估计"
+  ],
+  "source_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        24.0,
+        383.42840576171875,
+        482.3999938964844,
+        458.8723449707031
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 281,
+      "bbox": [
+        24.0,
+        615.7367553710938,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 282,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        291.848876953125
+      ]
+    }
+  ]
+}

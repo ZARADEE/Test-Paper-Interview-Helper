@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0784",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "政治安全与人民安全、国家利益至上是有机统一的。以下说法正确的有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "在。C 错误。\n\n出处精讲短过考点93 -4\n\n第十四章",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 115,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "政治安全是维护人民安全和国家利益的根本保证"
+    },
+    {
+      "key": "B",
+      "text": "人民安全居于中心地位"
+    },
+    {
+      "key": "C",
+      "text": "国家利益至上是实现政治安全和人民安全的要求和原则"
+    },
+    {
+      "key": "D",
+      "text": "要把三者统一起来，确保实现党的长期执政、人民安居乐业、国家长治久安\n\n建设巩固国防和强大人民军队"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        91.27100372314453,
+        812.6473388671875,
+        803.15966796875,
+        1042.3060302734375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 120,
+      "bbox": [
+        16.479999542236328,
+        528.7021484375,
+        322.4096374511719,
+        601.7073974609375
+      ]
+    }
+  ]
+}

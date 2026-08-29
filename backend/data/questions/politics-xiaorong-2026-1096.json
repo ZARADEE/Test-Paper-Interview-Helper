@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1096",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国有句古话：“千里之行，始于足下。” 这句话对我们在人生哲理方面的启发是",
+  "answer_markdown": "C",
+  "analysis_markdown": "B 正确。\n迹当代中国，爱国主义的本质就是坚持\n\n出处精Iff下面考点16 -3\n\n爱国和爱党、爱社会主义高度统一。\n\n简析崇高理想的实现需要一点一滴地奋斗。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 162,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "立志当高远"
+    },
+    {
+      "key": "B",
+      "text": "立志做大事"
+    },
+    {
+      "key": "C",
+      "text": "立志须躬行"
+    },
+    {
+      "key": "D",
+      "text": "立志须果断\n\n\f\n第三章\n继承优良传统弘扬中国精神"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 162,
+      "bbox": [
+        99.88600158691406,
+        1342.9312744140625,
+        849.716552734375,
+        1409.5751953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        19.402999877929688,
+        29.23072052001953,
+        436.7864074707031,
+        243.65374755859375
+      ]
+    }
+  ]
+}

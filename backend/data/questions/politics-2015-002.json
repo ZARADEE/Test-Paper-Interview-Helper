@@ -1,0 +1,44 @@
+{
+  "id": "politics-2015-002",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会意识，社会意识是社会存在的反映。社会意识具有相对独立性，即它在反映社会存在的同时，还有自己特有的发展形式和规律。社会意识相对独立性最突出的表现是：",
+  "answer_markdown": "D",
+  "analysis_markdown": "【解析】社会意识的相对独立性主要表现在：第一，社会意识的变化与社会存在的变化不完全同步性和不平衡性；第二，社会意识内部各种形式之间的相互影响及各自具有的历史继承性；第三，社会意识对社会存在具有能动的反作用，这是社会意识相对独立性的突出表现。选项A、B、C不符合题意。因此本题正确答案是选项D。",
+  "chapter": "2015 考研政治（通用）：马原题目汇总",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.243787+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会意识内部各种形式之间的相互作用和影响"
+    },
+    {
+      "key": "B",
+      "text": "社会意识与社会存在发展的不完全同步性"
+    },
+    {
+      "key": "C",
+      "text": "社会意识各种形式各自具有其历史继承性"
+    },
+    {
+      "key": "D",
+      "text": "社会意识对社会存在具有能动的反作用"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "2015 考研政治（通用）：马原题目汇总"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

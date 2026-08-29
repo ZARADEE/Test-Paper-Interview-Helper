@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1120",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "记者在采访诺贝尔生理学或医学奖得主、中国女药学家屠呦呦时问她：“你在小鼠和猴子身上测\n\n试了青蒿素，证明它是有效的之后，你自己也服了药。你害怕吗?” 屠呦呦答：“我们担心药物\n\n是否安全。我和两位同事服了药，表明药不会死人。我认为这是我作为药物化学家的责任和工\n\n作的一部分。” 屠呦呦的回答展现了崇高的社会主义职业道德。社会主义职业道德的最高层次的\n\n要求是",
+  "answer_markdown": "D",
+  "analysis_markdown": "发展和人的素质的提高。B 正确。\n\n出处精讲下频考点39 -1-0\n地社会主义职业生活中的基本道德规范",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 165,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "诚实守信"
+    },
+    {
+      "key": "B",
+      "text": "办事公道"
+    },
+    {
+      "key": "C",
+      "text": "热情服务"
+    },
+    {
+      "key": "D",
+      "text": "奉献社会"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 165,
+      "bbox": [
+        89.91300201416016,
+        862.3591918945312,
+        931.3743896484375,
+        1051.893310546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 170,
+      "bbox": [
+        448.12799072265625,
+        191.6914520263672,
+        855.10107421875,
+        559.5401611328125
+      ]
+    }
+  ]
+}

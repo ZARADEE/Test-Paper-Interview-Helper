@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-005",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "毛泽东在谈到中国革命经验时指出，“党的领导机关，包括全国性的、省的和县的负责同志，也要亲自调查一两个农村，解剖一两只’麻雀',这就叫做‘解剖学’。“毛泽东在此强调，“解剖麻雀“的实际意义在于",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "中国化理论成果",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.394357+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "理论只有彻底，才能说服人"
+    },
+    {
+      "key": "B",
+      "text": "反对经验主义、尾巴主义和机会主义"
+    },
+    {
+      "key": "C",
+      "text": "没有革命的理论，就不会有革命的实践"
+    },
+    {
+      "key": "D",
+      "text": "全面深入了解本国实际，发现本国革命的规律"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0322",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "劳动力成为商品，标志着简单商品生产发展到资本主义商品生产的新阶段。像任何商品一样,\n\n劳动力商品也具有使用价值和价值。劳动力商品的价值构成包括",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "形成中的不同作用，从而为揭示剩余价值的\n\n真正来源、创立剩余价值理论奠定了基础。\nA 错误。\n\n出处精讲下对考点69 -2-O",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "维持劳动者本人生存所必需的生活资料的价值"
+    },
+    {
+      "key": "B",
+      "text": "维持劳动者家属的生存所必需的生活资料的价值"
+    },
+    {
+      "key": "C",
+      "text": "维持资本家个人消费所需的生活资料的价值"
+    },
+    {
+      "key": "D",
+      "text": "劳动者接受教育和训练所支出的费用"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        88.73699951171875,
+        1198.9674072265625,
+        932.7552490234375,
+        1385.5108642578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 63,
+      "bbox": [
+        3.359999656677246,
+        1001.0088500976562,
+        412.8153076171875,
+        1315.2728271484375
+      ]
+    }
+  ]
+}

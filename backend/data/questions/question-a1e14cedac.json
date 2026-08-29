@@ -1,0 +1,48 @@
+{
+  "id": "question-a1e14cedac",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)设随机变量X】,X2 ,X3相互独立且均服从N(O,/),证明:T = 7乜| X2_Xs |\n服从/(i)分布.",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)证\n利用/分布的定义证明，令匕=X2 + X3, 丫2 = X2 — X3,则\n0,\nCov(Yi,Y2)= E(Y1Y2)-EYiEY?\n=E[(X2 +X3)(X2 -X3)]\n=E(Xl)-E(Xl)\n=<72 — CT2 =\n所以丫1，丫2相互独立且均服从N (0,2/).又由已知，兀，丫2与X]独立，则\nXi + X2 + X3 = Xi +Y1 〜N(0,3/),\n故占(Xi +X2 +X3)\nN(0,l).\n辰\n又\nx2-x3\\2\n才（1）,且Xi + X2+X3与X2— X3相互独立，故由/分布的定义，知\nKI).\n2 X] + X2 + X3\nV 3\n| X2 - X3 |",
+  "chapter": "数理统计",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 101,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.492264+00:00",
+  "updated_at": "2026-08-23T12:39:52.055428+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "独立"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数理统计"
+  ],
+  "source_regions": [
+    {
+      "page": 101,
+      "bbox": [
+        24.0,
+        544.0978393554688,
+        482.3999938964844,
+        580.213623046875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 277,
+      "bbox": [
+        24.0,
+        329.6498107910156,
+        482.3999938964844,
+        481.80255126953125
+      ]
+    }
+  ]
+}

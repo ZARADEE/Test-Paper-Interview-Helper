@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1167",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "比较客观、公正、准确地评价社会成员人生价值的大小，除了要掌握科学的标准外，还需要掌\n\n握恰当的评价方法，坚持",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "个人是否用自己的劳动和聪明才智为国家和\n\n出处副T用初考点9 -1-(2)\n\n社会真诚奉献，为人民群众尽心尽力服务,\n\nD 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 170,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "既要看贡献的大小，也要看尽力的程度"
+    },
+    {
+      "key": "B",
+      "text": "既要尊重物质贡献，也要尊重精神贡献"
+    },
+    {
+      "key": "C",
+      "text": "既要注重社会贡献，也要注重自身完善"
+    },
+    {
+      "key": "D",
+      "text": "既要注重社会地位，也要注重社会影响"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 170,
+      "bbox": [
+        105.4260025024414,
+        1198.466064453125,
+        938.4110107421875,
+        1382.755859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 175,
+      "bbox": [
+        438.64898681640625,
+        481.95501708984375,
+        850.1594848632812,
+        692.029296875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "question-f958629f58",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(18)设 S 是 x2+y2 = 1, Z=-\\,Z= 1所围成的圆柱体的全表面，计算\nJ - (f5 ”勺空呼y(s外表示外侧).",
+  "answer_markdown": "",
+  "analysis_markdown": "（18）解 因为原点包含在S的内部，所以不能直接用高斯公式，用投影法（公式），由于\nS外=Si +S2 +S3（如图 9-14）,则\n+ JJ-\nS3\nS1\n分别计算如下:\n（I ）\nzdydN\n=0；\nz2 dxdy\n(U)\nF z2山旳\n『\nJJx2+y+ z2 JJ\nS1\nS2\n=0,\n» ^2+y+ i\nu^y\n其中Dxy : x'\n=o；\n(ID)\n+ b +\nJJ jc2 + y +1\nDp\ni；\nJ dzdy\n-x2 + y +z2\nS3\n(N)\n■zdydz\nJJ 尹+b +?\nxdydz\nx2+y2+z2\nz*dz i II\n+ b + N\nS3\nl+z2\ndydz\n图9 14\n°3\n=2f\n二讥厂耐比\ndz\n1W\nD3\n=y(D3：—\n1<Z<1).\n，亠\nor2\n综上所述」=~2~.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 57,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.469411+00:00",
+  "updated_at": "2026-08-23T12:39:51.522937+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 57,
+      "bbox": [
+        24.0,
+        206.92202758789062,
+        482.3999938964844,
+        254.64105224609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 164,
+      "bbox": [
+        24.0,
+        570.1942138671875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 165,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        286.91259765625
+      ]
+    }
+  ]
+}

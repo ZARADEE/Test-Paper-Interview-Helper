@@ -1,0 +1,48 @@
+{
+  "id": "question-1ec3f3f834",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(19) ( I )求积分 In = J & ； Q2)'；dz(“ $ 1，a > 0)的递推关系；\n5)计算器2^2严.",
+  "answer_markdown": "",
+  "analysis_markdown": "(19)解 (I)当兀$1时，\n匚=\n+ f\n2 nr2\nJ心+疋）卄i\ndjr\n-J (； +q2)\nX\nd«z =--------------\n(工+巧\n(•z2\na2) 一 a2\n（工2 +；）卄1 山=（工2 :疋）” + 2必-2m2I„+1 '\n= (^+?)\"+2n\n（2〃一 1）人十&2半胪）“],\n故\n/卄1 =\n其中 人 = f —— dj; = —arctan — + C・\nJ x + a\na\na\n3 j(2^ + 2)\nCT +2_z + 2)2 山 + j\n（n）i =\n（/+2工+ 2严山\n3z + 4\n(* +2工 + 2)2、\n[&+1；+叮2皿+1)\n](h+1)2 +1 — [Q+l)2 +1 了\n(工+1)2\nd(j; + 1)\nl +(：+l)g + l)+ *d + l)d\n+\n+\n（工+1）2 +1]\n+ arctan(a: + 1) 4\n工 + 1\n— 1）2+1「一 一 2[& + 1严 +叮一 ^arctana + D+C\n2 / + 2z + 2\n2 Q + l)2 + 1\n2 0+1)2 十 1\n-2（£匚+2） + larCtan（\" + 1）十 ©",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 29,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.446744+00:00",
+  "updated_at": "2026-08-23T12:39:51.022097+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 29,
+      "bbox": [
+        24.0,
+        113.70630645751953,
+        482.3999938964844,
+        166.52305603027344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 69,
+      "bbox": [
+        24.0,
+        164.62664794921875,
+        482.3999938964844,
+        415.325927734375
+      ]
+    }
+  ]
+}

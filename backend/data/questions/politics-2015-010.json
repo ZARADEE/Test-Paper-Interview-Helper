@@ -1,0 +1,44 @@
+{
+  "id": "politics-2015-010",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "毛泽东在谈到辛亥革命时指出,辛亥革命有它胜利的地方,也有它失败的地方,“辛亥革命把皇帝赶跑,这不是胜利了吗?说它失败,是说辛亥革命只把一个皇帝赶跑。”毛泽东这里所说的“只把一个皇帝赶跑”是指 :",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】毛泽东指出，辛亥革命“有它胜利的地方，也有它失败的地方。你们看，辛亥革命把皇帝赶跑，这不是胜利了吗？说它失败，是说辛亥革命只把一个皇帝赶跑，指的是辛亥革命结束了统治中国两千多年的封建君主专制制度，建立了中国历史上第一个资产阶级共和政府，但中国仍旧在帝国主义和封建主义的压迫之下，反帝反封建的革命任务并没有完成”。因此，本题的正确答案是B。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.498913+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "没有推翻帝制"
+    },
+    {
+      "key": "B",
+      "text": "反帝反封建的革命任务没有完成"
+    },
+    {
+      "key": "C",
+      "text": "孙中山没有继续革命"
+    },
+    {
+      "key": "D",
+      "text": "袁世凯窃取了胜利果实"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

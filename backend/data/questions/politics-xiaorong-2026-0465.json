@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0465",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1957 年2 月，毛泽东作了《关于正确处理人民内部矛盾的问题》的报告，指出：“在社会主义\n\n社会中，基本的矛盾仍然是生产关系和生产力之间的矛盾，上层建筑和经济基础之间的矛盾。”\n\n社会主义社会的基本矛盾同以往社会的基本矛盾“具有根本不同的性质和情况”。这里所说的\n\n“不同的”“情况” 是指",
+  "answer_markdown": "D",
+  "analysis_markdown": "功能，最终是办好人民满意的教育。A 正确,\n\n出处精丽祠考点60 -1\n\nB、C、D 错误。",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 71,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会主义社会的矛盾反映在政治上可以划分为敌我矛盾和人民内部矛盾"
+    },
+    {
+      "key": "B",
+      "text": "社会主义社会基本矛盾运动是“又相适应又相矛盾”"
+    },
+    {
+      "key": "C",
+      "text": "社会主义社会基本矛盾运动相适应的一面是非基本方面"
+    },
+    {
+      "key": "D",
+      "text": "社会主义社会基本矛盾运动相矛盾的一面是基本方面"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 71,
+      "bbox": [
+        87.23100280761719,
+        110.25965881347656,
+        930.7268676757812,
+        368.6520080566406
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 84,
+      "bbox": [
+        441.4049987792969,
+        662.2020263671875,
+        848.4716796875,
+        1093.9920654296875
+      ]
+    }
+  ]
+}

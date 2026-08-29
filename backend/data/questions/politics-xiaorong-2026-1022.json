@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1022",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1938 年9 月29 日至11 月6 日，中国共产党扩大的六届六中全会在延安召开。这是一次具有重\n\n大历史意义的会议，毛泽东后来在党的七大上说：“六中全会是决定中国之命运的。” 党的六届\n\n六中全会的重要性体现在",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "的战略指导产生了积极影响。A、B、C、D\n\n出处精讲P289 考点51 -1\n\n全选。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 149,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "基本纠正了王明在抗日民族统一战线上的“左” 倾错误"
+    },
+    {
+      "key": "B",
+      "text": "进一步巩固了毛泽东在全党的领导地位"
+    },
+    {
+      "key": "C",
+      "text": "统一了全党的思想和步调，推动了各项工作迅速发展"
+    },
+    {
+      "key": "D",
+      "text": "毛泽东在全会上明确提出了“马克思主义的中国化” 命题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 149,
+      "bbox": [
+        83.09200286865234,
+        1309.7457275390625,
+        923.6834106445312,
+        1408.9442138671875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 155,
+      "bbox": [
+        0.0,
+        1205.4678955078125,
+        309.25457763671875,
+        1279.06884765625
+      ]
+    }
+  ]
+}

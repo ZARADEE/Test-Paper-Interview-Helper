@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0925",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "20 世纪50 年代，我国在对资本主义工商业进行社会主义改造的过程中，创造了一系列国家资\n本主义具体形式，包括",
+  "answer_markdown": "D",
+  "analysis_markdown": "社会主义改造经历了三个步骤，从企业性质\n\n出处i精讲\n考点12 -3-（2）-0\n精丽而旬考点71\n-1-（2）-\n\n的角度来说，第一步是“具有了社会主又的\n\n因素”，第二步是“半社会主义性质”，第三\n\n步是基本上成为“社会主义国营性质”。\n\n简析初级形式的国家资本主义是国家对私",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 136,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "加工订货"
+    },
+    {
+      "key": "B",
+      "text": "统购包销"
+    },
+    {
+      "key": "C",
+      "text": "经销代销"
+    },
+    {
+      "key": "D",
+      "text": "统购统销"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 136,
+      "bbox": [
+        110.91000366210938,
+        541.7022705078125,
+        941.741455078125,
+        704.1234741210938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 141,
+      "bbox": [
+        436.2070007324219,
+        460.1941223144531,
+        856.9950561523438,
+        1081.734619140625
+      ]
+    }
+  ]
+}

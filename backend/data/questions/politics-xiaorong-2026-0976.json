@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0976",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "《中华民国临时约法》是中国第一部资产阶级民主宪法，它规定",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "知识储备题",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 143,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中华民国的主权属于国民全体"
+    },
+    {
+      "key": "B",
+      "text": "中华民国国民一律平等"
+    },
+    {
+      "key": "C",
+      "text": "中华民国国民享有人身、财产、集会、结社、出版、言论等自由"
+    },
+    {
+      "key": "D",
+      "text": "分设行政、司法、立法机关"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 143,
+      "bbox": [
+        93.03399658203125,
+        327.7952880859375,
+        704.0413208007812,
+        494.7426452636719
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 149,
+      "bbox": [
+        0.9321804046630859,
+        582.7202758789062,
+        421.6268615722656,
+        1080.044189453125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0599",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全面建成新发展格局任重道远，必须坚持问题导向和系统观念，着力破除制约加快构建新发展\n\n格局的主要矛盾和问题，不断扬优势、补短板、强弱项。要坚持把发展经济的着力点放在",
+  "answer_markdown": "D",
+  "analysis_markdown": "简析.创新是引领发展的第一动力c 协调是\n\n出处睛萨尸两考点44 -❷\n\n持续健康发展的内在要求。绿色是永续发展\n\n简析实体经济是一国经济的立身之本、财富\n\n的必要条件和人民对美好生活追求的重要体\n\n之源,是构筑未来发展战略优势的重要支撑。\n\n现。开放是国家繁荣发展的必由之路。共享\n\n要坚持把发展经济的着力点放在实体经济\n\n是中国特色社会主义的本质要求。A 正确。\n\n上，推动资源要素向实体经济集聚、政策措施",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 91,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "制度创新上"
+    },
+    {
+      "key": "B",
+      "text": "乡村振兴上"
+    },
+    {
+      "key": "C",
+      "text": "对外开放上"
+    },
+    {
+      "key": "D",
+      "text": "实体经济上"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        87.27100372314453,
+        117.6021499633789,
+        927.92919921875,
+        217.6620330810547
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 101,
+      "bbox": [
+        3.7749996185302734,
+        881.0195922851562,
+        413.9158630371094,
+        1148.870361328125
+      ]
+    }
+  ]
+}

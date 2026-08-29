@@ -1,0 +1,62 @@
+{
+  "id": "question-02a0433652",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "（1）设级数工“”与丫“均发散，则（\n\nb. y^unv„必发散",
+  "answer_markdown": "C",
+  "analysis_markdown": "解 由工;“”发散，知工I un I发散（否则工“”绝对收敛，故\n收敛，与 »”发散\nn=1\nn=l\nn= 1\nn=1\nn=1\n矛盾）.\n同理，由发散，知空I S丨发散，于是工（丨un 1 + 1 “丨）必发散.\nn= 1\nn= 1\nn= 1\nA选项：当与工\"至少有一个不是正项级数时，若与工\"都发散，\n”=1\nn=l\nn=l\nn=1\n8=8=\nOO\nOO\n斗（““+“）不一定发散，如斗2与均发散，但些（扌―+）=若0收敛.\noo\nOO\nOO\nOO\nB选项:如工世与工丄均发散，但Y *•丄=工当收敛.\nn=l jTl n= 1 \"\nn= 1 y Tl \"\nn= 1 ZZ 2\nD选项:如E +与£（一+）均发散，但2 [£+（—*） ]= E占收敛.",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 49,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.459048+00:00",
+  "updated_at": "2026-08-23T12:39:51.396802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "工（“” + S）必发散"
+    },
+    {
+      "key": "C",
+      "text": "工(| \"” | + | v„ |)必发散"
+    },
+    {
+      "key": "D",
+      "text": "工（谄+就）必发散"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "发散"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 49,
+      "bbox": [
+        24.0,
+        196.94778442382812,
+        482.3999938964844,
+        282.09393310546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 136,
+      "bbox": [
+        24.0,
+        158.82305908203125,
+        482.3999938964844,
+        340.9500732421875
+      ]
+    }
+  ]
+}

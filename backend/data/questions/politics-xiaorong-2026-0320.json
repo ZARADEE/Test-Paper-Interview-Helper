@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0320",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "劳动力是特殊的商品。除了其自身独有的特点以外，劳动力商品与其他商品的共同点有",
+  "answer_markdown": "AD",
+  "analysis_markdown": "所起的不同作用，可以将资本划分为不变资\n\n雌鹰乐画考点69 -2\n\n本和可变资本。C 正确。在资本主义社会,\n\n资本总是通过各种物品表现出来，“但资本\n\n简析像其他任何商品一样，劳动力商品也\n\n不是物，而是一定的、社会的、属于一定历史\n\n具有使用价值和价值。A 正确。但是，劳动\n\n社会形态的生产关系，后者体现在一个物上,\n\n力是特殊的商品，它的使用价值是价值的源\n\n并赋予这个物以独特的社会性质”。D 正确。\n\n泉,它在消费过程中能够创造新的价值，而",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "它们都具有使用价值和价值"
+    },
+    {
+      "key": "B",
+      "text": "它们的价值都是由工人在劳动过程中再生产出来的"
+    },
+    {
+      "key": "C",
+      "text": "它们都具有价值增殖的功能"
+    },
+    {
+      "key": "D",
+      "text": "它们都属于历史范畴"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        88.51100158691406,
+        896.1011962890625,
+        866.8466796875,
+        1053.7425537109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 63,
+      "bbox": [
+        6.73900032043457,
+        118.93405151367188,
+        415.5969543457031,
+        306.6136169433594
+      ]
+    }
+  ]
+}

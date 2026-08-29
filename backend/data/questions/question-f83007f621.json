@@ -1,0 +1,49 @@
+{
+  "id": "question-f83007f621",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 微分方程yr，+ y = jc + cos x的通解为__________ •",
+  "answer_markdown": "夕=Cicos x + C2sin z 十 z + *zsin j-(Ci ,C2 为任意常数).",
+  "analysis_markdown": "夕=Cicos x + C2sin z 十 z + *zsin j-(Ci ,C2 为任意常数).\n解 特征方程为产+ 1 = 0,得r =± i,故对应齐次微分方程的通解为\ny = C\\ cos j? + C2 sin jc.\n令『+ y = H的特解为)1* = Az ,则(》1* Y = A, (w)〃 = 0，故\n0 + Az =工 9 A = 1.\n令y\" + y = cos X的特解为w = x^Bcos z + Csin工)，代入方程解得B = 0,C = y,故\n其特解为W =*#sin_z,所以原方程的通解为\ny = Geos 工 + C2sin jc + j? + yjrsin _z(Ci ,C2 为任意常数).",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.459048+00:00",
+  "updated_at": "2026-08-23T12:39:51.370434+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分方程",
+    "通解"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        24.0,
+        268.07623291015625,
+        482.3999938964844,
+        283.6579895019531
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 131,
+      "bbox": [
+        24.0,
+        56.35120391845703,
+        482.3999938964844,
+        190.33078002929688
+      ]
+    }
+  ]
+}

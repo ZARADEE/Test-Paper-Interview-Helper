@@ -1,0 +1,49 @@
+{
+  "id": "question-cb3577f9d8",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(25) 设夕=S 在［0,1］上是非负连续函数.\n(I )证明：存在如6 (0,1),使得在［0,氐］上以/■(©)为高的矩形面积，等于在［氐，口\n上以夕=/■&)为曲边的曲边梯形面积；\n(U )又设 2)在(0,1)内可导，且/(^) >—红3,证明：(I)中的工。是唯一的.\nX",
+  "answer_markdown": "",
+  "analysis_markdown": "(25) 证 (I)依题设，需证存在 Jc0 G (0,1),使得 xof(jco) = [\nJ x0\n注意到\n[4于⑺山]=j fCt^dt —\n,\n令辅助函数FQ)=工f _/■⑺曲,则F(0) = F(l) = 0.\n由罗尔定理，存在一点Zo C (0,1) 9使F'(无0)= 0,即Ho/Xm) = [\n・\nJ工0\n(U)令卩(尤)=J\n—好(工)9 x G (0,1),则\n卩'(九)=—fG) — fG) — jcf G) =— 2/( J7)— xf\\x )・\n由已知条件/'‘Q) >—笔如，知/(^) <0,即卩(2)在(0,1)内严格单调减少，故(I )\n中的攵0是卩(Z)唯一零点.",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 29,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.446744+00:00",
+  "updated_at": "2026-08-23T12:39:51.031231+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 29,
+      "bbox": [
+        24.0,
+        409.30194091796875,
+        482.3999938964844,
+        483.3148193359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 71,
+      "bbox": [
+        24.0,
+        433.790771484375,
+        482.3999938964844,
+        590.1409912109375
+      ]
+    }
+  ]
+}

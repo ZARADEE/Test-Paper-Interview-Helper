@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1136",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "建设中国特色社会主义法治国家，必须一手抓法治、一手抓德治，坚持依法治国和以德治国相\n\n结合。这是",
+  "answer_markdown": "D",
+  "analysis_markdown": "知识储备题\n\n年)》指出，法治社会是构筑法治国家的基\n\n简析社会主义法律和社会主义道德在性\n\n础，法治社会建设是实现国家治理体系和治\n\n理能力现代化的重要组成部分。\n\n质、作用和目标上的一致性，决定了建设中",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 167,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "由法治和德治的实现方式的一致性决定的"
+    },
+    {
+      "key": "B",
+      "text": "由法治和德治的实施载体的一致性决定的"
+    },
+    {
+      "key": "C",
+      "text": "由法律规范和道德规范约束作用的内在要求和表现形式的一致性决定的"
+    },
+    {
+      "key": "D",
+      "text": "由社会主义法律和社会主义道德在性质、作用和目标上的一致性决定的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        89.44100189208984,
+        117.84142303466797,
+        929.89208984375,
+        307.1813049316406
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 172,
+      "bbox": [
+        18.909000396728516,
+        879.99169921875,
+        436.6910095214844,
+        1220.8330078125
+      ]
+    }
+  ]
+}

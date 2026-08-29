@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1024",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1942 年2 月，毛泽东先后作了《整顿党的作风》和《反对党八股》的讲演，整风运动在全党范\n\n围普遍展开。在全党开展整风运动，原因在于",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "不要混淆了。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 150,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "由于条件的限制，遵义会议以来对曾经给党的事业造成严重危害的主观主义、教条主义，没\n\n有来得及从思想上进行认真的清理"
+    },
+    {
+      "key": "B",
+      "text": "随着党的队伍的扩大，一大批出身农民和其他小资产阶级的新党员身上存在着各种非无产阶\n\n级思想"
+    },
+    {
+      "key": "C",
+      "text": "共产国际解散给党带来的不利影响也需要应对"
+    },
+    {
+      "key": "D",
+      "text": "老党员要适应新形势，也需要进一步提高自己\n，"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 150,
+      "bbox": [
+        111.65599822998047,
+        498.02142333984375,
+        944.27978515625,
+        746.6129150390625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 155,
+      "bbox": [
+        429.66400146484375,
+        1033.2637939453125,
+        843.4808349609375,
+        1173.764892578125
+      ]
+    }
+  ]
+}

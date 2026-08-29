@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0673",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国共产党的历史就是一部不断推进理论创新、进行理论创造的历史。不断谱写马克思主义中国\n\n化时代化新篇章，是当代中国共产党人的庄严历史责任。继续推进实践基础上的理论创新，首先\n\n要把握好习近平新时代中国特色社会主义思想的世界观和方法论，坚持好、运用好贯穿其中的立\n\n场观点方法，必须",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 99,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持人民至上，坚持自信自立"
+    },
+    {
+      "key": "B",
+      "text": "坚持守正创新，坚持问题导向"
+    },
+    {
+      "key": "C",
+      "text": "坚持系统观念，坚持胸怀天下"
+    },
+    {
+      "key": "D",
+      "text": "坚持党的领导，坚持实事求是"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 99,
+      "bbox": [
+        87.81199645996094,
+        991.6947631835938,
+        928.3857421875,
+        1181.6995849609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        4.159999847412109,
+        351.5044250488281,
+        413.0492248535156,
+        527.8941040039062
+      ]
+    }
+  ]
+}

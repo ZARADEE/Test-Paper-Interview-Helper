@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1204",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "道德功能的发挥和实现所产生的社会影响及实际效果，就是道德的作用。道德的作用主要表现在",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "求，是社会主义经济基础和人际关系的客观\n\n出处精讲而50〕考点31 -3-(3)-6\n\n要求,是社会主义市场经济健康发展的要求,\n\n简析道德作用的主要表现是\n道德作为维\n\n是先进性要求和广泛性要求的统一。A、B、D\n\n系社会稳定、促进国家发展的重要因素，对巩\n\n正确。为人民服务是社会主义道德的核心,\n\n固特定社会的经济基础和上层建筑具有不可\n\n集体主义是社会主义道德的原则。C 不符合\n\n替代的重要作用。道德作为激励人们改造\n\n题意。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 175,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "巩固特定社会的经济基础和上层建筑"
+    },
+    {
+      "key": "B",
+      "text": "提高人的精神境界"
+    },
+    {
+      "key": "C",
+      "text": "促进人的自我完善"
+    },
+    {
+      "key": "D",
+      "text": "推动人的全面发展"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 175,
+      "bbox": [
+        91.62000274658203,
+        988.4071655273438,
+        919.4903564453125,
+        1085.0042724609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 180,
+      "bbox": [
+        14.520000457763672,
+        606.7542114257812,
+        421.3479309082031,
+        914.35107421875
+      ]
+    }
+  ]
+}

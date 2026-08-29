@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0498",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "近代中国社会的性质和主要矛盾，决定了中国革命的主要敌人就是帝国主义、封建主义和官僚\n\n资本主义。反对封建主义，从根本上说，就是要",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处\n考点6 -2-\n\n置近新民主主义国家的国体是无产阶级领\n\n导的以工农联盟为基础，包括小资产阶级、民",
+  "chapter": "第二章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 75,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "在经济上消灭封建土地所有制"
+    },
+    {
+      "key": "B",
+      "text": "在政治上消灭封建的官僚军阀专制统治"
+    },
+    {
+      "key": "C",
+      "text": "消灭地主阶级，解放生产力"
+    },
+    {
+      "key": "D",
+      "text": "为中国的经济现代化和政治民主化创造条件"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第二章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第二章"
+  ],
+  "source_regions": [
+    {
+      "page": 75,
+      "bbox": [
+        85.93599700927734,
+        1068.265625,
+        927.2638549804688,
+        1196.48291015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 88,
+      "bbox": [
+        442.5920104980469,
+        952.6943359375,
+        848.4891967773438,
+        1331.951171875
+      ]
+    }
+  ]
+}

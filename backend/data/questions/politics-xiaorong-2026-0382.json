@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0382",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2008 年国际金融危机以来，西方主要资本主义国家采取各种措施应对危机，虽暂时避免了金\n\n融秩序崩溃，但对推动经济复苏效果有限，经济发展仍然面临一系列问题，具体表现为",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "本主义的基本经济制度，作为资本主义生产\n\n出处精爵畸考点83 -O\n\n方式本质特征的雇佣劳动制度依然存在并\n\n运行着。资本追逐剩余价值的本性并没有\n\n简析A、B、D 正确。C 是社会融合机制失\n\n改变，改变的只是获取剩余价值的方式和方\n\n效的表现,不符合题意。\n\n法。C 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 55,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "福利风险增加"
+    },
+    {
+      "key": "B",
+      "text": "债务负担沉重"
+    },
+    {
+      "key": "C",
+      "text": "社会流动性退化"
+    },
+    {
+      "key": "D",
+      "text": "虚拟经济与实体经济发展失衡"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 55,
+      "bbox": [
+        89.1780014038086,
+        585.7245483398438,
+        929.697998046875,
+        716.1265869140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        446.67498779296875,
+        832.2609252929688,
+        705.9642333984375,
+        904.9869995117188
+      ]
+    }
+  ]
+}

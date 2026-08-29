@@ -1,0 +1,69 @@
+{
+  "id": "question-1a1e4fdb0a",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)\n(\nI )设水刃是：0,+oo)上单调减少且非负的连续函数.证明：\n护+1\nf(k + 1) Wj\nf (j;)djr f(k) (k = 1,2,…)；\n1 + 寺---+ ~\n(U)证明：ln(l+/2)<l + 4 + -+-<l + In \"，并求极限 lim ——J----------- --\n/\nYl\n”f 8\nIn Tl",
+  "answer_markdown": "",
+  "analysis_markdown": "(2) 解 (I )由/(J7)单调减少且非负连续，可知当工& MM + 1]时，有\n/(^ + 1) < /(^)\n故\n•H-l\np+1/(^ + l)d^<\n%+l\n即 /U + 1) <\nW f(k).\n(H )若取 g =丄(工> o),显然fS 单调减少且非负，则由(I)知\nX\n宀丄d_zW丄，\nn X\nn\nz?十1\n故\n'\"+1\ni\n2 n+\n—djt:=\nX\n—dx + ・•• +\n2 JC\n】+i\np+i i\ni\ni\n—dj? W 1 +》+ …+ 二 9\n7 1」亠「1\n1 X\nf2 1\n—Ax =\ni 工 3 = — 2\nX\n，\nn\n—dx $ 1 + 士 + …+ —.\n~\nn\n—dj? +\n1 JC\n1 +\n—Ax + …+\n2 JC\n又因为\n‘卄]\n卄1 =ln(l + n),\n丄= In工\nXr丄山\nIn x\nJ 1 X\n=In n,\nln(l + zz) W 1 + £ + ••• + 丄 £ 1 + In\n所以\nZ\nn\n①\n由①式，可知\n1 + + + - + 乙]+ 5”\nln( 1 + 〃) v\nIn n\nIn n\nIn n\n又由于\nv 1 + In n\nlim —:-------\nn->oo 111 72\n=lim -r~— + 1 = 1,\nn->oo In YL\n]\nlim Z1+刃卫业\nlim8\nln(l + n)\nIn n\n1-\n1 + 工 _ 1\n[\nt I lim -\n— 19\nHf+oo In X\n法则 Hf+oo 1\nx\n故由夹逼准则，可知\nlim8\n1 +石+…+ —\nZ\nn i\n=1.\nIn n",
+  "chapter": "函数、极限与连续",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 13,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.438262+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 13,
+      "bbox": [
+        24.0,
+        542.828857421875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 14,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 22,
+      "bbox": [
+        24.0,
+        221.59078979492188,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 23,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

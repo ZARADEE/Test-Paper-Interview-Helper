@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0515",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "毛泽东在中共七大上总结的中国共产党区别于其他任何政党的显著标志有",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "一总目标既同党的十八届三中全会提出的全\n\n出处精市而考点tips\n\n面深化改革总目标一脉相承，又同党的二十\n\n大作出的战略部署相衔接。\n\n简析B、C、D 正确。党的十一届三中全会开",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 78,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "谦虚、谨慎、不骄、不躁的作风"
+    },
+    {
+      "key": "B",
+      "text": "理论和实践相结合的作风"
+    },
+    {
+      "key": "C",
+      "text": "自我批评的作风"
+    },
+    {
+      "key": "D",
+      "text": "和人民群众紧密地联系在一起的作风"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        107.35399627685547,
+        245.48297119140625,
+        757.21044921875,
+        405.85198974609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        4.729000091552734,
+        28.246200561523438,
+        318.3795166015625,
+        105.0722427368164
+      ]
+    }
+  ]
+}

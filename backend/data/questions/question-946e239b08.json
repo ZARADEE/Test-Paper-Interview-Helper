@@ -1,0 +1,59 @@
+{
+  "id": "question-946e239b08",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(5)设(X,Y)的概率密度为<\n、0,\n其他.\n(I )求X和Y的边缘概率密度，并判别X与Y是否相互独立；\n(U)记乙=X2,Z2 = 0,求乙，Z2的分布函数及(乙，Z2)的联合分布函数.",
+  "answer_markdown": "",
+  "analysis_markdown": "⑸解 (I )当丨\"VI时，x的边缘概率密度为\n丄\n1 &（ 1 +可心\nfx（^）=\n「+°°\nr1 1\n,\n,\n/x(z)= fCa:,y)dy =\nZ1\nJ —oo\n当 I 攵 | $ 1 时,/x(Z)= 0,故\n丄\nI jc | V 1,\n=\no,\n| z | $ 1.\n同理，可得Y的边缘概率密度为\n|Y|V1,\nfvCy)=\n0,\n| Y |>1,\n显然，/'（z，y）H fxO •/¥（》）‘故X与Y不相互独立.\n（U）设乙=X?与Z2 =严的分布函数分别为Fl Q）与F2 （夕），（乙，Z2）的分布函数为\nF（z,y）.\nV7 ]\n当工<0 时，Fi（j：） = P{X2 x} = 0；当 0\n1 时，\nFi（z） = P{X2 < ^} = P{—后 W X 冬后}=\n-77 2\n当工$1时，Fi（g） = 1,所以\n同理，可得F2（y）=\nJ0,\n•T V 0,\nFi (z)=\n0 £ 攵 V 1,\n〔1,\nX $1.\n■0,\n夕V 0,\n0 £ 夕 V 1,\n.1,\n夕$1・\n下求 F(z,y).\n当 2<0 或 y<0 时= 0 ；\n当\n0 = 2<1,夕$ 1 时，\n当\nF(_z,y) = P{X2 < iY? W 切=P{X2 £ 刃=石\nOWjzVI’z^ 1 时，\n当\nF(z,y) = P{X2 C 夂,Y? W，} = P{Y2 W ■?} = V7；\n0£鼻<1,0£夕<1 时，\n、丘\n_厂 *( 1 + 巧)dp = \\fxy ;\n—Jr .\nFQq)=\n当 2$1,夕$1 时，F(z,jO = 1,故\n攵V o或夕< 0,\n0,\n\\[x,\n妁，\n.1,\n2$1,0三夕<1,\n0£2<1,0£夕<1,\nh N 1，夕 M 1.\n【注】 ①可以验证：F(hq) = FiQ) • F2(y),故X2与Y2相互独立.\n② 此例说明：X2与Y?独立井X与Y独立.\n③ 一般地：X与Y独立^h(X)与g(Y)独立G,g为连续函数).",
+  "chapter": "随机变量及其分布",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 93,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.489264+00:00",
+  "updated_at": "2026-08-23T12:39:51.973360+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "分布函数",
+    "概率密度"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        24.0,
+        85.23361206054688,
+        482.3999938964844,
+        139.84213256835938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 255,
+      "bbox": [
+        24.0,
+        322.3683166503906,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 256,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        189.8183135986328
+      ]
+    }
+  ]
+}

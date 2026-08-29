@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0536",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在一个几亿人口的大国中比较顺利地实现了如此复杂、困难和深刻的社会主义改造，不仅没有\n造成生产力的破坏，反而促进了工农业和整个国民经济的发展；不仅没有引起巨大的社会动荡，\n反而极大地加强了人民的团结，并且是在人民普遍拥护的情况下完成的。这些情况说明，我国\n社会主义改造的基本完成的确是一个伟大的历史性胜利。我国社会主义改造的成功经验在于",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 80,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持“一举过渡”"
+    },
+    {
+      "key": "B",
+      "text": "坚持社会主义工业化建设与社会主义改造同时并举"
+    },
+    {
+      "key": "C",
+      "text": "采取积极引导、逐步过渡的方式"
+    },
+    {
+      "key": "D",
+      "text": "用和平方法进行改造"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 80,
+      "bbox": [
+        103.41799926757812,
+        1143.365234375,
+        945.9805297851562,
+        1386.9195556640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        444.2969970703125,
+        1220.9610595703125,
+        849.8845825195312,
+        1328.5286865234375
+      ]
+    }
+  ]
+}

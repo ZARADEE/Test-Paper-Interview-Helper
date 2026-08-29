@@ -1,0 +1,62 @@
+{
+  "id": "politics-xiaorong-2026-0154",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在其他条件不变的情况下，以下选项中会提高资本有机构成的是",
+  "answer_markdown": "B",
+  "analysis_markdown": "相对剩余价值是指在工作日长度不变的条\n\n出处丽T丽西考点71 -3\n\n件下,通过缩短必要劳动时间而相对延长剩\n\n余劳动时间生产的剩余价值。超额剩余价\n\n简析原材料价格上涨并没有改变资本技术\n\n值是指企业由于提高劳动生产率而使商品\n\n构成,变化的只是资本价值构成。A 错误。\n\n的个别价值低于社会价值的差额。A、B 不\n\n自动化程度提高是一种技术改进，裁员意味\n\n符合题意,D 错误。\n\n着可变资本部分（。）减少,资本有机构成",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 21,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "生产所用的原材料价格上涨"
+    },
+    {
+      "key": "B",
+      "text": "自动化程度提高导致的裁员"
+    },
+    {
+      "key": "C",
+      "text": "劳动者接受教育和训练所支出的费用增加D. 为追求更多利润而增加工人的劳动时间"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 21,
+      "bbox": [
+        93.33799743652344,
+        1226.6400146484375,
+        886.6453857421875,
+        1325.9322509765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 30,
+      "bbox": [
+        23.211000442504883,
+        887.4728393554688,
+        430.25738525390625,
+        1251.1021728515625
+      ]
+    }
+  ]
+}

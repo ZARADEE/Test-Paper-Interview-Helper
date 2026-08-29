@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0260",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "面对浩瀚空天，我们的先人认为那里除了点点星光，可能空无一物，因此称之为“太空”。后\n\n来，人们通过观测工具和实验数据逐渐认识到太空其实并不空，而是充满了等离子体、宇宙射线、\n\n电磁场等物质，存在各种复杂的物理现象。随着1957 年世界上第一颗人造卫星发射成功，人类开\n\n始进入并利用太空，太空与人类生产生活的关系越发紧密。人类对太空的认识和利用说明",
+  "answer_markdown": "AD",
+  "analysis_markdown": "往复以至无穷，这才是认识发展的总过程。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 38,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人的认识过程是一个在实践基础上不断深化的发展过程"
+    },
+    {
+      "key": "B",
+      "text": "事物的本质随着人们认识的变化而改变"
+    },
+    {
+      "key": "C",
+      "text": "一切客观存在的事物都是人们现实的实践客体"
+    },
+    {
+      "key": "D",
+      "text": "实践的主体、客体和中介是不断变化发展的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 38,
+      "bbox": [
+        103.92400360107422,
+        128.11880493164062,
+        946.5008544921875,
+        372.6639709472656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 50,
+      "bbox": [
+        443.4159851074219,
+        696.2871704101562,
+        860.7974853515625,
+        1323.9676513671875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1113",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "道德调节的主要形式是",
+  "answer_markdown": "A",
+  "analysis_markdown": "先烈,正是为了实现这样一个崇高的理想,毫\n\n不犹豫地献出了自己的生命。A 正确,B、C、\n\n出处隋而画］考点31 -3- (2)-0\n\nD 不符合题意。\n\n简析道德评价是道德调节的主要形式,社会",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 164,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "道德评价"
+    },
+    {
+      "key": "B",
+      "text": "社会舆论"
+    },
+    {
+      "key": "C",
+      "text": "传统习俗"
+    },
+    {
+      "key": "D",
+      "text": "内心信念"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 164,
+      "bbox": [
+        104.02100372314453,
+        1168.012451171875,
+        836.1837768554688,
+        1236.7962646484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 169,
+      "bbox": [
+        432.7900085449219,
+        921.2042846679688,
+        843.0452880859375,
+        1315.510498046875
+      ]
+    }
+  ]
+}

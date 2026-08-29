@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0239",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "列宁曾经把现象比作河水上面的泡沫，而把本质比作下面的深流。这一比喻形象地说明了本质\n\n与现象的关系，以下说法正确的有",
+  "answer_markdown": "AC",
+  "analysis_markdown": "子还有“原始公有制一私有制一共产主义公\n\n出处精讲下可考点20 - ❷\n\n有制”，显然共产主义社会的公有制是比原\n\n简析本质与现象是相互依存的,不表现为现\n\n始社会的公有制更高级的公有制。\n\n象的本质和不表现本质的现象都是不存在",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 34,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "本质只有通过理性思维才能把握"
+    },
+    {
+      "key": "B",
+      "text": "现象离不开本质，但本质可以离开现象"
+    },
+    {
+      "key": "C",
+      "text": "现象是多变易逝的，本质是相对稳定的"
+    },
+    {
+      "key": "D",
+      "text": "真象和本质是同一的，假象和本质不是同一的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 34,
+      "bbox": [
+        102.93099975585938,
+        398.74951171875,
+        935.316162109375,
+        590.1226806640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 45,
+      "bbox": [
+        430.47900390625,
+        1013.0372314453125,
+        850.3365478515625,
+        1313.6409912109375
+      ]
+    }
+  ]
+}

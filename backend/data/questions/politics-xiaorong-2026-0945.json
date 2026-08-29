@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0945",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "为了实现中华民族伟大复兴，中国共产党团结带领中国人民，创造了新民主主义革命的伟大成\n\n就、社会主义革命和建设的伟大成就、改革开放和社会主义现代化建设的伟大成就、新时代巾\n\n国特色社会主义的伟大成就。其中，为实现中华民族伟大复兴提供了更为完善的制度保证、更\n\n为坚实的物质基础、更为主动的精神力量的是",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "第十章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 139,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "新民主主义革命的伟大成就"
+    },
+    {
+      "key": "B",
+      "text": "社会主义革命和建设的伟大成就"
+    },
+    {
+      "key": "C",
+      "text": "改革开放和社会主义现代化建设的伟大成就"
+    },
+    {
+      "key": "D",
+      "text": "新时代中国特色社会主义的伟大成就"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第十章"
+  ],
+  "source_regions": [
+    {
+      "page": 139,
+      "bbox": [
+        82.55599975585938,
+        171.36529541015625,
+        923.2999267578125,
+        362.5649108886719
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 144,
+      "bbox": [
+        452.0820007324219,
+        1117.358642578125,
+        858.4940795898438,
+        1319.632568359375
+      ]
+    }
+  ]
+}

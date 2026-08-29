@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0123",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思在《资本论》中指出：“不管生产力发生了什么变化，同一劳动在同样的时间内提供的\n价值量总是相同的。但它在同样的时间内提供的使用价值量会是不同的：生产力提高时就多\n些，生产力降低时就少些。” 这表明，提高劳动生产率会使单位时间内生产的商品数量和个别\n商品的价值量发生变化，即",
+  "answer_markdown": "D",
+  "analysis_markdown": "会属性。C 错误。\n\n出处精丽雨〕考点63 -2",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "商品数量增加，个别商品的价值量增大"
+    },
+    {
+      "key": "B",
+      "text": "商品数量增加，单位时间内生产的总价值量增大"
+    },
+    {
+      "key": "C",
+      "text": "商品数量增加，个别商品的价值量不变"
+    },
+    {
+      "key": "D",
+      "text": "商品数量增加，个别商品的价值量减少"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        103.83899688720703,
+        524.66357421875,
+        936.9519653320312,
+        777.4988403320312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 25,
+      "bbox": [
+        0.8532304763793945,
+        132.12449645996094,
+        410.96832275390625,
+        569.9501342773438
+      ]
+    }
+  ]
+}

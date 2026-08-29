@@ -1,0 +1,48 @@
+{
+  "id": "question-b64de5c42e",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "（3） 函数夕=严（1+工+菁+ •••+君）5为正奇数）的极大值为________ •",
+  "answer_markdown": "1.",
+  "analysis_markdown": "1.\n解\n由\ne\n「\nZ2\nz\"T\n]+ 工 + 乞 ----\n1-------±---------\n宀+訂•+君e~\"=—斗亍=0,\nn !\n:y =\n得 z = o.\n由于爲为奇数，当工<0时,3/ > 0；当0时，/<0,故/(0) = 1是极大值.",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 20,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.442361+00:00",
+  "updated_at": "2026-08-23T12:39:50.908537+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 20,
+      "bbox": [
+        24.0,
+        478.9009704589844,
+        482.3999938964844,
+        507.80859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 39,
+      "bbox": [
+        24.0,
+        248.5889129638672,
+        482.3999938964844,
+        317.8279724121094
+      ]
+    }
+  ]
+}

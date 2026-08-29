@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1253",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "公平正义是法治思维的基本内容之一。公平正义主要包括权利公平、机会公平、规则公平和救\n\n济公平。权利公平包括",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "力;离开了法律义务，法律权利也形同虚设。\n\n出处精那两3 考点51 -2-(3)\n\nA、B、D 正确。\n\n简析公平正义是指社会的政治利益、经济利\n\n有些法律权利和法律义务具有复合性\n\n益和其他利益在全体社会成员之间合理、公\n\n的关系,即一个行为可以同时是权利行为和\n\n平分配和占有。一般来讲，公平正义主要包\n\n义务行为,如劳动的权利和义务、接受义务\n\n括权利公平、机会公平、规则公平和救济公\n\n教育的权利和义务等。C 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 181,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "起点平等"
+    },
+    {
+      "key": "B",
+      "text": "权利主体平等"
+    },
+    {
+      "key": "C",
+      "text": "享有的权利，特别是基本权利平等"
+    },
+    {
+      "key": "D",
+      "text": "权利保护和权利救济平等"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        86.3479995727539,
+        583.87548828125,
+        926.4847412109375,
+        713.3851318359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 185,
+      "bbox": [
+        7.031999588012695,
+        737.7696533203125,
+        426.5213317871094,
+        1109.9234619140625
+      ]
+    }
+  ]
+}

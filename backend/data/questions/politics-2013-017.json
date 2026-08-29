@@ -1,0 +1,44 @@
+{
+  "id": "politics-2013-017",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思主义是关于无产阶级和人类解放的科学，实现共产主义是全人类解放的根本体现。人类解放包括：",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "【解析】全人类彻底解放包含着深刻和丰富的内容。一是人类从自然界的奴役下解放出来，摆脱盲目自然力的支配，成为自然界的主人；二是人类从旧的社会关系束缚下解放出来，摆脱一切剥削压迫和旧式分工的束缚 ，成为社会关系的主人；三是人类从剥削阶级的思想观念下解放出来，摆脱传统观念和传统思维方式的束缚，成为社会意识的主人。因此本题正确答案是选项ACD。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.459074+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "从自然界的压迫下解放出来"
+    },
+    {
+      "key": "B",
+      "text": "从客观规律的制约下解放出来"
+    },
+    {
+      "key": "C",
+      "text": "从旧的社会关系的束缚下解放出来"
+    },
+    {
+      "key": "D",
+      "text": "从旧的传统观念的禁锢下解放出来"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-8bd2dfaa48",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（11）利用（1）的结果求若（3小「\nn-1\n（11）将/•&） = 1—y（o £工£兀）展开为余弦级数，并求工（_1）\nn2\nn= 1",
+  "answer_markdown": "",
+  "analysis_markdown": "(11)解\nJC2C\n依题意，仇=0,且\n2「\n=—/(j:)cos tucAx\n7t J 0\ncos nr dx\no\nj?d(cos nx )\n2、\nf)-\n(1 — X2 )dj? = 2(1\nQo\nTC\n由fS 在[0,兀]上连续，根据收敛定理，有\n二cos nz.\ny(z) = y + 2a”cos nz = l—号+\n\"\n”2\n2 = 0 时,/(0) = 1 —弓+ £ 4 ・(-1)\n(一 IL\nn=1\nn= 1\nn+1\n二\n„2------------，故工\n当\n”2\n兀2\n12°\n'3\n•2\n‘\nn=l\n山=J\nH\nn=\\\nJ (3 -\n-\ndx +",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 51,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.461257+00:00",
+  "updated_at": "2026-08-23T12:39:51.435735+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 51,
+      "bbox": [
+        24.0,
+        608.4326782226562,
+        482.3999938964844,
+        666.10888671875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 145,
+      "bbox": [
+        24.0,
+        301.17486572265625,
+        482.3999938964844,
+        511.82470703125
+      ]
+    }
+  ]
+}

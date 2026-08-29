@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0995",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国共产党这个中国近代以来最伟大的创业团队，是1921 年在上海的一座石库门小楼里集结出发\n\n的。当年这里是望志路106 号，1943 年至今是兴业路76 号。由“望志” 而“兴业”，是历史的巧\n\n合，也寓意着历史的必然。中国共产党是在特定的社会历史条件下成立的。中国共产党一开始",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "出处精讲P268 考点28 -2-(2)\n\n出处精讲P270 271\n考点\n-3",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 146,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "就把党的工作重心放在农村"
+    },
+    {
+      "key": "B",
+      "text": "就义无反顾地肩负起实现中华民族伟大复兴的历史使命"
+    },
+    {
+      "key": "C",
+      "text": "就是一个区别于第二国际旧式社会改良党的新型工人阶级革命政党"
+    },
+    {
+      "key": "D",
+      "text": "就是一个以马克思列宁主义理论为基础的党"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 146,
+      "bbox": [
+        111.11499786376953,
+        305.4781799316406,
+        944.1316528320312,
+        531.735107421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 151,
+      "bbox": [
+        439.67401123046875,
+        164.72035217285156,
+        850.6044311523438,
+        338.785888671875
+      ]
+    }
+  ]
+}

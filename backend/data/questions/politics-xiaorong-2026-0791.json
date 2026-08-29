@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0791",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“一国两制” 构想获得了有关各方的一致认可，实现了港澳平稳过渡、和平回归，洗刷了民族\n百年耻辱，完成了实现祖国完全统一的重要一步。“一国两制”伟大构想体现了",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "平安全、推动高质量发展，发挥独特优\n\n出处精评P多考点100\n-2、3\n\n势、强化内联外通，弘扬核心价值、促进",
+  "chapter": "第十五章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 116,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国共产党的政治智慧和开拓创新的勇气"
+    },
+    {
+      "key": "B",
+      "text": "中华民族追求统一、反对分裂、爱好和平的精神特质"
+    },
+    {
+      "key": "C",
+      "text": "中国特色社会主义制度的先进性质"
+    },
+    {
+      "key": "D",
+      "text": "尊重差异、求同存异的思维方式"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十五章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十五章"
+  ],
+  "source_regions": [
+    {
+      "page": 116,
+      "bbox": [
+        100.5199966430664,
+        863.9048461914062,
+        932.2713623046875,
+        1052.2734375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 120,
+      "bbox": [
+        442.58599853515625,
+        773.1101684570312,
+        859.2176513671875,
+        1002.4967651367188
+      ]
+    }
+  ]
+}

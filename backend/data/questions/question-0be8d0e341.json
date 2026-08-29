@@ -1,0 +1,68 @@
+{
+  "id": "question-0be8d0e341",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(14) 设S为z = y十$2介于z = 0与z = 1之间部分的下侧，计算\nI = jj*r2 dj；dz + zdj?dj/.\ns",
+  "answer_markdown": "",
+  "analysis_markdown": "(14)解法1\n.\n添加曲面Si : z\n心5\n：=1(^2+y < 1),取上侧，有\n$ x2 dj/dz + z(\\x^y —[ j? dj/dz + z^x6.y.\ns+s1\nsi\n# jc2 dydz + Nchzd\n由于\n(2jc + l)dV\nV\nS+S]\n'1\n柱面坐标\no\n'2k\n图 9-10\n'2k\nrdrI (2rcos 0+ 1)c1n =罟\nJ 0 J r2\nJJ x2 dydz + zdxdy = jj ldxdy = J d^J\nrdr = 7t,\no\n%\no (\n{(D)| 无2 + 夕2 w ]},故 j =号—兀=_ :.\n其中Dxy =\n解法2\n投影法.S-.z = x2 + y2下侧的法向量为兀=(2如2夕，一 1)，方向余弦为\n2工\n.—1\ncos a = ------------------------------------- , cos y =-------------------------------------- .\ny(2^)2 + (2j/)2 + (-l)2\ny(2jc)2 + (2j/)2 + (-l)2\n由业=举=主卫=dS(转换公式)，可知\ncos a cos B cos y\ndj/d^ = c：s ；dHdj/ = (— 2x)dj：dy 9\nx2 dydz + zdxdy = JJ\n故/ =\n2g3 + x2 +『)dzdy,\n[j?2 • (— 2_z) +\n=一\ns\ns\n其中 Dry = {(Z,y)丨 + $2 w ] }\nD~\n为奇函数，从而\n'2it\n1=2\n『厂$ •厂d厂=—+\nJ o\nZ\n+ j/2) dj?dj/ = 0 —\n,x3\nj：3 dxdj/ —\n乙\n叮\n……\n【注】 此题若取S：z — j：2 + y2上侧，则法向量取\"=（―2夂，一2》，1）.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 56,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.469411+00:00",
+  "updated_at": "2026-08-23T12:39:51.516321+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 56,
+      "bbox": [
+        24.0,
+        669.9689331054688,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 57,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        92.78978729248047
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 162,
+      "bbox": [
+        24.0,
+        453.6982727050781,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 163,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        134.38427734375
+      ]
+    }
+  ]
+}

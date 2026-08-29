@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0690",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国最大的国情就是中国共产党的领导。中国共产党领导",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "作为检验工作的最终评判标准。习近平总书\n\n团处满讲面64 考点17\n\n记指出:“中国共产党把为民办事、为民造福\n\n作为最重要的政绩，把为老百姓办了多少好",
+  "chapter": "第二章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 102,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是中国人民和中华民族能够扭转近代以后的历史命运、取得今天伟大成就的最根本原因"
+    },
+    {
+      "key": "B",
+      "text": "是人民当家作主的可靠保障"
+    },
+    {
+      "key": "C",
+      "text": "关系中国特色社会主义的性质、方向和命运"
+    },
+    {
+      "key": "D",
+      "text": "是实现中华民族伟大复兴的根本保证"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第二章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第二章"
+  ],
+  "source_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        104.73999786376953,
+        277.661376953125,
+        893.6964721679688,
+        442.06414794921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 110,
+      "bbox": [
+        443.9630126953125,
+        517.936279296875,
+        851.0838012695312,
+        822.617431640625
+      ]
+    }
+  ]
+}

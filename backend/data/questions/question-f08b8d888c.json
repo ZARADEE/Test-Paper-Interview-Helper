@@ -1,0 +1,48 @@
+{
+  "id": "question-f08b8d888c",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) // = \" + tanA 满足 y(l) = y-的特解为\n.\nx\nx",
+  "answer_markdown": "sin — = -^-x.",
+  "analysis_markdown": "sin — = -^-x.\nx L\n解\n原方程为齐次微分方程，令“=工，即夕=必，则\nX\n分离变量得cot wdu =卫,积分得In I sin “ I = In丨z 1+ Cl ,故\nx\n即 sin 工=Cz（CH 0）.\n又;=0也是原方程的解（y = 0在分离变量过程中漏掉了），故上面常数也可以为零，则\n原方程的通解为sin》=Cz（C为任意常数）.\n由夕⑴=令，得C =寺,故所求特解为sin工=黒.\nZ\nJC 6",
+  "chapter": "微分方程",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 45,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.456828+00:00",
+  "updated_at": "2026-08-23T12:39:51.330602+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 45,
+      "bbox": [
+        24.0,
+        536.630126953125,
+        482.3999938964844,
+        559.8510131835938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 125,
+      "bbox": [
+        24.0,
+        174.42369079589844,
+        482.3999938964844,
+        350.25506591796875
+      ]
+    }
+  ]
+}

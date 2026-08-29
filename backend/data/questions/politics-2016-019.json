@@ -1,0 +1,44 @@
+{
+  "id": "politics-2016-019",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思说：“一切现实的危机的最终原因始终是：群众贫穷和群众的消费受到限制，而与此相对立，资本主义生产却竭力发展生产力，好像只有社会的绝对的消费能力才是生产力发展的界限。”这段论述表明",
+  "answer_markdown": "AB",
+  "analysis_markdown": "【解析】资本主义经济危机爆发的根本原因是资本主义的基本矛盾，其具体表现之一就是生产无限扩大的趋势与劳动人民有支付能力的需求相对缩小的矛盾，“劳动人民有支付能力的需求”就是“社会的绝对的消费能力”，这种绝对消费能力不足，就导致了经济危机的发生。故A、B项正确。C项说法错误。D项中，资本积累的历史趋势是资本主义制度的必然灭亡和社会主义制度的必然胜利，与经济危机的发生没有必然联系，故D项也不选。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.517004+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "经济危机的发生与群众的贫穷及其消费能力受到限制有关"
+    },
+    {
+      "key": "B",
+      "text": "经济危机的发生根本上在于资本主义的基本矛盾"
+    },
+    {
+      "key": "C",
+      "text": "资本积累与无限扩大生产也是经济危机发生的原因"
+    },
+    {
+      "key": "D",
+      "text": "社会的绝对的消费能力导致了经济危机的发生 ### 答案解析 19."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

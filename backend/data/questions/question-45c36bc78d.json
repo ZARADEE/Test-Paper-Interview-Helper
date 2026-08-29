@@ -1,0 +1,58 @@
+{
+  "id": "question-45c36bc78d",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 设随机变量x服从参数为入的指数分布，对x进行三次独立重复观察，至少有一次\n观测值大于3的概率为尊，求入的值.",
+  "answer_markdown": "",
+  "analysis_markdown": "⑶解\n由已知，X的概率密度为fS =\n10,\nE(3 9 p) 9 且\n•+°°\n—3A\n次独立重复观察中，事件{X>3}发生的次数，则Y\nAe_Zrdj： = e\np = P{X>3} = J'\nP{Y^i} = i-p{y = o} = l-d-p)3 = p,\n依题设，\n|_ =严,\n故P =飞，由P",
+  "chapter": "随机变量及其分布",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 88,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.486227+00:00",
+  "updated_at": "2026-08-23T12:39:51.914344+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "概率",
+    "独立"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 88,
+      "bbox": [
+        24.0,
+        394.5854187011719,
+        482.3999938964844,
+        439.26348876953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 241,
+      "bbox": [
+        24.0,
+        658.6478881835938,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 242,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        136.32469177246094
+      ]
+    }
+  ]
+}

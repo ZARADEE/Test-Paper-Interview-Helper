@@ -1,0 +1,48 @@
+{
+  "id": "question-e07e1c2e34",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(12) 设于(工)二阶可导,/(0) = 0,/(0) = 1,/(0) = 2,求lim *刃2—二\nx-*0\nX\n(1 _L r2 o V 了 V 1",
+  "answer_markdown": "",
+  "analysis_markdown": "(12)解 lim /⑺厂“ =lim\nf S 二 1 = lim\n'(0)= |/(0) = 1.\n工一＞0\nX1\no 2jc\n2工\n【注】①下列解法是错误的.\n1・\n/(J；) — X 1・\n”(2) — 1\n1・ f (a：)\n1 ”/c、 n\nlim  ----- 5----- = hm '—\n—o------- = hm — = 右丫 (0) = 1»\nRfO x\nx-*0\nLx\nx->0\n/\n/\n题中条件是 g 二阶可导，不能保证连续，故lim 卑◎ =\n错误•\nx-*0 Z\n/\n②此题也可以用泰勒公式求解.\n，\nfix) = /(0) + /''(O)z + -\n+ o(j?)\n=z +\n+ o(x2),\n故\nlim心严 =lim工十已±4(4二 =1.\nx->0\nT\nt-*0\nX\n工-*0",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 17,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.440266+00:00",
+  "updated_at": "2026-08-23T12:39:50.845451+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        24.0,
+        528.7590942382812,
+        482.3999938964844,
+        545.4483032226562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 31,
+      "bbox": [
+        24.0,
+        134.2246551513672,
+        482.3999938964844,
+        287.79119873046875
+      ]
+    }
+  ]
+}

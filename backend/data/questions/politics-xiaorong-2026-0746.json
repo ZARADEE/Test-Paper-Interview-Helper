@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0746",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "民族团结是我国各族人民的生命线，中华民族共同体意识是民族团结之本。对中华民族形成起\n\n决定作用的是对中华民族共同体的认同，而不是种族、血缘、地域、宗教等因素。只有铸牢中\n\n华民族共同体意识，才能",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "内容（“十一个坚持”）之一,C 不符合题意。\n\n出处精讲下谢：考点60 -1-0\n\n第十章\n\n第九章\n\n8s. 答案ABCD",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 110,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "构建起维护国家统一和民族团结的坚固思想长城"
+    },
+    {
+      "key": "B",
+      "text": "增进各民族对中华民族的自觉认同，夯实我国民族关系发展的思想基础"
+    },
+    {
+      "key": "C",
+      "text": "有效应对实现中华民族伟大复兴过程中民族领域可能发生的风险挑战"
+    },
+    {
+      "key": "D",
+      "text": "为党和国家兴旺发达、长治久安提供重要思想保证\n\n第九章\n全面依法治国（结合第五部分第六章的内容进行复习）"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 110,
+      "bbox": [
+        102.29299926757812,
+        347.40899658203125,
+        934.7545776367188,
+        568.041259765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 116,
+      "bbox": [
+        442.3949890136719,
+        517.0841674804688,
+        859.7828369140625,
+        782.5616455078125
+      ]
+    }
+  ]
+}

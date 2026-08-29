@@ -1,0 +1,44 @@
+{
+  "id": "politics-2011-019",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2008年由美国次贷危机引发了全球性的经济危机，很多西方人感叹这一次经济危机从根本上仍未超出一百多年前马克思在《资本论》中对资本主义经济危机的理论判断和精辟分析。马克思对资本主义经济危机科学分析的深刻性主要表现为：",
+  "answer_markdown": "AB",
+  "analysis_markdown": "【解析】生产相对过剩是资本主义经济危机的本质特征，及相对于劳动人民有支付能力的需求来说是过剩的；资本主义经济危机爆发的根本原因是资本主义的基本矛盾，其制度原因是生产资料的资本主义私有制，只要存在资本主义制度，经济危机就不可避免,政府的干预只能在一定条件下缓和经济危机。因此此题正确答案是选项AB．选项C本身说法错误。选项D本身说法错误，解决资本主义经济危机的根本出路是解决资本主义的基本矛盾。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.418830+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "指明经济危机的实质是生产相对过剩"
+    },
+    {
+      "key": "B",
+      "text": "揭示造成相对过剩的制度原因是生产资料的资本主义私有制"
+    },
+    {
+      "key": "C",
+      "text": "指出经济危机的深层根源是人性的贪婪"
+    },
+    {
+      "key": "D",
+      "text": "强调政府对经济的干预是摆脱经济危机的根本出路"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

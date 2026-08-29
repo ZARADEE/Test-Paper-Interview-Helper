@@ -1,0 +1,69 @@
+{
+  "id": "question-291c853f76",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设A为3阶非零实矩阵，且人丁 =kAUk为非零常数).\n(I)证明:A是可逆矩阵；\n(D)求行列式 I J | + | (A*)-1 |.",
+  "answer_markdown": "",
+  "analysis_markdown": "(2) 解 (I )因为A工O,不妨设an工0.由AT = M * ,知令=kAji.\n将丨A丨按第一行展开，得\n1 人 | = ailA11 +叫仏 +©血3 = *(昭 + 爲 + 甬)H 0,\n即A是可逆矩阵.\n(H)由 AA* =鼻4丁 = | A | E,且\nk\n| jAAT| = pr I A I I AT |= -1 | A |2, | | A\\e\\ =\\A |3,\n可知+ | A |2 =| A 整理得丨A r(右一| A | ) = 0,又由(I )知丨A丨工0,故\n|小=吉，丨人-】|=击=段.\n又由(A* )T =命，知\n故 | A-1 1 + 1 (A*)T |=疋+加.",
+  "chapter": "行列式",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 63,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.474211+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "行列式",
+    "矩阵",
+    "逆矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "行列式"
+  ],
+  "source_regions": [
+    {
+      "page": 63,
+      "bbox": [
+        24.0,
+        316.9274597167969,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 64,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 185,
+      "bbox": [
+        24.0,
+        409.1407775878906,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 186,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1085",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人生观是人们关于人生目的、人生态度、人生价值等问题的总观点和总看法。对人的认识，核心\n\n在于认识",
+  "answer_markdown": "A",
+  "analysis_markdown": "规范，或者说法治和德治，实现方式和实施\n\n出处精菸用留考点3\n\n载体不同。法治主要依靠制定和实施法律规\n\n简析对人的认识,核心在于认识人的本质。\n\n范的形式来推进和实施，实行法有禁止不得\n\n社会属性是人的本质属性，人的自然属性也深\n\n为,体现的是规则之治;德治主要依靠培育和\n\n深打上了社会属性的烙印。人的社会关系的\n\n弘扬道德等途径来推进和实施,以价值、精神\n\n总和决定了人的本质。A 正确。\n\n和理念等形式表现出来,引导人们自觉地在行",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 161,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人的本质"
+    },
+    {
+      "key": "B",
+      "text": "人的属性"
+    },
+    {
+      "key": "C",
+      "text": "人的行为"
+    },
+    {
+      "key": "D",
+      "text": "人的阶级关系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 161,
+      "bbox": [
+        91.5,
+        1057.406005859375,
+        932.8065795898438,
+        1152.0030517578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 166,
+      "bbox": [
+        442.51800537109375,
+        913.5224609375,
+        859.8884887695312,
+        1122.1932373046875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-41ba1d5891",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(10) 设/(工)在［1，2］上可导 9且］—\n= -^-arctan j?2 ,/(1) = 4\"^证明：至少存\nJ o\nZ\nZ\n在一点 EG (19 2) 9 使得 ($) = 0.",
+  "answer_markdown": "",
+  "analysis_markdown": "(10)证\n，x\n2x — t = u\ntf (2工 一\n■\"-=\n'2x\n'2xuf\n(2h 一 u)/(u)d(一 w)\n2x\n(2工一w)/(u)dw = 2x\\ /(w)du\n2尢J /(zz)dw — J uf(u^)du = -^-arctan jc2・\n'2x\n故\n等式两端同时对鼻求导，得\n/(zz)du + 2jc[/(2<z) • 2 — /(jc)] 一 E2j?/(2jc) • 2一= -~~—7\nX\n1 + J7\n即 2 [ /(zz)dw — xf{x}=-—咅―・令工=1，得\nJ X\n1 十 2\nr2\n2”(况)ck = y + ZCl) = y + - = 1，\n故\n= *・\n由推广的积分中值定理，有]/(况)d% = /(^i)(2 —1)= *，即yx&)= *(i v& v2).\n又/XI) = *,由罗尔定理，至少存在一点FC (1,&) U (1,2),使得/($) = 0.\nrR\nt — jc = u",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 28,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.445726+00:00",
+  "updated_at": "2026-08-23T12:39:51.009033+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 28,
+      "bbox": [
+        24.0,
+        466.94952392578125,
+        482.3999938964844,
+        515.43408203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 67,
+      "bbox": [
+        24.0,
+        290.17388916015625,
+        482.3999938964844,
+        504.1813049316406
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1130",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "法律运行的关键性（起始性）环节是",
+  "answer_markdown": "A",
+  "analysis_markdown": "务是培育和弘扬社会主义核心价值观的重要\n\n出处精讲P363 考点44 -1-0\n简近法律制定是指有立法权的国家机关，\n\n载体。志愿服务的精神是奉献、友爱、互\n\n助、进步。其中，奉献精神是精髓。D 正确。\n\n依照法定职权和程序制定规范性法律文件的\n\n第六章\n\n活动，是法律运行的起始性和关键性环节。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 166,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "法律制定"
+    },
+    {
+      "key": "B",
+      "text": "法律遵守"
+    },
+    {
+      "key": "C",
+      "text": "法律执行"
+    },
+    {
+      "key": "D",
+      "text": "法律适用"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 166,
+      "bbox": [
+        101.91799926757812,
+        824.1661987304688,
+        834.4898071289062,
+        894.6163330078125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 171,
+      "bbox": [
+        435.6440124511719,
+        614.6398315429688,
+        846.0971069335938,
+        1044.2353515625
+      ]
+    }
+  ]
+}

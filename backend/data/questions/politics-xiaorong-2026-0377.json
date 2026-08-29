@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0377",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "第二次世界大战后，资本主义的变化是客观事实，正视这些变化，深刻分析这些变化的实质，\n对于我们正确认识资本主义的本质，把握资本主义发展的趋势，具有重要的意义。从第二次世\n\n界大战后资本主义发展的实际情况来看",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "出处精讲两：考点82 -修\n\n出处丽西H 考点81 -2-(2)",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "资本主义生产关系的根本性质没有改变"
+    },
+    {
+      "key": "B",
+      "text": "资本追逐剩余价值的本性没有改变"
+    },
+    {
+      "key": "C",
+      "text": "获取剩余价值的方式和方法没有改变"
+    },
+    {
+      "key": "D",
+      "text": "导致财富占有两极分化的制度基础没有改变"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        102.68199920654297,
+        1049.226318359375,
+        945.3214721679688,
+        1207.7777099609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        19.488000869750977,
+        567.5673828125,
+        426.181640625,
+        772.2177734375
+      ]
+    }
+  ]
+}

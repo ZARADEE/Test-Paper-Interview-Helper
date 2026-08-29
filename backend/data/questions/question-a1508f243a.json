@@ -1,0 +1,50 @@
+{
+  "id": "question-a1508f243a",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设连续型随机变量X的分布函数为\n\"0 9\nx W— a 9\nF(jc) = “1 + ^2arcsin — , 一 a V 工 W q 9\n11,\nz〉a ,\n其中a > 0.\n(I)求常数kx ,k2的值；\n(U)求X的概率密度；\n(皿)求叩x |< yj.",
+  "answer_markdown": "",
+  "analysis_markdown": "⑵解 (I )由分布函数FS的性质，有\nF(—a + 0) = F(—a), F(a + 0) = F(a),\n得d = *,馬=丄\n7C・\n]\nI x | < a ,\n(U)\n/(jc) = F‘(h) = y\nI工I a Q・\n7T \\/a2 — JC2\n0,\na_\n2、、2 '\n(ni)F I x|<t=p{_t<x<i} = F\n1丄1\n—~\\-----arcsin\n1 丄 1\n.i r\n= - + -arcsm--[\nL\n兀\n从严\n1_\nT'\n:三铝（入＞0）,令Y为对X作三",
+  "chapter": "随机变量及其分布",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 88,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.486227+00:00",
+  "updated_at": "2026-08-23T12:39:51.913318+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "分布函数",
+    "概率密度"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 88,
+      "bbox": [
+        24.0,
+        253.91070556640625,
+        482.3999938964844,
+        395.5854187011719
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 241,
+      "bbox": [
+        24.0,
+        524.1682739257812,
+        482.3999938964844,
+        659.6478881835938
+      ]
+    }
+  ]
+}

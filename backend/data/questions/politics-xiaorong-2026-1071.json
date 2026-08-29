@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1071",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1992 年1 月18 日至2 月21 日，邓小平先后到武昌、深圳、珠海、上海等地视察，发表了一\n\n系列重要谈话，即南方谈话。邓小平的南方谈话",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 157,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "从理论上深刻回答了长期困扰和束缚人们思想的许多重大问题"
+    },
+    {
+      "key": "B",
+      "text": "是把改革开放和现代化建设推向新阶段的又一个解放思想、实事求是的宣言书"
+    },
+    {
+      "key": "C",
+      "text": "对之后召开的党的十四大具有十分重要的指导作用"
+    },
+    {
+      "key": "D",
+      "text": "开启了我国改革开放和社会主义现代化建设新时期\n\n第十章\n中国特色社会主义进入新时代"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 157,
+      "bbox": [
+        85.01399993896484,
+        817.3250732421875,
+        925.330810546875,
+        995.1428833007812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 163,
+      "bbox": [
+        7.196000099182129,
+        714.2284545898438,
+        429.2920227050781,
+        1141.0089111328125
+      ]
+    }
+  ]
+}

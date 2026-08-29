@@ -1,0 +1,48 @@
+{
+  "id": "question-424d205a13",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(5) 设可微函数对任意x,y,t,满足水仗，勿)=产*工,夕)，玖(1, 一2,2)是曲面\nz =\n上一点，且咒(1, — 2) = 4,则曲面在Po点处的切平面方程为________ .",
+  "answer_markdown": "4工一z — 2 = 0.",
+  "analysis_markdown": "4工一z — 2 = 0.\n解\n依题设，只需求法向量\"=(咒，咒，一1).\nfCtJc ,ty) =\n两边同时对 t 求尊，得 (加，勿)+ yf\\ (加，勿)=2tfG,y),\n令t = 1,则上式为\nxf\\\n+夕兀(2,夕)=2口工，y).\n将 j; =\n2,z = /(l,—2) = 2,/i(l,—2) = 4 代入上式，得 了；〈\\,一2) = 0,即\n几(1, 一2) = 0,故法向量为n = (4,0, - 1),所求切平面方程为\n4(jc 一 1)+0 • (J/ + 2) + (— 1) (z — 2) = 0,\n即 — n — 2 = 0.",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 37,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.452279+00:00",
+  "updated_at": "2026-08-23T12:39:51.180376+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        24.0,
+        413.5647888183594,
+        482.3999938964844,
+        443.1993408203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        24.0,
+        426.30145263671875,
+        482.3999938964844,
+        519.8098754882812
+      ]
+    }
+  ]
+}

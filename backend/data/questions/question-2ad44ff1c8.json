@@ -1,0 +1,66 @@
+{
+  "id": "question-2ad44ff1c8",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设随机变量X,有EX=&DX=，So为常数)，则对任意常数C,下列选项正确的\n是(\n).\n\n\n\n\nU = X + Y与卩=X — Y不相关的充要条件",
+  "answer_markdown": "D",
+  "analysis_markdown": "解 因为\nE[(X —CF] = E[(X —g + 〃一A = E[(X —〃)2] + (〃一OS\n其中(\"一C)2 $0,所以 E[(X —C)2] $E[(X —“)1 故 D 正确，\nE当且仅当〃 =C时才成立.",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 94,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.489264+00:00",
+  "updated_at": "2026-08-29T13:35:34.333306+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [
+    {
+      "key": "A",
+      "text": "E[(X —OU = E(X2) -C2"
+    },
+    {
+      "key": "C",
+      "text": "E[(X — C)2] VE[(X — 〃)2]"
+    },
+    {
+      "key": "B",
+      "text": "E[(X —C)2] = E[(X —〃严]"
+    },
+    {
+      "key": "D",
+      "text": "E[(X —C)2] $E[(X — 〃)2]"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 94,
+      "bbox": [
+        24.0,
+        315.72601318359375,
+        482.3999938964844,
+        380.9012756347656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 258,
+      "bbox": [
+        41.5,
+        297.8432312011719,
+        418.07501220703125,
+        689.1050415039062
+      ]
+    }
+  ]
+}

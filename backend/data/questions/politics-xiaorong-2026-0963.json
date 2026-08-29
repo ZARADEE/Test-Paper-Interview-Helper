@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0963",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "下列关于戊戌维新运动中维新派与守旧派论战的表述正确的有",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "案;无法制止和克服领导集团自身腐败现象\n\n.\n的滋长，无法长期保持领导集团的团结。但\n\n邂精讲P251 252\n考点15 -2\n\n单纯的农民战争对反帝反封建斗争仍然具有\n\n简析A 、B、C 正确。维新派与守旧派之间的\n\n重要的意义。D 错误。\n\n论战,是维新与守旧的论战，也就是要不要改",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 141,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "论战的实质是资产阶级思想与封建主义思想在中国的第一次正面交锋"
+    },
+    {
+      "key": "B",
+      "text": "论战主要围绕要不要变法，要不要兴民权、设议院，实行君主立宪，要不要废八股、改科举\n\n和兴西学等问题展开"
+    },
+    {
+      "key": "C",
+      "text": "论战所涉及的领域十分广泛，进一步开阔了新型知识分子的眼界，解放了人们长期受到束缚\n\n的思想"
+    },
+    {
+      "key": "D",
+      "text": "通过论战，划清了革命与改良的界限，维新变法政治运动的帷幕随之拉开"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 141,
+      "bbox": [
+        89.91999816894531,
+        655.3461303710938,
+        929.6984252929688,
+        866.0311279296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 147,
+      "bbox": [
+        12.134000778198242,
+        943.6420288085938,
+        421.170166015625,
+        1084.5933837890625
+      ]
+    }
+  ]
+}

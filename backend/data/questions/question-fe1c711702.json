@@ -1,0 +1,48 @@
+{
+  "id": "question-fe1c711702",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(7) 已知方阵A,B,(A + B)均可逆，求(AT +B-1)-1.",
+  "answer_markdown": "",
+  "analysis_markdown": "(7)解\n求抽象矩阵的逆，常用可逆的定义与(AB)-1 = B-A1\nAt + B 1 = A-1 (E + AB1) = AT (BB 1 + AB 1)\n=A~1(B + A)B~1 ,\n故由已知条件，知A-】 +B-1可逆，且\n(AT +A)T =\n+A)BT『=B(A + B)-]A.\n【注】由于A\"\"1\n+\n= B^CA + ByA-1，等式两边同时取逆，故\nB(A + B)_1A = A(A + B)~'B,\n即本题的答案还可以写成A(A + BryB.",
+  "chapter": "矩阵",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 65,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.475218+00:00",
+  "updated_at": "2026-08-23T12:39:51.662643+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        24.0,
+        519.8091430664062,
+        482.3999938964844,
+        533.060791015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 190,
+      "bbox": [
+        24.0,
+        155.06961059570312,
+        482.3999938964844,
+        239.13510131835938
+      ]
+    }
+  ]
+}

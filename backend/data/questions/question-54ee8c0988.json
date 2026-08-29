@@ -1,0 +1,48 @@
+{
+  "id": "question-54ee8c0988",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(12)设A= (a,)nX„为\"阶方阵，I A |= 1,且A的每列元素之和均为k(k^0),则A的\n代数余子式之和A】】 +A12 +…+Aln =________ .",
+  "answer_markdown": "解 依题意，由A・A*",
+  "analysis_markdown": "解 依题意，由A・A*\nI JE,可知\n=1 A\nk\nk ・・・ k\n1 ・・・ 1\nQ21\nQ22\n• ・• g\nI A | =\n如2\n• •・ CL2n =k\ndnl\n% • •* 5\nan\\\n•\n按第一行展开,„\n,\n, 4\n怡(A.十 A12 + …+ Ain)\n=1,\n故 Ah + A12 + …+ Al” = k",
+  "chapter": "行列式",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 61,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.473201+00:00",
+  "updated_at": "2026-08-23T12:39:51.596405+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "行列式"
+  ],
+  "tags": [
+    "线性代数",
+    "行列式"
+  ],
+  "source_regions": [
+    {
+      "page": 61,
+      "bbox": [
+        24.0,
+        280.47857666015625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 180,
+      "bbox": [
+        24.0,
+        308.2753601074219,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

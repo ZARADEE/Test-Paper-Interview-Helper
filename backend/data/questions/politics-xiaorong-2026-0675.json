@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0675",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平新时代中国特色社会主义思想，把马克思主义基本原理同中国具体实际相结合、同中华优\n\n秀传统文化相结合",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 100,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "使马克思主义这个魂脉和中华优秀传统文化这个根脉内在贯通、相互成就"
+    },
+    {
+      "key": "B",
+      "text": "用中华文明充实马克思主义的文化生命"
+    },
+    {
+      "key": "C",
+      "text": "用马克思主义进一步激活中华文明的基因"
+    },
+    {
+      "key": "D",
+      "text": "是中华民族的文化主体性最有力的体现"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 100,
+      "bbox": [
+        104.11799621582031,
+        128.0319366455078,
+        936.8038940429688,
+        314.0133056640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        2.6059999465942383,
+        594.5604248046875,
+        243.54371643066406,
+        669.1781005859375
+      ]
+    }
+  ]
+}

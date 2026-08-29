@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0832",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "洋务运动期间，洋务派兴办的民用企业中，采取官督商办方式的企业基本上是",
+  "answer_markdown": "D",
+  "analysis_markdown": "出处精讲F西返52 考点15 -2- O\n\n出处精泳庆葩考点13 -3-(1)-0\n\n简析维新派对洋务派“中体西用”的驳斥说\n\n置近洋务派兴办的官督商办的民用企业，虽\n\n明，维新派不仅认为应当学习西方近代科学\n\n然受官僚的控制，发展受到很大限制，但基本\n\n技术，而且应当学习西方的政治制度与思想\n\n上是资本主义性质的近代企业。D 正确,A、\n\n文化。因此，维新派与洋务派分歧的实质是\n\nB、C 错误。\n\n要不要学习西方的政治制度与思想文化。D",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 124,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "买办官僚性质的"
+    },
+    {
+      "key": "B",
+      "text": "封建主义性质的"
+    },
+    {
+      "key": "C",
+      "text": "半封建半殖民地性质的"
+    },
+    {
+      "key": "D",
+      "text": "资本主义性质的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 124,
+      "bbox": [
+        106.6969985961914,
+        399.9593200683594,
+        792.4426879882812,
+        503.58551025390625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 128,
+      "bbox": [
+        445.22601318359375,
+        799.875,
+        852.4407958984375,
+        1322.68701171875
+      ]
+    }
+  ]
+}

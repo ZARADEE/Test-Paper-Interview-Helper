@@ -1,0 +1,48 @@
+{
+  "id": "question-ff7c3add43",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(7) 设随机变量X服从参数为1的指数分布M为大于零的常数，则\nP{XG + 1 | X>^} =________ .",
+  "answer_markdown": "1-",
+  "analysis_markdown": "1-\ne\n解法1 利用指数分布的无记忆性进行计算.\n由于 X 〜e(l),且当 s,/>0 时，有 P{X>s + 门 X>\" = P{X>s},故\nP{X<^ + 1 | X>^} = 1 —P(X>e + l | X>^) = 1-P{X> 1}\n=1 ― e_1 = 1 —丄.\ne\nP{X> k + l,X>k}\n解法2 直接利用条件概率进行计算.\nP{X^k + l \\ X>k} l-P{X>k + 1 丨 X> 妁=1 —\nP{X>k}\n叶8\n厂‘山\n(屮)\nMi____  = 1 — ?____  = 1 _ ±\n-m\ne\ne\ne dt\nk",
+  "chapter": "随机变量及其分布",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 89,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.487265+00:00",
+  "updated_at": "2026-08-23T12:39:51.933506+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        24.0,
+        349.4399108886719,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 244,
+      "bbox": [
+        24.0,
+        375.59381103515625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

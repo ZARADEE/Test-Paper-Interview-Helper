@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0670",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "历史正反两方面的经验表明，“两个结合” 是我们取得成功的最大法宝。“结合” 不是“拼盘”，\n\n不是简单的“物理反应”，而是深刻的“化学反应”。“结合” 的结果是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "复兴的正确道路。习近平指出，中国特色社\n\n出处搂爵蒋轲考点2 拓展与点拨U\n\n会主义，是近代以来中国社会发展的必然选",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 99,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "造就了一个有机统一的新的文化生命体"
+    },
+    {
+      "key": "B",
+      "text": "让马克思主义成为中国的"
+    },
+    {
+      "key": "C",
+      "text": "让中华优秀传统文化成为现代的"
+    },
+    {
+      "key": "D",
+      "text": "让经由“结合” 而形成的新文化成为中国式现代化的文化形态"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 99,
+      "bbox": [
+        88.06400299072266,
+        391.3614501953125,
+        935.9329833984375,
+        584.5137939453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 108,
+      "bbox": [
+        445.3689880371094,
+        920.8187255859375,
+        854.4000854492188,
+        1319.515869140625
+      ]
+    }
+  ]
+}

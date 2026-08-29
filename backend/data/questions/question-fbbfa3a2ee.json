@@ -1,0 +1,58 @@
+{
+  "id": "question-fbbfa3a2ee",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)设工>”才的收敛半径为R = 1,则工；牛;\"的收敛域为_______\n.\nn = O\nn = 0 “ •",
+  "answer_markdown": "1—00,+ OO).",
+  "analysis_markdown": "1—00,+ OO).\n解 由丹的收敛半径R = 1,知Vm 6 (—1,1),级数绝对收敛(阿贝尔\nn=Q\nn=0\n定理)，故存在M> 0,使得当n充分大时，有a”站| £ M,因此V工€ (― oo, +oo),有\nn !\nn! Xq n\\ | j?0 |'\n而工,I i„ -I工I\"对任何工e(—a + oo)都收敛，故级数工\n对任何鼻e\nn = 0 兀• I 力0 丨\nn = 0 \" •\n(-00,4-00)都收敛，即收敛域为(一 oo, + oo).\n【注】 对刀“弹卞-I工丨\"，用比值法，对任何鼻W (― 8, +*),有\n铝\"！丨攵0丨\nI m\nM I工I卄1\nn\\ | .Zq I\"\n1・\nX\n=叽+1)「云\n=0,\nMUI\"\nST\n”-8 5 + 1)!丨 m I\n故其收敛半径为R =+*.\n以下解法是错误的：\nQ卄1\n1,故\noo\n由的收敛半径R = 1推出lim\nan\nn=0\nlim\na 卄1\nn! =lim—7—\nQ卄1\n(兀 + 1)! an\n= 0=09\noo\n所以》绍刃的收敛半径R =+*.\n紅n!\nn==0 rL ・\n错误的原因是求收敛半径的公式lim\nn-*oo\n=p，则R =丄(qHO),条件是充分非必要\nP\nn-»oo\n的，其实证明收敛半径公式用的是正项级数的比值法，而正项'级数的比值法(根值法、比较\n法)的条件是充分非必要的.\n例如:求三2 + (—1)\"\n2\"\n么\"的收敛半径.\nn=0\n2 + (— 1)\" = _1.\n用根值公式,\nlim /I a” | = lim\n•oo\n” f OO\n2\" _ ~2\n故收敛半径R = 2.\n2\"\n2+(- l)^1\nQ卄i\n但\nlim\n”一＞oo\nlim\nn-*oo\n2卄i\n2 + (-1)\nn为偶数,\n否'\nn为奇数,\n32'\n].1\n2 + (—1严\nhmy •\n2 + (— 1)\"=\n”f 8\na卄i\na卄i\n故lim\noo\nn-*oo\na “\n不存在，即R — 2不能保证lim\na”\n存在.",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 53,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.461257+00:00",
+  "updated_at": "2026-08-23T12:39:51.451184+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 53,
+      "bbox": [
+        24.0,
+        67.56146240234375,
+        482.3999938964844,
+        93.56612396240234
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 147,
+      "bbox": [
+        24.0,
+        524.2450561523438,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 148,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        408.5697937011719
+      ]
+    }
+  ]
+}

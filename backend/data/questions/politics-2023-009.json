@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-009",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国是一个文明古国，为人类文明作出了不可磨灭的贡献。经过工业革命，到19世纪中叶，西方资本主强国经济和技术飞速发展。中国错失了工业革命的机遇，大幅落后于时代的原因是",
+  "answer_markdown": "A",
+  "analysis_markdown": "解析：本题考查中国封建社会的衰落。17 世纪下半叶至18 世纪，清朝康熙、雍正、\n乾隆年间是中国封建社会后期的鼎盛时期，但同时也开始走向了封建社会的末世，潜伏\n着许多危机，而且闭关自守，故步自封。到了鸦片战争前夜，它已经衰相尽显，与新兴\n的西方资本主义国家拉开了很大的差距。故本题正确选项为A。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.563079+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国的封建统治者夜郎自大、闭关锁国"
+    },
+    {
+      "key": "B",
+      "text": "资本-帝国主义国家对华进行资本输出"
+    },
+    {
+      "key": "C",
+      "text": "中国社会阶级关系发生深刻变动"
+    },
+    {
+      "key": "D",
+      "text": "中国被纳入资本主义世界体系 ### 答案解析 9."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

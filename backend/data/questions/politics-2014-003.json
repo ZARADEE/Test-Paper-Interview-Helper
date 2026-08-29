@@ -1,0 +1,44 @@
+{
+  "id": "politics-2014-003",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会生产是连续不断进行的。这种连续不断重复的生产就是再生产，每次经济危机发生期间总有许多企业或因产品积压、或因订单缺乏等致使其无法继续进行再生产而被迫倒闭。那些因产品积压而倒闭的企业主要是由于无法实现其生产过程中的：",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】社会在生产的实现条件是实现社会总产品的价值补偿和实物补偿，题目中提到产品积压，而企业被迫倒闭，工厂没有实现使用价值的转让，拥有使用价值，没有得到价值补偿,所以B是正确答案。选项A是实物补偿，工厂拥有产品，不涉及补偿问题。选项C劳动补偿和选项D增值补偿题干中没有涉及。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.474702+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "实物补偿"
+    },
+    {
+      "key": "B",
+      "text": "价值补偿"
+    },
+    {
+      "key": "C",
+      "text": "增殖补偿"
+    },
+    {
+      "key": "D",
+      "text": "劳动补偿"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

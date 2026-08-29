@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-013",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1992年邓小平南方谈话和十四大召开后，我国现代化建设事业进入从计划经济体制向社会主义市场经济体制转变的新阶段。这一新阶段，建立社会主义市场经济体制的中心环节是",
+  "answer_markdown": "C",
+  "analysis_markdown": "",
+  "chapter": "政治经济学",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.407040+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "价格体制改革"
+    },
+    {
+      "key": "B",
+      "text": "财政制度改革"
+    },
+    {
+      "key": "C",
+      "text": "国有企业改革"
+    },
+    {
+      "key": "D",
+      "text": "流通体制改革"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

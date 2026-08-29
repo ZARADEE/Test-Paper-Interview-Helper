@@ -1,0 +1,58 @@
+{
+  "id": "question-211d6e7172",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(17) 设总体X的概率密度为\n/(a：；Ai，入2)—\n, — oo V 入】 < 工 <+ oo, \\2 >0,\n入2\n(X1,X2,…，X”)为X的简单随机样本.\n(I)当入1已知时，求入2的矩估计量和最大似然估计量；\n(n)求几，入2的矩估计量和最大似然估计量.",
+  "answer_markdown": "",
+  "analysis_markdown": "（17）解 （I）当右已知时,\n•-J-OO\n•-poo\n寺厂守dx\nX\nX •\nEX =\n• /(J7；A1，入 2)d_Z =\n入2\n入］\n•+oo\nX = + 入 2)\n（入2夕+入Jerdy =右+入2，\no\n一\nA 一\n用X替换EX,得入2的矩估计量为入2 = X —右.\n关于入2的似然函数为\n入2\n-A-\n工厂“\nL（入2）= n f-e\n1 _&匕\n—\n—e ,-^j ，入i W zi，°2，…，z”.\n入2\ni = l 人 2\ndin L （入2）\n由\ndA2\n解得（2 =丄 j（X,—右）是入2的最大似然估计量.\nn i = l\n（H）\nEX\n入1 +入2，\nr+oo\n• /(jr)dj；=\nE(X2)=\nI X2\nJ —oo\ng 2\n[\nJC • -—C 入 2 C1JC\n入]\n入2\n2 =入1 +入2》\n(A2^ + A1)2e^dj/\n=2a! + 2入i 入2 H~ Ai >\n则 DX = E(X2)-(EX)2 =垃\n令 EX =去，DX =匚is?(S2 =\n-X)2 为样本方差),\nn\nn 一 1 U\n故＜\n所以a1,a2的矩估计量为\n入1 +入2 = X 9\n疋=口S2,\nn\n口 S2.\n儿=戈一“gsrt =\nn\nn\n关于右，入2的似然函数为\nL（入1，入2）=\ngepEfF〉，右 Wq,Z2，・・・，©，\n人2\n取对数，求偏导数，得\n91n L（Ai，入2）\nn °\n=—=09\n①\n丿、\nSAi\nd\\n L(Ai，入2)\na2\n=—子 + 吉 2(1—入1)= 0，\n②\n人2 人2 i = i\n9入2\n由②式，得入2 =王一入i・①式无解，用最大似然估计原理求入1，入2的最大似然估计量.\nn\n由L（入1，入2）的表达式知，当几使L（右，入2）＞ o且使艺（乙一右）达到最小时，才能使\nt = 1\nL（A1 ,a2）达到最大.\n由 Xi $ 右 G = 1,2,…，兀）,即 min{Xi ,X2, ••• ,Xn} N 入i 时，有 L（Ai ,X2） ＞ 0,若使\nnY Qi — Ai）在fi 处达到最小，应取Ii = min{Xi ,X?,…，X”},故当f i = min{Xi ,X2, ••-,\n1 = 1\nX,.}时，有 L（A1，入2）＜ L（A1，入2）.\n31n L（入1，入2）\n门\n=0，\n故L（右，入2）在入2 = A 2\n＜0,\n当右=右时，由②式，知入2 = X-A1 ,由＜\n。入2\na2In L（A1 a2）\n处达到最大，故有L（A1，入2）＜ L（人，（2），从而知右，入2的最大似然估计量为\nA\nA\n—\n—\n.\nAi = min{X1 ,X2, ••• ,X„} ,A2 = X — min{Xi ,X?,…，X”}.",
+  "chapter": "参数估计",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 103,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.493264+00:00",
+  "updated_at": "2026-08-23T12:39:52.082597+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "样本",
+    "参数估计"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "参数估计"
+  ],
+  "source_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        24.0,
+        534.4135131835938,
+        482.3999938964844,
+        618.2236938476562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 283,
+      "bbox": [
+        24.0,
+        50.04093933105469,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 284,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        55.51832962036133
+      ]
+    }
+  ]
+}

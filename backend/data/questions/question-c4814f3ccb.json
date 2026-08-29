@@ -1,0 +1,57 @@
+{
+  "id": "question-c4814f3ccb",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(16) 求椭圆/ —型+夕2 = 3上纵坐标最大和最小的点.",
+  "answer_markdown": "",
+  "analysis_markdown": "(16)解本题是隐函数求最值问题.\n楠圆方程x2 — xy + y2 = 3,两费同时对力求导，得\nD\n/ | o\n/\nn\n解得y =空宁\n令< =0,肴y = 2z. 2 = 2j/是不存在的点.\n瘩y = 2z代入原方程，得工=1,夕=2或z =— 1 ,夕=—2；\n熔z = 2夕代入原方裡,得x = 2，3/ = 1或° =一2,夕=一1.\n上匕较可得h = 1和z =—1分别是y = y(z)的最大值点和最小值点，且椭圆上纵坐标最\n大的点为(1,2),最小的点为(一1, — 2).\n则切线与工轴和夕轴的交点如题图所示，分别为A(3a,0),\n于是三角形AOE面积为\n时，有\nQ _ 1 q 3 _ 9 [—\nS =石• 3a •——=〒 a/q ・\n2亦 4\n(D)当切点在曲线上且Q-+oo\nlim S = lim \\[a =+ 00 ；\na—*-H-c>o\na->H~oo 4\n当切点在曲线上且a —0+时，有\nlimS = lim -7- 4^ = 0.\na-o+ a-o+ 4",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 22,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.443472+00:00",
+  "updated_at": "2026-08-23T12:39:50.937969+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 22,
+      "bbox": [
+        24.0,
+        197.60096740722656,
+        482.3999938964844,
+        214.45700073242188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 44,
+      "bbox": [
+        24.0,
+        476.919921875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 45,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        148.29115295410156
+      ]
+    }
+  ]
+}

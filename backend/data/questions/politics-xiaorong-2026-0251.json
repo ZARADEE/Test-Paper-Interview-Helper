@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0251",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "对于无法直接观察到的物质存在形态，如“暗物质”“反物质” 等，人们可以通过实验设备观\n\n察可见物质受到的影响来推断其存在，进而在一定程度上对其加以认识。这说明",
+  "answer_markdown": "BC",
+  "analysis_markdown": "被称为实践活动,D 错误。A、C 正确。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 36,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "未知世界是由已知世界派生而来的"
+    },
+    {
+      "key": "B",
+      "text": "物质这一客观实在是可以被认识的对象"
+    },
+    {
+      "key": "C",
+      "text": "实践的主体和客体必须依靠中介系统来相互作用"
+    },
+    {
+      "key": "D",
+      "text": "本质可以直接为人的感官所感知"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 36,
+      "bbox": [
+        104.4489974975586,
+        676.289794921875,
+        936.8056640625,
+        865.3931274414062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 48,
+      "bbox": [
+        444.32000732421875,
+        157.45584106445312,
+        859.9199829101562,
+        790.6434326171875
+      ]
+    }
+  ]
+}

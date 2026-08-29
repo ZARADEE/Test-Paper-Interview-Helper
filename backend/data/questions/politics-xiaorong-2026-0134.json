@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0134",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思在《资本论》中写道：“实际上，在商品市场上同货币所有者对立的不是劳动，而是工\n\n人。” 这说明资本家购买的是",
+  "answer_markdown": "C",
+  "analysis_markdown": "剩余价值，只有创造剩余价值的劳动才是生\n\n产性劳动。B 正确。\n\n出处精讲制考点69 -2-到\n\n直提所谓相对过剩人口，就是劳动力供给\n\n简析劳动力成为商品，要具备两个基本条\n\n超过了资本的需要。这种过剩人口之所以\n\n件:第一,劳动者在法律上是自由人，能够\n\n是相对的，是因为他们并不是社会生产发\n\n把自己的劳动力当作自己的商品来支配;第\n\n展所绝对不需要的，而是由于不为资本价\n\n二，劳动者没有任何生产资料，没有生活资\n\n值增殖所需要。\n\n料来源，因而不得不依靠出卖劳动力为生。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 19,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "工人的劳动"
+    },
+    {
+      "key": "B",
+      "text": "工人的人身自由"
+    },
+    {
+      "key": "C",
+      "text": "工人的劳动能力"
+    },
+    {
+      "key": "D",
+      "text": "工人的消费能力"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 19,
+      "bbox": [
+        91.41600036621094,
+        942.9376831054688,
+        932.22509765625,
+        1073.798828125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 26,
+      "bbox": [
+        447.79400634765625,
+        928.6363525390625,
+        859.9199829101562,
+        1325.685546875
+      ]
+    }
+  ]
+}

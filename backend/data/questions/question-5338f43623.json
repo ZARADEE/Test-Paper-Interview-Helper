@@ -1,0 +1,48 @@
+{
+  "id": "question-5338f43623",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 设A\n1,\n,0\n,]",
+  "answer_markdown": "",
+  "analysis_markdown": "（3）解 （I ）已知A的一个特征向量a ,确定A中的参数a ,6,利用定义Aa =加，得\n_ ]\n比较等式两边对应元素，得入=—l,a =— 3,6 = 0.\n，则\n（n）由（I）,知 a\n5-1\n-1\n-3\n0 - 2\nA — 2\nA + 3\n-5\nI AE -A | =\n=(A + 1)3,\n-2\n-3\n入+ 2\n得A的三重特征值入1 =入2 =入3 =— 1.\n2,\n-3\n-5\n由\nr(一 E 一 A) = r(\n1 -2'\n2 -3 )\n0 1 .\n可知三重特征值一1只对应一个线性无关的特征向量，故A不能相似于对角矩阵.\n2是二重特征值，应该对应有",
+  "chapter": "矩阵",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 67,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.476288+00:00",
+  "updated_at": "2026-08-23T12:39:51.686986+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 67,
+      "bbox": [
+        24.0,
+        216.30113220214844,
+        482.3999938964844,
+        261.321533203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 216,
+      "bbox": [
+        24.0,
+        54.36830520629883,
+        482.3999938964844,
+        223.8881378173828
+      ]
+    }
+  ]
+}

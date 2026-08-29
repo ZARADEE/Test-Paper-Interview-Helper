@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0362",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "20 世纪70 年代初，由于资本主义发展不平衡的加深和国际货币体系内在矛盾的激化，布雷顿\n\n森林体系崩溃。随后，西方国家普遍走上金融自由化和金融创新的道路。金融垄断资本通过形\n\n形色色的金融衍生工具在金融市场呼风唤雨、巧取豪夺，使财富以惊人的速度膨胀。在金融垄\n\n断资本的推动下",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "会看，整个社会商品的价值仍然是由生产它\n\n们的社会必要劳动时间决定的，垄断价格既\n\n出处精讲P86］考点79 -2-0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 52,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "金融业在国民经济中的地位大幅上升"
+    },
+    {
+      "key": "B",
+      "text": "实体经济部门不得不把利润的一部分投向金融领域"
+    },
+    {
+      "key": "C",
+      "text": "制造业就业人数严重减少，以金融为核心的服务业就业人数逐步增加"
+    },
+    {
+      "key": "D",
+      "text": "虚拟经济越来越脱离实体经济"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 52,
+      "bbox": [
+        102.44499969482422,
+        1046.212890625,
+        932.8211059570312,
+        1294.8165283203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 68,
+      "bbox": [
+        441.9930114746094,
+        625.356689453125,
+        847.4232788085938,
+        799.8683471679688
+      ]
+    }
+  ]
+}

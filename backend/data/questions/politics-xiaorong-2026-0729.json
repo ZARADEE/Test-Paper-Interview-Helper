@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0729",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "千秋基业，人才为先。全面建设社会主义现代化国家，要聚天下英才而用之，推动我国由人才\n\n大国迈向人才强国。人才是",
+  "answer_markdown": "AB",
+  "analysis_markdown": "不存在最纯粹的民主。C 错误。人民民主,\n\n是对人民民主、对敌人专政，所以不是人人民\n\n出处精讲P189\n考点53 -1-\n\n主。D 错误。\n\n简析A、B 正确。人民是我们党执政的最大",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 107,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人力资源中能力和素质较高的劳动者"
+    },
+    {
+      "key": "B",
+      "text": "实现民族振兴、赢得国际竞争主动的战略资源"
+    },
+    {
+      "key": "C",
+      "text": "我们党执政的最大底气和最深厚的根基"
+    },
+    {
+      "key": "D",
+      "text": "引领发展的第一动力\n\n第八章\n发展全过程人民民主"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 107,
+      "bbox": [
+        81.98400115966797,
+        997.1106567382812,
+        921.9515380859375,
+        1183.9029541015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        447.2040100097656,
+        1224.1053466796875,
+        853.0413208007812,
+        1332.71875
+      ]
+    }
+  ]
+}

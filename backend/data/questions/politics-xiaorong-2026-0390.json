@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0390",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "从1918 年夏到1921 年春，列宁领导的苏维埃政权实行了战时共产主义政策。这一政策的主要\n\n特征是",
+  "answer_markdown": "AC",
+  "analysis_markdown": "是科学的思想体系。马克思主义是关于无\n\n出处精评即考点88 -1-0\n画也从1918 年夏到1921 年春，列宁领导\n\n产阶级和人类解放的科学。D 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 56,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "实行余粮收集制"
+    },
+    {
+      "key": "B",
+      "text": "实行粮食税制"
+    },
+    {
+      "key": "C",
+      "text": "取消商品货币关系"
+    },
+    {
+      "key": "D",
+      "text": "实行租让制"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 56,
+      "bbox": [
+        107.48899841308594,
+        741.171875,
+        938.2080688476562,
+        867.072021484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 71,
+      "bbox": [
+        432.489990234375,
+        290.1114807128906,
+        844.1373291015625,
+        823.3600463867188
+      ]
+    }
+  ]
+}

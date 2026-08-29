@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1144",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "所有国家机关、社会组织和公民个人都必须遵守法律，依法享有和行使法定职权与权利，承担\n\n和履行法定职责与义务，这体现的是法律的",
+  "answer_markdown": "D",
+  "analysis_markdown": "出处精甫敏考点47 -3-0\n简析立法是法治的龙头环节c A 正确。公\n\n出处精评的泛考点51 -2-(1)-0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 167,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "不可违反"
+    },
+    {
+      "key": "B",
+      "text": "优先适用"
+    },
+    {
+      "key": "C",
+      "text": "权力制约"
+    },
+    {
+      "key": "D",
+      "text": "普遍适用"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        87.30799865722656,
+        1190.1932373046875,
+        928.2383422851562,
+        1285.876220703125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 173,
+      "bbox": [
+        7.038000106811523,
+        866.99462890625,
+        427.3772888183594,
+        1313.7701416015625
+      ]
+    }
+  ]
+}

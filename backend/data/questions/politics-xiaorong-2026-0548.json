@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0548",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1992 年，针对人们思想中普遍存在的疑虑，邓小平南方谈话重申了深化改革、加速发展的必要\n性和重要性，并从中国实际出发，站在时代的高度，深刻地总结了十多年改革开放的经验教训,\n在一系列重大的理论和实践问题上，提出了一系列重要论断。这些重要论断包括",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "误,A、B、D 正确。",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 82,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会主义可以搞市场经济"
+    },
+    {
+      "key": "B",
+      "text": "不坚持社会主义，不改革开放，不发展经济，不改善人民生活，就没有出路"
+    },
+    {
+      "key": "C",
+      "text": "“三个有利于” 标准"
+    },
+    {
+      "key": "D",
+      "text": "革命是解放生产力，改革也是解放生产力"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        99.44499969482422,
+        1186.1190185546875,
+        934.6726684570312,
+        1410.629638671875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 94,
+      "bbox": [
+        442.5360107421875,
+        131.12255859375,
+        850.4129638671875,
+        496.9566345214844
+      ]
+    }
+  ]
+}

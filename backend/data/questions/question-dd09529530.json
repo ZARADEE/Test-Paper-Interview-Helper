@@ -1,0 +1,48 @@
+{
+  "id": "question-dd09529530",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "⑺计算 I = JJmax{x,j/} « \\y — jc2\\ clzdy,其中 D：0 < j: < 1,0 < 3/ < 1.\nD",
+  "answer_markdown": "",
+  "analysis_markdown": "(7)解 用直线y = x将D划分为Di与E>2 9如图6-26所\n示，故\nI = jjmax{«z 9夕} • | y — x2 | dxdy\nD\ny — re?\n+ JJh I y — x2 | djcdj/.\nD\\ D2\n又s被y =工2分为上、下两部分，则\nI = dj; v ( v — Jr2 ) d v + dj?\nJO J x\nJ 0\n=計.",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 41,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.454476+00:00",
+  "updated_at": "2026-08-23T12:39:51.250765+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 41,
+      "bbox": [
+        24.0,
+        380.1371765136719,
+        482.3999938964844,
+        410.0838317871094
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        24.0,
+        225.9512939453125,
+        482.3999938964844,
+        371.7939147949219
+      ]
+    }
+  ]
+}

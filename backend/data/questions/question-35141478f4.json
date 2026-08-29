@@ -1,0 +1,58 @@
+{
+  "id": "question-35141478f4",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "（4） 设收敛，则下列级数收敛的是（\n）.",
+  "answer_markdown": "B",
+  "analysis_markdown": "OO\n解 由\n收敛，知卄1收敛，根据收敛级数的运算性质，知工（“” + “卄1）收敛.\nn= 1\nn— 1\nn= 1\nJ\nOO\nOO\n取\"”=--- ---- ,则 丫 U” 收敛，但 Y（\"2”_1 — “2”）= 2 （2“ _ ] + 2^ ）发散，排除 D.\n\"\nn= 1\nn= 1\nn= 1 '\noo\n【注】 ①当正项级数〉2 “”收敛时，有lim“” = 0,则当\"充分大时，| “” | = “” < 1（有界）‘\n故谄< u„,由比较审敛法，知〉2谄收敛.\n②若条件改为（— 1）1 “”（\"” >0）收敛，则（\"2 n-1 — \"2” ）收敛（收敛级数加括号\n后仍收敛）.\nOO\nOO\n③\n若条件改为2谄收敛，则2（ —1）1 -绝对收敛，因（一1）1 ¥ <\nn—1\n\"\nOO\nOQ\n土曲+右），而Y +收敛，由比较审敛法，可知 工（一 1）1中绝对收敛.",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 49,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.460149+00:00",
+  "updated_at": "2026-08-23T12:39:51.402519+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 49,
+      "bbox": [
+        24.0,
+        549.9536743164062,
+        482.3999938964844,
+        637.0579833984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 136,
+      "bbox": [
+        24.0,
+        634.7223510742188,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 137,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        257.3223571777344
+      ]
+    }
+  ]
+}

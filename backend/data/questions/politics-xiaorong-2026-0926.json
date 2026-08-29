@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0926",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "对资本主义工商业的社会主义改造经历了三个步骤。第一步，主要实行初级形式的国家资本主\n\n义，国家在私营工业中实行委托加工、计划订货、统购包销，企业利润的分配方式为“四马分\n\n肥”，这",
+  "answer_markdown": "B",
+  "analysis_markdown": "半社会主义性质的企业。C 正确。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 136,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是社会主义成分同资本主义成分在企业内部的合作"
+    },
+    {
+      "key": "B",
+      "text": "使得企业的生产和经营开始纳入国家计划的轨道"
+    },
+    {
+      "key": "C",
+      "text": "改变了工人在企业中的地位，使企业具有了半社会主义性质"
+    },
+    {
+      "key": "D",
+      "text": "限制了资本主义的剥削，企业的生产关系已经发生了根本的变化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 136,
+      "bbox": [
+        110.9280014038086,
+        698.0614624023438,
+        941.119873046875,
+        923.7933349609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 141,
+      "bbox": [
+        433.32000732421875,
+        1079.26611328125,
+        843.4973754882812,
+        1315.6275634765625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0933",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1957 年2 月，毛泽东作了《关于正确处理人民内部矛盾的问题》的报告，阐明社会主义社会\n\n的重大理论问题。毛泽东提出，必须区分社会主义社会两类不同性质的社会矛盾，把正确处理\n\n人民内部矛盾作为国家政治生活的主题。解决人民内部矛盾用民主的方法，说服教育的方法。\n\n对于物质利益、分配方面的人民内部矛盾，毛泽东提出的方针是",
+  "answer_markdown": "A",
+  "analysis_markdown": "B 正确。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 137,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "统筹兼顾、适当安排"
+    },
+    {
+      "key": "B",
+      "text": "“惩前瑟后、治病救人”"
+    },
+    {
+      "key": "C",
+      "text": "“长期共存、互相监督”"
+    },
+    {
+      "key": "D",
+      "text": "“团结一批评一团结”"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 137,
+      "bbox": [
+        87.59500122070312,
+        545.9592895507812,
+        937.7010498046875,
+        731.3789672851562
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 143,
+      "bbox": [
+        0.0,
+        735.2841186523438,
+        405.9982604980469,
+        973.342529296875
+      ]
+    }
+  ]
+}

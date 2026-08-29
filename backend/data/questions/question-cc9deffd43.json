@@ -1,0 +1,58 @@
+{
+  "id": "question-cc9deffd43",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（4） 求下列级数的收敛域：\n（n）S\noo\n（I）”；\n3\" +n2\nn= 1\nn=\\乙\noo\n[\n_ 2\n（皿）率1+汀孙\n（IV）",
+  "answer_markdown": "",
+  "analysis_markdown": "（4）解 （I）缺项，用比值法，\n工(卄1)2\n2\"\n给+i （e）\nlim 14^\n=lim\nlim\nW->OO\nn-*oo\nZ\nun （工）\nI 丁 |2卄1\n工 I V 1 时，lim T—\n当I\n2申\nX\n=0 V 1,级数收敛\nn-*oo\nZ\n当I\nI 丁 |2卄1\nz |〉1 时，lim -----------\n\"f 8\nZ\nI 丁 |2卄1\n=+\n级数发散；\n=* ＜ 1，级数收敛，故收敛域为[-1,1].\n当I\nn-*oo\n工 | = 1 时，lim —\n（H）缺项，用比值法,\n尹卄1)+1\n\"卄1 （攵）\n3w+n2\n宀】\nn->oo\n3+ +5 + 1)2\nun （z）\nlim8\n=lim\n1 + F\nJC2 _ JC2\n=lim\nj：2 =lim\nM->OO\nn->oo\n1 , (n + l)y ' T = T'\n3M+n2\nTh\n3 卄1 + (n + 1)2\n十 3丹\n.2\n当牙VI时，即一V3 ＜x＜V3,级数收敛.当工=腭时，级数为工异刍，由于\n=lim 矗 2 =扼 H 0,\nlim^V3\n“f OO 3\" + 222\n“f OO\nI 7?\n1 + F\n故级数发散，同理工=—対时，级数发散,所以收敛域为（一妁，箱）.\nn-*oo\neT,收敛半径尺=e.\n| = lim f 1 + —\ni n\n（HI）不缺项，用公式，lim fl a”\ne T1\n°° 1\n时,级数为S（1 + 7\n当工=e\n• eJ ，记® = (1 +吕\n71= 1 '\n72丿」\n由于（1+亍）Ve,故仇>1,即limb”工0,所以级数发散，同理x =— e也是发散点，故收敛\nn\nn->oo\n域为（一e,e）.\n(N)\nooy (-1- +\n幺\\nln n\n\\x\nr>= 2 J\n71=2\n+£祭\n，用公式皿詈\n对工F\n1,收敛半径R = 1.\n” f oo\n切n巾”=2\nnln n\n1 •\n—(rz + DlnCn + l)\n发散；当X =— 1时，工\"]D 是交错级数，且lim -j^— = 0,\n紐\"In n\n当= 1时，工\n厶—灯 in 灯\nw->oo nln n\n] _ _____\n”=2 ”ln ” 以护'口 J\n丄 “ J'幺 n\\n n\n5 > 2）单调减少，故收敛,所以收敛域为[—1,1）.\n]\nnln n\nQ卄]\n=*，收敛半径R2=2.当工=±2时，级数发散，收敛域为（一2,2）.\n对 S\n”f 8\nn=2乙\n综上所述，所求级数收敛域为[—1,1）.\nOO\n°+8 dr\n—；---=ln(ln 工)\n2 xm x\n=+ OO 9 反常积分发\n【注】①〉2 —用积分判别法：由于\n$ \"In \"\n00 ]\n散，故级数工;-7^—发散.\n盜\"In n\noo\n②设级数2 anx\nOO\n与b”H\"的收敛半径分别为R1和尺2，则当R1 H尺2时,\nn=0\nn = 0\nOO\n> (an + bn)xn 的收敛半径 R = min{R] 9R2}.\nn=0\n°° ,n-l\noo\n“ ]",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 51,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.460149+00:00",
+  "updated_at": "2026-08-23T12:39:51.424026+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 51,
+      "bbox": [
+        24.0,
+        258.19537353515625,
+        482.3999938964844,
+        332.6421203613281
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 140,
+      "bbox": [
+        24.0,
+        428.5907897949219,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 141,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        407.7162780761719
+      ]
+    }
+  ]
+}

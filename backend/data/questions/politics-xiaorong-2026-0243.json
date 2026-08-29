@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0243",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "《孙子兵法》中有这样一条法则：“投入亡地然后存，陷入死地而后生。”韩信据此背水一战，\n大败赵军；马谡据此屯兵山上，痛失街亭。这说明",
+  "answer_markdown": "CD",
+  "analysis_markdown": "引起更多消费,由此带来的收入也可能会促\n\n出处精讲P17T8〕考点16 -3\n\n进更多的消费。认识到这一点，就可以使因\n\n果关系运动朝着有利于人的发展的方向运\n\n直扬真理具有客观性，凡真理都是客观真\n\n行。C 正确。\n\n理。真理的客观性指真理的内容是对客观事\n\n人们只能发现规律、利用规律，不能创造\n\n物及其规律的正确反映，真理中包含着不依\n\n规律,D 错误。\n\n赖于人和人的意识的客观内容。真理的存",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 34,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "只有正确的认识可以反作用于实践"
+    },
+    {
+      "key": "B",
+      "text": "真理的存在与否依赖于谁掌握它和谁怎样对待它"
+    },
+    {
+      "key": "C",
+      "text": "具体问题具体分析是解决矛盾的关键"
+    },
+    {
+      "key": "D",
+      "text": "既要看到矛盾的普遍性，又要重视矛盾的特殊性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 34,
+      "bbox": [
+        101.00299835205078,
+        1225.0782470703125,
+        943.5682373046875,
+        1413.448974609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 46,
+      "bbox": [
+        448.96600341796875,
+        790.6371459960938,
+        856.3719482421875,
+        1318.2802734375
+      ]
+    }
+  ]
+}

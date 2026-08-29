@@ -1,0 +1,44 @@
+{
+  "id": "politics-2012-004",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2011年9月以来美国爆发的“占领华尔街”抗议活动中示威者打出“我们是99%”的标语，向极富阶层表示不满。漫画所显示的美国社会财富占有的两极分化，是资本主义制度下：",
+  "answer_markdown": "C",
+  "analysis_markdown": "【解析】本题漫画反映的是资本主义社会的两极分化问题，资本主义两极分化是由于资本积累的规律，即资本积累的必然结果，因此本题的正确答案是选项C。其他选项与题干无关，因此不选。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.434402+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "劳资冲突的集中表现"
+    },
+    {
+      "key": "B",
+      "text": "生产社会化的必然产物"
+    },
+    {
+      "key": "C",
+      "text": "资本积累的必然结果"
+    },
+    {
+      "key": "D",
+      "text": "虚拟资本泡沫化的恶果 ### 答案解析 4"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

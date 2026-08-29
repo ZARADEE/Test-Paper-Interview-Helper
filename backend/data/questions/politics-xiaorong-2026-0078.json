@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0078",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“自由不在于幻想中摆脱自然规律而独立，而在于认识这些规律，从而能够有计划地使自然规\n\n律为一定的目的服务。” 这说明自由是",
+  "answer_markdown": "D",
+  "analysis_markdown": "为人化的自然，但不能改变自然界的客观实\n\n出处精讲F42 考点41 -o\n\n在性。C 错误。物质生产活动及生产方式是\n\n人类社会赖以存在和发展的基础，是人类其\n\n简析马克思主义认为自由是对必然的认识\n\n他一切活动的首要前提。D 错误。\n\n和对客观世界的改造。人不能摆脱必然性的",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 12,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "选择的随意性"
+    },
+    {
+      "key": "B",
+      "text": "活动的主动性"
+    },
+    {
+      "key": "C",
+      "text": "摆脱必然性"
+    },
+    {
+      "key": "D",
+      "text": "对必然的认识和对客观世界的改造\n\n第三章\n人类社会及其发展规律"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        104.93399810791016,
+        688.1544189453125,
+        937.1319580078125,
+        816.81103515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        8.702999114990234,
+        458.3571472167969,
+        429.4404296875,
+        895.1989135742188
+      ]
+    }
+  ]
+}

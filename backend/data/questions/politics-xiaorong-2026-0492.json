@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0492",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新中国成立的开国大典前，围绕军乐团演奏什么曲目，一度众说纷纭，提议用德国乐曲、苏联\n\n乐曲、美国乐曲的意见都有。最终，毛泽东拍板：要听自己的乐曲，走自己的路。走自己的路,\n也就是独立自主。独立自主是毛泽东思想活的灵魂的三个基本方面的内容之一，是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "简析拥有马克思主义科学理论指导是我们党\n\n出处隔乔丽考点6、7\n\n坚定信仰信念、把握历史主动的根本所在,D\n\n简析中国特色社会主义具有深厚的历史渊\n\n错误。A、B、C 正确。\n\n源和广泛的现实基础，是实现中华民族伟大",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 74,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中华民族的优良传统"
+    },
+    {
+      "key": "B",
+      "text": "中国共产党、中华人民共和国立党立国的重要原则"
+    },
+    {
+      "key": "C",
+      "text": "党从中国实际出发、依靠党和人民力量进行革命、建设、改革的必然结论"
+    },
+    {
+      "key": "D",
+      "text": "党的生命线和根本工作路线"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 74,
+      "bbox": [
+        100.20500183105469,
+        1193.6666259765625,
+        935.1722412109375,
+        1413.58447265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 88,
+      "bbox": [
+        15.43600082397461,
+        571.5722045898438,
+        425.249267578125,
+        1329.743896484375
+      ]
+    }
+  ]
+}

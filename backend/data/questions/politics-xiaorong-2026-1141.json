@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1141",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全面依法治国，必须从立法、执法、司法、守法四个方面统筹推进。其中，公正司法是",
+  "answer_markdown": "C",
+  "analysis_markdown": "三是权利保护和权利救济平等。A、C、D 不符\n\n出处情济Q期］考点47 -3留\n典全面依法治国，必须从立法、执法、司\n\n合题意。机会公平是指生活在同一社会中的\n\n成员拥有相同的发展机会和发展前景，反对\n\n任何形式的歧视。B 属于机会公平的内容,\n\n法、守法四个方面统筹推进。科学立法是全\n\n符合题意。\n\n面依法治国的前提，严格执法是全面依法治",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 167,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "全面依法治国的前提"
+    },
+    {
+      "key": "C",
+      "text": "全面依法治国的重点"
+    },
+    {
+      "key": "B",
+      "text": "全面依法治国的关键"
+    },
+    {
+      "key": "D",
+      "text": "全面依法治国的基础"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        87.64099884033203,
+        888.4854736328125,
+        855.2634887695312,
+        983.9537353515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 173,
+      "bbox": [
+        9.670000076293945,
+        25.478322982788086,
+        418.8528747558594,
+        261.7128143310547
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1194",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "核心价值体系和核心价值观，是决定文化性质和方向的最深层次要素，是一个国家的重要稳定\n\n器。社会主义核心价值体系的主要内容包括",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "义的本质属性，凝结着全体人民共同的价值\n\n出处精讲P345 考点24 -2\n\n追求，体现了社会主义意识形态的本质要求。\n\n全社会积极弘扬和践行社会主义核心价值",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 174,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "马克思主义指导思想"
+    },
+    {
+      "key": "B",
+      "text": "中国特色社会主义共同理想"
+    },
+    {
+      "key": "C",
+      "text": "以爱国主义为核心的民族精神和以改革创新为核心的时代精神"
+    },
+    {
+      "key": "D",
+      "text": "社会主义荣辱观"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 174,
+      "bbox": [
+        100.88500213623047,
+        774.9607543945312,
+        933.972900390625,
+        964.3356323242188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 178,
+      "bbox": [
+        445.3760070800781,
+        691.8651733398438,
+        740.6290283203125,
+        768.40234375
+      ]
+    }
+  ]
+}

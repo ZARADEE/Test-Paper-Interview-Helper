@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1147",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "权利保障包括宪法保障、立法保障、行政保障和司法保障。司法保障是",
+  "answer_markdown": "C",
+  "analysis_markdown": "体现人民意志的宪法，领导人民实施宪法，确\n\n出处精进南正亚；考点51 2(4)6\n\n保我国宪法发展的正确政治方向。A 正确。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 168,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "权利保障的关键环节"
+    },
+    {
+      "key": "B",
+      "text": "权利保障的重要条件"
+    },
+    {
+      "key": "C",
+      "text": "权利保障的最后防线"
+    },
+    {
+      "key": "D",
+      "text": "权利保障的前提和基础"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        102.85700225830078,
+        242.77984619140625,
+        750.7244262695312,
+        342.3521728515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 173,
+      "bbox": [
+        438.3280029296875,
+        415.618408203125,
+        859.383056640625,
+        801.3404541015625
+      ]
+    }
+  ]
+}

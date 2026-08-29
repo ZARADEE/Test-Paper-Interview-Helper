@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0890",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1935 年12 月，中共中央在陕北瓦窑堡召开政治局扩大会议，提出党的基本策略任务是",
+  "answer_markdown": "A",
+  "analysis_markdown": "出处精访T*1考点39 拓展与点拨\n\n出处精讲下谢］考点44 -2-0\n置近1935 年8 月1 日，中共驻共产国际代",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 131,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "建立广泛的抗日民族统一战线"
+    },
+    {
+      "key": "B",
+      "text": "在根据地实行减租减息的土地政策"
+    },
+    {
+      "key": "C",
+      "text": "在敌后广泛开展游击战和运动战"
+    },
+    {
+      "key": "D",
+      "text": "保持党在思想上、政治上和组织上的独立性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 131,
+      "bbox": [
+        89.51699829101562,
+        1090.8782958984375,
+        857.0821533203125,
+        1254.4403076171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 136,
+      "bbox": [
+        444.22601318359375,
+        481.9280090332031,
+        852.2854614257812,
+        984.2506103515625
+      ]
+    }
+  ]
+}

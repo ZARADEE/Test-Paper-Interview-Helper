@@ -1,0 +1,48 @@
+{
+  "id": "question-77aba8d172",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "（19）曲线工=acos比y — asin辽（a〉0）在/=于处的曲率=________ ,",
+  "answer_markdown": "6a",
+  "analysis_markdown": "6a\n/\n=\ndv\ndzd\n解\nck 3asin2^ • cos t\n• y = --- ------- 2------ ；---- =— tan 久\ncLz — Jacos t • sin t\n=\n(—tan £)= —(— tan t) •\ndt_\ndj;\ndl\n—sec2^\nCSC 19\nsec t •\n—3acos红• sin t\n丨/ I\n故曲率\nK\n(1+/2)务\n3asin 2t\nz\n3^'",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 16,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.439350+00:00",
+  "updated_at": "2026-08-23T12:39:50.827550+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 16,
+      "bbox": [
+        24.0,
+        629.1992797851562,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 28,
+      "bbox": [
+        24.0,
+        364.2617492675781,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

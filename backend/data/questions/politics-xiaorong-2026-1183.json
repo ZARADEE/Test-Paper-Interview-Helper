@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-1183",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "爱国主义的基本内涵是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "心,A 错误。\n\n出处BWP34CH 考点20 -2-邸",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 173,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "爱祖国的大好河山"
+    },
+    {
+      "key": "B",
+      "text": "爱自己的骨肉同胞"
+    },
+    {
+      "key": "C",
+      "text": "爱祖国的灿烂文化、爱自己的国家"
+    },
+    {
+      "key": "D",
+      "text": "爱社会主义"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 173,
+      "bbox": [
+        89.81500244140625,
+        212.63970947265625,
+        705.38427734375,
+        310.7040100097656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 177,
+      "bbox": [
+        3.491999626159668,
+        1179.692138671875,
+        412.9666442871094,
+        1320.8701171875
+      ]
+    },
+    {
+      "page": 177,
+      "bbox": [
+        466.3450012207031,
+        36.128501892089844,
+        847.7891235351562,
+        391.4967041015625
+      ]
+    }
+  ]
+}

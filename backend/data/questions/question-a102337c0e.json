@@ -1,0 +1,57 @@
+{
+  "id": "question-a102337c0e",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(21)确定k的取值，使方程+ 2je2 +j; = k有3个不同实根.",
+  "answer_markdown": "",
+  "analysis_markdown": "(21)解\n令 /'(z) =\n+ 2jc2 + _z,g(z)=〃，当曲线 y — f(jc)与 g(z)=怡有 3 个不\n同交点时，确定怡的值.\n对'扇数fS录导，有\nfr (jc) = 3 j?2 +\n+ 1 = (3工 + 1)(工+1),\n令f'S = 0,解得驻点工1 =— 1 ,X2 =— y.又\nf'G) = 6z + 4,1) =— 2 V 0,\n故—1）=0为极大值.\n—务为极小值.\n同理 #'(_*) = 2〉0,故/(_*) =\n综上可知，当一寻 < 怡V 0时，方程有3个不同实根.",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 22,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.443472+00:00",
+  "updated_at": "2026-08-23T12:39:50.945372+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 22,
+      "bbox": [
+        24.0,
+        390.7510070800781,
+        482.3999938964844,
+        408.1717529296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 45,
+      "bbox": [
+        24.0,
+        579.8988647460938,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 46,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        99.16259002685547
+      ]
+    }
+  ]
+}

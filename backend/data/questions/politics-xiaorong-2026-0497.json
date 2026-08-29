@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0497",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新民主主义革命与旧民主主义革命相比有新的内容和特点，集中表现在新民主主义革命",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "吸收一切人类优秀文明成果，代表人类文明\n\n出处精丽画考点9 -3\n质,A、B、C 正确。习近平总书记指出：\n“全\n\n进步的发展方向，是一种全新的人类文明形\n\n态，既是我们强国建设、民族复兴的康庄大\n\n道，也是中国谋求人类进步、世界大同的必由\n\n面建成小康社会、实现第一个百年奋斗目标\n\n之路。A、B、C、D 全选。\n\n之后，我们要乘势而上开启全面建设社会主",
+  "chapter": "第二章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 75,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "处于世界无产阶级社会主义革命的时代，是世界无产阶级社会主义革命的一部分"
+    },
+    {
+      "key": "B",
+      "text": "革命的领导力量是中国无产阶级及其先锋队——中国共产党"
+    },
+    {
+      "key": "C",
+      "text": "革命的指导思想是马克思列宁主义"
+    },
+    {
+      "key": "D",
+      "text": "革命的前途是社会主义而不是资本主义"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第二章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第二章"
+  ],
+  "source_regions": [
+    {
+      "page": 75,
+      "bbox": [
+        86.50599670410156,
+        917.0545654296875,
+        855.4480590820312,
+        1074.392578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 88,
+      "bbox": [
+        442.56298828125,
+        882.829345703125,
+        719.091796875,
+        957.5302124023438
+      ]
+    }
+  ]
+}

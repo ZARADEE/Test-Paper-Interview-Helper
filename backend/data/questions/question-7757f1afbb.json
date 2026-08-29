@@ -1,0 +1,57 @@
+{
+  "id": "question-7757f1afbb",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(11)设D为由摆线\n“ =sin/,(0Wt£2兀)及工轴所围的平面区域，求D的质心坐标.\ny = 1 — cos t",
+  "answer_markdown": "",
+  "analysis_markdown": "(11)解 积分区域D如图6-52所示，设其密度为常数p,\n考虑D的对称性，质心在z =兀上，即亍=兀，只需求\n^ypdxdy JJydjrdj/\n— D\ny = ~c\n-\n_D________\njp迪\nD\n•27t\nD\n而面积\nJJdzdy = J y(_z)cLz =\n(1 — cos £)• (1 — cos t)dt\nD\n'2n\n卜d迪=M\"d寸\n故\ny =—-\ny\n3兀\nydy\nDz\ni r：\n［夕(工)了 clz =—\nO7tJ (\n•2n\nr\n(1 一 cos t)3dt =—\no\n6兀\n所以质心为(兀'令).",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 43,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.456828+00:00",
+  "updated_at": "2026-08-23T12:39:51.300686+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        24.0,
+        612.4258422851562,
+        482.3999938964844,
+        633.8759765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        24.0,
+        491.5112609863281,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 119,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        52.41122055053711
+      ]
+    }
+  ]
+}

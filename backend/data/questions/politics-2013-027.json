@@ -1,0 +1,44 @@
+{
+  "id": "politics-2013-027",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1925至1927年的大革命，规模宏伟，内涵丰富。与辛亥革命相比较，其不同点在于：",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "【解析】1925年至1927年中国反帝反封建的革命，比之以往任何一次革命，包括辛亥革命和五四运动，群众的动员程度更为广泛，斗争的规模更加宏伟，革命的社会内涵更深刻，因此被称作大革命。B．它的主要斗争形式是武装斗争是辛亥革命和大革命的共同点，不符合题意，故不选。A. 它广泛而深刻地发动了工农群众。C．它的革命对象是帝国主义和封建军阀。D．它是在以国共合作为基础的统一战线的组织下进行的。都是与辛亥革命的比较的不同点，故本题的正确选项是ACD。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.468567+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "它广泛而深刻地发动了工农群众"
+    },
+    {
+      "key": "B",
+      "text": "它的主要斗争形式是武装斗争"
+    },
+    {
+      "key": "C",
+      "text": "它的革命对象是帝国主义和封建军阀"
+    },
+    {
+      "key": "D",
+      "text": "它是在以国共合作为基础的统一战线的组织形式下进行的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-d0b4ed2fd3",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设夕=夕(工)由方程+)2 = earctanf确定，求豊.",
+  "answer_markdown": "",
+  "analysis_markdown": "(4)解\n-^-ln(jr2 + b)= arctan —,\nz\nx\n1 2x 2y • y _ ____ 1\n夕 z — y\n• 1\nX2\n\\ X\n解得\nf z + y\n夕=-------- ，\n— y\n〃—(1 + j/z) (x — y) — (je + j/) (1 — j/) _ 2xy‘ 一 2y\ny =--------------------------------------------------=---------------\n将y = 4\n&—j/)2\n代入上式，得y =曲+b)\n— y\nx — $）3\nsin t",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 17,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.439350+00:00",
+  "updated_at": "2026-08-23T12:39:50.834212+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        24.0,
+        235.90098571777344,
+        482.3999938964844,
+        264.8354797363281
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 29,
+      "bbox": [
+        24.0,
+        463.34393310546875,
+        482.3999938964844,
+        603.0939331054688
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "politics-2011-003",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思把商品转换成货币称为“商品的惊险的跳跃”，这个跳跃如果不成功，摔坏的不是商品，但一定是商品的占有者。这是因为只有商品变为货币：",
+  "answer_markdown": "D",
+  "analysis_markdown": "【解析】在以货币为媒介交换的过程中，商品--货币--商品，商品生产者只有顺利实现商品到货币的跳跃，把商品换成可以和其他一切商品相交换的货币，商品生产者才能生存下去。即通过商品交换，使用价值才能转化为价值，具体劳动才能转化为抽象劳动，私人劳动才能转化为社会劳动．因此正确答案是选项D。选项BC错误。选项A货币转化为资本必须有劳动力成为商品，与本题无关，因此错误。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.404566+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "货币才能转化为资本"
+    },
+    {
+      "key": "B",
+      "text": "价值才能转化为使用价值"
+    },
+    {
+      "key": "C",
+      "text": "抽象劳动才能转化为具体劳动"
+    },
+    {
+      "key": "D",
+      "text": "私人劳动才能转化为社会劳动"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

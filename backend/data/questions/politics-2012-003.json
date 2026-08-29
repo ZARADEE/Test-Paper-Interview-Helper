@@ -1,0 +1,44 @@
+{
+  "id": "politics-2012-003",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在资本主义社会里，资本家雇佣工人进行劳动并支付相应的工资。资本主义工资本质是：",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】本题选项A说法错误，因此不选；选项C说法错误，剩余价值被资本家无偿占有，因此不选；选项D是资本主义工资的表象，不是本质，因此选项D错误，本题的正确答案是选项B。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.432352+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "工人所获得的资本家的预付资本"
+    },
+    {
+      "key": "B",
+      "text": "工人劳动力的价值或价格"
+    },
+    {
+      "key": "C",
+      "text": "工人所创造的剩余价值的一部分"
+    },
+    {
+      "key": "D",
+      "text": "工人全部劳动的报酬 ### 答案解析 3"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

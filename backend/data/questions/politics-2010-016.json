@@ -1,0 +1,44 @@
+{
+  "id": "politics-2010-016",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "胡锦涛主席在2009年9月二十国领导人比斯堡峰会上发表了题为“全力促进增长 推动平衡发展”的讲话中指出：当前国际社会十分关注全球经济失衡问题。失衡的表现为部分国家储蓄消费失衡、贸易收支失衡更表现为世界财富分配失衡，资源拥有和消费失衡，国际货币体系失衡。导致失衡的原因是复杂的，多方面的。从根本上看，失衡的根源是：",
+  "answer_markdown": "D",
+  "analysis_markdown": "【解析】国际时事。\n二、多项选择题：17～33题，每小题2分，共34分。下列每题给出的四个选项中，至少有两个选项是符合题目要求的。请在答题卡上将所选项的字母涂黑。多选或少选均不得分。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.381510+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "经济全球化深入发展、国际产业分工转移、国际资源流动"
+    },
+    {
+      "key": "B",
+      "text": "现行国际经济体系、主要经济体宏观经济政策"
+    },
+    {
+      "key": "C",
+      "text": "各国消费文化和生活方式"
+    },
+    {
+      "key": "D",
+      "text": "南北发展严重不平衡"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

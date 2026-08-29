@@ -1,0 +1,50 @@
+{
+  "id": "question-14a4ff6aa1",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4)设随机变量X的概率密度为\n“、\nI3x2, 0<x<l,\n心Jo,其他，\n求Y=寺的分布函数和概率密度.",
+  "answer_markdown": "",
+  "analysis_markdown": "(4)解 用定义法求分布函数 八(夕)，八(夕)=P{Y^y} =\n当；y<0 时，Fy(y) - P{-^ j/ < 0}=卩{丄 £XV0}\nX、\"J\n=f Odj/ = 0；\nJ7\n当0 V丄<1,即了>1时,\n.±\nFy()) = P\nX\nWj4 =\n= 1 — P(X < y J = 1 —\ny\n3j?dz =\no\n1_?\n当丄>1,即0 v 1时,\nFy(y) = P{Y^y} = P{Y<0}+P{0<y<3/}\n= P{X^ 丄}\n7{0<寺\n•1\n=1 — P{XV 丄} = 1 — (| 3x2 6.x + | 口 Odjr)\nj—丄\n0,\nJ 0\n,y > 1,\n故\nFy(jO =\n$3\n0,\n其他，\nu,夕 > 1,\n/y(y) = F：(y)=\n其他.\n0,\nj/ =—21n x在(0,1)内单调减少，有反函数",
+  "chapter": "随机变量及其分布",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 88,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.487265+00:00",
+  "updated_at": "2026-08-23T12:39:51.916372+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "分布函数",
+    "概率密度"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 88,
+      "bbox": [
+        24.0,
+        438.26348876953125,
+        482.3999938964844,
+        506.6290283203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 242,
+      "bbox": [
+        24.0,
+        135.32469177246094,
+        482.3999938964844,
+        382.7939147949219
+      ]
+    }
+  ]
+}

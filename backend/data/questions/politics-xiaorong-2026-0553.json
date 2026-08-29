@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0553",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "改革是一项崭新的事业，是一个大试验。判断改革和各方面工作的是非得失，归根到底，主要\n\n看是否有利于",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "知识储备题\n\n导是人民当家作主和依法治国的根本保证。\n\n简析习近平总书记在庆祝全国人民代表大\n\nC 错误。\n\n\f\n会成立70 周年大会上的讲话中指出，人民代\n\n机构”，而是“献策机构”；不是“权力机\n\n表大会制度坚持党的领导、人民当家作主、依\n\n关”，而是“聚力机关”；不是“协商主\n\n体”，而是“协商平台”。\n\n法治国有机统一，坚决维护党中央权威和集",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 83,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "发展社会主义社会的生产力"
+    },
+    {
+      "key": "B",
+      "text": "增强社会主义国家的综合国力"
+    },
+    {
+      "key": "C",
+      "text": "提高人民生活水平"
+    },
+    {
+      "key": "D",
+      "text": "完善社会主义的生产关系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 83,
+      "bbox": [
+        87.63099670410156,
+        1062.6341552734375,
+        929.0358276367188,
+        1191.8389892578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 94,
+      "bbox": [
+        450.69000244140625,
+        1250.643310546875,
+        746.1228637695312,
+        1321.8203125
+      ]
+    }
+  ]
+}

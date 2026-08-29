@@ -1,0 +1,76 @@
+{
+  "id": "question-187ac52763",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(9) 下列极限存在的是(\n).\n\n\nx\nx->4-oo\nht 1 + 2乓\n\nn-*oo\n\n”f 8\nF + F + “• + *)\"",
+  "answer_markdown": "D",
+  "analysis_markdown": "解 对于D：由于\n-4 • n < p- +\n• n,\nn\n1 Z\nn 1\n_i_\n+ 君---- ,\nZ\nn /\n且limST = 1, lim J丄=lim丄=1,故由夹逼准则，可知原极限等于1.\n” f OO\n“f 8\nn->oo\n/I\nn-*oo \\ Tl\n对于 A ：当 z — 时，有 J------+ g, 2吉-*+ oo,故 lim -------- --- = 0 ；当 j? -* 1+ 时,\n1 —兀\n工〜厂1十2耳\n有----—00, 2在f 0,故lim ------L厂=1，由此可知原极限不存在.\n1 一工\n工亠1+ 1 + 2戸\n对于E：令/■&) = (1 +琴^)\"，若取\nxn = mt^yn\n2\" + *\nrc(n = 1,2,则当\nn oo 时，有九―+ oo 9 yn f + oo. 由于\nn-n\n=1 9\nlim/(j?„) = lim (1 +\nn-*-oo\n“f 8\n-I (2卄寺)兀\nlim/(j/„) = lim\nfj―► OO\nfl—\n—► c>o\n7T\ne,\n_0_\nmt\ni +------- 一\nD\n故由海涅定理，可知lim (1 +空不存在.\n工~*+8 \\\n工)\n对于C：由于数列｛\" + (—1)\"(” +1)｝无界，故lim：/2+(-l)\"(n + l)］不存在.",
+  "chapter": "函数、极限与连续",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 11,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.436189+00:00",
+  "updated_at": "2026-08-23T12:39:50.752246+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "B",
+      "text": "lim f 1 + 空口"
+    },
+    {
+      "key": "A",
+      "text": "lim  ——"
+    },
+    {
+      "key": "D",
+      "text": "lim"
+    },
+    {
+      "key": "C",
+      "text": "lim[n+ (- l)n(n + l)]"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 11,
+      "bbox": [
+        24.0,
+        340.1414794921875,
+        482.3999938964844,
+        412.2585144042969
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 13,
+      "bbox": [
+        24.0,
+        530.4097900390625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 14,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        191.4068603515625
+      ]
+    }
+  ]
+}

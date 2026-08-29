@@ -1,0 +1,44 @@
+{
+  "id": "politics-2015-003",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "第二次世界大战以后，资本主义国家经历了第三次科技革命，机器大工业发展到自动化阶段。只能化工厂创造出了较高的生产效率，显露出巨大的竞争力。企业在“机器换人”中取得了一定的经济效益。这意味着率先使用机器人的个别企业：",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】在资本主义生产过程中，资本有机构成呈现不断提高趋势。资本有机构成提高，可变资本相对减少，资本对劳动力的需求相对地日益减少，结果就不可避免地造成大批工人失业，形成相对过剩人口。相对过剩人口就是劳动力供给超过了资本对它的需求形成的过剩人口。所以正确答案是B。A选项说法不正确，剩余价值的来源始终是工人的劳动。C选项生产商品的价值升高是由于社会必要劳动时间减少和劳动生产率降低。D选项平均利润增多是由于成本等因素导致的。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.490767+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "剩余价值来源的改变"
+    },
+    {
+      "key": "B",
+      "text": "资本技术构成的提高"
+    },
+    {
+      "key": "C",
+      "text": "所生产商品价值提高"
+    },
+    {
+      "key": "D",
+      "text": "获得更多的社会平均利润"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0586",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全面深化改革开放，不是某个领域某个方面的变革，而是涉及党和国家事业发展全局的体制机\n\n制变革。全面深化改革开放的主线是",
+  "answer_markdown": "C",
+  "analysis_markdown": "展促进社会稳定。D 正确。\n\n出处精讲百开1 考点29 -好",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 89,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "重要领域和关键环节改革"
+    },
+    {
+      "key": "B",
+      "text": "经济体制改革"
+    },
+    {
+      "key": "C",
+      "text": "制度建设"
+    },
+    {
+      "key": "D",
+      "text": "统筹改革、发展、稳定"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        88.72100067138672,
+        799.335205078125,
+        929.7978515625,
+        927.31396484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 99,
+      "bbox": [
+        435.59100341796875,
+        155.86668395996094,
+        766.8485717773438,
+        235.20993041992188
+      ]
+    }
+  ]
+}

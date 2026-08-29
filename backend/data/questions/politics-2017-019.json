@@ -1,0 +1,44 @@
+{
+  "id": "politics-2017-019",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思指出，所谓资本原始积累只不过是生产者和生产资料分离的历史过程。这个过程所以表现为“原始的”，因为它形成资本及与之相适应的生产方式的前史。资本原始积累的主要途径有（ ）",
+  "answer_markdown": "AC",
+  "analysis_markdown": "【解析】所谓资本原始积累，就是生产者与生产资料相分离，货币资本迅速集中于少数人手中的历史过程。资本原始积累主要是通过两个途径进行的：一是用暴力手段剥夺农民的土地;二是用暴力手段掠夺货币财富。因此，本题的正确答案是选项AC。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.531641+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "用暴力手段剥夺农民土地"
+    },
+    {
+      "key": "B",
+      "text": "用剥削手段榨取剩余价值"
+    },
+    {
+      "key": "C",
+      "text": "用野蛮手段进行殖民掠夺"
+    },
+    {
+      "key": "D",
+      "text": "用资本手段获取市场暴力 ### 答案解析 19."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

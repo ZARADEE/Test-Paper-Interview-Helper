@@ -1,0 +1,28 @@
+{
+  "id": "demo-solution-003",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "设函数 f_3(x) 满足题设条件，求其在给定区间上的性质并说明理由。",
+  "options": [],
+  "answer_markdown": "根据题设条件逐步推导。",
+  "analysis_markdown": "先明确题设，再使用对应定理完成推导，并检查边界条件。",
+  "scoring_points": [
+    {
+      "label": "步骤完整",
+      "score": 10
+    }
+  ],
+  "tags": [
+    "高等数学",
+    "积分"
+  ],
+  "chapter": "高等数学",
+  "knowledge_points": [
+    "综合应用"
+  ],
+  "difficulty": "easy",
+  "score": 10,
+  "review_status": "approved",
+  "created_at": "2026-08-23T10:09:58.423766+00:00",
+  "updated_at": "2026-08-23T10:09:58.423766+00:00"
+}

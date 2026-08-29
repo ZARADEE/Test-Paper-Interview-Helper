@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0532",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我国对资本主义工商业的改造采取赎买的方针，所谓赎买就是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "简析健全主体功能区制度，逐步形成城市化\n\n出处精布吨0 考点43\n\n地区、农产品主产区、生态功能区三大空间格",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 80,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "国家有偿地将私营企业改变为国营企业"
+    },
+    {
+      "key": "B",
+      "text": "由国家支付一笔巨额补偿资金"
+    },
+    {
+      "key": "C",
+      "text": "让资本家在一定年限内从企业经营所得中获取一部分利润"
+    },
+    {
+      "key": "D",
+      "text": "国家把私营企业改变为集体企业"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 80,
+      "bbox": [
+        104.68399810791016,
+        403.2413330078125,
+        659.958984375,
+        562.3179321289062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        443.08599853515625,
+        29.908355712890625,
+        859.6339111328125,
+        303.1986389160156
+      ]
+    }
+  ]
+}

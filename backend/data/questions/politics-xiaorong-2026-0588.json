@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0588",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在全面深化改革开放中，我们坚持了正确方法论，这是改革取得成就的原因之一。在改革方法\n\n论中，富有中国特色、符合中国国情的改革方法是",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 89,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "摸着石头过河"
+    },
+    {
+      "key": "B",
+      "text": "加强顶层设计"
+    },
+    {
+      "key": "C",
+      "text": "统筹改革发展稳定"
+    },
+    {
+      "key": "D",
+      "text": "重大改革于法有据"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        88.12100219726562,
+        1042.25732421875,
+        928.5112915039062,
+        1137.7835693359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 99,
+      "bbox": [
+        434.7699890136719,
+        665.81591796875,
+        856.2550659179688,
+        1313.5184326171875
+      ]
+    }
+  ]
+}

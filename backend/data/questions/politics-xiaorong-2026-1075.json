@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1075",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的二十大报告指出，从现在起，中国共产党的中心任务是",
+  "answer_markdown": "AD",
+  "analysis_markdown": "合题意。\n\n出处精讲评否考点100",
+  "chapter": "第十章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 158,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "团结带领全国各族人民全面建成社会主义现代化强国、实现第二个百年奋斗目标"
+    },
+    {
+      "key": "B",
+      "text": "促进世界和平与发展"
+    },
+    {
+      "key": "C",
+      "text": "推动构建人类命运共同体"
+    },
+    {
+      "key": "D",
+      "text": "以中国式现代化全面推进中华民族伟大复兴"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第十章"
+  ],
+  "source_regions": [
+    {
+      "page": 158,
+      "bbox": [
+        109.41200256347656,
+        270.7444152832031,
+        851.001953125,
+        426.839111328125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 163,
+      "bbox": [
+        437.25,
+        660.1995239257812,
+        719.1583251953125,
+        735.9257202148438
+      ]
+    }
+  ]
+}

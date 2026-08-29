@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-020",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "自20世纪70年代由美国主导的步雷顿森林体系崩溃以来，资本主义国家的金融垄断资本获得了快速发展。金融垄断得以形成和壮大的重要制度条件是()",
+  "answer_markdown": "AC",
+  "analysis_markdown": "解析：本题考查金融资所资本的发展。金融自由化与金融创新是金融资所资本得以\n形成和法大的重要制度条件，推动着资本主义经济的金融化程度不断提高。故本题正确\n选项为AC。\n\n---\n\n[PDF page 5]",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.569678+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "金融创新"
+    },
+    {
+      "key": "B",
+      "text": "金融市场监管加强"
+    },
+    {
+      "key": "C",
+      "text": "金融自由化"
+    },
+    {
+      "key": "D",
+      "text": "金融危机频繁发生 ### 答案解析 20."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

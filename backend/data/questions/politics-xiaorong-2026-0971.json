@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0971",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "鸦片战争以后，西方列强野蛮入侵，封建统治腐朽无能，国家战乱不已，人民饥寒交迫，中国\n\n人民和中华民族遭受世所罕见的深重苦难。要实现民族独立、人民解放和国家富强、人民幸福,\n\n就必须推翻封建专制统治，对中国社会进行根本变革。辛亥革命的发生，是",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "出处精而函a 考点I?",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 142,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "当时民族危机加深、社会矛盾激化的结果"
+    },
+    {
+      "key": "B",
+      "text": "当时中国人民争取民族独立、振兴中华深切愿望的集中反映"
+    },
+    {
+      "key": "C",
+      "text": "中国民族资产阶级登上政治舞台的第一次表演"
+    },
+    {
+      "key": "D",
+      "text": "当时中国人民为救亡图存而前赴后继顽强斗争的集中体现"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 142,
+      "bbox": [
+        103.04100036621094,
+        742.2305297851562,
+        937.8357543945312,
+        961.1688232421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 148,
+      "bbox": [
+        439.98199462890625,
+        354.5751647949219,
+        855.5748291015625,
+        913.0209350585938
+      ]
+    }
+  ]
+}

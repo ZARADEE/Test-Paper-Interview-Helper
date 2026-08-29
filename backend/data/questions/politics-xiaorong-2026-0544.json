@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0544",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "走中国工业化道路的思想是党在社会主义建设道路初步探索中取得的理论成果之一。毛泽东所\n\n说的中国工业化道路，就是正确处理重工业和轻工业、农业的关系，也就是他在《论十大关系》\n中论述的第一大关系。为此，毛泽东提出了以农业为基础，以工业为主导，以农轻重为序发展\n\n国民经济的总方针，以及一整套“两条腿走路” 的工业化发展思路，即",
+  "answer_markdown": "AB",
+  "analysis_markdown": "不存在最纯粹的民主。C 错误。人民民主,\n\n是对人民民主、对敌人专政，所以不是人人民\n\n出处精讲P189\n考点53 -1-\n\n主。D 错误。\n\n简析A、B 正确。人民是我们党执政的最大",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 82,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "重工业和轻工业同时并举"
+    },
+    {
+      "key": "B",
+      "text": "中央工业和地方工业同时并举"
+    },
+    {
+      "key": "C",
+      "text": "沿海工业和内地工业同时并举"
+    },
+    {
+      "key": "D",
+      "text": "外资企业和内资企业同时并举"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        102.802001953125,
+        248.25074768066406,
+        942.5632934570312,
+        444.4678039550781
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        429.7460021972656,
+        953.9644775390625,
+        841.1664428710938,
+        1316.952880859375
+      ]
+    }
+  ]
+}

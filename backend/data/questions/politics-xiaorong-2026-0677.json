@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0677",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "道路问题是关系党的事业兴衰成败第一位的问题。一个国家实行什么样的主义，关键要看这个\n主义能否解决这个国家面临的历史性课题。中国特色社会主义",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "简析拥有马克思主义科学理论指导是我们党\n\n出处隔乔丽考点6、7\n\n坚定信仰信念、把握历史主动的根本所在,D\n\n简析中国特色社会主义具有深厚的历史渊\n\n错误。A、B、C 正确。\n\n源和广泛的现实基础，是实现中华民族伟大",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 100,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是历史的结论、人民的选择"
+    },
+    {
+      "key": "B",
+      "text": "具有深厚的历史渊源和广泛的现实基础"
+    },
+    {
+      "key": "C",
+      "text": "是科学社会主义理论逻辑和中国社会发展历史逻辑的辩证统一"
+    },
+    {
+      "key": "D",
+      "text": "是实现中华民族伟大复兴的正确道路"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 100,
+      "bbox": [
+        104.54499816894531,
+        592.350830078125,
+        936.80908203125,
+        776.7880249023438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        1.6645803451538086,
+        837.762939453125,
+        421.3977355957031,
+        1295.142578125
+      ]
+    }
+  ]
+}

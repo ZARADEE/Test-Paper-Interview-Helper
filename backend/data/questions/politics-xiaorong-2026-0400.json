@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0400",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“‘履不必同，期于适足；治不必同，期于利民。‘ 世界上没有放之四海而皆准的发展道路。只\n\n有能够持续造福人民的发展道路，才是最有生命力的。”社会主义发展道路多样性的原因有",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "各国人口因素和自然地理环境的不同是造成社会主义发展道路多样性的决定因素"
+    },
+    {
+      "key": "B",
+      "text": "历史文化传统的差异性是造成不同国家社会主义发展道路多样性的重要条件"
+    },
+    {
+      "key": "C",
+      "text": "各国生产力发展状况和社会发展阶段决定了社会主义发展道路具有不同的特点"
+    },
+    {
+      "key": "D",
+      "text": "时代和实践的不断发展是造成社会主义发展道路多样性的现实原因"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "国际形势与政策"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "国际形势与政策"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        104.33000183105469,
+        302.3907775878906,
+        938.267333984375,
+        502.09405517578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 72,
+      "bbox": [
+        445.8269958496094,
+        523.7440795898438,
+        862.3200073242188,
+        951.3600463867188
+      ]
+    }
+  ]
+}

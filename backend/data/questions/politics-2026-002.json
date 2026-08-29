@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-002",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "一般认为，在重力的作用下，当树叶飘移枝头坠落地面时，密度大的叶片正面更容易朝下着地。科学研究表明，叶片的下落过程并非简单的直线下落，因为叶片形状并非完全对称，加之空气阻力差异、涡流和风等因素影响，叶片以翻滚和旋转的复杂运动形态下落。内部结构差异与外在形态变化，在一定程度上影响着叶落的飘落状态，旋转动能和空气阻力也是影响叶片在下降过程中朝向的因素。叶片下落过程表明，事物运动的规律",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "综合",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.581852+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "取决于外在因素作用的大小"
+    },
+    {
+      "key": "B",
+      "text": "是纯粹偶然因素作用的结果"
+    },
+    {
+      "key": "C",
+      "text": "取决于物质运动形态的结果"
+    },
+    {
+      "key": "D",
+      "text": "是各种因素相互作用的结果"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "综合"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "综合"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

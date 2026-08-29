@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0573",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "实现中华民族伟大复兴，就是中华民族近代以来最伟大的梦想。100 多年来，中国共产党团结带\n领中国人民进行的一切奋斗、一切牺牲、一切创造，归结起来就是一个主题：实现中华民族伟大\n复兴。实现中华民族伟大复兴的中国梦，本质是",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "第二章以中国式现代化全面推进中华民族伟大复兴",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 88,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "全面建成富强民主文明和谐美丽的社会主义现代化强国"
+    },
+    {
+      "key": "B",
+      "text": "实现高水平的自立自强"
+    },
+    {
+      "key": "C",
+      "text": "在推动共同富裕过程中促进人的全面发展"
+    },
+    {
+      "key": "D",
+      "text": "国家富强、民族振兴、人民幸福"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第二章以中国式现代化全面推进中华民族伟大复兴"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第二章以中国式现代化全面推进中华民族伟大复兴"
+  ],
+  "source_regions": [
+    {
+      "page": 88,
+      "bbox": [
+        103.38600158691406,
+        166.81207275390625,
+        936.0016479492188,
+        377.122802734375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 97,
+      "bbox": [
+        435.47698974609375,
+        831.363525390625,
+        848.469970703125,
+        1152.95166015625
+      ]
+    }
+  ]
+}

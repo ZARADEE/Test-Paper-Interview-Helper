@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0768",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "就业事关人民群众切身利益，事关经济社会健康发展，事关国家长治久安。党的十八大以来,\n\n党中央坚持把就业工作摆在治国理政的突出位置，强化就业优先政策，健全就业促进机制，有\n\n效应对各种压力挑战，为民生改善和经济发展提供了重要支撑。就业是",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 113,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "最基本的民生"
+    },
+    {
+      "key": "B",
+      "text": "最大的根基工程"
+    },
+    {
+      "key": "C",
+      "text": "改善民生、实现发展成果由人民共享最重要最直接的方式"
+    },
+    {
+      "key": "D",
+      "text": "劳动者赖以生存和发展的基础、共享经济发展成果的基本条件"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 113,
+      "bbox": [
+        85.14800262451172,
+        644.0803833007812,
+        929.0962524414062,
+        865.8713989257812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        445.6789855957031,
+        1028.579345703125,
+        850.906005859375,
+        1165.2921142578125
+      ]
+    }
+  ]
+}

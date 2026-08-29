@@ -1,0 +1,67 @@
+{
+  "id": "question-56f257c78f",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 若二阶常系数线性齐次微分方程yf + pyr + qy = 0的通解为y = Cx ex + C2j;eJ ,则\n非齐次微分方程/+ Ay' + qy = z满足夕(0) = 2,j/(0) = 0的特解为y =(\n).",
+  "answer_markdown": "C",
+  "analysis_markdown": "解\n由齐次微分方程通解为y = C.e +。2工兰，知对应特征方程的根为门=5 = 1,其\n特征方程为(r — I)2 = 0,即r2 — 2r + 1 = 0,故p =—2, q = 1,所以非齐次微分方程为\ny — 2j/ + 夕=_z.\n①\n令特解y* =处+ b,代入上式，得一2a + g + b = z,解得a = 1,6 = 2,故①的通解\n为\ny — Cj + C2 + j： + 2.\n由 j/(0) = 2, j/(0) = 0,得 G = 0,C2 =一1,故夕=一 xex + 工 + 2,C 正确.",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 46,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.457941+00:00",
+  "updated_at": "2026-08-23T12:39:51.360611+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "jcex — jc — 2"
+    },
+    {
+      "key": "B",
+      "text": "ze\" — + 2"
+    },
+    {
+      "key": "C",
+      "text": "— xo1 + z + 2"
+    },
+    {
+      "key": "D",
+      "text": "— xex —工 + 2"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分方程",
+    "二阶",
+    "通解"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 46,
+      "bbox": [
+        24.0,
+        549.2449340820312,
+        482.3999938964844,
+        614.497802734375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 129,
+      "bbox": [
+        24.0,
+        367.6172790527344,
+        482.3999938964844,
+        445.7298583984375
+      ]
+    }
+  ]
+}

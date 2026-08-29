@@ -1,0 +1,65 @@
+{
+  "id": "question-8a3a305e2a",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "⑸设 /(攵，夕)=e2j?(jc + y2 + 2y),则 _/(工,夕)在点 P(专，一 1)处(\n).",
+  "answer_markdown": "A",
+  "analysis_markdown": "解 由\nI f'x = e2x （2x + 2y2 十 4y+l） = 0,\n\\f； = e?工（2 夕+ 2） = 0,\n得驻点卩（+，—】）•由于 A =充（卩）=2e, B = _/X（P） = 0, C = /yyCP）=2e,故\nAC ― B2 = 2e • 2e — 0 > 0, A = 2e〉0 9\n所以f(y，-l)=-y为极小值,A正确.",
+  "chapter": "多元函数微分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 34,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.450061+00:00",
+  "updated_at": "2026-08-23T12:39:51.114082+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "取得极小值-号"
+    },
+    {
+      "key": "B",
+      "text": "取得极大值一-|-"
+    },
+    {
+      "key": "C",
+      "text": "取得极大值e"
+    },
+    {
+      "key": "D",
+      "text": "不取得极值"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 34,
+      "bbox": [
+        24.0,
+        437.1509704589844,
+        482.3999938964844,
+        499.8768005371094
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 84,
+      "bbox": [
+        24.0,
+        538.632568359375,
+        482.3999938964844,
+        627.8339233398438
+      ]
+    }
+  ]
+}

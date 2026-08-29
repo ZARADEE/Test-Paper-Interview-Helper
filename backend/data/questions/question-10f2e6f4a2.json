@@ -1,0 +1,58 @@
+{
+  "id": "question-10f2e6f4a2",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)设甲盒中有4个红球和2个白球，乙盒中有2个红球和4个白球，掷一枚均匀的硬币，\n若正面出现,则从甲盒中任取一球，若反面出现，则从乙盒中任取一球，设每次取出的球观看\n颜色后放回原盒中.\n(1) 若前两次都取得红球，求第三次也取得红球的概率；\n(D)若前两次都取得红球，求红球都来自甲盒的概率.",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴解 (I )设A,- = ｛第。次取得红球｝ (2 = 1,2,3),B7 = ｛第j次掷硬币出现正\n面｝ (j = 1,2,3).\n依题设，易知5为第j次从甲盒中取球•将“掷一次硬币，再由硬币出现的结果从相应的\n盒中取出”看作一次试验，则每次试验是重复的，且相互独立，所以它们的结果4 ,A2 ,A3是\n相互独立的，且\nPCA；) = P(Ai) ,i = 1,2,3,\n故所求概率为 P(A3 | AtA2) = P(A3) = P(Ai).\n又由全概率公式，得\nP(Ai)= PCBJPCA, | +P(BT)P(A1 | B)\n故 P(A3 I A“2)= y.\n(D)由于两次试验是独立重复的，所以A5与儿及是相互独立的，且\nP(A2B2) = PCA.Br) = PCBOPCA, | 民)==\nz 6\n由条件概率公式，得\np/ p p i a a \\ PCA1A2B1B2)\nFCAiBx)P(A2B2)\n\\ 3 )\nF(B1B21 A1A)=…p(乔厂=-pcajpCa；) =7Tv = y\n\\ 2)",
+  "chapter": "随机事件与概率",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 86,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.484944+00:00",
+  "updated_at": "2026-08-23T12:39:51.886627+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机事件",
+    "概率"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机事件与概率"
+  ],
+  "source_regions": [
+    {
+      "page": 86,
+      "bbox": [
+        24.0,
+        139.856689453125,
+        482.3999938964844,
+        214.80563354492188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 238,
+      "bbox": [
+        24.0,
+        538.4618530273438,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 239,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        140.37930297851562
+      ]
+    }
+  ]
+}

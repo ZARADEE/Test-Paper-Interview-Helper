@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0796",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "香港、澳门回归以来的实践经验告诉我们，保持香港、澳门长期繁荣稳定，继续推进“一国两\n\n制” 实践行稳致远，需要",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "革命的新境界。D 正确。保证全党服从中\n\n央，维护党中央权威和集中统一领导，是党\n\n出处精讲/书〕考点101\n拓展与点拨\n\n的政治建设的首要任务。C 错误。\n\n题近习近平总书记2024 年12 月20 日在",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 117,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚守“一国” 之本、善用“两制” 之利"
+    },
+    {
+      "key": "B",
+      "text": "维护高水平安全、推动高质量发展"
+    },
+    {
+      "key": "C",
+      "text": "发挥独特优势、强化内联外通"
+    },
+    {
+      "key": "D",
+      "text": "弘扬核心价值、促进包容和谐"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 117,
+      "bbox": [
+        82.7249984741211,
+        497.6827392578125,
+        922.8046264648438,
+        625.5123291015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 121,
+      "bbox": [
+        5.156999588012695,
+        575.2633666992188,
+        425.65911865234375,
+        1022.4005737304688
+      ]
+    }
+  ]
+}

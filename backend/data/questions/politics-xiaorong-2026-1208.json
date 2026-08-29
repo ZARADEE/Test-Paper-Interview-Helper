@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1208",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思说：“我们知道个人是微弱的，但是我们也知道整体就是力量。” 在我国革命、建设、改\n革的历程中，在我国抗疫、抗震、抗灾等斗争中，集体主义从未缺席。长期以来，集体主义已\n\n经成为调节国家利益、社会整体利益和个人利益关系的基本原则。集体主义",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "客观世界和主观世界的一种精神力量，是提\n\n高人的精神境界、促进人的自我完善、推动人\n\n出处精讲下近考点34 -2-(2)\n\n的全面发展的内在动力。A、B、C、D 全选。\n\n简析集体主义强调国家利益、社会整体利益",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 176,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "强调国家利益、社会整体利益和个人利益的辩证统一"
+    },
+    {
+      "key": "B",
+      "text": "强调国家利益、社会整体利益高于个人利益"
+    },
+    {
+      "key": "C",
+      "text": "强调抑制个人利益来发展国家利益、社会整体利益"
+    },
+    {
+      "key": "D",
+      "text": "重视和保障个人的正当利益"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 176,
+      "bbox": [
+        100.90299987792969,
+        268.5763244628906,
+        932.5653076171875,
+        498.5039978027344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 180,
+      "bbox": [
+        441.0429992675781,
+        815.9379272460938,
+        855.0350341796875,
+        1179.54443359375
+      ]
+    }
+  ]
+}

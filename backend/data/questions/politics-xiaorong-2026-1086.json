@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-1086",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人生观主要是通过人生目的、人生态度和人生价值三个方面体现出来的。其中核心是",
+  "answer_markdown": "A",
+  "analysis_markdown": "动上符合道德才可为，违反道德不可为。另\n\n出处精讲用\n考点5\n\n外,法律和道德两种规范调节的领域也不同，\n\n法律调节的领域比道德调节的领域小。B、C、\nD 错误。",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 161,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人生目的"
+    },
+    {
+      "key": "B",
+      "text": "人生态度"
+    },
+    {
+      "key": "C",
+      "text": "人生价值"
+    },
+    {
+      "key": "D",
+      "text": "人生意义"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 161,
+      "bbox": [
+        91.30599975585938,
+        1145.4022216796875,
+        831.6820678710938,
+        1209.6170654296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 166,
+      "bbox": [
+        442.8110046386719,
+        1119.1260986328125,
+        849.5413208007812,
+        1292.00439453125
+      ]
+    },
+    {
+      "page": 166,
+      "bbox": [
+        39.37200164794922,
+        1289.412109375,
+        424.4072265625,
+        1322.45068359375
+      ]
+    }
+  ]
+}

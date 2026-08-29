@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0539",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1956 年，毛泽东提出探索马克思主义同中国实际即社会主义建设实际的“第二次结合”，这说\n\n明中国共产党",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "的国内国际双循环，不是封闭的国内单循环。\n\n出处精沛下语7：考点tips\n\n我国经济已经深度融入世界经济，同全球很",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 81,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "开始探索适合中国特点的社会主义建设道路"
+    },
+    {
+      "key": "B",
+      "text": "开始摆脱单一的苏联模式"
+    },
+    {
+      "key": "C",
+      "text": "开始重新认识“什么是社会主义、怎样建设社会主义”"
+    },
+    {
+      "key": "D",
+      "text": "开始明确社会主义基本制度建立后还要通过改革进一步解放生产力"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 81,
+      "bbox": [
+        89.4229965209961,
+        514.1409301757812,
+        930.557373046875,
+        706.056640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        1.277979850769043,
+        682.4135131835938,
+        410.76092529296875,
+        1176.3328857421875
+      ]
+    }
+  ]
+}

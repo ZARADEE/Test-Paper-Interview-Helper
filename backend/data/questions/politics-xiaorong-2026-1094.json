@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1094",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "走向绞刑架的李大钊，发出了“共产主义在中国必然得到光辉的胜利” 的坚贞誓言。面对敌人\n屠刀的夏明翰，写下“砍头不要紧，只要主义真。杀了夏明翰，还有后来人” 的雄壮诗篇。面\n对敌人6 天内9 次劝降，瞿秋白作出了“人爱自己的历史，比鸟爱自己的翅膀更厉害，请勿撕\n破我的历史” 的铿锵回答。理想信念是精神之“钙”。信念是认知、情感和意志的有机统一体。\n信念的特征包括",
+  "answer_markdown": "C",
+  "analysis_markdown": "出处［W可资考点12 -2-(2)\n\n出处精讲再到考点5 _3-g",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 162,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "超越性"
+    },
+    {
+      "key": "B",
+      "text": "支撑性"
+    },
+    {
+      "key": "C",
+      "text": "执着性"
+    },
+    {
+      "key": "D",
+      "text": "多样性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 162,
+      "bbox": [
+        101.73600006103516,
+        937.6573486328125,
+        943.9493408203125,
+        1197.58984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        432.77301025390625,
+        508.73486328125,
+        843.2952270507812,
+        935.8692016601562
+      ]
+    }
+  ]
+}

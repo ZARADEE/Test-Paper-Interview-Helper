@@ -1,0 +1,44 @@
+{
+  "id": "politics-2012-019",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人们往往将汉语中的“价”、“值”二字与金银财宝等联系起来，而这两字的偏旁却都是“人”，示意价值在“人”。马克思劳动价值论透过商品交换的物与物的关系，揭示了商品价值的科学内涵，其主要观点有：",
+  "answer_markdown": "CD",
+  "analysis_markdown": "【解析】本题考查的是商品价值的内涵。答案A是错误的，劳动是价值的唯一源泉，社会财富是属于使用价值的范畴，使用价值的源泉是原材料和人类劳动。答案B也是错误的，具体劳动是商品使用价值的实体，抽象劳动是商品价值的实体。答案C和D是正确的。价值是凝结在商品中无差别的人类劳动，是商品交换的基础，本质上体现了生产者之间的社会关系。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.448814+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "劳动是社会财富的唯一源泉"
+    },
+    {
+      "key": "B",
+      "text": "具体劳动是商品价值的实体"
+    },
+    {
+      "key": "C",
+      "text": "价值是凝结在商品中的一般人类劳动"
+    },
+    {
+      "key": "D",
+      "text": "价值在本质上体现了生产者之间的社会关系 ### 答案解析 19"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

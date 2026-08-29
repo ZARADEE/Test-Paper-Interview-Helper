@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0824",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "《海国图志》和《资政新篇》的相似之处在于都主张",
+  "answer_markdown": "B",
+  "analysis_markdown": "出处j精群向S 考点9 -2-0\n箴T诙® 考点10 -2-(2)\n\n出处精讲P243 考点4 拓展与点拨\n\n简析近代以来的历史表明, 要争得民族独立\n\n\f\n播革命思想,积极兴起进步浪潮,连续发动武\n\n置板在《海国图志》中，魏源提出了“师夷长\n\n装起义，推动了革命大势的形成。A 正确。、\n\n技以制夷”的思想，主张学习外国先进的军事\n\n和科学技术,以期富国强兵，抵御外国侵略。\n\n第一音\n\n《资政新篇》主张在中国发展资本主义,实际\n\n上要进行政治、经济、文化制度的改革，而《海",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 123,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "进行政治、经济、文化制度的改革"
+    },
+    {
+      "key": "B",
+      "text": "向西方学习"
+    },
+    {
+      "key": "C",
+      "text": "进行资产阶级思想启蒙运动"
+    },
+    {
+      "key": "D",
+      "text": "在中国发展资本主义"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 123,
+      "bbox": [
+        84.01699829101562,
+        773.3328247070312,
+        724.5709838867188,
+        871.1925048828125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 127,
+      "bbox": [
+        434.45001220703125,
+        768.0078735351562,
+        749.7977905273438,
+        845.6624145507812
+      ]
+    }
+  ]
+}

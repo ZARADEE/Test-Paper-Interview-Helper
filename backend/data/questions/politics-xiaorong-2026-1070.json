@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1070",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1992 年，邓小平在视察南方的谈话中阐述了一系列重要思想，其中最主要的有",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "义,即党的百年奋斗从根本上改变了中国人\n\n出处精讲两》考点88\n\n民的前途命运、开辟了实现中华民族伟大\n\n简析B、C、D 正确。党的十五大(1997 年)\n\n复兴的正确道路、展示了马克思主义的强\n\n第一次明确提出，公有制为主体、多种所有\n\n大生命力、深刻影响了世界历史进程、锻\n\n制经济共同发展，是我国社会主义初级阶\n\n造了走在时代前列的中国共产党。A、B、C、\nD 全选。\n\n段的基本经济制度，非公有制经济是我国\n\n社会主义市场经济的重要组成部分,A 不符",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 157,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "关于社会主义初级阶段基本经济制度的思想"
+    },
+    {
+      "key": "B",
+      "text": "关于发展才是硬道理的思想"
+    },
+    {
+      "key": "C",
+      "text": "关于社会主义本质的思想"
+    },
+    {
+      "key": "D",
+      "text": "关于计划和市场都是经济手段的思想"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 157,
+      "bbox": [
+        85.01399993896484,
+        730.6318359375,
+        896.430419921875,
+        822.818115234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 163,
+      "bbox": [
+        7.869000434875488,
+        444.4942626953125,
+        418.262939453125,
+        718.2308959960938
+      ]
+    }
+  ]
+}

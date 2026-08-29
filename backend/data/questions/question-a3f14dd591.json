@@ -1,0 +1,48 @@
+{
+  "id": "question-a3f14dd591",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设随机变量 X,Y,Z,满足 EX = EY=1,EZ =-l.DX DY = DZ = 1 ,PxY = 0,\nPxz = *,他=一*，求 E(X + Y—2Z),D(X + Y+Z).",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解 E(X + Y—2Z) = EX+EY—2EZ = 1 + 1 —2X (—1) = 4,\nD(X + Y + Z) = DX + DY + DZ + 2Cov(X,Y) +2Cov(X,Z) +2Cov(Y,Z).\nCov(X,Y) = \"X ■ DY ■伽= 1X0 = 0,\nCov(X,Z) = VDX • DZ • Pxz = lXy = y,\nCov(y,Z) = JDY ・ DZ ・险=1 X (_*)=—*，\n=3.\n故\nDCX + Y + Z) = l + l + l+0 + 2Xy + 2X",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.490264+00:00",
+  "updated_at": "2026-08-23T12:39:52.006214+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        24.0,
+        277.349365234375,
+        482.3999938964844,
+        330.7683410644531
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 260,
+      "bbox": [
+        24.0,
+        470.48419189453125,
+        482.3999938964844,
+        572.6759643554688
+      ]
+    }
+  ]
+}

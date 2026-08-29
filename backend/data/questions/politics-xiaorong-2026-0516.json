@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0516",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国共产党要领导革命取得胜利，必须不断加强党的思想建设、组织建设和作风建设。新民主\n\n主义革命时期党的建设的主要经验有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出发点和落脚点是促进社会公平正义、增进\n\n出处精丽布n 考点28\n\n人民福祉。C 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 78,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "必须把思想建设始终放在党的建设的首位，以无产阶级思想克服和改造各种非无产阶级思想"
+    },
+    {
+      "key": "B",
+      "text": "必须重视党的组织建设和作风建设"
+    },
+    {
+      "key": "C",
+      "text": "必须联系党的政治路线加强党的建设"
+    },
+    {
+      "key": "D",
+      "text": "注意党的执政能力建设"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        108.30599975585938,
+        400.6192932128906,
+        940.4810791015625,
+        592.364990234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        4.947999954223633,
+        101.08572387695312,
+        368.81195068359375,
+        179.310791015625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1246",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在新时代坚持和发展中国特色社会主义的进程中，我们党总结运用历史经验，全面贯彻实施宪\n\n法，勇于推进宪法理论和宪法实践创新，积累了许多新鲜经验，深化了对我国宪法制度建设的\n\n规律性认识。党领导人民制定和实施宪法，最根本的目的是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "知识储备题\n\n发展全过程人民民主的题中应有之义。A、\n\nB、C、D 全选。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 180,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "维护人民利益"
+    },
+    {
+      "key": "B",
+      "text": "反映人民意愿"
+    },
+    {
+      "key": "C",
+      "text": "保障人民权益"
+    },
+    {
+      "key": "D",
+      "text": "增进人民福祉"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 180,
+      "bbox": [
+        102.21199798583984,
+        923.012451171875,
+        934.8615112304688,
+        1082.4537353515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 184,
+      "bbox": [
+        440.5780029296875,
+        724.8540649414062,
+        841.757568359375,
+        762.2789306640625
+      ]
+    }
+  ]
+}

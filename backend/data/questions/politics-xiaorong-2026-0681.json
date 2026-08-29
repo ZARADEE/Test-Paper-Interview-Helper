@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0681",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "坚定中国特色社会主义道路自信、理论自信、制度自信，说到底是要坚定文化自信。文化自信是",
+  "answer_markdown": "AD",
+  "analysis_markdown": "出处精讲百更i 考点8 -CJ",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 100,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "更基础、更广泛、更深厚的自信"
+    },
+    {
+      "key": "B",
+      "text": "改革开放以来我们取得一切成绩和进步的根本原因"
+    },
+    {
+      "key": "C",
+      "text": "我们坚定“四个自信” 的理论支撑和根本依据"
+    },
+    {
+      "key": "D",
+      "text": "一个国家、一个民族发展中最基本、最深沉、最持久的力量"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 100,
+      "bbox": [
+        102.76300048828125,
+        1273.187744140625,
+        921.5473022460938,
+        1423.884521484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        434.0660095214844,
+        410.383056640625,
+        843.8568725585938,
+        777.5906982421875
+      ]
+    }
+  ]
+}

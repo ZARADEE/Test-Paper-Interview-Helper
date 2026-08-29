@@ -1,0 +1,57 @@
+{
+  "id": "question-3f0ac01df0",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(13) 一架质量为4. 5吨的歼击机以600 km/h的航速开始着陆，在减速伞的作用下滑跑\n500 m后速度减为100 km/h,设减速伞的阻力与飞机的速度成正比，忽略飞机所受的其他外\n力，求减速伞的阻力系数•若保障飞机安全着陆，跑道长度至少应为多少？",
+  "answer_markdown": "",
+  "analysis_markdown": "(13)解\ndv dv djc\ndu / 士一 d 切、\n石=£•不=\"£乂表不位移)，\n◎半，即dv =— —da：,积分得\n故一kv = m •\nax\nm\nk\nV — v0 — —X ,\nm\n①\n故怡=m^v0 - v)\nX\n将 m = 4 500 kg,v0 = 600 km/h,u = 100 km/h,j: — 0. 5 km 代入上式，得 k =\n4. 5 X 106 kg/h.\n由①有u = 600 —'乡• z,令v = 0,解得z = 0. 6 km,即跑道至少应为600 m.\n4 500",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 48,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.459048+00:00",
+  "updated_at": "2026-08-23T12:39:51.392228+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 48,
+      "bbox": [
+        24.0,
+        280.65142822265625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 134,
+      "bbox": [
+        24.0,
+        573.5247802734375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 135,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-3d55218f81",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(18) 设 /(x) = arctan 工,求 /(n) (0).",
+  "answer_markdown": "",
+  "analysis_markdown": "（18）解 由\n— arctan z,有 f = -~~，故\n丄十z\n（1 4- J；2\n= 1.\n上式两边同时对z求5 — 1）阶导数，得\n［（1+工\"（工）丁”-1〉= 0,\n利用莱布尼茨公式，令U = /''（•X）,V = 1 +工2 ,贝!j\n/■SQ）（i + y）+（”_i）y（Li）（g）• 2x +\n（^）.2 = 0,\n将7 = 0代入上式，得\n/<w）（0）（l +0） + （九一1）尸1）（0） • 0+ G_ 1）（兀_2）严_2>（0）.2 = 0,\n即\n严(°)=—(”― i)g —2)严一 2〉(0).\n①\n又 /'(0) = 0,由①式，得 /(0) = 0,故 f2k)(0) = 0.\n又/(0) = 1,由①式，得\n严(0) =-2! ,/(5) =-4 • 3 -严(0) = 4!,\n故严屮>(0) = (―1)气 2厂！以=0,1,2,-).\n【注】 也可利用泰勒公式.\nr3\n2H-1\n由 /(jc) = arctan 工=无一-^- + -7- — ■・• + (—])上• —―— + …9得\n旅十1\nn = 2k 今\nn = 2k -1.\n严(0)=\n0，\n--血\"・\n（―1）”（2厂！，",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 22,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.443472+00:00",
+  "updated_at": "2026-08-23T12:39:50.938997+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 22,
+      "bbox": [
+        24.0,
+        287.98974609375,
+        482.3999938964844,
+        304.0081481933594
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 45,
+      "bbox": [
+        24.0,
+        147.29115295410156,
+        482.3999938964844,
+        393.6248779296875
+      ]
+    }
+  ]
+}

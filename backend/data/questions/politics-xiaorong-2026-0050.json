@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0050",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "学习和掌握唯物辩证法的科学思维方法，要求我们在实践中不断增强辩证思维能力。提高辩证\n\n思维能力，要自觉运用对立统一规律，掌握运用好辩证的逻辑思维方法。在这些思维方法中，\n\n人类思维从个别到一般，又由一般到个别的最常见的推理形式是",
+  "answer_markdown": "B",
+  "analysis_markdown": "了解当地的地理情况和鸟类习性,A 正确。\n\n出处霜不粒3 考点25 -1-0\n\n事物的性质是由主要矛盾的主要方面所\n\n决定的。B 前半句正确,后半句错误。解决\n\n第二章\n\n矛盾的方法不是只有矛盾双方融合成一个新\n\n事物这一种，还有矛盾一方克服另一方、矛盾",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 8,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "分析与综合"
+    },
+    {
+      "key": "B",
+      "text": "归纳与演绎"
+    },
+    {
+      "key": "C",
+      "text": "抽象与具体"
+    },
+    {
+      "key": "D",
+      "text": "逻辑与历史\n\n第二章\n实践与认识及其发展规律"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 8,
+      "bbox": [
+        98.0739974975586,
+        403.65985107421875,
+        942.59228515625,
+        532.6506958007812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 11,
+      "bbox": [
+        431.42498779296875,
+        629.5914916992188,
+        754.3783569335938,
+        709.7466430664062
+      ]
+    }
+  ]
+}

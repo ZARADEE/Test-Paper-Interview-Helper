@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0816",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国沦为半殖民地半封建社会的过程中，最早出现的一个新的社会阶级是",
+  "answer_markdown": "C",
+  "analysis_markdown": "会的发展变化起着决定性作用。\n，②\n\n错误。因此,本题选C。\n固固这两对主要矛盾中，最主要的矛盾是帝\n\n出处精沛户丞豆考点3 拓展与点拨3\n\n简析无产阶级（工人阶级）是中国沦为半殖\n\n国主义和中华民族的矛盾。\n\n民地半封建社会的过程中最早出现的一个新",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 122,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "官僚买办资产阶级"
+    },
+    {
+      "key": "B",
+      "text": "民族资产阶级"
+    },
+    {
+      "key": "C",
+      "text": "工人阶级"
+    },
+    {
+      "key": "D",
+      "text": "资产阶级"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 122,
+      "bbox": [
+        101.48799896240234,
+        990.5414428710938,
+        838.1785278320312,
+        1059.646728515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 126,
+      "bbox": [
+        20.569000244140625,
+        1246.4613037109375,
+        427.9249267578125,
+        1324.6209716796875
+      ]
+    },
+    {
+      "page": 126,
+      "bbox": [
+        463.6289978027344,
+        320.2517395019531,
+        861.6654663085938,
+        808.611083984375
+      ]
+    }
+  ]
+}

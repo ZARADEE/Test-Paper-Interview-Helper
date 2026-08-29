@@ -1,0 +1,67 @@
+{
+  "id": "question-0eae6bd676",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)判别下列级数的敛散性,若收敛，判断是条件收敛还是绝对收敛：\noo\nOO\n（I ）设工（一l）ia”e\"收敛，判别工如的敛散性；\nn=1\nn=1\n（n）g（-i）\"-1 in（iS；\n（皿）£厂i匚；\nn=i Jn — In n\n（w）£（-1）1（73-1）.\nn= 1",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解 (I )由已知条件，知lim(— l)\"T(2”e\" = 0,即lima”e\" = 0,故当n充分大时,\n|<M(M>0),\n$咯而Y马收敛，故工Q”绝对收敛.\n所以丨e\ne\nn=l e\nn=l\nn—1 _______________\n(D)\nS(-1)\nln(l + n)\nn= 1\n>丄，而2丄发散，由比较审敛法，知原级数不绝对收敛.\n由磺1而\n刃\nn\ni f\n单调减少，由莱布尼茨定理，知原级数条件收敛.\n0,\n又 lim I =\n]\nln(l + n)\nloo ln( 1 十 7?)\n而工 世发散，知2 芈士一不绝对收敛.\n(皿)由 一\n寸n ”=i \\n\n”=i \\]n 一 In n\nJn 一 In n\nU = -7=r1x\ndoc 一 In x\n，贝!] lim f(x) = lim\n------ = 0 ,\nl+8\nl+°° Vx — In J：\n丄—丄\n(a/^— In jr)2\n]\n(石 2)\nV0(h>4),\n2jc(aAz 一 In x)2\n5〉4)单调减少，由莱布尼茨定理,知原级数条件收敛.\nn — In n\n故 lim ——------= 0 ,且\n\"f 一 g “\n73-1\n(IV)\nIeJ 1 In 3Z\n、\ne n — 1 ~ -----(n oo) 9\nn\n而工 也发散，由比较审敛法，知工（將一1）发散，即原级数不绝对收敛.\nn=1\n\"\nn=1\n又lim（73-l）= 0,且｛將一1｝单调减少，由莱布尼茨定理,知原级数条件收敛.\nn-*oo\nQn+i\n=lim ?卡、\n—寺=0，故尺=——2.\nn-*oo\ndn",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 50,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.460149+00:00",
+  "updated_at": "2026-08-23T12:39:51.420466+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 50,
+      "bbox": [
+        24.0,
+        676.718994140625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 51,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        183.3920440673828
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 139,
+      "bbox": [
+        24.0,
+        398.5177001953125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 140,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        104.6907958984375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0915",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“作风建设永远在路上”。在波澜壮阔的历史进程中，中国共产党始终十分重视党的作风建设。\n在中共七届二中全会上，毛泽东强调必须保持的党的作风是",
+  "answer_markdown": "B",
+  "analysis_markdown": "治协商制度的确立。C 正确,A、B、D 错误。\n\n出处精讲商© 考点64 -1-0\n\n点拨完成创建新中国的任务, 是由中国人\n\n简析B 正确。A、C、D 是毛泽东在党的七\n\n民政治协商会议第一届全体会议来承担的。\n\n大上归纳的“三大作风”，不符合题意。\n\n在1954年9月的第一届全国人民代表大会第",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 134,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "理论和实践相结合的作风"
+    },
+    {
+      "key": "B",
+      "text": "谦虚、谨慎、不骄、不躁和艰苦奋斗的作风"
+    },
+    {
+      "key": "C",
+      "text": "和人民群众紧密地联系在一起的作风"
+    },
+    {
+      "key": "D",
+      "text": "自我批评的作风"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 134,
+      "bbox": [
+        107.0260009765625,
+        1210.2867431640625,
+        949.1873779296875,
+        1333.2305908203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 140,
+      "bbox": [
+        21.55900001525879,
+        1099.8173828125,
+        356.2991943359375,
+        1176.19189453125
+      ]
+    }
+  ]
+}

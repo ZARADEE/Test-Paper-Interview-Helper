@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0838",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "鸦片战争以后，中国逐步成为半殖民地半封建社会，国家蒙辱、人民蒙难、文明蒙尘。中华民\n\n族遭受了前所未有的劫难。标志着清政府已经彻底放弃抵抗外国侵略者的念头，甘当“洋人的\n\n朝廷” 的事件是",
+  "answer_markdown": "C",
+  "analysis_markdown": "出处精讲P加］考点14 -2- Q\n\n出处精好至6 考点17 -1- Q\n\n简析洋务运动具有封建性c 洋务运动的指",
+  "chapter": "第三章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 124,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中法战争以“中国不败而败，法国不胜而胜” 而告结束"
+    },
+    {
+      "key": "B",
+      "text": "日、俄两国在中国东北进行争夺在华利益的战争，清政府宣称“局外中立”"
+    },
+    {
+      "key": "C",
+      "text": "《辛丑条约》的签订"
+    },
+    {
+      "key": "D",
+      "text": "《马关条约》的签订"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第三章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第三章"
+  ],
+  "source_regions": [
+    {
+      "page": 124,
+      "bbox": [
+        107.41699981689453,
+        1279.8629150390625,
+        938.4716186523438,
+        1414.259033203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 129,
+      "bbox": [
+        438.14300537109375,
+        27.825355529785156,
+        848.9534301757812,
+        301.43402099609375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-cbf40458b9",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 设A是3阶方阵,A = (atJ )3x3 ［且atJ = A,y ,i,j = 1,2,3,其中A(>为a”的代数余子\n式，<233工0 \"=(如3，如3山33)T，求非齐次线性方程组Ax = b的解.",
+  "answer_markdown": "",
+  "analysis_markdown": "(6)解 求抽象方程组Ax = b的通解，首先要讨论秩,从而确定解的情况.\n由已知，b = (ai3, a23，如3)t是A中的第3列，且= A# ,故\n| A | — <213-^13 +。23人23 + <^33 -^33 = a13 + <^23 + <233 > 0(因 a33 H。)，\n而 at\n故\n所以r(A) = 3,即Ax = b有唯一解x\nA*\nQ13\n1 di\nNd\n人22\nAl\n人32\nA33\n1 A |\n人23\n^23\n“33\nAu A2i\nA12\nA",
+  "chapter": "线性方程组",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 75,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.479594+00:00",
+  "updated_at": "2026-08-23T12:39:51.780825+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "方程组"
+  ],
+  "tags": [
+    "线性代数",
+    "线性方程组"
+  ],
+  "source_regions": [
+    {
+      "page": 75,
+      "bbox": [
+        24.0,
+        103.02958679199219,
+        482.3999938964844,
+        133.08871459960938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 212,
+      "bbox": [
+        24.0,
+        52.14976501464844,
+        482.3999938964844,
+        149.91864013671875
+      ]
+    }
+  ]
+}

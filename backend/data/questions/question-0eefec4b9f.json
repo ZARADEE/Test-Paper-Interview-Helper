@@ -1,0 +1,49 @@
+{
+  "id": "question-0eefec4b9f",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)设方程组”虹1+(& — 1)工2+口 =0,有非零解，且A =\nk -2是正定\n2 -2\nSk — 3)劝—3jc2 + &3 = 0\n矩阵.\n(I)求怡的值；\n(U )设X = a ,#2，工3)T，求X X =］时,xl Ax的最大值.",
+  "answer_markdown": "",
+  "analysis_markdown": "（3）解 （I ）由已知，齐次线性方程组有非零解，故其系数行列式为零，即\n怡+ 3\nk\n2b\nk — 1\n=\nk k -1\n1 =^(^ + 1)(^ — 3) = 0,\nk — 3\n-3\nk\n- 3\nk\n彳导 b — 0 9 — ]\n又由于A正元点a” >0（正定的必要条件），所以k = 3,由\n入 一 3 一 ] 一 2\nI AE — A|=\n— 1 A — 3\n= （A — 1）（入一4）（入一10）,\n—2\n2 X — 9\n可知A的特征值为右=1,入2 = 4,入3 = 10,全大于0,故怡=3为所求.\n（H）因A为实对称矩阵，故存在正交矩阵P,经正交变换x = Py化二次型LAx为标准\n形，于是 = yTPTPy = （Py）T（Py） = xTx = 1,所以\nx1 Ax = 3/1 + 43/2 + 10农 £ 10（炭 + 应 + 式）=10 X 1 = 10,\n即最大值为10.",
+  "chapter": "二次型",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 83,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.483945+00:00",
+  "updated_at": "2026-08-23T12:39:51.855111+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "二次型",
+    "正定"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 83,
+      "bbox": [
+        24.0,
+        67.69645690917969,
+        482.3999938964844,
+        145.7643280029297
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 232,
+      "bbox": [
+        24.0,
+        235.81773376464844,
+        482.3999938964844,
+        387.9310607910156
+      ]
+    }
+  ]
+}

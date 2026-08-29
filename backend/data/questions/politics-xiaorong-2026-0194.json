@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0194",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会主义的发展道路必然呈现出多样性的特点。造成社会主义发展道路多样性的现实原因是",
+  "answer_markdown": "C",
+  "analysis_markdown": "出处精评国g 考点考\n_2-蹲\n\n出处精讲P1011 考点92",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 26,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "无产阶级政党自身成熟程度的不同"
+    },
+    {
+      "key": "B",
+      "text": "历史文化传统的差异性"
+    },
+    {
+      "key": "C",
+      "text": "时代和实践的不断发展"
+    },
+    {
+      "key": "D",
+      "text": "自然地理环境的影响\n\n第七章\n共产主义崇高理想及其最终实现"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 26,
+      "bbox": [
+        104.18900299072266,
+        958.7351684570312,
+        910.7590942382812,
+        1055.3375244140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 36,
+      "bbox": [
+        444.5260009765625,
+        89.83499145507812,
+        712.8928833007812,
+        167.08837890625
+      ]
+    }
+  ]
+}

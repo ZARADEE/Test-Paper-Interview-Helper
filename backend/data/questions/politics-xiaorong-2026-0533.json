@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0533",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我国对资本主义工商业的社会主义改造经历了三个步骤：第一步实行初级形式的国家资本主义;\n第二步实行个别企业的公私合营；第三步实行全行业的公私合营。从个别企业的公私合营到全\n\n行业公私合营，是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "局。A、B、D 正确,C 错误。\n\n出处精如酶p 考点44\n\n第七章",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 80,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "党和国家对资本主义工商业采取利用、限制、改造政策的必然趋势"
+    },
+    {
+      "key": "B",
+      "text": "经济运行中计划不断强化的必然结果"
+    },
+    {
+      "key": "C",
+      "text": "保证国家重点建设顺利进行的必然要求"
+    },
+    {
+      "key": "D",
+      "text": "彻底完成民主革命遗留任务的必要前提"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 80,
+      "bbox": [
+        104.31999969482422,
+        557.054931640625,
+        937.1722412109375,
+        777.5466918945312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        442.2049865722656,
+        298.95013427734375,
+        828.5380249023438,
+        374.0202941894531
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "question-4308c00e94",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(5) 向量场 A(a:,y,z) = (je + jz + z)i + xyj +述在点 P(1,1,1)处的旋度 rot A =\n________ , div A =________ .",
+  "answer_markdown": "J,3.",
+  "analysis_markdown": "J,3.\n解\nrot A =\ni j k\ni\nj k\na a a\na a\ndx dy dz\ndx\ndy dz\nP Q R\nx y z xy z\nl)k,\n=j + (y\n在点 P(l,l,l)处，有 rot A = j.\n=1 + jc + 1 = 2 + x,\na ap . aQ . dR\ndiv A =亍十—+ —\ndx dy dz\n故在点\n处,div A = 2 + 1 = 3.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.470862+00:00",
+  "updated_at": "2026-08-23T12:39:51.538179+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        24.0,
+        142.83782958984375,
+        482.3999938964844,
+        165.22467041015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        24.0,
+        332.45623779296875,
+        482.3999938964844,
+        442.086669921875
+      ]
+    }
+  ]
+}

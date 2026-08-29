@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0560",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“三个代表” 重要思想最鲜明的特点和最突出的贡献，在于用一系列紧密联系、相互贯通的新\n\n思想新观点新论断",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "简析B、C、D 正确。在我国，国家权力机关\n\n出处精讲下\n考点59 —If\n\n是全国人民代表大会和地方各级人大。政协\n\n不是权力机关,A 错误。\n直填通俗一点解释，人民政协不是“决策\n\n简析世界百年未有之大变局加速演进,统一\n\n战线在维护国家主权、安全、发展利益上的",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 84,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "进一步回答了什么是社会主义、怎样建设社会主义的问题"
+    },
+    {
+      "key": "B",
+      "text": "创造性回答了建设什么样的党、怎样建设党的问题"
+    },
+    {
+      "key": "C",
+      "text": "继承和发展了马克思列宁主义、毛泽东思想、邓小平理论"
+    },
+    {
+      "key": "D",
+      "text": "深化了我们对新的时代条件下推进中国特色社会主义事业、加强党的建设的规律的认识\n\n\f\n第八章\n科学发展观"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 84,
+      "bbox": [
+        102.99199676513672,
+        1221.226806640625,
+        935.3965454101562,
+        1407.3739013671875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        434.9570007324219,
+        171.5145263671875,
+        697.1900024414062,
+        245.71583557128906
+      ]
+    }
+  ]
+}

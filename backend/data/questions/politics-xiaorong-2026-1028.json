@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1028",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1945 年4 月23 日至6 月11 日，中国共产党第七次全国代表大会在延安举行。毛泽东在会上作\n\n了题为《论联合政府》的书面报告和《愚公移山》的闭幕词。中共七大制定了“放手发动群\n\n众，壮大人民力量，在我党的领导下，打败日本侵略者，解放全国人民，建立一个新民主主义\n\n的中国” 的政治路线，总结党的建设的历史经验，把党在长期奋斗中形成的优良作风概括为",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "其是在毛泽东探索中国革命新道路的时候就\n\n出处精讲P29i) 考点52 -1\n\n开始了。C 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 151,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "艰苦奋斗的作风"
+    },
+    {
+      "key": "B",
+      "text": "理论和实践相结合的作风"
+    },
+    {
+      "key": "C",
+      "text": "和人民群众紧密地联系在一起的作风"
+    },
+    {
+      "key": "D",
+      "text": "自我批评的作风"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 151,
+      "bbox": [
+        83.43399810791016,
+        187.226318359375,
+        923.3660888671875,
+        376.31341552734375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 156,
+      "bbox": [
+        447.35101318359375,
+        224.47195434570312,
+        861.5999755859375,
+        980.0009765625
+      ]
+    }
+  ]
+}

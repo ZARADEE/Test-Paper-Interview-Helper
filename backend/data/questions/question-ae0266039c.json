@@ -1,0 +1,65 @@
+{
+  "id": "question-ae0266039c",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设可微函数f(x,y)在点P(^o，必)处取得极大值，则(\n).",
+  "answer_markdown": "C",
+  "analysis_markdown": "由已知,/■&,》)在点P(^o^o)处卑得极大值，由极值的必要条件，知\n_/'：(#0，夕0)=咒(工0，夕0)= 0,\n故C正确.",
+  "chapter": "多元函数微分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 34,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.450061+00:00",
+  "updated_at": "2026-08-23T12:39:51.113077+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "f(j：0 ,夕)在y = y0处导数小于零"
+    },
+    {
+      "key": "B",
+      "text": "f (工o ,夕)在;y = y0处导数大于零"
+    },
+    {
+      "key": "C",
+      "text": "f(jco ,y)在_y = y0处导数等于零"
+    },
+    {
+      "key": "D",
+      "text": "fCx0 ,夕)在y = y0处导数不存在"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 34,
+      "bbox": [
+        24.0,
+        367.9404602050781,
+        482.3999938964844,
+        438.1509704589844
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 84,
+      "bbox": [
+        24.0,
+        496.0582275390625,
+        482.3999938964844,
+        539.632568359375
+      ]
+    }
+  ]
+}

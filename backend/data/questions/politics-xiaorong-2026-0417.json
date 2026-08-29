@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0417",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思主义中国化时代化的理论成果是一脉相承又与时俱进的关系。它们都是",
+  "answer_markdown": "A",
+  "analysis_markdown": "握社会发展阶段性特征的重要依据。我国社\n\n出处精讲户可考点8 -W\n\n会主要矛盾的变化反映了我国社会主义初级\n\n\f\n阶段不断变化的新特点,是我们党作出中国特\n\n现代化是走和平发展道路的现代化。坚持和\n\n色社会主义进入新时代重大判断的基本依据。\nA 正确。",
+  "chapter": "导论",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 65,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "于中国革命、建设、改革的正确的理论原则和经验总结"
+    },
+    {
+      "key": "B",
+      "text": "马克思列宁主义在中国的运用和发展"
+    },
+    {
+      "key": "C",
+      "text": "全国各族人民团结奋斗的共同思想基础"
+    },
+    {
+      "key": "D",
+      "text": "党和国家必须长期坚持的指导思想"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "导论"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "导论"
+  ],
+  "source_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        86.74800109863281,
+        692.8355712890625,
+        769.0223999023438,
+        889.052001953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 77,
+      "bbox": [
+        0.0,
+        890.3780517578125,
+        410.0147705078125,
+        1316.1884765625
+      ]
+    },
+    {
+      "page": 77,
+      "bbox": [
+        451.9230041503906,
+        321.8231201171875,
+        844.1937866210938,
+        742.78369140625
+      ]
+    }
+  ]
+}

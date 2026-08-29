@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0490",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "实事求是，就是一切从实际出发，理论联系实际，坚持在实践中检验真理和发展真理。实事求\n\n是是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 74,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国共产党的思想路线"
+    },
+    {
+      "key": "B",
+      "text": "中国共产党人认识世界、改造世界的根本要求"
+    },
+    {
+      "key": "C",
+      "text": "中国共产党的基本思想方法、工作方法、领导方法"
+    },
+    {
+      "key": "D",
+      "text": "马克思主义的根本观点"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 74,
+      "bbox": [
+        100.7040023803711,
+        916.6591186523438,
+        932.1395874023438,
+        1108.491943359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 87,
+      "bbox": [
+        435.3689880371094,
+        1247.3157958984375,
+        797.8618774414062,
+        1323.1126708984375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0923",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新中国成立伊始，面临许多严重困难和紧迫问题。这对于刚刚执掌全国政权的中国共产党来\n\n说，是新的严峻考验。毛泽东在中共七届二中全会上指出:“敌人的武力是不能征服我们的，这\n\n点已经得到证明了。资产阶级的捧场则可能征服我们队伍中的意志薄弱者。”“我们必须预防这\n\n种情况。” 毛泽东这番话强调的实际上是中国共产党",
+  "answer_markdown": "D",
+  "analysis_markdown": "符合题意。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 136,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "能不能保卫住革命胜利成果，巩固新生人民政权"
+    },
+    {
+      "key": "B",
+      "text": "能不能战胜严重经济困难，迅速恢复和发展国民经济"
+    },
+    {
+      "key": "C",
+      "text": "能不能巩固民族独立，维护国家主权和安全"
+    },
+    {
+      "key": "D",
+      "text": "能不能经受住全国执政的新考验，继续保持优良传统和作风"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 136,
+      "bbox": [
+        109.92400360107422,
+        128.9264678955078,
+        942.09326171875,
+        387.4427490234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 141,
+      "bbox": [
+        3.9569997787475586,
+        984.8782348632812,
+        422.7113952636719,
+        1316.0111083984375
+      ]
+    }
+  ]
+}

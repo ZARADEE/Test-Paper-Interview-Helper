@@ -1,0 +1,48 @@
+{
+  "id": "question-699a30fd39",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)求极限lim — | djr| sin(jrj/)2dj；.\n—o+ t c\n•_L_",
+  "answer_markdown": "",
+  "analysis_markdown": "(3)解 詈型，利用洛必达法则，需交换积分顺序，二次积\n分表示的积夕区竽如图6-47所示；\nJ d』sin(j73/)2dj/ = [ dj/\no\nsin(巧尸也9\no\n故\ny\ndy\\ sin(j：3/)2djr\n原式=\nlim\nr->0+\nsin u\no\nlim\n一 o+\nsin(to)2dj：\no\ntx = u\n=——lim\nx = —U \"。+\nsin u2 du\n0________\n噌\n6产\n—二定 36护\n2/sin Z4\n=lim\n6产\n18\"\nr-0+",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 43,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.455396+00:00",
+  "updated_at": "2026-08-23T12:39:51.289843+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        24.0,
+        206.45025634765625,
+        482.3999938964844,
+        239.87286376953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 116,
+      "bbox": [
+        24.0,
+        268.58062744140625,
+        482.3999938964844,
+        456.4441223144531
+      ]
+    }
+  ]
+}

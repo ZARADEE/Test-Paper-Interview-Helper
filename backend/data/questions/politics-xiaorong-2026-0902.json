@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0902",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国人民抗日战争的胜利，是近代以来中国人民反抗外敌入侵第一次取得完全胜利的民族解放\n\n斗争。抗日战争取得胜利的决定因素是",
+  "answer_markdown": "B",
+  "analysis_markdown": "顿学风是整风运动最主要的任务。C 正确，\n\n出处精沛庆留考点55 -1\n\nB、D 错误。“左”倾机会主义属于政治路线错",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 133,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国共产党的中流砥柱作用"
+    },
+    {
+      "key": "B",
+      "text": "以爱国主义为核心的民族精神"
+    },
+    {
+      "key": "C",
+      "text": "全民族抗战"
+    },
+    {
+      "key": "D",
+      "text": "坚持持久战方针"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 133,
+      "bbox": [
+        85.10199737548828,
+        331.5224914550781,
+        924.9608154296875,
+        455.9627685546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 138,
+      "bbox": [
+        22.190000534057617,
+        1120.168212890625,
+        439.07958984375,
+        1318.197509765625
+      ]
+    },
+    {
+      "page": 138,
+      "bbox": [
+        472.68798828125,
+        29.85704803466797,
+        860.4000244140625,
+        289.155029296875
+      ]
+    }
+  ]
+}

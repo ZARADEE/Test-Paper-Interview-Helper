@@ -1,0 +1,48 @@
+{
+  "id": "question-4e8d569b4e",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(7) 设向量组(I )ai心，…，a,, ( U )01 ,02,…，0,,『(I)=厂(II),且向量组(I)可由\n(H)线性表示.证明：向量组(I)与(II)等价.",
+  "answer_markdown": "",
+  "analysis_markdown": "（7）证\n依题设，只需证明（U）可由（I ）线性表示.\n令r（I） = r（ II）= r（r 5,r\n, ^1］不姑设（I）与（H）的极大线性无关组分别为\n% 皿2,…,a,与 “1，“2，…,0,.\n由已知（I ）可由JU）线性表示，而（U ）可由01,02，…，0,线性表示，故ai ,ct2,…,ar可\n由伤,02，…，几线性表示，从而向量组（ID ）ai皿2,•••,%,% ,02，…，几的秩也为r,而5心,僞\n线性无关，故它也是（皿）的一个极大线性无关组，所以弘佩，…，以可由釦心，…心线性表\n示，于是向量组（D）可由（I ）线性表示.\n综合所述，向量组（I）与（U ）等价.\n【注】设有向量组（I）与（U）,则\n（Dr（ I ） = r（ U）養（I ）与（U）等价；\n②若r（I）=r（n）,且（I）可由（U）或（U）可由（I）线性表示=>（I）与（U）等价.",
+  "chapter": "向量",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 69,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.477400+00:00",
+  "updated_at": "2026-08-23T12:39:51.720702+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "向量"
+  ],
+  "tags": [
+    "线性代数",
+    "向量"
+  ],
+  "source_regions": [
+    {
+      "page": 69,
+      "bbox": [
+        24.0,
+        302.9928283691406,
+        482.3999938964844,
+        330.84521484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 199,
+      "bbox": [
+        24.0,
+        478.3025207519531,
+        482.3999938964844,
+        597.4452514648438
+      ]
+    }
+  ]
+}

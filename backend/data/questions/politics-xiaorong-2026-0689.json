@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0689",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国特色社会主义之所以是社会主义，究其根本就在于",
+  "answer_markdown": "AB",
+  "analysis_markdown": "出处精沛P167\n考点24 -3\n\n出处精沛行3 考点17\n\n简析中国共产党是全心全意为人民服务的\n\n简析中国共产党领导关系中国特色社会主\n\n党，党的执政水平和执政成效不是由自己说\n\n了算，必须而且只能由人民来评判。习近平\n\n义的性质、方向和命运。中国特色社会主义\n\n总书记指出:“时代是出卷人，我们是答卷人,\n\n之所以是社会主义，究其根本就在于坚持科\n\n人民是阅卷人。”要始终把人民放在心中最高\n\n学社会主义基本原则，在于坚持中国共产党\n\n位置，树立正确的政绩观，以人民满意不满意\n\n的领导。A、B 正确,C、D 错误。",
+  "chapter": "第二章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 102,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持科学社会主义基本原则"
+    },
+    {
+      "key": "B",
+      "text": "坚持中国共产党的领导"
+    },
+    {
+      "key": "C",
+      "text": "坚持以人民为中心"
+    },
+    {
+      "key": "D",
+      "text": "坚持深化改革开放"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第二章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第二章"
+  ],
+  "source_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        104.4520034790039,
+        183.91891479492188,
+        758.0227661132812,
+        284.07415771484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 110,
+      "bbox": [
+        443.4639892578125,
+        443.9452819824219,
+        837.49658203125,
+        516.8768920898438
+      ]
+    }
+  ]
+}

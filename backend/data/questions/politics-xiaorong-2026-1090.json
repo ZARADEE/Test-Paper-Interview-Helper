@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1090",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "认识和处理人生问题的重要着眼点和出发点是",
+  "answer_markdown": "B",
+  "analysis_markdown": "具有超越性、实践性和时代性。\n符合题\n\n意。因此,本题选C。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 162,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "个人与群众的关系问题"
+    },
+    {
+      "key": "B",
+      "text": "个人与社会的关系问题"
+    },
+    {
+      "key": "C",
+      "text": "个人与国家的关系问题"
+    },
+    {
+      "key": "D",
+      "text": "个人与集体的关系问题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 162,
+      "bbox": [
+        103.75,
+        489.5439147949219,
+        751.926513671875,
+        592.8849487304688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        1.0478696823120117,
+        875.3865356445312,
+        242.742919921875,
+        951.8901977539062
+      ]
+    }
+  ]
+}

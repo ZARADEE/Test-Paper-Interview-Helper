@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0800",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "构建人类命运共同体，就是为了造福各国人民，促进世界和平，实现共同繁荣和发展。共建\n\n“一带一路”",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "简析坚持中央全面管治权和保障特别行政\n\n出处精沛曾3彳】考点109 -4\n\n区高度自治权相统一。我国是单一制国家,\n\n中央对包括香港、澳门特别行政区在内的所\n\n第十七章\n\n有地方行政区域拥有全面管治权。全面管治",
+  "chapter": "第十六章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 117,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是对中国与世界实现开放共赢路径的顶层设计"
+    },
+    {
+      "key": "B",
+      "text": "是推动构建人类命运共同体的实践平台"
+    },
+    {
+      "key": "C",
+      "text": "根植历史、更面向未来，源于中国、更属于世界"
+    },
+    {
+      "key": "D",
+      "text": "追求的是发展，崇尚的是共赢，传递的是希望\n\n\f\n第十七章\n全面从严治党"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十六章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十六章"
+  ],
+  "source_regions": [
+    {
+      "page": 117,
+      "bbox": [
+        84.17400360107422,
+        1191.932373046875,
+        924.889404296875,
+        1378.8836669921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 121,
+      "bbox": [
+        436.3389892578125,
+        277.0135803222656,
+        772.394287109375,
+        361.6856689453125
+      ]
+    }
+  ]
+}

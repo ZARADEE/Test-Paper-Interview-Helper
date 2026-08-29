@@ -1,0 +1,44 @@
+{
+  "id": "politics-2013-003",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "《资本论》中有这样的表述“对上衣来说，无论是裁缝自己穿还是他的顾客穿，都是一样的。”这主要是因为无论谁穿：",
+  "answer_markdown": "A",
+  "analysis_markdown": "【解析】题干中的上衣无论谁穿都起着使用价值的作用，使用价值是商品的自然属性，不体现任何生产关系，是一切劳动产品共有的属性，因此无论是裁缝自己穿（只作为劳动产品）还是顾客穿（作为商品），上衣的使用价值对于二者都是一样的，因此本题正确答案是选项A。而抽象劳动形成的是价值，私人劳动转化为社会劳动也就是使用价值转化为价值，那么选项BCD都是在说的是价值。因此不选。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.454046+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "上衣都起到着使用价值的作用"
+    },
+    {
+      "key": "B",
+      "text": "上衣都起到着价值的作用"
+    },
+    {
+      "key": "C",
+      "text": "上衣都是抽象劳动的结果"
+    },
+    {
+      "key": "D",
+      "text": "上衣都是社会劳动的结果"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

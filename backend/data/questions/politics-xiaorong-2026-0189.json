@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0189",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "空想社会主义的发展经历了三个阶段，其中成为科学社会主义的直接思想来源的是",
+  "answer_markdown": "C",
+  "analysis_markdown": "",
+  "chapter": "第六章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 26,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "B",
+      "text": "18 世纪的空想平均共产主义"
+    },
+    {
+      "key": "A",
+      "text": "16-17 世纪的早期空想社会主义"
+    },
+    {
+      "key": "D",
+      "text": "20 世纪的空想社会主义"
+    },
+    {
+      "key": "C",
+      "text": "19 世纪初期批判的空想社会主义"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第六章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第六章"
+  ],
+  "source_regions": [
+    {
+      "page": 26,
+      "bbox": [
+        104.15899658203125,
+        307.7097473144531,
+        836.28515625,
+        406.9200134277344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 35,
+      "bbox": [
+        433.38800048828125,
+        226.08287048339844,
+        696.708251953125,
+        301.7012023925781
+      ]
+    }
+  ]
+}

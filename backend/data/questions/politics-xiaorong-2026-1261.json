@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1261",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在现代法治社会，人们行使任何权利、做任何事情都不能超越法律界限。行使权利要",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "简析人身自由是人们一切行动和生活的前\n\n出处\n考点54 -1\n\n提条件。人身自由，首先是指人的身体不受",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 182,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "符合权利行使的目的"
+    },
+    {
+      "key": "B",
+      "text": "符合权利行使的限度"
+    },
+    {
+      "key": "C",
+      "text": "符合权利行使的方式"
+    },
+    {
+      "key": "D",
+      "text": "符合权利行使的程序"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 182,
+      "bbox": [
+        107.24600219726562,
+        300.4619140625,
+        857.7533569335938,
+        404.7843017578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 186,
+      "bbox": [
+        443.2149963378906,
+        88.70038604736328,
+        795.4961547851562,
+        161.52706909179688
+      ]
+    }
+  ]
+}

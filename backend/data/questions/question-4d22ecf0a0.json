@@ -1,0 +1,62 @@
+{
+  "id": "question-4d22ecf0a0",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "（7）设级数£ 盒与「>1叫工都收敛，则（\n）.",
+  "answer_markdown": "A",
+  "analysis_markdown": "解 令 = J -\nx\\w X\n叶8 /\nJ(」inT收敛\">匕\nJ 2 x\\x\\PX\n+ eSJMd[(p2 一4)幻=-2--—；e(/>2~4)\n一小 dr =\no\np 一 4.\no\np 一 4\n当/>2 - 4 < 0,即当一2<p<2时，收敛，故1 V / V 2. A正确.",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 52,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.461257+00:00",
+  "updated_at": "2026-08-23T12:39:51.447069+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "l<p<2"
+    },
+    {
+      "key": "B",
+      "text": "0 < p < 2"
+    },
+    {
+      "key": "C",
+      "text": "一2</<2 D. 1 < p < 2"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 52,
+      "bbox": [
+        24.0,
+        593.6820678710938,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 147,
+      "bbox": [
+        24.0,
+        336.56402587890625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

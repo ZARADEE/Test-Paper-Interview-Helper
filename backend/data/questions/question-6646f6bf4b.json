@@ -1,0 +1,49 @@
+{
+  "id": "question-6646f6bf4b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(7) 设A是mXn矩阵\"为加维列向量，证明：线性方程组\"Ax =ATb必有解.",
+  "answer_markdown": "",
+  "analysis_markdown": "(7)证\n只要证明 r(ATA) = r(ATA ; AT&).\n记 A = (ai ,a2，…，a”)，则\nr(ATA ; A1 ft) = r(AT (ai ,a2, ••• ,a„) \\ ATb) — r[(ATai ,ATa2, ,ATa„) i ATfe]\n=r[AT(ai ,a2，…，a” 1 &)] W r(AT) = r(ATA).\n又 r(ATA ; AT6) > r(ATA),故\"TA ; ATfe) = r(ATA),所以方程组 AT^x = AT& 必有解.",
+  "chapter": "线性方程组",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 75,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.479594+00:00",
+  "updated_at": "2026-08-23T12:39:51.782334+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "向量",
+    "方程组"
+  ],
+  "tags": [
+    "线性代数",
+    "线性方程组"
+  ],
+  "source_regions": [
+    {
+      "page": 75,
+      "bbox": [
+        24.0,
+        132.08871459960938,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 212,
+      "bbox": [
+        24.0,
+        148.91864013671875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0968",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "19 世纪90 年代，维新派与守旧派开展了一场实质上是资产阶级思想与封建主义思想在中国的\n\n第一次正面交锋的论战。这场论战围绕的主要问题是",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "出处精讲适齐沃\n考点45 _2_u\n\n简析A、B、D 正确。戊戌维新运动是中国民族\n\n简析A、C、D 正确。资产阶级维新派主张实\n\n资产阶级登上政治舞台的第一次表演,C 错误。\n\n行君主立宪，实行民主共和是后来以孙中山\n\n点拨中国的资产阶级民主革命是以孙中山\n\n为代表的资产阶级革命派的主张。B 错误。\n\n为代表的资产阶级革命派首先发动的。资产",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 142,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "要不要变法"
+    },
+    {
+      "key": "B",
+      "text": "要不要实行民主共和"
+    },
+    {
+      "key": "C",
+      "text": "要不要废八股、改科举和兴西学"
+    },
+    {
+      "key": "D",
+      "text": "要不要实行君主立宪"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 142,
+      "bbox": [
+        101.83999633789062,
+        131.47842407226562,
+        934.662353515625,
+        259.3784637451172
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 148,
+      "bbox": [
+        12.399999618530273,
+        170.70571899414062,
+        419.9241027832031,
+        1013.4974365234375
+      ]
+    }
+  ]
+}

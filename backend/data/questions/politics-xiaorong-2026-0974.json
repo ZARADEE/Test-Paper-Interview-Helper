@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0974",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1905 年至1907 年间发生的资产阶级革命派与改良派的论战，也暴露了革命派在思想理论方面\n\n的弱点，主要表现在革命派",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲P书a 考点20 -2\n\nC 项前一句“推动了中国社会变革”正",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 142,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "对“革命是否会招致帝国主义干涉” 的问题不敢作出理直气壮的正面回答"
+    },
+    {
+      "key": "B",
+      "text": "所说的“国民”，主要还是指资产阶级及其知识分子，而不是广大的劳动群众"
+    },
+    {
+      "key": "C",
+      "text": "反对贫苦农民“夺富人之田为己有”"
+    },
+    {
+      "key": "D",
+      "text": "只是希望通过“有秩序的革命” 来避免动乱和帝国主义的干涉"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 142,
+      "bbox": [
+        102.57099914550781,
+        1235.827392578125,
+        934.4546508789062,
+        1420.47216796875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 149,
+      "bbox": [
+        1.8490896224975586,
+        304.2221374511719,
+        412.55096435546875,
+        512.2490234375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0904",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1945 年8 月25 日，中共中央在《对目前时局的宣言》中明确提出的口号是",
+  "answer_markdown": "B",
+  "analysis_markdown": "伟大转折。B 错误。抗日战争的伟大胜利，\n\n出处精耕P29引考点56 -2-0\n\n是中华民族从近代以来陷入深重危机走向伟",
+  "chapter": "第七章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 133,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "巩固国内和平，实现民主改革"
+    },
+    {
+      "key": "B",
+      "text": "和平、民主、团结"
+    },
+    {
+      "key": "C",
+      "text": "打倒蒋介石，解放全中国"
+    },
+    {
+      "key": "D",
+      "text": "独立、自由、和平"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第七章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第七章"
+  ],
+  "source_regions": [
+    {
+      "page": 133,
+      "bbox": [
+        85.33699798583984,
+        588.2289428710938,
+        761.5942993164062,
+        682.5927734375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 138,
+      "bbox": [
+        447.64898681640625,
+        976.6497192382812,
+        742.4409790039062,
+        1049.547607421875
+      ]
+    }
+  ]
+}

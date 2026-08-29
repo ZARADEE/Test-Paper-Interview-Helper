@@ -1,0 +1,48 @@
+{
+  "id": "question-9386e54da3",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "⑶设厂=\n，求(A* )T.\nJ\nr",
+  "answer_markdown": "",
+  "analysis_markdown": "⑶解\n(A*尸\nA-1 | A.\n而I\n用初等行变换求A，\n=1\n又 AT(AT)* =| A-1 I E,故(D* =\n1 = 2,对 A\n丄、\n-1\n，\n_5_\nT-1\n__丄\n__2\no\n丄\n[1\n0、\n0'\n0 ---- A\n—1\n2 -1\n'_5_\n-1\n—1\n-2\nA\n故A =\n，所以(A*)T = (A-1)\n=1 A-1\n丄、\nT\no\n丄\nT-1\n_丄\n| 5-2\n-1\nE+ 1",
+  "chapter": "矩阵",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 65,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.475218+00:00",
+  "updated_at": "2026-08-23T12:39:51.656309+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        24.0,
+        383.69342041015625,
+        482.3999938964844,
+        431.45709228515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 189,
+      "bbox": [
+        24.0,
+        292.2536315917969,
+        482.3999938964844,
+        451.5070495605469
+      ]
+    }
+  ]
+}

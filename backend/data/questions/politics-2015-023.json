@@ -1,0 +1,44 @@
+{
+  "id": "politics-2015-023",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "到2012年底,我国仍在耕地上从事农业生产经营的农民家庭约1.9亿户，所经营的耕地面积占农村家庭承包耕地总面积的92.5%；仍实行由集体统一经营的村，组约有2000个；已发展起农业专业合作社68.9万个，入社成员5300多万户；各类农业产业化经营组织30余万个，带动的农户约1.18亿户；约有2556万亩耕地由企业租赁经营，上述现象表明在我国农村 :",
+  "answer_markdown": "AC",
+  "analysis_markdown": "【解析】在我国农村，加快构建新型农业经营体系，应坚持家庭经营在农业中的基础性地位，推进家庭经营、集体经营、合作社经营、企业经营等共同发展的农业经营方式创新，大力推进农业组织和制度创新，发展农民专业合作和股份合作，培养新型经营主体，发展多种形式规模经营，发展各类农业社会化服务组织和农业产业化经营体系。所以AC正确。BD本身错误。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.510396+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "农业经营主体呈现多样化趋势"
+    },
+    {
+      "key": "B",
+      "text": "土地的集体所有权性质已经发生变化"
+    },
+    {
+      "key": "C",
+      "text": "家庭承包经营仍然是最基本的经营形式"
+    },
+    {
+      "key": "D",
+      "text": "土地经营权的流转使农民失去了对土地的承包权"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

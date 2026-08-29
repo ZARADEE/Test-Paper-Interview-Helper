@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1053",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中华人民共和国成立、社会主义制度的建立",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "是毛泽东提出的。C、D 不符合题意。\n\n直摆本题难度较大，十六字方针是在毛泽\n\n出处精河双目考点73\n\n东提出的八字方针基础上后来增加的，而",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 154,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是中国历史上最深刻最伟大的社会变革"
+    },
+    {
+      "key": "B",
+      "text": "为当代中国一切发展进步奠定了根本政治前提和制度基础"
+    },
+    {
+      "key": "C",
+      "text": "为中国发展富强、中国人民生活富裕奠定了坚实基础"
+    },
+    {
+      "key": "D",
+      "text": "实现了中华民族由不断衰落到根本扭转命运、持续走向繁荣富强的伟大飞跃"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 154,
+      "bbox": [
+        103.61399841308594,
+        1088.843505859375,
+        808.119384765625,
+        1243.4464111328125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 160,
+      "bbox": [
+        10.736000061035156,
+        301.0101623535156,
+        432.4571533203125,
+        990.61572265625
+      ]
+    }
+  ]
+}

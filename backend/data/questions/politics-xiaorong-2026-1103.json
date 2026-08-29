@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1103",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人类社会发展的历史表明，对一个民族、一个国家来说，最持久、最深层的力量是",
+  "answer_markdown": "A",
+  "analysis_markdown": "的命运和党的命运、社会主义的命运是密不\n\n出处精讲西祠考点23 -1-0\n匿近人类社会发展的历史表明，对一个民\n\n可分的。只有坚持爱国和爱党、爱社会主义\n\n相统一，爱国主义才是鲜活的、真实的，这是\n\n当代中国爱国主义精神最重要的体现。\n\n族、一个国家来说，最持久、最深层的力量是",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 163,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "全社会共同认可的核心价值观"
+    },
+    {
+      "key": "B",
+      "text": "文明的发展水平"
+    },
+    {
+      "key": "C",
+      "text": "科技的发展水平"
+    },
+    {
+      "key": "D",
+      "text": "生产力的发展水平"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 163,
+      "bbox": [
+        86.9209976196289,
+        1132.7276611328125,
+        818.0775756835938,
+        1230.363037109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        448.5350036621094,
+        1179.7216796875,
+        855.46142578125,
+        1323.65478515625
+      ]
+    }
+  ]
+}

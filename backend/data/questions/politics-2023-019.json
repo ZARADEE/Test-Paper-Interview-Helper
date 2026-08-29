@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-019",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思的平均利润理论深刻阐明了资本主义社会利润转换为平均利润以及剩余价值被进一步分割的原理，在利润率平均化的过程中，仍然能获得平均利润的资本有()",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "解析：本题考查平均利润的形成。在利润平均化规律作用下，产业资本家获得产业\n利润，商业资本家获得商业利润：银行资本家获得银行利润，农业资本家获得农业利润。\n利润平均化规律，反映了在瓜分剩余价值上，资本家之间存在竞争和矛盾，但在加强对\n工人阶级的剥削以榨取更大量的剩余价值这一点上，资本家之间有着共同的阶级利益。\n按等量资本取得等量利润的原则前提是资本产生的剩余价值转化为利润。借贷资本不属\n于等量获得平均利润的资本，借贷资本的提供者不参与生产过程，实际上是借贷资本的\n使用者使用借贷资本实现了剩余价值，剩余价值转化为利润，所以借贷资本的利息率不\n等于平均利润率。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.568171+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "产业资本"
+    },
+    {
+      "key": "B",
+      "text": "农业资本"
+    },
+    {
+      "key": "C",
+      "text": "商业资本"
+    },
+    {
+      "key": "D",
+      "text": "借贷资本 ### 答案解析 19."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

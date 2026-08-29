@@ -1,0 +1,50 @@
+{
+  "id": "question-cc906c5481",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(9) 计算1= f 理三孳，其中L是从点A(l,l)沿直线到点£(—1,0),再沿曲线\nJ l x ~r y\ny = x2 — 1 到点 C(1,0).",
+  "answer_markdown": "",
+  "analysis_markdown": "(9) 解法1 因为孕=竽=』\n「 2\nr2\n「\"十g “ g”吐-石一（*+02）2,所以在不含\n点（0,0）的区域内，积分与路径无关.如图9-6所示，取\n” l,BEC：\n夕=夕，\nX = COS 19\ny = sin t,\nAD：\n夕=1，DB：（'\nx = x,\nI\nL 一 d_Z |\n故 / =\n兀\n1 +工2十\n，2n cosS + sin2Z」\n.—i—曲\n「血+\nJi i+y\nJ_ (0_f) +(2兀一兀)=子\n.，c\n、 7tc\n... ......丁・\n:二;囂；充分小）取顺时\n（-JL-2L\n\\\n解法2 用格林公式.\n连接空：仁二;：I：\n针方向，则\n■zdy — ycLr _ C _f\njrdj/ — y(\\x _\nL\n=\nJ CA为顺\ndxdy — 0，\n厂 r\n9 I 2\nABECA JC + y\n— ydj：\nY \" 、\n9 I 9\nJ ABECA X y\nD\nT -L-r^-r\n故\n1 dy _ Q 7t _ 7tt\noi+7= t = t-\nJ 2逆 J CA JO 0\nJ 0\n【注】 解法1利用积分与路径无关，不能取页的原因是闭曲线ABEC-hCA中含\n（0,0）,而守=芝=潼… +為）2在点（0,0）处没有意义.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 56,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.468404+00:00",
+  "updated_at": "2026-08-23T12:39:51.508629+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 56,
+      "bbox": [
+        24.0,
+        402.1458740234375,
+        482.3999938964844,
+        444.43682861328125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 160,
+      "bbox": [
+        24.0,
+        301.03497314453125,
+        482.3999938964844,
+        558.76123046875
+      ]
+    }
+  ]
+}

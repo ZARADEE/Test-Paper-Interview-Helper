@@ -1,0 +1,48 @@
+{
+  "id": "question-baa519f874",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设直线b：歼丄=汀寻=屮与L2：(^_3； =\n则b与乙的夹角为( ).\n丄\n一厶\nJ\n(/夕十n = 3.\nA-f\nC•专\nD弓\n、门亠八、\n+ 3』+ 2n + 2 = 0 9 十\nr ,..,",
+  "answer_markdown": "C",
+  "analysis_markdown": "解 J的方向向量为si = (1, -2,1),L2的方向向量为\ni — j + 2k.\n«2\n—1\n£1 • $2\n设两直线夹角为卩，则COS(P =\n3 一 1 “\n_ 兀\n丽祈=空，故爭=亍\nI S1\nI I $2",
+  "chapter": "空间解析几何",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 32,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.448957+00:00",
+  "updated_at": "2026-08-23T12:39:51.070308+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "空间解析几何"
+  ],
+  "tags": [
+    "高等数学",
+    "空间解析几何"
+  ],
+  "source_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        24.0,
+        215.0688934326172,
+        482.3999938964844,
+        274.2345275878906
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        24.0,
+        204.45965576171875,
+        482.3999938964844,
+        284.10821533203125
+      ]
+    }
+  ]
+}

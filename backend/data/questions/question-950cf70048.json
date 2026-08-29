@@ -1,0 +1,48 @@
+{
+  "id": "question-950cf70048",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 设A是3阶实对称矩阵，二次型xTAr经过正交变换x = Qy后的标准形为玄+疋一掳，\n则二次型xTA*x的规范形为________ .",
+  "answer_markdown": "—",
+  "analysis_markdown": "—\n—\n+ yl.\n解 由xTAx经正交变换下的标准形，知A的特征值为右=& = 1，入3 =—1，且\nI A | = 1 X 1 X (- 1) =- 1.\n又A*的特征值为\nIA1 =_b Md=_bLAi = b\nAl\n入2\n入3\n故Av = 1，3 = 2,所以xTA* x的规范形为一yl — yl + yl.\n【注】 ①A是可逆实对称矩阵，则A\"1 ,A*都是实对称矩阵.\n②讨论正、负惯性指数时，应掌握惯性定理：二次型/经可逆线性变换，其正、负惯性\n指数不变，且p丄q = r( /),其秩厂(£)也不变.",
+  "chapter": "二次型",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 82,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.483945+00:00",
+  "updated_at": "2026-08-23T12:39:51.848510+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        24.0,
+        502.7354736328125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 231,
+      "bbox": [
+        24.0,
+        172.3597412109375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

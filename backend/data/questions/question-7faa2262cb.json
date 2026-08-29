@@ -1,0 +1,49 @@
+{
+  "id": "question-7faa2262cb",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(6)某射手进行独立重复射击，每次击中目标的概率为P>Q,设他在第X次射击时首次\n击中目标，以X为总体，(Xi,X2,・・・，X”)为X的简单随机样本.\n(I)求x的概率分布；\n(n)求参数p的矩估计量和最大似然估计量.",
+  "answer_markdown": "",
+  "analysis_markdown": "（6）解（I ）由已知，X服从几何分布，故其分布律为\n,k\nP{X =耐=p（l — 卩尸,k = 1,2,-.\ni\nEX = 丫 妙（l_p）i =—,\n（U）\nk=i\nP\n即/ =吉'故$ :\n=i为矩估计量.\n）为（X1,X2,…，X”）的样本值，则似然函数为\n设（久1，氐，…，龙\nn\nn\nL（p） = IJ/（l_p）%T =力\"（1_少）搭「厂\"\n怡=1\n取对数，得\nn\nlnL（p）=7?lnp+（ 2^ xk ~ 72）ln（l 一 p）・\nk=i\n^^ = 2_亠（£血一町=0,\n由\n井 P 1 —力'台 ）\n解得P的最大似然估计量为$ = =•\n【注】几何分布的期望和方差分别为EX二=于（0 —V 1）,应牢记.",
+  "chapter": "参数估计",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 102,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.492264+00:00",
+  "updated_at": "2026-08-23T12:39:52.065668+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "概率",
+    "独立"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "参数估计"
+  ],
+  "source_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        24.0,
+        525.858154296875,
+        482.3999938964844,
+        579.2156982421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 279,
+      "bbox": [
+        24.0,
+        251.5582275390625,
+        482.3999938964844,
+        464.6577453613281
+      ]
+    }
+  ]
+}

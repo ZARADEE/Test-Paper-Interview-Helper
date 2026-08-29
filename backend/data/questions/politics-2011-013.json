@@ -1,0 +1,44 @@
+{
+  "id": "politics-2011-013",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "道德的功能是指道德作为社会意识的特殊形式对于社会发展所具有的功效与能力。其中最突出的也是重要的社会功能是：",
+  "answer_markdown": "C",
+  "analysis_markdown": "【解析】在道德的功能系统中，主要的功能是认识功能和调节功能，道德的调节功能是指道德通过评价等方式，指导和纠正人们的行为和实践活动，协调人们之间关系的功效与能力，这是道德最突出也是最重要的社会功能。此外，道德还具有其他方面的功能，如导向功能、激励功能、辩护功能、沟通功能等，这些功能都是道德的认识功能和调节功能在某些方面的具体体现，都建立在这两种功能的基础之上，故此题答案为选项C。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.414322+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "辩护功能"
+    },
+    {
+      "key": "B",
+      "text": "沟通功能"
+    },
+    {
+      "key": "C",
+      "text": "调节功能"
+    },
+    {
+      "key": "D",
+      "text": "激励功能"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

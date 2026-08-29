@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-1154",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我国宪法法律规定了公民享有一系列权利，主要包括政治权利、宗教信仰自由、人身权利、财\n\n产权利、社会经济权利及文化教育权利等。人们一切行动和生活的前提条件是",
+  "answer_markdown": "C",
+  "analysis_markdown": "得见的方式实现。D 正确,A、B、C 错误。\n\n出处精沛用刀考点53 -3-0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 168,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "健康权"
+    },
+    {
+      "key": "B",
+      "text": "人格尊严"
+    },
+    {
+      "key": "C",
+      "text": "人身自由"
+    },
+    {
+      "key": "D",
+      "text": "言论自由"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        102.7229995727539,
+        1044.9866943359375,
+        935.5652465820312,
+        1144.078125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 174,
+      "bbox": [
+        15.919000625610352,
+        802.0159301757812,
+        349.6316833496094,
+        876.8028564453125
+      ]
+    },
+    {
+      "page": 174,
+      "bbox": [
+        470.375,
+        30.034706115722656,
+        858.3299560546875,
+        222.0131378173828
+      ]
+    }
+  ]
+}

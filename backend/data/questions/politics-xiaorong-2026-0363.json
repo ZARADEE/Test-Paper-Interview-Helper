@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0363",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "垄断资本在国内建立了垄断统治后，必然要把其统治势力扩展到国外，建立国际垄断统治。垄\n\n断资本向世界范围扩展的基本形式有",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "不能增加也不能减少整个社会所生产的价\n\n值总量，它只是对商品价值和剩余价值作了\n\n有利于垄断资本的再分配。A、B、C 正确,D\n\n出处精布两考点79 -3-0\n\n错误。\n\n简析垄断资本向世界范围扩展的基本形式",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 52,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "技术资本输出"
+    },
+    {
+      "key": "B",
+      "text": "借贷资本输出"
+    },
+    {
+      "key": "C",
+      "text": "生产资本输出"
+    },
+    {
+      "key": "D",
+      "text": "商品资本输出"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 52,
+      "bbox": [
+        102.21600341796875,
+        1290.3150634765625,
+        932.138916015625,
+        1415.8345947265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 68,
+      "bbox": [
+        441.50799560546875,
+        795.5476684570312,
+        772.8995361328125,
+        873.3702392578125
+      ]
+    }
+  ]
+}

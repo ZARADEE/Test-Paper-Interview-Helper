@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1117",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中华传统美德的根本要求是",
+  "answer_markdown": "D",
+  "analysis_markdown": "出处精赤旗j 考点40 -2-(2)-0\n\n出处精语历资考点35 拓展与点拨U\n\n简析家庭美德的主要内容包括尊老爱幼、男",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 165,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "B",
+      "text": "注重人伦关系"
+    },
+    {
+      "key": "A",
+      "text": "以和为贵"
+    },
+    {
+      "key": "D",
+      "text": "公义胜私欲"
+    },
+    {
+      "key": "C",
+      "text": "追求精神境界，向往理想人格"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 165,
+      "bbox": [
+        89.35199737548828,
+        432.9237365722656,
+        667.9234619140625,
+        530.949462890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 170,
+      "bbox": [
+        22.959999084472656,
+        679.9649047851562,
+        429.9801330566406,
+        1080.2896728515625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "politics-2014-021",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1926-1927年初， HYPERLINK \"http://apphistory.news.ifeng.com/figure/detail.php?id=13\" \\t \"http://s.wanxue.cn/sls/superbook/_blank\" 邓小平在莫斯科 HYPERLINK \"http://app.edu.ifeng.com/college/2190\" \\t \"http://s.wanxue.cn/sls/superbook/_blank\" 中山大学留学一年。此时正值列宁的新经济政策在莫斯科和整个苏联燎原般发展，国家经济全面开花，市场上商品丰富、品类繁多，商店、饭馆、咖啡馆随处可见。邓小平到中山大学第一天就收到了一大堆日用品，一日三餐也非常丰富。在此期间，邓小平还认真阅读和摘抄了苏联领导人关于新经济政策的许多论述。这一段经历对邓小平后来思考建设“有中国特色的社会主义”具有一定的启示。邓小平与列宁在如何建设社会主义的探索中有许多相通之处，主要有：",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "【解析】列宁在社会主义建设上做的最有意义的探索就是创造性地开辟了一条有计划地利用商品货币关系建设社会主义的新道路，提出了新经济政策：废除余粮收集政策，实施实物税。停止配给制度，允许商品买卖。放松了贸易限制，鼓励外资企业投资，将资金与技术引进俄国。停止以没收的方式进行资本主义改造，改以租借和租让的方式，在一定范围内允许个体私营经济的存在。为邓小平提出如何建设社会主义的探索提供了借鉴。邓小平提出要以本国国情为出发点，探索社会主义建设新道路；社会主义本质是解放发展生产力，消灭剥削，消除两极分化，达到共同富裕；要借鉴资本主义世界一切适合本国国情的文明成果。在多种经济成分并存的条件下，利用商品、货币和市场发展经济。所以选项ABC是邓小平与列宁在建设社会主义的探索中的相通之处。选项D是毛泽东的观点，可以排除。故本题正确答案是ABC。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.489731+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "学习和利用资本主义的文明成果"
+    },
+    {
+      "key": "B",
+      "text": "把大力发展生产力、提高劳动生产率放在首要地位"
+    },
+    {
+      "key": "C",
+      "text": "在多种经济成分并存的条件下，利用商品、货币和市场发展经济"
+    },
+    {
+      "key": "D",
+      "text": "优先发展重工业，快速实现从农业国到工业国的转变"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

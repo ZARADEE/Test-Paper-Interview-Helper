@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0542",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1957 年2 月，毛泽东在《关于正确处理人民内部矛盾的问题》的报告中提出了一系列正确处理\n\n人民内部矛盾的具体方针、原则，主要有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲P192\n考点55 -1-0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 81,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "统筹兼顾、适当安排"
+    },
+    {
+      "key": "B",
+      "text": "有理、有利、有节"
+    },
+    {
+      "key": "C",
+      "text": "“百花齐放、百家争鸣”"
+    },
+    {
+      "key": "D",
+      "text": "“长期共存、互相监督”"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 81,
+      "bbox": [
+        91.86399841308594,
+        1130.54736328125,
+        932.8032836914062,
+        1258.6729736328125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        434.2330017089844,
+        195.75411987304688,
+        844.5838012695312,
+        730.3307495117188
+      ]
+    }
+  ]
+}

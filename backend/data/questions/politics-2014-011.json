@@ -1,0 +1,44 @@
+{
+  "id": "politics-2014-011",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1930年11月 HYPERLINK \"http://apphistory.news.ifeng.com/figure/detail.php?id=6\" \\t \"http://s.wanxue.cn/sls/superbook/_blank\" 毛泽东在《星星之火可以燎原》一文中写道：“我所说的中国革命高潮快要到来，绝不是如有些人所谓‘有到来之可能’那样完全没有行动意义的、可望而不可即的一种空的东西。它是站在海洋中，已经看得见桅杆尖头了的一只航船。它是立于高山之巅远看东方已见光芒四射喷薄欲出的一轮朝日。它是躁动于母腹中的快要成熟了的一个婴儿”这段话是针对当时党内和红军中存在的：",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】1927年大革命失败以后，党的工作重点由城市转入农村，国革命暂时进入低潮，毛泽东同志领导建立了第一个农村革命根据地——井冈山根据地。但是，当时党内有“左”倾思想的人，仍幻想以大城市为中心举行武装起义；而以林彪为代表的有悲观思想的“右”倾机会主义者，在强敌进攻面前，怀疑革命根据地发展的前途，提出了“红旗到底能打多久”的疑问。针对这种疑问，1930年1月5日，毛泽东为了批判党内存在的错误思想，在《星星之火，可以燎原》一文中进一步阐明了中国革命只能走与资本主义国家不同的道路，即后来的农村包围城市、武装夺取政权的道路。正确选项是B，其他选项均不正确。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.482407+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "“御敌于国门之外”的主张"
+    },
+    {
+      "key": "B",
+      "text": "“红旗到底打得多久”的疑问"
+    },
+    {
+      "key": "C",
+      "text": "“在全国范围内先争取群众后建设政权”的理论"
+    },
+    {
+      "key": "D",
+      "text": "“一省或数省的首先胜利”的设想"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

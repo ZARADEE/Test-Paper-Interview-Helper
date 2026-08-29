@@ -1,0 +1,49 @@
+{
+  "id": "question-d42adea7f7",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设z = z(_z,y)有二阶连续偏导数，满足申子=工+夕，且z(h,0) = JC,z(Q,y) = y2 ,\ndydjc\n贝I」z(jc,y) -- ________ .",
+  "answer_markdown": "^2y + jxy2+x + y2.",
+  "analysis_markdown": "^2y + jxy2+x + y2.\n解 j ： =z +夕，两边同时对工积分，得\ndydx\n由z(O,y) = y2，有dg丄=卩(夕)，故申(夕)=2y.\n又由|| = -^-x2 +巧+ 2夕,两端同时对y积分，得z = -^-J：2y + +计 + b +卩i(力)‘\n由于 z(jc,O) = z,故爭1(夂)=力，所以\ny + +巧+ z + b・",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 37,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.452279+00:00",
+  "updated_at": "2026-08-23T12:39:51.177336+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        24.0,
+        320.7250671386719,
+        482.3999938964844,
+        362.8653259277344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        24.0,
+        56.26568603515625,
+        482.3999938964844,
+        284.6737060546875
+      ]
+    }
+  ]
+}

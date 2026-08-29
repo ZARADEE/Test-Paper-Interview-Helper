@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0802",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全面从严治党是新时代党的自我革命的伟大实践。全面从严治党",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "庆祝澳门回归祖国25 周年大会暨澳门特别\n\n出处精讲福习考点110 -2-0\n\n行政区第六届政府就职典礼上的讲话，深刻",
+  "chapter": "第十七章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 118,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "核心是加强党的领导"
+    },
+    {
+      "key": "B",
+      "text": "基础在全面"
+    },
+    {
+      "key": "C",
+      "text": "关键在严"
+    },
+    {
+      "key": "D",
+      "text": "要害在治"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十七章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十七章"
+  ],
+  "source_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        108.41799926757812,
+        332.3384704589844,
+        693.4131469726562,
+        430.2474060058594
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 121,
+      "bbox": [
+        435.3680114746094,
+        619.9776000976562,
+        757.0134887695312,
+        700.9876098632812
+      ]
+    }
+  ]
+}

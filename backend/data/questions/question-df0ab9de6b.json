@@ -1,0 +1,48 @@
+{
+  "id": "question-df0ab9de6b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(25) 设a』为正数，证明：至少存在一点(a,b),使得竺二乞=ef(l-f).\na 一 b",
+  "answer_markdown": "",
+  "analysis_markdown": "(25) 证 卅一俨=誉(1 —。等式左边分子、分母同时除以〃，有\na 一 b\ne6 ea\n£——j- = ef（l-e）.\nb a\n兰\n对F(z) = 一 ,G(h)= —在［a,刃上应用柯西中值定理，有\nX\nX\n兰_兰 密一誉\n+----- y =―吕一=ef(l — ^),a<$<6,\n故原等式成立.\nsin\n兀・",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.441266+00:00",
+  "updated_at": "2026-08-23T12:39:50.866476+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        24.0,
+        374.1509704589844,
+        482.3999938964844,
+        401.94439697265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 33,
+      "bbox": [
+        24.0,
+        261.9381103515625,
+        482.3999938964844,
+        433.82989501953125
+      ]
+    }
+  ]
+}

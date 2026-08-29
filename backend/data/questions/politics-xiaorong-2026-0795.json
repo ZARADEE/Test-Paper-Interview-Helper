@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0795",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "要始终坚持“爱国者治港”“爱国者治澳”，把特别行政区管治权牢牢掌握在爱国者手巾，这是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "政府”。经过百年奋斗特别是党的十八大以\n\n出处精讲\n考点101\n-1-13\n倒t A、B、C 正确。党的领导是人民当家\n\n来新的实践,党又给出了第二个答案,这就\n\n是自我革命。全面从严治党是新时代党的\n\n作主和依法治国的根本保证。D 错误。\n\n自我革命的伟大实践,开辟了百年大党自我",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 117,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "事关国家主权、安全、发展利益的根本原则\n."
+    },
+    {
+      "key": "B",
+      "text": "事关香港、澳门长期繁荣稳定的根本原则"
+    },
+    {
+      "key": "C",
+      "text": "保证香港、澳门长治久安的必然要求"
+    },
+    {
+      "key": "D",
+      "text": "人民当家作主和依法治国的根本保证"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 117,
+      "bbox": [
+        82.5530014038086,
+        342.79156494140625,
+        914.7002563476562,
+        501.5639953613281
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 121,
+      "bbox": [
+        6.975000381469727,
+        219.12303161621094,
+        427.143798828125,
+        581.677001953125
+      ]
+    }
+  ]
+}

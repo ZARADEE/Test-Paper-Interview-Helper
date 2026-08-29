@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0534",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "把资本主义工商业者改造成为自食其力的社会主义劳动者，是适合中国情况的对资本主义工商\n\n业进行社会主义改造的道路的主要内容之一，它的优点在于",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "知识储备题\n\n简析A、B、D 正确。构建新发展格局是开放",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 80,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "通过改造阶级成分的方式达到从整体上消灭资产阶级的目的"
+    },
+    {
+      "key": "B",
+      "text": "对企业的改造和对人的改造相结合"
+    },
+    {
+      "key": "C",
+      "text": "改造资本家个人与消灭他们所属的资产阶级相结合"
+    },
+    {
+      "key": "D",
+      "text": "既避免了激烈的阶级对抗，减少了改造的阻力，又推动了生产力的发展和社会的进步"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 80,
+      "bbox": [
+        104.06400299072266,
+        770.620361328125,
+        936.0498657226562,
+        963.0975952148438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        441.8900146484375,
+        370.28216552734375,
+        859.3801879882812,
+        797.1766967773438
+      ]
+    }
+  ]
+}

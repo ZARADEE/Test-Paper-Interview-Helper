@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0483",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1938 年，毛泽东在党的六届六中全会上作的题为《论新阶段》的政治报告中最先提出了“马克\n\n思主义的中国化” 这个命题。这是党首次明确提出“马克思主义的中国化”的重大命题。推进马\n\n克思主义中国化",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "导论",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 73,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是马克思主义理论本身发展的内在要求"
+    },
+    {
+      "key": "B",
+      "text": "是解决中国实际问题的客观需要"
+    },
+    {
+      "key": "C",
+      "text": "是一个追求真理、揭示真理、笃行真理的过程"
+    },
+    {
+      "key": "D",
+      "text": "同时包含着马克思主义时代化的意蕴"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "导论"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "导论"
+  ],
+  "source_regions": [
+    {
+      "page": 73,
+      "bbox": [
+        92.20899963378906,
+        541.6907958984375,
+        933.5413818359375,
+        694.0300903320312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 87,
+      "bbox": [
+        434.9549865722656,
+        86.14620971679688,
+        849.078369140625,
+        324.8058166503906
+      ]
+    }
+  ]
+}

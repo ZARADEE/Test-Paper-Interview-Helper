@@ -1,0 +1,44 @@
+{
+  "id": "politics-2016-017",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "显微摄影是一门使用照相机拍摄显微镜下一般用肉眼无法看清的标本的技术。肉眼中千篇一律的细沙，在显微镜下，却是“一沙一世界”。有的晶莹剔透像宝石，有的金黄酥脆像饼干。即使是司空见惯的柴米油盐，在显微镜下也会展现神奇而充满魅力的一面。显微镜下的“一沙一世界”表明",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "【解析】事物的本质是事物的内在联系和根本性质，是相对稳定的，只有靠人的理想思维才能把握，它并不随人们的认识变化而改变。所以B项说法错误。任何事物的都具有无限多样的属性，是事物的外部联系和标明特征，人们能够透过对个别事物的认识而达到对世界整体的把握。并且借助于工具日益深化对客观世界的认识，故ABC正确。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.514992+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人们能够通过对个别事物的认识而达到对世界整体的把握"
+    },
+    {
+      "key": "B",
+      "text": "事物的本质随着人们认识的变化而改变"
+    },
+    {
+      "key": "C",
+      "text": "人们可以通过制造和使用工具日益深化对客观世界的认识"
+    },
+    {
+      "key": "D",
+      "text": "任何事物都具有无限多样的属性 ### 答案解析 17."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "国际形势与政策"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "question-c83f1c663b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(8) 利用变换u =于，求微分方程/-(2e\" + 1)3/ +尹夕=臼的通解.",
+  "answer_markdown": "",
+  "analysis_markdown": "(8)解 由u = ex ,知工= ln“,则\n将其代入原方程，得\n其对应齐次微分方程的特征方程为r2 — 2r + 1 = 0,得门=匕=1.\n令特解；=au+b,代入①可解得/ =“ + 2,故方程①的通解为y = Ge\"+C2“e\" +\n“ + 2,将“ =b代入得原微分方程的通解为y = （G+QeOe^ +£ +2（G ,C2为任意常数）.",
+  "chapter": "微分方程",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 46,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.457941+00:00",
+  "updated_at": "2026-08-23T12:39:51.356471+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分方程",
+    "通解"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 46,
+      "bbox": [
+        24.0,
+        319.5993347167969,
+        482.3999938964844,
+        339.30242919921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 128,
+      "bbox": [
+        24.0,
+        276.91259765625,
+        482.3999938964844,
+        394.49078369140625
+      ]
+    }
+  ]
+}

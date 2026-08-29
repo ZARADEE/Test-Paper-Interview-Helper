@@ -1,0 +1,61 @@
+{
+  "id": "question-3a725227ee",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 方程(乂一+ O —zF + a —#)2 = 1表示的曲面是(\n).\n\nB单叶双曲面",
+  "answer_markdown": "D",
+  "analysis_markdown": "解令\nf(x,y,z) = (x — y)2 + (jz — z)2 + (z — J；)2\n=2x2 + 2,y2 + 2z2 一 2yz — 2zx — 2xy ,\n则二次型的矩阵为\n，2 -1 - r\nA = — 1\n— 1 .\n―1 1 2\n由丨AE — A | — 0,得A的特征值为入1 = 0,入2 =入3 = 3,即Pa = 2,如=0,故在正交\n变换下的标准形为0炭+3疋+3摇，所以曲面为柱面.\n【注】 设\nf(x,y,z) = xTAx,x — (j7,j/,z)t.\nA的特征值为入1 ,入2，入3，则，z) = 1按特征值符号有如下情形：\n① 全正，为椭球面(含球面)；\n② 两正一负，另单叶双曲面；\n③ 两负一正，为双叶双曲面；\n④ 两正一零，另椭圆柱面(含圆柱面)；\n⑤ 一正一贪一零，为双曲柱面；\n⑥ 一正两愛，为两个平行平面.",
+  "chapter": "二次型",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 82,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.482942+00:00",
+  "updated_at": "2026-08-23T12:39:51.843326+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "椭球面"
+    },
+    {
+      "key": "C",
+      "text": "双叶双曲面"
+    },
+    {
+      "key": "D",
+      "text": "柱面"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "二次型"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        24.0,
+        285.9591064453125,
+        482.3999938964844,
+        334.1153869628906
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 230,
+      "bbox": [
+        24.0,
+        231.2593231201172,
+        482.3999938964844,
+        429.9068603515625
+      ]
+    }
+  ]
+}

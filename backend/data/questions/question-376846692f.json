@@ -1,0 +1,49 @@
+{
+  "id": "question-376846692f",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(12) 设总体X在p—上服从均匀分布，&为未知参数，(Xi,X2,・“，X”)为总\n体X的样本，求9的矩估计量馆和最大似然估计量62.",
+  "answer_markdown": "",
+  "analysis_markdown": "(12)解 (I)先写出X的概率密度y&；0)=\n则\n甘伽\n故k =灭为矩估计量.\n(H)似然函数 L(0)=市_/(&) = Jl' kphV +空’\nAl\nlo,其他，\nL(0)是常值函数，仅取0,1,所以只要满足e—专冬不we+*的任何e都使L⑹取到最大\nmind} + v的任何统计量g(Xi ,X?,…，X”)都是9的最大似然估计量，如取Oz =\nmin {X：} + 4■或= max{X：}—-.\n【注】由此题，知最大似然估计并不唯一.",
+  "chapter": "参数估计",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 103,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.493264+00:00",
+  "updated_at": "2026-08-23T12:39:52.074723+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "样本",
+    "参数估计"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "参数估计"
+  ],
+  "source_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        24.0,
+        278.3828125,
+        482.3999938964844,
+        330.9805908203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 281,
+      "bbox": [
+        24.0,
+        205.5409393310547,
+        482.3999938964844,
+        441.77685546875
+      ]
+    }
+  ]
+}

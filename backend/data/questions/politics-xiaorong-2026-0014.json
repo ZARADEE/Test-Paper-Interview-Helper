@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0014",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“少年安得长少年，海波尚变为桑田。” 唐代诗人李贺的这一诗句体现了",
+  "answer_markdown": "C",
+  "analysis_markdown": "出处精讲南考点8 -1-0\n题运动是物质的根本属性,C 正确。时间\n\n件；是人们认识和利用事物的前提；是过去\n\n运动的结果和未来运动的出发点；是理解和\n\n衡量运动的尺度。见《2026考研政治知识点\n\n是指物质运动的持续性、顺序性，特点是一维\n\n精讲精练》第8页考点8下方拓展与点拨\n\n性；空间是指物质运动的广延性、伸张性，特",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 2,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "运动具有一维性"
+    },
+    {
+      "key": "B",
+      "text": "运动是静止的衡量尺度"
+    },
+    {
+      "key": "C",
+      "text": "运动是物质的根本属性"
+    },
+    {
+      "key": "D",
+      "text": "运动是物质的唯一特性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 2,
+      "bbox": [
+        99.36000061035156,
+        1145.5206298828125,
+        753.248779296875,
+        1240.5020751953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 4,
+      "bbox": [
+        13.607999801635742,
+        616.7560424804688,
+        421.1669616699219,
+        931.67431640625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0641",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "生态环境变化直接影响文明的兴衰演替。生态环境问题归根到底是",
+  "answer_markdown": "D",
+  "analysis_markdown": "出处精沛下丽考点93 -1\n\n出处睛萨丽⑵考点84 -1",
+  "chapter": "第十二章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "政府与市场的关系问题"
+    },
+    {
+      "key": "B",
+      "text": "人与社会的关系问题"
+    },
+    {
+      "key": "C",
+      "text": "人与人的关系问题"
+    },
+    {
+      "key": "D",
+      "text": "经济发展方式和生活方式问题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十二章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十二章"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        86.84100341796875,
+        972.2446899414062,
+        803.6141967773438,
+        1070.4161376953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 105,
+      "bbox": [
+        433.90301513671875,
+        775.4375,
+        844.8953247070312,
+        1244.888671875
+      ]
+    }
+  ]
+}

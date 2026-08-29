@@ -1,0 +1,49 @@
+{
+  "id": "question-aadff8da1f",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "⑴二重积分I =［严山\ndy =\n•2\nin 驴dy + ［d久\n2 sin驴巧=",
+  "answer_markdown": "丄—丄",
+  "analysis_markdown": "丄—丄\n图6~4\n1 6 3e\n解由于的原函数不能用初等函数表达，故交换积分\n顺序才能计算.\n原积分区域乍如图6-5所示，\nI = I x2 djr 厂31 dy = e~yZ d J djr\nJ 0\nJ 工\nJ 0 J 0\n—.皿空吗g—丄.\n6 3e",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 40,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.453376+00:00",
+  "updated_at": "2026-08-23T12:39:51.223364+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "重积分及其应用",
+    "二重积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 40,
+      "bbox": [
+        24.0,
+        240.69874572753906,
+        482.3999938964844,
+        275.9577331542969
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        24.0,
+        184.4261932373047,
+        482.3999938964844,
+        284.807373046875
+      ]
+    }
+  ]
+}

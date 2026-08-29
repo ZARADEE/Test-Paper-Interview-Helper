@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0459",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我国对资本主义工商业的社会主义改造，采取了从低级到高级的国家资本主义的过渡形式。其\n中第二步主要实行个别企业的公私合营，这些企业的性质",
+  "answer_markdown": "C",
+  "analysis_markdown": "简析民族团结是我国各族人民的生命线，中\n\n出处隔距丽考点49 -0\n\n华民族共同体意识是民族团结之本。D 正",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 70,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "仍然是资本主义性质的企业"
+    },
+    {
+      "key": "B",
+      "text": "是具有了社会主义因素的企业"
+    },
+    {
+      "key": "C",
+      "text": "是半社会主义性质的企业"
+    },
+    {
+      "key": "D",
+      "text": "是社会主义国营性质的企业"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        108.2249984741211,
+        638.9757690429688,
+        939.6568603515625,
+        770.7230834960938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 83,
+      "bbox": [
+        435.2760009765625,
+        654.3206176757812,
+        845.4771118164062,
+        864.3986206054688
+      ]
+    }
+  ]
+}

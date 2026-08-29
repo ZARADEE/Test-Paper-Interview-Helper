@@ -1,0 +1,44 @@
+{
+  "id": "politics-2012-002",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "有这样一道数学题：“90%×90%×90%×90%×90%=？”其答案是约59%。90分看似一个非常不错的成绩，然而，在一项环环相扣连续不断的工作中，如果每个环节都打点折扣，最终得出的成绩就是不及格。这里蕴含的辩证法道理是：",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】本题题干中数学题每一个乘数都是90分即90%，这是个不错的成绩，但是把他们都乘在一起就等于了59分即59%，成绩最后由90分成了59分，成了不及格。每个环节都打点折扣，得出的成绩就是不及格，通过分析题干可以得出其体现的是量变与质变的关系，即量变引起质变。其他选项与题干无关。因此本题的正确答案是选项B。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.430350+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "肯定中包含否定"
+    },
+    {
+      "key": "B",
+      "text": "量变引起质变"
+    },
+    {
+      "key": "C",
+      "text": "必然性通过偶然性开辟道路"
+    },
+    {
+      "key": "D",
+      "text": "可能和现实是相互转化的 ### 答案解析 2"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "哲学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

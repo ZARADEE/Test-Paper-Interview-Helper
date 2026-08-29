@@ -1,0 +1,57 @@
+{
+  "id": "question-5dc013748d",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) limf— + -^ + …+ 电)(a>l)=\n.\noo \\ a a\na /",
+  "answer_markdown": "(1—a)?'",
+  "analysis_markdown": "(1—a)?'\n解\n依题意，问题转化为求级数工 斗的和.构造密级数S&) = Y池\"，则\nn=l 61\nn=l\noo\noo\noo\nHl\na\na\n令力=丄 9 贝0 lim f — + $ + ••• + £;\n2 _ (1-a)2*\n1 —丄\n=s I\nCL n-*-oo \\ CL CL\nd\na\n繆8•利用收敛级数的定义•令\nTn = £ (—1)1 以,<7„ =刀\"211，S” =工姒,\n怡=1\nk = l\nk = l\n则 S2n ―― (“1 — \"2 + \"3 — \"4 + …+ “2”一1 — “2”)+ 2(\"1 + \"3 + …+ “2”-1 ) =— 丁2” + 2(7” ,\n故\nlimS2„ =一 limr2n + 2 lime” =—\n—2 + 2 X 5 = 8.\nyj—> OO\n* OO\n7J—>OO\n=limS2„ + lim况2卄1 = 8 9 故 limS” = 8 9 即工冷=&\n又 S2卄i =\n+ 况2卄i，且limS2iin+l\n“一► OO\n??—*■ OQ\n«■—>OO\n心°°\n”=i\n【注】 由u2n-i = S收敛9根据收敛级数的必要条件，知lim况2卄1 = 0.\nZ 7\nW-*OO\nn= 1",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 53,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.461257+00:00",
+  "updated_at": "2026-08-23T12:39:51.454512+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 53,
+      "bbox": [
+        24.0,
+        123.42445373535156,
+        482.3999938964844,
+        155.6788330078125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 148,
+      "bbox": [
+        24.0,
+        524.203369140625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 149,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        166.60052490234375
+      ]
+    }
+  ]
+}

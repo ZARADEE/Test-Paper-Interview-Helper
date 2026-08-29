@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0918",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新民主主义社会不是一个独立的社会形态，而是由新民主主义转变到社会主义的过渡性的社会\n\n形态。新民主主义社会存在着五种经济成分，其中，属于过渡形式的经济成分的是",
+  "answer_markdown": "C",
+  "analysis_markdown": "称作“开万国未有之奇”。D 正确。\n\n出处隔S下运1 考点TI\n拓展与点拨",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 135,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "国营经济和合作社经济"
+    },
+    {
+      "key": "B",
+      "text": "私人资本主义经济和国家资本主义经济"
+    },
+    {
+      "key": "C",
+      "text": "合作社经济和国家资本主义经济"
+    },
+    {
+      "key": "D",
+      "text": "个体经济和合作社经济"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 135,
+      "bbox": [
+        84.52899932861328,
+        490.4924621582031,
+        924.6141357421875,
+        627.7485961914062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 140,
+      "bbox": [
+        445.3160095214844,
+        516.1771240234375,
+        853.734375,
+        780.367431640625
+      ]
+    }
+  ]
+}

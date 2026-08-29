@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0354",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "垄断是在自由竞争中形成的，是作为自由竞争的对立面产生的。但是，垄断并不能消除竞争,\n\n反而使竞争变得更加复杂和激烈。这是因为",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "出处精甫无考点79 -1-(1)\n\n出处精萨丽丧确考点78 -4-0\n\n简析A、B、D 正确。“社会主义制度初步显\n\n简析在垄断组织之外,还存在为数众多的\n\n示的优越性对资本主义产生了重要影响”是\n\n中小企业，这些非垄断的企业之间也存在竞\n\n第二次世界大战后资本主义发生变化的原\n\n争。C 错误。A、B、D 正确。\n\n因之一，与题干无关。而且,早在第一次世",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 51,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "垄断没有消除产生竞争的经济条件"
+    },
+    {
+      "key": "B",
+      "text": "垄断必须通过竞争来维持"
+    },
+    {
+      "key": "C",
+      "text": "垄断组织之外已经不存在任何中小企业，从而使得垄断组织之间的竞争更加激烈"
+    },
+    {
+      "key": "D",
+      "text": "任何垄断组织都不可能把包罗万象的社会生产全部包下来"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 51,
+      "bbox": [
+        91.88899993896484,
+        856.73046875,
+        935.8042602539062,
+        1047.1861572265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 68,
+      "bbox": [
+        14.878000259399414,
+        30.62165069580078,
+        421.7489929199219,
+        274.8727722167969
+      ]
+    }
+  ]
+}

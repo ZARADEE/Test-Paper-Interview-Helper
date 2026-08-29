@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1046",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新中国成立初期，面临着许多严重的困难和紧迫的问题。这对于刚刚执掌全国政权的中国共产\n\n党来说，是新的严峻考验。中国共产党和人民政府采取一系列积极稳健的政策措施，有条不紊\n\n地领导全国各族人民进行捍卫巩固新政权、建设新中国的伟大斗争。新中国成立初期面临的严\n\n峻考验有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "社会主义社会,D 错误。\n\n出处精布对Ml 考点67 -1",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 153,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "能不能保卫住革命胜利成果，巩固新生人民政权"
+    },
+    {
+      "key": "B",
+      "text": "能不能战胜严重经济困难，迅速恢复和发展国民经济"
+    },
+    {
+      "key": "C",
+      "text": "能不能巩固民族独立，维护国家主权和安全"
+    },
+    {
+      "key": "D",
+      "text": "能不能经受住全国执政的新考验，继续保持优良传统和作风"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 153,
+      "bbox": [
+        88.53600311279297,
+        1168.518310546875,
+        929.2080078125,
+        1411.3851318359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 159,
+      "bbox": [
+        5.310999870300293,
+        1099.07080078125,
+        267.8857421875,
+        1172.11328125
+      ]
+    }
+  ]
+}

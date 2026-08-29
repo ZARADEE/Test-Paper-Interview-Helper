@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1222",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "奉献社会是社会主义职业生活中的基本道德规范之一。此外，社会主义职业生活巾的基本道德\n\n规范还有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 177,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "爱岗敬业"
+    },
+    {
+      "key": "B",
+      "text": "诚实守信"
+    },
+    {
+      "key": "D",
+      "text": "热情服务"
+    },
+    {
+      "key": "C",
+      "text": "办事公道\n\n.第八章\n学习法治思想提升法治素养"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 177,
+      "bbox": [
+        89.41999816894531,
+        898.6030883789062,
+        930.3089599609375,
+        1067.1231689453125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        440.12200927734375,
+        809.7536010742188,
+        861.0502319335938,
+        1077.7198486328125
+      ]
+    }
+  ]
+}

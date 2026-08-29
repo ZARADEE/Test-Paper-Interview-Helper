@@ -1,0 +1,50 @@
+{
+  "id": "question-4bf808e6b0",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(8) 设+\neP|= b,其中［幻表示不超过工的最大整数，则a =\nlo (\nln(l + i )丿",
+  "answer_markdown": "-2,2.",
+  "analysis_markdown": "-2,2.\nM 由 lim [z] = 0, lim [jr] =— 1,有\n工-*()+\nx—>0\n1口沁幻 + 5(1+中卜 Um InO + J) =\n!n[e|.(l + e-|)]\nh~*o+ '\nln(l + z )丿 lo+ ln(l + e7 )\n^-*o+ ln[e~ (1 + e~7 )]\n=Hm \"ln(l + e〒)n\nz-o+ 1 + zln( 1 + e_~ )\nlim\n+ -~~| =一 a + lim 耳=一 a + lim=—a + 0 = 2,\nliT(\nln(l +\n)丿\n乂一。〜 审\n乂*「\n故 a —— 2,6 = 2.",
+  "chapter": "函数、极限与连续",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 12,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.437208+00:00",
+  "updated_at": "2026-08-23T12:39:50.771932+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        24.0,
+        198.06988525390625,
+        482.3999938964844,
+        245.14129638671875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 16,
+      "bbox": [
+        24.0,
+        359.7366027832031,
+        482.3999938964844,
+        488.99066162109375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1195",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会主义核心价值观与社会主义核心价值体系具有内在的一致性，两者",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "观，才能汇聚起建设社会主义现代化强国和\n\n出处晴萨布S 考点24 -3-g\n\n实现中华民族伟大复兴的中国梦的磅礴力\n\n置加社会主义核心价值观与社会主义核心\n\n量。A、B、C 正确。核心价值观在一个社会的\n\n价值体系具有内在的一致性，都体现了社会\n\n思想观念体系中处于主导地位。在整个上层\n\n主义意识形态的本质要求，体现了社会主义\n\n建筑中，国家政权是核心,D 错误。\n\n制度在思想和精神层面的质的规定性，是全",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 174,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "都体现了社会主义意识形态的本质要求"
+    },
+    {
+      "key": "B",
+      "text": "都体现了社会主义制度在思想和精神层面的质的规定性"
+    },
+    {
+      "key": "C",
+      "text": "都把涉及国家、社会、公民的价值要求融为一体"
+    },
+    {
+      "key": "D",
+      "text": "都是全面建成社会主义现代化强国、实现第二个百年奋斗目标的价值引领"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 174,
+      "bbox": [
+        101.85099792480469,
+        958.6187133789062,
+        778.4152221679688,
+        1118.055419921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 178,
+      "bbox": [
+        445.0320129394531,
+        761.5208129882812,
+        852.3660278320312,
+        1095.9227294921875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "politics-xiaorong-2026-1145",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "权利公平是公平正义的重要内容之一。以下不展于权利公平内容的是",
+  "answer_markdown": "B",
+  "analysis_markdown": "出处精讲P373) 考点51 -2-(3)-0\n\n正是法治的生命线，是司法活动最高的价值\n\n追求;法治是治国理政的基本方式;守法是法\n\n权利公平包括三重含义:一是权利主体\n\n律实施和实现的基本途径;行政执法是法律\n\n平等,国家对每个权利主体“不偏袒”“非歧\n\n实施和实现的重要环节。B、C、D 错误。\n\n视”；二是享有的权利特别是基本权利平等；",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 167,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "权利主体平等\n\n.\n\n后；发展机会和发展前景平等"
+    },
+    {
+      "key": "C",
+      "text": "权利保护和权利救济平等"
+    },
+    {
+      "key": "D",
+      "text": "享有的权利特别是基本权利平等"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        87.05000305175781,
+        1279.881591796875,
+        817.22412109375,
+        1376.5538330078125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 173,
+      "bbox": [
+        439.0469970703125,
+        25.482568740844727,
+        828.2899780273438,
+        97.89666748046875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-9ade9ebd66",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(8) 方程 y — Zy + 2y = 10e_xsin x 满足当 h f + oo 时— 0 的特解为_______ .",
+  "answer_markdown": "y = e_z(sin x + cos jc).",
+  "analysis_markdown": "y = e_z(sin x + cos jc).\n解\n特征方程r2-3r + 2 = 0的特征根为门=l,r2 = 2 ,故对应的齐次微分方程的通\n解为 = Ci + C2e2x.\n由非齐次项lOe^sin工,知一1土 i不是特征根,故令原方程的特解为/ = eP(Asm_z +\nBcos工)，将其代入原方程，可解得A = B = 1,所以原方程的通解为\n夕=Ge\" + C2 e2x + er sin x + cos z).\n当mt►十*时,夕(工)-* 0,而e\" —+oo, e2r f+oo,因此有G = C? = 0,故所求特解为\ny =厂(sin jc + cos z).",
+  "chapter": "微分方程",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 45,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.457941+00:00",
+  "updated_at": "2026-08-23T12:39:51.339060+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 45,
+      "bbox": [
+        24.0,
+        638.7044677734375,
+        482.3999938964844,
+        660.4614868164062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 126,
+      "bbox": [
+        24.0,
+        370.0736999511719,
+        482.3999938964844,
+        459.4716491699219
+      ]
+    }
+  ]
+}

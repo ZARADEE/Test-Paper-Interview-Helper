@@ -1,0 +1,48 @@
+{
+  "id": "question-35376c8e96",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(7) 已知4X3矩阵A =(血』2，。3),非齐次线性方程组Ax=fi的通解为(1,2,-1)T +\n虹1,\n—2,3)T ,k为任意常数，令B = (ai ,a2 >a3\n+ a3)，求方程组By =\n— a2的通解.",
+  "answer_markdown": "",
+  "analysis_markdown": "(7)解 由Ax = p的通解结构及已知条件，有\nr(A) = r(ai 心心)=3 — 1 = 2,\n，1 ]\nr 1 '\n(ai ,a2 ,a3)\n=0, (ai ,a2 ,a3) 一2 = 0,\n—1J\n〔 3 “\n即 ai + 2a2 — a3 = 0, a〕— 2a2 + 3a3 = 0,故\nr(B) = r(ai ,a2 ,ct3,0 + CC3) = r(a] ,a2 ,a3 ,ai + 2a2)\n初等\n--z--—-■ r(ai ,a2，a3,0) = r(ai ,az ,a3) = 2,\n列变换\n所以= 0有4 — r(B) = 2个基础解.又\n(ai ,a2 >a3+ a3)\n0,\n〔1-2\n,1\n(ai ,a2 ,a3 ,ai + 2a2)\n=cti + 2ot2 — (cti + 2ct2) = 0,\n1—1\n[1\n—1\n及(ai ,a2 ,a3 ,j? + a3)\n=ai — a?,故By = ai — a2的通解为\n尿(1, — 2,3,0)丁+爲(1,2,0, — 1)丁 + (1, — l,0,0)T(b ,k2 为任意常数).",
+  "chapter": "线性方程组",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 73,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.479594+00:00",
+  "updated_at": "2026-08-23T12:39:51.773499+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "通解"
+  ],
+  "tags": [
+    "线性代数",
+    "线性方程组"
+  ],
+  "source_regions": [
+    {
+      "page": 73,
+      "bbox": [
+        24.0,
+        528.5604858398438,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 208,
+      "bbox": [
+        24.0,
+        172.25518798828125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

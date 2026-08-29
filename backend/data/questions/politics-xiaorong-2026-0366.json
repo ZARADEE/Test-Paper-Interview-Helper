@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0366",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "导致经济全球化迅猛发展的因素主要有",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "(企业法人和机构法人)取代个人或家族股\n\n出处精沛酶考点80 -2\n\n东成为企业的主要出资人,企业的股票高度",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 53,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "科学技术的进步和生产力的发展"
+    },
+    {
+      "key": "B",
+      "text": "跨国公司的发展"
+    },
+    {
+      "key": "C",
+      "text": "各国经济体制的变革和国际经济组织的发展"
+    },
+    {
+      "key": "D",
+      "text": "发展中国家的斗争"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 53,
+      "bbox": [
+        89.10399627685547,
+        525.6870727539062,
+        787.7390747070312,
+        625.5961303710938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 69,
+      "bbox": [
+        3.366000175476074,
+        564.15478515625,
+        411.7190246582031,
+        839.2864379882812
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0944",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十六大提出了",
+  "answer_markdown": "D",
+  "analysis_markdown": "复兴提供了充满新的活力的体制保证和快速\n\n发展的物质条件。A、B、C 不符合题意。\n\n出处精讲P320 考点91 -通\n\n13s. 答案A\n\n点拨对于本章题目中出现的历次党的代表\n\n出处精讲P233 考点TI1\n-1\n\n大会对应的重要内容需要有一定的了解，这\n\n简析党的十九大报告提出新时代党的建设\n\n主要是为了在综合性的题目中排除干扰项。\n\n总要求，提出把党的政治建设摆在首位，以\n\n第十章\n\n政治建设为统领深入推进党的建设,A 正\n\n确,B、C、D 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 138,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "党在社会主义初级阶段的基本路线"
+    },
+    {
+      "key": "B",
+      "text": "党在社会主义初级阶段的基本纲领"
+    },
+    {
+      "key": "C",
+      "text": "社会主义现代化建设的战略目标"
+    },
+    {
+      "key": "D",
+      "text": "全面建设小康社会的奋斗目标\n\n\f\n第十章\n中国特色社会主义进入新时代"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 138,
+      "bbox": [
+        106.54100036621094,
+        1259.1351318359375,
+        475.49359130859375,
+        1414.576171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 144,
+      "bbox": [
+        450.3169860839844,
+        884.491455078125,
+        861.0525512695312,
+        1119.443603515625
+      ]
+    }
+  ]
+}

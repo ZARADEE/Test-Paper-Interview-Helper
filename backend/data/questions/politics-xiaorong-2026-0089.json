@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0089",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思指出：“为了进行生产，人们相互之间便发生一定的联系和关系；只有在这些社会联系和\n\n社会关系的范围内，才会有他们对自然界的影响，才会有生产」在生产关系中，区分不同生产\n\n方式、判定社会经济结构性质的客观依据是",
+  "answer_markdown": "D",
+  "analysis_markdown": "济基础。B 正确。A 是社会存在，C、D 是上\n\n层建筑，都不符合题意。\n\n出处精讲P48］考点45 -2-（2）",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 14,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "生产中人与人的关系"
+    },
+    {
+      "key": "B",
+      "text": "产品分配关系"
+    },
+    {
+      "key": "C",
+      "text": "阶级关系"
+    },
+    {
+      "key": "D",
+      "text": "生产资料所有制关系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 14,
+      "bbox": [
+        104.5270004272461,
+        481.0327453613281,
+        937.6709594726562,
+        638.5130615234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 19,
+      "bbox": [
+        4.215999603271484,
+        596.4010620117188,
+        424.1970520019531,
+        1090.184326171875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0334",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思关于资本积累的学说是剩余价值理论的重要组成部分。资本积累是",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 49,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "资本主义扩大再生产的源泉"
+    },
+    {
+      "key": "B",
+      "text": "资本主义经济危机爆发的根本原因"
+    },
+    {
+      "key": "C",
+      "text": "社会财富占有两极分化的重要原因"
+    },
+    {
+      "key": "D",
+      "text": "资本主义社会失业现象产生的根源"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 49,
+      "bbox": [
+        88.5459976196289,
+        399.5148620605469,
+        843.3545532226562,
+        498.61212158203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        6.6020002365112305,
+        1083.8271484375,
+        416.1025695800781,
+        1317.859375
+      ]
+    },
+    {
+      "page": 65,
+      "bbox": [
+        475.0039978027344,
+        31.43096160888672,
+        857.859619140625,
+        582.810791015625
+      ]
+    }
+  ]
+}

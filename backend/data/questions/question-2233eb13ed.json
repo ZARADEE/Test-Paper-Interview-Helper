@@ -1,0 +1,48 @@
+{
+  "id": "question-2233eb13ed",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)求下列积分:\n(I)设 =\nx2\ne_(2 ck,求 I =\nxf ( j?) djr.\n(n)设心=",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)解\n(I)\no\n1 _丄\n=*2好(2)\n1 jc3 dr\no\n3 <\ni\n=—(1 + +\n4- [ /'(RcK/)=斗2好(工)\no —\n/(jr)dx\n（H）\n-f x3 e_，dx -\nJ 0\nZ J o\n1 _?\n=Te\n0 +疋\n=-^(1-72)\no\n2 一\n1=-1),\no\n这里/（1）= 0.\ne土' dz，\nsin jc 1 dz 9\n空W&r俗称“积不出来\"，即原函数不能\n【注】积分\nT+V\nX\n用初等函数表达.",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 28,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.445726+00:00",
+  "updated_at": "2026-08-23T12:39:50.998416+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 28,
+      "bbox": [
+        24.0,
+        105.79393768310547,
+        482.3999938964844,
+        268.81378173828125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        24.0,
+        382.643798828125,
+        482.3999938964844,
+        538.5997924804688
+      ]
+    }
+  ]
+}

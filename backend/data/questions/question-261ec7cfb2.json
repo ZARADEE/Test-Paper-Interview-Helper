@@ -1,0 +1,65 @@
+{
+  "id": "question-261ec7cfb2",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)设ai ,a2心，0i ,02均是4维列向量，且4阶行列式丨S ,a2心，0i)丨=a,\nI (a〕,a2,02,03)I = b,则行列式 I (a3 心,a\\ ,0i + 几)丨=(\n).",
+  "answer_markdown": "C",
+  "analysis_markdown": "解利用行列式的性质，有\na,\nI (。3 ,。2 ,ai ,01+血)I = I S3 ,ct2 心，0i) | + | S3 ,。2 ,ai ,02)I\n=_| (ai ,ct2 ,a3,0i)丨一丨(ai ,a2 ,。3,02)丨\n= —a+| (ai a ,02，。3) I =— a b = b —\n故C正确.",
+  "chapter": "行列式",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 60,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.472143+00:00",
+  "updated_at": "2026-08-23T12:39:51.573380+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "a + b"
+    },
+    {
+      "key": "B",
+      "text": "a — b"
+    },
+    {
+      "key": "C",
+      "text": "b—■a"
+    },
+    {
+      "key": "D",
+      "text": "一(a + b)"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "行列式"
+  ],
+  "tags": [
+    "线性代数",
+    "行列式"
+  ],
+  "source_regions": [
+    {
+      "page": 60,
+      "bbox": [
+        24.0,
+        304.541259765625,
+        482.3999938964844,
+        347.92822265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 178,
+      "bbox": [
+        24.0,
+        320.11517333984375,
+        482.3999938964844,
+        385.7663269042969
+      ]
+    }
+  ]
+}

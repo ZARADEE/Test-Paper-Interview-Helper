@@ -1,0 +1,74 @@
+{
+  "id": "question-4f82670f1b",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设 X 〜N(0,l),Y = X? +乂+1,则乂与丫( ).",
+  "answer_markdown": "A",
+  "analysis_markdown": "解 判别X与Y是否相关,需计算Cov(X,Y).\n由X〜N(O,1),知\nEX = 0, DX = 1, E(X2) = DX + (EX)2 = 1, E(X3) = 0,\nE(XY) = E[X(X? +X + 1)] = E(X3) +E(X?) +EX = 0 + 1 +0 = 1,\n所以\nCov(X,Y) = E(XY)—EXEY = 1— 0 = 1 H 0,\n故X与Y不是不相关，即X与Y相关，由此知X与Y—定不独立.\n【注】 ①由X,Y独立屋X,Y不相关，根据逆否命题，若X与Y相关，则X,Y不独立.\n② 若(X,Y)服从二维正态分布，则X,Y相互独立QX,Y不相关.\n③ 注意到①中的“不一定”，既不相关又不独立的两个随机变量是存在的.\n事实上，X与Y不相关，只能说明X与Y没有线性关系，至于X与Y是否独立，要视具\n体情况.",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.490264+00:00",
+  "updated_at": "2026-08-23T12:39:52.016565+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "相关且相互不独立"
+    },
+    {
+      "key": "B",
+      "text": "相关且相互独立"
+    },
+    {
+      "key": "C",
+      "text": "不相关且相互独立"
+    },
+    {
+      "key": "D",
+      "text": "不相关且相互不独立"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "大数定律"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        24.0,
+        669.2643432617188,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 96,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        89.28990173339844
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 263,
+      "bbox": [
+        24.0,
+        148.06634521484375,
+        482.3999938964844,
+        281.9911193847656
+      ]
+    }
+  ]
+}

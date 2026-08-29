@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0369",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "经济全球化是一把“双刃剑”，它在促进经济发展的同时也带来了一些负面影响，主要表现有",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 53,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "发达国家与发展中国家在经济全球化进程中的地位和收益不平等、不平衡"
+    },
+    {
+      "key": "B",
+      "text": "加剧了发展中国家资源短缺和环境污染"
+    },
+    {
+      "key": "C",
+      "text": "一定程度上增加了经济风险"
+    },
+    {
+      "key": "D",
+      "text": "使发展中国家丧失了更多的就业机会"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 53,
+      "bbox": [
+        89.21800231933594,
+        986.5470581054688,
+        918.26318359375,
+        1144.38232421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 69,
+      "bbox": [
+        2.1440000534057617,
+        1145.827392578125,
+        411.13555908203125,
+        1319.5391845703125
+      ]
+    },
+    {
+      "page": 69,
+      "bbox": [
+        473.92999267578125,
+        33.41252136230469,
+        854.2919311523438,
+        99.37935638427734
+      ]
+    }
+  ]
+}

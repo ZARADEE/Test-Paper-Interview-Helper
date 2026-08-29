@@ -1,0 +1,68 @@
+{
+  "id": "question-763f5c5192",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 从l,2,-,n这九个数中任意相继不放回地取出两个数，求取出的第二个数比第一个\n数大的概率.",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解 令A, = •(第一次取出的数为i｝,i = l,2,-,n,B= ｛取出的第二个数比第一个\n数大｝，则A】,A2，-,A„构成一个完备事件组.\n由于在4发生的条件下，第二个数只能取到余下的\"一1个数之一，且只有它取到后\n”一z•个数时，B 才发生，故 F(B | A,)=匸4, d = l,2,-,n.\nn—\n—1\n又P(AJ =丄/ = 1,2,•••,“，由全概率公式，有\nn\nn\nn\nP(B) = VP(AI)P(B I A;) = V 丄.匸4\n缶\nn n - 1\n=—7_-■—\n— 1) + (兀—2) + ••• + 1 + 0]\nn\\n — 1)\n. n(n 一 1) _ 1\nn(n — 1)\n2 *\n【注】 由于此题所求事件较复杂，故不易直接用古典概型计算，但通过全概率公式所\n得结果与直觉是吻合的.",
+  "chapter": "随机事件与概率",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 86,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.484944+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机事件",
+    "概率"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机事件与概率"
+  ],
+  "source_regions": [
+    {
+      "page": 86,
+      "bbox": [
+        24.0,
+        350.85162353515625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 87,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 239,
+      "bbox": [
+        24.0,
+        458.1183166503906,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 240,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

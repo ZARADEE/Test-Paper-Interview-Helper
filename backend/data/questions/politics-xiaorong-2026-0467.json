@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0467",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "20 世纪50 年代中期，毛泽东明确提出要走一条有别于苏联的中国工业化道路。走中国工业化道\n\n路主要是强调要正确处理",
+  "answer_markdown": "C",
+  "analysis_markdown": "错误。\n\n出处精甫瓯考点59 -0\n董近党的领导是统一战线最鲜明的特征。\n\n第八章",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 71,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "信息化和工业化的关系"
+    },
+    {
+      "key": "B",
+      "text": "工业化和农业现代化的关系"
+    },
+    {
+      "key": "C",
+      "text": "农业现代化和城镇化的关系"
+    },
+    {
+      "key": "D",
+      "text": "重工业和轻工业、农业的关系\n\n中国特色社会主义理论体系的形成发展\n\n第五章"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 71,
+      "bbox": [
+        86.26499938964844,
+        541.3841552734375,
+        927.5621948242188,
+        675.5886840820312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 84,
+      "bbox": [
+        616.2329711914062,
+        1128.332763671875,
+        821.1282348632812,
+        1165.4935302734375
+      ]
+    }
+  ]
+}

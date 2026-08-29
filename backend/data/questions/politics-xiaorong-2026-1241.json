@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1241",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的二十届三中全会通过的《中共中央关于进一步全面深化改革推进中国式现代化的决定》，\n\n站在党和国家事业发展全局的战略高度，着眼以中国式现代化全面推进强国建设、民族复兴伟\n\n业，为聚焦发展全过程人民民主指明方向，提出推动“中国特色社会主义法治体系更加完善,\n\n社会主义法治国家建设达到更高水平” 的目标要求，并对“完善中国特色社会主义法治体系”\n\n作出专章部署。中国特色社会主义法治体系",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "知识储备题",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 179,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是国家治理体系的骨干工程"
+    },
+    {
+      "key": "B",
+      "text": "是全过程人民民主制度体系的重要依托"
+    },
+    {
+      "key": "C",
+      "text": "本质上是中国特色社会主义制度的法律表现形式"
+    },
+    {
+      "key": "D",
+      "text": "集中反映了中国之治的制度精华"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 179,
+      "bbox": [
+        89.9800033569336,
+        1223.080078125,
+        939.1470947265625,
+        1410.4952392578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 184,
+      "bbox": [
+        13.794000625610352,
+        463.40008544921875,
+        431.2467956542969,
+        793.5167236328125
+      ]
+    }
+  ]
+}

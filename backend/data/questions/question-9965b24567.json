@@ -1,0 +1,50 @@
+{
+  "id": "question-9965b24567",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(12) 设球面为工2十夕2 +/ = R2，柱面为工2 +护=&(R > 0),球面在柱体内的面积\n为S]，柱面在球体内的面积为s2，求号.",
+  "answer_markdown": "",
+  "analysis_markdown": "(12)解 由对称性，知求Si只需考虑z > 0的部分(如图9-23).\n'2 —\n—护，知\n由 N = a/R：\ndS =\nz^-\\- Zy dj?dj/\n1 +\n+\n_____ 一工_____\n―亡〒\n~ y\n\\/R2 — x2 — y2\n-- --------- dr d』9\n^R2-x2-y2\nSi = 2jJdS = 2JJ a/1 + z^-\\~ zj dxdy\n故\nst\nd和\n―\ndxdy\nVR2 — x21 — y2\n.n\n=2R\n'Rcos 9\n—\nrdr = 2R2 (托 一 2) 9\n0 VR2 - r2\n-f・\n其中st为球面在柱体内且的曲面.\n求s2只需考虑y $ 0 ,z $ 0的部分，由X2 + y2 = Rjc，知;y = \\/Rx — x2.又\n+ 02 dxdz\ndS = v7! + y'}+ y7 djrdz\n1 +\nR 一 2\n2 a/Rz — g2\nR\n________cLzcIn 9\n2 jRz —工?\nJJ yi + y?+ y? dzdz\n故\nS2 =4 dS = 4\n'R\ns扌\n宀2\n~R~\nR\n=4\ndxdz = 2 c!n\n# 2 JRz 一 工?\n=4R「, * dz = 4K2,\nJ0 \\/R2 — z2\n其中St为柱面在球体内且0的曲面•所以\n邑=纹（兀一2）=丄（\n2）\nS2\n4疋\n2 5\n仏）.\n【注】由交线｛:; [ J\n'得& + / =应，即工=R2~Z\\",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 59,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.470862+00:00",
+  "updated_at": "2026-08-23T12:39:51.557499+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 59,
+      "bbox": [
+        24.0,
+        124.22906494140625,
+        482.3999938964844,
+        170.4487762451172
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 172,
+      "bbox": [
+        24.0,
+        101.42228698730469,
+        482.3999938964844,
+        626.8077392578125
+      ]
+    }
+  ]
+}

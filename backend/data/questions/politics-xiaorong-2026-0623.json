@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0623",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全面依法治国是“四个全面” 战略布局的重要内容之一。推进全面依法治国，根本目的是",
+  "answer_markdown": "A",
+  "analysis_markdown": "国特色社会主义文化自信。习近平总书记强\n\n出处精听前考点63 .3-B\n\n调:“没有高度的文化自信，没有文化的繁荣兴",
+  "chapter": "第九章］全面依法治国（结合第五部分第六章的内容进行复习）",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 93,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "依法保障人民权益"
+    },
+    {
+      "key": "B",
+      "text": "努力让人民群众在每一个司法案件中感受到公平正义"
+    },
+    {
+      "key": "C",
+      "text": "提高依法执政水平"
+    },
+    {
+      "key": "D",
+      "text": "保证法律面前人人平等"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第九章］全面依法治国（结合第五部分第六章的内容进行复习）"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第九章］全面依法治国（结合第五部分第六章的内容进行复习）"
+  ],
+  "source_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        86.4489974975586,
+        914.0767211914062,
+        877.2536010742188,
+        1073.30029296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        431.4410095214844,
+        1108.053466796875,
+        729.4202270507812,
+        1180.2421875
+      ]
+    }
+  ]
+}

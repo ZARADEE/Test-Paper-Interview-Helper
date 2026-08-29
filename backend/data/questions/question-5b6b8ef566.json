@@ -1,0 +1,49 @@
+{
+  "id": "question-5b6b8ef566",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 在“重伯努利试验中，事件A发生的概率为\"则事件A发生奇数次的概率\n为________ ・",
+  "answer_markdown": "*口 一(1 —",
+  "analysis_markdown": "*口 一(1 —\n解 设4 = 5次试验中A出现奇数次｝,4 = 5次试验中A出现偶数次｝，则\nP(4) = C：pq\"T 十 c忍帥”-3 + CMF\"-5 + ...,\np(a2)= c 防tv + c”qL2+c3(r4 + ...,\n其中 q = 1_ p,故\nP(AQ+尸(人2)= (” + q)\" = 1,\nP(A2) — P(Ai) = (g — pY = (1 — 2p)n,\n两式相减，得所求概率为P(Ai)= j[l 一 (1 -2p)\"l",
+  "chapter": "随机事件与概率",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 86,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.484944+00:00",
+  "updated_at": "2026-08-23T12:39:51.884577+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机事件",
+    "概率"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机事件与概率"
+  ],
+  "source_regions": [
+    {
+      "page": 86,
+      "bbox": [
+        24.0,
+        84.42530059814453,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 238,
+      "bbox": [
+        24.0,
+        428.2425537109375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1201",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思主义在人类思想史上第一次科学而全面地论述了道德的起源问题，为正确认识和理解道\n\n德的本质奠定了基础。以下说法正确的有",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "出处精讲两狗生6 考点31 -2\n\n体现了时代精神，是对我们要建设什么样的\n\n国家、建设什么样的社会、培育什么样的公\n\n简析道德是反映社会经济关系的特殊意识\n\n民等重大问题的深刻解答。\n\n形态。道德的产生、发展和变化，归根结底源",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 175,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "道德是一种特殊的社会意识形态"
+    },
+    {
+      "key": "B",
+      "text": "道德在阶级社会里不可避免地具有阶级性"
+    },
+    {
+      "key": "C",
+      "text": "不同阶级之间的道德是完全不同的"
+    },
+    {
+      "key": "D",
+      "text": "道德是社会利益关系的特殊调节方式"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 175,
+      "bbox": [
+        90.41600036621094,
+        626.4415893554688,
+        931.4026489257812,
+        814.5875854492188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 179,
+      "bbox": [
+        440.6929931640625,
+        767.5901489257812,
+        861.9027709960938,
+        1317.1494140625
+      ]
+    }
+  ]
+}

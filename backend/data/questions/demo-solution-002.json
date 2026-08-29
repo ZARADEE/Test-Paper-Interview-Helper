@@ -1,0 +1,37 @@
+{
+  "id": "demo-solution-002",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "设 $A$ 为三阶矩阵，讨论参数 $a$ 取何值时方程组有唯一解。",
+  "answer_markdown": "当系数矩阵行列式不为零时有唯一解。",
+  "analysis_markdown": "计算行列式并讨论其零点，再根据克拉默法则判断。",
+  "chapter": "线性代数",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T10:08:05.388593+00:00",
+  "updated_at": "2026-08-23T12:39:50.691085+00:00",
+  "analysis_source_document_id": null,
+  "options": [],
+  "scoring_points": [
+    {
+      "label": "计算行列式",
+      "score": 4
+    },
+    {
+      "label": "参数讨论",
+      "score": 4
+    }
+  ],
+  "knowledge_points": [
+    "方程组"
+  ],
+  "tags": [
+    "线性代数",
+    "方程组"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

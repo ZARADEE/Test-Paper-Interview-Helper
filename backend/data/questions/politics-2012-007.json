@@ -1,0 +1,44 @@
+{
+  "id": "politics-2012-007",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2011年进行的全国县乡两级人大换届选举，是2010年3月选举法修改后首次实行城乡按相同人口比例选举人大代表。这是我国政治生活中的一件大事，它：",
+  "answer_markdown": "A",
+  "analysis_markdown": "【解析】人民代表大会制度是我国的根本政治制度，是我国的政体，是我国的政权组织形式。它的选举充分的体现了人民当家作主这一社会主义民主的本质和核心。2011年进行的全国县乡两级人大换届选举，是2010年3月选举法修改后首次实行城乡按相同人口比例选举人大代表，更好地体现人人平等、地区平等、民族平等。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.439897+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "更好的体现了人人平等、地区平等和民族平等"
+    },
+    {
+      "key": "B",
+      "text": "有利于党在国家政权中发扬民主，贯彻党的群众路线"
+    },
+    {
+      "key": "C",
+      "text": "集中反映了人民代表大会是人民当家作主的根本途径"
+    },
+    {
+      "key": "D",
+      "text": "表明我国人大代表的产生与西方议会成员的产生有根本区别 ### 答案解析 7"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

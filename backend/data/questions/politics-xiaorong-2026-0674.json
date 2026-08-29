@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0674",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "以习近平同志为主要代表的中国共产党人，坚持把马克思主义基本原理同中国具体实际相结合、\n\n同中华优秀传统文化相结合，坚持毛泽东思想、邓小平理论、“三个代表” 重要思想、科学发展\n\n观，深刻总结并充分运用党成立以来的历史经验，从新的实际出发，创立了习近平新时代中国特\n\n色社会主义思想。习近平新时代中国特色社会主义思想",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "导\n论\n\n出处精丽距考点4",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 99,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是当代中国马克思主义、21 世纪马克思主义"
+    },
+    {
+      "key": "B",
+      "text": "是中华文化和中国精神的时代精华"
+    },
+    {
+      "key": "C",
+      "text": "实现了马克思主义中国化时代化新的飞跃"
+    },
+    {
+      "key": "D",
+      "text": "是新时代党和国家事业发展的根本遵循"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 99,
+      "bbox": [
+        88.21299743652344,
+        1169.32275390625,
+        938.6361083984375,
+        1416.5145263671875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        3.5240001678466797,
+        524.888916015625,
+        368.2821044921875,
+        601.8507690429688
+      ]
+    }
+  ]
+}

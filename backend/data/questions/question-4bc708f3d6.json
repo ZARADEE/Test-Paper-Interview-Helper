@@ -1,0 +1,71 @@
+{
+  "id": "question-4bc708f3d6",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(5)\n，1\n_ 1\n0、\nO'\n-1\n>c =\n,D =\n-2\n()\n).\n不合同的矩阵的个数为(\nA =\n\nB2个",
+  "answer_markdown": "C",
+  "analysis_markdown": "解由于A是实对称矩阵，故与A合同的矩阵也必为实对称矩阵，显然矩阵B,C均是实\n对称矩阵，矩阵D不是实对称矩阵，由此可知,A与D不可能合同.\n又由\nxTAr = # + 川 + & 十 2心 x2 = (j?i + 乜严 + & ,\n可知A的正、负惯性指数分别为p = 2,q = 0.\n同理，由 X1 Bx =\nX2 + & — 2xi —(劝一工2 )2 十川，XTCt = 3x\\ + 2j；2，可知矩\n阵B,C的正、负惯性指薮相同，即p = 2,q = 0.\n综上可知，矩阵A与矩阵B,C均合同，C正确.\n【注】 ①本题也可以求A,B,C的特征值，从而求得正、负惯性指数.\n②若为九阶实对称矩阵，则A与〃合同的充分必要条件是A与B有相同的正、负\n惯性指数.",
+  "chapter": "矩阵",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 78,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.481631+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [
+    {
+      "key": "A",
+      "text": "3个"
+    },
+    {
+      "key": "C",
+      "text": "1个"
+    },
+    {
+      "key": "D",
+      "text": "0个"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        24.0,
+        604.7097778320312,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 79,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 220,
+      "bbox": [
+        24.0,
+        178.50900268554688,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

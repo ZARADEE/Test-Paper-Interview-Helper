@@ -1,0 +1,59 @@
+{
+  "id": "question-182a28ae05",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（11）设随机变量X与Y相互独立，X服从〃 =0.6的0 — 1分布,Y的分布函数为\nFYCy)= J1 _ e_y ,\n10,\ny》0,\n丿V o,\n记 Z = X — Y.\n（I）求 P{Z<-J 丨 X = 0}；\n（n>求z的分布函数.",
+  "answer_markdown": "",
+  "analysis_markdown": "(11)解 (I)由已知，Y的概率密度为\nfyCy) = Fj(y)=('\n厂，\n0,.\np(x = o,z<-|\ny $ 0,\n》V 0，\n)”X = 0,Y 二\nP(2<-| I X = 0\n1 P{X 二产\nP{X = 0}\n2 e~ydy =\n胡丫胡=】-f\nP{X = 0} • P{Y> j}\n=~-，P{X = 0}\n(n)Fz(z)= p{z^z} = p{x-y<z}\n=P{X = 0} . P{X-y<z | x = 0}+P{X= 1} . P{X-Y^z | X= 1}\n=P{X = 0} - P{Y^-z | X = 0} +P{X = 1} • P{Y^l-z | X = 1}.\n由X与Y相互独立，知\nez, z< 0,\nP{Y^-z | X = 0} = P{Y^-z}=\n1, z $ 0,\ne_ , z< 1,\n1, z$l,\nP{Y^ 1 — z | X = 1} = P{Y 1 -z}=\n故z的分布函数为\nFz(z)=\n0. 4ez + 0. 6e_\n0. 4 + 0. 6b ,\nz V 0,\n0 W z V 1,\nz $ 1.\n1,",
+  "chapter": "随机变量及其分布",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 92,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.488264+00:00",
+  "updated_at": "2026-08-29T13:35:34.333306+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "分布函数"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        24.0,
+        55.20097351074219,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 251,
+      "bbox": [
+        94.05000305175781,
+        453.0962829589844,
+        446.32501220703125,
+        604.5099487304688
+      ]
+    },
+    {
+      "page": 251,
+      "bbox": [
+        43.099998474121094,
+        467.3587951660156,
+        287.2900085449219,
+        591.490966796875
+      ]
+    }
+  ]
+}

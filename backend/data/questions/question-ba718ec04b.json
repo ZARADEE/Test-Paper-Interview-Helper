@@ -1,0 +1,48 @@
+{
+  "id": "question-ba718ec04b",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(5) 设(X,Y)〜若込扌丫与辽空不相关，则相关系数\nP =-------- .",
+  "answer_markdown": "",
+  "analysis_markdown": "⑸I'\n解 由于\n厂 /3X + Y X—2Y\\\nCoA~~r-,~T~)\n=当 Cov(3X + Y,X — 2Y)\n=£[3Cov(X,X) + Cov(Y,X) 一 6Cov(X,Y) — 2Cov(Y,Y)]\n=±[3DX - 5Cov(X,Y) — 2DY]\n=* (3<j2 _ 5(Oct2 _ 2cr2) =\n(1 — 5p) = 0,\n故 Q =",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.490264+00:00",
+  "updated_at": "2026-08-23T12:39:52.001989+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "相关系数"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        24.0,
+        85.99128723144531,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 260,
+      "bbox": [
+        24.0,
+        56.60038757324219,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

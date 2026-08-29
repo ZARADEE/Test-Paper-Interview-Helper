@@ -1,0 +1,44 @@
+{
+  "id": "politics-2010-019",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "．有一则寓言讲到：狐狸把鱼汤盛在平底的盘子里，请仙鹤来与它一起“平等”地喝鱼汤，结果仙鹤一点也没喝到，全被狐狸喝去了。这个寓言给人们的启示是，尽管资产阶级宣布“法律面前人人平等”，但是：",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "【解析】资本主义政治制度的本质是资产阶级进行政治统治和社会管理的手段和方式，是为资产阶级专政服务的，因此不可避免地有其历史的和阶级的局限性。法律名义上的平等掩盖着事实上的不平等，由于资本主义社会是建立在私有制和资本特权的基础上的，资本家和劳动者之间、富人与穷人之间存在着事实上严重的不平等，资本主义法律的实质是将这种不平等合法化。因此，此题的正确答案是ACD选项。资本主义的本质要从经济制度、政治制度、意识形态来分析。选项B本身说法即是错误的。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.388121+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "法律名义上的平等掩盖着事实上的不平等"
+    },
+    {
+      "key": "B",
+      "text": "这种形式上的平等即是资本主义制度的本质"
+    },
+    {
+      "key": "C",
+      "text": "它的实质是将劳资之间经济利益的不平等合法化"
+    },
+    {
+      "key": "D",
+      "text": "这种平等的权利是建立在财产不平等基础之上的权利"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

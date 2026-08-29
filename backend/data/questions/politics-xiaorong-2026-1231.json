@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1231",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "法治是中国式现代化的重要保障，法律是治国理政最大最重要的规矩。党的二十届三中全会提\n\n出进一步全面深化改革必须贯彻的“六个坚持” 重大原则，“坚持全面依法治国” 是其中之一。\n\n学习好贯彻好党的二十届三中全会精神，要在法治轨道上深化改革、推进中国式现代化，把全\n\n面依法治国摆在全局性、战略性、基础性、保障性位置，做到",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "知识储备题\n\n转化为现实的权利和义务。B、C、D 正确,\nA 错误。\n\n简析新形势下进一步全面深化改革，应当同",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 178,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "改革决策和立法决策相统一、相衔接"
+    },
+    {
+      "key": "B",
+      "text": "改革和法治同步推进"
+    },
+    {
+      "key": "C",
+      "text": "凡属重大改革都要于法有据"
+    },
+    {
+      "key": "D",
+      "text": "立法主动适应改革和经济社会发展需要"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 178,
+      "bbox": [
+        103.24400329589844,
+        1040.201416015625,
+        945.6087646484375,
+        1234.7423095703125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 182,
+      "bbox": [
+        442.6549987792969,
+        1187.5003662109375,
+        849.28857421875,
+        1322.9495849609375
+      ]
+    }
+  ]
+}

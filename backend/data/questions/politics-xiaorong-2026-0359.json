@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0359",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "国家垄断资本主义是国家政权和私人垄断资本融合在一起的垄断资本主义。国家垄断资本主义\n\n的形成和发展不是偶然的，它产生的原因主要是",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 52,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会生产力的发展，要求资本主义生产资料在更大范围内被支配"
+    },
+    {
+      "key": "B",
+      "text": "经济波动和经济危机的深化，推动国家垄断资本主义的产生"
+    },
+    {
+      "key": "C",
+      "text": "社会主义阵营初步显示的优越性，迫使资产阶级对资本主义制度进行改良"
+    },
+    {
+      "key": "D",
+      "text": "缓和社会矛盾、协调利益关系的需求，促使国家垄断资本主义的产生"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 52,
+      "bbox": [
+        101.98400115966797,
+        466.4858703613281,
+        933.140380859375,
+        654.8742065429688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 68,
+      "bbox": [
+        15.106000900268555,
+        958.7766723632812,
+        430.8831481933594,
+        1323.689697265625
+      ]
+    },
+    {
+      "page": 68,
+      "bbox": [
+        481.2409973144531,
+        33.08924102783203,
+        850.4965209960938,
+        260.187744140625
+      ]
+    }
+  ]
+}

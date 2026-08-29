@@ -1,0 +1,58 @@
+{
+  "id": "question-b017239bc7",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（8）设X与丫相互独立，X服从参数为*的指数分布,Y服从参数为*的指数分布，求\nZ=X + Y的概率密度.",
+  "answer_markdown": "",
+  "analysis_markdown": "（8）解法1 依题设,x和y的概率密度分别为\nje-f , x > 0,\n.0,\nfxS =\n=\nH £ 0,\nye-i, y>0,\no,\n:y W o.\n:\nfx(JC)fyCz — j：)dj?.\n用卷积公式\n/z（z） = J ...............\n确定积分限，只需确定fxCx）fY（z-x）的非零取值区域，即工>0\n且z — x > 0,如图18-5所示.\n当 zVO 时，即 hVzVO,有 _/xQ）=OJz（z）=0；当乂>0时，\n即2>0且x <Z z,而\n—e~y .丄e_〒(lz = — e\n/z（z）=\neY =厂专(1 — eY ),\n0 2\n(e-f (1-e-i), z> 0,\n\\ 0,\nz £ 0.\n故 fz3 =\n解法2 用定义法.\n由X与Y相互独立，故（X,Y）的概率密度为\n= fx(^)fyCy)=\n其他,\n（升于），工>0,夕>0,\n0,\nFz（z） = P{Z 冬\"=P{X + Y £ z}.\n当z V0时，工+\n与区域工>0,夕> 0无公共部分，故\nFz(z)\nP{X + Y^z} = P（0） = 0.\njJ/GjOcLzdy,.\n当 z>0 时，Fz(z) = P{X + Y<z}=\n其中D：_z +夕£\nD\nz,z>0,y>0,如图18-6所示，故\ng （专+专）dy _ 1\nFz(z) = 「djc\n0 .\n(e一丁 一 e_§ ■ e一寸)Ax\no\no b\n=1 + 2「亍一3e 一专，\n所以\nFz（z）=\nl + 2e 违一 3e 一专，z>Q,\n0 9\nN W 0 9\nfz3 = F；(z)=\ne_专(1 一 ) , z>Q,\no，\nn w o.\n【注】 卷积公式画图是在xOz（或yOz）坐标中，定义法画图是在xOy坐标中.",
+  "chapter": "随机变量及其分布",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 91,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.488264+00:00",
+  "updated_at": "2026-08-23T12:39:51.956583+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "概率",
+    "独立"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        24.0,
+        590.8607177734375,
+        482.3999938964844,
+        630.4716796875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 250,
+      "bbox": [
+        24.0,
+        295.4365539550781,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 251,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        53.851219177246094
+      ]
+    }
+  ]
+}

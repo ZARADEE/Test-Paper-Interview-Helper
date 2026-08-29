@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0501",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "关于新民主主义政治纲领规定的新民主主义国家，以下说法正确的有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "辟了中国特色社会主义道路，形成了中国特\n\n出处\n考点15\n拓展与点拨目\n\n色社会主义理论体系，确立了中国特色社会",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 76,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "国体是各革命阶级联合专政"
+    },
+    {
+      "key": "B",
+      "text": "政体是实行民主集中制的人民代表大会制度"
+    },
+    {
+      "key": "C",
+      "text": "新民主主义共和国是一定历史时期的国家形式，是过渡的形式"
+    },
+    {
+      "key": "D",
+      "text": "人民当家作主是新民主主义国家制度的核心内容和基本准则"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 76,
+      "bbox": [
+        105.7020034790039,
+        301.1015625,
+        717.3519287109375,
+        466.34210205078125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        6.10099983215332,
+        489.41851806640625,
+        296.2686767578125,
+        562.6681518554688
+      ]
+    }
+  ]
+}

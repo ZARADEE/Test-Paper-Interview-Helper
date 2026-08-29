@@ -1,0 +1,44 @@
+{
+  "id": "politics-2010-026",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "19世纪下半叶，以“自强”、“求富”为目标的洋务运动历时30多年。其最终失败的主要原因是：",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "【解析】洋务运动历时30多年，虽然办起了一批企业，建立了海军，但却没有使中国富强起来。甲午战争一役，洋务派经营多年的北洋海军全军覆没，标志着以“自强”、“求富”为目标的洋务运动的失败。洋务运动失败的原因主要是：\n首先，洋务运动具有封建性。其次，洋务运动对外国具有依赖性。最后，洋务企业的管理具有腐朽性。正因为如此，洋务运动不可能为中国摆脱贫弱找到出路，也不可能避免最终失败的命运。洋务运动的指导思想是“中学为体，西学为用”。即在封建主义思想的指导下发展近代企业，故A正确；洋务派官僚主张对外“和戎”，兴办企业一切依赖外国，故B正确；洋务运动的资金和人才问题不是很突出，选项C错误，洋务企业管理的腐朽性是失败的原因，D正确。所以正确答案为选项ABD。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.396959+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "指导思想的封建性"
+    },
+    {
+      "key": "B",
+      "text": "对外国具有依赖性"
+    },
+    {
+      "key": "C",
+      "text": "资金人才的匮乏性"
+    },
+    {
+      "key": "D",
+      "text": "洋务企业管理的腐朽性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

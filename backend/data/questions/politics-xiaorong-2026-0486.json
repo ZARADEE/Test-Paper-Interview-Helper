@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0486",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "坚持和发展马克思主义，必须同中国具体实际相结合，必须同中华优秀传统文化相结合。必须坚\n\n定历史自信、文化自信，坚持古为今用、推陈出新",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "择，是历史和人民的选择。中国特色社会主\n\n出处隔蒋的考点2\n\n义，既坚持了科学社会主义基本原则，又根据",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 73,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "把马克思主义思想精髓同中华优秀传统文化精华贯通起来"
+    },
+    {
+      "key": "B",
+      "text": "把马克思主义思想精髓同人民群众日用而不觉的共同价值观念融通起来"
+    },
+    {
+      "key": "C",
+      "text": "不断赋予科学理论鲜明的中国特色"
+    },
+    {
+      "key": "D",
+      "text": "不断夯实马克思主义中国化时代化的历史基础和群众基础\n\n\f\n毛泽东思想及其历史地位\n\n第一章"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 73,
+      "bbox": [
+        92.03500366210938,
+        1219.8094482421875,
+        932.4176635742188,
+        1397.6160888671875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 87,
+      "bbox": [
+        4.276000022888184,
+        1214.8018798828125,
+        275.28680419921875,
+        1291.0045166015625
+      ]
+    }
+  ]
+}

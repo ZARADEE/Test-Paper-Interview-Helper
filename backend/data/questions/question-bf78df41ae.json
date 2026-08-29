@@ -1,0 +1,48 @@
+{
+  "id": "question-bf78df41ae",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)计算\"阶行列式D\n—ana 1\n—ana2\n・• b — a„\nQ +久\na\n•・・\na\na\na +b2・・・\na",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)解 D”除主对角线元素外，第z行(，=1,2,…)元素分别是©，色，…,Qi 4+1，…,\na”的倍数，即：(一a )CL\\，(-一 at)a2，…，(—a )a,_i , (— a, )a,+i , • ・，(一a：) a”.\n可考虑用加边法，\nQi\n…\na n\n<2i\na2\n・・ an\nb — ai\n—(l\\CL2\n…—axan\nQi\nb 0\n•• 0\nD* — D卄 1 -\n—02©\nb — a[\n…—a2an\n=\n心\n0 b\n•• 0\n—% i\n… b — al\n0 0\n•• b\n为箭形行列式，故D, =b\"T (b— £圧).\n1 = i",
+  "chapter": "行列式",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 62,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.473201+00:00",
+  "updated_at": "2026-08-23T12:39:51.618297+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "行列式"
+  ],
+  "tags": [
+    "线性代数",
+    "行列式"
+  ],
+  "source_regions": [
+    {
+      "page": 62,
+      "bbox": [
+        24.0,
+        544.4512939453125,
+        482.3999938964844,
+        620.9996337890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 184,
+      "bbox": [
+        24.0,
+        132.45118713378906,
+        482.3999938964844,
+        247.6978759765625
+      ]
+    }
+  ]
+}

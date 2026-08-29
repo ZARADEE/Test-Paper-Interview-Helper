@@ -1,0 +1,57 @@
+{
+  "id": "question-58ffe2212b",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 设 z =\n由方程 x = ze十确定，则 dz | (e>0) = ________ •",
+  "answer_markdown": "在dz — ydj/.",
+  "analysis_markdown": "在dz — ydj/.\n解 由 x — e,y = 0,知 z=l.令 F(uy,z)= ze^z —攵，则\n一 1 1\n__________ __________ Z\nF[ ~ e^(l + z) — e^z(1 + z)—工(1 +z)'\nF'y __ ze^z =_ z\nFC —— e十(1 + z) —— 1 + /\n所以 dz | (eo) = g「寺 dy\n(e,O)\n(e,O)\n故弊\ndX I （e,0）\ndz\ndx\ndz\nd y\n.丄 3z\n—区，I\nfF— f、",
+  "chapter": "多元函数微分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 35,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.450061+00:00",
+  "updated_at": "2026-08-23T12:39:51.129190+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 35,
+      "bbox": [
+        24.0,
+        251.13771057128906,
+        482.3999938964844,
+        270.33404541015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 85,
+      "bbox": [
+        24.0,
+        643.4144287109375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 86,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        111.63272857666016
+      ]
+    }
+  ]
+}

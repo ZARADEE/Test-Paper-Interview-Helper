@@ -1,0 +1,48 @@
+{
+  "id": "question-02eb959046",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 点 P(1, — 1,2)到平面兀：2z —夕 + 5z — 12 = 0 的距离 d = ________ .",
+  "answer_markdown": "~W'",
+  "analysis_markdown": "~W'\n解\n,_ | 2X1-1X(-1)+5X2-12 | _ ^30\nCt —---------------------------------------------------------------------------------------------- ------------\nV22 + (- I)2 +52",
+  "chapter": "空间解析几何",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 32,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.448957+00:00",
+  "updated_at": "2026-08-23T12:39:51.080680+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "空间解析几何"
+  ],
+  "tags": [
+    "高等数学",
+    "空间解析几何"
+  ],
+  "source_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        24.0,
+        532.2786865234375,
+        482.3999938964844,
+        538.6488037109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        24.0,
+        170.94497680664062,
+        482.3999938964844,
+        226.3719940185547
+      ]
+    }
+  ]
+}

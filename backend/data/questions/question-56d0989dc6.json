@@ -1,0 +1,49 @@
+{
+  "id": "question-56d0989dc6",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设于(工)有二阶连续导数，且/(I) = b/'(1) = 2,求\"(工,夕)，使得\ndu — — 6yf(jc)dx + \\_xz ff (x) —\nJdj/.",
+  "answer_markdown": "",
+  "analysis_markdown": "(4) 解 令P =— 6〃(工)，Q =攵好‘⑺一 4好(2)，依题意，有孕=学，艮卩\ndx dy\nF f'— 2xff (x) + 2/(j?) = 0,\n为欧拉方程.\n令工=* ,则上面方程化为/(O — 3/(^) + 2/■⑺=0,\n①\n为二阶常系数线性齐次微分方程,其特征方程为r2-3r + 2 = 0,解得口 = l,r2 = 2,故①\n的通解为产⑺ =G&+C20,所以/'&) = C^ + C2^2.\n由 /(1) = 1,/，(1) = 2,得 G = 0,G = 1,故 /(j;) = xz ,ff O) = 2x，从而\ndu =一 6j：2ydj： — 2j:3 dj/.\n利用公式，有 u(j：,y) — [ — 6x2ydx + [ Ody =— 2x3y,\nJ 0\nJ 0\n所求况(D)=-2^3y + C(C为任意常数).",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.459048+00:00",
+  "updated_at": "2026-08-23T12:39:51.378160+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "导数",
+    "微分"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        24.0,
+        502.90106201171875,
+        482.3999938964844,
+        532.3441162109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 132,
+      "bbox": [
+        24.0,
+        427.9941711425781,
+        482.3999938964844,
+        550.858642578125
+      ]
+    }
+  ]
+}

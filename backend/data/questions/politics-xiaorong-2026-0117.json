@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0117",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在商品交换过程中，生产商品使用价值的具体劳动是不能直接进行量的比较的，只有将具体劳\n\n动还原为抽象劳动，也就是从具体劳动中抽象出无差别的一般人类劳动，才能进行量的比较。\n\n具体劳动能否还原为抽象劳动，在根本上取决于",
+  "answer_markdown": "C",
+  "analysis_markdown": "必须用自己的产品去同别人的产品相交换。\n\n出处精研的考点66 2Qk 拓展与点拨\n\n在这里，交换是解决私人劳动和社会劳动之\n\n间矛盾的唯一途径。D 正确。\n\n简析私人劳动和社会劳动的矛盾是商品经",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 17,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "必要劳动和剩余劳动能否实现统一"
+    },
+    {
+      "key": "B",
+      "text": "简单劳动和复杂劳动能否实现统一"
+    },
+    {
+      "key": "C",
+      "text": "私人劳动和社会劳动能否实现统一"
+    },
+    {
+      "key": "D",
+      "text": "体力劳动和脑力劳动能否实现统一"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        92.07599639892578,
+        1075.56298828125,
+        944.137939453125,
+        1232.45556640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 24,
+      "bbox": [
+        19.81100082397461,
+        298.98052978515625,
+        425.6282958984375,
+        714.1467895507812
+      ]
+    }
+  ]
+}

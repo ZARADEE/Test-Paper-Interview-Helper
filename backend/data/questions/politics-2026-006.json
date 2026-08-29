@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-006",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1987年3月25日，邓小平在审阅《关于草拟十三大报告大纲的设想》时，对《设想》提出十三大报告全篇拟以社会主义初级阶段作为立论的根据作出批示：“这个设计好。”《设想》的设计思路好就好在，它首次",
+  "answer_markdown": "C",
+  "analysis_markdown": "",
+  "chapter": "综合",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.585850+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "系统阐明了社会主义和共产主义的关系"
+    },
+    {
+      "key": "B",
+      "text": "提出我们的社会主义制度还是处在社会主义初级阶段"
+    },
+    {
+      "key": "C",
+      "text": "明确了社会主义初级阶段是制定路线方针政策的出发点和根本依据"
+    },
+    {
+      "key": "D",
+      "text": "明确了发展生产力是社会主义现代化的根本任务"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "综合"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "综合"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

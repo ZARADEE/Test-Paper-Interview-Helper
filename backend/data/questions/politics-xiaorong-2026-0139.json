@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0139",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在不同的国家或在同一国家的不同历史时期，劳动力价值的最低界限是有区别的。一旦劳动力价\n\n值降低到这个最低界限以下，劳动力就只能在萎缩的状态下维持。劳动力价值的最低界限是由",
+  "answer_markdown": "D",
+  "analysis_markdown": "到新产品中去。\n\n出处精而的考点69 -2-0\n\n抽象劳动对应的是：\n（创造）\n\n简析由于劳动力价值的构成包含历史和道\n\n商品的价值；\n动力商品的价值再生\n\n德的因素，在不同的国家或在同一国家的不\n\n产（再创造）出来。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 20,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "资本家主观的剥削意愿决定的"
+    },
+    {
+      "key": "B",
+      "text": "劳动者的最低劳动强度决定的"
+    },
+    {
+      "key": "C",
+      "text": "资本循环中能够维持生产的不变资本的价值决定的"
+    },
+    {
+      "key": "D",
+      "text": "生活上不可缺少的生活资料的价值决定的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 20,
+      "bbox": [
+        103.27999877929688,
+        277.3882141113281,
+        935.6045532226562,
+        477.9427185058594
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 27,
+      "bbox": [
+        436.33099365234375,
+        648.0298461914062,
+        846.4993286132812,
+        985.0281982421875
+      ]
+    }
+  ]
+}

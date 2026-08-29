@@ -1,0 +1,48 @@
+{
+  "id": "question-2010259aeb",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)设随机变量X服从参数为A(A>0)的指数分布，则P{X>16 | X〉8} =________ .",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴丄丄\n(，)4 5 4-\n解 由已知，得\nP{X = 0} = P{X = 0,Y = 0} +P{X = 0,Y = 1} = + +\nP{X + Y = 1} = P{X — 1 ,Y = 0}+P{X = 0,Y = 1} — a b.\n又 + * + + = a + 〃 +寺=1,知 a + b= * ,于是\nP{X = Q,X + Y = 1} = P{X = Q,Y = 1} = b.\n因为{X = 0}与{X + Y = 1}相互独立，所以\n即6 =\nP{X = O,X + Y=1}=P{X = O}・P{X + Y=1},\n卜*,得 b = +，a = *.\ni + b\nnJl-e-2te, z>0,\n('10, 0.\n解\n依题设,X与Y的分布函数均为F(z) =\n1 —严，工> 0,\n0,\n工 £ 0.\nFz(z) = P{min{X,Y} < z} = 1 - P{min{X,Y} > z}\n-1-P{X> z,Y> z} = 1 —P{X>z} • P{Y> z}\n=1 - 口一 F(z)了 =\n1 — e_2Az\n0,\nz> 0,\nz W 0,\n可见min{X,Y}服从参数为2A的指数分布.",
+  "chapter": "随机变量及其分布",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 87,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.486227+00:00",
+  "updated_at": "2026-08-23T12:39:51.903645+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 87,
+      "bbox": [
+        24.0,
+        647.6237182617188,
+        482.3999938964844,
+        672.2638549804688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 246,
+      "bbox": [
+        24.0,
+        347.9918212890625,
+        482.3999938964844,
+        588.2811889648438
+      ]
+    }
+  ]
+}

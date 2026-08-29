@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0401",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会主义发展道路具有多样性，无产阶级执政党必须领导本国人民，努力探索适合自己国情的\n\n社会主义发展道路。探索社会主义发展道路，必须",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持对待马克思主义的科学态度"
+    },
+    {
+      "key": "B",
+      "text": "从当时当地的历史条件出发，坚持“走自己的路”"
+    },
+    {
+      "key": "C",
+      "text": "充分吸收人类一切优秀文明成果"
+    },
+    {
+      "key": "D",
+      "text": "坚持问题导向，从马克思主义经典作家的著作中寻找具体问题的答案"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        104.3280029296875,
+        489.1997985839844,
+        936.3136596679688,
+        689.2732543945312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 72,
+      "bbox": [
+        446.5559997558594,
+        948.7701416015625,
+        851.963134765625,
+        1090.012939453125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0192",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1921 年3 月，俄共（布）召开十大，毅然决定从战时共产主义政策过渡到新经济政策。新经\n\n济政策的主要特征是",
+  "answer_markdown": "B",
+  "analysis_markdown": "开始的社会主义改革，是社会主义向深度的\n\n出处精胡下\n考点88 T-电\n\n发展。B、C、D 不符合题意。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 26,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "开展农业合作化"
+    },
+    {
+      "key": "B",
+      "text": "发展商品经济"
+    },
+    {
+      "key": "C",
+      "text": "优先发展重工业"
+    },
+    {
+      "key": "D",
+      "text": "多种经济成分并存"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 26,
+      "bbox": [
+        104.40499877929688,
+        648.749755859375,
+        934.882568359375,
+        746.9375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 35,
+      "bbox": [
+        436.5840148925781,
+        1018.7213134765625,
+        850.4231567382812,
+        1314.677978515625
+      ]
+    }
+  ]
+}

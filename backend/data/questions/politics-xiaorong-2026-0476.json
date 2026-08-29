@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0476",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“和平统一、一国两制” 的核心是坚持",
+  "answer_markdown": "A",
+  "analysis_markdown": "领导，坚持以人民为中心，坚持法律面前人人\n\n出处情甫而考点70 -1\n\n平等，坚持依法治国和以德治国相结合，坚持\n\n简析文化自信是更基础、更广泛、更深厚的自\n\n从中国实际出发。党的领导是中国特色社会\n\n信，是一个国家、一个民族发展中最基本、最深\n\n主义法治之魂，是我们的法治同西方资本主\n\n沉、最持久的力量。建设社会主义文化强国、\n\n义国家的法治最大的区别。C 正确。\n\n推动社会主义文化繁荣兴盛，关键在于坚定中",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 72,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "一个中国"
+    },
+    {
+      "key": "B",
+      "text": "两制并存"
+    },
+    {
+      "key": "C",
+      "text": "高度自治"
+    },
+    {
+      "key": "D",
+      "text": "和平统一\n\n第七章"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 72,
+      "bbox": [
+        106.88300323486328,
+        461.91046142578125,
+        848.2650146484375,
+        528.11767578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 86,
+      "bbox": [
+        16.16200065612793,
+        995.626220703125,
+        432.5991516113281,
+        1330.8953857421875
+      ]
+    }
+  ]
+}

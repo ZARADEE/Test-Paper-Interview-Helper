@@ -1,0 +1,57 @@
+{
+  "id": "question-278514f5ba",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(32) 设平面图形D由攵2+夕2 =2工与y X确定，求图形\nD绕直线工=2旋转一周所得旋转体的体积.",
+  "answer_markdown": "",
+  "analysis_markdown": "(32)解 如图3-14所示，D的边界方程分别为\n工=1— yi — y2 fjc =\n1).\n任取+ dy] U [0,1],则\ndV = {tt[2- (1- Jl —b)]2—*2 —夕严}*\n=27t[ ^1 — y2 — (1 — yY^y\n故▼ = [ 2兀[a/I — j/ — (] —，)2]dy\nJ 0\n[乡 yi — J/2 + yarcsin y + y (1 — yY\n=2兀\n2tt\n7t\nZ\n【注】此题也可以用如下计算：\nri\n7C\nT\n1I\n■i\nV = 2tc\\ a/ 1 — y2 Ay + 2?r\n(1 — j/)2d(l — y)=\no\n2tt",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 30,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.447851+00:00",
+  "updated_at": "2026-08-23T12:39:51.043444+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 30,
+      "bbox": [
+        24.0,
+        151.7910614013672,
+        482.3999938964844,
+        185.87171936035156
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 73,
+      "bbox": [
+        24.0,
+        526.5581665039062,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 74,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        56.10822677612305
+      ]
+    }
+  ]
+}

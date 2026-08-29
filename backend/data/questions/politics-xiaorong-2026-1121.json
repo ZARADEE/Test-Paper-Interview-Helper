@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1121",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "从业人员在职业活动中做到公平、公正，不损公肥私，不以权谋私，不假公济私，这是职业道德中",
+  "answer_markdown": "C",
+  "analysis_markdown": "出处精听远考点39 T-\n\n是集体主义的最高层次，是优秀共产党员、先\n\n进分子应努力达到的道德目标。二是先公后\n\n简析职业道德的基本要求包括:辟爱岗敬\n\n私、先人后己，这是已经具有较高社会主义道\n\n业;用诚实守信;图办事公道,就是要求从业\n\n德觉悟的人能够达到的要求。三是顾全大\n\n人员做到公平、公正，不损公肥私，不以权谋\n\n局、遵纪守法、热爱祖国、诚实劳动，这是对公\n\n私,不假公济私;\n服务；好奉献社会。\n\n民最基本的道德要求。C 正确。A、B、D 不符\n\nC 正确。\n\n合题意。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 165,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "爱岗敬业的要求"
+    },
+    {
+      "key": "B",
+      "text": "热情服务的要求"
+    },
+    {
+      "key": "C",
+      "text": "办事公道的要求"
+    },
+    {
+      "key": "D",
+      "text": "奉献社会的要求"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 165,
+      "bbox": [
+        90.2249984741211,
+        1046.58154296875,
+        911.5958251953125,
+        1142.4578857421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 170,
+      "bbox": [
+        448.9639892578125,
+        556.5751342773438,
+        863.8651123046875,
+        825.5082397460938
+      ]
+    }
+  ]
+}

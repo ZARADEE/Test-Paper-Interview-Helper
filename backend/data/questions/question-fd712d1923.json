@@ -1,0 +1,50 @@
+{
+  "id": "question-fd712d1923",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 已知fS 是周期为5的连续函数,〃工)在工=1的某邻域内满足\n/(I + sin 工)—3/(1 — sin 工)=8工 + a(H),\n其中a(z)是当工-* 0时比工高阶的无穷小，且于(工)在鼻=1处可导，求曲线夕=/(a:)在\n点(6,/(6))处的切线方程.",
+  "answer_markdown": "",
+  "analysis_markdown": "(3)解 考虑到的周期性及_fG)在分=1处可导，本题关键是隶/'(1)和/(D.由\nlim[/(l + sin x) 一 3/( 1 一 sin x}~\\ = lim[8j? + a(«z)]，\nx—>0\nx—>0\n得 /(l) — 3/( 1) = 0,即/'(1) = 0.又\n=8,\nsm x\nJ7-*0\n[曲 /XI + sin z) — 3/X1 — sin z) _ 丘皿\n8jc i a(j?)\njc\n---- 十-----•-----\nsm x x sm x\n1 + sin 工)一 /(l) + 3 /(I — sin 工)一/XI)\n=8,\nsm x\n—sm x\n即\nlim\n•rfO 一\n_\n故 /(l) +3/(1) = 8,即 /(l) = 2.\n又 y(_z + 5) = f(Q,有/X6) = /(l) =0, /(6) = /(l) =2,故切线方程为夕一0 =\n2(j; — 6),即 2jc — j/ — 12 = 0.",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 21,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.442361+00:00",
+  "updated_at": "2026-08-23T12:39:50.917787+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "无穷小",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 21,
+      "bbox": [
+        24.0,
+        163.6448211669922,
+        482.3999938964844,
+        222.6098175048828
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 41,
+      "bbox": [
+        24.0,
+        93.16182708740234,
+        482.3999938964844,
+        212.27236938476562
+      ]
+    }
+  ]
+}

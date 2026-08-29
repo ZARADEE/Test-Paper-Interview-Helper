@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0652",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "坚持党对人民军队绝对领导的根本制度和根本实现形式是",
+  "answer_markdown": "C",
+  "analysis_markdown": "谋，这是统一的必然要求;坚持反对外部势力\n\n干涉,这是统一的外部条件；坚持决不承诺放\n\n出处精讲市近考点99 -1-0\n\n弃使用武力，这是统一的战略支撑。A 正确，\n\n知近军委主席负责制是坚持党对人民军队\n\nB、C、D 错误。\n\n绝对领导的根本制度和根本实现形式，在党\n\n领导军队的一整套制度体系中处于最高层\n\n次、居于统领地位。C 正确。",
+  "chapter": "第十四章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 96,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "支部建在连上"
+    },
+    {
+      "key": "B",
+      "text": "政治委员制"
+    },
+    {
+      "key": "C",
+      "text": "军委主席负责制"
+    },
+    {
+      "key": "D",
+      "text": "首长分工负责制"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十四章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十四章"
+  ],
+  "source_regions": [
+    {
+      "page": 96,
+      "bbox": [
+        104.322998046875,
+        1195.9656982421875,
+        700.3253784179688,
+        1299.2052001953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 106,
+      "bbox": [
+        443.9859924316406,
+        1214.318115234375,
+        849.8360595703125,
+        1321.1431884765625
+      ]
+    }
+  ]
+}

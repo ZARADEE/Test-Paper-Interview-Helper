@@ -1,0 +1,50 @@
+{
+  "id": "question-c39336e86a",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(5)设_/'Cz)有连续导数,L为从点A(2,2k)沿Q—lF + O —兀严=1 +卡的上半圆\n周到点 0(0,0)的一段弧，计算 I = j /，(j;)sin ydj: + [/(je)cos y —",
+  "answer_markdown": "",
+  "analysis_markdown": "(5)解\n利用格林公式求解.\n记 P = /''(■z)sin y,Q= /(j?)cos y —兀rr,则学—学=—兀.\n如图9-19所示，添加线段丽：\ndx dy\ny =曲‘则\nX =\n) _//(j?)sin ydj: + [/(k)cos y 一 nxjdy 一\nl+oa\n_/z(j：)sin ydj: + [/(jc)cos y — 7rz]djy・\nOA\n而\n/z(j;)sin ydx + [/(jr)cos y —\nL+CM'\njJdjcdj/ = 一 7t • g- • 7T( 1 + 7t2 ) = 一 专\nD\n7t)dzdy =— 7c\n其中D为AO与0兀所围半圆区域•又\n_//(jc)sin y^x + [/(jc)cos y 一\nJ 04\nf (x)sin ydx + /(jc)cos ydy —\nOA\n•2\n7t • xd(rcx)\no\nOA'\n_d[/(jc)sin y~]—\nOA\n= J d[/(jr)sin 7lz] — 2tv2 = /(jc)sin tcz\n—2tc2\n=0 — 2tt2 =— 2jr2，\n故\nJ\nI =一专(1+兀2)+2兀2 =空(3 —兀2)・\n记 P =\n— Tty—兀，则学—字",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.470862+00:00",
+  "updated_at": "2026-08-23T12:39:51.545901+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        24.0,
+        413.79931640625,
+        482.3999938964844,
+        461.7865905761719
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 169,
+      "bbox": [
+        24.0,
+        276.8439025878906,
+        482.3999938964844,
+        560.6439208984375
+      ]
+    }
+  ]
+}

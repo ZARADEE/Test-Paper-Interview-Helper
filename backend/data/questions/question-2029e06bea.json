@@ -1,0 +1,50 @@
+{
+  "id": "question-2029e06bea",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 设二次型 /(匚1，工2，…，工”)=^1 +\n+ ••• + nxl — (j?i + ^2 + …+ 工”严.\n(I )求二次型/(^1 ,攵2，…皿)=XrAx的秩；\n(U)求可逆矩阵P，使得P^ AP = A,并求二次型的正惯性指数.",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)解(I ”(工1 ,工2，…，Z”)\n=(71 — 1)甘+ (\"—\n—1)JC2 +…+(\"——1)2叮—\n—2劝22——2攵1攵3\n2乂1 九 一 2比力3 —…—2力22” —\n•• — 2工”一 1工”，\n故二次型的矩阵为\n'n 一 1\n-1\n-1\n・・・\n— 1\n-1 ]\n-1\nn 一 1\n-1\n…\n— 1\n—1\nA = -1\n_ 1\nn — 1\n…\n— 1\n-1\n-1\n-1\n-1\n・・・\nn --1\n-1\ni - 1\n-1\n_ 1\n・・・\n— 1\nn 一 1\n注意到A的各行元素之和均为0,利用初等变换得\nn 一 1\n一 1\n-1\n-1 0\nn\n•• 0\n一 1\nn 一 1\n-1\n-1 0\nn\n… 0\nA —\n—1\n— 1\nn — 1\n-1 0\n—A\n()\nn\n… 0\n—] —1\n-1\n•• n -1 6\n・・・ n\n、一1 - 1\n-1\n-1 0 .\n… 0\n0.\n九，入”\n=入2 = ••\n所以 r(A) = n — 1.\nn,\n(II)由丨AE—A丨=0,解得A的特征值为右\n对右=& =…=A„-i =\"，解(nE — A)x = 0,得A的特征向量为\n—1\nr- 1]\n-1\no\n,(Z2\nai\n…，a„-i\n0丿\nI 1\n对入” =0,解(0E —A)x = 0,得 A 的特征向量为 a” = (1,1,•••, 1)T.\n令 P = (at ，…，a”)，则 P 可逆，使得 P^ AP = A.\n由于A的特征值为\nAn—1 = fl > 0 ,入” =0 ,\nAi =入 2\n故二次型的正惯性指数为n-1.\n•\n— 1\n—1\n•\n—\n—]\n・\n]\n-1\n【注】A = nE +\n・ —1 -r\n-1\n记=nE +\n9其中 r(B) = 1.\n-1 -1・・—1\n—j\n求A的特征值、特征向量时，可利用秩为1的矩阵的特征值、特征向量的结论，见《李林\n考研数学系列线性代数辅导讲义》.",
+  "chapter": "二次型",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 83,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.483945+00:00",
+  "updated_at": "2026-08-23T12:39:51.859832+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵",
+    "逆矩阵",
+    "秩"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 83,
+      "bbox": [
+        24.0,
+        284.30096435546875,
+        482.3999938964844,
+        333.90765380859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 233,
+      "bbox": [
+        24.0,
+        188.26531982421875,
+        482.3999938964844,
+        588.2479248046875
+      ]
+    }
+  ]
+}

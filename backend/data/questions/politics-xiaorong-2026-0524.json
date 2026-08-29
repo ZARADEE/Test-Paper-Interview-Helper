@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0524",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党在过渡时期的总路线，将马克思列宁主义关于过渡时期的理论在中国进一步具体化了，形成\n\n了中国化的过渡时期理论，为中国社会主义改造提供了行动指南。党在过渡时期的总路线",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "性新兴产业知识技术密集、成长潜力\n\n出处精萨丽71 考点37\n—❷\n\n大、综合效益好，对经济社会全局和长远发\n\n\f\n展具有引领带动作用，是形成新质生产力的\n\n从国际比较看，大国经济的特征都是内需为\n\n主导、内部可循环。我国作为世界第二大经\n\n主阵地。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 79,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是社会主义建设和社会主义改造同时并举的路线"
+    },
+    {
+      "key": "B",
+      "text": "体现了社会主义工业化和社会主义改造的紧密结合"
+    },
+    {
+      "key": "C",
+      "text": "体现了解放生产力与发展生产力的有机统一"
+    },
+    {
+      "key": "D",
+      "text": "体现了变革生产关系与发展生产力的有机统一"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        87.7959976196289,
+        551.4923706054688,
+        927.812744140625,
+        748.2659912109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        433.9580078125,
+        841.6228637695312,
+        845.347412109375,
+        981.7930297851562
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1102",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "改革开放以来，党带领人民在继承和弘扬伟大民族精神的基础上，立足新的时代条件，形成了\n\n时代精神。时代精神的核心是",
+  "answer_markdown": "D",
+  "analysis_markdown": "义精神，把强国建设、民族复兴伟业不断推向\n\n出处精讲下取电考点20 -3-0\n\n前进》一文中指出，弘扬爱国主义精神，必须\n\n坚持爱国主义和社会主义相统一。我国爱国\n\n第四章i\n\n主义始终围绕着实现民族富强、人民幸福而\n\n发展，最终汇流于中国特色社会主义。祖国",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 163,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "一往无前"
+    },
+    {
+      "key": "B",
+      "text": "知难而进"
+    },
+    {
+      "key": "C",
+      "text": "务求实效"
+    },
+    {
+      "key": "D",
+      "text": "改革创新\n\n第四章\n明确价值要求践行价值准则"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 163,
+      "bbox": [
+        87.04000091552734,
+        958.8654174804688,
+        928.5375366210938,
+        1056.5283203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        448.65399169921875,
+        1035.785400390625,
+        782.5460815429688,
+        1113.892578125
+      ]
+    }
+  ]
+}

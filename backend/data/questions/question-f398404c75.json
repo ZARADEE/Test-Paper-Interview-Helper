@@ -1,0 +1,49 @@
+{
+  "id": "question-f398404c75",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(7)设A是3阶实对称矩阵,A〜2 4\n、3\nai = (1,1,0)T,a2 = (0,2,1)T.\n(I)求A的特征值与特征向量；\n(D)求可逆矩阵P,使得PAP = A.\n，求a,b,c的值.\na 一 1\nb",
+  "answer_markdown": "",
+  "analysis_markdown": "(7)解 (I )由A-B知,A与〃有相同的特征值，而由丨述一〃 1 = 0,可得E的特征\n值为“1 = “2 = 0,*3 = 14,故A的特征值为A1 =入2 = 0,入3 = 14.\n由已知，二重特征值Ai = A2 = 0,对应的特征向量为皿2,且«1 ,a2线性无关，设\n入3 = 14对应的特征向量为a3 =(劝，工2 ,m)T ,因为A是实对称矩阵，故僞:;=呼:即\nEdVX J)解得％ =⑴—1⑵'\n综上所述,A的特征值入1 = & = 0对应的特征向量为kxa\\ +k2a2(^i ^k2不同时为0),特\n征值入3 = 14对应0勺*寺征向量为k3a3 (k3 H 0).\n(H)令\n则P可逆，使得",
+  "chapter": "矩阵",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 77,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.480630+00:00",
+  "updated_at": "2026-08-23T12:39:51.793326+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵",
+    "逆矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 77,
+      "bbox": [
+        24.0,
+        524.1309814453125,
+        482.3999938964844,
+        626.6690673828125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 217,
+      "bbox": [
+        24.0,
+        212.56329345703125,
+        482.3999938964844,
+        382.0439147949219
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0444",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "半殖民地半封建社会的社会性质，决定了近代中国不可能是一个独立的民主国家，外部没有民\n族独立，而受帝国主义压迫；内部没有起码的资产阶级民主，反动统治阶级凭借强大的反革命\n武装对人民实行独裁恐怖统治。这种社会性质决定了中国革命的主要形式是",
+  "answer_markdown": "C",
+  "analysis_markdown": "向实体经济倾斜、工作力量向实体经济加强，\n\n出处精讲Pi76］考点36 -2-0\n\n营造脚踏实地、勤劳创业、实业致富的发展环\n\n简析创新发展注重的是解决发展动力问题,\n\n境和社会氛围，把实体经济做实、做强、做优。\nD 正确。\n\n协调发展注重的是解决发展不平衡问题，绿\n\n色发展注重的是解决人与自然和谐共生问",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 68,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "争取民主"
+    },
+    {
+      "key": "B",
+      "text": "农民运动"
+    },
+    {
+      "key": "C",
+      "text": "武装斗争"
+    },
+    {
+      "key": "D",
+      "text": "工人运动"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 68,
+      "bbox": [
+        98.7040023803711,
+        863.4896240234375,
+        930.6470947265625,
+        993.76318359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        15.59000015258789,
+        38.45547866821289,
+        422.63641357421875,
+        217.5407257080078
+      ]
+    }
+  ]
+}

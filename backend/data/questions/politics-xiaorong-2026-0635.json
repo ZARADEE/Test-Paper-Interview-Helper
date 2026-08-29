@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0635",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "改革、发展、稳定是我国社会主义现代化建设的三个重要支点。其中，发展是解决一切经济社\n\n会问题的关键。发展的根本目的是",
+  "answer_markdown": "B",
+  "analysis_markdown": "出处［精讲庆54 考点74\n表格\n\n出处精讲庆诉考点77 -2-0",
+  "chapter": "第十一章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "消除绝对贫困"
+    },
+    {
+      "key": "B",
+      "text": "增进民生福祉"
+    },
+    {
+      "key": "C",
+      "text": "跳出历史周期率"
+    },
+    {
+      "key": "D",
+      "text": "促进社会稳定"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十一章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十一章"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        87.32099914550781,
+        125.68002319335938,
+        927.7900390625,
+        254.85411071777344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 105,
+      "bbox": [
+        3.925999641418457,
+        31.471961975097656,
+        114.33338928222656,
+        67.56727600097656
+      ]
+    }
+  ]
+}

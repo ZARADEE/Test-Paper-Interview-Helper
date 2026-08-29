@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0730",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "民主首先而且主要是一种国家制度。中国特色社会主义政治制度",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "知识储备题\n\n出处精讲P193\n考点56 -0",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 107,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是中国共产党带领中国人民在革命、建设、改革的长期实践中形成的"
+    },
+    {
+      "key": "B",
+      "text": "集中体现了我国人民民主的本质属性"
+    },
+    {
+      "key": "C",
+      "text": "是保证人民当家作主科学有效的制度安排"
+    },
+    {
+      "key": "D",
+      "text": "具有鲜明的中国特色、民族特色、时代特色"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 107,
+      "bbox": [
+        80.802001953125,
+        1258.2176513671875,
+        724.6915283203125,
+        1411.906494140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        7.140000343322754,
+        59.66716003417969,
+        304.11981201171875,
+        138.78939819335938
+      ]
+    }
+  ]
+}

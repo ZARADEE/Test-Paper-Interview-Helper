@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1221",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "职业道德中的诚实守信，要求从业者在职业活动中",
+  "answer_markdown": "B",
+  "analysis_markdown": "出处精讲P373) 考点51 -2-(3)-0\n\n正是法治的生命线，是司法活动最高的价值\n\n追求;法治是治国理政的基本方式;守法是法\n\n权利公平包括三重含义:一是权利主体\n\n律实施和实现的基本途径;行政执法是法律\n\n平等,国家对每个权利主体“不偏袒”“非歧\n\n实施和实现的重要环节。B、C、D 错误。\n\n视”；二是享有的权利特别是基本权利平等；",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 177,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "诚实劳动"
+    },
+    {
+      "key": "B",
+      "text": "合法经营"
+    },
+    {
+      "key": "C",
+      "text": "信守承诺"
+    },
+    {
+      "key": "D",
+      "text": "讲求信誉"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 177,
+      "bbox": [
+        89.40699768066406,
+        837.1759643554688,
+        828.861328125,
+        903.38427734375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        440.11199951171875,
+        737.95458984375,
+        773.6065063476562,
+        814.585205078125
+      ]
+    }
+  ]
+}

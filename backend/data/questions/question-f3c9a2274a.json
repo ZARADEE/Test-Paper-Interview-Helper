@@ -1,0 +1,49 @@
+{
+  "id": "question-f3c9a2274a",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（2） 设二维随机变量（乂,丫）在。={&,，）|\n±服从均匀分布，\nI q XVY\n10 X V 2Y\n令口= ］' x［y'1'\nX：2Y‘求（U，V）的联合分布律，并判别U与V是否相互\n独立.",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解 (U,V)可能的值为(0,0),(0,1),(1,0),(1 J),依题设，(X,Y)的概率密度为\n0<a-<2,0<j/<1,\n=\n0, 其他，\n考虑到/'(工力)的非零取值为常数*，可直接利用面积进行求解，如图\n18-9所示,将区域D划分为三个三角形区域D ,D2,D3，其面积分别为\n$,S2,S3区域D的面积为S=S】+S2+S3 =2,用面积求法，得\n尹\n0 1\n2 x\n图 18-9\nP{X<Y} - yXSi - yXy X1X1 = y.\n同理，得 P{X>2Y} = *,P{YVX£2Y} = *•故\nP{U = 0,V = 0} = P{X W Y,X W 2Y} = P{X<y} = y,\nP{U = O,v = 1} = P{X<y,X> 2Y} = 0,\nP{U = 1,V= 0} = P{X> Y,X£2Y} = P{Y < X ^2Y} = +\n故\n显然p1} H P” • p.j,故u与V不相互独立.",
+  "chapter": "随机变量及其分布",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 92,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.489264+00:00",
+  "updated_at": "2026-08-23T12:39:51.966680+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "二维",
+    "联合分布"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        24.0,
+        509.00738525390625,
+        482.3999938964844,
+        572.3977661132812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 253,
+      "bbox": [
+        24.0,
+        270.3407897949219,
+        482.3999938964844,
+        612.0907592773438
+      ]
+    }
+  ]
+}

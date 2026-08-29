@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0772",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会治理是国家治理的重要领域，推进社会治理现代化是推进国家治理体系和治理能力现代化\n\n的重要内容。新时代加强和创新社会治理，要求坚持",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "实际利益，这样的发展就失去意义,也不可\n\n典圈进豆直考点80 -0\n\n能持续。民生连着内需、连着发展。抓民生",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 114,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "系统治理"
+    },
+    {
+      "key": "B",
+      "text": "依法治理"
+    },
+    {
+      "key": "C",
+      "text": "综合治理"
+    },
+    {
+      "key": "D",
+      "text": "源头治理"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        107.53199768066406,
+        127.96896362304688,
+        939.9234619140625,
+        226.61338806152344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 119,
+      "bbox": [
+        6.47599983215332,
+        486.25830078125,
+        416.0709533691406,
+        878.2425537109375
+      ]
+    }
+  ]
+}

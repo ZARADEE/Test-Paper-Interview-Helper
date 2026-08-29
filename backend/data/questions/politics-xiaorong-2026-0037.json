@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0037",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "事物发展过程中的“度” 是指",
+  "answer_markdown": "C",
+  "analysis_markdown": "的自我否定（新陈代谢）。因此，本道题实际\n\n出处精评的考点17 -1-0\n\n上考查的是辩证否定观的内容。从内部打破\n\n简析事物的量和质是统一的,量和质的统一\n\n是生命,B 正确。A、D 本身内容正确但与题\n\n在度中得到体现。度是保持事物质的稳定性\n\n干无关。C 说法错误（真理具有客观性，是绝\n\n对性和相对性的辩证统一）。\n\n的数量界限，即事物的限度、幅度和范围。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 6,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "事物质变的关节点"
+    },
+    {
+      "key": "B",
+      "text": "事物质变的临界点"
+    },
+    {
+      "key": "C",
+      "text": "保持事物质的稳定性的数量界限"
+    },
+    {
+      "key": "D",
+      "text": "事物保持一定量的质的限度"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 6,
+      "bbox": [
+        98.11299896240234,
+        671.8845825195312,
+        789.905029296875,
+        769.6181640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 9,
+      "bbox": [
+        4.706999778747559,
+        383.3801574707031,
+        425.12896728515625,
+        687.2228393554688
+      ]
+    }
+  ]
+}

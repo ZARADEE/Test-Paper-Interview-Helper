@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0771",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "8 岁增长至U 2024 年的79 岁，主要健康指标居于中高收入国家前列。我们党之所以高度重\n\n视人民群众的生命安全和身体健康，是因为人民健康是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "宝，是团结海内外全体中华儿女实现中华民\n\n族伟大复兴的重要法宝，必须长期坚持。现\n\n出处精丽函1 考点56 -0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 113,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会文明进步的基础"
+    },
+    {
+      "key": "B",
+      "text": "民族昌盛和国家富强的重要标志"
+    },
+    {
+      "key": "C",
+      "text": "社会主义现代化的重要标志"
+    },
+    {
+      "key": "D",
+      "text": "促进人的全面发展的必然要求"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 113,
+      "bbox": [
+        130.63299560546875,
+        1257.72998046875,
+        925.64306640625,
+        1384.7275390625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 119,
+      "bbox": [
+        436.5840148925781,
+        31.70073699951172,
+        583.215576171875,
+        70.17738342285156
+      ]
+    },
+    {
+      "page": 119,
+      "bbox": [
+        43.89899826049805,
+        71.1182861328125,
+        418.6103515625,
+        490.1237487792969
+      ]
+    }
+  ]
+}

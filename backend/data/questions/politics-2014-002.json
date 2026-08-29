@@ -1,0 +1,44 @@
+{
+  "id": "politics-2014-002",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "俄国早期马克思主义理论家普列汉诺夫说，绝不会有人去组织一个“月食党”以促进或阻止月食的到来，但要进行社会革命就必须组织革命党。这是因为社会规律与自然规律有所不同，它是：",
+  "answer_markdown": "A",
+  "analysis_markdown": "【解析】本题在考查规律的知识点是自然规律和社会规律的区别。规律是客观的，因此选项B错误。选项C、D本身说法就是错误的。自然规律是自发的，社会则是必须通过人们有意识的行为来实现。因此本题正确答案是选项A。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.474196+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "通过人的有意识的活动实现的"
+    },
+    {
+      "key": "B",
+      "text": "由多数人的意志决定的"
+    },
+    {
+      "key": "C",
+      "text": "比自然规律更易于认识的规律"
+    },
+    {
+      "key": "D",
+      "text": "不具有重复性的客观规律"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "中国近现代史"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

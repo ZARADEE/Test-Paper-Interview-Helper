@@ -1,0 +1,48 @@
+{
+  "id": "question-26b1d203f9",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)设二次型 /(^i，攵2，^3)= xl Ax =\n+ az] +& + 2工1乂2 — 2y ie — 2j;2 j:3 的正负\n惯性指数都是1.\n(1) 求a的值；\n(n)求可逆线性变换X = By,将，©)化为标准形.",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴解 （I）二次型的矩阵为人= 1 a —1 .\n—Q — 1\n由已知 p + <7 = 2 = r（A），故丨 A | =— （a — I）2 Ca + 2） = 0,解得 a = 1 或a =—2.\n当a = 1时,r（A） = 1,不合颠意，故a -\n2 ,所以\n1 1\n2 '\nA =\n1 -2 -1 .\n2 _ 1\n（U ）由（I）知，二次型为\n/（J71 ,#2，工3 ）—^1 — 2j：2 +\n+ 2工1_2?2 + 4工1#3 — 2jC2-^3，\n由配方法，得\nya ,02 ,工3）=甘 + 2工1 （工2 + 2jC3）+ &2 + 2j：3）2 一（#2 + 2j：3）2 一\n2x1 +\n— 2jc2x3\n=（工1 X2 2jC3 ）2 — 3jt：2 — 6恐工3 — 3a：3\n=（Z1 + 工2 + 2工3 ）2 — 3（J：2 + 2力2乞3 + ^3）\n=a + 工2 + 2口）2 — 3（乂2 + © ）2.\n‘1 1 2'\n•Z1 + 氐 + 2j；3 ,\n工2 + E ,\n即y = Cx ,其中C =\n工3 ,\n_ 1\n1 1，且C可逆，故\n0 0 1\n‘1 1 2' -1\n夕1、\nx = C-1 y =\n0 1 1\n夕2\n0 0 1,\ng\n夕1\n-1| |^2为所求可逆变换，所以\n一（Ly）TA（\n夕3\nf — xTAx-----------\n，标准形为弭一3农.\n令 B = CT1，则 BTAB = A =\n1 0 O'\n0-30\n0 0 0\n【注】用配方法求可逆线性变换(不是正交变换)是常用方法.",
+  "chapter": "二次型",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 82,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.483945+00:00",
+  "updated_at": "2026-08-23T12:39:51.850695+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "二次型"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 82,
+      "bbox": [
+        24.0,
+        554.8969116210938,
+        482.3999938964844,
+        621.32958984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 231,
+      "bbox": [
+        24.0,
+        298.815185546875,
+        482.3999938964844,
+        633.0810546875
+      ]
+    }
+  ]
+}

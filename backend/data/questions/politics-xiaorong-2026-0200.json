@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0200",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "下列命题中，属于客观唯心主义观点的有",
+  "answer_markdown": "CD",
+  "analysis_markdown": "辘精讲亘：考点7 -1-（2）\n\n出处精讲户心考点6 拓展与点拨。\n\n，睡A、C、D 正确。马克思主义是从物质与\n\n简析客观唯心主义把虚构出来的在人以外存\n\n意识的对立统一关系中把握和规定物质的,物\n\n在的“客观精神”当作世界的本原,C、D 正确。\n\n质最本质的规定是客观实在性,这就指明了物\n\nA、B 为主观唯心主义。\n应选本题B 项中的观念是指人的观念，和C\n\n质对于意识的独立性、根源性，以及意识对\n\n于物质的依赖性、派生性。B 内容错误。",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 27,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "D",
+      "text": "万物皆备于我"
+    },
+    {
+      "key": "A",
+      "text": "物是感觉的复合"
+    },
+    {
+      "key": "B",
+      "text": "世界是观念的集合"
+    },
+    {
+      "key": "C",
+      "text": "世界是绝对观念的外化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 27,
+      "bbox": [
+        86.74299621582031,
+        792.6135864257812,
+        766.0339965820312,
+        891.904541015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        4.402000427246094,
+        401.7419738769531,
+        424.488525390625,
+        1320.0081787109375
+      ]
+    },
+    {
+      "page": 37,
+      "bbox": [
+        456.74700927734375,
+        35.849571228027344,
+        846.4420166015625,
+        133.82522583007812
+      ]
+    }
+  ]
+}

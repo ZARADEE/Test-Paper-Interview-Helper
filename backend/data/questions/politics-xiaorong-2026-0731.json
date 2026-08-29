@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0731",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国特色社会主义政治制度是由根本政治制度、基本政治制度、重要政治制度等组成的制度体\n\n系。我国的社会主义民主政治制度安排，能够",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "简析人民代表大会制度，坚持中国共产党领\n\n出处精讲\n考点54 拓展与点拨\n\n导，坚持马克思主义国家学说的基本原则，适",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 108,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "有效保证人民享有更加广泛、更加充实的权利和自由，保证人民广泛参加国家治理和社会治理"
+    },
+    {
+      "key": "B",
+      "text": "有效调节国家政治关系，增强民族凝聚力，形成安定团结的政治局面"
+    },
+    {
+      "key": "C",
+      "text": "集中力量办大事\n一"
+    },
+    {
+      "key": "D",
+      "text": "有效维护国家独立自主，有力维护国家主权、安全、发展利益，维护中国人民和中华民族的福祉"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 108,
+      "bbox": [
+        105.98899841308594,
+        128.64390563964844,
+        938.7532958984375,
+        316.9129943847656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        6.644000053405762,
+        131.2372283935547,
+        428.1496276855469,
+        342.03045654296875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "question-923d428baa",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(19) 设曲面S为球面才+b +/ =4z与锥面z = 五二疋所围，且位于锥面上方部\nV3\n分的立体表面，流速场为 A(j：,y,z) = (+攵3 + x2 y + x2z, yj/3\nyz3 )，求 A(x,y,z)\n从曲面S内部流向外部的流量①.",
+  "answer_markdown": "",
+  "analysis_markdown": "(19)解■\n①=\n)dydz + (*$3 + y2z dzdx + 占\ns\n利用高斯公式，得\n①\n(x2 + 2j：y + 2xz + b + 2yz + n? ) dV\nv (/ +b +z2)dv + 2$(xy + 竝 + j/n ) dV.\nv\nV\nV\n如图9-28所示，由V关于hOz面,yOz面对称，巧/与w关 ⑪\n于y是奇函数，空关于工是奇函数，知\n2 Jj* ( xy + 竝 + w ) dV = 0 9\nv\n①=\nv\n故\n+ / +z2)dV\n图 9-28\n'2n\n*4 cos\n336tt\n，即z2\n【注】x2 y2 + z1 = 4z化为球面坐标为厂=4cos (p,z\n卩卩=-^~r2sin2^, M卩 tan cp\n+j/)(z$0),化为球面坐标为Feos：",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 59,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.472143+00:00",
+  "updated_at": "2026-08-23T12:39:51.567704+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 59,
+      "bbox": [
+        24.0,
+        452.8862609863281,
+        482.3999938964844,
+        518.2294311523438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 175,
+      "bbox": [
+        24.0,
+        498.087646484375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 176,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        126.79862976074219
+      ]
+    }
+  ]
+}

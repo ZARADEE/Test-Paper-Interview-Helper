@@ -1,0 +1,72 @@
+{
+  "id": "question-6856480d68",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设A是mXn矩阵,m<n,且A的行向量组线性无关，厉,b2分别为加维、“维非零\n列向量，则下列选项够孚的是(\n).\n\nB \"Ax = 0必有非零解",
+  "answer_markdown": "D",
+  "analysis_markdown": "解 由r(A) = A的行秩=A的列秩，及A的行向量组线性无关，可知r(A) = m.\n对于A,At是nXm矩阵,r(Ar) = r(A)=加，即Ar的列向量组线性无关，故A1'x = 0\n只有零解.\n对于B,AtA是” X “矩阵，由r(Aq A) W r(A) = m <Z n,故ATAx = 0必有非零解.\n对于C,A是加X”矩阵，厂(A)=加，故r(A) = r(A ; br ) = m <Z n,即Ax = bx必有无\n穷多个解.\n对于D,AT是nXm矩阵,ATx = b2有唯一解4=>r(AT) = r(AT ; b2) — m,但人丁的列向\n量只是加个线性无关的n维向量(m < n)，它不能表示任一个n维向量，故= b2可能无\n解，故选D.",
+  "chapter": "线性方程组",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 74,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.479594+00:00",
+  "updated_at": "2026-08-23T12:39:51.776715+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "Atx = 0只看或解"
+    },
+    {
+      "key": "C",
+      "text": "Ax = b}必有无穷多个解"
+    },
+    {
+      "key": "D",
+      "text": "A1 x = b2必有唯一解"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "向量",
+    "线性无关",
+    "方程组"
+  ],
+  "tags": [
+    "线性代数",
+    "线性方程组"
+  ],
+  "source_regions": [
+    {
+      "page": 74,
+      "bbox": [
+        24.0,
+        57.00471115112305,
+        482.3999938964844,
+        114.00738525390625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 208,
+      "bbox": [
+        24.0,
+        578.8165893554688,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 209,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        69.17990112304688
+      ]
+    }
+  ]
+}

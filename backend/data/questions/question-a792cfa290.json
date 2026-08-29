@@ -1,0 +1,50 @@
+{
+  "id": "question-a792cfa290",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（1） 设在一批圆木中随机抽取100根，测其小头直径，得到样本均值为王=11.2 cm,已\n知标准差＜7=2.6 cm,问在显著性检验水平a = 0.05下，该批圆木小头平均直径能否认为是\n在 12 cm 以上？（已知①（1. 645） = 0. 95）",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)'解\n此题是方差/ = 2. 62已知，检验假设\nHq : $ fiQ = 12 ? Hi :[i V /j.Q = 12.\n选用统计量u =冬二些，将\nx = 11. 2,\n= 12, a = 2.6, n = 100\n代入计算，得 U = — 3. 08,而 a = 0. 05 ,故①(Uo) = 1—a = 0. 95,所以 Uo = 1. 645,从而\n—Uo =— 1. 645 , U = — 3. 08 V— 1. 645 ,\n故拒绝H。，即不能认为小头平均直径在12 cm以上.",
+  "chapter": "假设检验",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 105,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.493264+00:00",
+  "updated_at": "2026-08-29T13:35:34.333306+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "样本",
+    "假设检验"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "假设检验"
+  ],
+  "source_regions": [
+    {
+      "page": 105,
+      "bbox": [
+        24.0,
+        341.25738525390625,
+        482.3999938964844,
+        391.1120300292969
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 287,
+      "bbox": [
+        18.100000381469727,
+        112.41056823730469,
+        444.54998779296875,
+        710.9182739257812
+      ]
+    }
+  ]
+}

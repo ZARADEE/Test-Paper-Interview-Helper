@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0018",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人们用来测量时间的单位年、月、日等是靠天体在空间中的运动来确定的，测定宇宙天体之间\n\n距离的单位是用光在真空中沿直线传播一年的距离（即“光年”）来衡量的。这说明",
+  "answer_markdown": "B",
+  "analysis_markdown": "物质世界。C 错误且与题意不符。\n\n出处睛讲巨91 考点9 -修",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 3,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:15:23.241326+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "时空是一切运动的观念载体"
+    },
+    {
+      "key": "B",
+      "text": "时空与物质运动不可分割"
+    },
+    {
+      "key": "C",
+      "text": "物质运动是绝对的，时空是相对的"
+    },
+    {
+      "key": "D",
+      "text": "物质运动是客观的，时空是主观的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 3,
+      "bbox": [
+        90.41600036621094,
+        555.6889038085938,
+        931.44384765625,
+        685.0945434570312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 5,
+      "bbox": [
+        2.991999626159668,
+        32.74189758300781,
+        422.21661376953125,
+        892.9880981445312
+      ]
+    }
+  ]
+}

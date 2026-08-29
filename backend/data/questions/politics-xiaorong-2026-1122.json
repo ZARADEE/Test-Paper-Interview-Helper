@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1122",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平总书记指出：“家庭是社会的基本细胞，是人生的第一所学校。不论时代发生多大变化,\n\n不论生活格局发生多大变化，我们都要重视家庭建设，注重家庭、注重家教、注重家风。” 以下\n\n符合家庭美德的选项有",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 165,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "D",
+      "text": "“博施济众”"
+    },
+    {
+      "key": "A",
+      "text": "“远亲不如近邻”"
+    },
+    {
+      "key": "B",
+      "text": "“君子成人之美”"
+    },
+    {
+      "key": "C",
+      "text": "“为善最乐”"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 165,
+      "bbox": [
+        90.15299987792969,
+        1136.2196044921875,
+        934.655029296875,
+        1263.434326171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 170,
+      "bbox": [
+        449.1059875488281,
+        823.71923828125,
+        865.2000122070312,
+        1060.222900390625
+      ]
+    }
+  ]
+}

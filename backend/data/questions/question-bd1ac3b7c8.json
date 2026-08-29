@@ -1,0 +1,50 @@
+{
+  "id": "question-bd1ac3b7c8",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(13) 设曲面S为上半圆锥z = /r? + _/被圆柱面+夕2 = 2处(a > 0)所截出的有\n限部分，计算 / =\n+ yz2 + z2a:)dS.\ns",
+  "answer_markdown": "",
+  "analysis_markdown": "(13)解 如图9-9所示，曲面S关于工On面对称心》\n卜才話=0.\n于夕是奇函数，故\ns\nJpws\ns\n由 z = J士+ b，得 dS = Vl + Zy2dj：dy =\n故 I =\ny yz2 + z2 j7)dS\n7 .\n)0\ny\nDy\ns\n= 0 + 0 + JJnGcIS = a/2~JJx (j? + y2 )djrdj;\ns\nd型\n'2acos 6\n°2acos d\n图9 9\n兀 cos Odd\nrcos 9 • r2 • rdr = 4^\nV\nr4 dr\no\n-_n\n• 2\n2 cos°0d0\no\ncos 6 • (2a)5 • cos5Odd =九 °\n-f .\n_ #\n—瓦\nf = 2 #a5 7t.\n72(2a)5 9 5\n如图9-10所示，利用高斯公式.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 56,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.469411+00:00",
+  "updated_at": "2026-08-23T12:39:51.514315+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 56,
+      "bbox": [
+        24.0,
+        627.9449462890625,
+        482.3999938964844,
+        670.9689331054688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 162,
+      "bbox": [
+        24.0,
+        258.9676208496094,
+        482.3999938964844,
+        454.6982727050781
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1202",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "作为社会意识的道德一经产生，便有相对独立性。这种相对独立性表现为",
+  "answer_markdown": "AB",
+  "analysis_markdown": "道德资源的批判继承和创新发展。到社会主\n\n义道德克服了以往阶级社会道德的片面性和\n\n出处精讲丙祠考点31 -2- 财\n\n局限性，坚持以为人民服务为核心，坚持以集\n\n简析作为社会意识的道德一经产生，便有相\n\n体主义为原则，展现出真实而强大的道义力\n\n对独立性。这种相对独立性既表现为道德的\n\n量。A、B、C 正确。在上层建筑中，国家政权\n\n历史继承性，也表现为道德对社会发展具有\n\n居于核心地位,D 错误。\n\n能动的反作用,A、B 正确。C、D 内容正确但",
+  "chapter": "第五章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 175,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "道德的历史继承性"
+    },
+    {
+      "key": "B",
+      "text": "道德对社会发展具有能动的反作用"
+    },
+    {
+      "key": "C",
+      "text": "在阶级社会里道德具有阶级性"
+    },
+    {
+      "key": "D",
+      "text": "道德随着社会经济关系的变化而变化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第五章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第五章"
+  ],
+  "source_regions": [
+    {
+      "page": 175,
+      "bbox": [
+        91.14600372314453,
+        809.183837890625,
+        859.2359619140625,
+        905.462890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 180,
+      "bbox": [
+        14.701000213623047,
+        129.6557159423828,
+        420.7979736328125,
+        372.29498291015625
+      ]
+    }
+  ]
+}

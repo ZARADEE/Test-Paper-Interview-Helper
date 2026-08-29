@@ -1,0 +1,50 @@
+{
+  "id": "question-764ce2504b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 设二阶常系数非齐次线性微分方程y + ayr + by = (ch + 乂有特解夕=\n2ex + (j? —1)e2x，求该方程的通解，并求a,b,c,d的值.\n怡 9求 lim",
+  "answer_markdown": "",
+  "analysis_markdown": "(6) 解 方程的通解为y =\n+C2M&)+/(小，\n①\n其中卩(工)，力(工)是对应齐次微分方程的两个线性无关的解，/ &)是非齐次微分方程的\n特解.\n若/(工)=(Az+ B)尹，则入=2不是特征根；\n若y* (je) = x^Ax + B)e2z，则入=2是单特征根.\n由已知特解丫 = 2e' + (^2 -l)e2x = 2ex-e2x+x2e2j:,应为①式中取定常数所得，从而\n可知\nyi (z) = ex , y2 (z) = e2x , y* (z) = x2e2x ,\n因此r= l,r = 2为特征根，由根与系数的关系，知a =—(1 + 2) =—3, b = 1 X2 = 2,所\n以原方程的通解为y = Gb + C20 +/e2’(G ,C2为任意常数).\n将/ =工鼻2工代入原方程，可得\ne2x (4工$ + 8z + 2) — 3臼(2j? + 2z) + 2x2e2x = (cz + t/)e2i ,\n即 2z 十 2 = cz + d,得 c = 2,/ = 2.\n综上可得,a =_ 3 ,b = 2,c = 2,〃 = 2.",
+  "chapter": "微分方程",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.459048+00:00",
+  "updated_at": "2026-08-23T12:39:51.380329+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分方程",
+    "二阶",
+    "通解"
+  ],
+  "tags": [
+    "高等数学",
+    "微分方程"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        24.0,
+        562.933349609375,
+        482.3999938964844,
+        605.8577270507812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 133,
+      "bbox": [
+        24.0,
+        228.62930297851562,
+        482.3999938964844,
+        371.5465393066406
+      ]
+    }
+  ]
+}

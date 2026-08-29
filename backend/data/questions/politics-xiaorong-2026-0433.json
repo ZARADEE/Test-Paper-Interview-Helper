@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0433",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“因为中国资产阶级根本上与剥削农民的豪绅地主相联结相混合，中国革命要推翻豪绅地主阶\n\n级，便不能不同时推翻资产阶级。” 这一观点属于",
+  "answer_markdown": "D",
+  "analysis_markdown": "出处精沛成巧考点20 -3\n\n出处精丽做考点25 -4\n\n但近事在四方，要在中央。党中央集中统一\n\n置也推动全体人民共同富裕与促进人的全\n\n领导是党的领导的最高原则，是党保持团结\n\n面发展是高度统一的。马克思主义政党的最\n\n统一和强大战斗力、不断取得胜利的关键所\n\n高目标是实现共产主义，并把实现人的自由\n\n在。A 正确。\n\n而全面发展作为共产主义的本质特征。习近",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 67,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "“毕其功于一役” 的观点"
+    },
+    {
+      "key": "B",
+      "text": "“二次革命论”的观点"
+    },
+    {
+      "key": "C",
+      "text": "民主主义革命是社会主义革命必要准备的观点"
+    },
+    {
+      "key": "D",
+      "text": "中国革命分“两步走” 的观点"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 67,
+      "bbox": [
+        93.4010009765625,
+        402.8079833984375,
+        934.7329711914062,
+        592.5474853515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 80,
+      "bbox": [
+        22.79400062561035,
+        793.4119262695312,
+        399.3480529785156,
+        866.4227294921875
+      ]
+    }
+  ]
+}

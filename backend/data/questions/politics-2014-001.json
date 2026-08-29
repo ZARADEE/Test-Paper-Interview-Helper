@@ -1,0 +1,44 @@
+{
+  "id": "politics-2014-001",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "爱迪生发明电灯之前做了两千多次试验。有个年轻记者曾经问他为什么遭遇这么多次失败。爱迪生回答：“我一次都没有失败，我发明了电灯。这只是一段经历了两千步的历程”。爱迪生之所以说“我一次都没有失败”是因为他把每一次实验都看作：",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】本题需要把题干的意思理解清楚，在讲述爱迪生发明电灯的过程中的每一次实验他认为都不是失败，很明显每一次实验都是一次实践，都是实践过程的一部分，因此答案B很明显就是正确的。在实验的过程中出现失败，不能说是正确的认识和真理,所以A和D是错误的。C选项表述本身就是错误的，不选。",
+  "chapter": "2014 考研政治（通用）：马原题目汇总",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.225916+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "对事物规律的正确反映"
+    },
+    {
+      "key": "B",
+      "text": "整个实践过程中的一部分"
+    },
+    {
+      "key": "C",
+      "text": "实践中可以忽略不计的偶然挫折"
+    },
+    {
+      "key": "D",
+      "text": "认识中所获得的相对真理"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "2014 考研政治（通用）：马原题目汇总"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

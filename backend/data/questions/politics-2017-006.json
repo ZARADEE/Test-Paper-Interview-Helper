@@ -1,0 +1,44 @@
+{
+  "id": "politics-2017-006",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2016年是“十三五”规划开局之年，也是推进供给侧结构性改革的攻坚之年，推进供给侧结构性改革是适应我国经济发展新常态的重大决策，其根本目的是（ ）",
+  "answer_markdown": "A",
+  "analysis_markdown": "【解析】推进侧结构性改革，是适应和引领经济发展新常态的重大创新，当前和今后一个时期，我国经济发展面临的问题，供给和需求两侧都有，但矛盾的主要方面在供给侧。必须把改善供给侧结构作为主攻方向，实现由低水平供需平衡向高水平供需平衡跃升。从政治经济学角度看，供给侧结构性改革的根本，是使我国供给能力更好满足广大人民日益增长、不断升级和个性化的物质文化和生态环境需要，从而实现社会主义生产目的。因此，本题正确答案应选A项“提高供给质量满足需要”。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.526075+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "提高供给质量满足需要"
+    },
+    {
+      "key": "B",
+      "text": "加快政府职能转变"
+    },
+    {
+      "key": "C",
+      "text": "深化价格、财税、金融、社保等领域基础性改革"
+    },
+    {
+      "key": "D",
+      "text": "推进“去产能、去库存、降成本、补短板” ### 答案解析 6、"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

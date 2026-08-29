@@ -1,0 +1,57 @@
+{
+  "id": "question-e0c61efbc4",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(16) 设 fd = 22\nn= 1\n脊，证明：/\"(・)+ /(I — J：) + In a-ln(l —工)=V]\nn n",
+  "answer_markdown": "",
+  "analysis_markdown": "(16)证 因为£ 刍的收敛域为[—1,1],所以的定义域为[0,2].\nn=l n\n令 F(z) = /■(#)+ /(I — j;) +ln j：ln(l 一 工)，定义域为 hW (0,1),由于\n.00 “ ,\n00 一1\nY 8 “\n/J)= （y =歹壬二=丄宁兰\n（釣川丿 召 n z召\"\n斗（£勺山=丄\njr J o \\ n /\nx 宀\n=——ln(l 一 工)，\nJC\n/z (1 — x) = — In i\nx 一 1\nX 9\n0,攵 6 (0,1),\n[In j?ln(l — z)] = —ln(l — x) — -~-—In\nx\n1 — x\n所以\nFz (jr) = f ( jc) — /z (1 — jc) + [In jrln(l —龙)了 ：\n故FQ)三C.又由于\nlimF(jc) = /(l) + /(0) + limln[l + (jc — l)]ln(l — jc) = /(l)=工 g,\nC\nx-*l\nx-*l\nn— 1 \"\n所以\n/(j;) + /(I 一 2)+ In j?ln(l — h) = 丫 ~2 G (0,1).\nn=l 71",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.462366+00:00",
+  "updated_at": "2026-08-23T12:39:51.476081+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        24.0,
+        247.0318145751953,
+        482.3999938964844,
+        275.9278259277344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 153,
+      "bbox": [
+        24.0,
+        432.5625915527344,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 154,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        61.87474822998047
+      ]
+    }
+  ]
+}

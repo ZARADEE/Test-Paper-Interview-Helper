@@ -1,0 +1,48 @@
+{
+  "id": "question-46f50c0309",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(4)函数夕=二在\ni yr\nT,T_ 上的平均值为\nv 1 —\nL /",
+  "answer_markdown": "( 十 1 ) 7T",
+  "analysis_markdown": "( 十 1 ) 7T\n3 sin「d£ = *\n解\n辛\n：(1 — cos 2t)dt =为 9\nf\n丄/\nf 2\n了2\nx = sin t\n—\ndx----------- -\n=\nJ1\n一 m\n7t\nE =(箱十1)兀\n故平均值为\n12-\n2 2",
+  "chapter": "一元函数积分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 24,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.444620+00:00",
+  "updated_at": "2026-08-23T12:39:50.959784+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 24,
+      "bbox": [
+        24.0,
+        375.48651123046875,
+        482.3999938964844,
+        409.401123046875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 50,
+      "bbox": [
+        24.0,
+        533.0887451171875,
+        482.3999938964844,
+        641.63916015625
+      ]
+    }
+  ]
+}

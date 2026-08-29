@@ -1,0 +1,49 @@
+{
+  "id": "question-677c0483d8",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)设有方程组①\nJC2 — 口 + #4 = 0.\n工1 +工2 = — ,与②\nx2 — JC4 0\n(I)求方程组①与②的基础解系；\n(D)求方程组①与②的非零公共解.\nQ 氐_0,(n)Ax = 0,其中(H)的基础解系为",
+  "answer_markdown": "",
+  "analysis_markdown": "(3)解 (I )方程组①的系数矩阵为A =\nai = (―1,1,0,1)7\", a2 = (0,0,1,0)T.\n，解得基础解系为\n方程组②的系数矩阵为3 =\n1 - 1 1 0\n0 1 - 1 1\n(0,l,l,0)T, 02 = (― l,—l,0,l)T.\n（n）求方程组①与②的非零公共解，就是求\nX = 0的非零解.\nA\nB\nA\nB\n0 '\n-1\n—1\n()\n0 -1\n1 -1\n-2\n-2\n—1\n-1\n（―1,1,2,1））故非零公共解为&（―\n録是不为零的任意常数）.\n得基础解系1）=\n【注】 由第（I）问已求出①与②的基础解系，可令\n-\nh\\U\\ + kzU，2 — l\\ fi] +（202，\n即解方程组dai + k2a2 — liPi —仏卩2 = 0,故有\n'+ lz — 0,\n^\n^\n—人 + <2 = 0 ,\n—ly = 0 ,\n―= 0 ,\n解得 = k2 — 2b\\ = 2Z2,即\nkxa\\ + k2a2 = kitty + 2k1a2 = kx （ai + 2a2）\n=Z101 + 仏卩\n2 — 2^201 + 卩\n=厶（201 +02）=虹一l,l,2,l）T（e H 0）,\n其中，记 k. = I、= k2 = 2b\\ = 2Z2.",
+  "chapter": "线性方程组",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 73,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.478451+00:00",
+  "updated_at": "2026-08-23T12:39:51.765359+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "方程组",
+    "基础解系"
+  ],
+  "tags": [
+    "线性代数",
+    "线性方程组"
+  ],
+  "source_regions": [
+    {
+      "page": 73,
+      "bbox": [
+        24.0,
+        286.1910400390625,
+        482.3999938964844,
+        348.9111022949219
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 207,
+      "bbox": [
+        24.0,
+        55.44402313232422,
+        482.3999938964844,
+        337.285888671875
+      ]
+    }
+  ]
+}

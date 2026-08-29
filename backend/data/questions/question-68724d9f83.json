@@ -1,0 +1,58 @@
+{
+  "id": "question-68724d9f83",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(7)设(X|,X2,…，X］。)为总体X〜N(0,/)的简单随机样本y>0为未知参数.\n(I) 求/的最大似然估计量>；\n(II) 若记口 =》x,,v= 2x,,利用最大似然估计量叙，求相关系数\n:=1\nt=5\n_(In x—\n厂 2\n•Z > 0,\nf 1 一\n--------e",
+  "answer_markdown": "",
+  "analysis_markdown": "（7）解 （I）由已知，X的概率密度为2\n/\"（•X）= —\ne 2 / , — 00 < x <十 00 ,\nV 27TCT\nL（?） = TT丄e-咅=（2肿严・，郭.\n似然函数为\nIn L（（r2）=一 学 111（2兀/） 一 ttv 另云.\n取对数，得\n/\n厶 G 1= 1\n10 10\n令悬SL（/）=0,得—誥+\n=0,故/的最大似然估计量为以=法耳\n（U）由（I）,知X〜N （0,加），则\nEU = E（》X,）= 0, EV = E（》X,）= 0,\ni= 1\ni=5\nDU = D（》X,）= 6 加，w = D（》xJ= 6\nc A9\n2 a2，\ni= 1\ni= 5\n6 10 6 10\n又 Cov（U,V） = Cov（Yx,,》Xj=工工Cov（X,,Xp = DX5 +DX6\ni= 1\nj = 5\ni= 1 j = 5\n其中，当 j 时，Cov(X,,Xj) = 0；当 i = j 时，Cov(X,,X» = DXt =加，故\nCov(U,V) _ 2 加 _\nT\n6〉\nPuv = VduVdv",
+  "chapter": "参数估计",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 102,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.492264+00:00",
+  "updated_at": "2026-08-23T12:39:52.067721+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "样本",
+    "参数估计"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "参数估计"
+  ],
+  "source_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        24.0,
+        578.2156982421875,
+        482.3999938964844,
+        657.3560791015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 279,
+      "bbox": [
+        24.0,
+        463.6577453613281,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 280,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        99.09404754638672
+      ]
+    }
+  ]
+}

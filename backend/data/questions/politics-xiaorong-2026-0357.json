@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0357",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "垄断利润主要是通过垄断组织制定的垄断价格来实现的。垄断价格包括垄断高价和垄断低价两\n\n种形式。垄断高价是指垄断组织出售商品时规定的高于生产价格的价格，垄断低价是指垄断组\n\n织在购买非垄断企业所生产的原材料等生产资料时规定的低于生产价格的价格。垄断组织操纵\n\n\f\n价格带来的结果是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "出处〔精讲P85~86) 考点79 -1-(2)",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 51,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "抑制了市场上价格的自由波动"
+    },
+    {
+      "key": "B",
+      "text": "垄断价格一定时期内背离生产价格和价值"
+    },
+    {
+      "key": "C",
+      "text": "对商品价值和剩余价值作了有利于垄断资本的再分配"
+    },
+    {
+      "key": "D",
+      "text": "整个社会商品的价值不再是由生产它们的社会必要劳动时间决定"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 51,
+      "bbox": [
+        91.41600036621094,
+        1314.898193359375,
+        931.9985961914062,
+        1410.8826904296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 68,
+      "bbox": [
+        15.707000732421875,
+        518.8521728515625,
+        373.83050537109375,
+        597.8002319335938
+      ]
+    }
+  ]
+}

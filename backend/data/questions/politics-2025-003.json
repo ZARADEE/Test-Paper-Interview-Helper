@@ -1,0 +1,46 @@
+{
+  "id": "politics-2025-003",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "唯物史观从人民群众创造历史这一前提出发，既明确了人民群众是历史的创造者，也不否 认个人在历史中的作用。习近平总书记在纪念毛泽东诞辰120 周年座谈会上，对历史人物作 出了精辟的论述：“不能把历史顺境中的成功简单归功于个人，也不能把历史逆境中的挫折 归咎于个人，不能用今天的时代条件、发展水平和认识水平去衡量，要求前人达到今天的要 求，不能苛求前人做出今天人做出的成果。”这一论述表明",
+  "answer_markdown": "D",
+  "analysis_markdown": "【解析】本题考查的知识点：历史人物的评价\nA 选项错在同等重要，B 选项错在改变方向。 C 选项说法不严谨，故选D。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.370135+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "杰出人物与人民群众的历史作用是同等重要的"
+    },
+    {
+      "key": "B",
+      "text": "杰出人物的智慧和性格能够改变历史发展的基本方向"
+    },
+    {
+      "key": "C",
+      "text": "杰出人物在逆境时发挥的作用比在顺境时更大"
+    },
+    {
+      "key": "D",
+      "text": "要从特定历史条件出发，对历史人物做具体全面的考察和评价 ### 答案解析 3."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "历史人物的评价"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "历史人物的评价"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

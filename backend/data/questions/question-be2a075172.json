@@ -1,0 +1,49 @@
+{
+  "id": "question-be2a075172",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 在区间(0,1)内随机取\"个数X】，X2,…,X”.\n(I )求最大数与最小数之间距离d的数学期望；\n(U)若用Y表示兀个数中大于壬的个数，求EY和DY.",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴解 (I )依题设，X( =\n相互独立，且都在(0,1)上服从均匀分布，其概\n率密度为\n=\n0 V 工 V 19\n其他，\n其分布函数为\n1,\n0,\n0,\nX ,\n•Z W 0 9\n0 V z V 1，\n•Z $ 1 ・\n1,\nd = max{Xi ,X2, ••- ,X„} — min{Xi ,X2，…，X”} == X(”)— X(“，\n其中X(”)的概率密度为\nf(n)(j?) = n[F(x)]n_1 • y(x)=\nnz\"-1 ,\n0 <\n< 1,\n0, 其他，\nX⑴的概率密度为\n九\n所以",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 96,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.491264+00:00",
+  "updated_at": "2026-08-23T12:39:52.028785+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "数学期望",
+    "大数定律"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 96,
+      "bbox": [
+        24.0,
+        417.1994934082031,
+        482.3999938964844,
+        472.5865783691406
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 265,
+      "bbox": [
+        24.0,
+        263.6618957519531,
+        482.3999938964844,
+        492.2701416015625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "question-f8af8d44a3",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(10) 设函数*工)在区间［a』］上有二阶导数，且y(a) =/■(〃)=0,屛(a)E(b)>0.证\n明：在(a,b)内存在两点£与乃，使得/(^) = 0,严5)= 0.",
+  "answer_markdown": "",
+  "analysis_markdown": "(10) 证 (I)用反证法.\n假设不存在W W(a,b),使得/•(£) = 0,则在(a,6)内，总有/Xz) > 0或/'(工)< 0.\n若 f(.x) > 0,由 /(a) = /(6) = 0,则\n昇(° =恤心 T(a)= lim\n工十+\nz — a\nx^a+ g _ a\nfg = lim •/&)—严)=lim\n故有岸(a) • f(b) £0,与条件岸(a)/i(b) >0矛盾；\n若 fS < 0,则 屛(a) = lim 必吐 <0,/i(&) = lim\n> 0,\n2 H_b\n—+ 工 _ a\n故有屛(a)£O) =0,与条件屛(a)/i(b) >0矛盾.\n综上可知，存在EWW使得/(?) = 0.\n(H )宙/(a) = /(?) = fCb),在［a,目与［&刃上对分别应用罗尔定理，\n3 771 6(a，g),〃 6(£』)，使得/■'(/) =0,#(芈)=0,对(工)在5 ,处］上再用罗尔定理，\n3 7/ G(芈，02)u (a,b)，使得 f (rf) = 0.",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 21,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.443472+00:00",
+  "updated_at": "2026-08-23T12:39:50.928009+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "导数",
+    "微分"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 21,
+      "bbox": [
+        24.0,
+        514.1739501953125,
+        482.3999938964844,
+        544.2193603515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 42,
+      "bbox": [
+        24.0,
+        605.4612426757812,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 43,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        165.50819396972656
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "politics-2024-018",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "茶叶，采自天然；茶器，匠心独具；茶艺,彬彬有礼。饮茶品茶,陶冶性情:以茶会友，品味人生。从山间一片叶到万家杯中茶，茶叶的生长与旅行，讲述着关于文明与生活的故事，沉淀着中华文明独特的价值理念。有人说“离开了茶文化，茶叶就仅仅只是一片叶子”。从“一片叶子”到“茶文化”表明( )",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "【解析】本题考查的知识点：价值的基本特性\nB选项错在“只是”，意义可以是来自于客观对象，也可以是来自于主观层面，故不选。 A、C、D三个选项说法没有问题且符合题意，因此入选，本题正确答案是选项ACD。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.355644+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "观念的东西不外是移入人脑并经过人脑改造过的物质的东西而已"
+    },
+    {
+      "key": "B",
+      "text": "世界上一切事物所具有的特定意义只是经验外化于对象的意义"
+    },
+    {
+      "key": "C",
+      "text": "客体潜在的价值转化为现实的价值，依赖于实践基础上的主体创造"
+    },
+    {
+      "key": "D",
+      "text": "客体的价值及价值大小，取决于客体的属性及满足主体需要的程度 ### 答案解析 18."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "价值的基本特性"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "价值的基本特性"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

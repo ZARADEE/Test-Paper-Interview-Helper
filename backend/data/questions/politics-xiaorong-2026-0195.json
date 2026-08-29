@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0195",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思主义与空想社会主义在展望未来社会的问题上的根本区别在于",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "第七章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 26,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是否坚持科学的立场观点方法"
+    },
+    {
+      "key": "B",
+      "text": "是否正确预见未来"
+    },
+    {
+      "key": "C",
+      "text": "是否提出未来社会的具体方案"
+    },
+    {
+      "key": "D",
+      "text": "是否批判资本主义旧世界"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第七章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第七章"
+  ],
+  "source_regions": [
+    {
+      "page": 26,
+      "bbox": [
+        104.18499755859375,
+        1131.7752685546875,
+        775.3643798828125,
+        1227.5513916015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 36,
+      "bbox": [
+        444.27801513671875,
+        162.41839599609375,
+        849.3948364257812,
+        368.1849365234375
+      ]
+    }
+  ]
+}

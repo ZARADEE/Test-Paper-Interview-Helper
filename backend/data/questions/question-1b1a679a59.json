@@ -1,0 +1,48 @@
+{
+  "id": "question-1b1a679a59",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(38)求曲线y=3 —1*_1 |与工轴围成封闭图形绕直线夕=3旋转所得旋转体的体积.",
+  "answer_markdown": "",
+  "analysis_markdown": "(38)解 曲线的图形如图3-19所示.\n由已知及对称性，只需考虑工C [0,2]的情况,\nj/ = 3—|j;2—1| =\nj?+2,\n0W_z£l,\n4 —工2,\n1 v g W 2.\n用微元法•任取R,工+ d£ U [0,1],[0,1]匚体初记为V1 ,\n[1,2]上体积记为 V2，则 dVj = tt{32 - [3 - (/ + 2)了血\n同理 dX =兀{3? ― [3 —(4 — j?)]' }dz,故\n448兀\n•2\nV = 2 (Vi +V2) = 2兀「(8 + 2工2 —\njc4 )djc + 2tc (8 + 2jc2 ― 工4 )cLz =\n兀.\nJ1\nJ 0\n八",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 30,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.447851+00:00",
+  "updated_at": "2026-08-23T12:39:51.054192+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 30,
+      "bbox": [
+        24.0,
+        544.2877197265625,
+        482.3999938964844,
+        566.88818359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 75,
+      "bbox": [
+        24.0,
+        381.7497253417969,
+        482.3999938964844,
+        482.09417724609375
+      ]
+    }
+  ]
+}

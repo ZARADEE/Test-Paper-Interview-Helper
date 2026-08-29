@@ -1,0 +1,46 @@
+{
+  "id": "politics-2024-017",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "随着新一代人工智能技术的发展，基于大模型的生成式人工智能(AIGC)在快速回答提问、创作代码、翻唱经典歌曲等方面取得了新的突破。但是，随着技术迭代，人工智能高效地应用于各行各业时，其带来的风险也不容忽视，比如人工智能生成近似原画的内容、构图，可能侵犯原创作者的知识产权;人工智能技术被恶意使用，可能用来从事制造虚假信息、诈骗等违法活动。守住法律和伦理底线，推动人工智能朝着科技向善的方向发展，关键还在于人们更智慧地使用人工智能工具。“更智慧地使用人工智能工具”意味着( )",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "【解析】本题考查的知识点：真理和价值的辩证统一\n C选项科学技术由人的主观意志决定，本身说法错误，不选。A、B、D三个选项，本身说法正确，且符合题意，因此入选，故本题正确答案为选项ABD。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.354113+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "技术进步要以维护人民的根本利益为最高标准"
+    },
+    {
+      "key": "B",
+      "text": "人类活动能够实现合目的性与合规律性的统一"
+    },
+    {
+      "key": "C",
+      "text": "科技发展是由主观意志决定的客观物质活动"
+    },
+    {
+      "key": "D",
+      "text": "成功的实践是真理尺度与价值尺度的统一 ### 答案解析 17."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "真理和价值的辩证统一"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "真理和价值的辩证统一"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

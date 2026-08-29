@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0797",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十八大以来，以习近平同志为核心的党中央积极推进对台工作理论和实践创新，形成新时\n\n代党解决台湾问题的总体方略，牢牢把握两岸关系主导权和主动权，扎实推进祖国统一进程。\n\n解决台湾问题、实现祖国完全统一，是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 117,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国共产党矢志不渝的历史任务"
+    },
+    {
+      "key": "B",
+      "text": "全体中华儿女的共同愿望"
+    },
+    {
+      "key": "C",
+      "text": "由中华民族伟大复兴的时和势所决定的"
+    },
+    {
+      "key": "D",
+      "text": "实现中华民族伟大复兴的必然要求"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 117,
+      "bbox": [
+        83.12300109863281,
+        620.9502563476562,
+        933.9369506835938,
+        780.5286865234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 121,
+      "bbox": [
+        5.055000305175781,
+        1009.7806396484375,
+        414.29180908203125,
+        1152.2591552734375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0780",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "统筹发展和安全，是党和国家的一项基础性工作，是我们党治国理政的一个重大原则。之所以\n\n要统筹发展和安全，是因为发展和安全是两件大事，是一体之两翼、驱动之双轮，必须同步推\n\n进。以下说法正确的有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "指挥是人民军队建设的首要，是人民军队\n\n的命脉所在。A、B 正确。作风优良是保证，\n\n出处精讲下市考点92 -1-00\n\n关系军队的性质、宗旨、本色。在长期实践",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 115,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "发展解决的是动力问题，是推动国家和民族康续绵延的根本支撑"
+    },
+    {
+      "key": "B",
+      "text": "安全解决的是保障问题，是确保国家和民族行稳致远的坚强柱石"
+    },
+    {
+      "key": "C",
+      "text": "发展具有基础性、根本性，是解决安全问题的总钥匙，发展就是最大的安全"
+    },
+    {
+      "key": "D",
+      "text": "安全是发展的条件和保障，没有国家安全，发展取得的成果也可能毁于一旦"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        90.81300354003906,
+        176.2129669189453,
+        929.8939208984375,
+        394.453369140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 119,
+      "bbox": [
+        435.385009765625,
+        1017.55322265625,
+        846.52197265625,
+        1217.366943359375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "question-f1f22136f1",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(13)设*工)在［0,1］上具有二阶导数，且丨/(工)|£a, | /(^) |<6,其中a』都是非\n负常数,c是(0,1)内任一点.\n•\n(I)写出_/(工)在T = C处带拉格朗日余项的一阶泰勒公式；\n(U)证明：I /(c) |<2a + -|.",
+  "answer_markdown": "",
+  "analysis_markdown": "(13)解 (I )/(j;) = f(c) +\n(c)(工 一 c) + (z 一 c)? 介于工与 c 之间.\n(n)在上式中，分别令z = o,z = 1,则育\n/(O) - f(c) + /(c) (0 - c) + =^y^(0 - c)2,0 < e! <c<l,\n/(1)= y(c)+ /(c)(i-c)+ ^-^(i-c)2,o<c<e2 < i.\n两式相减，得/(l)-/(0)=门 c)+ 吉［严(&)(1— c)2—严(&疋］,\n故\nl /(c) I <l /(1)l+l f(o)1+^-1 /(e2)I(i —” +占 i 严(&)丨 c2\nC« + « + yE(l-C)2+c2］.\n又因 c& (O,l),(l-c)2+c2 <1,故 | 门 c) |£2a + #.",
+  "chapter": "一元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 21,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.443472+00:00",
+  "updated_at": "2026-08-23T12:39:50.932574+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "导数",
+    "微分",
+    "泰勒"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 21,
+      "bbox": [
+        24.0,
+        659.4288330078125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 22,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        101.25224304199219
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        24.0,
+        523.6177368164062,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 44,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        105.05216979980469
+      ]
+    }
+  ]
+}

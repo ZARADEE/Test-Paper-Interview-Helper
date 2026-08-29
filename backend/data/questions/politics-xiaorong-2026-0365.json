@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0365",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "各资本主义国家的垄断组织，通过订立协议建立起国际垄断资本的联盟，即国际垄断同盟，以\n\n便在世界范围形成垄断，并在经济上瓜分世界。以下说法正确的有",
+  "answer_markdown": "AD",
+  "analysis_markdown": "产资料所有制发生了新的变化,这就是国家\n\n出处精讲P87施考点79 -4\n\n资本所有制形成并发挥重要作用,法人资本\n\n简析早期的国际垄断同盟主要是国际卡特\n\n所有制崛起并成为居主导地位的资本所有\n\n尔。B 错误。当代国际垄断同盟的形式以\n\n制形式。A 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 53,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "国际垄断同盟在经济上瓜分世界是通过垄断组织间的协议实现的"
+    },
+    {
+      "key": "B",
+      "text": "早期的国际垄断同盟主要是跨国公司"
+    },
+    {
+      "key": "C",
+      "text": "当代国际垄断同盟的形式以国际卡特尔和国家垄断资本主义的国际联盟为主"
+    },
+    {
+      "key": "D",
+      "text": "国家垄断资本主义的国际联盟是由一些资本主义国家的政府出面缔结协定所组成的国际经\n\n济集团"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 53,
+      "bbox": [
+        89.4489974975586,
+        311.40020751953125,
+        929.9153442382812,
+        531.90185546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 69,
+      "bbox": [
+        4.326999664306641,
+        96.1137466430664,
+        422.7779541015625,
+        567.3699340820312
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "question-4c887286d7",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 设曲线L-.x2 + y2 = R2(r > o),取逆时针方向，问K为何值时，积分\nICR)=扌y3dz十(3攵一工3 )dy取得最大值，并求最大值.",
+  "answer_markdown": "",
+  "analysis_markdown": "(6)解 L为闭曲线，利用格林公式9记P = y3 ,Q = 3x — X3,\n3/3 dz + (3力 一 e3 )dy = |J(3 一 3j?2 ― 3y2 )dzdy\nI(R)=\n'R\nD\n—j/2 ) dxdy = 3] d0j (1 一 r2 ) rdr\n—)\n由 d丄器）］=6^（7?-^3）= 0,得尺=1,且\n<［心）］\n=6tc(1 — 3R2)\nR=1\n=—12兀 V 0,\nR=1\ndR2\n故R = 1是唯一极大值点，也是最大值点，最大值为K1) = -yX.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 56,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.468404+00:00",
+  "updated_at": "2026-08-23T12:39:51.504485+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 56,
+      "bbox": [
+        24.0,
+        281.6445007324219,
+        482.3999938964844,
+        328.03851318359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 159,
+      "bbox": [
+        24.0,
+        584.4342041015625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 160,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        118.14976501464844
+      ]
+    }
+  ]
+}

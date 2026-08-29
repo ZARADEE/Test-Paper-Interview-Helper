@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0737",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "改革开放40 多年来，人民代表大会制度为党领导人民创造经济快速发展奇迹和社会长期稳定奇\n\n迹提供了重要制度保障。实践证明，人民代表大会制度是我们党领导人民在人类政治制度史上\n\n的伟大创造，是在我国政治发展史乃至世界政治发展史上具有重大意义的全新政治制度。人民\n\n代表大会制度",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 108,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "有效保证国家沿着社会主义道路前进"
+    },
+    {
+      "key": "B",
+      "text": "有效保证国家治理跳出治乱兴衰的历史周期率"
+    },
+    {
+      "key": "C",
+      "text": "有效保证全体人民直接参与国家管理"
+    },
+    {
+      "key": "D",
+      "text": "有效保证国家政治生活既充满活力又安定有序"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 108,
+      "bbox": [
+        110.31700134277344,
+        1031.2822265625,
+        942.386474609375,
+        1216.22412109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        436.0060119628906,
+        95.43309020996094,
+        771.7349853515625,
+        177.85653686523438
+      ]
+    }
+  ]
+}

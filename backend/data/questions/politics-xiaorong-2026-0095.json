@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0095",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "人的发展是一个社会历史过程，既包括人类整体的发展，也包括人类个体的发展。人的发展指\n人的体力、智力、个性和交往能力等的发展，其中最根本的是",
+  "answer_markdown": "C",
+  "analysis_markdown": "盾的存在和发展。\n\n出处精沛陪考点48\n一1一（2）",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 14,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人的本质力量的对象化、现实化"
+    },
+    {
+      "key": "B",
+      "text": "人类智慧和认知能力的发展"
+    },
+    {
+      "key": "C",
+      "text": "人的自由程度的提高"
+    },
+    {
+      "key": "D",
+      "text": "人的文明程度的提高"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 14,
+      "bbox": [
+        104.05699920654297,
+        1286.504638671875,
+        935.5792846679688,
+        1413.17529296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 20,
+      "bbox": [
+        20.215999603271484,
+        205.95840454101562,
+        425.8755187988281,
+        448.1307678222656
+      ]
+    }
+  ]
+}

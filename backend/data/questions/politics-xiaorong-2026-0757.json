@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0757",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2023 年10 月7 日至8 日，全国宣传思想文化工作会议在北京召开。会议的最重要成果是首次\n\n提出并阐释习近平文化思想。习近平文化思想",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精而薮考点71\n拓展与点拨\n\n第十一章",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 111,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "既有文化理论观点上的创新和突破，又有文化工作布局上的部署要求"
+    },
+    {
+      "key": "B",
+      "text": "明确了新时代文化建设的路线图和任务书"
+    },
+    {
+      "key": "C",
+      "text": "标志着我们党对中国特色社会主义文化建设规律的认识达到了新高度"
+    },
+    {
+      "key": "D",
+      "text": "表明我们党的历史自信、文化自信达到了新高度"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 111,
+      "bbox": [
+        91.03700256347656,
+        1227.075927734375,
+        931.05078125,
+        1412.939208984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        16.5,
+        30.680442810058594,
+        406.23016357421875,
+        105.30789184570312
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0948",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "鸦片战争是中国近代史的起点。鸦片战争之所以成为中国近代史的起点，是因为鸦片战争之后,\n\n随着外国资本主义的入侵",
+  "answer_markdown": "AB",
+  "analysis_markdown": "1919 年的五四运动中，中国工人阶级开始以独\n\n出处精讲下240 考点1 -4-9\n\n立的姿态登上历史舞台。C、D 不符合题意。\n\n箍板随着外国资本主义的入侵，中国的封建",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 139,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国的封建社会逐步成为半殖民地半封建社会"
+    },
+    {
+      "key": "B",
+      "text": "中国人民逐渐开始了反帝反封建的资产阶级民主革命"
+    },
+    {
+      "key": "C",
+      "text": "中国人民对帝国主义的认识进到理性的阶段"
+    },
+    {
+      "key": "D",
+      "text": "中国工人阶级开始以独立的姿态登上历史舞台"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 139,
+      "bbox": [
+        81.79399871826172,
+        827.4281616210938,
+        925.5623168945312,
+        1016.2845458984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 145,
+      "bbox": [
+        432.1319885253906,
+        192.5662384033203,
+        841.68408203125,
+        403.429443359375
+      ]
+    }
+  ]
+}

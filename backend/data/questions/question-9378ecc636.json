@@ -1,0 +1,76 @@
+{
+  "id": "question-9378ecc636",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(2) 设D是由曲线广=1_COS^(0<^<27t)与夕轴所围平面区域，计算\ny = t 一 sm t\nI =『(2z + jOdzdy",
+  "answer_markdown": "",
+  "analysis_markdown": "(2)解 积分区域D如图6-60所示，在直角坐标下，\nD = {(z,》)| 0£》€2兀，0W_zWh(jO}.\n这里工=#(》)由参数方程\nX = 1 — COS t，询宀\ny = t — sin t 确疋.\n”(2z + jOdzdjy = Jj2jrdjrd3/ + Tydjcd^.\nI =\nD\nD\nD\n又\n'2n\n'2k\njj\n=\n•x(y)\n「2 兀\n2h(1z =\nj：2\nJ 0\n0 ・\nD\n{•z[jy(/)]}2 • yf (t)dt\n*2n\nJ o\n•Z = 1 — cos t\ny = t — sin t\nf 2k\n(1 — cos tY • (1 一 cos f)d£\n(1 一 cos tY dt = J (\n'2n\ndt\nt 4\nu\n=16j sin6zzdw\n•2k\nt\nsin6 — dz =\no\nZ\n16 • 2 I 2 sin6 udu = 32 X-^X-^-X^-X-^- = 5兀，\nydjjdy =\n'xf.y')\nf 2tc\ndjc = y • H(;y)dy\no\nJ o\n*2n\nydy\n0 ・\nD\n'2it\nyCt) • h(£)• yf\nJC = \\ — cos t\ny = t — sin t\nf2n;(t 一 sin 0(1 — cos t)2 dt\nJ o\n£ = % + 7t r\n(u + Jt + sin u) (1 + cos uY du\n=j (% + sin u) (1 + cos ?z)2 du + 7t\n(1 + cos uY du\n~7T\n=0 + 7t\n(1 + cos uYdud利用奇函数)\n=2ttj (1 + cos uY du\n16兀「cos4sds\nCn . ；/\nu = 2s\n=8k cos4 万血=\nJ o 2\n=16tt X 2 X £ X 手=3tt2 9\n故 I = 5?r + 3tc2 ・\n【注】 由于D关于直线）=TT对称，故区域D的形心位于夕=兀上，即形心的纵坐标\n=兀.\ny\njj^dxdj/\n恭----- ，则\n由形心公式，知夕=\n•2k\ng)\nD\n卜山曲=\n夕•\njj dxdy = rt\ndxdy = 7r\ndx\ndy\no ,\nD\nD\n•2k\nTV\nD\n'\nx(t) • yf (t)dt\nv o\n•z(_y)d_y =兀\n0 ・\n•2n\n7T\n(1 — cos /) • (1 一 cos i)dz\n•2k\n7T\n‘2兀\nf\nsin4 —At\no\nZ\n(1 一 cos t)2 dt = 4兀\n0 ・\n—=u\nJ 0\n=3tc2.\n8ttJ sin4udu = 16兀| sin4udi4\n=16kx|x|x|",
+  "chapter": "重积分及其应用",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 44,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.456828+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 44,
+      "bbox": [
+        24.0,
+        501.11431884765625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 45,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 122,
+      "bbox": [
+        24.0,
+        537.0997924804688,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 123,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 124,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

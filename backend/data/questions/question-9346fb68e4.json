@@ -1,0 +1,49 @@
+{
+  "id": "question-9346fb68e4",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(24) 设/'(g)在［a,刃上连续，在(a,b)内可导,0 < <2 < 6,证明：存在$诃€ (a,5)，使得\n2v/，(e)= (6 + a)/(7).",
+  "answer_markdown": "",
+  "analysis_markdown": "(24) 证 只需证/(f)= 空？/‘5).\n对 g 及伙在匕,刃上应用柯西中值定理，得\nbj\n即\n/Xb) — *a) = (b + a)/7®\nb 一 a\n2rj\n再由拉格朗日中值定理，存在一点FW (a,b),使得/(f) =\n—/(a)\nb 一 a\n故原等式成立.t",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.441266+00:00",
+  "updated_at": "2026-08-23T12:39:50.864458+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        24.0,
+        345.7580261230469,
+        482.3999938964844,
+        375.1509704589844
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 33,
+      "bbox": [
+        24.0,
+        149.76263427734375,
+        482.3999938964844,
+        262.9381103515625
+      ]
+    }
+  ]
+}

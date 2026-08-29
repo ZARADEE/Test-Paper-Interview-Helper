@@ -1,0 +1,48 @@
+{
+  "id": "question-9b6180c752",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(10) 计算I ^^ydxdy,其中D由下列双纽线所围.\nD\n(I )(x2+y2)2 =2(*—犷)；\n(n)(^2 + y)2 = 2xy.",
+  "answer_markdown": "",
+  "analysis_markdown": "（10）解 （I ）双纽线（y+y）2 = 2（工2—护）如图6-29所示，由于D关于H轴对称,\n关于夕是奇函数，故I\n= 0.\nD\n（U）双纽线（* + b）2 = 2巧如图6-30所示，由于D关于原点对称，而\nxy — （一 攵）（一夕），故\nI = jjrydzdy = 2 Jpryd_zdy（Di 是 D 在第一象限的部分）\nD\nD]\n图 6-29\n【注】设D关于原点对称，则\ncr\n〔2『/■（uOclzdy, f（x,y）关于2,夕是偶函数,\nI。，\n关于工，夕是奇函数,\n其中Di = D Q {（鼻,》）|工$ 0}.",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 41,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.454476+00:00",
+  "updated_at": "2026-08-23T12:39:51.254339+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 41,
+      "bbox": [
+        24.0,
+        511.2584228515625,
+        482.3999938964844,
+        568.99072265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 110,
+      "bbox": [
+        24.0,
+        216.4876708984375,
+        482.3999938964844,
+        540.0909423828125
+      ]
+    }
+  ]
+}

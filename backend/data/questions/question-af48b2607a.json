@@ -1,0 +1,59 @@
+{
+  "id": "question-af48b2607a",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 设/■&)有二阶连续导数,/(0) = 0,/(0) = 1,曲线积分\nI = J [xe2jr 一 6/(j;)3sin y6.x 一 [5/(jc) 一 f' (j：)]cos y6.y\n与路径无关，求/■&)表达式.",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)解 记 P = [^e2x — 6/(j：)]sin y,Q =— [5/(jc) —\n•\n依题意，有爭=羊仝且cos夕芒O9故f (龙)—5*3 + 6/(jc) = xe2x.\n①\ndx dy\n①\n式对应齐次微分方程的特征方程为\nr2-5r + 6 = 0,解得厂]=2心=3•令非齐次微\n分方程的特解 ％\n/* = jr(a0J： + ^i)e2x,\n*，Qi =—1,故方程①的通解为\n代入①式可解得a。\nf (工)=Ci e2j + C2 e3x —\n攵 + 2)0.\n又由 /(0) = 0,/(0) = 1,得 G =-2,C2 = 2,故\nf(x) =— 2e2x + 2e3x —号(工 + 2) e2x.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.470862+00:00",
+  "updated_at": "2026-08-23T12:39:51.541298+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        24.0,
+        236.96145629882812,
+        482.3999938964844,
+        293.32806396484375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        24.0,
+        607.529296875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 168,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        136.11959838867188
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "politics-2025-019",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "竹子全身都是宝，苏东坡曾感叹：“记岭南竹岭南人，当有愧于竹。食者竹笋，庇者竹瓦， 载者竹筏，爨者竹薪，衣者竹皮，书者竹纸，履者竹鞋，真可谓一日不可无此君也耶。”竹 子多样功能表明，事物价值",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "【解析】本题考查的知识点：价值的本质。\n在这一关系中，人是价值主体，与人相对的物或者他人是价值客体。客体对于促成主体目 的、实现主体欲望、满足主体需要，所具有的有利的、积极的属性，就是所谓的价值。也就 是说，某种事物或现象具有价值，就是该事物或现象成为人们的需要、兴趣、目的所追求的 对象。人的需要、兴趣、目的是随着社会环境的改变而改变的，所以通过人的实践而实现的 价值也处在不断变化之中。D 选项属于客观主义价值论。所以本题正确答案是 ABC。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.377755+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "随着客体、主体及其相互关系的变化而变化"
+    },
+    {
+      "key": "B",
+      "text": "随主体兴趣、感情和欲望的转移而变化"
+    },
+    {
+      "key": "C",
+      "text": "随实践的发展由潜在的价值转变为现实的价值"
+    },
+    {
+      "key": "D",
+      "text": "随客体属性的自然显露而转化为社会价值 ### 答案解析 19."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "价值的本质。"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "价值的本质。"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

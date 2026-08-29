@@ -1,0 +1,50 @@
+{
+  "id": "question-decd4796ff",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(28) 设/■(\")=\n二J求/&)的单调区间与极值.\n(x = tin 19",
+  "answer_markdown": "",
+  "analysis_markdown": "(28)解\nlim/(x) = lim工2工=limeMn\" = e^o+\n工-*。+\nH-*■()+\n工-*。+\nlim/(jr) = lim (jc + 2)\n■rf 0\nHfO\n2x2x (In z + 1)，\n故 2)在工=o处不连续，所以不可导，于是有fg =\n•Z〉0，\n工V 0.\n1，\n令_/(2)= 0,得驻点X =丄，故工=0与Z =丄是可能的极值点.\ne\ne\n1 -, …\n当 2 V 0 时，f ⑺=1 > 0；当 0 V^V二时，/'(e) V 0,故 /(0) = 2 是 /(jc)的极大值.\ne\n时,fjx) > 0,故于(+ )=\n当0 V© V +时/(z) <0；当2〉+时，# (工)〉0,故/(g)=厂吕是的极小值.\ne\n*，+ OO\n内单调增加，在(0,右)内单调减少\n综上可知，fS 在(—00,0)与(\n1 一 In t\ndy = y' (t) _ __________\ndz j/(/)\n?2 (1 + In t)'",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.441266+00:00",
+  "updated_at": "2026-08-23T12:39:50.870980+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "微分",
+    "单调",
+    "极值"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        24.0,
+        515.6978149414062,
+        482.3999938964844,
+        549.7905883789062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 34,
+      "bbox": [
+        24.0,
+        503.0488586425781,
+        482.3999938964844,
+        656.7738647460938
+      ]
+    }
+  ]
+}

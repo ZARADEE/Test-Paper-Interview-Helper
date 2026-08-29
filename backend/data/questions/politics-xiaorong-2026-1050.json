@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1050",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "从1953 年开始，在过渡时期总路线的指引下，中国共产党领导人民开始进行有计划的社会主\n\n义建设和有系统的社会主义改造。当时中国之所以要着力进行和可能进行社会主义改造，主要\n\n是因为",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 154,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会主义工业化是国家独立富强的首要条件"
+    },
+    {
+      "key": "B",
+      "text": "资本主义经济力量弱小，发展困难，不可能成为中国工业起飞的基础"
+    },
+    {
+      "key": "C",
+      "text": "对个体农业进行社会主义改造，是保证工业发展、实现国家工业化的一个必要条件"
+    },
+    {
+      "key": "D",
+      "text": "当时的国际环境也促使中国选择社会主义"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 154,
+      "bbox": [
+        103.11399841308594,
+        639.4924926757812,
+        934.2321166992188,
+        855.5874633789062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 159,
+      "bbox": [
+        436.94000244140625,
+        887.2369384765625,
+        857.2387084960938,
+        1216.738525390625
+      ]
+    }
+  ]
+}

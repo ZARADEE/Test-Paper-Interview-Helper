@@ -1,0 +1,57 @@
+{
+  "id": "question-473b1f7299",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(11) 设 D：x2 -yz £ 2z,则 I = JJ(2jc + 3j/)dzdy = ________ .\nD",
+  "answer_markdown": "2 兀.",
+  "analysis_markdown": "2 兀.\n解 D如图6-13所示，利用极坐标，\n*2cos 0\n=2\n(2rcos 0 + 3rsin 0)厂d厂\no\n^cos4d + 8cos39 • sin 0)d0\n=32 ff\ncos4 6d9 + 0\n一 3\n3 .\n= TxfXIXT = 2-\n【注】 ①考虑到被积函数关于乂7都是一次函数，可利用形心坐标（乏3）=（1，0）・\njjr^d^rdj/ JJzdzdj/\n王=D\n2___________  = d_______\nJJodxd^ ]｝山曲\nD\nD\n有JJzdEdy = x • jjdzdy,其中 jJdjcdj/ 表示 D 的面积.\nD\nD\nD\n同理，]J»山曲=歹•\n所以\nD\nD\nI =\n+ 3y)dxdy = (2 壬+ 3 歹)兀・ l2 = 2兀・\nD\n②\n考虑到\nD关于直线工=1对称，则\nJJ[2(h — 1)+2 +\njJ(2j： + 3j/)dj?dj/ =\nD\n0,所以\nD\n将x— \\视为整体，它为奇函数，故』2(h— l)d^dj/ =\nD\nI = 2 JJcLzdy + 3 jjydzdy ・\nD\nD\n又D关于力轴对称，故3 jpy chrdy = 0，于是\nD\nI = 2 jjdjrd^ =\n2 X 7t X I2 = 2兀.\nD",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 40,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.453376+00:00",
+  "updated_at": "2026-08-23T12:39:51.238982+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 40,
+      "bbox": [
+        24.0,
+        569.558837890625,
+        482.3999938964844,
+        604.9287109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 104,
+      "bbox": [
+        24.0,
+        524.0326538085938,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 105,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        362.1335144042969
+      ]
+    }
+  ]
+}

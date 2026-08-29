@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-008",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "建立大安全大应急框架，完善公共安全体系，推动公共安全治理模式",
+  "answer_markdown": "C",
+  "analysis_markdown": "",
+  "chapter": "综合",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.586863+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "从分散接管到单一接管的转变"
+    },
+    {
+      "key": "B",
+      "text": "从政府监管到市场监管的转变"
+    },
+    {
+      "key": "C",
+      "text": "从事后监管到事前干预的转变"
+    },
+    {
+      "key": "D",
+      "text": "从危机疏导到危机干预的转变"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "综合"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "综合"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

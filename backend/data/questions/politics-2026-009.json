@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-009",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "绿色发展是中国式现代化的鲜明底色。环保是企业的“加分项”,而今却是生存发展的“及格线”,无处堆放的工业废物，如今许多已成为可以生财的宝贝。消费的思维也发生了潜移默化的转变：外卖选择无需餐具，出行采用共享单车，买家电选一级能效…….这些看得见摸得着的变化充分说明，生态环境问题系统解决的治本之策是",
+  "answer_markdown": "B",
+  "analysis_markdown": "",
+  "chapter": "综合",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.587918+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "国土空间开发布局优化"
+    },
+    {
+      "key": "B",
+      "text": "经济发展方式和生活方式转变"
+    },
+    {
+      "key": "C",
+      "text": "生态文明制度体系的完善"
+    },
+    {
+      "key": "D",
+      "text": "山水林田湖草沙一体化的保护和系统治理"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "综合"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "综合"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

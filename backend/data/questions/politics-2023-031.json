@@ -1,0 +1,44 @@
+{
+  "id": "politics-2023-031",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "法律义务是指由一定的社会物质生活条件所志愿的社会责任，是保证法律所规定的义务人按照权利人要求从事一定行为或不从事一定行为以满足权利人权益的法律手段。正确的有：",
+  "answer_markdown": "AC",
+  "analysis_markdown": "解析：本题考查法律义务。法律义务具有以下四个特点：其一，法律义务是历史的。\n其内容和履行方式是随着经济社会的发展和人权保障的进步而不断调整和变化的。其\n二，法律义务源于现实需要。其三，法律义务必须依法设定。其四，法律义务可能发生\n变化。故本题正确选项为AC。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.580853+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "法律义务必须依法设定"
+    },
+    {
+      "key": "B",
+      "text": "法律义务是一成不变的"
+    },
+    {
+      "key": "C",
+      "text": "法律义务源于现实需要"
+    },
+    {
+      "key": "D",
+      "text": "法律义务是义务人自主实施的行为 ### 答案解析 31."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

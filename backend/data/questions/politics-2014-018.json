@@ -1,0 +1,44 @@
+{
+  "id": "politics-2014-018",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "作家史铁生在《奶奶的星星》中讲道，奶奶告诉他的故事与通常的说法不同：一般人说，地上死一个人，天上就熄灭一颗星星；而奶奶说，地上死一个人，天上又多了一个星星，人死了就会升到天空，变成星星给走夜道的人照个亮了。于是他“慢慢相信，每一个活过的人，都能给后人的路途上添些光亮，也许是一颗巨星，也许是一把火炬，也许只是一支含泪的烛光……”这对我们理解个人在社会历史中的作用的启示有：",
+  "answer_markdown": "CD",
+  "analysis_markdown": "【解析】社会的发展是由人民群众来推动的，人民群众是历史的创造者，人民群众的实践活动决定历史发展的方向，所以A，B选项是错误的。历史是由无数个人相互作用的合力的结果，每一个人无论能力大小都会对社会的发展产生作用，所以CD选项正确的。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.484531+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "杰出个人决定历史发展的走向"
+    },
+    {
+      "key": "B",
+      "text": "人人都是历史的创造者"
+    },
+    {
+      "key": "C",
+      "text": "历史是无数个人相互作用的合力的结果"
+    },
+    {
+      "key": "D",
+      "text": "每个人对社会发展都有或大或小的作用"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

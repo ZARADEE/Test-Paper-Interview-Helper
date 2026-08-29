@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0314",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在市场上，不同的商品有不同的价格，同一种商品的价格也经常变动。实际上，在令人眼花缭\n乱的价格运动背后有一个规律在起着支配的作用，这就是价值规律。价值规律",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "是支付手段。\n\n出处精丽画考点65\n\n点拨本题可结合2014年真题第19题理解。\n\n简析价值规律是商品生产和商品交换的基",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 46,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "既支配商品生产，又支配商品流通"
+    },
+    {
+      "key": "B",
+      "text": "是资本主义社会特有的经济规律"
+    },
+    {
+      "key": "C",
+      "text": "起作用的形式在一定条件下可以发生变化"
+    },
+    {
+      "key": "D",
+      "text": "是在市场配置资源的过程中体现它的客观要求和作用的"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 46,
+      "bbox": [
+        103.81700134277344,
+        1195.4947509765625,
+        936.199951171875,
+        1383.655517578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 62,
+      "bbox": [
+        16.687999725341797,
+        257.0152893066406,
+        433.7574768066406,
+        824.7438354492188
+      ]
+    }
+  ]
+}

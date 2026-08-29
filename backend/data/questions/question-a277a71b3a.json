@@ -1,0 +1,75 @@
+{
+  "id": "question-a277a71b3a",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "（6） 设矩阵 A加X” 9 ^nXm 9 则（\n）.",
+  "answer_markdown": "B",
+  "analysis_markdown": "解 对选项E,由r(AB)(A) £ n < m,而AB为m X m矩阵，故必有| AB \\ — 0.",
+  "chapter": "线性方程组",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 72,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.478451+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [
+    {
+      "key": "A",
+      "text": "当m > %时,AB必可逆"
+    },
+    {
+      "key": "B",
+      "text": "当m〉n时9必有I AB | = 0"
+    },
+    {
+      "key": "C",
+      "text": "当n > m时，必有r（AB ） V加"
+    },
+    {
+      "key": "D",
+      "text": "当n〉m时,ABx = 0必有唯一解"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "线性方程组"
+  ],
+  "source_regions": [
+    {
+      "page": 72,
+      "bbox": [
+        24.0,
+        583.0704345703125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 73,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 206,
+      "bbox": [
+        24.0,
+        162.93765258789062,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

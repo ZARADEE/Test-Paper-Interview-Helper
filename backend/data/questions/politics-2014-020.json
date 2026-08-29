@@ -1,0 +1,44 @@
+{
+  "id": "politics-2014-020",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "第二次世界大战结束以来，随着国家垄断资本主义的形成和发展，资产阶级国家对经济进行的干预明显加强，从而使得资本主义社会的经济调节机制发生了显著变化。与这种变化相适应，经济危机形态也发生了很大变化，其主要表现是：",
+  "answer_markdown": "BC",
+  "analysis_markdown": "【解析】随着资本主义社会的发展，资本主义经济危机的形态已经发生了变化，主要表现在两个方面，金融危机更加频繁的发生，而且经济危机的几个过程已经不是很明显的区分开来。所以本题的答案是B、C。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.487543+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "经济危机通常由国家间的贸易失衡直接引发"
+    },
+    {
+      "key": "B",
+      "text": "经济危机各阶段的交替过程已不十分明显"
+    },
+    {
+      "key": "C",
+      "text": "经济危机更多地表现为金融危机的频繁发生"
+    },
+    {
+      "key": "D",
+      "text": "经济危机的破坏作用只局限于发达资本主义国家"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

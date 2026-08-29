@@ -1,0 +1,74 @@
+{
+  "id": "question-02cf7f358e",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)设只(乙,y ) \" = 1,2,3为平面上三个不同的点，又A =\n工2\nyz\n夕3\n).\nP2,P3在同一条直线上的充要条件是(",
+  "answer_markdown": "B",
+  "analysis_markdown": "解 从几何上考虑，由Pi，P2,P3在My面中是在同一直线\n上的三点，知空间中的三点(劝，力，1),皿2(02，夕2，1)，\nM3 (口，了3，】)在同一平面Z = 1上，即为同一空间直线上三个不同\n点，因此三个向量时，亟石，◎石共面但不共线，如图13-2所示，\n丨A | = 则,亟石,曲的混合积=0,\n故 r(A) < 3,又不共线，知 r(A)〉1,故 r(A) = 2.",
+  "chapter": "线性方程组",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 73,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.479594+00:00",
+  "updated_at": "2026-08-23T12:39:51.774513+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "r(A) = 1"
+    },
+    {
+      "key": "B",
+      "text": "r(A) = 2"
+    },
+    {
+      "key": "C",
+      "text": "| A | = 0"
+    },
+    {
+      "key": "D",
+      "text": "| A | 工 0"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "方程组"
+  ],
+  "tags": [
+    "线性代数",
+    "线性方程组"
+  ],
+  "source_regions": [
+    {
+      "page": 73,
+      "bbox": [
+        24.0,
+        627.6407470703125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 74,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        58.00471115112305
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 208,
+      "bbox": [
+        24.0,
+        485.56671142578125,
+        482.3999938964844,
+        579.8165893554688
+      ]
+    }
+  ]
+}

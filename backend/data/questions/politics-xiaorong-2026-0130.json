@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0130",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在资本主义条件下，劳动是否是生产性的，取决于",
+  "answer_markdown": "B",
+  "analysis_markdown": "知识储备题\n\n到劳动力以后，在消费过程中，不仅能够收\n\n简析在资本主义条件下，劳动是否是生产\n\n回他在购买这种特殊商品时支付的价值，还\n\n能得到一个增殖的价值即剩余价值。C 正\n\n性的,并不取决于劳动是生产物质产品还是\n\n提供服务，而取决于劳动能否为资本家带来\n\n确。A、B、D 不符合题意。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 19,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "劳动是生产物质产品还是提供服务"
+    },
+    {
+      "key": "B",
+      "text": "劳动能否为资本家带来剩余价值"
+    },
+    {
+      "key": "C",
+      "text": "具体劳动能否还原为抽象劳动"
+    },
+    {
+      "key": "D",
+      "text": "劳动力是否为社会生产发展所绝对需要"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 19,
+      "bbox": [
+        91.81300354003906,
+        342.86712646484375,
+        884.3355102539062,
+        444.0897521972656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 26,
+      "bbox": [
+        20.554000854492188,
+        560.6913452148438,
+        433.81414794921875,
+        797.0812377929688
+      ]
+    }
+  ]
+}

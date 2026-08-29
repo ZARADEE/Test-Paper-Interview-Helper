@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-1206",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "与以往社会的道德形态相比，社会主义道德具有显著的先进性特征。这种先进性主要体现在,\n\n社会主义道德",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "出处睛语再咬］考点34 -3\n\n出处精讲\"国GT 考点32 -2",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 175,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是社会主义经济基础的反映"
+    },
+    {
+      "key": "B",
+      "text": "是对人类优秀道德资源的批判继承和创新发展"
+    },
+    {
+      "key": "C",
+      "text": "克服了以往阶级社会道德的片面性和局限性"
+    },
+    {
+      "key": "D",
+      "text": "在上层建筑中居于核心地位"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 175,
+      "bbox": [
+        92.26899719238281,
+        1225.2373046875,
+        936.6444702148438,
+        1410.9627685546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 180,
+      "bbox": [
+        14.919000625610352,
+        1211.530029296875,
+        421.39898681640625,
+        1319.297119140625
+      ]
+    },
+    {
+      "page": 180,
+      "bbox": [
+        470.2030029296875,
+        34.715126037597656,
+        847.716064453125,
+        324.7322998046875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0164",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会生产是连续不断地进行的，这种连续不断重复的生产就是再生产。社会再生产的核心问题是",
+  "answer_markdown": "B",
+  "analysis_markdown": "精丽浮西考点71 -3\n\n出处丽面引考点72 -4-（1）\n\n置机\" 某资本家投资100 万元，每次投资的\n\n简析社会再生产的核心问题是社会总产品\n\n利润为25 万元，利润与剩余价值在量上是\n\n一样的，故该资本家每次投资的剩余价值\n\n的实现问题，即社会总产品的价值补偿和实\n\n小为25 万元。每次投资的剩余价值率（一）\n\n物补偿问题。B 正确。\n\n为125% ,剩余价值率是剩余价值（zn）与可",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 22,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "两大部类在总量上的比例问题"
+    },
+    {
+      "key": "B",
+      "text": "社会总产品的价值补偿和实物补偿问题"
+    },
+    {
+      "key": "C",
+      "text": "工资与剩余价值的分配问题"
+    },
+    {
+      "key": "D",
+      "text": "劳动过程和价值增殖过程的统一问题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 22,
+      "bbox": [
+        102.63500213623047,
+        1044.1214599609375,
+        932.1889038085938,
+        1147.011474609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 31,
+      "bbox": [
+        434.06500244140625,
+        621.73046875,
+        854.8045654296875,
+        1177.3663330078125
+      ]
+    }
+  ]
+}

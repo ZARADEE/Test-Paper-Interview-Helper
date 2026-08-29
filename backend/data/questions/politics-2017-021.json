@@ -1,0 +1,44 @@
+{
+  "id": "politics-2017-021",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1921年3月，俄工(布)召开十大，决定从战时共产主义政策过度到新经济政策。在实施新经济政策期间，列宁对苏维埃俄国如何建设社会主义进行了深刻的理论思考，提出了许多精辟的论述，其内容包括",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "【解析】在俄国社会主义革命取得胜利的初期，特别是实行新经济政策期间，列宁对苏维埃俄国如何建设社会主义进行了深刻的理论思考，提出了许多精辟的论述。把建设社会主义作为一个长期探索、不断实践的过程。把大力发展生产力、提高劳动生产率放在首要地位。在多种经济成分并存的条件下，利用商品、货币和市场发展经济。利用资本主义，建设社会主义。因此，选项ABCD都正确。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.535155+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "可以利用资本主义来建设社会主义（ ）"
+    },
+    {
+      "key": "B",
+      "text": "把建设社会主义作为一个长期探索、不断实践的过程"
+    },
+    {
+      "key": "C",
+      "text": "把大力发展生产力、提高劳动生产率放在首要地位"
+    },
+    {
+      "key": "D",
+      "text": "允许多种经济成分并存，可以利用商品、货币和市场发展经济 ### 答案解析 21."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

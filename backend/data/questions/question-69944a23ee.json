@@ -1,0 +1,48 @@
+{
+  "id": "question-69944a23ee",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(12) 将/(j?) = sin工+ hcos x展开为z的暮级数，并求£ (—】)\"乔\"f 的和.",
+  "answer_markdown": "",
+  "analysis_markdown": "(12)解\n严⑴=n\\a,\nfix} = sin x + 无cos x\n+ 丘(一 1)\"-\n工 _D\" (2“ + 1)!\n(2小！\n幺 1\n-H——-—[工2卄1\n+ D! ⑵)！」\n—另(一1)\" Z(\" + 1)工2»+1\n(—00,4-00)\n纟\n(2“十1)!，亡i\n，十儿\n令 2=1,则 马(一1)\"-(打[；)! = y/( 1) = y (sin 1 + cos 1).\n25 + 1)\n【注】(2/2+ 1)! 1 (2n)I ~ (2« + l)! ■",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.462366+00:00",
+  "updated_at": "2026-08-23T12:39:51.469533+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        24.0,
+        98.05438232421875,
+        482.3999938964844,
+        130.0010223388672
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 152,
+      "bbox": [
+        24.0,
+        337.79632568359375,
+        482.3999938964844,
+        483.4376220703125
+      ]
+    }
+  ]
+}

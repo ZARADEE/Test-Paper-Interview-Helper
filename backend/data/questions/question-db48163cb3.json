@@ -1,0 +1,48 @@
+{
+  "id": "question-db48163cb3",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "⑹直线Lj\"】\"'与之间的距离\"________ .\n\\y = z\n[n 十 2 = 0\n/_j_ 2 v — 3n = 2",
+  "answer_markdown": "1.",
+  "analysis_markdown": "1.\n解 先求过直线L2的平面兀，使平面兀平行于直线L1.设过直线L2的平面束方程\nTT\n■: (x + 2y) +A(z + 2) = 0,即 jc + 2j/ + ；U + 2入=0.\n由平面束兀平行于直线Li ,知\"丄s,其中\"=(1,2,入)，s = (0,1,1),故\nn • s = (1,2,A) • (0,1,1) = 2+入=0,\n得入=—2,所求平面兀为^ + 2y-2z~4 = 0,故L】上的点(1,0,0)到平面兀的距离为\n| 1 + 0 + 0 — 4 |\nd = _!____!__—_1   —―!—=]\nyp + 22 +(-2)2\n1二化为对称式方程为迁辽=* =(，故其方向向量为\n【注】直线b：y — z\ns = (0,1,1),且过点(1,0,0).",
+  "chapter": "空间解析几何",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 32,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.448957+00:00",
+  "updated_at": "2026-08-23T12:39:51.085376+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "空间解析几何"
+  ],
+  "tags": [
+    "高等数学",
+    "空间解析几何"
+  ],
+  "source_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        24.0,
+        571.058349609375,
+        482.3999938964844,
+        608.9231567382812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        24.0,
+        390.08892822265625,
+        482.3999938964844,
+        510.418701171875
+      ]
+    }
+  ]
+}

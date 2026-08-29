@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0052",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“世界不会满足人，人决心以自己的行动来改变世界。” 这句话体现的是实践基本特征中的",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "第二章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 8,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "自觉能动性"
+    },
+    {
+      "key": "B",
+      "text": "物质性"
+    },
+    {
+      "key": "C",
+      "text": "客观性"
+    },
+    {
+      "key": "D",
+      "text": "社会历史性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第二章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第二章"
+  ],
+  "source_regions": [
+    {
+      "page": 8,
+      "bbox": [
+        99.27400207519531,
+        672.2955932617188,
+        886.62548828125,
+        737.697265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 11,
+      "bbox": [
+        430.7040100097656,
+        984.2003784179688,
+        840.8204345703125,
+        1286.1422119140625
+      ]
+    }
+  ]
+}

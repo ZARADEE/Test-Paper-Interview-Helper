@@ -1,0 +1,44 @@
+{
+  "id": "politics-2015-005",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新中国的工业化是在苏联的影响下起步的。走中国工业化道路，是中国共产党初步探索我国社会主义建设道路的一个重要思想。当时所讲的工业化道路问题，主要是指：",
+  "answer_markdown": "D",
+  "analysis_markdown": "【解析】《关于正确处理人民内部矛盾的问题》一文中，毛泽东明确提出要走一条有别于苏联的中国工业化道路。走中国工业化道路，强调要正确处理重工业和轻工业、农业的关系，毛泽东提出了以农业为基础，以工业为主导，以农轻重为序发展国民经济的总方针，以及一整套“两条腿走路”的方针，即重工业和轻工业同时并举，中央工业和地方工业同时并举，沿海工业和内地工业同时并举，大型企业和中小型企业同时并举等。因此，本题的正确答案是D。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.494820+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "经济建设和国防建设的关系问题"
+    },
+    {
+      "key": "B",
+      "text": "中央和地方的关系问题"
+    },
+    {
+      "key": "C",
+      "text": "沿海工业和内地工业的关系问题"
+    },
+    {
+      "key": "D",
+      "text": "重工业、轻工业和农业的发展关系问题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

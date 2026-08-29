@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-001",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“十五五”时期在基本实现社会主义现代化进程中具有承前启后的重要地位，习近平总书记在《关于\n的说明》中指出，实现社会主义现代化是一个阶梯式递进、不断发展进步的历史过程，需要不懈努力、接续奋斗。“阶梯式递进、不断发展进步”的过程是一个\n\n　　①前进性和曲折性相统一的过程\n\n　　②规律性和能动性相统一的过程\n\n　　③连续性和非连续性相统一的过程\n\n　　④直线性和循环性相统一的过程",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "中国近现代史",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.387363+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "①②③"
+    },
+    {
+      "key": "B",
+      "text": "①②④"
+    },
+    {
+      "key": "C",
+      "text": "①③④"
+    },
+    {
+      "key": "D",
+      "text": "②③④ 【"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

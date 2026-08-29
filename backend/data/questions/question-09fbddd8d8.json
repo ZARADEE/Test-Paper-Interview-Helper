@@ -1,0 +1,58 @@
+{
+  "id": "question-09fbddd8d8",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(10) 设总体X的概率密度为/•&；&)=<歹'\n'其中0>0为未知参数,\n、0, 其他，\n(X1,X2,…，X”)为X的简单随机样本，戈=丄Y” = max{Xi，X2,…，X”},证明：\n71 2 = 1\n迢土^丫”与斗衣都是0的无偏估计量.\nin\n(II) 设总体x〜参数p 6 [+，*]，样本容量为1，求P的最大似然估计值.",
+  "answer_markdown": "",
+  "analysis_markdown": "（10）证依题意，得\n3jc2」\n3 o\nEX =\n・+oo\np\n好(工；e)djc = jc •\n—8\nJ 0\n= ±EX = ±EX\nE\n（Tx）\n所以寻衣是&的无偏估计量.\n又X的分布函数为\n•Z W 0 9\n0,\n工3\nFQ)=\n0 Ve <久\n1,\nY” = max{Xi，X2,…，X”}的分布函数 Fy” Q)为\nFy” (x) = P{max{Xi ,X2, ,Xn} W z}\n=P{Xi ^.x,X2 W z,…，X” £ z}\n=P{X1 ^x}P{X2 <x}-P{X„\n=[FQ)]\",\n故Y”的概率密度为\no W z w 0,\n3nz3n_1\njr =-----------------------\n护”\nfyn（鼻）=Fyn （攵）=\nn\nLi 3\n• --  •\ne3\nlo,\n*4-00\n•9\n所以\nE(Y”)=\n^fyn(H)dz =\nX\n护”\n其他，\n3\" A\n3/? + r5\n故E(驾」Y”)= 驾」• 屛T& = e，即驾1 Y”也是°的无偏估计量•",
+  "chapter": "参数估计",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 103,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.493264+00:00",
+  "updated_at": "2026-08-23T12:39:52.072451+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "样本",
+    "参数估计"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "参数估计"
+  ],
+  "source_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        24.0,
+        169.3599395751953,
+        482.3999938964844,
+        279.3828125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 280,
+      "bbox": [
+        24.0,
+        414.9376220703125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 281,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        70.15129852294922
+      ]
+    }
+  ]
+}

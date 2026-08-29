@@ -1,0 +1,48 @@
+{
+  "id": "question-66f42a7fc0",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(15) 某均匀物体由上、下两部分组成，上部分是半径为a的半球体，下部分是底面半径\n为a、高为3的直圆锥体，且半球体的底面圆与圆锥的底面重合，问当a为何值时，此物体的质\n心恰好在球心位置？",
+  "answer_markdown": "",
+  "analysis_markdown": "(15)解\n建立如图6-55所示的直角坐标系，将球心置\n于原点，球底面放在工0夕上，则球面方程为\n2 2~\n一工—y・\nz = \\fc^\n又AB直线方程为\n“ +七=1,\n5 a — 3\nL = o,\n即\na '彳'绕z轴旋转得到z — — J工\"+护—3 ,即为\n•T = 0 9\na\n圆锥面方翟.\n由已知条件，质心坐标(x,y,z) = (0,0,0),故\nJJz^odV jj^dV\n乏=V\nV\n详-------而—=°(常数Q为物体的密度)，\nfdy Idy\nV\nV\nlzdy =0-\n从而有\nV\n考虑到上部分为半球体，下部分为圆锥体，故分别采用球坐标和柱坐标计算,\n‘2兀\n•o\nJjz dV = J d^J2 dpj rcos <p • r2 sin cpdr +\nd0| rdr\n° zdz\n-r-3\no .\nV\nJ 0 J\n^•a4-6a2+|a2\n_ 9 la\"\n—Z7r •\n— — 7T\n=-y-a2 (a2 — 3) = 0,\n解得a = 43.\n证 积分区域D如图6-56所示，D关于直线y\n(16\n称，由轮换对称性，得\nj\nC/（O7）—于（夕）］drcly\nD\n=］^/（>）/（^）［/（^）— _/（z） ］clzdy\nD\n=iS\n— f（y）］ +\nD\n—（x）f（y）（j： — j/）［/（j7）— f（.y）2dxdy,\nD\n由已知> 0,考虑到 g 单调减少，故Q — wg） _y（3，）］ < 0,于是\n- fCy^dxdy < 0.\nD",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 44,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.456828+00:00",
+  "updated_at": "2026-08-23T12:39:51.307822+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 44,
+      "bbox": [
+        24.0,
+        154.5126495361328,
+        482.3999938964844,
+        192.5843963623047
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 120,
+      "bbox": [
+        24.0,
+        168.24630737304688,
+        482.3999938964844,
+        646.5381469726562
+      ]
+    }
+  ]
+}

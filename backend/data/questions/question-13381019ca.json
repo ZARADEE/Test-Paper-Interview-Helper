@@ -1,0 +1,48 @@
+{
+  "id": "question-13381019ca",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(13)设 a = (&,0,…，0M)T(怡工 0),且 A\naa v = E + -~-aar,则\nk\nk =",
+  "answer_markdown": "— 1 或*.",
+  "analysis_markdown": "— 1 或*.\n解 AA-1 = (E — aa ' )梓 +\n「) = E — aa l + -yaa 1\n丄 T T\n——aa aa ・\nk\n而 aTa = 2段，故 AA-1 = _E+(—l+ — —'^aa1 = E,\n于是一 1 +\n— 2k = 0,解得怡=—1或怡=\nk",
+  "chapter": "矩阵",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 65,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.475218+00:00",
+  "updated_at": "2026-08-23T12:39:51.650573+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 65,
+      "bbox": [
+        24.0,
+        253.14578247070312,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 188,
+      "bbox": [
+        24.0,
+        528.5028686523438,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

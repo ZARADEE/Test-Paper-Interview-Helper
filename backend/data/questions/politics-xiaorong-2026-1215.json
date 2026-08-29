@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1215",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新时代公民道德建设的重点任务是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "B、C、D 全选。\n\n出处精讲王羽5 考点tips\n\n第六章",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 177,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "B",
+      "text": "培育和践行社会主义核心价值观"
+    },
+    {
+      "key": "A",
+      "text": "筑牢理想信念之基"
+    },
+    {
+      "key": "D",
+      "text": "弘扬民族精神和时代精神"
+    },
+    {
+      "key": "C",
+      "text": "传承中华传统美德"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 177,
+      "bbox": [
+        88.41400146484375,
+        120.90067291259766,
+        817.178955078125,
+        218.97215270996094
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        9.636999130249023,
+        1036.3275146484375,
+        282.4243469238281,
+        1113.552490234375
+      ]
+    }
+  ]
+}

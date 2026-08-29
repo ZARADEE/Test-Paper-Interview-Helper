@@ -1,0 +1,48 @@
+{
+  "id": "question-6b534e668a",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) 求相关系数Qvv ；\nyi Y2\n(U )问匕与丫2是否相互独立？并说明理由.",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴解 (I)由Xi与X2相互独立及X]〜E(l,p),X2〜E(2,p),可知\nCov(X】，X2)=0,DXi = p(l-p),DX2 =2卫(1一力).\n由-J\"\nCovCYi ,y2) = Cov(2Xi +X2,X1 — X2)= 2DXi -DX2 -Cov(X1 ,X2)\n=2/)(l — p) — 2/>( 1 — p) = 0,\n故\n=Cov(Yi，Y2)=\n昭_75亍亦_ ■\n(H)由于\n{Yi = 0} = {2Xi + X2 = 0} = {Xi = 0,X2 = 0},\n{Y2 = 0} = {Xi — X2 =0} = {Xi - 0,x2 = 0} u {Xi = 1,X2 = 1},\n且{£ = 0} u {y2 = 0},p{y2 = 0} <1,故\nP{Y1 = 0,y2 = 0} = P{Y1 = 0},\nP{Y1 = 0} . P{Y2 = 0} < P{Y1 = 0},\n从而\nP{Y, = 0,y2 = 0} H P{Y1 = 0} . P{Y2 = 0},\n即X与丫2不相互独立.\n【注】此题说明两个随机变量不相关是它们相互独立的必要条件而非充分条件.",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "hard",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 97,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.491264+00:00",
+  "updated_at": "2026-08-23T12:39:52.030820+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "独立"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 97,
+      "bbox": [
+        24.0,
+        350.3913879394531,
+        482.3999938964844,
+        384.719482421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 269,
+      "bbox": [
+        24.0,
+        457.65875244140625,
+        482.3999938964844,
+        669.002197265625
+      ]
+    }
+  ]
+}

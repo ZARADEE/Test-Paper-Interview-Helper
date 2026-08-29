@@ -1,0 +1,48 @@
+{
+  "id": "question-78afd08517",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(10) 设\"为正数,lim (\n= f a：e~ixdj?,则 z?=\n.\n,r-0 \\n + JC ) J -i-\n----------------------",
+  "answer_markdown": "证",
+  "analysis_markdown": "证\n利用泰勒公式，将 2）在%处展开为\na\nr（e）\n2)=\na\nx ——2\n2!\na\n工一号）（£介于号与工之间）,\na_\n>4\nx\n积分，得\n/(〉\no\naI\na \\\nI\n利用单调性证明.令",
+  "chapter": "一元函数积分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 24,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.444620+00:00",
+  "updated_at": "2026-08-23T12:39:50.972230+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 24,
+      "bbox": [
+        24.0,
+        574.8265991210938,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        24.0,
+        464.5488586425781,
+        482.3999938964844,
+        573.6963500976562
+      ]
+    }
+  ]
+}

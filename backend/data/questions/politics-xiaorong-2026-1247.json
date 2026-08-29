@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1247",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "必须坚持宪法的国家根本法地位，是对我国宪法制度建设的规律性认识之一。宪法集中体现了\n\n党和人民的统一意志和共同愿望，是国家意志的最高表现形式，具有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 180,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "根本性"
+    },
+    {
+      "key": "B",
+      "text": "全局性"
+    },
+    {
+      "key": "C",
+      "text": "稳定性"
+    },
+    {
+      "key": "D",
+      "text": "长期性"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 180,
+      "bbox": [
+        102.06099700927734,
+        1076.6705322265625,
+        934.5379638671875,
+        1174.40380859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 184,
+      "bbox": [
+        440.0880126953125,
+        760.2208862304688,
+        856.8818359375,
+        1060.2484130859375
+      ]
+    }
+  ]
+}

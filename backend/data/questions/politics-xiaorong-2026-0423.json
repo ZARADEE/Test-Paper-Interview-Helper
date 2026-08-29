@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0423",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "为了统一全党思想并为制定新民主主义革命的总路线奠定思想基础，毛泽东在延安整风期间从思\n想路线的角度，不仅系统阐述了坚持实事求是的重要性，而且对实事求是的科学含义作了马克思\n主义的界定。他指出，实事求是的“是” 就是",
+  "answer_markdown": "A",
+  "analysis_markdown": "要任务,D 错误。\n\n点拨“出发点和落脚点”这一提法，大部\n\n出处精讲P161包〕考点15\n\n分情况下与“人民” 对应，尤其是在发展、\n\n简析中国式现代化的中国特色（5 个方面）：\n\n建设、改革等宏观话题的语境下。\n\n中国式现代化是人口规模巨大的现代化。\n\n这是中国式现代化的显著特征。中国式现\n\n代化是全体人民共同富裕的现代化。这是中",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 66,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "客观存在着的一切事物"
+    },
+    {
+      "key": "B",
+      "text": "客观事物的内部联系"
+    },
+    {
+      "key": "C",
+      "text": "我们去研究"
+    },
+    {
+      "key": "D",
+      "text": "“有的放矢”"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 66,
+      "bbox": [
+        108.14700317382812,
+        548.3253173828125,
+        940.4130249023438,
+        708.3162231445312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        446.95001220703125,
+        431.38433837890625,
+        855.78857421875,
+        835.6435546875
+      ]
+    }
+  ]
+}

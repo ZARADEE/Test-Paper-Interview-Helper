@@ -1,0 +1,67 @@
+{
+  "id": "question-ad76c0adc8",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)有一根长为L的木棒，将其任意折成三段，记事件A = ｛中间一段为三段中的最长\n者｝，则 P(A)=(\n).\nA•专\nB *",
+  "answer_markdown": "B",
+  "analysis_markdown": "解\n此问题是几何概型.\n设折得的三段长度依次为x,L-x-y,y,则样本空间为\n0= {(攵,夕)| 0W>rWL,0W;y£i,0W_z + yWL}.\n事件A相应的子区域di,应满足0 < X V L — x — y,\nOVyVL — x 一 y,即\nQ = {(工,夕)| 0 V y < L — 2z,0 V y < *(L — z)},\n图 16-2\n如图16-2所示，可知。的面积为-j-L2,^的面积为故P(A)\n丄",
+  "chapter": "随机事件与概率",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 85,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.484944+00:00",
+  "updated_at": "2026-08-23T12:39:51.877389+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "C",
+      "text": "*"
+    },
+    {
+      "key": "D",
+      "text": "彳"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机事件",
+    "概率"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机事件与概率"
+  ],
+  "source_regions": [
+    {
+      "page": 85,
+      "bbox": [
+        24.0,
+        511.62957763671875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 237,
+      "bbox": [
+        24.0,
+        552.20947265625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 238,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

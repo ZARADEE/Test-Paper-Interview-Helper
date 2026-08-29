@@ -1,0 +1,48 @@
+{
+  "id": "question-f4f80bafb1",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(5) 点P(l, -1,0)到直线L：奇=寸=的距离d = ________ .",
+  "answer_markdown": "解",
+  "analysis_markdown": "解\n11 °\n直线L过点Po(O,O, -1),其方向向量£ = (3,3,2).又戸汙=(1, -1,1),\n丽Xs =1-11\n—5i + / + 6k 9\n故所求距离d = | \"心I — vm\n11 '\n■V — M\n三二^的距离为\n【注】 点、P0Cx0,y0,z0)到直线L：匸产\nn\nm\n— Xo\n夕1 —夕0\n勺—Zo\nm\nd =丨 S X PoPi 丨=\nn\n丿厂+加2 + ”2\n其中 Pi (劝，》i ,勺)6 L,s =",
+  "chapter": "空间解析几何",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 32,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.448957+00:00",
+  "updated_at": "2026-08-23T12:39:51.083245+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "空间解析几何"
+  ],
+  "tags": [
+    "高等数学",
+    "空间解析几何"
+  ],
+  "source_regions": [
+    {
+      "page": 32,
+      "bbox": [
+        24.0,
+        537.6488037109375,
+        482.3999938964844,
+        572.058349609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 79,
+      "bbox": [
+        24.0,
+        225.3719940185547,
+        482.3999938964844,
+        391.08892822265625
+      ]
+    }
+  ]
+}

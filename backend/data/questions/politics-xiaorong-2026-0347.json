@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0347",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "资本主义经济危机具有周期性，这是由资本主义基本矛盾运动的阶段性决定的。资本主义经济危机",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "量有关，似乎资本是利润的源泉，从而使\n\n利润的本质和真实的源泉被进一步掩盖。\n\n出处精耕市小考点75 -2",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 50,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "抽象的一般的可能性是由货币作为流通手段和支付手段引起的"
+    },
+    {
+      "key": "B",
+      "text": "本质特征是生产绝对过剩"
+    },
+    {
+      "key": "C",
+      "text": "实际上是以强制的方式解决社会再生产的实现问题的途径"
+    },
+    {
+      "key": "D",
+      "text": "因其周期性爆发的特点使社会资本再生产也呈现出周期性特点"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 50,
+      "bbox": [
+        101.50599670410156,
+        1042.0299072265625,
+        924.9163208007812,
+        1202.2991943359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 67,
+      "bbox": [
+        6.5229997634887695,
+        1015.0751342773438,
+        416.94598388671875,
+        1318.5245361328125
+      ]
+    },
+    {
+      "page": 67,
+      "bbox": [
+        476.8940124511719,
+        30.917476654052734,
+        847.193115234375,
+        128.3972625732422
+      ]
+    }
+  ]
+}

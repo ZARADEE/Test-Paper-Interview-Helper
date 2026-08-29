@@ -1,0 +1,58 @@
+{
+  "id": "question-49c0609c99",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(8)设总体X的概率密度为/■&)=< 忌工\n0,\n(X1,X2,…，X”)为总体\n无W 0，\nX的简单随机样本.\n(I) 求〃的最大似然估计量\n(U)记丫 = In X,求Y的分布函数和E：.\nA",
+  "answer_markdown": "",
+  "analysis_markdown": "（8）解 （I）似然函数为\n不> 0 ,\nTT ——-——g—i(ln x-p.)2\nL®詔丛阿J\nlo,\n”其他\n+ In ---------- 寺丈(In Xi — “)2.\n取对数，得\nIn L(“)= In\n1 = 1\nn\nn\nn L(“)= 丫(In i — 〃)= 0,得p的最大似然估计量为：=—》ln X,.\ni=l\n咒(=1\n(U)\nFy(x) = P{Y^x} = P{ln X<^} = P{X< e\"}\n6 -—Lr e~^(ln ^)2 dt lnt = M\n匚立円宀妆\n，故\n0 \\/2gt\n故丫 = In X服从正态分布N(幻1),所以E(ln X)= 〃\n=E(+Rn X,)= +gE(ln X,)=\ne£\nA",
+  "chapter": "参数估计",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 102,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.493264+00:00",
+  "updated_at": "2026-08-23T12:39:52.069890+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "分布函数",
+    "概率密度"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "参数估计"
+  ],
+  "source_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        24.0,
+        656.3560791015625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 103,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        115.66080474853516
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 280,
+      "bbox": [
+        24.0,
+        98.09404754638672,
+        482.3999938964844,
+        300.04119873046875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-014",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平强调：“我为什么要对青年讲社会核心价值观的问题?是因为青年的价值观取向决定未来整个社会价值取向，而青年又处在价值观形成和确立的时期，抓好这一时期十分重要。这就像穿衣服扣扣子一样，如果第一粒扣子扣错了，剩余的扣子都会扣错。人生的扣子从一开始就要扣好。”从“人生的第一颗扣子就要扣好”强调",
+  "answer_markdown": "B",
+  "analysis_markdown": "",
+  "chapter": "思想道德修养",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.409109+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "核心价值观是青年成长中的关键"
+    },
+    {
+      "key": "B",
+      "text": "对青年的价值观教育需抓早抓实"
+    },
+    {
+      "key": "C",
+      "text": "青年健康成长需要价值观引领"
+    },
+    {
+      "key": "D",
+      "text": "核心价值观教育是青年的立身之本"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "思想道德修养"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

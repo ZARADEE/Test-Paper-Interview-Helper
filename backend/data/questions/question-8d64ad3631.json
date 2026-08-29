@@ -1,0 +1,57 @@
+{
+  "id": "question-8d64ad3631",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(11) 将/(-^)= f---- -在h = 1处展开为幕级数，并求/(n) (1).\n3 一 x",
+  "answer_markdown": "",
+  "analysis_markdown": "(11)由(I),知 2 (\" 卄1 — \"”)绝对收敛，从而A(U 卄1\n%\") 收敛，故其部分和的极限\nn=1\nn=1\nlimS” = lim(“卄i 一 “i )存在，从而lim”卄i存在(\"i是一个数)，即lim“”存在.\n7t\n72—>OO\n>00\n〃一>00\n“一>00\n⑺解 由 sin a//?2 + Itt = sin[九兀 + ( J代十 1 一 “)兀]=(—l)\"sin( ^/z?2 + 1 —\")\n=(―l)”sin\n—,\n+ ] + n\n7T\n且sin\n— > 0,知原级数是交错级数.\n丿\"2十1 * “\n7t\n由 | sin J代 + 1兀 | = sin ______\n\\/n2 + 1 + n\n尹oo),且工 尹发散，知原级数不绝对\n如\nn=l 5\n7C\nsm —\n----- -----\nJz? + ] + n 单调减少，由莱布尼茨定理，知原级数\n7t\n收敛.又limsin ______\n丿7/2 + ] + n\noo\n条件收敛.\n先利用分部积分法求a”，\n(8)证\n'+°°\n2n — 1\n*H-oo\n?\n工 2”一 2gF dj.\nQn\nJ —OO\n2n\n2n 一 1\n1 丁 2“-1 ~nx2\n& U\nLn\n*8 ?\nx2n~2 e_nr\n+ (2/z- l)(2n-3)\n__________ ,2n—3 —nz^\n2n\n2n 一 1 x\n(2n)2\n(2/7— 1)(2“一 3)「8\n•-+-OO 0T\ne djr\n(2nV\n」一8\n_ (2n 一1) • (2兀 一 3)........... 3 • 1\n+ Edz.\n\"\"\"(2小”\n'-f-oo\n⑵一1) •(2^-3) •….3-1. /.用比值法,\n\"去=J专，则孙-\n⑵)\ne\n而\n(2n)\nn-*oo\n]• Q卄] _ ]・\n(2n + 1)(2/? 一\n.\n〃史 an 〃巴 (2t? + 2)n+1\n(2n — 1) (2n — 3) ••• 1\n(2/2 + 2)”+】\n=丄 V 1,\nn \\n\n_ i. 2n + 1\n“HS 2/? + 25 + l\ne\n故£a”收敛.\nn= 1\n(9)解 (I )用单调有界准则，由如=0,如=\\/2 + 0 =罷> s、设0 £ a”一 1 < a”,\n则2 +a” V2 + a”，故丿2 + s V 何云,即a” V a卄i ,由归纳法，知｛a”｝单调增加.\n又如=#<2,设a” <2,则a”+i =丿2 + a” <2,由归纳法，知｛a”｝有上界，所以lima”\nn-*-oo\n存在，记 lima” = a，则 a =+ a ,解得 a = 2,即 lima” = 2.\nn-*oo\nn—*oo\n(II )设给=J2— 5 9用比值法，\n2 — a/2 + a”\n2 — an\nlim = lim 血—\"如=lim f\n\"f 8 J? 一 禺\n8、\n“fOO\nlim I\n4-(2 + 迈——= lim ,】——= *V1，\n—7 (2 — a”) (2 + 丿2 + a”) 宀丿2 +\n故原级数绝对收敛.\n—2+2 = e2[(_r-2) +2]eZ\n(工_2)”\n(10)解\n心= •re\" = (sc — 2 + 2 ) e'\ne2[(^-2) +2]£\nn !\nt=0\n(工_2)罕\n(■z_2)\"+i\n+ 2叩+工\ne2S\nn\\ J\nn = Q\nL\nn= 1\n+ 2叩 + £\nQ_2)\"+i\nn!\n(h 2)\"+i\ne2S\nG + l)!\nL\nn = 0\nn= 0\n(―oo, 4- oo).\n2e2 + S\nn!\n氾害& —2)丹,hG\n5 十 1)!\ne2 (n + 2)\n，故\nn = 0\n由a卄i = 兽占寻，可知a”\n5 十 1)!\nn!\nf(n) (2) = n\\an — e2 (n + 2).\n于(工)=f---- -=(工 一 1) • J—=(鼻一1) •\n(11)解\n2 — Q —1)\no — x\n3 — x\n=- (x — 1).-------------\n2 1\nI\nI (工 一 1)\" I\n―—• • • —4— ------------ I .・・\nx 一 1 , (z — 1 )2\n二~十—厂\na —1)+ &_1严 1 (「I)?\n=1)「1 +\n2-+\n2〃\n+...+rru...],\n.丄\n—¥\n2\"\n其中上一1 |<2,",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.462366+00:00",
+  "updated_at": "2026-08-23T12:39:51.467513+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        24.0,
+        76.24071502685547,
+        482.3999938964844,
+        99.05438232421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 151,
+      "bbox": [
+        24.0,
+        130.2266845703125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 152,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        338.79632568359375
+      ]
+    }
+  ]
+}

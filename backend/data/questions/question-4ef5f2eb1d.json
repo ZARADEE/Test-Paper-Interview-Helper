@@ -1,0 +1,50 @@
+{
+  "id": "question-4ef5f2eb1d",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（4） 设数列&”}满足lirnE& = lim也+i = a,证明:= a.\nk—^oo\n*OO\n77—► oo",
+  "answer_markdown": "",
+  "analysis_markdown": "(4) 证\n利用极限定义证明，关键是找足够大的N,使得n> N时，有丨耳一a |<£.\n由limg = a, \\/e > 0,弓正整数M，使得当2b > N】时，有\n①\nI 咖 一 a | < e;\nlim_Z2屮=a,对上述e>0, 3正整数N?,使得当2^ + 1 > N2时，有\n&-*8\nI工2知1 — a丨V £・\n取N = max{ Ni，M } 9则当x〉N时，①与②同时成立，即| xn— a | V £ 9故lim竝\n②\nQ・\nn->oo\nlim 工 _XSm H",
+  "chapter": "函数、极限与连续",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 9,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.435593+00:00",
+  "updated_at": "2026-08-23T12:39:50.725239+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 9,
+      "bbox": [
+        24.0,
+        487.6221618652344,
+        482.3999938964844,
+        510.2581787109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 10,
+      "bbox": [
+        24.0,
+        105.93130493164062,
+        482.3999938964844,
+        199.7310333251953
+      ]
+    }
+  ]
+}

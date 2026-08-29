@@ -1,0 +1,62 @@
+{
+  "id": "question-86e223a297",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "（3） 下列结论正确的是（\n）.\nOO\nOO\nOO\n\nn= 1\nn= 1\nn= 1\nOO\nOO\nOO\nb若u\n与〉2 q”都发散，则2 unvn必发散\nn= 1\nn= 1\nn= 1\n\nn= 1\nn= 1\nn= 1\nOO\nOO\nOO\n\nn= 1\nn= 1\nn= 1",
+  "answer_markdown": "D",
+  "analysis_markdown": "解 由£ 收敛，知1卫严” =0（级数收敛的必要条件）.又\nlimI = lim | un | = 0,\n8 r{Jn\n\"f 8\n由比较审敛法的极限形式，知工I Unvn I收敛.\nn=l\n,\n1 \\ n °°\n°°\noo\noo\n对于A：取“” =s =匕=#_,工“”与»”都（条件）收敛，但»”u” =工 丄发散.\n0?\n”=1 铝\n铝\n铝\"\nOO\noo\noo\noo\n对于E：取\"” =—=— 一‘工“”与工都发散，但工=— 丫 A收敛•\nn\n71 n=l\nn=l\nn=l\nn=l 72\nOO\noo\noo\noo\n对于C：取\"” =—,v„ = 一, A \"”收敛，工发散，但工\"”q” =才£收敛.\n71 n=l\nn=l\nn=l\nn=l 71",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 49,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.459048+00:00",
+  "updated_at": "2026-08-23T12:39:51.399958+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "若丫 “”与工“都收敛，则工u„v„必收敛"
+    },
+    {
+      "key": "C",
+      "text": "若 > 收敛，发散，则必发散"
+    },
+    {
+      "key": "D",
+      "text": "若Y\"”收敛，工q”（q” > 0）收敛，则工| unvn |收敛"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "发散"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 49,
+      "bbox": [
+        24.0,
+        413.395263671875,
+        482.3999938964844,
+        550.9536743164062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 136,
+      "bbox": [
+        24.0,
+        467.698974609375,
+        482.3999938964844,
+        635.7223510742188
+      ]
+    }
+  ]
+}

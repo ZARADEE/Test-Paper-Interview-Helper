@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0614",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "制度优势是一个政党、一个国家的最大优势。坚定中国特色社会主义制度自信，首先要",
+  "answer_markdown": "B",
+  "analysis_markdown": "坚持党的领导是统一战线最核心最根本的问\n\n题。C 正确。\n\n出处精讲\n考点54",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 92,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚定对社会主义基本经济制度的自信"
+    },
+    {
+      "key": "B",
+      "text": "坚定对中国特色社会主义政治制度的自信"
+    },
+    {
+      "key": "C",
+      "text": "坚定对中国传统文化的自信"
+    },
+    {
+      "key": "D",
+      "text": "坚定对马克思主义在意识形态领域指导地位的根本制度的自信"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        110.03399658203125,
+        979.5071411132812,
+        869.5955810546875,
+        1141.3424072265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 103,
+      "bbox": [
+        2.930999755859375,
+        462.0435791015625,
+        316.4162292480469,
+        539.5270385742188
+      ]
+    }
+  ]
+}

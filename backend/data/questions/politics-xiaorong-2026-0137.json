@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0137",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "货币所有者只有购买到劳动力这种特殊商品，货币才能转化为资本，这是因为",
+  "answer_markdown": "D",
+  "analysis_markdown": "同历史时期，劳动者所必需的生活资料的数\n\n出处精好的］考点69 -2-0\n\n量和构成是有区别的，所以劳动力价值的最\n\n低界限是由生活上不可缺少的生活资料的\n\n简析资本是能够带来剩余价值的价值。\n\n价值决定的。一旦劳动力价值降低到这个\n\n这是资本的本质。劳动力商品在使用价值\n\n界限以下，劳动力就只能在萎缩的状态下维\n\n上有一个很突出的特点，就是它的使用价值\n\n持。D 正确。\n\n是价值的源泉，它在消费过程中能够创造新",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 19,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "劳动力商品具有使用价值和价值"
+    },
+    {
+      "key": "B",
+      "text": "实际生产过程中所耗费的生产资料和消费资料必须得到实物的替换"
+    },
+    {
+      "key": "C",
+      "text": "劳动力商品是资本的本质"
+    },
+    {
+      "key": "D",
+      "text": "劳动力商品在消费过程中能够创造出比自身价值更大的价值"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 19,
+      "bbox": [
+        91.4010009765625,
+        1254.0732421875,
+        794.2507934570312,
+        1412.9451904296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 27,
+      "bbox": [
+        5.8979997634887695,
+        791.6087646484375,
+        416.4739685058594,
+        1213.5098876953125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "question-2e0cefdb70",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(19) 一个体积为V,表面积为S(不含底面)的雪堆，融化速度为將=—aS,其中a > 0\n2 | 2\n为常数，设在融化期间雪堆的形状保持为Z = b —Jp~(z>0),其中h = h(t),问一个高\nh\n度为Ao (Ao > 0)的雪堆全部融化需要多长时间？",
+  "answer_markdown": "",
+  "analysis_markdown": "(19)解 当雪堆的高度为h时，其体积为V =\n_屁)皿=嘗.\n其表面积为\n“\n/+/寸 2\n= J 朋+誓土址山的=£［：的［如+4/皿=誓(5岛—1).\n将V和S的表达式代入兽=—aS，得兽=—寺岛一1)9积分得\nh =—寺(5 a/5~ — 1) / + C.\n由力|\n= h0,得C =仏，故人=—菩(5街一1)/ +力0・\nI /=o\ny\n雪堆全部融化，即“。，所需时间为心齐冷\n9加(5街+ 1)\ny\n124a",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 57,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.469411+00:00",
+  "updated_at": "2026-08-23T12:39:51.523962+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 57,
+      "bbox": [
+        24.0,
+        253.64105224609375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 165,
+      "bbox": [
+        24.0,
+        285.91259765625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

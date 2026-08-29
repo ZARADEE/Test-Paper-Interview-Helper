@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0664",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全面从严治党永远在路上，党的自我革命永远在路上。最彻底的自我革命是",
+  "answer_markdown": "D",
+  "analysis_markdown": "第十七章\n\n出处精讲曾粥考点112",
+  "chapter": "第十七章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 98,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "党风廉政建设"
+    },
+    {
+      "key": "B",
+      "text": "让人民来监督政府"
+    },
+    {
+      "key": "C",
+      "text": "建立不忘初心、牢记使命的长效制度"
+    },
+    {
+      "key": "D",
+      "text": "反腐败"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十七章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十七章"
+  ],
+  "source_regions": [
+    {
+      "page": 98,
+      "bbox": [
+        105.83499908447266,
+        396.1155090332031,
+        772.983642578125,
+        494.7426452636719
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 108,
+      "bbox": [
+        18.325000762939453,
+        658.4035034179688,
+        435.8163146972656,
+        996.8873291015625
+      ]
+    }
+  ]
+}

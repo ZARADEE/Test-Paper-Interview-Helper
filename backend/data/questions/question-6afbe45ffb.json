@@ -1,0 +1,48 @@
+{
+  "id": "question-6afbe45ffb",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(5) 设离散型随机变量X的分布律为P{X = k}=俞e-2/ = 0,1,2,-,则常数",
+  "answer_markdown": "e.",
+  "analysis_markdown": "e.\ng\n解\n由分布律的性质，有工P{X = ^} = 1,故\nb = 0\n—2\n__ —1   i\nae • e = ae = 1，\n❻=0 K・\nk=0 2・\n所以Q\ne.\noo\nk\n【注】①工 訐=e* (— oo V 工 V+ 00 )・\nk = Q匕・\n②泊松分布P{X =妁=普= 0,1,2,-,可知，当A = 1时，有P{X =妁=\n=e.\n777e_1，对照已知条件，得a\nk!",
+  "chapter": "随机变量及其分布",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 89,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.487265+00:00",
+  "updated_at": "2026-08-23T12:39:51.930546+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        24.0,
+        296.057373046875,
+        482.3999938964844,
+        333.4510498046875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 244,
+      "bbox": [
+        24.0,
+        61.238311767578125,
+        482.3999938964844,
+        212.60977172851562
+      ]
+    }
+  ]
+}

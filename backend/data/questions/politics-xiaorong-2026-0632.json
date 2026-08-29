@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0632",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中华文明具有突出的连续性，是世界上唯一绵延不断且以国家形态发展至今的伟大文明。中华",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "第十章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 94,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "国家统一永远是中国核心利益的核心"
+    },
+    {
+      "key": "B",
+      "text": "国土不可分、国家不可乱、民族不可散、文明不可断的共同信念"
+    },
+    {
+      "key": "C",
+      "text": "中华民族不惧新挑战、勇于接受新事物的无畏品格"
+    },
+    {
+      "key": "D",
+      "text": "中华民族必然走自己的路"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十章"
+  ],
+  "source_regions": [
+    {
+      "page": 94,
+      "bbox": [
+        107.68599700927734,
+        877.4017333984375,
+        939.0011596679688,
+        1064.85693359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 104,
+      "bbox": [
+        444.97100830078125,
+        780.9345092773438,
+        777.991943359375,
+        857.617919921875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "question-90e174a529",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "（7） 若二次曲面y +以+ 2）b+怂2十2巧=5表示一个椭球面，则（\n）.",
+  "answer_markdown": "A",
+  "analysis_markdown": "解\nf = X2 + (怡 + 2)j/2 + kz2 + 2xy = x1 Ar ,x = (jr,j/,z)T.\n1 O'\n二次型的矩阵A= 1 k + 2\n0 ,/= xTAx = 5化为标准形后为椭球面，则r(A)=\n0 0\nP + 0 = 3,即A的合同标准形的对角元素均为正，用配方法，得\nje2 + (^ + 2)j>2 + kz2 + 2 工y = (j: + yY + (k + I)b+^z2,\n故走+ 1 > 0且^>0,得怡>0,故A正确.",
+  "chapter": "二次型",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 81,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.482942+00:00",
+  "updated_at": "2026-08-23T12:39:51.834275+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "怡 > 0"
+    },
+    {
+      "key": "B",
+      "text": "k V 0"
+    },
+    {
+      "key": "C",
+      "text": "k >— 1"
+    },
+    {
+      "key": "D",
+      "text": "k V— 1"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "二次型"
+  ],
+  "tags": [
+    "线性代数",
+    "二次型"
+  ],
+  "source_regions": [
+    {
+      "page": 81,
+      "bbox": [
+        24.0,
+        572.8992919921875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 228,
+      "bbox": [
+        24.0,
+        298.4081726074219,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

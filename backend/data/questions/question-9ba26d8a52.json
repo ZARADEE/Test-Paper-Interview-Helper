@@ -1,0 +1,48 @@
+{
+  "id": "question-9ba26d8a52",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(6) 设 D：0W_zW2,0£；yW 2,计算 I = jj 口+ 工 + 夕］dzdy,其中［1 + h + 夕］表示不\nD\n超过1 + Z +夕的最大整数.",
+  "answer_markdown": "",
+  "analysis_markdown": "(6)解如图6-25所示，直线2 +夕=,(，=1,2,3,4)将D\n分为4个区域Dk(k = 1,2,3,4),则\n[1 + 2 + 夕]=k(k = 1,2,3,4),\n故\n=』[1 + z 十\nD\n=jjldzdjy + jj2cLzdy + Jpclzdjy + jj4(lzd；y = 10.\nq\nd2\nd3\nDi\n【注】jjdjc&y表示D的面积.\nD",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 41,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.454476+00:00",
+  "updated_at": "2026-08-23T12:39:51.248639+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 41,
+      "bbox": [
+        24.0,
+        338.0286865234375,
+        482.3999938964844,
+        381.1371765136719
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 109,
+      "bbox": [
+        24.0,
+        98.82843017578125,
+        482.3999938964844,
+        226.9512939453125
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "question-800b0645be",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 已知平面上三条不同直线的方程分别为\nZi \\ax + 2by + 3c = 09\nl2 ：bx 2cy + 3a = 0 9\nZ3 ： cjc + 2ay + 3b = 0，\n证明：这三条直线交于一点的充分必要条件为a + b + c = 0.\n'1\n-2\n3'",
+  "answer_markdown": "",
+  "analysis_markdown": "(4)证(必要性)设三条直线交于一点，则非齐次线性方程组\nax + 2,by ——3c,\nbx + 2,cy =— 3a ,\ncjc + 2, ay =— 3b\n有唯一解，故r(A) = r(A) = 2,其中\na 2b\na\n2b\n一 3c\nA =\nb 2c ,A =\nb\n2c\n—3a\nc 2a\nc\n2a\n-3b\n由 r(A) = 2 < 3 知 | 入 |=0,即\na\n—3c\n-3\nb\n2c\n—3a =(a + b + c)\nb\n2c\n—3a\nc\n2a\n—3b\nc\n2a\n-3b\n=(tz + 6 + c)\nb\n2(c-6)\n3(6 一 a)\nc\n2(a — c)\n3(c —b)\n=6 (tz 6 c) (a2\n4- c2 — ab — ac — be )\n=3(a+b + c)[(a — 6)2 4- (b — c)' + (c — a)?] = 0.\n又三条直线互不相同，故\n(a — 6)2 + (6 — c)2 + (c — a)2 工 0,\n于是a + b十c = 0.\n(充分性)若 a + b + c = 0,则 |A|=0,故 r(A) V 3.\n又6 2c =2(必一夕)，将c=—(a + b)代入上式，得\n= _2[a(a + b) +鬥=—2[(a + #)2 + 令2卜 0,\na 26\nb 2c\n故r(A)^2,r(A)^2,又显然r(A) £ 2,所以r(A) = r(A) = 2,故方程组有唯一解，即三条\n直线交于一点.\n\"(5)解八A中有6个未知参数，不能用初等行变换求解，利用特征向量的定义\nAa = Aa(a H 0).\n由已知，有\n得入1 = 0,即A«i =0.同理\n-2\n-r\n-r\nAa2 =\na22\n°23\n=入2\n“31\na32\n033 ,\n得入2 = 0,即Aa2 =0.\n得入3 = 1,即Aa3 =a3.\n又3 — r(A) = 3 — 1 = 2 ,Ax = 0有两个基础解，故所求通解为kxa\\ + k2a2 + a3 ^k2\n为任意常数.",
+  "chapter": "线性方程组",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 74,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.479594+00:00",
+  "updated_at": "2026-08-23T12:39:51.779766+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "方程组"
+  ],
+  "tags": [
+    "线性代数",
+    "线性方程组"
+  ],
+  "source_regions": [
+    {
+      "page": 74,
+      "bbox": [
+        24.0,
+        568.5164184570312,
+        482.3999938964844,
+        650.2188720703125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 211,
+      "bbox": [
+        24.0,
+        197.21554565429688,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 212,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        53.14976501464844
+      ]
+    }
+  ]
+}

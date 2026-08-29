@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0660",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "把党的建设作为一项伟大工程来推进，是我们党的一大创举，是我们党领导人民进行伟大社会\n\n革命的重要法宝。党的建设的一贯要求和根本方针是",
+  "answer_markdown": "D",
+  "analysis_markdown": "出处精话的a 考点no\n-1\n\n出处刷下病考点113 -O",
+  "chapter": "第十七章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 97,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持思想建党和制度治党相统一"
+    },
+    {
+      "key": "B",
+      "text": "坚持党内监督和群众监督相统一"
+    },
+    {
+      "key": "C",
+      "text": "自我净化、自我完善、自我革新、自我提高"
+    },
+    {
+      "key": "D",
+      "text": "党要管党、从严治党"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十七章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十七章"
+  ],
+  "source_regions": [
+    {
+      "page": 97,
+      "bbox": [
+        90.26499938964844,
+        1199.2755126953125,
+        930.3282470703125,
+        1326.3780517578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 107,
+      "bbox": [
+        433.46600341796875,
+        1136.0906982421875,
+        778.9833984375,
+        1212.066650390625
+      ]
+    }
+  ]
+}

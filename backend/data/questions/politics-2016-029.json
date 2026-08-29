@@ -1,0 +1,44 @@
+{
+  "id": "politics-2016-029",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1992年初，在关乎中国改革开放和社会主义现代化建设前途命运的关键时刻，邓小\n平在视察武吕、深圳、珠海、上海等地时，发表了重要谈话。谈话的主要内容有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "【解析】邓小平在南方谈话中，曾经提到：计划和市场的关系;社会主义的本质;发展是硬道理;“三个有利于”;加强党的建设等内容。选项ABCD都是本题的正确答案。",
+  "chapter": "答案解析",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.523045+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "计划多一点还是市场多一点，不是社会主义与资本主义的本质区别"
+    },
+    {
+      "key": "B",
+      "text": "不坚持社会主义， 不改革开放， 不发展经济， 不改善人民生活， 只能是死路一条"
+    },
+    {
+      "key": "C",
+      "text": "走社会主义道路，就是要逐步实现共同富裕"
+    },
+    {
+      "key": "D",
+      "text": "革命是解放生产力，改革也是解放生产力 ### 答案解析 29."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

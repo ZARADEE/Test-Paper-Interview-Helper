@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0769",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "促进高质量充分就业，是新时代新征程就业工作的新定位、新使命。促进高质量充分就业需要\n\n全面贯彻的方针是",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "简析B、C、D 正确。贯彻新发展理念是新\n\n出处精讲丧语考点79\n拓展与点拨\n\n时代我国发展壮大的必由之路,A 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 113,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "劳动者自主就业"
+    },
+    {
+      "key": "B",
+      "text": "城镇转移就业"
+    },
+    {
+      "key": "C",
+      "text": "市场调节就业"
+    },
+    {
+      "key": "D",
+      "text": "政府促进就业和鼓励创业"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 113,
+      "bbox": [
+        85.10700225830078,
+        860.38671875,
+        925.722900390625,
+        989.27197265625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        446.1839904785156,
+        1161.4324951171875,
+        851.9454956054688,
+        1297.893798828125
+      ]
+    }
+  ]
+}

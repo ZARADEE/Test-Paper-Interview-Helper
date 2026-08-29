@@ -1,0 +1,50 @@
+{
+  "id": "question-a4cfc74987",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设光滑有向曲面S的边界曲线为光滑有向闭曲线L,方向符合右手法则，则I =\n扌 grad sin(j; + y + z)ds = ________ .",
+  "answer_markdown": "0.",
+  "analysis_markdown": "0.\ngrad sin(jc y z) = (cos(«z + y + z)，cos(jc + 夕 + n) 9cos(z + y + n))・\n由斯托克斯公式，有\n)cos(+ 3/ +\n+ cosCjc + 3/ + z)dj/ + cos(jc + 3/ + z)dz\nI =\ndxdj；\ndzchz\n=0.\nCOS(JC + J/ + N)\nd_\n3y\nCOS( JC + 3/ + N)\ndydz\nd_\ndx\ncos(jc y z)",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.469411+00:00",
+  "updated_at": "2026-08-23T12:39:51.535666+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        24.0,
+        101.72286224365234,
+        482.3999938964844,
+        143.83782958984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 167,
+      "bbox": [
+        24.0,
+        236.0647735595703,
+        482.3999938964844,
+        333.45623779296875
+      ]
+    }
+  ]
+}

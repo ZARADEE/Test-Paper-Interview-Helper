@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0724",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "教育、科技、人才是全面建设社会主义现代化国家的基础性、战略性支撑。全面建设社会主义\n现代化国家",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "的国内国际双循环，不是封闭的国内单循环。\n\n出处精沛下语7：考点tips\n\n我国经济已经深度融入世界经济，同全球很",
+  "chapter": "第七章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 107,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "教育是根本，科技是关键，人才是基础"
+    },
+    {
+      "key": "B",
+      "text": "必须坚持科技是第一生产力、人才是第一资源、创新是第一动力"
+    },
+    {
+      "key": "C",
+      "text": "必须坚持教育优先发展、科技自立自强、人才引领驱动"
+    },
+    {
+      "key": "D",
+      "text": "必须深入实施科教兴国战略、人才强国战略、创新驱动发展战略"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第七章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第七章"
+  ],
+  "source_regions": [
+    {
+      "page": 107,
+      "bbox": [
+        85.61900329589844,
+        174.08761596679688,
+        924.9796752929688,
+        362.0097351074219
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        442.3659973144531,
+        360.3309631347656,
+        849.0682373046875,
+        499.5239562988281
+      ]
+    }
+  ]
+}

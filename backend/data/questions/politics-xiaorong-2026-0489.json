@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0489",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "解放战争时期和新中国成立以后，以毛泽东同志为主要代表的中国共产党人在领导人民夺取新民\n\n主主义革命胜利，建立和巩固工人阶级领导的、以工农联盟为基础的人民民主专政的国家政权,\n\n实现从新民主主义向社会主义的转变，开展全面的大规模的社会主义建设的过程中，先后提出的\n\n理论有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "导\n论\n\n出处精丽距考点4",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 74,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会主义改造理论"
+    },
+    {
+      "key": "B",
+      "text": "关于严格区分和正确处理两类矛盾的学说特别是正确处理人民内部矛盾的理论"
+    },
+    {
+      "key": "C",
+      "text": "适合我国国情的中国工业化道路理论"
+    },
+    {
+      "key": "D",
+      "text": "以党的自我革命引领社会革命理论"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 74,
+      "bbox": [
+        100.66699981689453,
+        669.0621337890625,
+        935.572021484375,
+        922.3740234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 87,
+      "bbox": [
+        435.11199951171875,
+        1105.3194580078125,
+        758.423828125,
+        1176.8187255859375
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0323",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在资本主义条件下，资本变成了一种非常神秘的东西，似乎劳动的一切社会生产力并非劳动本\n\n身所有，而为资本所有，资本本身就具有一种能使价值增殖的魔力，这就是资本拜物教。马克\n\n思通过对劳动力商品的特点和资本总公式的矛盾的分析，阐明了资本的实质，揭露了资本拜物\n\n教产生的秘密。以下对资本认识正确的有",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 48,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "资本是能够带来剩余价值的价值"
+    },
+    {
+      "key": "B",
+      "text": "资本是剩余价值产生的源泉"
+    },
+    {
+      "key": "C",
+      "text": "根据资本在剩余价值生产中所起的不同作用划分为不变资本和可变资本"
+    },
+    {
+      "key": "D",
+      "text": "在资本主义社会，资本总是通过各种物品表现出来"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 48,
+      "bbox": [
+        103.34100341796875,
+        126.96682739257812,
+        936.6949462890625,
+        380.6280517578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 63,
+      "bbox": [
+        437.0589904785156,
+        20.494108200073242,
+        772.1099853515625,
+        106.24278259277344
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "question-62c5835512",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(1) /\"(z)=[\nz\n在 2 = 0 处可导，则a = ________ ,b = ________\n.\n[aj： + b,\n工 W 0",
+  "answer_markdown": "",
+  "analysis_markdown": "⑴—1炼\n解 由已知，7\"（7）在工=o处可导，故/'（夂）在z = o处连续.又\n故b =于，即有/（0）=号.又fL （0） = a,且\n故由人（0）=怎（0）,得a =— 1.",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 16,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.438262+00:00",
+  "updated_at": "2026-08-23T12:39:50.804311+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 16,
+      "bbox": [
+        24.0,
+        91.93787384033203,
+        482.3999938964844,
+        119.8070068359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 25,
+      "bbox": [
+        24.0,
+        536.428466796875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 26,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        59.888492584228516
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0709",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "高质量发展是全面建设社会主义现代化国家的首要任务。高质量发展，就是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "性新兴产业知识技术密集、成长潜力\n\n出处精萨丽71 考点37\n—❷\n\n大、综合效益好，对经济社会全局和长远发\n\n\f\n展具有引领带动作用，是形成新质生产力的\n\n从国际比较看，大国经济的特征都是内需为\n\n主导、内部可循环。我国作为世界第二大经\n\n主阵地。",
+  "chapter": "第六章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 104,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "能够很好满足人民日益增长的美好生活需要的发展"
+    },
+    {
+      "key": "B",
+      "text": "体现新发展理念的发展"
+    },
+    {
+      "key": "C",
+      "text": "创新成为第一动力、协调成为内生特点、绿色成为普遍形态、开放成为必由之路、共享成为\n根本目的的发展"
+    },
+    {
+      "key": "D",
+      "text": "从“有没有”转向“好不好”的发展"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第六章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第六章"
+  ],
+  "source_regions": [
+    {
+      "page": 104,
+      "bbox": [
+        103.13600158691406,
+        1231.1162109375,
+        934.5634765625,
+        1417.2132568359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 112,
+      "bbox": [
+        448.8479919433594,
+        1155.90234375,
+        855.0254516601562,
+        1324.3134765625
+      ]
+    }
+  ]
+}

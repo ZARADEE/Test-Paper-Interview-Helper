@@ -1,0 +1,71 @@
+{
+  "id": "question-b0fc1a4f6a",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)设A是3阶方阵,A*是A的伴随矩阵，| A | = *，则| (2A)T _2A* |=(\n).\n\nB —寺",
+  "answer_markdown": "C",
+  "analysis_markdown": "解法1\n由A* = | A I犷】=则\n討—2・扑\n(2A)T -2A* I =\n*AT — AT\nI A-1 I\n-1\n-廿小\nI\nx\n解法2\n由AT\n=| A r'A* = 2A*，则\n―• 2A* -2A*\n(2A)T -2A* I =\n=1 A* —2AT = | —AT= (-1)3 1 A* I\n3-1\n2 =_丄\nI",
+  "chapter": "行列式",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 62,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.473201+00:00",
+  "updated_at": "2026-08-23T12:39:51.607815+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "+"
+    },
+    {
+      "key": "C",
+      "text": "—寺"
+    },
+    {
+      "key": "D",
+      "text": "寺"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "行列式",
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "行列式"
+  ],
+  "source_regions": [
+    {
+      "page": 62,
+      "bbox": [
+        24.0,
+        236.47369384765625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 182,
+      "bbox": [
+        24.0,
+        501.4000549316406,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 183,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

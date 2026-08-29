@@ -1,0 +1,70 @@
+{
+  "id": "question-c556da3af1",
+  "type": "choice",
+  "subject": "考研数学一",
+  "stem_markdown": "(4)设矩阵A =\nk\n3 与E =\n3 k\n).\nk-1\n5 1\n\nB b H 1",
+  "answer_markdown": "B",
+  "analysis_markdown": "解 同型矩阵A与B等价的充分必要条件是r(A) = r(B).\n由于在矩阵A中，有3阶子式\n1 H 0 ,故 r(A)\n3.\nI\nk\n对矩阵〃作初等变换，得成\nri\n-1\n— 1\n-1\nk\n1 k-2\n―A\nk — 1\n2 - 2\n故由r(A) = r(B) = 3,知怡工1.",
+  "chapter": "矩阵",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 64,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.474211+00:00",
+  "updated_at": "2026-08-23T12:39:51.632358+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [
+    {
+      "key": "A",
+      "text": "& = 1"
+    },
+    {
+      "key": "C",
+      "text": "k = -1"
+    },
+    {
+      "key": "D",
+      "text": "k 丰一1"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 64,
+      "bbox": [
+        24.0,
+        412.95281982421875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 186,
+      "bbox": [
+        24.0,
+        579.1322021484375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 187,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

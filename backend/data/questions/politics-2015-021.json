@@ -1,0 +1,44 @@
+{
+  "id": "politics-2015-021",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "国家垄断资本主义是国家政权和私人垄断资本融合在一起的垄断资本主义。第二次世界大战结束以来,在国家垄断资本主义获得充分发展的同时,资本主义国家通过宏观调节和微观规制对生产\\流通\\分配和消费各个环节的干预也更加深入。其中,微观规制的类型主要有 :",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "【解析】国家垄断资本主义中微观规制主要有三种类型：其一，反托拉斯法。即政府通过立法的方式确立一整套规范法令，以禁止竞争性行业的垄断，反对不正当竞争行为，保护和促进市场竞争。其二，公共事业规制。这类规制主要针对具有垄断性质的产业，包括电力、交通、电信、天然气、自来水等一些公用事业。其三，社会经济规制。这类规制涉及社会经济生活的各个方面，如竞争秩序和行为，消费者权益、知识产权、劳工权益、生态环境、食品安全、安全生产等。所以，本题正确答案是BCD。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.508888+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "公众生活规制"
+    },
+    {
+      "key": "B",
+      "text": "公共事业规制"
+    },
+    {
+      "key": "C",
+      "text": "社会经济规制"
+    },
+    {
+      "key": "D",
+      "text": "反托拉斯法"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

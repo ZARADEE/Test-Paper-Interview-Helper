@@ -1,0 +1,48 @@
+{
+  "id": "question-b4ae894aee",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(9) 设 /(jc) = [ j2 '\n\" H °，求严>(0).\n〔0，\n匚=0，",
+  "answer_markdown": "",
+  "analysis_markdown": "(9)解\n工一>0\nx->0\nJC\n工十0\nSC\no -\n当力工0时，f (Q = —e工，故\nr(0) = lim fs—f® =lim — • $\n•rf 0 3C\n__L\n9 _■\n• e ' = lim j2 = 0.\n•Zf 0 x\nx->0\nJC\nj—>0 3C JC\n同理可得严(0) =0 (k = 3,4,-),所以 /(n)(o)= 0.\n__1__\n【注】 利用洛必达法则，对任意正整数虹lirn— = 0.\nx—o x",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 17,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.440266+00:00",
+  "updated_at": "2026-08-23T12:39:50.840883+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 17,
+      "bbox": [
+        24.0,
+        438.4217834472656,
+        482.3999938964844,
+        470.94561767578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 30,
+      "bbox": [
+        24.0,
+        477.2696228027344,
+        482.3999938964844,
+        584.9813232421875
+      ]
+    }
+  ]
+}

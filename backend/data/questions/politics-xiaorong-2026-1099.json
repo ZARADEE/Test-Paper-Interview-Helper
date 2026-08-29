@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-1099",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "爱国主义是具体的、现实的。当代中国爱国主义精神最重要的体现是",
+  "answer_markdown": "B",
+  "analysis_markdown": "祖国之间关系的道德要求、政治原则和法律\n\n规范。因此，爱国主义是民族精神的核心。\n\n出处储丽可考点21 -1\n\nB 正确。其他三项的内容是中华民族民族精\n\n简析习近平总书记在《大力弘扬伟大爱国主\n\n神的重要内容，但不是核心。",
+  "chapter": "第三章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 163,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "维护祖国统一和民族团结"
+    },
+    {
+      "key": "B",
+      "text": "坚持爱国和爱党、爱社会主义相统一"
+    },
+    {
+      "key": "C",
+      "text": "尊重和传承中华民族历史文化"
+    },
+    {
+      "key": "D",
+      "text": "坚持立足中国又面向世界"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第三章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第三章"
+  ],
+  "source_regions": [
+    {
+      "page": 163,
+      "bbox": [
+        86.47100067138672,
+        521.1096801757812,
+        853.9422607421875,
+        620.2506103515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        21.844999313354492,
+        923.7896728515625,
+        440.51446533203125,
+        1324.111572265625
+      ]
+    },
+    {
+      "page": 168,
+      "bbox": [
+        475.7969970703125,
+        32.02265167236328,
+        853.54052734375,
+        133.45327758789062
+      ]
+    }
+  ]
+}

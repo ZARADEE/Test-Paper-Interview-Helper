@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0520",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新中国成立初期，中国处于新民主主义社会。新民主主义社会有五种经济成分，其中主要的经\n济成分是",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "知识储备题\n\n启了改革开放和社会主义现代化建设新时\n\n简析A、B、D 正确。进一步全面深化改革的\n\n期。A 错误。",
+  "chapter": "第三章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 78,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会主义经济"
+    },
+    {
+      "key": "B",
+      "text": "个体经济"
+    },
+    {
+      "key": "C",
+      "text": "资本主义经济"
+    },
+    {
+      "key": "D",
+      "text": "国家资本主义经济"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第三章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第三章"
+  ],
+  "source_regions": [
+    {
+      "page": 78,
+      "bbox": [
+        106.63600158691406,
+        1163.8699951171875,
+        938.8017578125,
+        1292.075927734375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 91,
+      "bbox": [
+        3.998000144958496,
+        1177.9229736328125,
+        413.67645263671875,
+        1317.71630859375
+      ]
+    },
+    {
+      "page": 91,
+      "bbox": [
+        463.72198486328125,
+        27.589950561523438,
+        845.0423583984375,
+        256.01551818847656
+      ]
+    }
+  ]
+}

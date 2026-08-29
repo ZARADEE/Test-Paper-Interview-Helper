@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1037",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "全面内战爆发时，中国共产党清醒估计国内外形势，坚决认定，我们必须打败蒋介石，而且能\n\n够打败他。我们能够打败蒋介石，是因为",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "出处精神市西6 考点58 -2-0\n\n第七章\n\n简析全面内战爆发时，中国共产党面临的形",
+  "chapter": "第七章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 152,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "蒋介石军事力量的优势和美国的援助，只是临时起作用的因素"
+    },
+    {
+      "key": "B",
+      "text": "蒋介石发动的战争的反人民性质，人心的向背，是经常起作用的因素"
+    },
+    {
+      "key": "C",
+      "text": "各民主党派和无党派民主人士公开自愿接受中国共产党的领导，决心走人民革命的道路"
+    },
+    {
+      "key": "D",
+      "text": "人民解放军的战争所具有的爱国的、正义的、革命的性质，必然要获得全国人民的拥护"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第七章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第七章"
+  ],
+  "source_regions": [
+    {
+      "page": 152,
+      "bbox": [
+        109.4520034790039,
+        711.1062622070312,
+        940.625732421875,
+        899.912841796875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 157,
+      "bbox": [
+        435.697998046875,
+        352.5445556640625,
+        855.1646728515625,
+        821.2940063476562
+      ]
+    }
+  ]
+}

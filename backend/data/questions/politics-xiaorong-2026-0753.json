@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0753",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2024 年8 月21 日，在外交部发言人主持的例行记者会上，有记者问，中国游戏《黑神话：悟\n\n空》全球火爆推出，其中的中国文化元素令玩家印象深刻，请问发言人有何评论？外交部发言\n\n人表示：“我不了解电子游戏，但是感谢你让我关注到这款游戏。从名字看，这款游戏取材于中\n\n国古典文学名著《西游记》，我想这也反映了中国文化的吸引力\n中华优秀传统文化是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲友\n考点70 2U、拓展与点拨g\n\n三个方面规定和确保了中国特色社会主义法\n\n治体系的制度属性和前进方向。A、C、D 正\n\n简析中华优秀传统文化是我们坚定文化自\n\n确,B 错误。\n\n信的深厚基础。中华民族创造的优秀传统文",
+  "chapter": "第十章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 111,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "我们坚定文化自信的深厚基础"
+    },
+    {
+      "key": "B",
+      "text": "中华民族的根和魂"
+    },
+    {
+      "key": "C",
+      "text": "最深厚的文化软实力"
+    },
+    {
+      "key": "D",
+      "text": "我们在世界文化激荡中站稳脚跟的根基"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十章"
+  ],
+  "source_regions": [
+    {
+      "page": 111,
+      "bbox": [
+        92.02799987792969,
+        518.9100952148438,
+        932.2305297851562,
+        708.9861450195312
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 117,
+      "bbox": [
+        434.5199890136719,
+        31.181350708007812,
+        845.2169189453125,
+        334.8110046386719
+      ]
+    }
+  ]
+}

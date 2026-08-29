@@ -1,0 +1,48 @@
+{
+  "id": "question-3d63091cd6",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(8)已知A〜E,A =\n,B =\nb\n、4\nc",
+  "answer_markdown": "",
+  "analysis_markdown": "(8)解\nP = (ai ,。2 心) =\n—1\n‘0\nP AP =\n由A〜B,知A,B有相同的特征值入1 =入2 = A3 = c.又\nA — 1\n— cl\n1 I\nIA — 2\n— a\n| AE 一 A | =\n— 1\nA 一 5\n一 1 =\nA — 5\n— 1\n-4 - 12\nA-6|\n|2-A - 12\n入一6\n=(A — 2) (A2 — 10A + 13 — a) ?\n二重特征值入1 = & = b有两种情况\"=2或b工2.\n当b = 2时，由b是二重特征值9则A2 — 10A + 13 — a会有因式入一2,故可得a =—3.\n=刀 ba,即］+ 5 + 6\n又A〜B，知工an\ni= 1\ni= 1\n2bc,故c = 8,且此时有\n，1\nr(2E — A) = r( ― 1\n1 '\n—3\n— 1 ) = 1,\n—12\n― 4\n•B,所以 a =— 3,b = 2,c = &\n一 4\n即A = 2有两个线性无关的特征向量，使得A\n若b = 由2是A的特征值，故c= 2,又由\n而\n1 + 5 + 6 = b-\\-b + c = 2b + 2,\n知5 = 5,此时入$ — 10入+ 13 — a = (A — 5严，即得 a =— 12.\n‘4\n1 '\nr(5E — A) = r( — 1\n— 1 ) = 2工1,\n—4\n— 12\n— 1\n即Ai = A2 = 6 = 5，只有一个线性无关特征向量，因此A与B不相似.\n综上丽述,a =—3,b=2,c = 8.\n2 9c",
+  "chapter": "矩阵",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 77,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.480630+00:00",
+  "updated_at": "2026-08-23T12:39:51.795781+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "矩阵"
+  ],
+  "tags": [
+    "线性代数",
+    "矩阵"
+  ],
+  "source_regions": [
+    {
+      "page": 77,
+      "bbox": [
+        24.0,
+        625.6690673828125,
+        482.3999938964844,
+        658.29931640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 217,
+      "bbox": [
+        24.0,
+        381.0439147949219,
+        482.3999938964844,
+        606.6050415039062
+      ]
+    }
+  ]
+}

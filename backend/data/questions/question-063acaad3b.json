@@ -1,0 +1,48 @@
+{
+  "id": "question-063acaad3b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(30) 求曲线_y= Q2 +：dn(2 + g)的全部渐近线.",
+  "answer_markdown": "",
+  "analysis_markdown": "(30)解 函数 y = V/4P_+Tln 2 + 在]一*,o]上没有定义.由 lim y =—oo,\nlimy = lim JE +zln(2 + — ) = lim J2 +jcln(2z + 1) — lim (』4乞 + 1 • \\[x\\x\\ 工)=0,\n•Zf o+\nx-*0+\n\\\nX ' _r-> o+\no+\n故=一 y是铅直渐近线.\nk = lim — = lim —A + — In f 2 + 丄)=21n2,\nx-*+oo x 匚―+oo x v\nx \\\nx /\nb = lim [y — (21n 2)幻\nZf+oo\n=lim ( a/4j;2 + x — 2j7)In f 2 + 丄)+ lim2«z「ln(2 + 丄)一ln2~|\nX-*+oo\n\\\nX / H->+oo L \\\nX /\n」\n= lim — z -------Inf 2 -丄)十 lim 2_zln( 1 + 占)=七n 2 + 1.\nl+8 丿4乂2 + 工 + 2z I x ' L+8\n\\ 2工)\n同理，可求得lim — =—21n2, lim [j; + (21n 2) je] =—-^-ln 2 — 1,所以曲线有两条斜\n_rf—oo JC\n工―一oo\n1 1\n渐近线为\ny = (21n2)«z — In 2 + 1，y =— (21n 2)rc — —In 2 — 1.",
+  "chapter": "一元函数微分学",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.441266+00:00",
+  "updated_at": "2026-08-23T12:39:50.874218+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        24.0,
+        590.7987670898438,
+        482.3999938964844,
+        619.8687133789062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 35,
+      "bbox": [
+        24.0,
+        279.48431396484375,
+        482.3999938964844,
+        493.1911926269531
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-6d3e6f8699",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(16) 设a/为正数，且丄+寺=1,求= —xa +妇卩在条件巧=l(z〉0,\na p\na\np\n夕> 0)下的最小值.\n2 2 2",
+  "answer_markdown": "",
+  "analysis_markdown": "（16） 解 利用拉格朗日乘数法，令L =丄鼻“ +寺讯+入（巧一1）,则\na\np\n（L： = +心=0,\n\\ L：=护-i + Xx = 0,\n[l\\ — xy 一 1 = 0,\n解方程组得久=y = 1.由此得到点（1,1）是唯一可能的极值点，再应用二元函数极值的充分条\n件判断，可知点（1，1）是唯一极小值点，故点（1，1）即为最小值点，最小值为fmin=/（U）= l.\ndu _\naz =\ndu\n又\nI ir\\ g\ndu\n1 du c I 3u",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 38,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.452279+00:00",
+  "updated_at": "2026-08-23T12:39:51.208018+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 38,
+      "bbox": [
+        24.0,
+        307.1685791015625,
+        482.3999938964844,
+        357.6734924316406
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 99,
+      "bbox": [
+        24.0,
+        316.7497253417969,
+        482.3999938964844,
+        406.9812927246094
+      ]
+    }
+  ]
+}

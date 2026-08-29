@@ -1,0 +1,44 @@
+{
+  "id": "politics-2012-001",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "恩格斯说：“鹰比人看得远得多，但是人的眼睛识别的东西远胜于鹰。狗比人具有锐敏得多的嗅觉，但是它连被人当作各种物的特定标志的不同气味的百分之一也辨别不出来。”人的感官的识别能力高于动物，除了人脑及感官发育得更完美之外，还因为：",
+  "answer_markdown": "A",
+  "analysis_markdown": "【解析】选项B和选项C说法正确，但是和题干无关，所以不选；选项D是人和动物的共性，所以不选，因此本题的正确答案是选项A。",
+  "chapter": "2012 考研政治（通用）：马原题目汇总",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.179653+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人不仅有感觉还有思维"
+    },
+    {
+      "key": "B",
+      "text": "人不仅有理性还有非理性"
+    },
+    {
+      "key": "C",
+      "text": "人不仅有直觉还有想象"
+    },
+    {
+      "key": "D",
+      "text": "人不仅有生理机能还有心理活动 ### 答案解析 1"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "2012 考研政治（通用）：马原题目汇总"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

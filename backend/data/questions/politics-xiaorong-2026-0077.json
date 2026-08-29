@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0077",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "万物生长靠太阳。太阳之所以能发光发热，是因为内部的核聚变反应。核聚变能源的原材料在\n\n地球上极其丰富，且排放无污染，如果能造一个“太阳” 来发电，人类有望实现能源自由。前\n\n不久，我国新一代人造太阳“中国环流三号” 首次实现原子核温度与电子温度均突破1 亿摄氏\n\n度，综合参数大幅跃升，标志着中国可控核聚变研究进入燃烧实验阶段，向工程化应用迈出重\n\n要一步。人们可以通过可控核聚变制造“人造太阳”，说明",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 12,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人们已经完全掌握了物质世界的运行规律"
+    },
+    {
+      "key": "B",
+      "text": "人们可以通过认识活动改变物质的存在方式"
+    },
+    {
+      "key": "C",
+      "text": "科学技术是人类认识世界和改造世界的根本动力"
+    },
+    {
+      "key": "D",
+      "text": "人们可以通过实践创造出自然界原本不存在的事物"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        104.46499633789062,
+        405.41064453125,
+        936.9650268554688,
+        692.5458984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 16,
+      "bbox": [
+        441.1759948730469,
+        1181.7857666015625,
+        847.8548583984375,
+        1327.643798828125
+      ]
+    }
+  ]
+}

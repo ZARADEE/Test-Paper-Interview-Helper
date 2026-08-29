@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0847",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1840 年鸦片战争以后，西方列强在中华大地上恣意妄为，封建统治者孱弱无能，中国逐步成为\n\n半殖民地半封建社会，国家蒙辱、人民蒙难、文明蒙尘，中国人民和中华民族遭受了前所未有\n\n的劫难。英雄的中国人民始终没有屈服，在救亡图存的道路上一次次抗争、一次次求索，展现\n\n了不畏强暴、自强不息的顽强意志。其中，拉开了近代以来中国发生的深刻社会变革序幕的事\n\n件是",
+  "answer_markdown": "D",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 126,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "新文化运动"
+    },
+    {
+      "key": "B",
+      "text": "五四运动"
+    },
+    {
+      "key": "C",
+      "text": "中国共产党成立"
+    },
+    {
+      "key": "D",
+      "text": "辛亥革命"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 126,
+      "bbox": [
+        102.54499816894531,
+        125.55790710449219,
+        935.5204467773438,
+        314.2126159667969
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 130,
+      "bbox": [
+        442.7409973144531,
+        762.2634887695312,
+        771.6901245117188,
+        839.2701416015625
+      ]
+    }
+  ]
+}

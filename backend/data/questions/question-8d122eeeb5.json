@@ -1,0 +1,48 @@
+{
+  "id": "question-8d122eeeb5",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（8） 将fS = sin飾在=-2处进行幕级数展开.",
+  "answer_markdown": "",
+  "analysis_markdown": "(8)解\n⑻解\nf （工）―sin —\n—sin号（工+ 2 — 2）\n(工 + 2)2n+1 (一 OO < 2 <+ OO).\n【注】 将函数fCx）展开为舉级数，常用两种方法：\n① 直接法：求泰勒系数a” = 巴3,证明余项R”Q） =\n—\n的极限\nn J\n（\"十丄）！\n\\imRn （x） — 0,则\n/（^） = f（x0） + ［字2（攵—J；。）十 …+ —~~~\n（攵一氏）\" —•，工 € （a ,b）,\n1 J\nTl !\n其中（a,6）为级数的收敛域 1\n②\n间接法\n：利用函数展开为赛级数的唯一性和常用函数的幕级数，借助于赛级数的四\n则运算、逐项求导、逐项积分以及变量代换等方法，求得函数的赛级数展开式.\n一般简单函数来用直接法.",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 51,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.460149+00:00",
+  "updated_at": "2026-08-23T12:39:51.430319+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 51,
+      "bbox": [
+        24.0,
+        491.89410400390625,
+        482.3999938964844,
+        518.9436645507812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 144,
+      "bbox": [
+        24.0,
+        218.26678466796875,
+        482.3999938964844,
+        425.1810607910156
+      ]
+    }
+  ]
+}

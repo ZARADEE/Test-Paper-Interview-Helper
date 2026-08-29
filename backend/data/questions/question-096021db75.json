@@ -1,0 +1,50 @@
+{
+  "id": "question-096021db75",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(11)设 0<劝 < 7T,2卄1 = sin 工”.\n(I)证明：lim^存在，并求值；",
+  "answer_markdown": "",
+  "analysis_markdown": "(11)解 (I)显然，九>0有下界.又sin x <\n> 0),故工卄1 = sin 乂” <九，所以\n｛工”｝单调减少，故limz”存在，记为A. z卄1 = sin z”两边同时求极限，得A = sin A,故A = 0,\n”f 8\n即 lim_z” —\n—0.\nn-*oo\n±_\nsin x.\n・\n丄\n竺(1°° 型)\nZn = lim\nz-*0\nX\n(H)\nlim\n“一► OO\n=lim8\nsin t—t |\n+ sin £ — £\n=lim\nJ\n—0\ni. sin t 一 t\nlim\n—o\n1 2\n—-- £\nV cos t — 1 i. 2\n= lim —\n——---- = lim ———\n一 o\n3t2\nr-o 3t2\n而\n_ 2\n\"7\n所以原式=",
+  "chapter": "函数、极限与连续",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 13,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.438262+00:00",
+  "updated_at": "2026-08-23T12:39:50.790554+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 13,
+      "bbox": [
+        24.0,
+        98.80799102783203,
+        482.3999938964844,
+        158.92527770996094
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 19,
+      "bbox": [
+        24.0,
+        492.3810729980469,
+        482.3999938964844,
+        644.1748657226562
+      ]
+    }
+  ]
+}

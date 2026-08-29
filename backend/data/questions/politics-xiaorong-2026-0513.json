@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0513",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "武装斗争是中国革命的特点和优点之一。总结党在新民主主义革命时期开展武装斗争的革命经\n\n验，建设人民军队，要",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精1布底考点34 -3\n地《中共中央关于进一步全面深化改革\n\n出处嘉添百函考点25 -3-0\n直提坚持尽力而为、量力而行，也是保障\n\n推进中国式现代化的决定》指出,进一步全面\n\n和改善民生的重要方针。\n\n深化改革的总目标是继续完善和发展中国特\n\n第五章\n\n色社会主义制度，推进国家治理体系和治理\n\n能力现代化。到2035 年，全面建成高水平",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 77,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "坚持党对军队的绝对领导"
+    },
+    {
+      "key": "B",
+      "text": "建设全心全意为人民服务的人民军队"
+    },
+    {
+      "key": "C",
+      "text": "开展革命的政治工作"
+    },
+    {
+      "key": "D",
+      "text": "坚持正确的战略战术原则"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 77,
+      "bbox": [
+        85.78399658203125,
+        1284.2532958984375,
+        926.7488403320312,
+        1409.43115234375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 90,
+      "bbox": [
+        441.8340148925781,
+        474.1473693847656,
+        854.2354125976562,
+        1030.8751220703125
+      ]
+    }
+  ]
+}

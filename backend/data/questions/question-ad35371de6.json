@@ -1,0 +1,48 @@
+{
+  "id": "question-ad35371de6",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(34)设摆线=—切/)，(0口£2“〉0)与工轴所围平面图形为d.\n\\y — a{l — cos t)\n(I)求D绕工轴轴各旋转一周所得旋转体的体积；\n(U)求D绕直线y = 2a旋转一周所得旋转体的体积.",
+  "answer_markdown": "",
+  "analysis_markdown": "(34)解 (I )如图3-16所示，\n'2na\n•2k\n7T I J/2djC = 7C\nV\na2 (1 一 cos Z)2 • a(l — cos t)dt\no\nJ 0\n・\n•2x\n7TQ3\n(1 一 cos tY dt = 8兀<13\n十\nsin6 —\no\nL\n._n\n32“3\n%\nq3(£ — sin 0(1 — cos t)2dt\no\nsin6udu = 5tc26Z3 9\nr2iza\n2兀 xy(\\x = 2兀\nJ 0\n.\n'2k\n2肿\n(£ — 2/cos t + tcos21 — sin t + 2sin £cos t 一 sin Z：cos2Z)dz = 6兀3左.\no\n'2iza\n(U)\nVy=2a = 7c(2a)2 • 2tc<2 —\n'2n\n7t(2a — j/)2djr\n=87T2a3 — 7t\n[2a — a(l — cos t)了 • a(l — cos t)dt\no\n•2k\n=87T2a3 一 7TQ3\n=8 兀2 a3 — ttcz3\n(1 + cos t)2 (1 — cos t)dt\n*2n\nsin2Z(l + cos t)dt\n=87t2a3 — 7r2a3 = lit a?・\n，于\ndj? = 7T\n由已知9Vn =兀「(sin今工)",
+  "chapter": "一元函数积分学",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 30,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.447851+00:00",
+  "updated_at": "2026-08-23T12:39:51.046774+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "一元函数积分学"
+  ],
+  "source_regions": [
+    {
+      "page": 30,
+      "bbox": [
+        24.0,
+        207.53639221191406,
+        482.3999938964844,
+        274.6422119140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 74,
+      "bbox": [
+        24.0,
+        244.24078369140625,
+        482.3999938964844,
+        494.7747802734375
+      ]
+    }
+  ]
+}

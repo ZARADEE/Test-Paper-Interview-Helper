@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0669",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平新时代中国特色社会主义思想是马克思主义基本原理同中国具体实际相结合、同中华优秀\n\n传统文化相结合的重大成果，是坚持“两个结合” 的光辉典范。“两个结合” 是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "第一章\n\n出处精讲百可考点2 拓展与点拨",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 99,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "开辟和发展中国特色社会主义的必由之路"
+    },
+    {
+      "key": "B",
+      "text": "推进马克思主义中国化时代化的根本途径"
+    },
+    {
+      "key": "C",
+      "text": "我们取得成功的最大法宝"
+    },
+    {
+      "key": "D",
+      "text": "我们党坚定信仰信念、把握历史主动的根本所在"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 99,
+      "bbox": [
+        87.9280014038086,
+        209.6514892578125,
+        927.501708984375,
+        402.73199462890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 108,
+      "bbox": [
+        443.718994140625,
+        504.10491943359375,
+        851.0078125,
+        931.7633666992188
+      ]
+    }
+  ]
+}

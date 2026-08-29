@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0595",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十八大以来，习近平总书记顺应时代和实践发展的新要求，坚持以人民为中心的发展思想,\n\n鲜明提出要坚定不移贯彻创新、协调、绿色、开放、共享的新发展理念，引领我国发展全局发\n\n生历史性变革。其中，开放发展注重的是解决",
+  "answer_markdown": "C",
+  "analysis_markdown": "向实体经济倾斜、工作力量向实体经济加强，\n\n出处精讲Pi76］考点36 -2-0\n\n营造脚踏实地、勤劳创业、实业致富的发展环\n\n简析创新发展注重的是解决发展动力问题,\n\n境和社会氛围，把实体经济做实、做强、做优。\nD 正确。\n\n协调发展注重的是解决发展不平衡问题，绿\n\n色发展注重的是解决人与自然和谐共生问",
+  "chapter": "第六章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 90,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "发展不平衡问题"
+    },
+    {
+      "key": "B",
+      "text": "发展动力问题"
+    },
+    {
+      "key": "C",
+      "text": "发展内外联动问题"
+    },
+    {
+      "key": "D",
+      "text": "社会公平正义问题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第六章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第六章"
+  ],
+  "source_regions": [
+    {
+      "page": 90,
+      "bbox": [
+        106.48200225830078,
+        777.0474243164062,
+        941.50146484375,
+        933.647216796875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 100,
+      "bbox": [
+        442.7760009765625,
+        992.6077880859375,
+        849.7869873046875,
+        1323.089599609375
+      ]
+    }
+  ]
+}

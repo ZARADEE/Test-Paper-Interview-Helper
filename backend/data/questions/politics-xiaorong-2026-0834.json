@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0834",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "甲午战争一役，洋务派经营多年的北洋海军全军覆没，标志着以“自强”“求富” 为目标的洋\n\n务运动的失败。决定洋务运动必然失败命运的原因是",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 124,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "洋务运动具有封建性"
+    },
+    {
+      "key": "B",
+      "text": "洋务运动对列强具有依赖性"
+    },
+    {
+      "key": "C",
+      "text": "洋务企业的管理具有腐朽性"
+    },
+    {
+      "key": "D",
+      "text": "资产阶级维新派的强烈反对"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 124,
+      "bbox": [
+        106.68399810791016,
+        551.71875,
+        938.9445190429688,
+        688.2664794921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 129,
+      "bbox": [
+        8.107999801635742,
+        301.17657470703125,
+        428.0071105957031,
+        512.455078125
+      ]
+    }
+  ]
+}

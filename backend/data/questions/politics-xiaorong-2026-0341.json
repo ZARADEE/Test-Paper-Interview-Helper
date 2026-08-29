@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0341",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会再生产的顺利进行，要求",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处刷r丽y考点71 -4\n\n出处精讲市G 考点72 -4-(2)-0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 50,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "生产中所耗费的资本在价值上得到补偿"
+    },
+    {
+      "key": "B",
+      "text": "实际生产过程中所耗费的生产资料和消费资料得到实物的替换"
+    },
+    {
+      "key": "C",
+      "text": "两大部类内部各个产业部门之间保持一定的比例关系"
+    },
+    {
+      "key": "D",
+      "text": "两大部类之间保持一定的比例关系"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 50,
+      "bbox": [
+        104.62899780273438,
+        122.35464477539062,
+        698.010498046875,
+        281.90460205078125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 66,
+      "bbox": [
+        16.0,
+        826.1693115234375,
+        311.82568359375,
+        900.538818359375
+      ]
+    }
+  ]
+}

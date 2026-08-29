@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0657",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "外交工作是党和国家工作全局的重要组成部分。中国特色大国外交牢牢把握的主线是",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "第十六章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 97,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "服务民族复兴、促进人类进步"
+    },
+    {
+      "key": "B",
+      "text": "相互尊重、合作共赢"
+    },
+    {
+      "key": "C",
+      "text": "打造全球伙伴关系、维护多边主义"
+    },
+    {
+      "key": "D",
+      "text": "维护世界和平、促进共同发展"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十六章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十六章"
+  ],
+  "source_regions": [
+    {
+      "page": 97,
+      "bbox": [
+        89.07599639892578,
+        753.2243041992188,
+        838.4580078125,
+        851.1666259765625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 107,
+      "bbox": [
+        434.24798583984375,
+        424.19842529296875,
+        779.9434204101562,
+        502.7870178222656
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1019",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国共产党在抗日民族统一战线中坚持的策略总方针是",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "正了王明的右倾错误。A 错误。\n在鹿①大革命的失败，从主观方面说，原\n\n出处精评两7 考点48 -3-0\n\n置机抗日民族统一战线中的顽固势力不同于\n\n因之一就是由于党内以陈独秀为代表的右倾\n\n日本帝国主义及其走狗,它有抗日的一面，因\n\n思想发展为右倾机会主义错误并在党的领导\n\n此，对它是孤立而不是消灭，与其斗争应坚持\n\n机关中占了统治地位。\n\n“有理、有利、有节”原则。A、B、D 正确。\n\n1927年7 月大革命失败到1935年1 月遵",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 149,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "发展进步势力"
+    },
+    {
+      "key": "B",
+      "text": "争取中间势力"
+    },
+    {
+      "key": "C",
+      "text": "消灭反动势力"
+    },
+    {
+      "key": "D",
+      "text": "孤立顽固势力"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 149,
+      "bbox": [
+        82.56600189208984,
+        1109.857421875,
+        837.25146484375,
+        1174.8673095703125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 155,
+      "bbox": [
+        0.0,
+        265.24493408203125,
+        420.8351135253906,
+        700.3958740234375
+      ]
+    }
+  ]
+}

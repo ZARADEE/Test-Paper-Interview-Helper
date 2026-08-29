@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0981",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "辛亥革命之所以失败，从主观方面来说，在于它的领导者资产阶级革命派本身存在着许多弱点\n\n和错误，主要是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "A、B、C、D全选。\n\n出处精讲改隹连3 考点25 -2-（1）\n\n点拨这里要注意A 项是习近平总书记在纪\n\n念辛亥革命110周年大会上讲话的原文，“成\n\n简析A、B、C 正确。D 项不是主观原因，而\n\n立之初”指代党成立初期的一段时间，比较\n\n是失败的根本原因。\n\n宽泛，不是特指党的一大这个时刻。\n\n点拨这里要注意区分辛亥革命失败的根本\n\n原因、主观原因以及主观原因的根源这几个\n\n说法。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 143,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "没有提出彻底的反帝反封建的革命纲领"
+    },
+    {
+      "key": "B",
+      "text": "不能充分发动和依靠人民群众"
+    },
+    {
+      "key": "C",
+      "text": "不能建立坚强的革命政党"
+    },
+    {
+      "key": "D",
+      "text": "在帝国主义时代，在半殖民地半封建的中国，资本主义的建国方案行不通"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 143,
+      "bbox": [
+        92.77100372314453,
+        1034.3359375,
+        933.6972045898438,
+        1229.1417236328125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 149,
+      "bbox": [
+        430.7070007324219,
+        981.566650390625,
+        841.9365234375,
+        1315.3829345703125
+      ]
+    }
+  ]
+}

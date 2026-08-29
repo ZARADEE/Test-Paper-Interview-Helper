@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0875",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在新民主主义革命时期，对中国革命具有决定意义的新起点是",
+  "answer_markdown": "B",
+  "analysis_markdown": "出处1WP276H277J 考点36 -2-0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 129,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "从领导工人运动转向武装斗争"
+    },
+    {
+      "key": "B",
+      "text": "从进攻大城市转为向农村进军"
+    },
+    {
+      "key": "C",
+      "text": "从工农武装割据转为建立全国性政权"
+    },
+    {
+      "key": "D",
+      "text": "从游击战争转向正面战场"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 129,
+      "bbox": [
+        89.68499755859375,
+        1305.6357421875,
+        804.2310180664062,
+        1407.4957275390625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 134,
+      "bbox": [
+        444.56201171875,
+        589.551513671875,
+        862.0508422851562,
+        1052.623046875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0375",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "第二次世界大战后，由于多种社会因素的影响，资本主义发生了一系列变化。其中在政治制度\n\n上的变化有",
+  "answer_markdown": "ACD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 54,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "政治制度出现多元化的趋势，公民权利有所扩大"
+    },
+    {
+      "key": "B",
+      "text": "通过建立政策咨询机构等方式允许民众直接参与政策的制定和执行"
+    },
+    {
+      "key": "C",
+      "text": "普遍加强了法治建设，以便协调社会各阶级、阶层的利益"
+    },
+    {
+      "key": "D",
+      "text": "改良主义政党在政治舞台上的影响日益扩大"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 54,
+      "bbox": [
+        103.4020004272461,
+        711.29248046875,
+        935.4439697265625,
+        900.9749145507812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        20.05299949645996,
+        292.6583557128906,
+        406.49859619140625,
+        366.2386169433594
+      ]
+    }
+  ]
+}

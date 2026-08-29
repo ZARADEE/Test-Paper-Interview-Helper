@@ -1,0 +1,44 @@
+{
+  "id": "politics-2015-006",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "十三大召开前夕，邓小平强调指出：“社会主义本身是共产主义的初阶段，而我们中国又处在社会主义的初级阶段，就是不发达的阶段。一切都要从这个实际出发，根据这个实际来制定规划。”这一论述：",
+  "answer_markdown": "C",
+  "analysis_markdown": "【解析】1987年党的十三大对社会主义初级阶段和党的基本路线的系统阐述，是党对我国社会主义发展阶段和国情认识上的—次飞跃。题干中提出了要一切都要从这个实际出发，根据这个实际来制定规划。体现了把社会主义初级阶段作为事关全局的基本国情加以把握。因此，本题的正确答案是C。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.495823+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "首次提出了社会主义初级阶段概念"
+    },
+    {
+      "key": "B",
+      "text": "首次系统阐述了社会主义初级阶段理论"
+    },
+    {
+      "key": "C",
+      "text": "首次把社会主义初级阶段作为事关全局的基本国情加以把握"
+    },
+    {
+      "key": "D",
+      "text": "首次对社会主义发展阶段进行了划分"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

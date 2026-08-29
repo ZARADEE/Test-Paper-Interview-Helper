@@ -1,0 +1,51 @@
+{
+  "id": "question-40373d2fa9",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(3) 设/■(#)是连续函数,lim 3\n=_1,当工―0时，「八/■⑺山是关于工的/2阶\nx-*0 1 一 cos X\nJ 0\n无穷小，则n = ________ ・",
+  "answer_markdown": "6.",
+  "analysis_markdown": "6.\n解\n由lim\nz—0\nH d— =— 1，可知当 ZfO 时，有 /(J7)〜—(1 — cos X)〜一升.\n1 一 cos X\n/\n'sin^x\n又\nf(sin2 je) • 2sin jccos x 2 ，- xf (jc2 )\n--------------------------------=—lim -----------\n------------  = lim\nx\nlim\nx->0\n工-*0\nn 工->0 xn~x\nnxn~x\n_(C\n_ 1 ] •—工5\n=—lim\nn x->o\n— lim — ] 9\nn 工—o x\nxn~x\n故n — 1\n=5,艮卩九=6.\n:T)寻—1.",
+  "chapter": "函数、极限与连续",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 12,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.437208+00:00",
+  "updated_at": "2026-08-23T12:39:50.762107+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "无穷小",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 12,
+      "bbox": [
+        24.0,
+        54.88427734375,
+        482.3999938964844,
+        94.53433990478516
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 15,
+      "bbox": [
+        24.0,
+        363.2389221191406,
+        482.3999938964844,
+        480.57122802734375
+      ]
+    }
+  ]
+}

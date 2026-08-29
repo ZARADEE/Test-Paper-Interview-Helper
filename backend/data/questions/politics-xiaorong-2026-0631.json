@@ -1,0 +1,62 @@
+{
+  "id": "politics-xiaorong-2026-0631",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新形势下做好新闻舆论工作的关键是",
+  "answer_markdown": "B",
+  "analysis_markdown": "国涉及很多方面，在实际工作中必须有一个\n\n出处精讲声丽考点72 -3-0\n\n总揽全局、牵引各方的总抓手,这个总抓手就\n\n简析互联网是意识形态工作的主阵地、主战\n\n是建设中国特色社会主义法治体系。依法治\n\n场、最前沿，管好用好互联网是新形势下做好\n\n国各项工作都要围绕这个总抓手来谋划、来\n\n新闻舆论工作的关键。习近平总书记指出：\n\n推进\nA 正确。建设中国特色社会主义法治\n\n“过不了互联网这一关,就过不了长期执政这\n\n体系，建设社会主义法治国家,是全面推进依\n\n一关JB 正确。\n\n法治国的总目标；坚持依法治国、依法执政、",
+  "chapter": "第十章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 94,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "牢牢坚持马克思主义新闻观"
+    },
+    {
+      "key": "B",
+      "text": "管好用好互联网\n\n•"
+    },
+    {
+      "key": "D",
+      "text": "团结人民、鼓舞士气"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十章"
+  ],
+  "source_regions": [
+    {
+      "page": 94,
+      "bbox": [
+        107.45500183105469,
+        784.7988891601562,
+        741.5084228515625,
+        882.5111694335938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 104,
+      "bbox": [
+        443.9809875488281,
+        480.10650634765625,
+        861.1199951171875,
+        785.4384765625
+      ]
+    }
+  ]
+}

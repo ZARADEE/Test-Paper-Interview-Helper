@@ -1,0 +1,67 @@
+{
+  "id": "question-d48d40c058",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4)计算九阶行列式\nbn\n... o\nbi\n0 . •• 0\na2\n... o\n仇\na3\n... o\n©\nb2 • •• 0\n:\n•\n:\n:\n+\n0 • ••\nO-n-1\nbn-\\\n…a”_i\n0 . •• 0\na”\na”\n… b—\n其中a. ,bi均不为0.",
+  "answer_markdown": "",
+  "analysis_markdown": "(4)解\n记D„ = D+D2.D］按第1列展开，得\nb„-l\nb2\n0 … 0\nb\\\n0 ・・・\n^3\nb3 …\n仇\n0 ・・・\nDi = ai\n•\n:\n• :\n:\n+ (—1)十\n•\n:\n:\n…an-x\nbn-i\n0 ・・・\nb”_2\n0 ・•・ 0\nCLn\n0 …\n(2九—1\n= 如＜22…a” + (— l)\"^^仇…仇.\nD2是Di的转置行列式，故D2 = Dj = «i＜22…a” + (— l)\"+1&i&2…久，故\nDn = 2如＜22 …a” 十 2(— l)n+1 b1b2---bn.",
+  "chapter": "行列式",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 61,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.473201+00:00",
+  "updated_at": "2026-08-29T14:15:23.241326+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "行列式"
+  ],
+  "tags": [
+    "线性代数",
+    "行列式"
+  ],
+  "source_regions": [
+    {
+      "page": 61,
+      "bbox": [
+        24.0,
+        552.1695556640625,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 62,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        213.1999969482422,
+        555.7100219726562,
+        385.6485290527344,
+        609.4508666992188
+      ]
+    },
+    {
+      "page": 181,
+      "bbox": [
+        37.900001525878906,
+        553.762939453125,
+        221.22169494628906,
+        611.0176391601562
+      ]
+    }
+  ]
+}

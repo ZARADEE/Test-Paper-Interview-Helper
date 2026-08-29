@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0858",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "五四运动是中国近现代史上具有划时代意义的一个重大事件，以磅礴之力鼓动了中国人民和中\n\n华民族实现民族复兴的志向和信心。五四运动孕育了五四精神，五四精神的核心是",
+  "answer_markdown": "D",
+  "analysis_markdown": "半殖民地半封建社会的性质;工人阶级是新\n\n出处精都庆丽考点28 -2-（2）- 好\n\n民主主义革命的领导阶级，但不是主力军（民",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 127,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "民主和科学"
+    },
+    {
+      "key": "B",
+      "text": "追求真理"
+    },
+    {
+      "key": "C",
+      "text": "追求进步"
+    },
+    {
+      "key": "D",
+      "text": "爱国主义"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 127,
+      "bbox": [
+        91.08399963378906,
+        843.7711181640625,
+        931.941650390625,
+        943.031005859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 132,
+      "bbox": [
+        15.944999694824219,
+        1249.1156005859375,
+        422.5400085449219,
+        1321.714111328125
+      ]
+    },
+    {
+      "page": 132,
+      "bbox": [
+        469.760986328125,
+        32.376461029052734,
+        856.78369140625,
+        548.4844360351562
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "politics-2024-020",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "商品经济是社会经济发展到一定阶段的产物。在资本主义社会之前的发展阶段，商品经济只是一种简单商品经济，这一阶段商品经济发展的基础是（ ）",
+  "answer_markdown": "BC",
+  "analysis_markdown": "【解析】本题考查的知识点：商品经济产生的历史条件\n商品经济是社会经济发展到一定阶段的产物。商品经济出现于原始社会末期，在奴隶社会和封建社会有所发展，但不占主导地位。这一阶段的商品经济以生产资料私有制和个体劳动为基础，以换取自己所需要的使用价值为目的，是一种简单商品经济。因此，本题的正确答案是选项BC。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.359171+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "生产资料公有制"
+    },
+    {
+      "key": "B",
+      "text": "个体劳动"
+    },
+    {
+      "key": "C",
+      "text": "生产资料私有制"
+    },
+    {
+      "key": "D",
+      "text": "雇佣劳动 ### 答案解析 20."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "商品经济产生的历史条件"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "商品经济产生的历史条件"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

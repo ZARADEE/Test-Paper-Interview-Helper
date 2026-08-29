@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1105",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "富强、民主、文明、和谐，这一价值追求回答了我们",
+  "answer_markdown": "A",
+  "analysis_markdown": "不只是社会经济关系,A 错误;社会存在包括\n\n出处精甫班考点24 -1-0\n\n自然地理环境、人口因素和物质生产方式，也\n\n置近富强、民主、文明、和谐的价值追求回答\n\n不只是社会经济关系,C 错误;社会的阶级关\n\n了我们要建设什么样的国家的重大问题，揭\n\n系也不等于社会经济关系,D 错误。\n\n示了当代中国经济社会发展的价值目标，从",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 164,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "要建设什么样的国家的重大问题"
+    },
+    {
+      "key": "B",
+      "text": "要建设什么样的社会的重大问题"
+    },
+    {
+      "key": "C",
+      "text": "要建设什么样的政府的重大问题"
+    },
+    {
+      "key": "D",
+      "text": "要培育什么样的公民的重大问题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 164,
+      "bbox": [
+        105.68800354003906,
+        126.95993041992188,
+        830.3375854492188,
+        224.2127685546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 169,
+      "bbox": [
+        3.008999824523926,
+        564.2402954101562,
+        412.1585693359375,
+        806.2648315429688
+      ]
+    }
+  ]
+}

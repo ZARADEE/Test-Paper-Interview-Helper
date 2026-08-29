@@ -1,0 +1,75 @@
+{
+  "id": "politics-xiaorong-2026-0686",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国式现代化是中国共产党领导的社会主义现代化。中国共产党领导的社会主义现代化，是对\n\n中国式现代化的定性，是管总、管根本的。党的领导直接关系中国式现代化的根本方向、前途\n\n命运、最终成败。党的领导",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "辟了中国特色社会主义道路，形成了中国特\n\n出处\n考点15\n拓展与点拨目\n\n色社会主义理论体系，确立了中国特色社会",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 101,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "决定中国式现代化的根本性质"
+    },
+    {
+      "key": "B",
+      "text": "确保中国式现代化锚定奋斗目标行稳致远"
+    },
+    {
+      "key": "C",
+      "text": "激发建设中国式现代化的强劲动力"
+    },
+    {
+      "key": "D",
+      "text": "凝聚建设中国式现代化的磅礴力量"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 101,
+      "bbox": [
+        87.8290023803711,
+        862.77197265625,
+        929.0007934570312,
+        1021.3536376953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 110,
+      "bbox": [
+        18.59000015258789,
+        652.7833251953125,
+        428.1425476074219,
+        1314.260498046875
+      ]
+    },
+    {
+      "page": 110,
+      "bbox": [
+        470.88299560546875,
+        28.3267822265625,
+        848.99462890625,
+        223.00502014160156
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "politics-2014-004",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "与第二次世界大战前的资本主义相比，当代资本主义在许多方面已经并正在发生着深刻的变化，正确分析这些新变化发生的原因，有利于我们科学而全面地认识当代资本主义社会，导致当代资本主义新变化发生的根本推动力量是：",
+  "answer_markdown": "B",
+  "analysis_markdown": "【解析】当代资本主义新变化的背景是科学技术革命，特别是信息化革命，科学技术渗透在生产力之中，所以也意味着生产力的发展。选项A，工人阶级的斗争也属于社会发展的动力，是阶级斗争。但是更根本的生产力标准，所以本题正确答案是B。选项C，是当代资本主义新变化的原因，不是动力。D选项，社会主义制度优越性体产生一定影响，但不是根本推动力量，所以不是正确答案。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.477101+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "工人阶级争取自身权利的斗争"
+    },
+    {
+      "key": "B",
+      "text": "科学技术革命和生产力的发展"
+    },
+    {
+      "key": "C",
+      "text": "改良主义政党对资本主义制度的改革"
+    },
+    {
+      "key": "D",
+      "text": "社会主义制度的优越性对资本主义的影响"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0570",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "坚定中国特色社会主义道路自信、理论自信、制度自信，说到底是要坚定",
+  "answer_markdown": "D",
+  "analysis_markdown": "必须坚持”赋予了马克思主义世界观和方法论\n\n以新的时代内涵,彰显了习近平新时代中国特\n\n色社会主义思想的理论品格和鲜明特征。B、\n\n出处精饼市庭考点8 -呼\n\nC、D 错误。",
+  "chapter": "第一章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 87,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "政治自信"
+    },
+    {
+      "key": "B",
+      "text": "历史自信"
+    },
+    {
+      "key": "C",
+      "text": "战略自信"
+    },
+    {
+      "key": "D",
+      "text": "文化自信"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第一章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第一章"
+  ],
+  "source_regions": [
+    {
+      "page": 87,
+      "bbox": [
+        88.90599822998047,
+        1033.5634765625,
+        834.686767578125,
+        1099.5318603515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 97,
+      "bbox": [
+        4.996999740600586,
+        895.835205078125,
+        428.6294860839844,
+        1184.110107421875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0294",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "习近平主席在中国—中亚峰会上的主旨讲话中提到：“2100 多年前，中国汉代使者张骞自长安\n\n出发，出使西域，打开了中国同中亚友好交往的大门。千百年来，中国同中亚各族人民一道推\n\n动了丝绸之路的兴起和繁荣，为世界文明交流交融、丰富发展作出了历史性贡献。” 交往是唯物\n\n史观的重要范畴，是人类实践活动的重要组成部分。交往对社会生活的重要影响，在于促进",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精群国浦考点47 .3\n\n走向现代化，既要遵循现代化一般规律，更\n\n要符合本国实际，具有本国特色。A 正确。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 43,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "生产力的发展"
+    },
+    {
+      "key": "B",
+      "text": "社会关系的进步"
+    },
+    {
+      "key": "C",
+      "text": "文化的发展与传播"
+    },
+    {
+      "key": "D",
+      "text": "人的全面发展"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 43,
+      "bbox": [
+        86.42500305175781,
+        1251.40673828125,
+        926.5469970703125,
+        1409.83154296875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        17.798999786376953,
+        1012.71630859375,
+        340.3103942871094,
+        1091.632080078125
+      ]
+    }
+  ]
+}

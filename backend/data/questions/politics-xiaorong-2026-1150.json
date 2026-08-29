@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1150",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思主义权利观与其他权利观的根本区别在于",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 168,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "强调社会的物质生活条件对权利的制约和决定作用"
+    },
+    {
+      "key": "B",
+      "text": "强调公民的权利和义务是平等的"
+    },
+    {
+      "key": "C",
+      "text": "强调公民的权利和义务是统一的"
+    },
+    {
+      "key": "D",
+      "text": "强调权利和义务关系是社会关系的核心部分"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        102.4749984741211,
+        553.5980224609375,
+        593.031005859375,
+        712.9347534179688
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 173,
+      "bbox": [
+        437.1180114746094,
+        1117.63720703125,
+        847.7962646484375,
+        1312.7447509765625
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1249",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的领导是我国宪法的基本原则之一。我国宪法的基本原则还有",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "虑后代人的机会平等。A、C、D 正确,B 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 181,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "人民当家作主原则"
+    },
+    {
+      "key": "B",
+      "text": "尊重和保障人权原则"
+    },
+    {
+      "key": "C",
+      "text": "分权制衡原则"
+    },
+    {
+      "key": "D",
+      "text": "社会主义法治原则"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        87.31700134277344,
+        121.68941497802734,
+        720.4949340820312,
+        219.23399353027344
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 185,
+      "bbox": [
+        11.225000381469727,
+        152.65225219726562,
+        419.0837707519531,
+        396.6034240722656
+      ]
+    }
+  ]
+}

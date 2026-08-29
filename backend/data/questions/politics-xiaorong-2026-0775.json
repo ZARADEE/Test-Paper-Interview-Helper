@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0775",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "生态环境问题归根到底是经济发展方式和生活方式问题。绿水青山就是金山银山",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "源，是改善民生、实现发展成果由人民共享\n\n出处精甫苑考点84 -1\n\n最重要最直接的方式。C 错误。",
+  "chapter": "第十二章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 114,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "明确了新时代我国发展壮大的必由之路"
+    },
+    {
+      "key": "B",
+      "text": "指明了实现发展和保护协同共生的新路径"
+    },
+    {
+      "key": "C",
+      "text": "阐明了经济发展与生态环境保护之间的关系"
+    },
+    {
+      "key": "D",
+      "text": "揭示了保护生态环境就是保护生产力、改善生态环境就是发展生产力的道理"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第十二章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第十二章"
+  ],
+  "source_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        107.28399658203125,
+        646.85595703125,
+        822.1348876953125,
+        807.814208984375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 119,
+      "bbox": [
+        436.5610046386719,
+        272.04388427734375,
+        760.3355712890625,
+        349.5516052246094
+      ]
+    }
+  ]
+}

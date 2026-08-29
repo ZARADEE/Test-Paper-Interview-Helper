@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0953",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "19 世纪70 至80 年代，帝国主义列强从侵占中国周边邻国发展到蚕食中国边疆地区，使中国陷入\n\n“边疆危机”。“边疆危机”的主要表现有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "而来的瓜分狂潮，更使中华民族的各阶级、\n\n出处精布诙4 考点7 -1-0\n\n各阶层普遍产生了亡国灭种的危机感。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 140,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "英国从印度侵入西藏，从缅甸入侵云南"
+    },
+    {
+      "key": "B",
+      "text": "法国从越南侵犯广西"
+    },
+    {
+      "key": "C",
+      "text": "俄国从中亚入侵新疆"
+    },
+    {
+      "key": "D",
+      "text": "日本吞并琉球、侵犯中国台湾"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 140,
+      "bbox": [
+        110.3219985961914,
+        340.3438415527344,
+        941.8997192382812,
+        475.6549987792969
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 146,
+      "bbox": [
+        21.03700065612793,
+        377.2930603027344,
+        429.1805114746094,
+        685.0437622070312
+      ]
+    }
+  ]
+}

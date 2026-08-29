@@ -1,0 +1,28 @@
+{
+  "id": "demo-fill-002",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "若随机变量 $X\\sim N(0,1)$，则 $P(X\\leq 0)=\\underline{\\quad}$。",
+  "answer_markdown": "1/2",
+  "analysis_markdown": "标准正态分布关于原点对称。",
+  "chapter": "概率论与数理统计",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T10:08:05.385149+00:00",
+  "updated_at": "2026-08-23T12:39:50.690018+00:00",
+  "analysis_source_document_id": null,
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "正态分布"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "正态分布"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

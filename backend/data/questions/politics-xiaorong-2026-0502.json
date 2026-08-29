@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0502",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "新民主主义经济纲领的内容是",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "主义制度，发展了中国特色社会主义文化。B\n\n出处精沛诃豆: 考点16\n\n错误。马克思主义深刻揭示了社会主义必然\n\n代替资本主义的客观规律，这是我们坚定“四\n\n简析中国式现代化，深深植根于中华优秀传\n\n个自信”的理论支撑和根本依据。C 错误。\n\n统文化,体现科学社会主义的先进本质，借鉴",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 76,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "没收封建地主阶级的土地归农民所有"
+    },
+    {
+      "key": "B",
+      "text": "没收官僚资产阶级的垄断资本归新民主主义的国家所有"
+    },
+    {
+      "key": "C",
+      "text": "保护民族工商业"
+    },
+    {
+      "key": "D",
+      "text": "没收外国在华资本归新民主主义的国家所有"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 76,
+      "bbox": [
+        106.19000244140625,
+        455.4521484375,
+        633.0863037109375,
+        619.7290649414062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 89,
+      "bbox": [
+        6.119000434875488,
+        561.8866577148438,
+        416.36224365234375,
+        1052.5174560546875
+      ]
+    }
+  ]
+}

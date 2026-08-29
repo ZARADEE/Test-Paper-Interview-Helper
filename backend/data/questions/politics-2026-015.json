@@ -1,0 +1,46 @@
+{
+  "id": "politics-2026-015",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2025年10月24日，十四届全国人大常委会第八次会议经表决通过了关于设立台湾光复纪念日的决定，下列与台湾光复纪念日相关的历史事件是1945年10月25日",
+  "answer_markdown": "A",
+  "analysis_markdown": "",
+  "chapter": "中国近现代史",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.410333+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国战区台湾省受降仪式在台北举行"
+    },
+    {
+      "key": "B",
+      "text": "中、美、英等国发表《开罗宣言》和《波茨坦公告》"
+    },
+    {
+      "key": "C",
+      "text": "日本无条件投降仪式在密苏里号战舰上举行"
+    },
+    {
+      "key": "D",
+      "text": "日本天皇发布终战诏书"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

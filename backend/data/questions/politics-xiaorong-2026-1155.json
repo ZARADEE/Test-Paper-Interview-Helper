@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1155",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "我国宪法法律规定了公民享有一系列权利。人享有其他各项权利的前提是",
+  "answer_markdown": "A",
+  "analysis_markdown": "出处精沛西祈考点52 -1-(1)\n\n出处精讲百可考点53 -3-0\n地生命健康权是人身权利的主要内容之\n\n简析马克思主义认为，权利的产生、发展和实\n\n现，都必须以一定的社会经济条件为基础。强\n\n一。生命健康权，即维持生命存在的权利。\n\n调社会的物质生活条件对权利的制约和决定\n\n生命权是人最基本、最原始的权利,具有神圣\n\n作用，这是马克思主义权利观与其他权利观\n\n性与不可转让性，不可非法剥夺。享有生命\n\n的根本区别。A 正确,B、C、D 都不符合题意。\n\n权是人享有其他各项权利的前提。A 正确,",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 168,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "生命权"
+    },
+    {
+      "key": "B",
+      "text": "健康权"
+    },
+    {
+      "key": "C",
+      "text": "人身自由权"
+    },
+    {
+      "key": "D",
+      "text": "人格尊严权"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        102.95500183105469,
+        1139.1436767578125,
+        854.4063110351562,
+        1204.8712158203125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 174,
+      "bbox": [
+        440.97100830078125,
+        216.40045166015625,
+        773.7203369140625,
+        293.08514404296875
+      ]
+    }
+  ]
+}

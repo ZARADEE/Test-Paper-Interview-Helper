@@ -1,0 +1,49 @@
+{
+  "id": "question-b2223d2aab",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(3)二重积分/=\nsin y2 dj/ =\n0 ・",
+  "answer_markdown": "「cos 1",
+  "analysis_markdown": "「cos 1\n解\n2 •\n如图6-7所示，交换积分顺序，得\nri\ny\ndj/ sin y2 da:\no\no\njysin yzdy =\no\nsin b d(b)\nI\na b",
+  "chapter": "重积分及其应用",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 40,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.453376+00:00",
+  "updated_at": "2026-08-23T12:39:51.226443+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "重积分及其应用",
+    "二重积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 40,
+      "bbox": [
+        24.0,
+        301.7577209472656,
+        482.3999938964844,
+        321.2371826171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        24.0,
+        364.4209899902344,
+        482.3999938964844,
+        614.7097778320312
+      ]
+    }
+  ]
+}

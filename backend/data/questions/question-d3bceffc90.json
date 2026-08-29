@@ -1,0 +1,57 @@
+{
+  "id": "question-d3bceffc90",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(8) 设向量组(I)ai,a2，a3, (II)ai ,a2 ,a3 »a4, ( HI心心心，且厂(I )=\nr( II ) = 3,厂(DI) = 4,证明：向量组at ,a2心＞a5 — a4的秩为4.",
+  "answer_markdown": "",
+  "analysis_markdown": "（8）证法1 依题意，只要证ai ,a2 ,a3 ,a5 — a4线性无关，用定义.\n设\nkxa\\ + ^2«2 + k3ax +\n（a5 — a，i）=0,\n①\n由厂（I ） = r（ U ） = 3,知a】，a2 ,。3线性无关,5 ,az >a3 ,a4线性相关，故cu可由ai ,a2 »a3线\n性表示.\n设a4 = Al ai +入2。2 +入3<X3 ,将其代入①式，得\n（&1 —右爲）CC1 + （&2 —入2 爲）CC2 + （&3 —入3 爲）a3 + ^4（X5 = 0.\n由r( DI) = 4,知ai ,a2心,a5线性无关，故\nk i\nA i\n= 0,\nki\n—入2 怡4 = 0 ,\nks f A3 ^4 — 0 ,\n爲=0,\n解得ki = k3 = k2 = kx = Q且解唯一，所以«i ,a2心心—a4线性无关，即秩为4.\n证法2 利用向量组的秩证明.\n由 r( II)= r(ai ,a2 ,a3 ,a4)=厂(I )=厂(® ,a2 ,%)= 3,知 a4 可岁 ％ ,a2 心线性表示.\n又r( DI)= r(ai ,a2 ,as ,as)= 4,知a5不能由ai ,a2，a3线性表示，故a5 — a4植不能由\nai ,a2心线性表示(否则由a。可由ai ,a2 ,a3线性表示，可得％也能由ai ,a2 ,a3线性表示)，\n故\nr(ai ,a2 心心一a4) = r(ai ,a2,a；i)+ 1 = 3 + 1 = 4.",
+  "chapter": "向量",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 69,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.477400+00:00",
+  "updated_at": "2026-08-23T12:39:51.722222+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "秩"
+  ],
+  "tags": [
+    "线性代数",
+    "向量"
+  ],
+  "source_regions": [
+    {
+      "page": 69,
+      "bbox": [
+        24.0,
+        329.84521484375,
+        482.3999938964844,
+        363.9877014160156
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 199,
+      "bbox": [
+        24.0,
+        596.4452514648438,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 200,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        180.17942810058594
+      ]
+    }
+  ]
+}

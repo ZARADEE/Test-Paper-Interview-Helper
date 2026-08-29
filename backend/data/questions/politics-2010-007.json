@@ -1,0 +1,44 @@
+{
+  "id": "politics-2010-007",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党的十七大报告指出，坚持节约资源和保护环境的基本国策，关系人民群众切身利益和中华民族的生存发展，必须把建设资源节约型、环境友好型社会放在工业化，现代化发展战略的突出位置。建设资源节约型社会的核心是：",
+  "answer_markdown": "A",
+  "analysis_markdown": "【解析】资源节约型社会，是指以能源资源高效率利用的方式进行生产、以节约的方式进行消费为根本特征的社会。它不仅体现了经济增长方式的转变，更是一种全新的社会发展模式，它要求在生产、流通、消费的各个领域，在经济社会发展的各个方面，以节约使用能源资源和提高能源资源利用效率为核心，以节能、节水、节材、节地、资源综合利用为重点，以尽可能小的资源消耗，获得尽可能大的经济和社会效益，从而保障经济社会的可持续发展。所以选项A为正确答案。该题的关键是要抓住建设资源节约型社会的核心。而BCD选项是建设资源节约型环境友好型社会的具体措施。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.374727+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "节约使用资源和提高能源资源利用效率"
+    },
+    {
+      "key": "B",
+      "text": "加强节能减排和生态保护工作"
+    },
+    {
+      "key": "C",
+      "text": "限制能源资源的开发和利用"
+    },
+    {
+      "key": "D",
+      "text": "发展循环经济"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

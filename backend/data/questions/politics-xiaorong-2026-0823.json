@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0823",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "从1840 年至1919 年的80 年间，中国人民对外来侵略进行了英勇顽强的反抗。但历次的反侵略\n\n战争，都是以中国失败、中国政府被迫签订丧权辱国的条约而告结束的。近代中国反侵略战争\n\n屡遭失败的最重要的原因是",
+  "answer_markdown": "A",
+  "analysis_markdown": "为地瓜分中国。C 正确。由于社会制度的腐败\n\n出处精讲下0区考点8\n地腐败的中国半殖民地半封建的社会制\n\n这一根本原因，义和团运动没有扭转中国在对\n\n抗帝国主义侵略中的被动局面,也无法阻止中\n\n国的半殖民地化进程。A、B 错误。太平天国起\n\n度,阻碍了中国人民群众的广泛动员和抵抗，\n\n义是中国旧式农民战争的最高峰。D 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 123,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "社会制度腐败"
+    },
+    {
+      "key": "B",
+      "text": "军事战略错误"
+    },
+    {
+      "key": "C",
+      "text": "经济技术落后"
+    },
+    {
+      "key": "D",
+      "text": "思想观念保守"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 123,
+      "bbox": [
+        84.05000305175781,
+        618.4669189453125,
+        925.587158203125,
+        778.8130493164062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 127,
+      "bbox": [
+        437.2760009765625,
+        296.80023193359375,
+        849.7792358398438,
+        768.27978515625
+      ]
+    }
+  ]
+}

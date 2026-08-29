@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1190",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会主义核心价值观",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "牢固的友谊，善待他人以构建和谐的人际关\n\n出处精语而44 考点23 -2\n\n系，与自然和谐共处以形成和谐的自然生态。\n\nA、B、C、D 全选。\n\n简析社会主义核心价值观是当代中国精神\n\n直提本题中D 项具有一定迷惑性，要注意\n\n的集中体现，是中国特色社会主义道路、理\n\n“与自然和谐共处”也是友善的要求。\n\n论、制度、文化的价值表达，集中体现社会主",
+  "chapter": "第四章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 174,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "B",
+      "text": "凝结着全体人民共同的价值追求"
+    },
+    {
+      "key": "A",
+      "text": "是当代中国精神的集中体现"
+    },
+    {
+      "key": "C",
+      "text": "集中体现社会主义的本质属性"
+    },
+    {
+      "key": "D",
+      "text": "是整个上层建筑的核心"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第四章"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "第四章"
+  ],
+  "source_regions": [
+    {
+      "page": 174,
+      "bbox": [
+        100.16799926757812,
+        125.42071533203125,
+        821.9521484375,
+        225.5513458251953
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 178,
+      "bbox": [
+        18.900999069213867,
+        522.7260131835938,
+        435.7535705566406,
+        953.9888916015625
+      ]
+    }
+  ]
+}

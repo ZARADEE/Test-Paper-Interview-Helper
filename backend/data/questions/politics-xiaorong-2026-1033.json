@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1033",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国共产党的中流砥柱作用是中国人民抗日战争胜利的关键。中国共产党的中流砥柱作用体\n\n现在",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "A 错误。\n\n出处精讲衣药考点55 -1",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 151,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "在日本帝国主义加紧侵略我国、民族危机空前严重的关头，率先高举武装抗日旗帜"
+    },
+    {
+      "key": "B",
+      "text": "促成西安事变和平解决，对推动国共再次合作、团结抗日起了重大历史作用"
+    },
+    {
+      "key": "C",
+      "text": "坚持全面抗战路线，提出和实施持久战的战略总方针和一整套人民战争的战略战术"
+    },
+    {
+      "key": "D",
+      "text": "开辟广大敌后战场和抗日根据地，领导八路军、新四军、东北抗日联军和其他人民抗日武装\n\n英勇作战\n\n\f\n第七章\n为建立新中国而奋斗"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 151,
+      "bbox": [
+        83.4229965209961,
+        1197.48583984375,
+        923.732421875,
+        1413.1514892578125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 157,
+      "bbox": [
+        3.942000389099121,
+        690.6485595703125,
+        301.85858154296875,
+        766.3943481445312
+      ]
+    }
+  ]
+}

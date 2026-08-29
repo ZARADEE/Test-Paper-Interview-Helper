@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0609",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "教育是国之大计、党之大计，是功在当代、利在千秋的德政工程。建成教育强国是近代以来中\n华民族梦寐以求的美好愿望，是实现以中国式现代化全面推进强国建设、民族复兴伟业的",
+  "answer_markdown": "D",
+  "analysis_markdown": "知识储备题",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 92,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "先导任务"
+    },
+    {
+      "key": "B",
+      "text": "坚实基础"
+    },
+    {
+      "key": "C",
+      "text": "战略支撑"
+    },
+    {
+      "key": "D",
+      "text": "鲜明标识"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 92,
+      "bbox": [
+        108.12100219726562,
+        332.98040771484375,
+        940.3601684570312,
+        495.3641357421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 102,
+      "bbox": [
+        18.43400001525879,
+        1156.82861328125,
+        425.123046875,
+        1327.38671875
+      ]
+    },
+    {
+      "page": 102,
+      "bbox": [
+        470.81500244140625,
+        33.56675338745117,
+        848.2695922851562,
+        130.7761001586914
+      ]
+    }
+  ]
+}

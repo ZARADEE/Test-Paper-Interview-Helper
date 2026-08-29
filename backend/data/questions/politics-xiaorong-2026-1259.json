@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1259",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "政治权利是我国宪法法律规定的公民权利的内容之一。以下选项中属于政治权利的有",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "平。权利公平包括三重含义：一是权利主体\n\n平等,国家对每个权利主体“不偏袒”“非歧\n\n出处精菸商6 考点53 -1-SJ\n\n视”；二是享有的权利,特别是基本权利平等；\n\n简析政治权利是公民参与国家政治活动的\n\n三是权利保护和权利救济平等。B、C、D 正\n\n权利和自由的统称，包括选举权与被选举\n\n确。起点平等是机会公平的内容,A 错误。\n\n权、表达权、民主管理权、监督权等。公",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 181,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "选举权与被选举权"
+    },
+    {
+      "key": "B",
+      "text": "表达权"
+    },
+    {
+      "key": "C",
+      "text": "民主管理权"
+    },
+    {
+      "key": "D",
+      "text": "宗教信仰自由"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "法治中国"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "法治中国"
+  ],
+  "source_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        85.56600189208984,
+        1314.9215087890625,
+        845.3055419921875,
+        1410.7255859375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 185,
+      "bbox": [
+        436.09100341796875,
+        945.72265625,
+        846.5455932617188,
+        1311.6688232421875
+      ]
+    }
+  ]
+}

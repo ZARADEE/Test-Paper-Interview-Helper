@@ -1,0 +1,58 @@
+{
+  "id": "question-936e50d9d2",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "（5） 求下列幕级数的收敛域及和函数：\n（I）注；\n（n）S\nn = Q\nn=l 72 乙\n<ni）S弓」刃；\n（N）S\n（—】）\"（\"+ 1»\n（2/? + 3）!\nn = O\nn = 0\n・",
+  "answer_markdown": "",
+  "analysis_markdown": "(5)解(I )易求得工 务的收敛半径R = 2,收敛域为[—2,2).\nn=i n乙\n”T =丄.]=]\n令 S(J?) = 2 则 hS(z)=工 务，\n铝\"2\n铝”2\n[家\nRS (z) 丁 =\nx\n2 —工\nn= 1\n:舟=—山（2 —工）十In 2.\n两边同时积分，得 zSQ）—0S（0）=\n当工工0时,S（z）=—丄ln（l —号'）；当\nx = 0 时,S （ 0）= *，故\nMlnfl-\n— 2\n<C 0, 0<工<2,\na:\nT\nS(h) = y\nx \\\nx = 0.\n（H）先求收敛半径，用公式\n0卄1\nn-*oo\nlim\nn-*oo\n_\n(n+1-D2\n”十1\n_\n— im\n;—;—;■—;- • 7 m — 19\n+ 1 + 1 (n — l)z\n故收敛半径R = 1,当工=±1时，由于一般式不趋于零，所以发散，故收敛域为(一1,1).\n令\no/ 、 X7 (\" — I)' ”\n(\" + 1—2)2 ”\nS3 = 2.J\ng = 2.J------- —g\n絃 \"+1\n絃\n»+1\nOO\nOO\nOO\n=丫(\" + 1)刃—4丫刃 + 4丫 —,\nn = 0\nn = 0\nn = 0 \" '\n记\noo\nSi (_z)=》(“ + 1)工\"，S2 (h) = 4》z\", S3 = 4》,\nn = 0\nn = Q\nn = Q 〃十】\nSi(2)=另(刃+1 丫 =(另工”+1\n1 一 X\n是齐,L Vi,\n“一0\nn = 0\n8严\nS2 (工)=4 工 x'\nn = 0\n—, I x | < 1, jcS3 (g) = 4 工一—,\n1一工\n紅\"+1\n总，积分得 xS3 &) — 0 =-41n(l-^)(-1<x<1),\n则[卅3(鼻)了 = 4另工\"=\nn = 0\n° 一 —ln( 1 — j;)\nx\n故\nS(z) = Si Q) — S2 (x) + S3(H)= —~-~~-z-\n(1 — x) 1— X\n4 y — 2\n4-\n=-------ry — —ln(l—力)(| x |<1 且工工0).\n(1 — X)\n3C\n工=0时，S(0) = l・\nQ卄1\n当\n(DI)由 lim\n71 f 8\n=0,知收敛半径R =+ OO,故收敛域为（一 00, + °°).\na”\n亡#才，则\n令 S(z) = Y -\n72=0\nn!\ns(z)= 5^ ~7^n\n絃“!\nn = O\n+于\nn\n+ y\ny ----- ------ Xn + e”\n厶 72 1\n(72—1) I\nn = Q \"・\nn=l yfL 丄八\nH I H\noo\n=f n-l±l i , =\ne i V h”\n_ £ (“一 l)!十 _ £ 5 —2)!十仝 5 — 1)!\n8 n_2 8 ]\n=* 另厂壬—o| +z A 7- \" 1、1 + e\" = x2ex +\n+ ex , x G (— 00 , +°o).\n絃 5 — 2)! 铝(兀一 1)!\noo\n【注】工午=e\",工W (― °°,十x).\nn = O \" •\n（W）级数加宀缺项，用比值法,\nlim\n”一>8\n[25 + 1) +3]!\n\"卄 1 (z) =lim\nu„ (z)\n”f 8 (-l)\"+i(/2 + 2)*+\n(2/? + 3)!\n(—1)\"(九 + 1)尹\nJ32\n2(/? + l)(2n + 5) = °(对任意 °)，\nlim\nTJf 8\n故收敛域为(一00, + °°).考虑到分母为(2“ + 3)!,用sin x\n,2卄1\n故£舟岛,2n+3\n的展开式，\n(—1)\" 丁2 卄3\n(2“ + 3)!\n=1_ 凹3 (十 0),\n「sz，即\nx\n上式两边同时对2求导，得2\ng(rrcos x 一 sin jc)，故\nx\nn=0\n25 + l)(—1)\"\n.2卄1\n(2/1 + 3)!~~\nSQ)— X7(一1)\"(\" + 1)：\n乂小_乙(2兀+ 3)!鼻\n,2n\n」y(sin x 一 hcos J?) 口 工 0 9\nLJC\nI ^v(sin x 一 jccos jc)，\n无工0，\nI 2jc3\n寺，所以SQ）=\n当 z = O 时，S(O)\n•z = 0.",
+  "chapter": "无穷级数",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 51,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.460149+00:00",
+  "updated_at": "2026-08-23T12:39:51.425046+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 51,
+      "bbox": [
+        24.0,
+        331.6421203613281,
+        482.3999938964844,
+        406.2913818359375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 141,
+      "bbox": [
+        24.0,
+        406.7162780761719,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 142,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        619.0691528320312
+      ]
+    }
+  ]
+}

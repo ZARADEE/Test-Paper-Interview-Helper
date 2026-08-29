@@ -1,0 +1,49 @@
+{
+  "id": "question-8c1cb5354e",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设X的概率密度为fS = je-^1，— * V h V+\n(I )求 EX 和 DX；\n(U)求Cov(X, | X|),并判别X与丨X |是否不相关；\n(皿)问X与丨X |是否相互独立？",
+  "answer_markdown": "",
+  "analysis_markdown": "(4)解\n(I ) EX =\nDX = E(X2) — (EX)'\n*4-oo\njc • —e_|x| dx = 0(奇函数)，\n=E(X2)\nr+°°\njc2 • — e-xdx = 2.\nL\nX2\n= 2\n-00\n<\nCov(X, I X I) = E(X I X I) — EX • E( I X I) = E(X 丨 X |).\n（U）\n■十8\n而\n*4-0°\nx \\ x \\ —e_|x| d_z = 0,\nJC\n| X | /(j;)dx =\nE(X I X I)=\n故 Cov（X,\nI X I) = 0,即X与丨X |不相关.\n(ID)对任意给定的0 Va V+x,显然事件{ 1 X |<a}包含于事件{X£a},且\nP{X^a} < 1, P{\\ X |<a} >0,\n故\nP{X^a, \\ X \\^a} = P{\\ X |<«}.\n但\nP{X^a} • P{\\ X \\^a} <P{\\ X \\^a},\n从而\nP{X^a, I X |<a} ^P{X^a} • P{\\ X |<«},\n因此，X与丨X |不相互独立.\n【注】 ①本题验证X与丨X |不相互独立，是用定义证明的，若用两个随机变量X与\nY的联合概率密度fCx,y)是否等于fxS • ZyO)来证明，则会带来烦琐的计算.\n②本题也可看出：X,Y不相关并X , Y相互独立.",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 95,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.490264+00:00",
+  "updated_at": "2026-08-23T12:39:52.009286+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "概率",
+    "独立"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        24.0,
+        357.0718078613281,
+        482.3999938964844,
+        427.4420166015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 261,
+      "bbox": [
+        24.0,
+        256.4939270019531,
+        482.3999938964844,
+        448.2395324707031
+      ]
+    }
+  ]
+}

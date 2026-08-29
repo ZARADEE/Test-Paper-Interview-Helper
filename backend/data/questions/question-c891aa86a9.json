@@ -1,0 +1,57 @@
+{
+  "id": "question-c891aa86a9",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(14)设V是由平面Z = 0,z= 1及圆柱面工2 +夕2 = 2所围成的图形，计算\nI = JK | z 一 J卫 + b I djrdj/dz.",
+  "answer_markdown": "",
+  "analysis_markdown": "(14)解 去绝对值・Z=丿工2 +b将V分成两部分(如图6-54).\n利用柱面座标，得\n[Z2 *+夕2,\n$ = 0,\nV>：\n[z = 1,\nJ\n+y2 <2,\nz = 0,\nz = 1,\n即\n匕：0 =。冬2兀9 0 r 1, 0£之£厂及\n0 = 3£2兀91£厂£ 7^9。£ N £ 1 9\n故\nI = J|(n — J壬 + b )dxdydz + |j|( Vy2 — z)dxdydz\nvi\n‘2兀\n■2k v\n(N —厂)dz +\nd<9l rdr\nr2n ri\nri\n=rdr\nJ 0 J 0\nJ r\n=-^-(8 V2 ~ 5)兀.",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 44,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.456828+00:00",
+  "updated_at": "2026-08-23T12:39:51.306810+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 44,
+      "bbox": [
+        24.0,
+        109.00911712646484,
+        482.3999938964844,
+        155.5126495361328
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 119,
+      "bbox": [
+        24.0,
+        611.032470703125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 120,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        169.24630737304688
+      ]
+    }
+  ]
+}

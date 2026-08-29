@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0399",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "“由于历史进程的曲折而不得不开始社会主义革命的那个国家愈落后，它由旧的资本主义关系\n\n过渡到社会主义关系就愈困难。” 列宁的这段话说明，无产阶级及其政党可以在经济文化相对\n\n落后的国家取得政权，建立起崭新的社会主义制度，但是，在这样的国家建设社会主义必然具\n\n有长期性。其原因主要有\n\n’",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "本主义的形式来发展生产。B、C、D 正确,A\n\n出处精流限考点91 -1\n\n错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "生产力发展状况的制约"
+    },
+    {
+      "key": "B",
+      "text": "经济基础和上层建筑发展状况的制约"
+    },
+    {
+      "key": "C",
+      "text": "国际环境的严峻挑战"
+    },
+    {
+      "key": "D",
+      "text": "改良主义政党在政治舞台上的影响日益扩大"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        103.05799865722656,
+        124.34378051757812,
+        936.3777465820312,
+        314.84344482421875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 72,
+      "bbox": [
+        445.82501220703125,
+        453.5108642578125,
+        773.7978515625,
+        527.1729736328125
+      ]
+    }
+  ]
+}

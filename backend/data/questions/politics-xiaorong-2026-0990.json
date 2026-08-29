@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0990",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "毛泽东同志当年曾指出，“五四运动时中国无产阶级开始有了觉悟，五四运动发生在一九一九\n\n年，一九二一年便产生了中国共产党”，“我们研究党史，只从一九二一年起还不能完全说明问\n\n题……从五四运动说起可能更好”。习近平总书记深刻指出，认识和把握五四运动“要坚持大历\n\n史观”。这些重要论述，深刻揭示了五四运动与中国共产党成立的历史关联。五四运动",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 145,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "促进了马克思主义在中国的传播"
+    },
+    {
+      "key": "B",
+      "text": "促进了马克思主义同中国工人运动的结合"
+    },
+    {
+      "key": "C",
+      "text": "为申国共产党的成立作了思想上、干部上的准备"
+    },
+    {
+      "key": "D",
+      "text": "为新的革命力量、革命文化、革命斗争登上历史舞台创造了条件"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 145,
+      "bbox": [
+        83.75599670410156,
+        204.9364471435547,
+        924.3287353515625,
+        464.9547424316406
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 151,
+      "bbox": [
+        9.940999984741211,
+        249.3731689453125,
+        354.8726501464844,
+        329.3863525390625
+      ]
+    }
+  ]
+}

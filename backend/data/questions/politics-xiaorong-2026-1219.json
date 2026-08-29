@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1219",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "网络生活中的道德要求，是人们在网络生活中为了维护正常的网络公共秩序而需要共同遵守的\n\n基本道德准则，是社会公德在网络空间的运用和扩展。网络生活中的道德要求有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "家也非常重视修身，强调“察色修身”和\n\n“以身戴行”。这些都是强调道德修养，注\n\n出处精讲您\n考点38 _3-(2)\n\n重道德践履的体现。A、B、D 正确。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 177,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "正确使用网络工具"
+    },
+    {
+      "key": "B",
+      "text": "加强网络文明自律"
+    },
+    {
+      "key": "C",
+      "text": "进行健康网络交往"
+    },
+    {
+      "key": "D",
+      "text": "营造良好网络道德环境"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "思想道德修养"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "思想道德修养"
+  ],
+  "source_regions": [
+    {
+      "page": 177,
+      "bbox": [
+        88.91400146484375,
+        587.6031494140625,
+        929.3702392578125,
+        717.2911376953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 181,
+      "bbox": [
+        440.3559875488281,
+        396.48858642578125,
+        793.6883544921875,
+        469.635498046875
+      ]
+    }
+  ]
+}

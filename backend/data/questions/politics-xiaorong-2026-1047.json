@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1047",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "经过艰苦卓绝的战斗，中朝军队战胜武装到牙齿的强敌，打破了美军不可战胜的神话，迫使不\n\n可一世的侵略者于1953 年.7 月27 日在停战协定上签字。抗美援朝战争的伟大胜利",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "出处精讲P306) 考点68 -3\n\n出处!精讲下玩5 考点67 -2-(2)",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 154,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "打出了国威军威，打出了中国人民的精气神"
+    },
+    {
+      "key": "B",
+      "text": "捍卫了新中国安全，彰显了新中国大国地位"
+    },
+    {
+      "key": "C",
+      "text": "使新中国在错综复杂的国内国际环境中站稳了脚跟"
+    },
+    {
+      "key": "D",
+      "text": "是中华民族从近代以来陷入深重危机走向伟大复兴的历史转折点"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 154,
+      "bbox": [
+        99.98899841308594,
+        127.70350646972656,
+        933.26416015625,
+        314.9527587890625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 159,
+      "bbox": [
+        5.071000099182129,
+        1171.122802734375,
+        300.3249206542969,
+        1246.93408203125
+      ]
+    }
+  ]
+}

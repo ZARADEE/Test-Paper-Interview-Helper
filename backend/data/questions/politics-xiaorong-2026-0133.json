@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0133",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在资本总公式“G—W—G，”中，W 代表商品，G 代表的不是一般意义上的货币，而是作为资\n\n本的货币，G，\n代表的是价值增殖后的货币。从形式上看，资本总公式与商品交换的原则是矛盾\n\n的。价值规律要求商品交换遵循等价交换原则，交换领域不能创造新价值，但资本总公式却表\n\n明，资本在流通中创造了新价值。理解这一矛盾的关键在于",
+  "answer_markdown": "C",
+  "analysis_markdown": "不同的使用价值;另一极是货币，只代表商\n\n品的价值。这样就使商品内在的使用价值\n\n出处魔市的考点69 -2-0\n\n和价值的矛盾发展起来，转化为商品和货币\n\n简析价值规律要求商品交换遵循等价交换\n\n的外在矛盾。B 错误。C 不符合题意。\n\n原则，交换领域不能创造新价值，但资本总",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 19,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "价值规律"
+    },
+    {
+      "key": "B",
+      "text": "等价交换原则"
+    },
+    {
+      "key": "C",
+      "text": "劳动力成为商品"
+    },
+    {
+      "key": "D",
+      "text": "利润转化为平均利润"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 19,
+      "bbox": [
+        91.20500183105469,
+        753.2957153320312,
+        932.8626708984375,
+        948.4107055664062
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 26,
+      "bbox": [
+        446.57501220703125,
+        434.7469177246094,
+        859.9199829101562,
+        933.0165405273438
+      ]
+    }
+  ]
+}

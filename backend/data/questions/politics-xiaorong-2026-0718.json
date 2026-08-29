@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0718",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "加快构建新发展格局，是立足实现第二个百年奋斗目标、统筹发展和安全作出的战略决策，是\n\n把握未来发展主动权的战略部署。大力推动构建新发展格局，必须",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "局。A、B、D 正确,C 错误。\n\n出处精如酶p 考点44\n\n第七章",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 106,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "着力推动实施扩大内需战略同深化供给侧结构性改革有机结合"
+    },
+    {
+      "key": "B",
+      "text": "着力发展实体经济"
+    },
+    {
+      "key": "C",
+      "text": "着力加快科技自立自强"
+    },
+    {
+      "key": "D",
+      "text": "着力推动产业链供应链优化升级"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 106,
+      "bbox": [
+        103.0770034790039,
+        123.89132690429688,
+        936.5007934570312,
+        315.703369140625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        17.08799934387207,
+        378.8191223144531,
+        423.71240234375,
+        643.537353515625
+      ]
+    }
+  ]
+}

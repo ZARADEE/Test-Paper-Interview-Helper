@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-1177",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "2018 年3 月1 日，习近平在纪念周恩来同志诞辰120 周年座谈会上的讲话中深切缅怀了周恩来\n\n为党、人民、国家和人民军队建立的卓著功勋，并指出，青少年时期的周恩来，面对国家危难\n\n和人民困苦，决心“为了中华之崛起” 而读书，誓言“险夷不变应尝胆，道义争担敢息肩”，立\n\n下“面壁十年图破壁” 的远大志向。周恩来的光辉一生启示我们",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 172,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "立鸿鹄志，做奋斗者"
+    },
+    {
+      "key": "B",
+      "text": "青年时期是理想形成的重要时期，也是立志的关键阶段"
+    },
+    {
+      "key": "C",
+      "text": "青年要以国家民族的命运为己任，而不要以个人的荣华富贵为人生的理想"
+    },
+    {
+      "key": "D",
+      "text": "心怀“国之大者”，敢于担当\n\n第二章\n继承优良传统弘扬中国精神"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "思想道德与法治",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 172,
+      "bbox": [
+        104.06600189208984,
+        437.9906005859375,
+        936.8445434570312,
+        691.02001953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 176,
+      "bbox": [
+        443.8340148925781,
+        928.7858276367188,
+        699.461669921875,
+        1003.0156860351562
+      ]
+    }
+  ]
+}

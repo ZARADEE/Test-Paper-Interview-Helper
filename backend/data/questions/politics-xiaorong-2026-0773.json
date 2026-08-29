@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0773",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "基础不牢，地动山摇。习近平指出，基层强则国家强，基层安则天下安，必须抓好基层治理现\n\n代化这项基础性工作。以下说法正确的有",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "也是抓发展,持续不断改善民生，能够有效\n\n出处精评改词：考点82 t\n\n解决群众后顾之忧，调动人们发展生产的\n\n积极性，增进社会消费预期，利于扩大内需,\n\n第十二章\n\n催生新的增长点。A、B、C、D 全选。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 114,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "基层治理是国家治理的基石"
+    },
+    {
+      "key": "B",
+      "text": "城乡社区是社会治理最基本的单元"
+    },
+    {
+      "key": "C",
+      "text": "社会治理的重心必须向基层下移"
+    },
+    {
+      "key": "D",
+      "text": "城乡社区是党和政府联系、服务居民群众的“最后一公里\"\n\n第十二章"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        107.49700164794922,
+        220.7614288330078,
+        940.0874633789062,
+        414.93414306640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 119,
+      "bbox": [
+        6.215000152587891,
+        875.08154296875,
+        415.6675109863281,
+        1292.2275390625
+      ]
+    },
+    {
+      "page": 119,
+      "bbox": [
+        475.7980041503906,
+        67.4698486328125,
+        846.5961303710938,
+        203.78521728515625
+      ]
+    }
+  ]
+}

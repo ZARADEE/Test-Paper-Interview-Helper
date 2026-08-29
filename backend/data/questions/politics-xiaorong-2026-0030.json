@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0030",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "发展的实质是新事物的产生和旧事物的灭亡。新、旧事物的区别在于",
+  "answer_markdown": "D",
+  "analysis_markdown": "盾的特殊性,D 正确。A、B、C 不符合题意。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 5,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "出现时间的先后"
+    },
+    {
+      "key": "B",
+      "text": "形式的新旧"
+    },
+    {
+      "key": "C",
+      "text": "力量的大小对比"
+    },
+    {
+      "key": "D",
+      "text": "同历史前进方向是否符合"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 5,
+      "bbox": [
+        95.22899627685547,
+        376.4361267089844,
+        774.77001953125,
+        473.3235168457031
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 8,
+      "bbox": [
+        15.670999526977539,
+        24.08846092224121,
+        434.95867919921875,
+        562.9718627929688
+      ]
+    }
+  ]
+}

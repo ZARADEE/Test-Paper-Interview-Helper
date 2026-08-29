@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0203",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思主义物质观认为，客观实在性是物质的唯一特性，既肯定了哲学物质范畴同自然科学物质\n\n结构理论的联系，又把它们区别开来，体现了唯物论和辩证法的统一，克服了形而上学唯物主义\n\n的缺陷。马克思主义物质观所体现的唯物辩证法是指",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "项中的绝对观念不是一回事。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 27,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "从个性中看到共性"
+    },
+    {
+      "key": "B",
+      "text": "从相对中找到绝对"
+    },
+    {
+      "key": "C",
+      "text": "从暂时中发现永恒"
+    },
+    {
+      "key": "D",
+      "text": "从局部中看到整体"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 27,
+      "bbox": [
+        84.7229995727539,
+        1220.0186767578125,
+        927.2192993164062,
+        1378.208251953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        433.5060119628906,
+        851.346923828125,
+        854.9237670898438,
+        1288.2061767578125
+      ]
+    }
+  ]
+}

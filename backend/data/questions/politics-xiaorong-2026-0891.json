@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0891",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "标志中共中央放弃反蒋口号的文件是",
+  "answer_markdown": "A",
+  "analysis_markdown": "退国民党对解放区的军事进攻,中共中央指\n\n出，在政治上，必须和人民群众亲密合作，必\n\n出处精讲P284 考点44 -2-\n\n须争取一切可以争取的人，在党的领导下建\n\n简析1935 年，日本加紧了侵华步骤,策划了\n\n立最广泛的人民民主统一战线;在军事上,必\n\n华北事变,蒋介石也逐渐认识到了日本独占\n\n须采取集中优势兵力、各个歼灭敌人的作战\n\n中国的企图,开始想“政治解决”共产党和红\n\n原则。C 错误。\n\n军问题。针对这种局面，中国共产党从民族",
+  "chapter": "第八章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 131,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "《停战议和一致抗日通电》"
+    },
+    {
+      "key": "B",
+      "text": "《中国苏维埃政府、中国共产党中央为抗日救国告全体同胞书》"
+    },
+    {
+      "key": "C",
+      "text": "《中国人民对日作战的基本纲领》"
+    },
+    {
+      "key": "D",
+      "text": "《中共中央为公布国共合作宣言》"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第八章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第八章"
+  ],
+  "source_regions": [
+    {
+      "page": 131,
+      "bbox": [
+        89.8740005493164,
+        1245.3096923828125,
+        693.4437255859375,
+        1405.857666015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 136,
+      "bbox": [
+        445.39599609375,
+        979.5790405273438,
+        852.9653930664062,
+        1153.899169921875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "question-a4467694ec",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(5)设A是3阶方阵,ai ,a2 ,a3线性无关，且Aai\n=ai + ct2, Aa2 = a2 a3, Aa3\n(Z3 + ai,贝0 I A I =________ .",
+  "answer_markdown": "2.",
+  "analysis_markdown": "2.\n一\n解法1 利用行列式的性质，由A(ai ,ct2 ,a3) =(4 +a2 ,a2 + a3，a3 +ai),可知\nI A | | (a】a 心)I = I (ai + a2 ,a2 + a；j »a3 + ai) I\n=2\nI (a! + a2 + a3 ,a2 + ch ,a3 + ai) I\n=2\nI (ai + a2 + a3, — a】，一a2) I\n=2\nI (a3, — ai» — a2) I = 2 | (ai ,a2 ,a3) I.\n由于ai ,a2 ,a3线性无关，故丨ai心 心丨H 0,崩以丨A | = 2.\n解法2 利用矩阵的乘法及相似矩阵的性质.\n1 o r\nA(ai ,a2 ,a3) = (ai + a2 ,a2 + a3 ,a3 + ai) = (ai ,a2 ,a3) 110.\n〔0 1 1J\n'10 1、\n记P = Si ,a2 ,ct3),由已知,P可逆,B =\n1 0，故 AP = PB,即 P AP = B,所以\n0 1 1\n1 0 1\n1 1 0=2.\n0 1 1",
+  "chapter": "行列式",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 62,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.473201+00:00",
+  "updated_at": "2026-08-23T12:39:51.616122+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "行列式"
+  ],
+  "tags": [
+    "线性代数",
+    "行列式"
+  ],
+  "source_regions": [
+    {
+      "page": 62,
+      "bbox": [
+        24.0,
+        471.2474365234375,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 183,
+      "bbox": [
+        24.0,
+        552.0411987304688,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 184,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

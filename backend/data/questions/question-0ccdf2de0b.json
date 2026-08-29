@@ -1,0 +1,78 @@
+{
+  "id": "question-0ccdf2de0b",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(22)设 /(r)(r > 0)有二阶连续导数，“ =/( ^/jc2 + j/2 + z2 )满足 div(grad w)\nx2 y2 z2，求函数况的表达式.",
+  "answer_markdown": "",
+  "analysis_markdown": "(22)解\n— (P,Q,jR),\ngrad u\ndu dll du\ndx，dy，dz\ndP\n1. z > x dP 丄 dQ I dR d2 U | d2 U . d2 U\ndtvCgrad .) = - + - + 石=忘 + 看 + 歹\n而\n字=/(r)字=/(r) -(r =\n+ y2 + z2 ),\ndx\ndje\nr\n警=E 咅\nr\n考虑到u = /( JF + 3/ + / )关于\nz，y，z具有轮换性，故\n/(r) ^ + /(r)节工,\nd2 U\nd y2\nd2u\n餵-f⑺計心十,\n将其代入\n|p + |^ + |^ = a/x2+7+z2,\n得/(H+^/Cr) = r,为可降阶微分方程.\nr\n变形为［/_/(『)了 = r3，积分得 r2/\\r) = -j-r4 + G ,即 X(r) = -^-r2 + Q ,\nr\n再积分得/(r)=吉严_色+ C2,即\n1Z r\nU =眾2 + b+JR — GQ2 + y + /)p +C2(G，C2 为任意常数).",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 59,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.472143+00:00",
+  "updated_at": "2026-08-29T09:58:41.145802+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 59,
+      "bbox": [
+        24.0,
+        640.1187133789062,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 60,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 176,
+      "bbox": [
+        24.0,
+        528.798828125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 177,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 178,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        707.199951171875
+      ]
+    }
+  ]
+}

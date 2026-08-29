@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0552",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会主义制度建立以后，也有一个如何认清国情、正确判断我国社会所处历史方位的问题。社\n\n会主义初级阶段理论",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "",
+  "chapter": "第六章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 83,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "揭示了当代中国的历史方位，为建设中国特色社会主义提供了总依据"
+    },
+    {
+      "key": "B",
+      "text": "是对马克思主义关于社会主义发展阶段理论的重大发展和重大突破"
+    },
+    {
+      "key": "C",
+      "text": "使我们党对社会主义建设的长期性、复杂性、艰巨性有了更加清醒的认识"
+    },
+    {
+      "key": "D",
+      "text": "正确回答了邓小平理论首要的基本的理论问题"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第六章"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "第六章"
+  ],
+  "source_regions": [
+    {
+      "page": 83,
+      "bbox": [
+        87.76300048828125,
+        872.626953125,
+        929.1304931640625,
+        1066.6190185546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 94,
+      "bbox": [
+        448.531005859375,
+        945.8069458007812,
+        856.3535766601562,
+        1179.0950927734375
+      ]
+    }
+  ]
+}

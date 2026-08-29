@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0998",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1922 年7 月，中共二大制定的民主革命纲领是",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "出处精讲团［考点32 十迫\n\n出处精讲P274 考点34 -2-(1)",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 146,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "打倒军阀"
+    },
+    {
+      "key": "B",
+      "text": "统一中国为真正民主共和国"
+    },
+    {
+      "key": "C",
+      "text": "推翻国际帝国主义的压迫"
+    },
+    {
+      "key": "D",
+      "text": "建立劳农专政的政治，铲除私有财产制度"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 146,
+      "bbox": [
+        109.8239974975586,
+        764.0081787109375,
+        912.13916015625,
+        871.36669921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 151,
+      "bbox": [
+        439.9549865722656,
+        963.525146484375,
+        851.2680053710938,
+        1288.0780029296875
+      ]
+    }
+  ]
+}

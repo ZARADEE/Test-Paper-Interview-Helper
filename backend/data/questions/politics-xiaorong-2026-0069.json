@@ -1,0 +1,73 @@
+{
+  "id": "politics-xiaorong-2026-0069",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "俄国杰出的生理学家巴甫洛夫有一句名言：“实验上的失败，可能成为发现的开端。” 失败的实\n\n验可能成为发现的开端是因为",
+  "answer_markdown": "C",
+  "analysis_markdown": "同的本质,而是同一本质的两个不同的方面。\n\n出处精讲百gi 考点37 -1-0\n\nB 错误。D 说法正确但不符合题意。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 11,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "成功是普遍的，失败是个别的"
+    },
+    {
+      "key": "B",
+      "text": "真理与谬误没有原则的界限"
+    },
+    {
+      "key": "C",
+      "text": "成功与失败在一定条件下可以相互转化"
+    },
+    {
+      "key": "D",
+      "text": "意识能动性的实现可以超越时代实践水平的限制"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 11,
+      "bbox": [
+        88.28600311279297,
+        245.56076049804688,
+        928.3926391601562,
+        434.32666015625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 15,
+      "bbox": [
+        6.572999954223633,
+        920.2422485351562,
+        415.642333984375,
+        1320.9769287109375
+      ]
+    },
+    {
+      "page": 15,
+      "bbox": [
+        468.64300537109375,
+        33.05164337158203,
+        859.6639404296875,
+        195.10426330566406
+      ]
+    }
+  ]
+}

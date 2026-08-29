@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0869",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "中国工人运动史上持续时间最长的一次政治大罢工是",
+  "answer_markdown": "D",
+  "analysis_markdown": "出处精讲P276 277\n考点36 -2-O\n\n出处精讲P273 考点33 -2-O\n\n简析1927 年9 月9 日，毛泽东等领导的湘",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 129,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "香港海员罢工"
+    },
+    {
+      "key": "B",
+      "text": "京汉铁路工人罢工"
+    },
+    {
+      "key": "C",
+      "text": "安源路矿工人罢工"
+    },
+    {
+      "key": "D",
+      "text": "省港大罢工"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "中国近现代史纲要",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 129,
+      "bbox": [
+        87.68699645996094,
+        238.01708984375,
+        707.5955810546875,
+        342.1627502441406
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 133,
+      "bbox": [
+        433.47601318359375,
+        940.555908203125,
+        849.7023315429688,
+        1179.459228515625
+      ]
+    }
+  ]
+}

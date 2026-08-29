@@ -1,0 +1,59 @@
+{
+  "id": "question-da368cf07f",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(4)设 L 为夕=7CCOS Z 从 A(7t, — 7t)到 B(— IV, — 7T)的曲线，计算\n(■r + y)dz —(攵 一\nJ L\ng2 + 夕2",
+  "answer_markdown": "",
+  "analysis_markdown": "（4）解法1 记卩=拧护2,Q=—耳〒‘2，则\nj： +y\n乂\n3Q = 3P _ 土 一 $2 _ 2弓\n3x dy （j? + 夕2）2\n'\n故在不含（0,0）在内的单连通区域积分与路径无关.\n选择折线ACDB,如图9-18所示，其中\n•Z = 7T,\nAC：\nX =—兀9\n夕=夕，\n夕=y，\nCD- n DB：\nX = Xy\n故\nDB\n无+\n+\nCD\n—(托一jOdy +\nn (7V + JC)Ajc + f—(—兀一y) dy\n2 | 2\n兀+ y\nJ x 7v2 + y2\n2 | 2\n=—~2n'\n解法2\n利用格林公式求解.\n如图9-18所示，作辅助线丽■:\nLi :\nX = &COS 19\ny = 5sin Z,\n5充分小，取顺时针方向,\ny =—兀，\n2 =厂\n则\nT - V，\nJ L+BA+L] J BA J Lj\n『(薯—寥)d站=0,\n格林公式\n(jc + jOcLz — (z — jOdjy\nJ l+丽+5\n2 I 2\n•z + y\nD\n其中D为L+ EA+L1构成的复连通区域.\n(■z + jpdz — (z — jOdy\nJ BA\n2 | 2\n* 山\n-X jr2 + 托2\n2 I 2\n-n 攵十7T\n兀(jc 一 7t)dj? _\n]\n~2\nJ-K\n=-^-ln(T2 + 7T2 )\nx\n—7T • —arctan —\nTC\n一—亍\n■7T\n7T\n7C\nx 4-\n— Qx — y)dy\n2 | 2\n丿5\n工十夕\n82cos2t + 82 sin21\n，0 (dcos t + 8sin t) (一 dsin t) — (Bcos t ― &sin /)&cos t」\n--------------------------------------------n------- 9~m r---------------------------dt\n2f di,\nJ 2 k\n伶）—％=— 3tt\n故 I — 0 —\n【注】如下解法是错误的：\n由学=学，连接丽：律=_厂则\nc C\n匕=$9\nap\ndx dy\n（允 + j/）d>z 一（工—夕）^）_\nL\nJ —\nr （JC — 7T）」\nK\n-------------------H T =-----\n”分+兀2\n2 *\n因为丽与J/ = KCOS J；所围区域D内含奇点（0,0）,所以D不是单连通区域，不能说明\n积分与路径无关.",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 58,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.470862+00:00",
+  "updated_at": "2026-08-23T12:39:51.543847+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 58,
+      "bbox": [
+        24.0,
+        371.6509704589844,
+        482.3999938964844,
+        414.79931640625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 168,
+      "bbox": [
+        24.0,
+        367.360107421875,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 169,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        277.8439025878906
+      ]
+    }
+  ]
+}

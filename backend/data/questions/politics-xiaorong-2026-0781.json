@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0781",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "牢牢守住安全发展这条底线是构建新发展格局的重要前提和保障。只有以新安全格局保障新发\n\n展格局，把国家发展建立在更加安全、更为可靠的基础之上，才能",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "中，人民军队形成了一整套光荣传统和优\n\n出处精福和考点92 -2\n\n良作风，这是人民军队的鲜明特色和政治",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 115,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "夯实我国经济发展的根基"
+    },
+    {
+      "key": "B",
+      "text": "增强发展的安全性稳定性"
+    },
+    {
+      "key": "C",
+      "text": "在各种可以预见和难以预见的风险挑战中增强我国的生存力、竞争力、发展力、持续力"
+    },
+    {
+      "key": "D",
+      "text": "确保中华民族伟大复兴进程不被迟滞甚至中断，胜利实现全面建成社会主义现代化强国目标"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        90.55599975585938,
+        383.5638122558594,
+        930.37451171875,
+        579.1054077148438
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 119,
+      "bbox": [
+        436.5539855957031,
+        1213.09375,
+        846.894287109375,
+        1317.529541015625
+      ]
+    }
+  ]
+}

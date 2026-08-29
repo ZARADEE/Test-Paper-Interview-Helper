@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0988",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1919 年爆发的五四运动，是中国近代史上一个划时代的事件，在近代以来中华民族追求民族独\n\n立和发展进步的历史进程中具有里程碑意义。五四运动",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "出处精讲P270i 考点30 -2\n\n出处精讲P268 考点28 -2-(2)\n\n置近A、B、D 正确。中共二大第一次提出了",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 144,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是中国旧民主主义革命走向新民主主义革命的转折点，成为中国新民主主义革命的开端"
+    },
+    {
+      "key": "B",
+      "text": "以全民族的力量高举起爱国主义的伟大旗帜，孕育了以爱国、进步、民主、科学为主要内容\n\n的伟大五四精神"
+    },
+    {
+      "key": "C",
+      "text": "以全民族的行动激发了追求真理、追求进步的伟大觉醒，实现了中国人民和中华民族自鸦片\n\n战争以来的第一次全面觉醒"
+    },
+    {
+      "key": "D",
+      "text": "以全民族的搏击培育了永久奋斗的伟大传统，标志着中国青年成为推动中国社会变革的急先锋"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 144,
+      "bbox": [
+        100.37000274658203,
+        1043.4541015625,
+        932.0140991210938,
+        1295.73876953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 151,
+      "bbox": [
+        10.433000564575195,
+        32.595340728759766,
+        420.1938781738281,
+        177.7780303955078
+      ]
+    }
+  ]
+}

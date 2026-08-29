@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0783",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "维护政治安全的主要内容包括",
+  "answer_markdown": "",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 115,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "维护政权安全"
+    },
+    {
+      "key": "B",
+      "text": "维护制度安全"
+    },
+    {
+      "key": "C",
+      "text": "维护国土安全"
+    },
+    {
+      "key": "D",
+      "text": "维护意识形态安全"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 115,
+      "bbox": [
+        91.01200103759766,
+        751.4183349609375,
+        910.7515258789062,
+        823.1331176757812
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 120,
+      "bbox": [
+        16.222000122070312,
+        459.0771789550781,
+        381.1045227050781,
+        534.6280517578125
+      ]
+    }
+  ]
+}

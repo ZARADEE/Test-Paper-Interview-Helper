@@ -1,0 +1,58 @@
+{
+  "id": "question-5bd33683da",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(5)设亍\n2>”丹.证明:\n(I )a0 = 1，如=1，a»+2 — a 卄1 +a”(n = 0,1,2,…)；\n(n)S 上吐「收敛，并求其和.\n”=］卄2",
+  "answer_markdown": "",
+  "analysis_markdown": "⑸解 (I)由一-—2\n1 — X — X\nn=0\nn=0\n工a”工\n\"——另 a”z\"+2 = 1,\nn = Q\nn=0\nn=0\n变形为\nn~\\~2\n(a。+ 如2 十 >a卄2刃+2 )一 (心工 + 另a„+iz卄? )一\nanx.n+2 = 1.\nn = 0\nn = Q\nn = Q\n比较上式两边同次幕系数，得\n:Y（右一），又其前\"项的和为\nS,\n丄一丄）+•••+ （丄一］）\n^2 如丿\n\\ Q” Q卄2 /\na。= 1，如—Qo = 0 9 a卄2 — a卄1 一 an = 0 (n = 0,1,2 , •••) ?\n故 a。= 19 Qi = 1，Q卄2 = a卄i\n= 0 ? 1 ? 2 ? •••).\n(n)E - Q卄1  〉］ Q卄2\nQn _\nn= i a“Q 卄2\nn= i a 卄2\n:=』一丄2\nd a3 /\n=丄丰丄_ J__ —\n由\nI\na\\ a2\nQ 卄i\nQ 卄2\na。= ci\\ = 19 dz = clq\nci-［ = 2，a卄2 = a” + a卄i ?\n得lima” =4- oo，故limS„ = 丄 + 丄 =4•，即工 \"\"刁 =寻・\n”->8\nloo\nQ] a?\n厶\n”=]卄2\n厶",
+  "chapter": "无穷级数",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 53,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.461257+00:00",
+  "updated_at": "2026-08-23T12:39:51.464361+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "级数",
+    "收敛"
+  ],
+  "tags": [
+    "高等数学",
+    "无穷级数"
+  ],
+  "source_regions": [
+    {
+      "page": 53,
+      "bbox": [
+        24.0,
+        427.26763916015625,
+        482.3999938964844,
+        487.74615478515625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 150,
+      "bbox": [
+        24.0,
+        478.2683410644531,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 151,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        83.16390228271484
+      ]
+    }
+  ]
+}

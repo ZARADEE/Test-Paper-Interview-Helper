@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0989",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "由于五四运动是在新的社会历史条件下发生的，它具有以辛亥革命为代表的旧民主主义革命所\n\n不具备的历史特点。五四运动",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "反帝反封建的民主革命纲领，为中国人民指\n\n出处精讲P267 考点28 -2-(1)\n\n出了明确的斗争目标。C 错误。",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 144,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "是一场以先进青年知识分子为先锋、广大人民群众参加的彻底反帝反封建的伟大爱国革命\n\n运动"
+    },
+    {
+      "key": "B",
+      "text": "是一场中国人民为拯救民族危亡、捍卫民族尊严、凝聚民族力量而掀起的伟大社会革命运动"
+    },
+    {
+      "key": "C",
+      "text": "是一场传播新思想、新文化、新知识的伟大思想启蒙运动和新文化运动"
+    },
+    {
+      "key": "D",
+      "text": "以磅礴之力鼓动了中国人民和中华民族实现民族复兴的志向和信心"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国近现代史"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "中国近现代史"
+  ],
+  "source_regions": [
+    {
+      "page": 144,
+      "bbox": [
+        99.56800079345703,
+        1288.6490478515625,
+        931.31396484375,
+        1415.30419921875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 151,
+      "bbox": [
+        10.254999160766602,
+        175.58346557617188,
+        358.0487365722656,
+        255.2519073486328
+      ]
+    }
+  ]
+}

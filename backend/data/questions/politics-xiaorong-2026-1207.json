@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-1207",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1949 年春，毛泽东在宴请九三学社的朋友时说，“我和各位都是新中国的‘长工，，我们的主人\n是谁呢？不是地主老财或资本家，而是人民，四万万五千万中国人民，我们要全心全意为他们\n服务!” 全心全意为人民服务是",
+  "answer_markdown": "ABD",
+  "analysis_markdown": "不符合题意。\n\n出处精而福］考点33 T、2— ❷",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 176,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "贯穿中国革命道德始终的一根红线"
+    },
+    {
+      "key": "B",
+      "text": "社会主义道德观的集中体现"
+    },
+    {
+      "key": "C",
+      "text": "社会主义道德的原则"
+    },
+    {
+      "key": "D",
+      "text": "先进性要求和广泛性要求的统一"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "思想道德与法治",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 176,
+      "bbox": [
+        101.37899780273438,
+        114.15641784667969,
+        934.1350708007812,
+        282.8440246582031
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 180,
+      "bbox": [
+        440.34600830078125,
+        322.8848876953125,
+        851.231201171875,
+        817.8074951171875
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "question-bcdde907ff",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(4) 设曲面r2 + 2y2 + 3z2 = 21的切平面平行于平面x A y6 z = 0,则该切平面方程\n为________ •",
+  "answer_markdown": "j? + 4j/ + 6z = 21 或 je + 4j/ + 6z =— 21.",
+  "analysis_markdown": "j? + 4j/ + 6z = 21 或 je + 4j/ + 6z =— 21.\n解 令 F(x,y,z') = x2 + 2y2 + 3z2 — 21,则 F：= 2z,F；= 4夕,F； = 6z,法向量为\nn = (F；,F：,F；) = (2z,4y,6z).\n设切点为(m，M ,zo)，于是曲面F(x,y,z) = 0在该点处的切平面方程为\n•Zo (攵一氐)+ 2夕()(夕—％)+ 3zo (z — z0)= 0.\n由已知，该切平面与z + 4y + 6z = 0平行,故有年=字=辛1 '^=儿\n解得工0 =入，夕。=2A 9 zq = 2入.\n又切点在曲面上，故F +2(2入严+3(2入严=24解得入=+ 1.对应于入=J切点为\n(1,2,2)；对应于入=—1,切点为(-b-2,-2)・\n所求切平面方程为\n(•Z — 1) + 4(j/ 一 2) + 6 (z — 2) =0，(《z + 1)+4(j/ + 2)+6(n + 2) = 0\n即工 + 4夕 + 6n = 21 或 e + 4J/ + 6z =— 21.",
+  "chapter": "多元函数微分学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 37,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.452279+00:00",
+  "updated_at": "2026-08-23T12:39:51.178342+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "多元函数微分学"
+  ],
+  "source_regions": [
+    {
+      "page": 37,
+      "bbox": [
+        24.0,
+        381.6767883300781,
+        482.3999938964844,
+        414.5647888183594
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 93,
+      "bbox": [
+        24.0,
+        283.6737060546875,
+        482.3999938964844,
+        427.30145263671875
+      ]
+    }
+  ]
+}

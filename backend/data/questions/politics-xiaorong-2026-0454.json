@@ -1,0 +1,64 @@
+{
+  "id": "politics-xiaorong-2026-0454",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "党在过渡时期总路线的主要内容被概括为“一化三改”，也曾被比喻为鸟的“主体” 和“两\n\n翼”。“主体” 是指",
+  "answer_markdown": "A",
+  "analysis_markdown": "简析习近平总书记在全国教育大会上发表\n\n出处精讲下丽考点45 -2-0\n\n重要讲话强调，建成教育强国是近代以来中\n\n点拨\n数字经济正在成为新一轮国际竞争\n\n华民族梦寐以求的美好愿望，是实现以中国\n\n的重点领域。\n\n式现代化全面推进强国建设、民族复兴伟业\n\n2025年《政府工作报告》强调，深化先进\n\n的先导任务、坚实基础、战略支撑,必须朝\n\n制造业和现代服务业融合发展试点，加快发\n\n着既定目标扎实迈进。\n，④错误。\n\n展服务型制造。\n\n因此,本题选D。\n直接①教育、科技、人才是全面建设社会",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 69,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "对农业的社会主义改造"
+    },
+    {
+      "key": "B",
+      "text": "对手工业的社会主义改造"
+    },
+    {
+      "key": "C",
+      "text": "对资本主义工商业的社会主义改造"
+    },
+    {
+      "key": "D",
+      "text": "社会主义工业化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    ""
+  ],
+  "source_regions": [
+    {
+      "page": 69,
+      "bbox": [
+        87.73899841308594,
+        1104.636962890625,
+        928.3024291992188,
+        1233.4599609375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 83,
+      "bbox": [
+        5.112000465393066,
+        309.9126281738281,
+        414.85455322265625,
+        626.8209228515625
+      ]
+    }
+  ]
+}

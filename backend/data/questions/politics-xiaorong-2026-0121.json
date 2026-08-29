@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0121",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "生产商品所需要的社会必要劳动时间随着劳动生产率的变化而变化。劳动生产率是指",
+  "answer_markdown": "B",
+  "analysis_markdown": "出处精萌行4 考点63 -2\n\n出处精讲原车考点62 _2\n\n简析具体劳动和抽象劳动是对立统一的关\n\n简析商品的价值量与生产商品所耗费的社\n\n会必要劳动时间成正比,与劳动生产率成反\n\n系。一方面，具体劳动和抽象劳动不是各自\n\n独立存在的两种劳动或两次劳动,它们在时\n\n比。劳动生产率指的是劳动者生产使用价",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 18,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "劳动者的劳动强度"
+    },
+    {
+      "key": "B",
+      "text": "劳动者生产使用价值的效率"
+    },
+    {
+      "key": "C",
+      "text": "劳动者生产剩余价值的效率"
+    },
+    {
+      "key": "D",
+      "text": "劳动在整个生产中所占的比例"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 18,
+      "bbox": [
+        104.5510025024414,
+        341.5513000488281,
+        857.6089477539062,
+        440.46270751953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 24,
+      "bbox": [
+        445.01300048828125,
+        813.7730712890625,
+        860.4000244140625,
+        1155.42529296875
+      ]
+    }
+  ]
+}

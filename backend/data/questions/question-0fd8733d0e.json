@@ -1,0 +1,48 @@
+{
+  "id": "question-0fd8733d0e",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(6)交换积分顺序Z =\n/(rcos 0，厂sin 9)rdr(a〉0)为\no\n2 de\nJ 0\n、",
+  "answer_markdown": "dr",
+  "analysis_markdown": "dr\nJ 0\n、\n解 极坐标下交换积分顺序可视0为工轴，r为夕轴，用直\n角坐标处理(包括画图和确定积分限).\n依题意，已知积分区域如图6-40所示.\n当0 <(9 < y时，厂=ajsin 20的反函数为\n9 — £arcsin —；\nL\na\n当于V ° W号时* = a质两的反函数为\n0 =手一 £arcsin 冷，\n/ Z\na\n于一寺arcsin弓\n故\nI =\n”2 \" /(rcos 0,厂sin(9)rd(9.\nyarcsin —\ndr\no 、",
+  "chapter": "重积分及其应用",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 42,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.455396+00:00",
+  "updated_at": "2026-08-23T12:39:51.275631+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "积分"
+  ],
+  "tags": [
+    "高等数学",
+    "重积分及其应用"
+  ],
+  "source_regions": [
+    {
+      "page": 42,
+      "bbox": [
+        24.0,
+        537.3831176757812,
+        482.3999938964844,
+        555.4899291992188
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 114,
+      "bbox": [
+        24.0,
+        166.7688751220703,
+        482.3999938964844,
+        347.20098876953125
+      ]
+    }
+  ]
+}

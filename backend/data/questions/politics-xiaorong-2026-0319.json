@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0319",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "马克思指出：“资本主义社会的经济结构是从封建社会的经济结构中产生的。后者的解体使前\n\n者的要素得到解放。”随着社会生产力的提高特别是封建社会后期商品经济的迅速发展，封建\n\n生产关系越来越成为生产力发展的障碍。资本主义萌芽于14 世纪末15 世纪初地中海沿岸的一\n\n些城市。资本主义产生的途径有",
+  "answer_markdown": "AB",
+  "analysis_markdown": "出处精讲两考点69 -3\n\n出处精耕下能考点68 -2\n\n精讲下可考点70 一3\n\n简析A、B 正确。用暴力手段剥夺农民的\n\n简析资本是能够带来剩余价值的价值c 剩\n\n土地和用暴力手段掠夺货币财富,是资本原\n\n余价值是由雇佣工人的剩余劳动创造的。A\n\n始积累的两个主要途径。C、D 错误。\n\n正确,B 错误。根据资本在剩余价值生产中",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 47,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "从小商品经济中分化出来"
+    },
+    {
+      "key": "B",
+      "text": "从商人和高利贷者转化而来"
+    },
+    {
+      "key": "C",
+      "text": "用暴力手段剥夺农民的土地"
+    },
+    {
+      "key": "D",
+      "text": "用暴力手段掠夺货币财富"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "政治经济学"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [
+    {
+      "page": 47,
+      "bbox": [
+        88.31999969482422,
+        711.6921997070312,
+        929.372314453125,
+        902.1019287109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 62,
+      "bbox": [
+        444.15301513671875,
+        984.5029296875,
+        849.9430541992188,
+        1320.859130859375
+      ]
+    }
+  ]
+}

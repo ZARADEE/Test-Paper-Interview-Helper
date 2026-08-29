@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0556",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "邓小平理论是马克思列宁主义基本原理同当代中国实际和时代特征相结合的产物，是对马克思\n\n列宁主义、毛泽东思想的继承和发展，是全党全国人民集体智慧的结晶。邓小平理论是",
+  "answer_markdown": "BCD",
+  "analysis_markdown": "在,统战工作不是过时了、不重要了，而是更\n\n重要了。B、C、D 正确。勇于自我革命是中国\n\n共产党区别于其他政党的显著标志。A 错误。\n\n出处精丽祠考点56 -0",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 84,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "中国特色社会主义理论体系的开篇之作"
+    },
+    {
+      "key": "B",
+      "text": "中国共产党和中国人民宝贵的精神财富"
+    },
+    {
+      "key": "C",
+      "text": "中国革命、建设、改革的科学指南"
+    },
+    {
+      "key": "D",
+      "text": "党和国家必须长期坚持的指导思想\nns\n三个代表\" 重要思想"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "中国化理论成果"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "中国化理论成果"
+  ],
+  "source_regions": [
+    {
+      "page": 84,
+      "bbox": [
+        100.4530029296875,
+        396.8293151855469,
+        935.8240966796875,
+        614.082275390625
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 95,
+      "bbox": [
+        4.876999855041504,
+        276.9548034667969,
+        319.0171813964844,
+        355.2353210449219
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "politics-2024-023",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "今年以来，我国经济持续回升向好，高质量发展扎实推进，我国仍是全球增长最大引擎。据权威部门统计，前三季度我国国内生产总值同比增长5.2%；全国居民人均可支配收入同比实际增长5.9%；高技术产业投资增长11.4%。前10个月社会物流总额同比增长 4.9%，物流需求恢复向好，行业提质升级加速。总体上看，我国经济长期向好的基本面没有变也不会变，因为我国具有（ ）",
+  "answer_markdown": "ABCD",
+  "analysis_markdown": "【解析】本题考查的知识点：推动高质量发展\n 超大规模市场的需求优势、产业体系配套完整的供给优势、社会主义市场经济的体制优势、大量高素质劳动者和企业家的人才优势；ABCD这四个优势都是我国经济长期向好的基本面没有变也不会变的原因，故全选。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:44:13.364538+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "超大规模市场的需求优势"
+    },
+    {
+      "key": "B",
+      "text": "产业体系配套完整的供给优势"
+    },
+    {
+      "key": "C",
+      "text": "社会主义市场经济的体制优势"
+    },
+    {
+      "key": "D",
+      "text": "大量高素质劳动者和企业家的人才优势 ### 答案解析 23."
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "推动高质量发展"
+  ],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    "推动高质量发展"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

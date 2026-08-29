@@ -1,0 +1,50 @@
+{
+  "id": "question-a41b002338",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(8) 讨论函数/(jc) = lim 一”丄的连续性.",
+  "answer_markdown": "",
+  "analysis_markdown": "(8)解 先求极限得到于&)的表达式，再讨论/•&)的连续性.\n—1，\n0 V | e | V 19\nI 工 I = 1，\n2 卄2 _ 1\n当工工0时9有 fO = lim\nn-*-oo 0 + 1\n0,\nX2\nI X I〉1，\n故在(一00 9 — 1)，(— 1 ?0) 9 (0,1) 9 (1 9 + °°)内 f (J7)连续.\n又因为\nlim /(re) = 1，lim fix) =— 1,\nX-*—1\nX—►—1\nlim/(j：) =— 1，\n工->0\nlim/(jc) =一1, lim/(j?) = 1,\n一厂\n一 i+\n所以 2）在工=o, ± 1处间断，是第一类间断点，其中X = o是可去间断点.",
+  "chapter": "函数、极限与连续",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 10,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.436189+00:00",
+  "updated_at": "2026-08-23T12:39:50.731951+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "极限",
+    "连续",
+    "函数"
+  ],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
+  "source_regions": [
+    {
+      "page": 10,
+      "bbox": [
+        24.0,
+        194.6147003173828,
+        482.3999938964844,
+        217.44422912597656
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 11,
+      "bbox": [
+        24.0,
+        463.20880126953125,
+        482.3999938964844,
+        576.5411376953125
+      ]
+    }
+  ]
+}

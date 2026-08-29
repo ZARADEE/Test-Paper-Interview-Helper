@@ -1,0 +1,58 @@
+{
+  "id": "question-9f80a85859",
+  "type": "fill",
+  "subject": "考研数学一",
+  "stem_markdown": "(2)设随机变量X的概率密度为fS = ¥^7+21 (- oo < ^ <+ oo),则E(X2)=",
+  "answer_markdown": "",
+  "analysis_markdown": "⑵务\n(x-l)2\n解 由\n=丄 e7+2i =\n9 1\n2，t\nVTt\n叫1易\n知X\n，故EX = 1,DX =专，所以\nE(X2) = DX + (EX)2 = * + 严\n7*",
+  "chapter": "数字特征与大数定律",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 94,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.490264+00:00",
+  "updated_at": "2026-08-23T12:39:51.996368+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "随机变量",
+    "概率密度"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "数字特征与大数定律"
+  ],
+  "source_regions": [
+    {
+      "page": 94,
+      "bbox": [
+        24.0,
+        645.6533813476562,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 95,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        59.27349090576172
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 259,
+      "bbox": [
+        24.0,
+        232.59051513671875,
+        482.3999938964844,
+        338.5672912597656
+      ]
+    }
+  ]
+}

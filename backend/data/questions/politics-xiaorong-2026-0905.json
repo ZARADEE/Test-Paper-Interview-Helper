@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0905",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "1945 年10 月10 日，重庆谈判双方签署《政府与中共代表会谈纪要》，即双十协定，确认和平\n\n建国的基本方针，同意“长期合作，坚决避免内战”。1946 年1 月10 日，政治协商会议在重庆\n\n开幕。会议通过了政府组织案等五项协议。政协会议闭幕的第二天，中共中央发出党内指示,\n\n要求全党准备为坚决实现政协协议而奋斗。同时提出，必须提高警惕，注意“阵地的保持与继\n\n续取得”，做好进行自卫战争的准备，并指出，目前解放区的中心工作是",
+  "answer_markdown": "D",
+  "analysis_markdown": "大复兴的历史转折点。C 错误。\n\n出处精讲防6 考点57 -3-0",
+  "chapter": "第七章",
+  "difficulty": "medium",
+  "score": 1.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 133,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "放手发动群众，壮大人民力量"
+    },
+    {
+      "key": "B",
+      "text": "进行土地改革"
+    },
+    {
+      "key": "C",
+      "text": "发展生产，保障供给"
+    },
+    {
+      "key": "D",
+      "text": "练兵、减租与生产"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第七章"
+  ],
+  "tags": [
+    "中国近现代史纲要",
+    "第七章"
+  ],
+  "source_regions": [
+    {
+      "page": 133,
+      "bbox": [
+        85.5770034790039,
+        676.7659912109375,
+        928.8392333984375,
+        890.73876953125
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 138,
+      "bbox": [
+        448.12298583984375,
+        1049.0211181640625,
+        854.49267578125,
+        1315.88134765625
+      ]
+    }
+  ]
+}

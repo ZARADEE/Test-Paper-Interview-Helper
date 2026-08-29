@@ -1,0 +1,44 @@
+{
+  "id": "politics-2011-018",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "在资本主义社会里，银行垄断资本和工业垄断资本密切地融合在一起，产生了一种新型的垄断资本，即金融资本。在金融资本形成的基础上，产生了金融寡头。金融寡头操作、控制社会的主要方式有：",
+  "answer_markdown": "ABC",
+  "analysis_markdown": "【解析】金融寡头是指操纵国民经济命脉，并在实际上控制国家政权的少数垄断资本家或垄断资本家集团。金融寡头在经济中的统治，主要是通过“参与制”(金融寡头通过掌握一定数量的股票来层层控制企业的制度)来实现的；在政治上对国家机器的控制主要是通过同政府的“个人联合”(亲自担任或指派代理人担任政府要职)来实现的。金融寡头还通过建立政策咨询机构，掌握新闻科教文化等来左右和影响内政外交与社会生活。所以正确答案是选择ABC。选项D是干扰项，因此错误。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:39:36.614073+00:00",
+  "updated_at": "2026-08-23T15:56:23.416830+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "通过“参与制”实现其在经济领域中的统治"
+    },
+    {
+      "key": "B",
+      "text": "通过同政府的 “个人联合”实现其对国家机器的控制"
+    },
+    {
+      "key": "C",
+      "text": "通过政策咨询机构影响和左右内外政策"
+    },
+    {
+      "key": "D",
+      "text": "通过新闻媒体实现国民思想意识的一元化"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "马克思主义基本原理",
+    "政治经济学"
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

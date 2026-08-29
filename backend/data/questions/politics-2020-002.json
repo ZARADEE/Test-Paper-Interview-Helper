@@ -1,0 +1,44 @@
+{
+  "id": "politics-2020-002",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "逐渐“飞入寻常百姓家”的人工智能对人类的社会生活产生了巨大影响，对此，技术乐观派认为人工智能为人类发展更新了“发动机”，悲观派则认为人工智能的发展可能导致“人类的终结”。对人工智能社会效用的评价是 （ ）",
+  "answer_markdown": "D",
+  "analysis_markdown": "本题考查价值评价。价值评价是主体对客体的价值以及价值大小所作的评判或判断。题干中\"人们\"（即主体）\n对人工智能（即客体）的社会效用（即价值）的评价属于价值评价，也即主体对客观事物的属性及其满足主体需\n要的价值性评价。D正确，AB概括不准确，很容易排除。C争议比较大，但就单选题而言，D 比 C更切合题意。",
+  "chapter": "题目",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T14:40:47.524542+00:00",
+  "updated_at": "2026-08-23T15:56:23.597388+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "对客观事物发展规律的真理性评价"
+    },
+    {
+      "key": "B",
+      "text": "对主体需要发展程度的认知性评价"
+    },
+    {
+      "key": "C",
+      "text": "受主体情感、兴趣和爱好影响的主观性评价"
+    },
+    {
+      "key": "D",
+      "text": "对客观事物的属性及其满足主体需要的价值性评价 ### 答案解析 2.【"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [],
+  "tags": [
+    "形势与政策以及当代世界经济与政治",
+    ""
+  ],
+  "source_regions": [],
+  "analysis_regions": []
+}

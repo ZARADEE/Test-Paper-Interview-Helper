@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0760",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "哲学家冯友兰曾写道：“盖并世列强，虽新而不古；希腊罗马，有古而无今。惟我国家，亘古亘\n\n今，亦新亦旧，斯所谓‘周虽旧邦，其命维新‘ 者也!”创新性是中华文明的突出特性之一，创\n\n新性从根本上决定了中华民族",
+  "answer_markdown": "AB",
+  "analysis_markdown": "",
+  "chapter": "",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 112,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "守正不守旧、尊古不复古的进取精神"
+    },
+    {
+      "key": "B",
+      "text": "不惧新挑战、勇于接受新事物的无畏品格"
+    },
+    {
+      "key": "C",
+      "text": "必然走自己的路"
+    },
+    {
+      "key": "D",
+      "text": "形成多元一体的格局"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "哲学"
+  ],
+  "tags": [
+    "毛泽东思想和中国特色社会主义理论体系",
+    "哲学"
+  ],
+  "source_regions": [
+    {
+      "page": 112,
+      "bbox": [
+        99.6510009765625,
+        470.7021789550781,
+        931.66015625,
+        629.37060546875
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 118,
+      "bbox": [
+        19.238000869750977,
+        937.2020263671875,
+        381.9339294433594,
+        1010.2408447265625
+      ]
+    }
+  ]
+}

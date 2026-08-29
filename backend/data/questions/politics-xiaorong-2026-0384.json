@@ -1,0 +1,66 @@
+{
+  "id": "politics-xiaorong-2026-0384",
+  "type": "choice",
+  "subject": "考研政治",
+  "stem_markdown": "社会主义从空想发展到科学，是因为马克思、恩格斯在新的历史条件下创立了",
+  "answer_markdown": "AB",
+  "analysis_markdown": "强，相对剩余价值生产的作用就日益突出\n\n出处精市95~96) 考点85 -3\n\n了。第二次世界大战以后，资本主义国家\n\n点拨由于唯物史观和剩余价值理论的发\n\n经历了第三次科学技术革命，机器大工业\n\n发展到自动化阶段。工业机器人的开发和\n\n现，社会主义由空想变为科学。唯物史观",
+  "chapter": "第六章",
+  "difficulty": "medium",
+  "score": 2.0,
+  "source_document_id": "source-f71bbdee2d93b195",
+  "source_page": 55,
+  "review_status": "approved",
+  "created_at": "2026-08-23T15:58:30.598606+00:00",
+  "updated_at": "2026-08-29T14:56:32.130039+00:00",
+  "analysis_source_document_id": "source-637b3bac29a0c8d8",
+  "question_bank_id": "bank-politics",
+  "options": [
+    {
+      "key": "A",
+      "text": "唯物史观"
+    },
+    {
+      "key": "B",
+      "text": "剩余价值学说"
+    },
+    {
+      "key": "C",
+      "text": "无产阶级革命学说"
+    },
+    {
+      "key": "D",
+      "text": "无产阶级政党学说"
+    }
+  ],
+  "scoring_points": [],
+  "knowledge_points": [
+    "第六章"
+  ],
+  "tags": [
+    "马克思主义基本原理",
+    "第六章"
+  ],
+  "source_regions": [
+    {
+      "page": 55,
+      "bbox": [
+        88.4800033569336,
+        915.7765502929688,
+        790.9381713867188,
+        1013.9428100585938
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 70,
+      "bbox": [
+        446.6780090332031,
+        1041.673583984375,
+        757.5189819335938,
+        1119.278076171875
+      ]
+    }
+  ]
+}

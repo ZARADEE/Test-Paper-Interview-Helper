@@ -1,0 +1,59 @@
+{
+  "id": "question-d1310a4c51",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(18) 设S为椭球面工2+2护+3/ = i外侧，计算I = ©\n--------3——.",
+  "answer_markdown": "",
+  "analysis_markdown": "（18）解 被积函数较烦琐，又不能代入S的方程化简，考虑到（^2+^2+z2）i在原点\n（0,0,0）处为零,挖去原点，作球面Si ：x2+y+z2 = /G充分小），取内侧,匕表示S与Si\n所围空间区域，应用高斯公式，记\nP = ---------- - ---------r ' Q = ---------- - ---------r ' R = ---------- ----------F '\n（分+夕2 * / ） 丁\n（工2 +夕2 + / ）丁\n（工2 *夕2 *云）寻\n计算可得在V\"”中，有= 0 ,故\ndz\ndV = 0.\n(/ + b +旳壬 IjJ\nzdj/dz + ydzcLz + Nchrdy __\n于是\nS+S]\nI =\njrdj/d^ + ydzdj： 4- zdxdy\n(*+b+\"\nsi\n3P_ + ^Q + 3R\ndjC dy\nf\n无dydz + ydNdz + Ndrdy\n(x2 + y2 +z2)l\np-dS = + • 47tr2 = 4tt(S；为 S】的外侧).\n【注】 ①(*)利用两类积分之间的关系：\njjp dj^dz + Qdzdx + RcLzdy =\nJ (Pcos a + Qcos 0+ Rcos y)dS.\ns\ns\n因为Si ： y + b +云=r2的法向量为n — (2工，2y, 2z)，所以\nx\nX\n—9\nr\ncos a =—-—. --. ............\n+『+/\ncos B = ―「......\".............\n工,\nr\n' Vx2 + y2 +\nN\ncos y =\nz_\n2+ / + n2\n厂，\n故\nb\n^\ny.\n严血+\ncos?a + gcos2p+£cos2y)dS =\nZ\n—~r dzdx H-----------------------r djcdv\n(jc2 + y2 + z2^\n(x2 + y2 + z2)^\n# -^-(cos2a + cos2/? + cos2 y)dS\n-\nsr^\n^\n=\n7dS-\nsr^©^_\nsl\n②\n算6工加k + Wzd工+号肝夕时，也可代入S「的方程/ + b + / = / ,化简得\n计\nS1\n辱 ^dydz + ^-dzdx + -~-dxdj/ =\n+ ydzdx + zdxdy\n高斯公式\n+ 1 + 1)dV = + ・ 3 • ¥灯3 = 4兀.\nV\n，\n依题设，流量为\n+化",
+  "chapter": "曲线积分与曲面积分",
+  "difficulty": "medium",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 59,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.472143+00:00",
+  "updated_at": "2026-08-23T12:39:51.565387+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "曲线积分与曲面积分",
+    "曲线积分",
+    "曲面积分"
+  ],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
+  "source_regions": [
+    {
+      "page": 59,
+      "bbox": [
+        24.0,
+        420.9864501953125,
+        482.3999938964844,
+        453.8862609863281
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 174,
+      "bbox": [
+        24.0,
+        587.4746704101562,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 175,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        499.087646484375
+      ]
+    }
+  ]
+}

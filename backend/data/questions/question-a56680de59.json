@@ -1,0 +1,58 @@
+{
+  "id": "question-a56680de59",
+  "type": "solution",
+  "subject": "考研数学一",
+  "stem_markdown": "(1)设二维随机变量(X,Y)的联合分布律为\n(I )求 2X + Y,max{X,Y},min{X,Y}的分布律;\n（口）求 P{min{X,Y} >0}；\n（DI）问X与Y是否相互独立？说明理由.",
+  "answer_markdown": "",
+  "analysis_markdown": "(1)'解 (I)随机变量取值情况如下\n(X,Y)\n(0,-1)\n(0,1)\n(1,-1)\n(1,1)\nPa\n2X + Y\n—1\nmax{X，Y}\nmin{X,Y}\n-1\n故\n2X十Y\n-1\nPa\n~8\nmax{X,Y}\nPn\nmin{X,Y}\n-1\ni\nT\n(n)P{min{X,y} > 0}=\n1 , 3\n----]------=—\n4 •\n(in)x与y的边缘分布律分别为\nX\ny\n—1\np\nT\np\nT\nT\nT\n显然满足為=p.. • P”,故X与Y相互独立.\n叶8\nf(x,y)dy =\n0 V 力 < 1,",
+  "chapter": "随机变量及其分布",
+  "difficulty": "easy",
+  "score": 10.0,
+  "source_document_id": "source-li-lin-880-questions-5ab6094fd8",
+  "source_page": 90,
+  "review_status": "approved",
+  "created_at": "2026-08-23T12:07:19.488264+00:00",
+  "updated_at": "2026-08-23T12:39:51.944807+00:00",
+  "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "options": [],
+  "scoring_points": [],
+  "knowledge_points": [
+    "二维",
+    "联合分布"
+  ],
+  "tags": [
+    "概率论与数理统计",
+    "随机变量及其分布"
+  ],
+  "source_regions": [
+    {
+      "page": 90,
+      "bbox": [
+        24.0,
+        570.145751953125,
+        482.3999938964844,
+        707.199951171875
+      ]
+    },
+    {
+      "page": 91,
+      "bbox": [
+        24.0,
+        28.0,
+        482.3999938964844,
+        88.9456787109375
+      ]
+    }
+  ],
+  "analysis_regions": [
+    {
+      "page": 247,
+      "bbox": [
+        24.0,
+        223.2177276611328,
+        482.3999938964844,
+        566.5177001953125
+      ]
+    }
+  ]
+}
