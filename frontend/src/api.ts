@@ -1,4 +1,7 @@
 import type {
+  AdmissionsFeed,
+  AdmissionsScorelineDetail,
+  AdmissionsScorelineIndex,
   Paper,
   PaperTemplate,
   QuestionBank,
@@ -25,6 +28,20 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
 
 export async function getHealth(): Promise<{ ok: boolean; question_count: number; template_count: number }> {
   return request("/health");
+}
+
+export async function getAdmissionsFeed(): Promise<AdmissionsFeed> {
+  return request("/admissions-feed");
+}
+
+export async function getScorelineIndex(targetYear?: number): Promise<AdmissionsScorelineIndex> {
+  const query = targetYear ? `?target_year=${encodeURIComponent(String(targetYear))}` : "";
+  return request(`/scoreline-index${query}`);
+}
+
+export async function getScorelineDetail(url: string): Promise<AdmissionsScorelineDetail> {
+  const query = new URLSearchParams({ url });
+  return request(`/scoreline-detail?${query.toString()}`);
 }
 
 export async function getTags(questionBankId?: string): Promise<Tag[]> {
@@ -73,11 +90,21 @@ export async function getReviews(page = 1, pageSize = 12, questionBankId?: strin
 export async function importDocument(
   file: File,
   questionBankId: string
-): Promise<{ candidate_count: number; filename: string }> {
+): Promise<{ document_id: string; candidate_count: number; filename: string; page_count: number; review_ids: string[] }> {
   const body = new FormData();
   body.append("file", file);
   body.append("question_bank_id", questionBankId);
   return request("/documents/import", { method: "POST", body });
+}
+
+export async function importBookletAnalysis(
+  questionDocumentId: string,
+  file: File
+): Promise<{ document_id: string; matched: number; question_count: number; analysis_count: number }> {
+  const body = new FormData();
+  body.append("question_document_id", questionDocumentId);
+  body.append("file", file);
+  return request("/documents/booklet-analysis", { method: "POST", body });
 }
 
 export async function updateReview(
@@ -94,6 +121,15 @@ export async function updateReview(
 
 export async function approveReview(reviewId: string): Promise<Question> {
   return request(`/reviews/${reviewId}/approve`, { method: "POST" });
+}
+
+export async function attachReviewAnalysis(
+  reviewId: string,
+  file: File
+): Promise<{ ok: boolean; id: string; source_document_id: string }> {
+  const body = new FormData();
+  body.append("file", file);
+  return request(`/reviews/${reviewId}/analysis`, { method: "POST", body });
 }
 
 export async function approveMatchedReviews(questionBankId?: string): Promise<{

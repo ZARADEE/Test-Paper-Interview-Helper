@@ -1,9 +1,11 @@
 import { ArrowDown, ArrowUp, Check, CopyPlus, Plus, Save, Trash2 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { createTemplate, getTemplates, saveTemplate, validateTemplate } from "../api";
-import type { PaperTemplate, QuestionBank, QuestionType, SubjectDistributionRule } from "../types";
+import { ImportView } from "./ImportView";
+import type { PaperTemplate, QuestionBank, QuestionType, SubjectDistributionRule, Tag } from "../types";
 
 type Props = {
+  tags: Tag[];
   questionBanks: QuestionBank[];
   onChanged: () => void;
 };
@@ -20,7 +22,8 @@ const subjectLabels: Record<string, string> = {
   "概率论与数理统计": "概率与统计"
 };
 
-export function TemplateView({ questionBanks, onChanged }: Props): JSX.Element {
+export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Element {
+  const [activePane, setActivePane] = useState<"assemble" | "import">("assemble");
   const [templates, setTemplates] = useState<PaperTemplate[]>([]);
   const [selectedId, setSelectedId] = useState("");
   const [draft, setDraft] = useState<PaperTemplate | null>(null);
@@ -158,138 +161,151 @@ export function TemplateView({ questionBanks, onChanged }: Props): JSX.Element {
   }
 
   return (
-    <div className="template-layout">
-      <aside className="template-list panel">
-        <div className="section-kicker">03 / TEMPLATE</div>
-        <h1>模板库</h1>
-        {templates.map((template) => (
-          <button
-            className={`template-list-item ${template.id === selectedId ? "is-active" : ""}`}
-            key={template.id}
-            onClick={() => setSelectedId(template.id)}
-            type="button"
-          >
-            <span>{template.name}</span>
-            <small>{template.total_score} 分 / {template.duration_minutes} 分钟</small>
-          </button>
-        ))}
-        <button className="outline-action" onClick={() => void createNewTemplate()} type="button"><Plus size={17} />新建试卷模板</button>
-        <button className="outline-action" onClick={addSection} type="button"><CopyPlus size={17} />复制结构</button>
-      </aside>
-
-      <main className="template-canvas-area">
-        <div className="canvas-toolbar panel">
-          <div>
-            <span className="eyebrow">STRUCTURE CANVAS</span>
-            <strong>{draft.name}</strong>
-          </div>
-          <div className="toolbar-actions">
-            <button onClick={() => void validate()} type="button"><Check size={17} />校验</button>
-            <button className="primary-action compact" onClick={() => void save()} type="button"><Save size={17} />保存模板</button>
+    <div className="template-shell">
+      <div className="canvas-toolbar panel template-switch-bar">
+        <div>
+          <span className="eyebrow">STRUCTURE CANVAS</span>
+          <strong>{draft.name}</strong>
+          <div className="template-mode-switch">
+            <button className={activePane === "assemble" ? "is-active" : ""} onClick={() => setActivePane("assemble")} type="button">试卷装配台</button>
+            <button className={activePane === "import" ? "is-active" : ""} onClick={() => setActivePane("import")} type="button">试题导入</button>
           </div>
         </div>
-        {message && (
-          <div className={`notice ${valid === false || warnings.length > 0 ? "notice-warning" : "notice-info"}`}>
-            {message}
-          </div>
-        )}
-        <div className="template-canvas panel">
-          <div className="template-paper">
-            <div className="template-paper-head">
-              <span>EXAM PAPER / TEMPLATE PREVIEW</span>
-              <strong>{draft.subject}</strong>
-              <small>{draft.total_score} 分 · {draft.duration_minutes} 分钟</small>
-            </div>
-            {draft.sections.map((section, index) => (
-              <div className={`template-section-block block-${section.type}`} key={section.id}>
-                <div className="block-number">{String(index + 1).padStart(2, "0")}</div>
-                <div className="block-copy">
-                  <strong>{section.title}</strong>
-                  <span>{typeLabels[section.type]} · {section.count} 题 · {section.count * section.score} 分</span>
-                </div>
-                <div className="block-actions">
-                  <button onClick={() => moveSection(index, -1)} title="上移" type="button"><ArrowUp size={15} /></button>
-                  <button onClick={() => moveSection(index, 1)} title="下移" type="button"><ArrowDown size={15} /></button>
-                  <button onClick={() => removeSection(index)} title="删除" type="button"><Trash2 size={15} /></button>
-                </div>
-              </div>
+        <div className="toolbar-actions">
+          <button onClick={() => void validate()} type="button"><Check size={17} />校验</button>
+          <button className="primary-action compact" onClick={() => void save()} type="button"><Save size={17} />保存模板</button>
+        </div>
+      </div>
+      {message && (
+        <div className={`notice ${valid === false || warnings.length > 0 ? "notice-warning" : "notice-info"}`}>
+          {message}
+        </div>
+      )}
+
+      {activePane === "assemble" ? (
+        <div className="template-layout">
+          <aside className="template-list panel">
+            <div className="section-kicker">03 / TEMPLATE</div>
+            <h1>模板库</h1>
+            {templates.map((template) => (
+              <button
+                className={`template-list-item ${template.id === selectedId ? "is-active" : ""}`}
+                key={template.id}
+                onClick={() => setSelectedId(template.id)}
+                type="button"
+              >
+                <span>{template.name}</span>
+                <small>{template.total_score} 分 / {template.duration_minutes} 分钟</small>
+              </button>
             ))}
-            <button className="add-section-button" onClick={addSection} type="button"><Plus size={18} />新增题型分区</button>
-          </div>
-        </div>
-      </main>
+            <button className="outline-action" onClick={() => void createNewTemplate()} type="button"><Plus size={17} />新建试卷模板</button>
+            <button className="outline-action" onClick={addSection} type="button"><CopyPlus size={17} />复制结构</button>
+          </aside>
 
-      <aside className="template-inspector panel">
-        <div className="panel-title">属性检查器</div>
-        <label><span>模板名称</span><input value={draft.name} onChange={(event) => updateDraft({ name: event.target.value })} /></label>
-        <label>
-          <span>关联题库</span>
-          <select
-            value={draft.question_bank_id}
-            onChange={(event) => {
-              const bank = questionBanks.find((item) => item.id === event.target.value);
-              if (bank) updateDraft({ question_bank_id: bank.id, subject: bank.subject });
-            }}
-          >
-            {questionBanks.map((bank) => <option key={bank.id} value={bank.id}>{bank.name}</option>)}
-          </select>
-        </label>
-        <div className="two-fields">
-          <label><span>总分</span><input type="number" value={draft.total_score} onChange={(event) => updateDraft({ total_score: Number(event.target.value) })} /></label>
-          <label><span>时长</span><input type="number" value={draft.duration_minutes} onChange={(event) => updateDraft({ duration_minutes: Number(event.target.value) })} /></label>
-        </div>
-        <div className="inspector-divider" />
-        <div className="panel-title">当前结构</div>
-        <div className="metric-line"><span>配置总分</span><strong>{sectionScore.toFixed(1)}</strong></div>
-        <div className="metric-line"><span>目标总分</span><strong>{draft.total_score}</strong></div>
-        <div className={`metric-line ${Math.abs(sectionScore - draft.total_score) < 0.01 ? "metric-good" : "metric-bad"}`}>
-          <span>分值状态</span><strong>{Math.abs(sectionScore - draft.total_score) < 0.01 ? "MATCH" : "CHECK"}</strong>
-        </div>
-        <div className="inspector-divider" />
-        <div className="distribution-heading">
-          <div className="panel-title">科目占比</div>
-          <span className={`distribution-total ${Math.abs(subjectRatioTotal - 1) < 0.001 ? "is-valid" : "is-invalid"}`}>
-            合计 {(subjectRatioTotal * 100).toFixed(0)}%
-          </span>
-        </div>
-        <div className="subject-distribution-list">
-          {subjectRules.map((rule, index) => {
-            const percent = Math.round(Number(rule.ratio || 0) * 100);
-            const label = subjectLabels[rule.label] ?? rule.label;
-            return (
-              <div className="subject-distribution-row" key={rule.label}>
-                <div className="subject-distribution-row-head">
-                  <strong>{label}</strong>
-                  <input
-                    aria-label={`${label}占比`}
-                    type="number"
-                    min="0"
-                    max="100"
-                    step="1"
-                    value={percent}
-                    onChange={(event) => updateSubjectRatio(index, Number(event.target.value))}
-                  />
-                  <span>%</span>
+          <main className="template-canvas-area">
+            <div className="template-canvas panel">
+              <div className="template-paper">
+                <div className="template-paper-head">
+                  <span>EXAM PAPER / TEMPLATE PREVIEW</span>
+                  <strong>{draft.subject}</strong>
+                  <small>{draft.total_score} 分 · {draft.duration_minutes} 分钟</small>
                 </div>
-                <input
-                  aria-label={`${label}占比滑块`}
-                  type="range"
-                  min="0"
-                  max="100"
-                  step="1"
-                  value={percent}
-                  onChange={(event) => updateSubjectRatio(index, Number(event.target.value))}
-                />
+                {draft.sections.map((section, index) => (
+                  <div className={`template-section-block block-${section.type}`} key={section.id}>
+                    <div className="block-number">{String(index + 1).padStart(2, "0")}</div>
+                    <div className="block-copy">
+                      <strong>{section.title}</strong>
+                      <span>{typeLabels[section.type]} · {section.count} 题 · {section.count * section.score} 分</span>
+                    </div>
+                    <div className="block-actions">
+                      <button onClick={() => moveSection(index, -1)} title="上移" type="button"><ArrowUp size={15} /></button>
+                      <button onClick={() => moveSection(index, 1)} title="下移" type="button"><ArrowDown size={15} /></button>
+                      <button onClick={() => removeSection(index)} title="删除" type="button"><Trash2 size={15} /></button>
+                    </div>
+                  </div>
+                ))}
+                <button className="add-section-button" onClick={addSection} type="button"><Plus size={18} />新增题型分区</button>
               </div>
-            );
-          })}
+            </div>
+          </main>
+
+          <aside className="template-inspector panel">
+            <div className="panel-title">属性检查器</div>
+            <label><span>模板名称</span><input value={draft.name} onChange={(event) => updateDraft({ name: event.target.value })} /></label>
+            <label>
+              <span>关联题库</span>
+              <select
+                value={draft.question_bank_id}
+                onChange={(event) => {
+                  const bank = questionBanks.find((item) => item.id === event.target.value);
+                  if (bank) updateDraft({ question_bank_id: bank.id, subject: bank.subject });
+                }}
+              >
+                {questionBanks.map((bank) => <option key={bank.id} value={bank.id}>{bank.name}</option>)}
+              </select>
+            </label>
+            <div className="two-fields">
+              <label><span>总分</span><input type="number" value={draft.total_score} onChange={(event) => updateDraft({ total_score: Number(event.target.value) })} /></label>
+              <label><span>时长</span><input type="number" value={draft.duration_minutes} onChange={(event) => updateDraft({ duration_minutes: Number(event.target.value) })} /></label>
+            </div>
+            <div className="inspector-divider" />
+            <div className="panel-title">当前结构</div>
+            <div className="metric-line"><span>配置总分</span><strong>{sectionScore.toFixed(1)}</strong></div>
+            <div className="metric-line"><span>目标总分</span><strong>{draft.total_score}</strong></div>
+            <div className={`metric-line ${Math.abs(sectionScore - draft.total_score) < 0.01 ? "metric-good" : "metric-bad"}`}>
+              <span>分值状态</span><strong>{Math.abs(sectionScore - draft.total_score) < 0.01 ? "MATCH" : "CHECK"}</strong>
+            </div>
+            <div className="inspector-divider" />
+            <div className="distribution-heading">
+              <div className="panel-title">科目占比</div>
+              <span className={`distribution-total ${Math.abs(subjectRatioTotal - 1) < 0.001 ? "is-valid" : "is-invalid"}`}>
+                合计 {(subjectRatioTotal * 100).toFixed(0)}%
+              </span>
+            </div>
+            <div className="subject-distribution-list">
+              {subjectRules.map((rule, index) => {
+                const percent = Math.round(Number(rule.ratio || 0) * 100);
+                const label = subjectLabels[rule.label] ?? rule.label;
+                return (
+                  <div className="subject-distribution-row" key={rule.label}>
+                    <div className="subject-distribution-row-head">
+                      <strong>{label}</strong>
+                      <input
+                        aria-label={`${label}占比`}
+                        type="number"
+                        min="0"
+                        max="100"
+                        step="1"
+                        value={percent}
+                        onChange={(event) => updateSubjectRatio(index, Number(event.target.value))}
+                      />
+                      <span>%</span>
+                    </div>
+                    <input
+                      aria-label={`${label}占比滑块`}
+                      type="range"
+                      min="0"
+                      max="100"
+                      step="1"
+                      value={percent}
+                      onChange={(event) => updateSubjectRatio(index, Number(event.target.value))}
+                    />
+                  </div>
+                );
+              })}
+            </div>
+            <div className={`metric-line ${Math.abs(subjectRatioTotal - 1) < 0.001 ? "metric-good" : "metric-bad"}`}>
+              <span>科目比例状态</span>
+              <strong>{Math.abs(subjectRatioTotal - 1) < 0.001 ? "MATCH" : "CHECK"}</strong>
+            </div>
+            <p className="muted-copy">组卷时按这三个大类分配题目。比例合计需要保持为 100%。</p>
+          </aside>
         </div>
-        <div className={`metric-line ${Math.abs(subjectRatioTotal - 1) < 0.001 ? "metric-good" : "metric-bad"}`}>
-          <span>科目比例状态</span>
-          <strong>{Math.abs(subjectRatioTotal - 1) < 0.001 ? "MATCH" : "CHECK"}</strong>
+      ) : (
+        <div className="template-import-slot">
+          <ImportView tags={tags} questionBanks={questionBanks} onChanged={onChanged} />
         </div>
-        <p className="muted-copy">组卷时按这三个大类分配题目。比例合计需要保持为 100%。</p>
-      </aside>
+      )}
     </div>
   );
 }

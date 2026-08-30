@@ -1,4 +1,4 @@
-export type TabId = "compose" | "practice" | "import" | "templates";
+export type TabId = "home" | "compose" | "practice" | "templates";
 export type QuestionType = "choice" | "fill" | "solution";
 
 export type Tag = {
@@ -199,4 +199,43 @@ export type Paper = {
     selected_count: number;
     total_score: number;
   };
+};
+
+export type AdmissionsFeedItem = {
+  title: string;
+  url: string;
+  category: string;
+  published_at: string;
+  source: string;
+};
+
+export type AdmissionsFeed = {
+  updated_at: string;
+  max_age_days: number;
+  items: AdmissionsFeedItem[];
+  errors: string[];
+};
+
+export type AdmissionsScorelineItem = {
+  school: string;
+  title: string;
+  url: string;
+  published_at: string;
+  year: number;
+  source: string;
+};
+
+export type AdmissionsScorelineIndex = {
+  updated_at: string;
+  target_year: number;
+  items: AdmissionsScorelineItem[];
+  errors: string[];
+};
+
+export type AdmissionsScorelineDetail = {
+  url: string;
+  pdf_url: string | null;
+  image_url: string | null;
+  sections: string[];
+  content: string;
 };

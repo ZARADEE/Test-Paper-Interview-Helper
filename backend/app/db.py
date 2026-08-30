@@ -96,6 +96,7 @@ def init_db() -> None:
                 score REAL NOT NULL DEFAULT 0,
                 source_document_id TEXT,
                 source_page INTEGER,
+                source_question_number INTEGER,
                 review_status TEXT NOT NULL DEFAULT 'approved',
                 created_at TEXT NOT NULL,
                 updated_at TEXT NOT NULL,
@@ -314,6 +315,10 @@ def init_db() -> None:
         if "analysis_regions_json" not in question_columns:
             connection.execute(
                 "ALTER TABLE questions ADD COLUMN analysis_regions_json TEXT NOT NULL DEFAULT '[]'"
+            )
+        if "source_question_number" not in question_columns:
+            connection.execute(
+                "ALTER TABLE questions ADD COLUMN source_question_number INTEGER"
             )
         seed_default_data(connection)
         normalize_stored_tags(connection)

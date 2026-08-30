@@ -1,6 +1,7 @@
 import { Check, FileInput, Plus, Save, Trash2, UploadCloud } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
+  attachReviewAnalysis,
   approveMatchedReviews,
   approveReview,
   createQuestionBank,
@@ -10,6 +11,7 @@ import {
   getReviews,
   getQuestions,
   getTags,
+  importBookletAnalysis,
   importDocument,
   reviewPreviewUrl,
   updateReview
@@ -24,9 +26,12 @@ type Props = {
 
 const typeLabels = { choice: "选择题", fill: "填空题", solution: "解答题" };
 const REVIEW_PAGE_SIZE = 12;
+const ANALYSIS_FILE_ACCEPT = ".pdf,.doc,.docx,.png,.jpg,.jpeg,.bmp,.gif,.webp";
+type ImportMode = "booklet" | "paper";
 
 export function ImportView({ tags: initialTags, questionBanks, onChanged }: Props): JSX.Element {
   const [reviews, setReviews] = useState<ReviewItem[]>([]);
+  const [importMode, setImportMode] = useState<ImportMode>("booklet");
   const [reviewPage, setReviewPage] = useState(1);
   const [reviewPages, setReviewPages] = useState(1);
   const [reviewTotal, setReviewTotal] = useState(0);
@@ -47,8 +52,11 @@ export function ImportView({ tags: initialTags, questionBanks, onChanged }: Prop
   const [configuredMajorTags, setConfiguredMajorTags] = useState<string[]>([]);
   const [busy, setBusy] = useState(false);
   const [actionBusy, setActionBusy] = useState(false);
+  const [analysisBusyReviewId, setAnalysisBusyReviewId] = useState("");
   const [bankDataLoading, setBankDataLoading] = useState(false);
   const [message, setMessage] = useState("");
+  const [stagedBookletDocumentId, setStagedBookletDocumentId] = useState("");
+  const [stagedBookletName, setStagedBookletName] = useState("");
   const [drafts, setDrafts] = useState<Record<string, Partial<Question>>>({});
   const selectedBank = questionBanks.find((bank) => bank.id === selectedBankId);
   const observedMajorTags = questions
@@ -115,14 +123,43 @@ export function ImportView({ tags: initialTags, questionBanks, onChanged }: Prop
     void refresh(1, false);
   }, [selectedBankId]);
 
-  async function handleFile(event: React.ChangeEvent<HTMLInputElement>): Promise<void> {
+  async function handleBookletFile(event: React.ChangeEvent<HTMLInputElement>): Promise<void> {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    setBusy(true);
+    setMessage("");
+    try {
+      if (!stagedBookletDocumentId) {
+        const result = await importDocument(file, selectedBankId);
+        setStagedBookletDocumentId(result.document_id);
+        setStagedBookletName(result.filename);
+        setMessage(`题册 ${result.filename} 已导入，提取 ${result.candidate_count} 道题。现在请继续上传答案册。`);
+      } else {
+        const result = await importBookletAnalysis(stagedBookletDocumentId, file);
+        setMessage(`答案册 ${file.name} 已匹配 ${result.matched} 道题。`);
+        setStagedBookletDocumentId("");
+        setStagedBookletName("");
+        await refresh(1, false);
+        onChanged();
+      }
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "导入失败");
+    } finally {
+      setBusy(false);
+      event.target.value = "";
+    }
+  }
+
+  async function handlePaperFile(event: React.ChangeEvent<HTMLInputElement>): Promise<void> {
     const file = event.target.files?.[0];
     if (!file) return;
     setBusy(true);
     setMessage("");
     try {
       const result = await importDocument(file, selectedBankId);
-      setMessage(`${result.filename} 已提取 ${result.candidate_count} 道候选题。`);
+      setMessage(`试卷 ${result.filename} 已提取 ${result.candidate_count} 道候选题，进入审批流程。`);
+      setStagedBookletDocumentId("");
+      setStagedBookletName("");
       await refresh(1, false);
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "导入失败");
@@ -271,6 +308,24 @@ export function ImportView({ tags: initialTags, questionBanks, onChanged }: Prop
     }
   }
 
+  async function uploadReviewAnalysis(review: ReviewItem, event: React.ChangeEvent<HTMLInputElement>): Promise<void> {
+    const file = event.target.files?.[0];
+    if (!file || analysisBusyReviewId) return;
+    setAnalysisBusyReviewId(review.id);
+    setMessage("");
+    try {
+      const result = await attachReviewAnalysis(review.id, file);
+      setMessage(`题目 ${review.id.slice(-4)} 已补传答案/照片，关联文档 ${result.source_document_id}。`);
+      await refresh(1, false);
+      onChanged();
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "上传答案失败");
+    } finally {
+      setAnalysisBusyReviewId("");
+      event.target.value = "";
+    }
+  }
+
   async function loadMore(): Promise<void> {
     if (reviewsLoading || reviewPage >= reviewPages) return;
     await refresh(reviewPage + 1, true);
@@ -281,13 +336,38 @@ export function ImportView({ tags: initialTags, questionBanks, onChanged }: Prop
       <section className="import-top panel panel-yellow">
         <div>
           <div className="section-kicker">02 / INGEST</div>
-          <h1>把文档拆成可组卷题目</h1>
-          <p>支持文本 PDF、DOCX 和 DOC。抽取结果先进入审核队列，不会直接污染题库。</p>
+          <h1>{importMode === "booklet" ? "题册导入" : "试卷导入"}</h1>
+          <p>
+            {importMode === "booklet"
+              ? (stagedBookletDocumentId
+                ? `题册 ${stagedBookletName || "已导入文件"} 已进入第二步，请继续上传答案册自动配对。`
+                : "先上传题册，再上传答案册，系统会自动对应题目与解析。")
+              : "上传试卷后进入审批流程，每道题都可以单独补传答案或照片。"}
+          </p>
+          <div className="import-mode-switch">
+            <button className={importMode === "booklet" ? "is-active" : ""} onClick={() => setImportMode("booklet")} type="button">
+              题册导入
+            </button>
+            <button className={importMode === "paper" ? "is-active" : ""} onClick={() => setImportMode("paper")} type="button">
+              试卷导入
+            </button>
+          </div>
         </div>
         <label className="upload-button">
           <UploadCloud size={22} />
-          <span>{busy ? "正在提取..." : "选择题目文件"}</span>
-          <input accept=".pdf,.doc,.docx" disabled={busy} onChange={(event) => void handleFile(event)} type="file" />
+          <span>
+            {busy
+              ? "正在处理..."
+              : importMode === "booklet"
+                ? (stagedBookletDocumentId ? "上传答案册" : "上传题册")
+                : "上传试卷"}
+          </span>
+          <input
+            accept=".pdf,.doc,.docx"
+            disabled={busy}
+            onChange={(event) => void (importMode === "booklet" ? handleBookletFile(event) : handlePaperFile(event))}
+            type="file"
+          />
         </label>
         <div className="bank-picker">
           <span className="eyebrow">QUESTION BANK</span>
@@ -437,6 +517,18 @@ export function ImportView({ tags: initialTags, questionBanks, onChanged }: Prop
                   </details>
                 )}
               </div>
+              {importMode === "paper" && (
+                <label className="review-upload-button">
+                  <UploadCloud size={16} />
+                  <span>{analysisBusyReviewId === review.id ? "正在上传..." : "上传答案 / 照片"}</span>
+                  <input
+                    accept={ANALYSIS_FILE_ACCEPT}
+                    disabled={Boolean(analysisBusyReviewId)}
+                    onChange={(event) => void uploadReviewAnalysis(review, event)}
+                    type="file"
+                  />
+                </label>
+              )}
               <div className="two-fields">
                 <label>
                   <span>题型</span>

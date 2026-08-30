@@ -159,6 +159,7 @@ def split_question_candidates(pages: list[DocumentPage]) -> list[dict[str, Any]]
                         0.45,
                         page.width,
                         page.height,
+                        None,
                     )
                 )
             continue
@@ -176,6 +177,7 @@ def split_question_candidates(pages: list[DocumentPage]) -> list[dict[str, Any]]
                         page.width,
                         page.height,
                         marker_regions[index] if index < len(marker_regions) else None,
+                        int(match.group(1)),
                     )
                 )
     return candidates
@@ -245,6 +247,7 @@ def build_candidate(
     page_width: float | None = None,
     page_height: float | None = None,
     source_regions: list[dict[str, Any]] | None = None,
+    source_question_number: int | None = None,
 ) -> dict[str, Any]:
     classified = classify_math_one_text(raw_text)
     math_signal = any(
@@ -278,5 +281,6 @@ def build_candidate(
         "analysis_markdown": "",
         "scoring_points": [],
         "source_page": page_number,
+        "source_question_number": source_question_number,
         "source_regions": resolved_regions,
     }

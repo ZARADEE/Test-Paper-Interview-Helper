@@ -1,9 +1,13 @@
 from __future__ import annotations
 
-import json
 import hashlib
+import io
+import json
+import mimetypes
 import random
+import re
 import shutil
+import textwrap
 import uuid
 from pathlib import Path
 from typing import Any, Literal
@@ -13,7 +17,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, Response
 from pydantic import BaseModel, Field
 
+from .admissions_feed import fetch_recent_official_feed, fetch_scoreline_detail, fetch_scoreline_index
 from .composer import compose_paper, load_paper
+from .document_preview import render_document_preview
 from .db import (
     DOCUMENT_ROOT,
     MATH_ONE_BANK_ID,
@@ -88,6 +94,7 @@ class QuestionCreate(BaseModel):
     source_regions: list[dict[str, Any]] = Field(default_factory=list)
     analysis_source_document_id: str | None = None
     analysis_regions: list[dict[str, Any]] = Field(default_factory=list)
+    analysis_matched: bool = False
 
 
 class ReviewUpdate(BaseModel):
@@ -317,10 +324,10 @@ def create_question(payload: QuestionCreate) -> dict[str, Any]:
             INSERT INTO questions(
                 id, type, subject, question_bank_id, stem_markdown, options_json, answer_markdown,
                 analysis_markdown, scoring_points_json, tags_json, chapter,
-                knowledge_points_json, difficulty, score, source_regions_json,
+                knowledge_points_json, difficulty, score, source_regions_json, source_question_number,
                 analysis_source_document_id, analysis_regions_json,
                 review_status, created_at, updated_at
-            ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
+            ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
             """,
             (
                 question_id,
@@ -338,6 +345,7 @@ def create_question(payload: QuestionCreate) -> dict[str, Any]:
                 data["difficulty"],
                 data["score"],
                 json.dumps(data["source_regions"], ensure_ascii=False),
+                data["source_question_number"],
                 data["analysis_source_document_id"],
                 json.dumps(data["analysis_regions"], ensure_ascii=False),
                 now,
@@ -365,7 +373,7 @@ def update_question(question_id: str, payload: QuestionCreate) -> dict[str, Any]
                 question_bank_id=?,
                 answer_markdown=?, analysis_markdown=?, scoring_points_json=?, tags_json=?,
                 chapter=?, knowledge_points_json=?, difficulty=?, score=?,
-                source_regions_json=?, analysis_source_document_id=?, analysis_regions_json=?,
+                source_regions_json=?, source_question_number=?, analysis_source_document_id=?, analysis_regions_json=?,
                 updated_at=?
             WHERE id=?
             """,
@@ -384,6 +392,7 @@ def update_question(question_id: str, payload: QuestionCreate) -> dict[str, Any]
                 data["difficulty"],
                 data["score"],
                 json.dumps(data["source_regions"], ensure_ascii=False),
+                data["source_question_number"],
                 data["analysis_source_document_id"],
                 json.dumps(data["analysis_regions"], ensure_ascii=False),
                 now,
@@ -431,12 +440,200 @@ def question_preview(question_id: str, kind: str = "question") -> Response:
         raise HTTPException(status_code=404, detail="原始文档不存在。")
     path = Path(source["file_path"])
     if not path.exists():
-        raise HTTPException(status_code=404, detail="原始 PDF 文件已被移除。")
+        raise HTTPException(status_code=404, detail="原始文档已被移除。")
     try:
-        content = render_source_preview(path, regions)
+        content = render_document_preview(path, regions)
     except Exception as error:
         raise HTTPException(status_code=422, detail=str(error)) from error
     return Response(content=content, media_type="image/png", headers={"Cache-Control": "no-store"})
+
+
+@app.get("/api/admissions-feed")
+def admissions_feed() -> dict[str, Any]:
+    return fetch_recent_official_feed(max_age_days=365)
+
+
+@app.get("/api/scoreline-index")
+def scoreline_index(target_year: int | None = None) -> dict[str, Any]:
+    return fetch_scoreline_index(target_year=target_year)
+
+
+@app.get("/api/scoreline-detail")
+def scoreline_detail(url: str) -> dict[str, Any]:
+    return fetch_scoreline_detail(url)
+
+
+def _normalize_upload_suffix(filename: str) -> str:
+    return Path(filename or "untitled").suffix.lower()
+
+
+def _extract_leading_number(text: str) -> int | None:
+    compact = text.strip()
+    if not compact:
+        return None
+    patterns = [
+        re.compile(r"^\s*(?:[（(]\s*(\d{1,3})\s*[）)]|(\d{1,3}))\s*[.．、:：)]?"),
+        re.compile(r"^\s*[第\s]*(\d{1,3})\s*题"),
+    ]
+    for pattern in patterns:
+        match = pattern.match(compact)
+        if match:
+            value = next((group for group in match.groups() if group), None)
+            if value:
+                return int(value)
+    return None
+
+
+def _split_manual_answer(raw_text: str, question_type: str) -> tuple[str, str]:
+    text = raw_text.strip()
+    if not text:
+        return "", ""
+    text = re.sub(r"^\s*(?:[（(]\s*\d{1,3}\s*[）)]|(\d{1,3}))\s*[.．、:：)]?\s*", "", text)
+    if question_type == "choice":
+        match = re.search(r"(?:答案|参考答案)\s*[:：]?\s*([A-DＡ-Ｄ])", text)
+        if match:
+            answer = match.group(1).translate(str.maketrans("ＡＢＣＤ", "ABCD"))
+            return answer, text[match.end() :].strip()
+        match = re.match(r"^\s*([A-DＡ-Ｄ])\b", text)
+        if match:
+            answer = match.group(1).translate(str.maketrans("ＡＢＣＤ", "ABCD"))
+            return answer, text[match.end() :].strip()
+        return "", text
+    if question_type == "fill":
+        for marker in ("解析", "详解", "说明"):
+            index = text.find(marker)
+            if index > 0:
+                answer = text[:index].strip().splitlines()[0]
+                return answer, text[index:].strip()
+        lines = [line.strip() for line in text.splitlines() if line.strip()]
+        answer = lines[0] if lines else ""
+        remainder = "\n".join(lines[1:]).strip()
+        return answer, remainder
+    for marker in ("解析", "详解", "说明"):
+        index = text.find(marker)
+        if index > 0:
+            return text[:index].strip(), text[index:].strip()
+    return "", text
+
+
+async def _store_uploaded_document(
+    file: UploadFile,
+    *,
+    prefix: str,
+    allowed_suffixes: set[str],
+) -> tuple[str, str, Path]:
+    original_name = file.filename or "untitled"
+    suffix = _normalize_upload_suffix(original_name)
+    if suffix not in allowed_suffixes:
+        raise HTTPException(status_code=400, detail=f"只支持 {', '.join(sorted(allowed_suffixes))} 文件。")
+    document_id = f"{prefix}-{uuid.uuid4().hex[:10]}"
+    target = DOCUMENT_ROOT / f"{document_id}{suffix}"
+    target.write_bytes(await file.read())
+    return document_id, original_name, target
+
+
+def _document_source_type(path: Path) -> str:
+    mime, _ = mimetypes.guess_type(path.name)
+    return mime or (path.suffix.lstrip(".") or "unknown")
+
+
+def _pending_reviews_for_document(connection: Any, document_id: str) -> list[Any]:
+    return connection.execute(
+        """
+        SELECT * FROM review_items
+        WHERE source_document_id = ?
+          AND status = 'pending'
+        ORDER BY created_at, id
+        """,
+        (document_id,),
+    ).fetchall()
+
+
+def _apply_analysis_to_reviews(
+    connection: Any,
+    *,
+    question_document_id: str,
+    analysis_document_id: str,
+    analysis_candidates: list[dict[str, Any]],
+) -> dict[str, Any]:
+    question_rows = _pending_reviews_for_document(connection, question_document_id)
+    analysis_in_order = list(analysis_candidates)
+    analysis_by_number: dict[int, list[dict[str, Any]]] = {}
+    for candidate in analysis_in_order:
+        number = candidate.get("source_question_number")
+        if isinstance(number, str) and number.isdigit():
+            number = int(number)
+        if isinstance(number, int):
+            analysis_by_number.setdefault(number, []).append(candidate)
+
+    used_indices: set[int] = set()
+    matched = 0
+    now = utc_now()
+    for row in question_rows:
+        parsed = json_load(row["parsed_question_json"], {})
+        question_type = str(parsed.get("type") or "solution")
+        question_number = parsed.get("source_question_number")
+        if isinstance(question_number, str) and question_number.isdigit():
+            question_number = int(question_number)
+
+        analysis = None
+        if isinstance(question_number, int):
+            candidates = analysis_by_number.get(question_number, [])
+            while candidates:
+                next_candidate = candidates.pop(0)
+                candidate_index = next(
+                    (index for index, item in enumerate(analysis_in_order) if item is next_candidate),
+                    None,
+                )
+                if candidate_index is None or candidate_index in used_indices:
+                    continue
+                used_indices.add(candidate_index)
+                analysis = next_candidate
+                break
+        if analysis is None:
+            for candidate_index, candidate in enumerate(analysis_in_order):
+                if candidate_index in used_indices:
+                    continue
+                used_indices.add(candidate_index)
+                analysis = candidate
+                break
+        if analysis is None:
+            continue
+
+        answer_markdown, analysis_markdown = _split_manual_answer(
+            str(analysis.get("stem_markdown") or analysis.get("raw_text") or ""),
+            question_type,
+        )
+        if answer_markdown:
+            parsed["answer_markdown"] = answer_markdown
+        if analysis_markdown:
+            parsed["analysis_markdown"] = analysis_markdown
+        parsed["analysis_source_document_id"] = analysis_document_id
+        parsed["analysis_regions"] = analysis.get("source_regions", []) or [
+            {"page": analysis.get("source_page") or 1, "bbox": [0.0, 0.0, 10000.0, 10000.0]}
+        ]
+        parsed["analysis_matched"] = True
+        connection.execute(
+            """
+            UPDATE review_items
+            SET parsed_question_json=?, review_notes=?, status='pending'
+            WHERE id=?
+            """,
+            (
+                json.dumps(parsed, ensure_ascii=False),
+                "题册与答案册已自动匹配。",
+                row["id"],
+            ),
+        )
+        matched += 1
+
+    return {
+        "question_document_id": question_document_id,
+        "analysis_document_id": analysis_document_id,
+        "matched": matched,
+        "question_count": len(question_rows),
+        "analysis_count": len(analysis_candidates),
+    }
 
 
 @app.post("/api/questions/import-json")
@@ -523,6 +720,68 @@ async def import_document(
     }
 
 
+@app.post("/api/documents/booklet-analysis")
+async def import_booklet_analysis(
+    question_document_id: str = Form(...),
+    file: UploadFile = File(...),
+) -> dict[str, Any]:
+    original_name = file.filename or "untitled"
+    suffix = Path(original_name).suffix.lower()
+    if suffix not in {".pdf", ".docx", ".doc"}:
+        raise HTTPException(status_code=400, detail="只支持 PDF、DOCX 和 DOC 文件。")
+    document_id = f"analysis-{uuid.uuid4().hex[:10]}"
+    target = DOCUMENT_ROOT / f"{document_id}{suffix}"
+    target.write_bytes(await file.read())
+    try:
+        pages = extract_document(target)
+        candidates = split_question_candidates(pages)
+    except Exception as error:
+        target.unlink(missing_ok=True)
+        raise HTTPException(status_code=422, detail=str(error)) from error
+
+    now = utc_now()
+    with connect() as connection:
+        source = connection.execute(
+            "SELECT * FROM source_documents WHERE id = ?",
+            (question_document_id,),
+        ).fetchone()
+        if source is None:
+            target.unlink(missing_ok=True)
+            raise HTTPException(status_code=404, detail="题册文档不存在。")
+        bank_id = source["question_bank_id"]
+        connection.execute(
+            """
+            INSERT INTO source_documents(
+                id, filename, file_type, file_path, sha256, page_count,
+                question_bank_id, status, created_at
+            ) VALUES(?, ?, ?, ?, ?, ?, ?, 'processed', ?)
+            """,
+            (
+                document_id,
+                original_name,
+                suffix.lstrip("."),
+                str(target),
+                sha256_file(target),
+                len(pages),
+                bank_id,
+                now,
+            ),
+        )
+        result = _apply_analysis_to_reviews(
+            connection,
+            question_document_id=question_document_id,
+            analysis_document_id=document_id,
+            analysis_candidates=candidates,
+        )
+    return {
+        "document_id": document_id,
+        "filename": original_name,
+        "page_count": len(pages),
+        "candidate_count": len(candidates),
+        **result,
+    }
+
+
 @app.get("/api/reviews")
 def list_reviews(
     status: str = "pending",
@@ -598,8 +857,8 @@ def _approve_review_row(connection: Any, row: Any) -> dict[str, Any]:
             analysis_markdown, scoring_points_json, tags_json, chapter,
             knowledge_points_json, difficulty, score, source_document_id,
             source_page, source_regions_json, analysis_source_document_id,
-            analysis_regions_json, review_status, created_at, updated_at
-        ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
+            analysis_regions_json, source_question_number, review_status, created_at, updated_at
+        ) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
         """,
         (
             question_id,
@@ -621,6 +880,7 @@ def _approve_review_row(connection: Any, row: Any) -> dict[str, Any]:
             json.dumps(data["source_regions"], ensure_ascii=False),
             data["analysis_source_document_id"],
             json.dumps(data["analysis_regions"], ensure_ascii=False),
+            data["source_question_number"],
             now,
             now,
         ),
@@ -710,7 +970,7 @@ def review_preview(review_id: str, kind: str = "question") -> Response:
         raise HTTPException(status_code=404, detail="原始文档不存在。")
     path = Path(source["file_path"])
     if not path.exists():
-        raise HTTPException(status_code=404, detail="原始 PDF 文件已被移除。")
+        raise HTTPException(status_code=404, detail="原始文档已被移除。")
     try:
         content = render_source_preview(path, regions)
     except Exception as error:
@@ -757,6 +1017,79 @@ def approve_review(review_id: str) -> dict[str, Any]:
         result = _approve_review_row(connection, row)
     write_question_json(result)
     return result
+
+
+@app.post("/api/reviews/{review_id}/analysis")
+async def attach_review_analysis(
+    review_id: str,
+    file: UploadFile = File(...),
+) -> dict[str, Any]:
+    original_name = file.filename or "untitled"
+    suffix = _normalize_upload_suffix(original_name)
+    allowed_suffixes = {".pdf", ".doc", ".docx", ".png", ".jpg", ".jpeg", ".bmp", ".gif", ".webp"}
+    if suffix not in allowed_suffixes:
+        raise HTTPException(status_code=400, detail="只支持 PDF、DOC、DOCX 和图片文件。")
+    document_id = f"review-analysis-{uuid.uuid4().hex[:10]}"
+    target = DOCUMENT_ROOT / f"{document_id}{suffix}"
+    target.write_bytes(await file.read())
+
+    try:
+        text_pages = extract_document(target) if suffix in {".pdf", ".doc", ".docx"} else []
+        text = "\n\n".join(page.text for page in text_pages if page.text.strip())
+    except Exception as error:
+        target.unlink(missing_ok=True)
+        raise HTTPException(status_code=422, detail=str(error)) from error
+
+    with connect() as connection:
+        row = connection.execute(
+            "SELECT * FROM review_items WHERE id = ?",
+            (review_id,),
+        ).fetchone()
+        if row is None:
+            target.unlink(missing_ok=True)
+            raise HTTPException(status_code=404, detail="审核项不存在。")
+        parsed = json_load(row["parsed_question_json"], {})
+        bank_id = row["question_bank_id"]
+        connection.execute(
+            """
+            INSERT INTO source_documents(
+                id, filename, file_type, file_path, sha256, page_count,
+                question_bank_id, status, created_at
+            ) VALUES(?, ?, ?, ?, ?, ?, ?, 'processed', ?)
+            """,
+            (
+                document_id,
+                original_name,
+                suffix.lstrip("."),
+                str(target),
+                sha256_file(target),
+                len(text_pages) or 1,
+                bank_id,
+                utc_now(),
+            ),
+        )
+        question_type = str(parsed.get("type") or "solution")
+        answer_markdown, analysis_markdown = _split_manual_answer(text or original_name, question_type)
+        if answer_markdown:
+            parsed["answer_markdown"] = answer_markdown
+        if analysis_markdown:
+            parsed["analysis_markdown"] = analysis_markdown
+        parsed["analysis_source_document_id"] = document_id
+        parsed["analysis_regions"] = [{"page": 1, "bbox": [0.0, 0.0, 10000.0, 10000.0]}]
+        parsed["analysis_matched"] = True
+        connection.execute(
+            """
+            UPDATE review_items
+            SET parsed_question_json=?, review_notes=?, status='pending'
+            WHERE id=?
+            """,
+            (
+                json.dumps(parsed, ensure_ascii=False),
+                "已手动上传答案或图片附件。",
+                review_id,
+            ),
+        )
+    return {"ok": True, "id": review_id, "source_document_id": document_id}
 
 
 def _practice_question_rows(
