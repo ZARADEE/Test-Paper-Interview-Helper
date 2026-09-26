@@ -15,14 +15,15 @@
   "updated_at": "2026-08-29T13:35:34.333306+00:00",
   "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
   "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [],
   "scoring_points": [],
-  "knowledge_points": [
-    "积分"
-  ],
   "tags": [
     "高等数学",
     "重积分及其应用"
+  ],
+  "knowledge_points": [
+    "积分"
   ],
   "source_regions": [
     {

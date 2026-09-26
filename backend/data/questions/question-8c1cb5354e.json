@@ -14,15 +14,17 @@
   "created_at": "2026-08-23T12:07:19.490264+00:00",
   "updated_at": "2026-08-23T12:39:52.009286+00:00",
   "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [],
   "scoring_points": [],
-  "knowledge_points": [
-    "概率",
-    "独立"
-  ],
   "tags": [
     "概率论与数理统计",
     "数字特征与大数定律"
+  ],
+  "knowledge_points": [
+    "概率",
+    "独立"
   ],
   "source_regions": [
     {

@@ -4,6 +4,8 @@ __pycache__/
 backend/data/*
 !backend/data/questions/
 !backend/data/questions/**
+!backend/data/bundled/
+!backend/data/bundled/**
 backend/.pytest_cache/
 frontend/node_modules/
 frontend/dist/

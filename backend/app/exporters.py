@@ -8,6 +8,7 @@ from typing import Any
 
 from .db import EXPORT_ROOT, connect
 from .paired_pdf_import import render_source_preview
+from .question_bundle import bundled_preview
 
 
 def export_paper(paper: dict[str, Any], file_format: str, variant: str) -> Path:
@@ -301,24 +302,24 @@ def source_preview(question: dict[str, Any], kind: str) -> bytes | None:
     if kind == "question" and not regions and question.get("source_page"):
         regions = [{"page": question["source_page"], "bbox": [0.0, 0.0, 10000.0, 10000.0]}]
     if not source_id or not regions:
-        return None
+        return bundled_preview(question, kind)
     with connect() as connection:
         source = connection.execute(
             "SELECT file_path FROM source_documents WHERE id = ?",
             (source_id,),
         ).fetchone()
     if source is None or not source["file_path"]:
-        return None
+        return bundled_preview(question, kind)
     path = Path(source["file_path"])
     try:
         if not path.is_file():
-            return None
+            return bundled_preview(question, kind)
     except OSError:
-        return None
+        return bundled_preview(question, kind)
     try:
         return render_source_preview(path, regions, scale=1.35)
     except (OSError, RuntimeError, ValueError):
-        return None
+        return bundled_preview(question, kind)
 
 
 def image_flowable(content: bytes) -> Any:

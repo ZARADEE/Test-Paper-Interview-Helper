@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { getHealth, getQuestionBanks, getTags } from "./api";
 import { ComposeView } from "./components/ComposeView";
 import { HomeDashboard } from "./components/HomeDashboard";
+import { DesktopPetView } from "./components/DesktopPetView";
 import { PracticeView } from "./components/PracticeView";
 import { TemplateView } from "./components/TemplateView";
 import type { QuestionBank, TabId, Tag } from "./types";
@@ -16,6 +17,11 @@ const navItems: Array<{ id: TabId; label: string; number: string; icon: LucideIc
 ];
 
 export function App(): JSX.Element {
+  const surface = new URLSearchParams(window.location.search).get("surface");
+  return surface === "pet" || surface === "ball" ? <DesktopPetView /> : <MainApp />;
+}
+
+function MainApp(): JSX.Element {
   const [activeTab, setActiveTab] = useState<TabId>("home");
   const [tags, setTags] = useState<Tag[]>([]);
   const [questionBanks, setQuestionBanks] = useState<QuestionBank[]>([]);

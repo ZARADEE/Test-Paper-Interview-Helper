@@ -3,6 +3,19 @@
   "type": "choice",
   "subject": "考研数学一",
   "stem_markdown": "若函数 f_7(x) 在定义域内满足连续性条件，则下列结论正确的是（ ）。",
+  "answer_markdown": "C",
+  "analysis_markdown": "连续函数的基本性质。",
+  "chapter": "高等数学",
+  "difficulty": "medium",
+  "score": 5.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T10:09:58.411693+00:00",
+  "updated_at": "2026-08-23T10:09:58.411693+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [
     {
       "key": "A",
@@ -21,8 +34,6 @@
       "text": "结论丁"
     }
   ],
-  "answer_markdown": "C",
-  "analysis_markdown": "连续函数的基本性质。",
   "scoring_points": [
     {
       "label": "步骤完整",
@@ -33,13 +44,9 @@
     "高等数学",
     "极限"
   ],
-  "chapter": "高等数学",
   "knowledge_points": [
     "连续性"
   ],
-  "difficulty": "medium",
-  "score": 5,
-  "review_status": "approved",
-  "created_at": "2026-08-23T10:09:58.411693+00:00",
-  "updated_at": "2026-08-23T10:09:58.411693+00:00"
+  "source_regions": [],
+  "analysis_regions": []
 }

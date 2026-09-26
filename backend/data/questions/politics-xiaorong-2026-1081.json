@@ -15,13 +15,14 @@
   "updated_at": "2026-08-29T14:56:32.130039+00:00",
   "analysis_source_document_id": "source-637b3bac29a0c8d8",
   "question_bank_id": "bank-politics",
+  "source_question_number": null,
   "options": [],
   "scoring_points": [],
-  "knowledge_points": [
-    "哲学"
-  ],
   "tags": [
     "中国近现代史纲要",
+    "哲学"
+  ],
+  "knowledge_points": [
     "哲学"
   ],
   "source_regions": [

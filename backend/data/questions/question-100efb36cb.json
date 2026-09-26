@@ -15,6 +15,7 @@
   "updated_at": "2026-08-29T13:35:34.333306+00:00",
   "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
   "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [
     {
       "key": "A",
@@ -34,15 +35,15 @@
     }
   ],
   "scoring_points": [],
+  "tags": [
+    "高等数学",
+    "函数、极限与连续"
+  ],
   "knowledge_points": [
     "极限",
     "连续",
     "无穷小",
     "函数"
-  ],
-  "tags": [
-    "高等数学",
-    "函数、极限与连续"
   ],
   "source_regions": [
     {

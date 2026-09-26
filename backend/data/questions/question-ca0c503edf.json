@@ -14,15 +14,17 @@
   "created_at": "2026-08-23T12:07:19.481631+00:00",
   "updated_at": "2026-08-23T12:39:51.818836+00:00",
   "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [],
   "scoring_points": [],
-  "knowledge_points": [
-    "矩阵",
-    "逆矩阵"
-  ],
   "tags": [
     "线性代数",
     "矩阵"
+  ],
+  "knowledge_points": [
+    "矩阵",
+    "逆矩阵"
   ],
   "source_regions": [
     {

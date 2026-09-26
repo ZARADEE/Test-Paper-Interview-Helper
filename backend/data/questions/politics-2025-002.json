@@ -15,6 +15,7 @@
   "updated_at": "2026-08-23T15:44:13.367600+00:00",
   "analysis_source_document_id": null,
   "question_bank_id": "bank-politics",
+  "source_question_number": null,
   "options": [
     {
       "key": "A",
@@ -34,11 +35,11 @@
     }
   ],
   "scoring_points": [],
-  "knowledge_points": [
-    "社会形态更替的过程"
-  ],
   "tags": [
     "中国近现代史纲要",
+    "社会形态更替的过程"
+  ],
+  "knowledge_points": [
     "社会形态更替的过程"
   ],
   "source_regions": [],

@@ -25,6 +25,11 @@ export default defineConfig({
   renderer: {
     root,
     plugins: [react()],
+    server: {
+      host: "0.0.0.0",
+      port: Number(process.env.PAPER_HELPER_FRONTEND_PORT ?? 5173),
+      strictPort: true
+    },
     build: {
       rollupOptions: {
         input: resolve(root, "index.html")

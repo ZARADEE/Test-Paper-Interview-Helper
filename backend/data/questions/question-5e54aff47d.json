@@ -14,6 +14,8 @@
   "created_at": "2026-08-23T12:07:19.489264+00:00",
   "updated_at": "2026-08-23T12:39:51.962594+00:00",
   "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [
     {
       "key": "A",
@@ -33,13 +35,13 @@
     }
   ],
   "scoring_points": [],
-  "knowledge_points": [
-    "随机变量",
-    "概率密度"
-  ],
   "tags": [
     "概率论与数理统计",
     "随机变量及其分布"
+  ],
+  "knowledge_points": [
+    "随机变量",
+    "概率密度"
   ],
   "source_regions": [
     {

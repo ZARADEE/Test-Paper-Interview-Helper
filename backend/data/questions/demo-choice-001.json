@@ -3,6 +3,19 @@
   "type": "choice",
   "subject": "考研数学一",
   "stem_markdown": "若 $f(x)=x^2+2x$，则 $f'(1)$ 等于（ ）。",
+  "answer_markdown": "B",
+  "analysis_markdown": "由 $f'(x)=2x+2$，所以 $f'(1)=4$。",
+  "chapter": "高等数学",
+  "difficulty": "easy",
+  "score": 5.0,
+  "source_document_id": null,
+  "source_page": null,
+  "review_status": "approved",
+  "created_at": "2026-08-23T10:08:05.380172+00:00",
+  "updated_at": "2026-08-23T10:08:05.380172+00:00",
+  "analysis_source_document_id": null,
+  "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [
     {
       "key": "A",
@@ -21,18 +34,14 @@
       "text": "8"
     }
   ],
-  "answer_markdown": "B",
-  "analysis_markdown": "由 $f'(x)=2x+2$，所以 $f'(1)=4$。",
   "scoring_points": [],
   "tags": [
     "高等数学",
     "极限"
   ],
-  "chapter": "高等数学",
   "knowledge_points": [
     "导数"
   ],
-  "difficulty": "easy",
-  "score": 5,
-  "updated_at": "2026-08-23T10:08:05.380172+00:00"
+  "source_regions": [],
+  "analysis_regions": []
 }

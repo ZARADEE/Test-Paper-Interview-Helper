@@ -15,6 +15,7 @@
   "updated_at": "2026-08-23T15:44:13.380413+00:00",
   "analysis_source_document_id": null,
   "question_bank_id": "bank-politics",
+  "source_question_number": null,
   "options": [
     {
       "key": "A",
@@ -34,11 +35,11 @@
     }
   ],
   "scoring_points": [],
-  "knowledge_points": [
-    "资本主义的新变化。"
-  ],
   "tags": [
     "马克思主义基本原理",
+    "资本主义的新变化。"
+  ],
+  "knowledge_points": [
     "资本主义的新变化。"
   ],
   "source_regions": [],

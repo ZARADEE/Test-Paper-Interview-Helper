@@ -20,6 +20,7 @@ from pydantic import BaseModel, Field
 from .admissions_feed import fetch_recent_official_feed, fetch_scoreline_detail, fetch_scoreline_index
 from .composer import compose_paper, load_paper
 from .document_preview import render_document_preview
+from .question_bundle import bundled_preview
 from .db import (
     DOCUMENT_ROOT,
     MATH_ONE_BANK_ID,
@@ -50,13 +51,8 @@ from .practice import (
 app = FastAPI(title="组卷助手 API", version="0.1.0")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://127.0.0.1:5173",
-        "http://localhost:5173",
-        "http://127.0.0.1:5174",
-        "http://localhost:5174",
-    ],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -436,11 +432,12 @@ def question_preview(question_id: str, kind: str = "question") -> Response:
             "SELECT file_path FROM source_documents WHERE id = ?",
             (source_document_id,),
         ).fetchone()
-    if source is None or not source["file_path"]:
-        raise HTTPException(status_code=404, detail="原始文档不存在。")
-    path = Path(source["file_path"])
-    if not path.exists():
-        raise HTTPException(status_code=404, detail="原始文档已被移除。")
+    path = Path(source["file_path"]) if source is not None and source["file_path"] else None
+    if path is None or not path.is_file():
+        content = bundled_preview(row_to_question(row), kind)
+        if content:
+            return Response(content=content, media_type="image/png", headers={"Cache-Control": "no-store"})
+        raise HTTPException(status_code=404, detail="原始文档和随附题面均不存在。")
     try:
         content = render_document_preview(path, regions)
     except Exception as error:

@@ -15,15 +15,16 @@
   "updated_at": "2026-08-29T09:58:41.145802+00:00",
   "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
   "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [],
   "scoring_points": [],
-  "knowledge_points": [
-    "样本",
-    "统计量"
-  ],
   "tags": [
     "概率论与数理统计",
     "数理统计"
+  ],
+  "knowledge_points": [
+    "样本",
+    "统计量"
   ],
   "source_regions": [
     {

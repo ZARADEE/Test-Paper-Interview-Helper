@@ -15,16 +15,17 @@
   "updated_at": "2026-08-29T09:58:41.145802+00:00",
   "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
   "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [],
   "scoring_points": [],
+  "tags": [
+    "线性代数",
+    "行列式"
+  ],
   "knowledge_points": [
     "行列式",
     "矩阵",
     "逆矩阵"
-  ],
-  "tags": [
-    "线性代数",
-    "行列式"
   ],
   "source_regions": [
     {

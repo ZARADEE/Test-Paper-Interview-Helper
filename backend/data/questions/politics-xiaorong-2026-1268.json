@@ -15,13 +15,14 @@
   "updated_at": "2026-08-29T14:56:32.130039+00:00",
   "analysis_source_document_id": "source-637b3bac29a0c8d8",
   "question_bank_id": "bank-politics",
+  "source_question_number": null,
   "options": [],
   "scoring_points": [],
-  "knowledge_points": [
-    "政治经济学"
-  ],
   "tags": [
     "思想道德与法治",
+    "政治经济学"
+  ],
+  "knowledge_points": [
     "政治经济学"
   ],
   "source_regions": [

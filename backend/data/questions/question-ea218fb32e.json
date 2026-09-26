@@ -14,6 +14,8 @@
   "created_at": "2026-08-23T12:07:19.453376+00:00",
   "updated_at": "2026-08-23T12:39:51.221350+00:00",
   "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [
     {
       "key": "D",
@@ -21,12 +23,12 @@
     }
   ],
   "scoring_points": [],
-  "knowledge_points": [
-    "积分"
-  ],
   "tags": [
     "高等数学",
     "重积分及其应用"
+  ],
+  "knowledge_points": [
+    "积分"
   ],
   "source_regions": [
     {

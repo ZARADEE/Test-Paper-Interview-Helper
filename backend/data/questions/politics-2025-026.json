@@ -15,6 +15,7 @@
   "updated_at": "2026-08-23T15:44:13.382425+00:00",
   "analysis_source_document_id": null,
   "question_bank_id": "bank-politics",
+  "source_question_number": null,
   "options": [
     {
       "key": "A",
@@ -34,11 +35,11 @@
     }
   ],
   "scoring_points": [],
-  "knowledge_points": [
-    "文化建设"
-  ],
   "tags": [
     "形势与政策以及当代世界经济与政治",
+    "文化建设"
+  ],
+  "knowledge_points": [
     "文化建设"
   ],
   "source_regions": [],

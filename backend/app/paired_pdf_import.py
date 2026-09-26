@@ -979,13 +979,19 @@ def import_paired_pdfs(question_pdf: Path, analysis_pdf: Path) -> dict[str, Any]
 
 def render_source_preview(path: Path, regions: list[dict[str, Any]], scale: float = 1.55) -> bytes:
     """Render one or more source PDF regions into a single PNG preview."""
+    import fitz
+    with fitz.open(path) as document:
+        return render_source_preview_document(document, regions, scale)
+
+
+def render_source_preview_document(document: Any, regions: list[dict[str, Any]], scale: float = 1.55) -> bytes:
+    """Reuse an open PDF when generating many portable previews."""
     try:
         import fitz
         from PIL import Image
     except ImportError as error:
         raise RuntimeError("预览 PDF 需要 PyMuPDF 和 Pillow。") from error
 
-    document = fitz.open(path)
     images: list[Any] = []
     for region in regions[:8]:
         page_number = int(region.get("page", 0))

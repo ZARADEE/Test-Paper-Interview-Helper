@@ -15,6 +15,7 @@
   "updated_at": "2026-08-29T14:56:32.130039+00:00",
   "analysis_source_document_id": "source-637b3bac29a0c8d8",
   "question_bank_id": "bank-politics",
+  "source_question_number": null,
   "options": [
     {
       "key": "A",
@@ -34,11 +35,11 @@
     }
   ],
   "scoring_points": [],
-  "knowledge_points": [],
   "tags": [
     "马克思主义基本原理",
     ""
   ],
+  "knowledge_points": [],
   "source_regions": [
     {
       "page": 35,

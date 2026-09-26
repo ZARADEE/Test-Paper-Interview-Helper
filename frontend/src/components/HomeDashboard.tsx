@@ -1,6 +1,10 @@
 import {
+  AlarmClock,
   BookOpen,
   CalendarDays,
+  ChevronLeft,
+  ChevronRight,
+  Clock3,
   GripVertical,
   NotebookPen,
   Pause,
@@ -13,7 +17,10 @@ import {
   TriangleAlert
 } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
+import type { DragEvent } from "react";
 import { getAdmissionsFeed, getScorelineDetail, getScorelineIndex } from "../api";
+import { DesktopPetControls } from "./DesktopPetControls";
+import { petAsset } from "../petConfig";
 import type {
   AdmissionsFeed,
   AdmissionsScorelineDetail,
@@ -25,7 +32,7 @@ type Props = {
   questionBanks: QuestionBank[];
 };
 
-type HomePanelId = "target" | "pomodoro" | "feed" | "banks" | "focus";
+type HomePanelId = "target" | "pomodoro" | "buddy" | "feed" | "banks" | "focus";
 type PomodoroMode = "focus" | "shortBreak" | "longBreak";
 type PomodoroDurations = Record<PomodoroMode, number>;
 type PomodoroState = {
@@ -39,6 +46,8 @@ type TodoItem = {
   id: string;
   text: string;
   date: string;
+  reminderAt: string;
+  remindedAt: number | null;
   done: boolean;
   createdAt: number;
 };
@@ -47,12 +56,28 @@ type TargetState = {
   major: string;
 };
 
-const PANEL_ORDER_KEY = "paper-helper.home.panel-order.v3";
+type BuddyMotion = {
+  x: number;
+  direction: 1 | -1;
+  walking: boolean;
+  switchAt: number;
+  nextActionAt: number;
+  lastFrame: number;
+};
+type BuddyAutoAction = "wave" | "hop" | null;
+
+const PANEL_ORDER_KEY = "paper-helper.home.panel-order.v5";
+const LEGACY_PANEL_ORDER_KEYS = ["paper-helper.home.panel-order.v4", "paper-helper.home.panel-order.v3"];
 const POMODORO_KEY = "paper-helper.home.pomodoro.v2";
 const POMODORO_DURATION_KEY = "paper-helper.home.pomodoro-durations.v1";
 const TODO_KEY = "paper-helper.home.todo-notebook.v1";
 const TARGET_KEY = "paper-helper.home.target.v1";
-const DEFAULT_PANEL_ORDER: HomePanelId[] = ["pomodoro", "focus", "target", "feed", "banks"];
+const DEFAULT_PANEL_ORDER: HomePanelId[] = ["pomodoro", "focus", "buddy", "target", "feed", "banks"];
+const BUDDY_ASSETS = {
+  idle: petAsset("study-buddy-idle.webm"),
+  walk: petAsset("study-buddy-walk.webm"),
+  click: petAsset("study-buddy-click.webm")
+} as const;
 const DEFAULT_POMODORO_DURATIONS: PomodoroDurations = {
   focus: 25,
   shortBreak: 5,
@@ -72,6 +97,20 @@ const POMODORO_QUOTES = [
   "先让脑子喘口气，下一轮再抬头冲。",
   "不错，专注力刚刚好地收住了。"
 ];
+const BUDDY_MESSAGES = [
+  "先处理一条最小任务，进度会自己滚起来。",
+  "番茄钟已经准备好了，要不要现在开始？",
+  "错题不会自己消失，但可以被你一题一题解决。",
+  "今天也给自己留一轮专注时间吧。"
+];
+const TODO_REMINDER_QUOTES = [
+  "喵，时间到了，先把这条收掉。",
+  "这只小猫举爪：轮到这一项了。",
+  "提醒到了，别让这件事悄悄滑走。",
+  "抽象小猫已经蹲在中间等你了。",
+  "喵一下，当前这条该处理了。"
+];
+const TODO_CAT_VARIANTS = ["glyph", "orbit", "signal", "stack"];
 const TODO_PRAISES = [
   "这一下很稳，今天的任务又少了一格。",
   "不错，清单开始往下走了。",
@@ -79,15 +118,6 @@ const TODO_PRAISES = [
   "很可以，今天的复习线条清楚了。",
   "小小一项完成，今天就更像样了。"
 ];
-
-const panelMeta: Record<HomePanelId, { title: string; kicker: string; icon: JSX.Element }> = {
-  target: { title: "备考目标", kicker: "FOCUS", icon: <School size={16} /> },
-  pomodoro: { title: "番茄钟", kicker: "TIMER", icon: <Timer size={16} /> },
-  feed: { title: "研招网近况", kicker: "OFFICIAL FEED", icon: <CalendarDays size={16} /> },
-  banks: { title: "题库概览", kicker: "LIBRARY", icon: <BookOpen size={16} /> },
-  focus: { title: "今日待办", kicker: "NOTEBOOK", icon: <NotebookPen size={16} /> }
-};
-
 const TODO_PRAISES_PLAYFUL = [
   "啪，这条任务已经被你轻轻按住了。",
   "很好，今天的清单又少了一只小麻烦。",
@@ -96,6 +126,15 @@ const TODO_PRAISES_PLAYFUL = [
   "这一下很利索，今天的进度已经顺手了。",
   "喵，任务被你拎走了，状态也顺便更好了。"
 ];
+
+const panelMeta: Record<HomePanelId, { title: string; kicker: string; icon: JSX.Element }> = {
+  target: { title: "备考目标", kicker: "FOCUS", icon: <School size={16} /> },
+  pomodoro: { title: "番茄钟", kicker: "TIMER", icon: <Timer size={16} /> },
+  buddy: { title: "学习桌宠", kicker: "STUDY BUDDY", icon: <span aria-hidden="true">◉</span> },
+  feed: { title: "研招网近况", kicker: "OFFICIAL FEED", icon: <CalendarDays size={16} /> },
+  banks: { title: "题库概览", kicker: "LIBRARY", icon: <BookOpen size={16} /> },
+  focus: { title: "今日待办", kicker: "NOTEBOOK", icon: <NotebookPen size={16} /> }
+};
 
 const FALLBACK_MAJOR_OPTIONS = [
   "统考生",
@@ -128,11 +167,13 @@ function moveItem(items: HomePanelId[], from: number, to: number): HomePanelId[]
   return next;
 }
 
-function createTodoItem(text = ""): TodoItem {
+function createTodoItem(text = "", date = todayKey(), reminderAt = ""): TodoItem {
   return {
     id: `todo-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
     text,
-    date: todayKey(),
+    date,
+    reminderAt,
+    remindedAt: null,
     done: false,
     createdAt: Date.now()
   };
@@ -142,7 +183,112 @@ function pickRandom(items: string[]): string {
   return items[Math.floor(Math.random() * items.length)] ?? "";
 }
 
-function AbstractCatMark({ className = "" }: { className?: string }): JSX.Element {
+function pickRandomTodoVariant(): string {
+  return TODO_CAT_VARIANTS[Math.floor(Math.random() * TODO_CAT_VARIANTS.length)] ?? "glyph";
+}
+
+function parseDateTimeValue(value: string): number | null {
+  const timestamp = new Date(value).getTime();
+  return Number.isNaN(timestamp) ? null : timestamp;
+}
+
+function toLocalDateValue(value: string): string {
+  const timestamp = parseDateTimeValue(value);
+  return timestamp === null ? "" : todayKey(new Date(timestamp));
+}
+
+function toLocalTimeValue(value: string): string {
+  const timestamp = parseDateTimeValue(value);
+  if (timestamp === null) return "";
+  const date = new Date(timestamp);
+  return `${String(date.getHours()).padStart(2, "0")}:${String(date.getMinutes()).padStart(2, "0")}`;
+}
+
+function buildReminderAt(date: string, time: string): string {
+  if (!date || !time) return "";
+  const parsed = new Date(`${date}T${time}:00`);
+  return Number.isNaN(parsed.getTime()) ? "" : parsed.toISOString();
+}
+
+function formatTodoReminderLabel(reminderAt: string): string {
+  const timestamp = parseDateTimeValue(reminderAt);
+  if (timestamp === null) return "未设置提醒";
+  const date = new Date(timestamp);
+  const localDate = todayKey(date);
+  const time = `${String(date.getHours()).padStart(2, "0")}:${String(date.getMinutes()).padStart(2, "0")}`;
+  if (localDate === todayKey()) return `今天 ${time}`;
+  if (localDate === shiftDate(todayKey(), 1)) return `明天 ${time}`;
+  return `${localDate} ${time}`;
+}
+
+function getReminderPayload(item: TodoItem) {
+  return {
+    id: item.id,
+    text: item.text,
+    date: item.date,
+    reminderAt: item.reminderAt,
+    variant: pickRandomTodoVariant(),
+    message: pickRandom(TODO_REMINDER_QUOTES)
+  };
+}
+
+type TodoReminder = ReturnType<typeof getReminderPayload>;
+
+function sortTodoItems(items: TodoItem[]): TodoItem[] {
+  return [...items].sort((a, b) => {
+    const aReminder = parseDateTimeValue(a.reminderAt) ?? Number.POSITIVE_INFINITY;
+    const bReminder = parseDateTimeValue(b.reminderAt) ?? Number.POSITIVE_INFINITY;
+    return Number(a.done) - Number(b.done) || aReminder - bReminder || a.createdAt - b.createdAt;
+  });
+}
+
+function normalizeTodoReminderQueue(items: TodoReminder[]): TodoReminder[] {
+  const seen = new Set<string>();
+  return items.filter((item) => {
+    if (seen.has(item.id)) return false;
+    seen.add(item.id);
+    return true;
+  });
+}
+
+function AbstractCatMark({ className = "", variant = "glyph" }: { className?: string; variant?: string }): JSX.Element {
+  if (variant === "orbit") {
+    return (
+      <svg className={className} viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+        <circle cx="60" cy="60" r="36" fill="none" stroke="var(--ink)" strokeWidth="4" />
+        <path d="M28 39 L14 18 L39 31 Z" fill="var(--yellow)" stroke="var(--ink)" strokeWidth="4" strokeLinejoin="round" />
+        <path d="M92 39 L106 18 L81 31 Z" fill="var(--cyan)" stroke="var(--ink)" strokeWidth="4" strokeLinejoin="round" />
+        <circle cx="60" cy="66" r="22" fill="var(--paper-strong)" stroke="var(--ink)" strokeWidth="4" />
+        <circle cx="52" cy="62" r="4" fill="var(--ink)" /><circle cx="68" cy="62" r="4" fill="var(--ink)" />
+        <path d="M49 74 Q60 82 71 74" fill="none" stroke="var(--ink)" strokeWidth="3.5" strokeLinecap="round" />
+        <path d="M18 56 H34 M86 56 H102 M60 24 V12" fill="none" stroke="var(--ink)" strokeWidth="3" strokeLinecap="round" />
+      </svg>
+    );
+  }
+  if (variant === "signal") {
+    return (
+      <svg className={className} viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+        <path d="M30 42 L18 18 L40 32 Z" fill="var(--red)" stroke="var(--ink)" strokeWidth="4" strokeLinejoin="round" />
+        <path d="M90 42 L102 18 L80 32 Z" fill="var(--violet)" stroke="var(--ink)" strokeWidth="4" strokeLinejoin="round" />
+        <rect x="30" y="39" width="60" height="50" rx="20" fill="var(--paper-strong)" stroke="var(--ink)" strokeWidth="4" />
+        <circle cx="49" cy="56" r="4" fill="var(--ink)" /><circle cx="71" cy="56" r="4" fill="var(--ink)" />
+        <path d="M53 70 Q60 77 67 70 M21 68 Q12 61 18 52 M21 78 Q10 74 12 63 M99 68 Q108 61 102 52 M99 78 Q110 74 108 63" fill="none" stroke="var(--ink)" strokeWidth="3.5" strokeLinecap="round" />
+      </svg>
+    );
+  }
+  if (variant === "stack") {
+    return (
+      <svg className={className} viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+        <rect x="34" y="30" width="52" height="10" fill="var(--cyan)" stroke="var(--ink)" strokeWidth="4" />
+        <rect x="28" y="40" width="64" height="12" fill="var(--yellow)" stroke="var(--ink)" strokeWidth="4" />
+        <rect x="24" y="52" width="72" height="34" fill="var(--paper-strong)" stroke="var(--ink)" strokeWidth="4" />
+        <path d="M28 52 L18 32 L36 42 Z" fill="var(--green)" stroke="var(--ink)" strokeWidth="4" strokeLinejoin="round" />
+        <path d="M92 52 L102 32 L84 42 Z" fill="var(--red)" stroke="var(--ink)" strokeWidth="4" strokeLinejoin="round" />
+        <circle cx="48" cy="68" r="4" fill="var(--ink)" /><circle cx="72" cy="68" r="4" fill="var(--ink)" />
+        <path d="M52 78 Q60 84 68 78 M36 90 H84" fill="none" stroke="var(--ink)" strokeWidth="4" strokeLinecap="round" />
+      </svg>
+    );
+  }
   return (
     <svg className={className} viewBox="0 0 120 120" aria-hidden="true" focusable="false">
       <path
@@ -181,10 +327,19 @@ function clampMinutes(value: unknown, fallback: number): number {
 
 function loadStoredOrder(): HomePanelId[] {
   try {
-    const raw = window.localStorage.getItem(PANEL_ORDER_KEY);
+    const current = window.localStorage.getItem(PANEL_ORDER_KEY);
+    if (current) return clampOrder(JSON.parse(current) as HomePanelId[]);
+    const raw = LEGACY_PANEL_ORDER_KEYS.map((key) => window.localStorage.getItem(key)).find(Boolean);
     if (!raw) return DEFAULT_PANEL_ORDER;
     const parsed = JSON.parse(raw) as HomePanelId[];
-    return clampOrder(parsed);
+    const migrated = clampOrder(parsed);
+    const buddyIndex = migrated.indexOf("buddy");
+    const focusIndex = migrated.indexOf("focus");
+    if (buddyIndex >= 0 && focusIndex >= 0 && buddyIndex !== focusIndex + 1) {
+      migrated.splice(buddyIndex, 1);
+      migrated.splice(migrated.indexOf("focus") + 1, 0, "buddy");
+    }
+    return migrated;
   } catch {
     return DEFAULT_PANEL_ORDER;
   }
@@ -213,6 +368,8 @@ function loadTodoItems(): TodoItem[] {
       id: typeof item.id === "string" && item.id ? item.id : `todo-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
       text: typeof item.text === "string" ? item.text : "",
       date: typeof item.date === "string" && item.date ? item.date : todayKey(),
+      reminderAt: typeof item.reminderAt === "string" ? item.reminderAt : "",
+      remindedAt: typeof item.remindedAt === "number" ? item.remindedAt : null,
       done: Boolean(item.done),
       createdAt: typeof item.createdAt === "number" ? item.createdAt : Date.now()
     }));
@@ -390,15 +547,113 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
   const [dragging, setDragging] = useState<HomePanelId | null>(null);
   const [target, setTarget] = useState<TargetState>(loadTargetState);
   const [todoItems, setTodoItems] = useState<TodoItem[]>(loadTodoItems);
+  const [todoViewDate, setTodoViewDate] = useState(todayKey());
   const [todoBatchDate, setTodoBatchDate] = useState(todayKey());
+  const [todoBatchReminderTime, setTodoBatchReminderTime] = useState("");
   const [todoBatchText, setTodoBatchText] = useState("");
   const [todoPraise, setTodoPraise] = useState<string | null>(null);
+  const [todoReminder, setTodoReminder] = useState<TodoReminder | null>(null);
+  const [todoReminderQueue, setTodoReminderQueue] = useState<TodoReminder[]>([]);
+  const [todoReminderTick, setTodoReminderTick] = useState(0);
   const [pomodoroDurations, setPomodoroDurations] = useState<PomodoroDurations>(() => loadPomodoroDurations());
   const [pomodoro, setPomodoro] = useState<PomodoroState>(() => loadPomodoroState(loadPomodoroDurations()));
   const [pomodoroFinish, setPomodoroFinish] = useState<string | null>(null);
+  const [buddyMessage, setBuddyMessage] = useState<string | null>(null);
+  const [buddyPetted, setBuddyPetted] = useState(false);
+  const [buddyBounceAlt, setBuddyBounceAlt] = useState(false);
+  const [buddyMessageIndex, setBuddyMessageIndex] = useState(0);
+  const [buddyWalking, setBuddyWalking] = useState(false);
+  const [buddyFacingLeft, setBuddyFacingLeft] = useState(false);
+  const [buddyAutoAction, setBuddyAutoAction] = useState<BuddyAutoAction>(null);
   const [scorelineRefreshKey, setScorelineRefreshKey] = useState(0);
   const todoToastTimerRef = useRef<number | null>(null);
+  const todoReminderTimerRef = useRef<number | null>(null);
+  const buddyTimerRef = useRef<number | null>(null);
+  const buddyActionTimerRef = useRef<number | null>(null);
+  const buddyStageRef = useRef<HTMLDivElement | null>(null);
+  const buddyWalkerRef = useRef<HTMLDivElement | null>(null);
+  const buddyMotionRef = useRef<BuddyMotion>({
+    x: 0,
+    direction: 1,
+    walking: false,
+    switchAt: 0,
+    nextActionAt: 0,
+    lastFrame: 0
+  });
   const lastPomodoroRef = useRef({ running: pomodoro.running, remainingSeconds: pomodoro.remainingSeconds });
+
+  useEffect(() => {
+    const stage = buddyStageRef.current;
+    const walker = buddyWalkerRef.current;
+    if (!stage || !walker) return;
+
+    const motion = buddyMotionRef.current;
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let frame = 0;
+    const placeBuddy = () => {
+      const maxX = Math.max(0, stage.clientWidth - walker.offsetWidth - 32);
+      motion.x = Math.max(0, Math.min(motion.x, maxX));
+      walker.style.transform = `translate3d(${16 + motion.x}px, 0, 0)`;
+    };
+    const observer = new ResizeObserver(placeBuddy);
+    observer.observe(stage);
+    placeBuddy();
+
+    if (prefersReducedMotion) {
+      return () => observer.disconnect();
+    }
+
+    motion.walking = false;
+    motion.switchAt = performance.now() + 4200 + Math.random() * 4200;
+    motion.nextActionAt = performance.now() + 7000 + Math.random() * 6000;
+    motion.lastFrame = 0;
+    const animate = (timestamp: number) => {
+      const elapsed = motion.lastFrame ? Math.min((timestamp - motion.lastFrame) / 1000, 0.05) : 0;
+      motion.lastFrame = timestamp;
+
+      if (timestamp >= motion.switchAt) {
+        motion.walking = !motion.walking;
+        setBuddyWalking(motion.walking);
+        // The buddy spends most of its time waiting and only takes short walks.
+        const pause = 10000 + Math.random() * 8000;
+        const walk = 2500 + Math.random() * 2200;
+        motion.switchAt = timestamp + (motion.walking ? walk : pause);
+      }
+
+      if (!motion.walking && timestamp >= motion.nextActionAt) {
+        setBuddyAutoAction(Math.random() < 0.55 ? "wave" : "hop");
+        if (buddyActionTimerRef.current !== null) window.clearTimeout(buddyActionTimerRef.current);
+        buddyActionTimerRef.current = window.setTimeout(() => {
+          setBuddyAutoAction(null);
+          buddyActionTimerRef.current = null;
+        }, 1250);
+        motion.nextActionAt = timestamp + 12000 + Math.random() * 12000;
+      }
+
+      if (motion.walking) {
+        const maxX = Math.max(0, stage.clientWidth - walker.offsetWidth - 32);
+        motion.x += motion.direction * 38 * elapsed;
+        if (motion.x >= maxX) {
+          motion.x = maxX;
+          motion.direction = -1;
+          setBuddyFacingLeft(true);
+        } else if (motion.x <= 0) {
+          motion.x = 0;
+          motion.direction = 1;
+          setBuddyFacingLeft(false);
+        }
+      }
+
+      placeBuddy();
+      frame = window.requestAnimationFrame(animate);
+    };
+    frame = window.requestAnimationFrame(animate);
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+      observer.disconnect();
+    };
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -496,6 +751,46 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
   }, [todoItems]);
 
   useEffect(() => {
+    if (todoReminderTimerRef.current !== null) {
+      window.clearTimeout(todoReminderTimerRef.current);
+      todoReminderTimerRef.current = null;
+    }
+    const now = Date.now();
+    const pending = sortTodoItems(todoItems.filter((item) => {
+      if (!item.reminderAt || item.done || item.remindedAt !== null) return false;
+      const timestamp = parseDateTimeValue(item.reminderAt);
+      return timestamp !== null && timestamp <= now;
+    }));
+    if (pending.length > 0) {
+      const pendingIds = new Set(pending.map((item) => item.id));
+      const remindedAt = Date.now();
+      setTodoItems((current) => current.map((item) => pendingIds.has(item.id) ? { ...item, remindedAt } : item));
+      setTodoReminderQueue((current) => normalizeTodoReminderQueue([...current, ...pending.map(getReminderPayload)]));
+      return;
+    }
+    const upcoming = sortTodoItems(todoItems.filter((item) => {
+      if (!item.reminderAt || item.done || item.remindedAt !== null) return false;
+      return parseDateTimeValue(item.reminderAt) !== null;
+    })).find((item) => {
+      const timestamp = parseDateTimeValue(item.reminderAt);
+      return timestamp !== null && timestamp > now;
+    });
+    if (!upcoming) return;
+    const timestamp = parseDateTimeValue(upcoming.reminderAt);
+    if (timestamp === null) return;
+    todoReminderTimerRef.current = window.setTimeout(() => {
+      setTodoReminderTick((value) => value + 1);
+    }, Math.max(0, timestamp - now) + 40);
+  }, [todoItems, todoReminderTick]);
+
+  useEffect(() => {
+    if (todoReminder || todoReminderQueue.length === 0) return;
+    const [nextReminder, ...rest] = todoReminderQueue;
+    setTodoReminder(nextReminder);
+    setTodoReminderQueue(rest);
+  }, [todoReminder, todoReminderQueue]);
+
+  useEffect(() => {
     window.localStorage.setItem(POMODORO_DURATION_KEY, JSON.stringify(pomodoroDurations));
   }, [pomodoroDurations]);
 
@@ -543,6 +838,15 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
       if (todoToastTimerRef.current !== null) {
         window.clearTimeout(todoToastTimerRef.current);
       }
+      if (todoReminderTimerRef.current !== null) {
+        window.clearTimeout(todoReminderTimerRef.current);
+      }
+      if (buddyTimerRef.current !== null) {
+        window.clearTimeout(buddyTimerRef.current);
+      }
+      if (buddyActionTimerRef.current !== null) {
+        window.clearTimeout(buddyActionTimerRef.current);
+      }
     };
   }, []);
 
@@ -577,8 +881,19 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
     });
   }, [targetMajorOptions]);
   const todoGroups = useMemo(() => groupTodoItems(todoItems), [todoItems]);
-  const todoDoneCount = todoItems.filter((item) => item.done).length;
-  const todoPendingCount = todoItems.length - todoDoneCount;
+  const todoVisibleItems = useMemo(
+    () => sortTodoItems(todoItems.filter((item) => item.date === todoViewDate)),
+    [todoItems, todoViewDate]
+  );
+  const todoVisibleDoneCount = todoVisibleItems.filter((item) => item.done).length;
+  const todoVisiblePendingCount = todoVisibleItems.length - todoVisibleDoneCount;
+  const todoVisibleReminderCount = todoVisibleItems.filter((item) => item.reminderAt && !item.done).length;
+  const todoViewLabel = formatTodoGroupLabel(todoViewDate);
+  const todoTotalCount = todoItems.length;
+  const todoDayCount = todoGroups.length;
+  const todayTodoItems = useMemo(() => todoItems.filter((item) => item.date === todayKey()), [todoItems]);
+  const todayTodoPendingCount = todayTodoItems.filter((item) => !item.done).length;
+  const todayReminderCount = todayTodoItems.filter((item) => item.reminderAt && !item.done).length;
   const pomodoroTotal = getModeSeconds(pomodoro.mode, pomodoroDurations);
   const pomodoroProgress = Math.max(0, Math.min(1, 1 - pomodoro.remainingSeconds / Math.max(1, pomodoroTotal)));
   const pomodoroStatus = pomodoro.running
@@ -587,11 +902,21 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
       ? "已结束"
       : "已暂停";
 
-  function handleDragStart(id: HomePanelId): void {
+  function handleDragStart(id: HomePanelId, event: DragEvent<HTMLElement>): void {
+    event.stopPropagation();
     setDragging(id);
+    event.dataTransfer.setData("text/plain", id);
+    event.dataTransfer.effectAllowed = "move";
   }
 
-  function handleDrop(targetId: HomePanelId): void {
+  function handleDragOver(event: DragEvent<HTMLElement>): void {
+    if (!dragging) return;
+    event.preventDefault();
+    event.dataTransfer.dropEffect = "move";
+  }
+
+  function handleDrop(targetId: HomePanelId, event: DragEvent<HTMLElement>): void {
+    event.preventDefault();
     if (!dragging || dragging === targetId) return;
     const from = panelOrder.indexOf(dragging);
     const to = panelOrder.indexOf(targetId);
@@ -621,43 +946,68 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
     }, 2400);
   }
 
-  function addTodoItem(afterIndex?: number): void {
-    setTodoItems((current) => {
-      const next = [...current];
-      const item = createTodoItem("");
-      if (afterIndex === undefined || afterIndex < 0 || afterIndex >= next.length) {
-        next.push(item);
-      } else {
-        next.splice(afterIndex + 1, 0, item);
-      }
-      return next;
-    });
+  function addTodoItem(): void {
+    setTodoItems((current) => [...current, createTodoItem("", todoViewDate)]);
   }
 
-  function updateTodoText(index: number, text: string): void {
-    setTodoItems((current) => current.map((item, position) => (position === index ? { ...item, text } : item)));
+  function updateTodoTextById(id: string, text: string): void {
+    setTodoItems((current) => current.map((item) => (item.id === id ? { ...item, text } : item)));
   }
 
-  function toggleTodoDone(index: number, done: boolean): void {
-    const previous = todoItems[index];
-    setTodoItems((current) => current.map((item, position) => (position === index ? { ...item, done } : item)));
+  function toggleTodoDoneById(id: string, done: boolean): void {
+    const previous = todoItems.find((item) => item.id === id);
+    setTodoItems((current) => current.map((item) => item.id === id ? { ...item, done, remindedAt: done ? Date.now() : item.remindedAt } : item));
+    if (done) {
+      setTodoReminder((current) => current?.id === id ? null : current);
+      setTodoReminderQueue((current) => current.filter((item) => item.id !== id));
+    }
     if (previous && !previous.done && done) {
       pushTodoPraise();
     }
   }
 
-  function deleteTodoItem(index: number): void {
-    setTodoItems((current) => current.filter((_, position) => position !== index));
+  function updateTodoDateById(id: string, date: string): void {
+    const nextDate = date || todayKey();
+    setTodoItems((current) => current.map((item) => {
+      if (item.id !== id) return item;
+      const reminderTime = toLocalTimeValue(item.reminderAt);
+      const nextReminderAt = reminderTime ? buildReminderAt(nextDate, reminderTime) : item.reminderAt;
+      return {
+        ...item,
+        date: nextDate,
+        reminderAt: nextReminderAt,
+        remindedAt: nextReminderAt !== item.reminderAt ? null : item.remindedAt
+      };
+    }));
   }
 
-  function quickSetTodoDate(days: number): void {
-    setTodoBatchDate((current) => shiftDate(current || todayKey(), days));
+  function updateTodoReminderById(id: string, time: string): void {
+    setTodoItems((current) => current.map((item) => item.id === id ? {
+      ...item,
+      reminderAt: time ? buildReminderAt(item.date, time) : "",
+      remindedAt: null
+    } : item));
+  }
+
+  function deleteTodoItemById(id: string): void {
+    setTodoItems((current) => current.filter((item) => item.id !== id));
+    setTodoReminder((current) => current?.id === id ? null : current);
+    setTodoReminderQueue((current) => current.filter((item) => item.id !== id));
+  }
+
+  function shiftTodoViewDate(days: number): void {
+    setTodoViewDate((current) => shiftDate(current || todayKey(), days));
+  }
+
+  function syncBatchDateToViewDate(): void {
+    setTodoBatchDate(todoViewDate);
   }
 
   function addTodoBatch(): void {
     const lines = splitTodoLines(todoBatchText);
     if (!lines.length) return;
-    const date = todoBatchDate || todayKey();
+    const date = todoBatchDate || todoViewDate || todayKey();
+    const reminderAt = buildReminderAt(date, todoBatchReminderTime);
     const stamp = Date.now();
     setTodoItems((current) => [
       ...current,
@@ -665,33 +1015,34 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
         id: `todo-${stamp}-${Math.random().toString(36).slice(2, 8)}-${index}`,
         text,
         date,
+        reminderAt,
+        remindedAt: null,
         done: false,
         createdAt: stamp + index
       }))
     ]);
     setTodoBatchText("");
     setTodoBatchDate(date);
+    setTodoViewDate(date);
   }
 
-  function updateTodoTextById(id: string, text: string): void {
-    setTodoItems((current) => current.map((item) => (item.id === id ? { ...item, text } : item)));
+  function dismissTodoReminder(): void {
+    setTodoReminder(null);
   }
 
-  function updateTodoDateById(id: string, date: string): void {
-    const nextDate = date || todayKey();
-    setTodoItems((current) => current.map((item) => (item.id === id ? { ...item, date: nextDate } : item)));
-  }
-
-  function toggleTodoDoneById(id: string, done: boolean): void {
-    const previous = todoItems.find((item) => item.id === id);
-    setTodoItems((current) => current.map((item) => (item.id === id ? { ...item, done } : item)));
-    if (previous && !previous.done && done) {
-      pushTodoPraise();
-    }
-  }
-
-  function deleteTodoItemById(id: string): void {
-    setTodoItems((current) => current.filter((item) => item.id !== id));
+  function snoozeTodoReminder(minutes = 10): void {
+    if (!todoReminder) return;
+    const nextDateTime = new Date(Date.now() + minutes * 60_000);
+    const nextDate = todayKey(nextDateTime);
+    const nextTime = `${String(nextDateTime.getHours()).padStart(2, "0")}:${String(nextDateTime.getMinutes()).padStart(2, "0")}`;
+    const nextReminderAt = buildReminderAt(nextDate, nextTime);
+    setTodoItems((current) => current.map((item) => item.id === todoReminder.id ? {
+      ...item,
+      date: toLocalDateValue(nextReminderAt) || nextDate,
+      reminderAt: nextReminderAt,
+      remindedAt: null
+    } : item));
+    setTodoReminder(null);
   }
 
   function setPomodoroMode(mode: PomodoroMode): void {
@@ -752,31 +1103,72 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
     setPomodoroFinish(null);
   }
 
+  function interactWithBuddy(): void {
+    setBuddyAutoAction(null);
+    if (buddyActionTimerRef.current !== null) {
+      window.clearTimeout(buddyActionTimerRef.current);
+      buddyActionTimerRef.current = null;
+    }
+    setBuddyMessage(BUDDY_MESSAGES[buddyMessageIndex] ?? BUDDY_MESSAGES[0]);
+    setBuddyMessageIndex((index) => (index + 1) % BUDDY_MESSAGES.length);
+    setBuddyBounceAlt((current) => !current);
+    setBuddyPetted(true);
+    if (buddyTimerRef.current !== null) window.clearTimeout(buddyTimerRef.current);
+    buddyTimerRef.current = window.setTimeout(() => {
+      setBuddyMessage(null);
+      setBuddyPetted(false);
+      buddyTimerRef.current = null;
+    }, 2200);
+  }
+
   function renderPanel(id: HomePanelId): JSX.Element {
     const meta = panelMeta[id];
+    const isDefaultPanelLayout = panelOrder.length === DEFAULT_PANEL_ORDER.length && panelOrder.every((panelId, index) => panelId === DEFAULT_PANEL_ORDER[index]);
     return (
       <section
         key={id}
-        className={`home-panel panel ${id === "target" || id === "feed" || id === "banks" ? "home-panel-span-2" : ""} ${
+        className={`home-panel home-panel-${id} panel ${isDefaultPanelLayout ? "home-panel-default-layout" : ""} ${id === "target" || id === "feed" || id === "banks" ? "home-panel-span-2" : ""} ${id === "buddy" ? "home-panel-buddy" : ""} ${
           dragging === id ? "is-dragging" : ""
         }`}
-        draggable
-        onDragStart={() => handleDragStart(id)}
-        onDragOver={(event) => event.preventDefault()}
-        onDrop={() => handleDrop(id)}
+        onDragOver={handleDragOver}
+        onDrop={(event) => handleDrop(id, event)}
       >
-        <div className="home-panel-head">
-          <div>
-            <div className="section-kicker">{meta.kicker}</div>
-            <div className="home-panel-title">
-              <span className="home-panel-icon">{meta.icon}</span>
-              <h2>{meta.title}</h2>
+        {id !== "buddy" ? (
+          <div className="home-panel-head">
+            <div>
+              <div className="section-kicker">{meta.kicker}</div>
+              <div className="home-panel-title">
+                <span className="home-panel-icon">{meta.icon}</span>
+                <h2>{meta.title}</h2>
+              </div>
             </div>
+            <button
+              type="button"
+              className="home-panel-grip"
+              draggable
+              onDragStart={(event) => handleDragStart(id, event)}
+              onDragEnd={() => setDragging(null)}
+              aria-label={meta.title}
+              title="drag to reorder"
+            >
+              <GripVertical size={16} />
+            </button>
           </div>
-          <span className="home-panel-grip" title="拖动排序">
-            <GripVertical size={16} />
-          </span>
-        </div>
+        ) : (
+          <div className="home-panel-buddy-handle">
+            <button
+              type="button"
+              className="home-panel-grip"
+              draggable
+              onDragStart={(event) => handleDragStart(id, event)}
+              onDragEnd={() => setDragging(null)}
+              aria-label={meta.title}
+              title="drag to reorder"
+            >
+              <GripVertical size={16} />
+            </button>
+          </div>
+        )}
 
         {id === "target" && (
           <div className="home-panel-body home-target">
@@ -953,6 +1345,40 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
           </div>
         )}
 
+        {id === "buddy" && (
+          <div className="home-panel-body home-buddy">
+            <div className="home-buddy-stage" ref={buddyStageRef}>
+              <div className="home-buddy-walker" ref={buddyWalkerRef}>
+                <button
+                  type="button"
+                  className={`home-buddy-avatar ${buddyWalking ? "is-walking" : ""} ${buddyFacingLeft ? "is-facing-left" : ""} ${buddyAutoAction ? `is-auto-action is-auto-${buddyAutoAction}` : ""} ${buddyPetted ? `is-petted ${buddyBounceAlt ? "is-petted-alt" : ""}` : ""}`}
+                  onClick={interactWithBuddy}
+                  aria-label="点击互动，拖动卡片调整桌宠位置"
+                  title="点击互动，也可以拖动卡片调整位置"
+                >
+                  <video
+                    key={`${buddyPetted ? "click" : buddyAutoAction ? buddyAutoAction : buddyWalking ? "walk" : "idle"}-${buddyBounceAlt}`}
+                    className="home-buddy-video"
+                    src={buddyPetted || buddyAutoAction ? BUDDY_ASSETS.click : buddyWalking ? BUDDY_ASSETS.walk : BUDDY_ASSETS.idle}
+                    aria-hidden="true"
+                    autoPlay
+                    muted
+                    playsInline
+                    loop={!buddyPetted && !buddyAutoAction}
+                    preload="auto"
+                    onLoadedData={(event) => {
+                      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches && !buddyPetted) {
+                        event.currentTarget.pause();
+                      }
+                    }}
+                  />
+                </button>
+                {buddyMessage ? <span className="home-buddy-speech" role="status">{buddyMessage}</span> : null}
+              </div>
+            </div>
+          </div>
+        )}
+
         {id === "feed" && (
           <div className="home-panel-body home-feed">
             <div className="home-feed-meta">
@@ -1004,43 +1430,64 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
             <div className="home-todo-toolbar">
               <div>
                 <strong>今日待办</strong>
-                <span>
-                  已完成 {todoDoneCount} / {todoItems.length} · 待办 {todoPendingCount}
-                </span>
+                <span>{todoViewLabel} · 当前 {todoVisibleItems.length} 条 · 已完成 {todoVisibleDoneCount} · 待办 {todoVisiblePendingCount} · 提醒 {todoVisibleReminderCount} 条 · 总计 {todoTotalCount} 条 / {todoDayCount} 天</span>
               </div>
-              <button type="button" className="outline-action" onClick={() => addTodoItem()}>
-                <Plus size={16} />
-                新增一条
-              </button>
+              <div className="home-todo-toolbar-actions">
+                <label className="home-todo-field home-todo-date-picker home-todo-toolbar-date">
+                  <span>当前日期</span>
+                  <input type="date" value={todoViewDate} onChange={(event) => setTodoViewDate(event.target.value || todayKey())} />
+                </label>
+                <div className="home-todo-toolbar-nav">
+                  <button type="button" className="outline-action" onClick={() => shiftTodoViewDate(-1)}><ChevronLeft size={16} />前一天</button>
+                  <button type="button" className="outline-action" onClick={() => setTodoViewDate(todayKey())}>今天</button>
+                  <button type="button" className="outline-action" onClick={() => shiftTodoViewDate(1)}>后一天<ChevronRight size={16} /></button>
+                </div>
+              </div>
             </div>
 
-            {todoItems.length === 0 ? (
-              <div className="home-todo-empty">先写一条今天要办的事，做完会给你弹个小夸夸。</div>
+            <div className="home-todo-date-hints home-todo-date-hints-strip">
+              {todoGroups.slice(0, 6).map((group) => (
+                <button type="button" className={`home-todo-date-chip ${group.date === todoViewDate ? "is-active" : ""}`} onClick={() => setTodoViewDate(group.date)} key={group.date}>
+                  <span>{formatTodoGroupLabel(group.date)}</span><small>{group.items.length}</small>
+                </button>
+              ))}
+            </div>
+
+            <div className="home-todo-compose">
+              <div className="home-todo-compose-head">
+                <div><strong>批量录入</strong><span>每行一条，统一日期，也能顺手带上提醒时间。</span></div>
+                <button type="button" className="outline-action" onClick={syncBatchDateToViewDate}>使用当前日期</button>
+              </div>
+              <div className="home-todo-compose-grid">
+                <label className="home-todo-field home-todo-compose-text">
+                  <span>待办内容</span>
+                  <textarea value={todoBatchText} onChange={(event) => setTodoBatchText(event.target.value)} placeholder={'每行一条，比如\n背英语作文\n整理专业课笔记'} />
+                </label>
+                <label className="home-todo-field"><span>日期</span><input type="date" value={todoBatchDate} onChange={(event) => setTodoBatchDate(event.target.value || todayKey())} /></label>
+                <label className="home-todo-field"><span><Clock3 size={12} />提醒时间</span><input type="time" value={todoBatchReminderTime} onChange={(event) => setTodoBatchReminderTime(event.target.value)} /></label>
+                <div className="home-todo-compose-actions">
+                  <button type="button" className="primary-action compact" onClick={addTodoBatch}><Plus size={16} />批量加入</button>
+                  <button type="button" className="outline-action" onClick={addTodoItem}>新增一条</button>
+                </div>
+              </div>
+            </div>
+
+            {todoVisibleItems.length === 0 ? (
+              <div className="home-todo-empty">这一天还没排任务，先批量放几条进去。</div>
             ) : (
               <div className="home-todo-list">
-                {todoItems.map((item, index) => (
+                {todoVisibleItems.map((item, index) => (
                   <div className={`home-todo-item ${item.done ? "is-done" : ""}`} key={item.id}>
-                    <input
-                      type="checkbox"
-                      checked={item.done}
-                      onChange={(event) => toggleTodoDone(index, event.target.checked)}
-                      aria-label={`完成待办 ${index + 1}`}
-                    />
-                    <input
-                      type="text"
-                      value={item.text}
-                      onChange={(event) => updateTodoText(index, event.target.value)}
-                      onKeyDown={(event) => {
-                        if (event.key === "Enter") {
-                          event.preventDefault();
-                          addTodoItem(index);
-                        }
-                      }}
-                      placeholder="写下今天要做的事"
-                    />
-                    <button type="button" className="home-todo-delete" onClick={() => deleteTodoItem(index)} aria-label={`删除待办 ${index + 1}`}>
-                      <Trash2 size={16} />
-                    </button>
+                    <div className="home-todo-item-main">
+                      <input type="checkbox" checked={item.done} onChange={(event) => toggleTodoDoneById(item.id, event.target.checked)} aria-label={`完成待办 ${index + 1}`} />
+                      <input type="text" value={item.text} onChange={(event) => updateTodoTextById(item.id, event.target.value)} onKeyDown={(event) => { if (event.key === "Enter") { event.preventDefault(); addTodoItem(); } }} placeholder="写下今天要做的事" />
+                      <button type="button" className="home-todo-delete" onClick={() => deleteTodoItemById(item.id)} aria-label={`删除待办 ${index + 1}`}><Trash2 size={16} /></button>
+                    </div>
+                    <div className="home-todo-item-meta">
+                      <label className="home-todo-field"><span>日期</span><input type="date" value={item.date} onChange={(event) => updateTodoDateById(item.id, event.target.value)} /></label>
+                      <label className="home-todo-field"><span>提醒</span><input type="time" value={toLocalTimeValue(item.reminderAt)} onChange={(event) => updateTodoReminderById(item.id, event.target.value)} /></label>
+                      <div className="home-todo-item-status">{item.done ? "已完成" : item.reminderAt ? (item.remindedAt ? `已提醒 · ${formatTodoReminderLabel(item.reminderAt)}` : formatTodoReminderLabel(item.reminderAt)) : "未设提醒"}</div>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -1053,6 +1500,7 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
 
   return (
     <div className="home-layout">
+      <DesktopPetControls />
       <div className="home-grid">{panelOrder.map((id) => renderPanel(id))}</div>
 
       {todoPraise ? (
@@ -1085,6 +1533,26 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
               <button type="button" className="outline-action" onClick={dismissPomodoroFinish}>
                 就到这里
               </button>
+            </div>
+          </div>
+        </div>
+      ) : null}
+
+      {todoReminder ? (
+        <div className="home-modal-overlay home-reminder-overlay" role="presentation">
+          <div className="home-modal home-reminder-modal" role="dialog" aria-modal="true" aria-label="待办提醒">
+            <div className="home-modal-cat home-reminder-cat">
+              <AbstractCatMark className="home-cat-art home-cat-art-modal" variant={todoReminder.variant} />
+            </div>
+            <div className="home-modal-copy">
+              <div className="section-kicker"><AlarmClock size={14} />REMINDER</div>
+              <strong>{todoReminder.message}</strong>
+              <p>{todoReminder.text || "有一条待办到点了，先处理一下。"}</p>
+              <small>{formatTodoReminderLabel(todoReminder.reminderAt)} · {todoReminderQueue.length ? `队列里还有 ${todoReminderQueue.length} 条` : "这一条先到了"}</small>
+            </div>
+            <div className="home-modal-actions">
+              <button type="button" className="primary-action compact" onClick={() => snoozeTodoReminder(10)}>延后 10 分钟</button>
+              <button type="button" className="outline-action" onClick={dismissTodoReminder}>知道了</button>
             </div>
           </div>
         </div>

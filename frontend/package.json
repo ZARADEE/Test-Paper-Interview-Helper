@@ -8,6 +8,7 @@
     "dev": "electron-vite dev",
     "build": "tsc --noEmit && electron-vite build",
     "preview": "electron-vite preview",
+    "smoke:pet": "electron desktop-pet-smoke.mjs --no-sandbox",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

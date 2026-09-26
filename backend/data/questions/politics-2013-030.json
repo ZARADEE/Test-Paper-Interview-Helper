@@ -15,6 +15,7 @@
   "updated_at": "2026-08-23T15:56:23.470686+00:00",
   "analysis_source_document_id": null,
   "question_bank_id": "bank-politics",
+  "source_question_number": null,
   "options": [
     {
       "key": "A",
@@ -34,11 +35,11 @@
     }
   ],
   "scoring_points": [],
-  "knowledge_points": [],
   "tags": [
     "毛泽东思想和中国特色社会主义理论体系",
     "中国化理论成果"
   ],
+  "knowledge_points": [],
   "source_regions": [],
   "analysis_regions": []
 }

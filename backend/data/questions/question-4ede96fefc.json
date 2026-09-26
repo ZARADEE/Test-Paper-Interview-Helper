@@ -15,15 +15,16 @@
   "updated_at": "2026-08-29T13:35:35.662180+00:00",
   "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
   "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [],
   "scoring_points": [],
-  "knowledge_points": [
-    "联合分布",
-    "边缘分布"
-  ],
   "tags": [
     "概率论与数理统计",
     "数字特征与大数定律"
+  ],
+  "knowledge_points": [
+    "联合分布",
+    "边缘分布"
   ],
   "source_regions": [
     {

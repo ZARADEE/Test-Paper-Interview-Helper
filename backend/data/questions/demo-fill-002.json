@@ -14,13 +14,15 @@
   "created_at": "2026-08-23T10:08:05.385149+00:00",
   "updated_at": "2026-08-23T12:39:50.690018+00:00",
   "analysis_source_document_id": null,
+  "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [],
   "scoring_points": [],
-  "knowledge_points": [
-    "正态分布"
-  ],
   "tags": [
     "概率论与数理统计",
+    "正态分布"
+  ],
+  "knowledge_points": [
     "正态分布"
   ],
   "source_regions": [],

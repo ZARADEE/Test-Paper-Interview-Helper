@@ -15,7 +15,11 @@ import type {
   WrongBookItem
 } from "./types";
 
-export const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "http://127.0.0.1:8000/api";
+const runtimeApiBase =
+  typeof window !== "undefined" && window.location.protocol.startsWith("http")
+    ? `${window.location.protocol}//${window.location.hostname}:8000/api`
+    : "http://127.0.0.1:8000/api";
+export const API_BASE = import.meta.env.VITE_API_BASE_URL ?? runtimeApiBase;
 
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
   const response = await fetch(`${API_BASE}${path}`, options);

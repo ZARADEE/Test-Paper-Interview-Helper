@@ -10,6 +10,7 @@ from typing import Any, Iterator
 
 from .math_one import normalize_tag_pair
 from .politics import POLITICS_MAJORS, normalize_politics_tags
+from .question_bundle import load_bundled_questions
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -320,6 +321,7 @@ def init_db() -> None:
             connection.execute(
                 "ALTER TABLE questions ADD COLUMN source_question_number INTEGER"
             )
+        load_bundled_questions(connection)
         seed_default_data(connection)
         normalize_stored_tags(connection)
 

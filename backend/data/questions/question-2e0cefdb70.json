@@ -14,16 +14,18 @@
   "created_at": "2026-08-23T12:07:19.469411+00:00",
   "updated_at": "2026-08-23T12:39:51.523962+00:00",
   "analysis_source_document_id": "source-li-lin-880-analysis-f238d3722d",
+  "question_bank_id": "bank-math-one",
+  "source_question_number": null,
   "options": [],
   "scoring_points": [],
+  "tags": [
+    "高等数学",
+    "曲线积分与曲面积分"
+  ],
   "knowledge_points": [
     "曲线积分与曲面积分",
     "曲线积分",
     "曲面积分"
-  ],
-  "tags": [
-    "高等数学",
-    "曲线积分与曲面积分"
   ],
   "source_regions": [
     {

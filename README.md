@@ -1,263 +1,185 @@
 # 组卷助手
 
-`Test-Paper-Interview-Helper` 是一个本地运行的考研题库管理、智能组卷和刷题工作台。它采用前后端分离架构，使用 Electron + React + TypeScript 提供桌面端界面，使用 FastAPI + SQLite 处理题库、组卷、审核和导出。
+Test-Paper-Interview-Helper 是一个本地运行的考研学习工作台，集成题库管理、自动组卷、刷题、待办、番茄钟和桌面陪伴。桌面端使用 Electron + React + TypeScript，后端使用 FastAPI + SQLite。
 
-产品界面采用结构暴露的新粗野主义风格：硬边框、实体阴影、平面色块和明确的工作台分区。打开应用后直接进入可操作的题库工作流，不设置营销型首页。
+仓库随附 **2,319 道已入库题目**、题库分类与模板，以及可独立使用的题面 / 解析图片。首次启动空数据库时自动加载，克隆项目后即可使用。
 
-## 功能展示
+## 学习首页
+
+- **番茄钟**：专注、短休息、长休息及自定义时长。
+- **今日待办**：按日期查看、批量添加、完成状态和时间提醒。
+- **工作台面板**：调整面板顺序，集中查看目标院校、题库概览与资讯。
+- **桌面陪伴**：选择角色，设置大小与自动漫游，一键进入桌宠或悬浮球。
+
+界面沿用硬边框、实体阴影和平面色块；顶部陪伴区统一为紧凑的角色选择和操作栏。
+
+![学习首页与桌面陪伴](docs/screenshots/00-home.png)
+
+## 桌宠与悬浮球
+
+提供 **Doro、蓝发女仆、纸盒猫、专注机器人** 四套可替换外观。
+
+- 关闭主窗口后进入上次使用的桌宠 / 悬浮球模式，系统托盘可恢复窗口。
+- 透明动画包含待机、行走、特殊动作与点击互动，行走之间会休息。
+- 自动二维移动，碰到屏幕工作区边缘反弹；拖动、互动和隐藏时暂停位移。
+- 拖动只改变位置，禁止通过边框缩放；小 / 中 / 大为 160 / 220 / 280 DIP。
+- 双击桌宠、单击悬浮球可回到学习台；右键切换角色、模式、大小或退出。
+- 保存角色、模式、位置、大小和漫游开关；已检查 Windows 100% / 150% 双屏缩放。
+
+![Doro 桌宠](docs/screenshots/05-desktop-pet.png)
+
+浏览器可以预览角色，独立桌宠窗口需要 Electron 客户端。参数、素材来源与操作说明见 [桌面陪伴文档](docs/desktop-pet.md)。
+
+## 题库与练习
+
+### 当前随附数据
+
+已按题目 ID 核对本地数据库和仓库 JSON，合计 **2,319 道**，含项目原有演示题。
+
+| 题库 | 题目数 | 主要分类 |
+| --- | ---: | --- |
+| 考研数学一 | 856 | 高等数学、线性代数、概率论与数理统计 |
+| 考研政治 | 1,463 | 马原、毛中特、史纲、思法、时政 |
+| 合计 | 2,319 | 两个题库独立管理 |
+
+其中 **2,103 道**有原版题面与解析裁切图，共 **4,206 张**；其他题目以结构化文本展示。图片使用无损 WebP 保存，预览及 PDF / DOCX 导出时转换为 PNG，不依赖本机原始整册 PDF。
+
+- [题目 JSON](backend/data/questions)：题干、选项、答案、解析、标签、来源区域。
+- [题库清单](backend/data/bundled/manifest.json)：数量、分类、模板、来源元数据与文件校验值。
+- [题面和解析图片](backend/data/bundled/previews)：按题目 ID 区分 question / analysis。
+
+**首次启动会自动加载到空数据库。** 已有数据库保留原内容，不覆盖修改，也不会每次启动重新恢复已删除的题目。请完整下载 questions 和 bundled 两个目录。
 
 ### 考研组卷
 
-根据关联的试卷模板、题型分区、复式 tag 和固定随机种子自动选题。支持设置必须包含的大类 tag、小类 tag，并在生成后查看题目数量、题型结构和校验状态。
+按关联模板、题型分区、复式 tag 和随机种子选题；可指定必须包含的大类 / 小类标签，生成后查看题型结构与校验状态。数学与政治使用独立题库 ID，避免混卷。
 
 ![考研组卷工作台](docs/screenshots/01-compose.png)
 
 ### 小题狂练
 
-针对选择题进行随机练习，支持：
-
-- 考研数学一和考研政治题库独立切换
-- 学科、大类 tag、小类 tag 三级筛选
-- 单项选择题和多项选择题自动判题
-- “一直刷题！”连续随机出题
-- “停止刷题”停止连续模式并保留当前错题
-- 持久化错题本
-- 错题删除
-- 导出本次错题与答案 PDF
+支持按题库、学科、大类和小类标签筛选，进行单选 / 多选自动判题、连续随机刷题、持久化错题记录、错题删除，以及错题和答案 PDF 导出。
 
 ![小题狂练工作台](docs/screenshots/02-practice.png)
 
-### 试题导入与审核
+### 导入与审核
 
-支持从 PDF、DOCX 和 DOC 中抽取题目，题目先进入审核队列，不会直接写入正式题库。审核页面提供原版题面预览、解析匹配状态、题型和章节修订，以及批量通过、批量删除和分片加载。
+PDF、DOCX、DOC 中抽取的题目先进入审核队列。可查看原版题面、解析匹配情况，修订题型、章节和标签，再单题或批量审核入库。导入脚本位于 scripts/。
 
 ![试题导入工作台](docs/screenshots/03-import.png)
 
-### 试卷模板
+题目采用大类 / 小类复式标签，例如：["高等数学", "函数、极限与连续"]。
 
-模板与题库关联保存。支持配置试卷名称、总分、时长、题型分区、题目数量、分值和大类占比。项目内置考研数学一模板，并支持政治题库使用独立的政治模板。
+### 模板与导出
+
+模板与题库关联，支持总分、时长、题型分区、题目数、分值和大类占比。内置数学一和政治模板。
 
 ![试卷模板工作台](docs/screenshots/04-templates.png)
 
-## 当前题库
-
-项目运行时会根据本地 SQLite 数据库加载题库。目前支持的题库类型包括：
-
-- 考研数学一
-  - 高等数学
-  - 线性代数
-  - 概率论与数理统计
-- 考研政治
-  - 马克思主义基本原理
-  - 毛泽东思想和中国特色社会主义理论体系
-  - 中国近现代史纲要
-  - 思想道德与法治
-  - 形势与政策以及当代世界经济与政治
-
-数学和政治题库使用独立的 `question_bank_id` 隔离。试题导入、tag 控制、模板关联、组卷和小题狂练都会基于当前题库配置，不会把政治题混入数学卷。
-
-## 技术架构
-
-```text
-Electron
-  └─ React + TypeScript + Vite
-       └─ HTTP API
-            └─ FastAPI + Python
-                 └─ SQLite
-```
-
-主要模块：
-
-```text
-backend/
-  app/
-    main.py          API 路由、审核、导入、模板、导出
-    db.py            SQLite 初始化、迁移和数据访问
-    composer.py      模板约束和自动组卷
-    practice.py      小题狂练目录、答案识别和题目清洗
-    politics.py      考研政治分类规则
-  data/              运行时数据库、题目、源文件和导出文件
-
-frontend/
-  electron/          Electron 主进程和 preload
-  src/
-    App.tsx
-    components/
-      ComposeView.tsx
-      PracticeView.tsx
-      ImportView.tsx
-      TemplateView.tsx
-    api.ts
-    types.ts
-    styles.css
-
-scripts/
-  start-backend.ps1
-  capture-screenshots.cjs
-  import_*.py
-
-docs/
-  design.md
-  math-one-sources.md
-  screenshots/
-```
+组卷支持题卷版 / 答案版 PDF 和 DOCX；题卷显示原版题面，答案、解析和评分信息放在答案版。小题狂练可单独导出错题 PDF。
 
 ## 快速启动
 
 ### Windows 一键启动
 
-双击项目根目录的 `start.bat`。脚本会：
+双击项目根目录的 start.bat。脚本检查 Python、Node.js 和依赖，创建或复用 .venv，随后启动 FastAPI 和 Electron。
 
-1. 检查 Python、Node.js 和本地依赖
-2. 创建或复用 `.venv`
-3. 安装后端依赖
-4. 启动 FastAPI
-5. 启动 Electron 前端
-
-运行要求：
-
-- Python 3.11 或更高版本
-- Node.js 20 或更高版本
-- LibreOffice，用于部分 Word 文档转换和导出流程
+环境要求：Python 3.11+、Node.js 20+；涉及部分 Word 转换和导出流程时需要 LibreOffice。图片处理依赖 Pillow，已列入后端依赖。
 
 ### 手动启动
 
-启动后端：
+准备依赖（首次运行）：
 
 ```powershell
-.\scripts\start-backend.ps1
+py -3 -m venv .venv
+./.venv/Scripts/python.exe -m pip install -r backend/requirements.txt
+cd frontend
+npm install
 ```
 
-启动前端：
+在项目根目录启动后端：
+
+```powershell
+./scripts/start-backend.ps1
+```
+
+另开终端启动前端：
 
 ```powershell
 cd frontend
-npm install
 npm run dev
 ```
 
-前端开发地址默认为：
+默认前端地址为 http://127.0.0.1:5173，后端 API 为 http://127.0.0.1:8000/api。
 
-```text
-http://127.0.0.1:5173
-```
+启动日志会显示局域网访问地址。移动端浏览器使用同一主机的 8000 端口访问 API。可用 PAPER_HELPER_API_HOST、PAPER_HELPER_API_PORT、PAPER_HELPER_FRONTEND_PORT 调整监听配置；更换后端端口时需同时配置 VITE_API_BASE_URL。
 
-后端 API 默认为：
+## 更新随附题库
 
-```text
-http://127.0.0.1:8000/api
-```
-
-## 重新生成运行截图
-
-README 中的图片由真实运行的 Electron 渲染窗口生成。确保后端和前端已经启动后，在项目根目录执行：
+在本地完成题目审核入库后，运行：
 
 ```powershell
-.\frontend\node_modules\electron\dist\electron.exe .\scripts\capture-screenshots.cjs
+./.venv/Scripts/python.exe scripts/package_question_bundle.py
 ```
 
-截图会自动写入：
+脚本从本地 SQLite 一致性快照读取题目，更新 JSON，按原有来源区域生成无损题面 / 解析图片，并写入清单和 SHA-256 校验值。已有且来源未改变的图片会复用；生成新图片需要原始 PDF。
+
+提交更新时包括 backend/data/questions 与 backend/data/bundled。随附数据只包含题目、模板、题库元数据及相关裁切图片；个人错题、练习记录、待办、运行数据库和整册原始文档仍保留在本地。
+
+## 数据与代码位置
 
 ```text
-docs/screenshots/
+backend/
+  app/
+    main.py                 API、导入、审核、预览与导出
+    db.py                   SQLite 初始化与迁移
+    question_bundle.py      随附题库加载与原版图片读取
+    composer.py              自动组卷
+    practice.py              刷题与答案识别
+  data/
+    questions/              随仓库发布的题目 JSON
+    bundled/                随仓库发布的清单与题面图片
+    paper_helper.sqlite3    本地运行数据库
+    documents/              本地导入原始文件
+    exports/                本地 PDF / DOCX 导出
+frontend/
+  electron/                 桌面窗口、托盘与漫游逻辑
+  src/components/           首页、桌宠、组卷、练习等界面
+  public/assets/            角色素材及来源说明
+scripts/
+  start-backend.ps1
+  package_question_bundle.py
+  normalize-pet-assets.py
+  capture-screenshots.cjs
 ```
 
-脚本会依次打开并截取：
+.gitignore 仅对白名单中的 questions 与 bundled 开放数据跟踪，其他运行时数据保持忽略。桌宠设置保存到 Electron 用户数据目录的 desktop-pet.json；首页待办与番茄钟状态保存在客户端本地。
 
-1. 考研组卷
-2. 小题狂练
-3. 试题导入
-4. 试卷模板
+## 校验与截图
 
-也可以通过环境变量指定其他前端地址：
+前端构建和桌宠验证，在 frontend 目录执行：
 
 ```powershell
-$env:PAPER_HELPER_URL = "http://127.0.0.1:5173"
-.\frontend\node_modules\electron\dist\electron.exe .\scripts\capture-screenshots.cjs
-```
-
-## 导入题库
-
-题目导入流程如下：
-
-1. 在“试题导入”中选择目标题库
-2. 选择 PDF、DOCX 或 DOC 文件
-3. 等待题目进入审核队列
-4. 检查原版题面、解析匹配状态、题型和 tag
-5. 单题保存、审核入库，或批量通过有解析题目
-6. 删除没有匹配解析的题目
-
-题目使用复式 tag：
-
-```text
-[
-  "大类 tag",
-  "小类 tag"
-]
-```
-
-例如：
-
-```json
-["高等数学", "函数、极限与连续"]
-```
-
-导入脚本位于 `scripts/`，可用于处理已经准备好的本地题册和解析册。原始 PDF、Word 文件和运行时数据库不包含在 Git 仓库中。
-
-## 导出内容
-
-组卷完成后支持导出：
-
-- 题卷版 PDF
-- 答案版 PDF
-- 题卷版 DOCX
-- 答案版 DOCX
-
-导出的题卷版只显示原版题面，答案、解析和评分信息放在答案版中。小题狂练支持单独导出本次刷题产生的错题与答案 PDF。
-
-## 数据位置
-
-运行时数据默认保存在 `backend/data/`：
-
-```text
-backend/data/
-  paper_helper.sqlite3  SQLite 数据库
-  documents/            导入的源文件
-  questions/            JSON 题目交换文件
-  exports/              PDF、DOCX 导出文件
-```
-
-`backend/data/` 已加入 `.gitignore`，不会把本地题库、个人文件和导出结果提交到仓库。
-
-## 校验命令
-
-前端类型检查：
-
-```powershell
-cd frontend
-npm run typecheck
-```
-
-前端生产构建：
-
-```powershell
-cd frontend
 npm run build
+node --test pet-physics.test.mjs
+npm run smoke:pet
 ```
 
-后端语法检查：
+桌宠回归覆盖连续拖动、固定尺寸、四边反弹、双屏切换、四套角色、动画、显隐、三档大小和设置保存；使用独立临时用户数据。截图输出到 frontend/out/pet-smoke。
+
+题库恢复与图片验证，在项目根目录执行：
 
 ```powershell
-python -m compileall -q backend\app scripts
+./.venv/Scripts/python.exe -m unittest discover -s backend/tests -v
 ```
 
-## 设计文档
+README 截图来自真实 Electron 窗口。已有业务页面截图脚本位于 scripts/capture-screenshots.cjs，运行前需启动前后端；生成目录为 docs/screenshots。
 
-- [项目设计文档](docs/design.md)
-- [考研数学一题源说明](docs/math-one-sources.md)
+## 文档与素材
 
-## 版权与本地资料
+- [项目设计](docs/design.md)
+- [数学一题源说明](docs/math-one-sources.md)
+- [桌宠操作、参数与来源](docs/desktop-pet.md)
+- [Doro 来源与处理说明](frontend/public/assets/doro/SOURCE.md)
 
-本仓库只保存应用程序代码、导入脚本、模板和界面截图，不分发习题册、真题 PDF、解析 PDF 或其他受版权保护的原始资料。请仅导入自己拥有合法使用权的本地文件。
-
-当前仓库未单独声明开源许可证。
+题目与图片保留各自的来源信息，原始整册 PDF / Word 不随仓库发布。第三方角色素材的许可证和来源说明保留在对应 assets 子目录；项目代码目前未单独声明开源许可证。
