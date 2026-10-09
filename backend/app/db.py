@@ -49,6 +49,8 @@ def connect() -> Iterator[sqlite3.Connection]:
 def init_db() -> None:
     ensure_dirs()
     with connect() as connection:
+        from .learning import init_learning
+        init_learning(connection)
         connection.executescript(
             """
             CREATE TABLE IF NOT EXISTS question_banks (
@@ -323,6 +325,13 @@ def init_db() -> None:
             )
         load_bundled_questions(connection)
         seed_default_data(connection)
+        from .presets import repair_legacy_presets, ensure_408
+        repair_legacy_presets(connection)
+        ensure_408(connection)
+        from .zhijing_bundle import load as load_zhijing
+        load_zhijing(connection)
+        from .github_bundle import load as load_github
+        load_github(connection)
         normalize_stored_tags(connection)
 
 
@@ -343,8 +352,10 @@ def normalize_stored_tags(connection: sqlite3.Connection) -> None:
                 major_hint,
             )
             normalized_tags = [major, subtag]
-        else:
+        elif row["question_bank_id"] == MATH_ONE_BANK_ID or row["subject"] == "考研数学一":
             normalized_tags = normalize_tag_pair(current_tags, row["chapter"], knowledge_points)
+        else:
+            continue
         if current_tags == normalized_tags:
             continue
         now = utc_now()
@@ -734,11 +745,9 @@ def row_to_question(row: sqlite3.Row) -> dict[str, Any]:
     result["options"] = json_load(result.pop("options_json", "[]"), [])
     result["scoring_points"] = json_load(result.pop("scoring_points_json", "[]"), [])
     result["knowledge_points"] = json_load(result.pop("knowledge_points_json", "[]"), [])
-    result["tags"] = normalize_tag_pair(
-        json_load(result.pop("tags_json", "[]"), []),
-        result.get("chapter", ""),
-        result["knowledge_points"],
-    )
+    from .subject_tags import normalize_question_tags
+    result["tags"] = json_load(result.pop("tags_json", "[]"), [])
+    result["tags"] = normalize_question_tags(result)
     result["source_regions"] = json_load(result.pop("source_regions_json", "[]"), [])
     result["analysis_regions"] = json_load(result.pop("analysis_regions_json", "[]"), [])
     return result

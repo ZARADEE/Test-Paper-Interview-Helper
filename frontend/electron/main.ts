@@ -10,6 +10,7 @@ app.disableHardwareAcceleration();
 
 let mainWindow: BrowserWindow | null = null;
 let petWindow: BrowserWindow | null = null;
+let todoWindow: BrowserWindow | null = null;
 let tray: Tray | null = null;
 let isQuitting = false;
 let ambientMode: AmbientMode = "pet";
@@ -156,8 +157,29 @@ function createPetWindow(): BrowserWindow {
   loadRenderer(window, { surface: ambientMode, pack: petPack });
   return window;
 }
+function showPetTodos(): void {
+  if (!petWindow?.isVisible() || ambientMode !== "pet") return;
+  if (!todoWindow || todoWindow.isDestroyed()) {
+    const window = new BrowserWindow({
+      width: 360, height: 430, minWidth: 360, maxWidth: 360, minHeight: 430, maxHeight: 430,
+      frame: false, resizable: false, maximizable: false, minimizable: false, fullscreenable: false,
+      movable: false, alwaysOnTop: true, skipTaskbar: true, show: false, backgroundColor: "#fffaf0",
+      webPreferences: { preload: join(__dirname, "../preload/preload.mjs"), contextIsolation: true, sandbox: false, nodeIntegration: false, zoomFactor: 1 }
+    });
+    todoWindow = window;
+    window.setAlwaysOnTop(true, "floating");
+    window.on("closed", () => { if (todoWindow === window) todoWindow = null; });
+    window.once("ready-to-show", () => { if (petWindow?.isVisible() && ambientMode === "pet") window.showInactive(); });
+    loadRenderer(window, { surface: "todos" });
+  }
+  const area = screen.getDisplayMatching(petWindow.getBounds()).workArea;
+  todoWindow.setBounds({ x: area.x + Math.max(0, area.width - 376), y: area.y + Math.max(0, area.height - 446), width: 360, height: 430 });
+  if (!todoWindow.webContents.isLoading()) todoWindow.showInactive();
+}
+
 function showAmbientWindow(mode: AmbientMode): void {
   mainWindow?.hide();
+  if (mode !== "pet") todoWindow?.hide();
   if (petWindow && !petWindow.isDestroyed() && mode !== ambientMode) {
     lastPetPosition = petWindow.getPosition() as [number, number];
     petWindow.destroy();
@@ -177,7 +199,7 @@ function showAmbientWindow(mode: AmbientMode): void {
 function showMainWindow(): void {
   if (!mainWindow || mainWindow.isDestroyed()) mainWindow = createMainWindow();
   if (mainWindow.isMinimized()) mainWindow.restore();
-  mainWindow.show(); mainWindow.focus(); petWindow?.hide();
+  mainWindow.show(); mainWindow.focus(); petWindow?.hide(); todoWindow?.hide();
 }
 function setPetPack(next: string): void {
   if (!isPetPack(next)) return;
@@ -236,6 +258,8 @@ app.whenReady().then(() => {
   ipcMain.on("set-pet-roaming", (_event, next) => { if (typeof next === "boolean") setRoaming(next); });
   ipcMain.handle("get-pet-settings", settings);
   ipcMain.on("pet-context-menu", showPetMenu);
+  ipcMain.on("show-pet-todos", event => { if (isPetSender(event)) showPetTodos(); });
+  ipcMain.on("hide-pet-todos", event => { if (todoWindow && event.sender === todoWindow.webContents) todoWindow.hide(); });
   ipcMain.on("pet-dragging", (event, next) => { if (isPetSender(event)) { dragging = next === true; resetMotion(); } });
   ipcMain.on("pet-action", (event, payload: { action: PetAction; hitbox: PetHitbox }) => {
     if (!isPetSender(event) || !payload || !["idle", "walk", "click", "special"].includes(payload.action)) return;

@@ -1,0 +1,21 @@
+{
+  "release_sha256": "56b5547d5d0dddec65bfc05cc5ec551f68876af4f756054014e66420acb9c114",
+  "choice_questions": 1576,
+  "short_answer_occurrences": 87,
+  "unique_short_answers": 48,
+  "total_unique_questions": 1624,
+  "missing": 0,
+  "content_mismatches": 0,
+  "choice_original_image_frames_checked": 1913,
+  "bundled_preview_files": 1642,
+  "by_subject": {
+    "数据结构": 412,
+    "计算机组成原理": 380,
+    "操作系统": 457,
+    "计算机网络": 375
+  },
+  "notes": [
+    "87 exercise occurrences resolve to 48 unique short answers; all chapter associations retained.",
+    "Source answers preserved verbatim; source quality defects are not silently rewritten."
+  ]
+}

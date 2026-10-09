@@ -7,6 +7,8 @@ declare global {
       platform: string;
       mobileUrl: string;
       mobileHost: string;
+      showPetTodos: () => void;
+      hidePetTodos: () => void;
       showMain: () => void;
       showAmbient: (mode: "pet" | "ball") => void;
       setPetPack: (pack: string) => void;

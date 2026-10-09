@@ -1,5 +1,5 @@
 export type TabId = "home" | "compose" | "practice" | "templates";
-export type QuestionType = "choice" | "fill" | "solution";
+export type QuestionType = "choice" | "fill" | "solution" | "short_answer";
 
 export type Tag = {
   id: string;
@@ -155,6 +155,7 @@ export type SubjectDistributionRule = {
 };
 
 export type TemplateDistributionRules = {
+  agent_enabled?: boolean;
   subject?: string;
   chapter_distribution?: SubjectDistributionRule[];
   chapter_weights_note?: string;
@@ -175,6 +176,7 @@ export type PaperTemplate = {
 };
 
 export type Paper = {
+  composition?: { mode: "agent" | "local"; rationale: string };
   id: string;
   template_id: string;
   title: string;
@@ -239,3 +241,5 @@ export type AdmissionsScorelineDetail = {
   sections: string[];
   content: string;
 };
+
+export type AgentSettings = { api_key: string; base_url: string; model: string; instructions: string };

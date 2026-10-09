@@ -1,3 +1,4 @@
+import animations from "./petAnimations.json";
 export type AmbientMode = "pet" | "ball";
 export type PetAction = "idle" | "walk" | "special" | "click";
 
@@ -31,11 +32,9 @@ export const PET_BEHAVIOR = {
   moveIntervalMs: 33
 } as const;
 
-// Visible alpha bounds from normalize-pet-assets.py, on a shared 256px canvas.
-const ART_BOUNDS = {
-  maid: { idle: [25, 12, 231, 244], walk: [35, 12, 221, 244], click: [26, 12, 229, 244], special: [26, 12, 229, 244] },
-  doro: { idle: [12, 44, 244, 244], walk: [12, 48, 244, 244], click: [12, 56, 244, 244], special: [12, 17, 244, 244] }
-} as const;
+export function petActionDuration(pack: PetPackId, action: "click" | "special"): number {
+  return pack === "maid" || pack === "doro" ? animations[pack][action].durationMs : action === "click" ? 560 : 900;
+}
 
 export function petFacing(pack: PetPackId, direction: number): number {
   // The original Doro walking artwork faces left.
@@ -43,7 +42,7 @@ export function petFacing(pack: PetPackId, direction: number): number {
 }
 export function petHitbox(pack: PetPackId, action: PetAction, direction = 1): PetHitbox {
   if (pack !== "maid" && pack !== "doro") return { x: .06, y: .03, width: .88, height: .93 };
-  const [left, top, right, bottom] = ART_BOUNDS[pack][action];
+  const [left, top, right, bottom] = animations[pack][action].bounds;
   return { x: (petFacing(pack, direction) < 0 ? 256 - right : left) / 256, y: top / 256, width: (right - left) / 256, height: (bottom - top) / 256 };
 }
 

@@ -1,4 +1,5 @@
 import type {
+  AgentSettings,
   AdmissionsFeed,
   AdmissionsScorelineDetail,
   AdmissionsScorelineIndex,
@@ -25,7 +26,7 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
   const response = await fetch(`${API_BASE}${path}`, options);
   const payload = (await response.json().catch(() => ({}))) as { detail?: string };
   if (!response.ok) {
-    throw new Error(payload.detail ?? `请求失败：${response.status}`);
+    throw new Error(typeof payload.detail === "string" ? payload.detail : `请求参数有误或服务失败：${response.status}`);
   }
   return payload as T;
 }
@@ -165,6 +166,10 @@ export async function getTemplates(): Promise<PaperTemplate[]> {
   return request("/templates");
 }
 
+export async function install408Templates(): Promise<PaperTemplate[]> {
+  return request("/template-presets/408", { method: "POST" });
+}
+
 export async function createTemplate(payload: {
   name: string;
   subject: string;
@@ -206,6 +211,7 @@ export async function validateTemplate(templateId: string): Promise<{
 }
 
 export async function composePaper(payload: {
+  agent?: AgentSettings;
   template_id: string;
   title: string;
   seed: number;
@@ -239,6 +245,7 @@ export async function getPracticeCatalog(): Promise<PracticeCatalog> {
 }
 
 export async function startPractice(payload: {
+  question_ids?: string[];
   subject: string;
   question_bank_id?: string;
   major_tag: string;

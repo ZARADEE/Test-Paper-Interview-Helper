@@ -1,0 +1,2716 @@
+{
+  "source": "智镜408 v1.1 知识点自测简答题",
+  "release_sha256": "56b5547d5d0dddec65bfc05cc5ec551f68876af4f756054014e66420acb9c114",
+  "generated_at": "2026-10-09T15:20:30.723294+00:00",
+  "counts": {
+    "操作系统": 40,
+    "数据结构": 1,
+    "计算机组成原理": 7
+  },
+  "occurrences": [
+    {
+      "subject": "os",
+      "topic_id": "overview",
+      "topic": "系统结构与用户态/内核态",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-19fe97397e784c0968d3"
+    },
+    {
+      "subject": "os",
+      "topic_id": "overview",
+      "topic": "系统结构与用户态/内核态",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-f3aac3b4905e6cbbcce6"
+    },
+    {
+      "subject": "os",
+      "topic_id": "overview",
+      "topic": "系统结构与用户态/内核态",
+      "index": 2,
+      "source": null,
+      "question_id": "zhijing408-short-cfec7e7dda9e0aec3d60"
+    },
+    {
+      "subject": "os",
+      "topic_id": "overview",
+      "topic": "系统结构与用户态/内核态",
+      "index": 3,
+      "source": null,
+      "question_id": "zhijing408-short-0bd103d2c41daf2bd6f7"
+    },
+    {
+      "subject": "os",
+      "topic_id": "overview",
+      "topic": "系统结构与用户态/内核态",
+      "index": 4,
+      "source": null,
+      "question_id": "zhijing408-short-cb5bb9ae594e12f50d21"
+    },
+    {
+      "subject": "os",
+      "topic_id": "process-thread",
+      "topic": "进程、线程与 PCB",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-a93bdc0ecc8a2f537532"
+    },
+    {
+      "subject": "os",
+      "topic_id": "process-thread",
+      "topic": "进程、线程与 PCB",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-ca3a85a911620e95278c"
+    },
+    {
+      "subject": "os",
+      "topic_id": "process-thread",
+      "topic": "进程、线程与 PCB",
+      "index": 2,
+      "source": null,
+      "question_id": "zhijing408-short-c951c406c18a2340b95f"
+    },
+    {
+      "subject": "os",
+      "topic_id": "process-thread",
+      "topic": "进程、线程与 PCB",
+      "index": 3,
+      "source": null,
+      "question_id": "zhijing408-short-cfec7e7dda9e0aec3d60"
+    },
+    {
+      "subject": "os",
+      "topic_id": "process-thread",
+      "topic": "进程、线程与 PCB",
+      "index": 4,
+      "source": null,
+      "question_id": "zhijing408-short-0bd103d2c41daf2bd6f7"
+    },
+    {
+      "subject": "os",
+      "topic_id": "scheduling",
+      "topic": "调度层次、时机与算法",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-a2c5a406bd9314883406"
+    },
+    {
+      "subject": "os",
+      "topic_id": "scheduling",
+      "topic": "调度层次、时机与算法",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-9ac9e827f42fb05e25f9"
+    },
+    {
+      "subject": "os",
+      "topic_id": "scheduling",
+      "topic": "调度层次、时机与算法",
+      "index": 2,
+      "source": null,
+      "question_id": "zhijing408-short-dafa1f5970a92515c2c7"
+    },
+    {
+      "subject": "os",
+      "topic_id": "scheduling",
+      "topic": "调度层次、时机与算法",
+      "index": 3,
+      "source": null,
+      "question_id": "zhijing408-short-c951c406c18a2340b95f"
+    },
+    {
+      "subject": "os",
+      "topic_id": "scheduling",
+      "topic": "调度层次、时机与算法",
+      "index": 4,
+      "source": null,
+      "question_id": "zhijing408-short-cfec7e7dda9e0aec3d60"
+    },
+    {
+      "subject": "os",
+      "topic_id": "sync-mutual",
+      "topic": "临界区、软件法与硬件原子指令",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-8a89e88d55c7c7aa39b1"
+    },
+    {
+      "subject": "os",
+      "topic_id": "sync-mutual",
+      "topic": "临界区、软件法与硬件原子指令",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-7ea4393eba899d1c90cb"
+    },
+    {
+      "subject": "os",
+      "topic_id": "sync-mutual",
+      "topic": "临界区、软件法与硬件原子指令",
+      "index": 2,
+      "source": null,
+      "question_id": "zhijing408-short-0bd103d2c41daf2bd6f7"
+    },
+    {
+      "subject": "os",
+      "topic_id": "sync-mutual",
+      "topic": "临界区、软件法与硬件原子指令",
+      "index": 3,
+      "source": null,
+      "question_id": "zhijing408-short-7bcb70dce650059dae50"
+    },
+    {
+      "subject": "os",
+      "topic_id": "sync-mutual",
+      "topic": "临界区、软件法与硬件原子指令",
+      "index": 4,
+      "source": null,
+      "question_id": "zhijing408-short-0087ecc3cb4a94f76740"
+    },
+    {
+      "subject": "os",
+      "topic_id": "semaphore",
+      "topic": "信号量、PV 与经典同步题",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-835659482fb7efc25d9c"
+    },
+    {
+      "subject": "os",
+      "topic_id": "semaphore",
+      "topic": "信号量、PV 与经典同步题",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-579db3faac1907c9dfc5"
+    },
+    {
+      "subject": "os",
+      "topic_id": "semaphore",
+      "topic": "信号量、PV 与经典同步题",
+      "index": 2,
+      "source": null,
+      "question_id": "zhijing408-short-8e5f564bf35968c2f8c7"
+    },
+    {
+      "subject": "os",
+      "topic_id": "deadlock",
+      "topic": "死锁条件、银行家算法与检测解除",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-dc22edb479f0377da56e"
+    },
+    {
+      "subject": "os",
+      "topic_id": "deadlock",
+      "topic": "死锁条件、银行家算法与检测解除",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-a811ab730dc1082e1b86"
+    },
+    {
+      "subject": "os",
+      "topic_id": "deadlock",
+      "topic": "死锁条件、银行家算法与检测解除",
+      "index": 2,
+      "source": null,
+      "question_id": "zhijing408-short-770a02940f5d5d76374a"
+    },
+    {
+      "subject": "os",
+      "topic_id": "deadlock",
+      "topic": "死锁条件、银行家算法与检测解除",
+      "index": 3,
+      "source": null,
+      "question_id": "zhijing408-short-cfec7e7dda9e0aec3d60"
+    },
+    {
+      "subject": "os",
+      "topic_id": "deadlock",
+      "topic": "死锁条件、银行家算法与检测解除",
+      "index": 4,
+      "source": null,
+      "question_id": "zhijing408-short-06de6035f1e386aef867"
+    },
+    {
+      "subject": "os",
+      "topic_id": "memory",
+      "topic": "装入、重定位、分页分段与段页式",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-55f31ba17317f2ae59bf"
+    },
+    {
+      "subject": "os",
+      "topic_id": "memory",
+      "topic": "装入、重定位、分页分段与段页式",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-965f30504007f85fd974"
+    },
+    {
+      "subject": "os",
+      "topic_id": "memory",
+      "topic": "装入、重定位、分页分段与段页式",
+      "index": 2,
+      "source": null,
+      "question_id": "zhijing408-short-ef6fb2a28f038da4aef5"
+    },
+    {
+      "subject": "os",
+      "topic_id": "memory",
+      "topic": "装入、重定位、分页分段与段页式",
+      "index": 3,
+      "source": null,
+      "question_id": "zhijing408-short-95a025cc94326ee971df"
+    },
+    {
+      "subject": "os",
+      "topic_id": "memory",
+      "topic": "装入、重定位、分页分段与段页式",
+      "index": 4,
+      "source": null,
+      "question_id": "zhijing408-short-c9f4a87f73fea63607ce"
+    },
+    {
+      "subject": "os",
+      "topic_id": "virtual-memory",
+      "topic": "请求分页、缺页中断与页面置换",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-3b4c55cbd3b4c468471d"
+    },
+    {
+      "subject": "os",
+      "topic_id": "virtual-memory",
+      "topic": "请求分页、缺页中断与页面置换",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-fa73c493176eee721b32"
+    },
+    {
+      "subject": "os",
+      "topic_id": "filesystem",
+      "topic": "文件逻辑结构与物理分配",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-f5c4ac78fa5870f2876a"
+    },
+    {
+      "subject": "os",
+      "topic_id": "filesystem",
+      "topic": "文件逻辑结构与物理分配",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-eac6ec011c6397991e40"
+    },
+    {
+      "subject": "os",
+      "topic_id": "filesystem",
+      "topic": "文件逻辑结构与物理分配",
+      "index": 2,
+      "source": null,
+      "question_id": "zhijing408-short-770a02940f5d5d76374a"
+    },
+    {
+      "subject": "os",
+      "topic_id": "filesystem",
+      "topic": "文件逻辑结构与物理分配",
+      "index": 3,
+      "source": null,
+      "question_id": "zhijing408-short-06de6035f1e386aef867"
+    },
+    {
+      "subject": "os",
+      "topic_id": "filesystem",
+      "topic": "文件逻辑结构与物理分配",
+      "index": 4,
+      "source": null,
+      "question_id": "zhijing408-short-858d85087ae355d7e058"
+    },
+    {
+      "subject": "os",
+      "topic_id": "directory-open-file",
+      "topic": "目录、打开文件表、链接与 VFS",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-be39e2ca12ba4cb47dd7"
+    },
+    {
+      "subject": "os",
+      "topic_id": "directory-open-file",
+      "topic": "目录、打开文件表、链接与 VFS",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-6358803ca1dfbb43cac3"
+    },
+    {
+      "subject": "os",
+      "topic_id": "directory-open-file",
+      "topic": "目录、打开文件表、链接与 VFS",
+      "index": 2,
+      "source": null,
+      "question_id": "zhijing408-short-52572729b401e34a5085"
+    },
+    {
+      "subject": "os",
+      "topic_id": "directory-open-file",
+      "topic": "目录、打开文件表、链接与 VFS",
+      "index": 3,
+      "source": null,
+      "question_id": "zhijing408-short-8e5f564bf35968c2f8c7"
+    },
+    {
+      "subject": "os",
+      "topic_id": "directory-open-file",
+      "topic": "目录、打开文件表、链接与 VFS",
+      "index": 4,
+      "source": null,
+      "question_id": "zhijing408-short-b5e4021efff43c7cd281"
+    },
+    {
+      "subject": "os",
+      "topic_id": "io-buffer",
+      "topic": "I/O 控制方式、软件层次与缓冲区",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-0d68ec22d32b99562779"
+    },
+    {
+      "subject": "os",
+      "topic_id": "io-buffer",
+      "topic": "I/O 控制方式、软件层次与缓冲区",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-9d4cc521875400a4b6fa"
+    },
+    {
+      "subject": "os",
+      "topic_id": "io-buffer",
+      "topic": "I/O 控制方式、软件层次与缓冲区",
+      "index": 2,
+      "source": null,
+      "question_id": "zhijing408-short-770a02940f5d5d76374a"
+    },
+    {
+      "subject": "os",
+      "topic_id": "io-buffer",
+      "topic": "I/O 控制方式、软件层次与缓冲区",
+      "index": 3,
+      "source": null,
+      "question_id": "zhijing408-short-858d85087ae355d7e058"
+    },
+    {
+      "subject": "os",
+      "topic_id": "io-buffer",
+      "topic": "I/O 控制方式、软件层次与缓冲区",
+      "index": 4,
+      "source": null,
+      "question_id": "zhijing408-short-8e5f564bf35968c2f8c7"
+    },
+    {
+      "subject": "os",
+      "topic_id": "disk-ssd",
+      "topic": "磁盘初始化、引导与磁盘调度",
+      "index": 0,
+      "source": null,
+      "question_id": "zhijing408-short-fe9fabe311f673c093ef"
+    },
+    {
+      "subject": "os",
+      "topic_id": "disk-ssd",
+      "topic": "磁盘初始化、引导与磁盘调度",
+      "index": 1,
+      "source": null,
+      "question_id": "zhijing408-short-ce5d3293621870461935"
+    },
+    {
+      "subject": "os",
+      "topic_id": "disk-ssd",
+      "topic": "磁盘初始化、引导与磁盘调度",
+      "index": 2,
+      "source": null,
+      "question_id": "zhijing408-short-dafa1f5970a92515c2c7"
+    },
+    {
+      "subject": "os",
+      "topic_id": "disk-ssd",
+      "topic": "磁盘初始化、引导与磁盘调度",
+      "index": 3,
+      "source": null,
+      "question_id": "zhijing408-short-c951c406c18a2340b95f"
+    },
+    {
+      "subject": "os",
+      "topic_id": "disk-ssd",
+      "topic": "磁盘初始化、引导与磁盘调度",
+      "index": 4,
+      "source": null,
+      "question_id": "zhijing408-short-cfec7e7dda9e0aec3d60"
+    },
+    {
+      "subject": "ds",
+      "topic_id": "ds-树-ds-common-637",
+      "topic": "树",
+      "index": 0,
+      "source": "SRC-007",
+      "question_id": "zhijing408-short-b1ad3afd834e087ebc0e"
+    },
+    {
+      "subject": "ds",
+      "topic_id": "ds-查找-ds-common-1420",
+      "topic": "查找",
+      "index": 0,
+      "source": "SRC-007",
+      "question_id": "zhijing408-short-b1ad3afd834e087ebc0e"
+    },
+    {
+      "subject": "ds",
+      "topic_id": "ds-树-ds-map-166",
+      "topic": "树",
+      "index": 0,
+      "source": "SRC-007",
+      "question_id": "zhijing408-short-b1ad3afd834e087ebc0e"
+    },
+    {
+      "subject": "ds",
+      "topic_id": "ds-树-ds-mindmap-171",
+      "topic": "树",
+      "index": 0,
+      "source": "SRC-007",
+      "question_id": "zhijing408-short-b1ad3afd834e087ebc0e"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-计组基础考点-co-common-1",
+      "topic": "计组基础考点",
+      "index": 0,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ff508f3d2eb0aecde96c"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-计组基础考点-co-common-1",
+      "topic": "计组基础考点",
+      "index": 1,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ef026475b4c5bf55def3"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-计组基础考点-co-common-1",
+      "topic": "计组基础考点",
+      "index": 2,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-785859722dd4e4ebabb9"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-计组基础考点-co-common-1",
+      "topic": "计组基础考点",
+      "index": 3,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-7023298dd9bb4e7fbabe"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-1CPU内部构成-co-common-1077",
+      "topic": "1CPU内部构成",
+      "index": 0,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-12d8b3d5df1273e6d7d8"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-1CPU内部构成-co-common-1077",
+      "topic": "1CPU内部构成",
+      "index": 1,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-7f3a3b7107b97bee5428"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-1CPU内部构成-co-common-1077",
+      "topic": "1CPU内部构成",
+      "index": 2,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ab17d20d18f18c881052"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-1CPU内部构成-co-common-1077",
+      "topic": "1CPU内部构成",
+      "index": 3,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ff508f3d2eb0aecde96c"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-1CPU内部构成-co-common-1077",
+      "topic": "1CPU内部构成",
+      "index": 4,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ef026475b4c5bf55def3"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-总线-co-common-1198",
+      "topic": "总线",
+      "index": 0,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-12d8b3d5df1273e6d7d8"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-总线-co-common-1198",
+      "topic": "总线",
+      "index": 1,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-7f3a3b7107b97bee5428"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-总线-co-common-1198",
+      "topic": "总线",
+      "index": 2,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ab17d20d18f18c881052"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-总线-co-common-1198",
+      "topic": "总线",
+      "index": 3,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ff508f3d2eb0aecde96c"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-总线-co-common-1198",
+      "topic": "总线",
+      "index": 4,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ef026475b4c5bf55def3"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-计组基础考点-co-mindmap-6",
+      "topic": "计组基础考点",
+      "index": 0,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ff508f3d2eb0aecde96c"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-计组基础考点-co-mindmap-6",
+      "topic": "计组基础考点",
+      "index": 1,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ef026475b4c5bf55def3"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-计组基础考点-co-mindmap-6",
+      "topic": "计组基础考点",
+      "index": 2,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-785859722dd4e4ebabb9"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-计组基础考点-co-mindmap-6",
+      "topic": "计组基础考点",
+      "index": 3,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-7023298dd9bb4e7fbabe"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-1CPU内部构成-co-mindmap-1080",
+      "topic": "1CPU内部构成",
+      "index": 0,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-12d8b3d5df1273e6d7d8"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-1CPU内部构成-co-mindmap-1080",
+      "topic": "1CPU内部构成",
+      "index": 1,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-7f3a3b7107b97bee5428"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-1CPU内部构成-co-mindmap-1080",
+      "topic": "1CPU内部构成",
+      "index": 2,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ab17d20d18f18c881052"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-1CPU内部构成-co-mindmap-1080",
+      "topic": "1CPU内部构成",
+      "index": 3,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ff508f3d2eb0aecde96c"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-1CPU内部构成-co-mindmap-1080",
+      "topic": "1CPU内部构成",
+      "index": 4,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ef026475b4c5bf55def3"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-总线-co-mindmap-1201",
+      "topic": "总线",
+      "index": 0,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-12d8b3d5df1273e6d7d8"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-总线-co-mindmap-1201",
+      "topic": "总线",
+      "index": 1,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-7f3a3b7107b97bee5428"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-总线-co-mindmap-1201",
+      "topic": "总线",
+      "index": 2,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ab17d20d18f18c881052"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-总线-co-mindmap-1201",
+      "topic": "总线",
+      "index": 3,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ff508f3d2eb0aecde96c"
+    },
+    {
+      "subject": "co",
+      "topic_id": "co-总线-co-mindmap-1201",
+      "topic": "总线",
+      "index": 4,
+      "source": "SRC-004",
+      "question_id": "zhijing408-short-ef026475b4c5bf55def3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "zhijing408-short-19fe97397e784c0968d3",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "为什么普通用户程序不能直接执行关中断、I/O 指令？",
+      "answer_markdown": "这些属于特权指令，会影响整个系统的调度、设备和安全边界，只能在内核态执行。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "系统结构与用户态/内核态"
+      ],
+      "chapter": "系统结构与用户态/内核态",
+      "knowledge_points": [
+        "系统结构与用户态/内核态"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "overview",
+          "topic": "系统结构与用户态/内核态",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-f3aac3b4905e6cbbcce6",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "发出系统调用请求和完成系统调用处理分别在哪个态？",
+      "answer_markdown": "发出请求在用户态；执行内核服务、权限检查和资源操作在内核态。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "系统结构与用户态/内核态"
+      ],
+      "chapter": "系统结构与用户态/内核态",
+      "knowledge_points": [
+        "系统结构与用户态/内核态"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "overview",
+          "topic": "系统结构与用户态/内核态",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-cfec7e7dda9e0aec3d60",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "在采用非抢占调度方式时，可能会**引起进程调度**的因素有哪些？",
+      "answer_markdown": "①正在执行的**进程运行完毕**，或执行**yield 系统调用主动释放处理机资源**；\n\n②正在执行的进程因提出**IO 请求** 而暂停执行；\n\n③在进程通信或同步过程中执行了**某种原语操作**，如 Block 原语。\n\n非抢占调度方式的**优点是实现简单、系统开销小**，其适用于大多数批处理系统。但它不能用于分时系统和大多数实时系统",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "系统结构与用户态/内核态",
+        "进程、线程与 PCB",
+        "调度层次、时机与算法",
+        "死锁条件、银行家算法与检测解除",
+        "磁盘初始化、引导与磁盘调度"
+      ],
+      "chapter": "系统结构与用户态/内核态",
+      "knowledge_points": [
+        "系统结构与用户态/内核态",
+        "进程、线程与 PCB",
+        "调度层次、时机与算法",
+        "死锁条件、银行家算法与检测解除",
+        "磁盘初始化、引导与磁盘调度"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "overview",
+          "topic": "系统结构与用户态/内核态",
+          "index": 2,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "process-thread",
+          "topic": "进程、线程与 PCB",
+          "index": 3,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "scheduling",
+          "topic": "调度层次、时机与算法",
+          "index": 4,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "deadlock",
+          "topic": "死锁条件、银行家算法与检测解除",
+          "index": 3,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "disk-ssd",
+          "topic": "磁盘初始化、引导与磁盘调度",
+          "index": 4,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-0bd103d2c41daf2bd6f7",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "为什么关中断权限不能交给**用户级程序**？",
+      "answer_markdown": "- 当一个进程关中断以后，不再开中断，系统会因此终止",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "系统结构与用户态/内核态",
+        "进程、线程与 PCB",
+        "临界区、软件法与硬件原子指令"
+      ],
+      "chapter": "系统结构与用户态/内核态",
+      "knowledge_points": [
+        "系统结构与用户态/内核态",
+        "进程、线程与 PCB",
+        "临界区、软件法与硬件原子指令"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "overview",
+          "topic": "系统结构与用户态/内核态",
+          "index": 3,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "process-thread",
+          "topic": "进程、线程与 PCB",
+          "index": 4,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "sync-mutual",
+          "topic": "临界区、软件法与硬件原子指令",
+          "index": 2,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-cb5bb9ae594e12f50d21",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "什么时候用到系统调用？",
+      "answer_markdown": "![[Pasted image 20260421151011.png]]",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "系统结构与用户态/内核态"
+      ],
+      "chapter": "系统结构与用户态/内核态",
+      "knowledge_points": [
+        "系统结构与用户态/内核态"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {
+        "analysis": {
+          "file": "zhijing408-short-cb5bb9ae594e12f50d21-analysis.webp",
+          "sha256": "37054081ce121e6b3d58a45a91373c31e197d7af01276ad606fe111178fc855e"
+        }
+      },
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "overview",
+          "topic": "系统结构与用户态/内核态",
+          "index": 4,
+          "source": null
+        }
+      ],
+      "analysis_source_document_id": "source-zhijing408"
+    },
+    {
+      "id": "zhijing408-short-a93bdc0ecc8a2f537532",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "同一进程内线程切换时，哪些会切换，哪些不会？",
+      "answer_markdown": "会切换寄存器上下文和线程栈；不会切换地址空间，因为同一进程的线程共享页表和进程资源。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "进程、线程与 PCB"
+      ],
+      "chapter": "进程、线程与 PCB",
+      "knowledge_points": [
+        "进程、线程与 PCB"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "process-thread",
+          "topic": "进程、线程与 PCB",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-ca3a85a911620e95278c",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "用户程序能否直接访问自身 PCB？",
+      "answer_markdown": "不能。PCB 位于内核空间，且包含状态、优先级、资源分配等关键控制信息，只能由操作系统读写。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "进程、线程与 PCB"
+      ],
+      "chapter": "进程、线程与 PCB",
+      "knowledge_points": [
+        "进程、线程与 PCB"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "process-thread",
+          "topic": "进程、线程与 PCB",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-c951c406c18a2340b95f",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "时间片大小可以变化吗？",
+      "answer_markdown": "在多级反馈队列调度中，不同队列的进程可以拥有不同的时间片大小，并且系统也可能根据运行情况**动态调整时间片的大小**以优化性能",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "进程、线程与 PCB",
+        "调度层次、时机与算法",
+        "磁盘初始化、引导与磁盘调度"
+      ],
+      "chapter": "进程、线程与 PCB",
+      "knowledge_points": [
+        "进程、线程与 PCB",
+        "调度层次、时机与算法",
+        "磁盘初始化、引导与磁盘调度"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "process-thread",
+          "topic": "进程、线程与 PCB",
+          "index": 2,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "scheduling",
+          "topic": "调度层次、时机与算法",
+          "index": 3,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "disk-ssd",
+          "topic": "磁盘初始化、引导与磁盘调度",
+          "index": 3,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-a2c5a406bd9314883406",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "为什么用户态临界区可以被调度，而内核临界区通常不能？",
+      "answer_markdown": "用户态临界区只涉及用户程序自己的共享变量；内核临界区可能正在修改就绪队列、设备队列等内核数据结构，被打断会破坏系统一致性。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "调度层次、时机与算法"
+      ],
+      "chapter": "调度层次、时机与算法",
+      "knowledge_points": [
+        "调度层次、时机与算法"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "scheduling",
+          "topic": "调度层次、时机与算法",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-9ac9e827f42fb05e25f9",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "优先级调度下就绪队列用什么结构更合适？",
+      "answer_markdown": "优先级队列，常用堆实现。插入和取最高优先级进程比普通链表更高效。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "调度层次、时机与算法"
+      ],
+      "chapter": "调度层次、时机与算法",
+      "knowledge_points": [
+        "调度层次、时机与算法"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "scheduling",
+          "topic": "调度层次、时机与算法",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-dafa1f5970a92515c2c7",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "如何减少用户请求**响应时间**？",
+      "answer_markdown": "- 采用抢占式优先级调度",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "调度层次、时机与算法",
+        "磁盘初始化、引导与磁盘调度"
+      ],
+      "chapter": "调度层次、时机与算法",
+      "knowledge_points": [
+        "调度层次、时机与算法",
+        "磁盘初始化、引导与磁盘调度"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "scheduling",
+          "topic": "调度层次、时机与算法",
+          "index": 2,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "disk-ssd",
+          "topic": "磁盘初始化、引导与磁盘调度",
+          "index": 2,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-8a89e88d55c7c7aa39b1",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "双标志先检查法为什么可能两个进程同时进入临界区？",
+      "answer_markdown": "因为“检查对方意愿”和“设置自己意愿”不是原子操作，两个进程可能都先看到对方 flag 为 false，然后都进入临界区。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "临界区、软件法与硬件原子指令"
+      ],
+      "chapter": "临界区、软件法与硬件原子指令",
+      "knowledge_points": [
+        "临界区、软件法与硬件原子指令"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "sync-mutual",
+          "topic": "临界区、软件法与硬件原子指令",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-7ea4393eba899d1c90cb",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "TAS/Swap 实现互斥的共同缺点是什么？",
+      "answer_markdown": "拿不到锁的进程会自旋忙等，持续占用 CPU，违反让权等待，并可能造成饥饿。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "临界区、软件法与硬件原子指令"
+      ],
+      "chapter": "临界区、软件法与硬件原子指令",
+      "knowledge_points": [
+        "临界区、软件法与硬件原子指令"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "sync-mutual",
+          "topic": "临界区、软件法与硬件原子指令",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-7bcb70dce650059dae50",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "硬件指令实现互斥的**优点**是什么？",
+      "answer_markdown": "1. 原子性\n2. 适用于多处理器系统\n3. 简单高效\n4. 支持系统有多个临界区",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "临界区、软件法与硬件原子指令"
+      ],
+      "chapter": "临界区、软件法与硬件原子指令",
+      "knowledge_points": [
+        "临界区、软件法与硬件原子指令"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "sync-mutual",
+          "topic": "临界区、软件法与硬件原子指令",
+          "index": 3,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-0087ecc3cb4a94f76740",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "硬件指令实现互斥的**缺点**是什么？",
+      "answer_markdown": "1. 进程在拿不到锁时会一直循环占用 CPU，**违反“让权等待”的准则**\n2. 随机选择进程进入临界区，有的**进程会产生饥饿**",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "临界区、软件法与硬件原子指令"
+      ],
+      "chapter": "临界区、软件法与硬件原子指令",
+      "knowledge_points": [
+        "临界区、软件法与硬件原子指令"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "sync-mutual",
+          "topic": "临界区、软件法与硬件原子指令",
+          "index": 4,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-835659482fb7efc25d9c",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "为什么生产者要先 P(empty) 再 P(mutex)？",
+      "answer_markdown": "先确认缓冲区有空位，再进入临界区操作缓冲区。若先占 mutex 后等待 empty，可能阻塞消费者进入临界区释放空位，造成死锁风险。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "信号量、PV 与经典同步题"
+      ],
+      "chapter": "信号量、PV 与经典同步题",
+      "knowledge_points": [
+        "信号量、PV 与经典同步题"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "semaphore",
+          "topic": "信号量、PV 与经典同步题",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-579db3faac1907c9dfc5",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "记录型信号量 S.value=-3 表示什么？",
+      "answer_markdown": "资源已经分配完，并且有 3 个进程正在等待该资源。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "信号量、PV 与经典同步题"
+      ],
+      "chapter": "信号量、PV 与经典同步题",
+      "knowledge_points": [
+        "信号量、PV 与经典同步题"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "semaphore",
+          "topic": "信号量、PV 与经典同步题",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-8e5f564bf35968c2f8c7",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "共享内存需要配合什么机制使用？",
+      "answer_markdown": "同步互斥机制（如信号量）。防止多个进程同时写导致数据混乱。\n消息传递系统\n进程通过格式化的消息进行通信，分为以下两种：\n1.直接通信：直接发给接受进程\n2.间接通信：通过中间信箱\n特点：\n由内核态负责消息的传递和缓存，安全性高\n管道系统 (Pipe)\n本质：\n是一个固定大小的内核缓冲区（通常为 4KB 或页大小）。\n特点：\n1.它采用半双工通信，遵循 FIFO（先进先出）原则。\n2.匿名管道通常用于具有亲缘关系的进程。\n进程五状态模型\n打\n开\n文\n件\n用户级打开文件表\n每个进程都有自己的独立的一张表\n核心内容：\n1.fd：文件描述符，一个整数索引\n2.系统表索引：指向“系统级打开\n文件表”中对应的项\n3.文件指针：记录当前进程读/写到了\n文件的哪个位置。\n系统级打开文件表\n整个操作系统内核只有一张\n内容：\n1.inode 号：指向该文件在磁盘或内存中的元数据。\n2.访问计数 ：记录当前有几个进程打开了该文件。\n3.缓存地址 & 其它信息：如文件的状态（只读、读写等）。\n路径解析\n文件描述符fd\n本质上就是“用户级打开文件表”的一个下标（索引），\n告诉系统，这个 fd 最终对应的是系统里的哪一个\n打开文件。\n特点：\n1.用户私有性\n2.隔离性，进程A的fd2和进程B的fd2互不干扰\n文\n件\n读\n写\n将fd所指向的打开文件的128B数据读入buffer\n修改fd对应打开文件表项的文件指针为51548B\n注：buffer是在用户态提前申请的内存空间，\n用于将内核缓冲区的数据拷贝到这里\n具体操作图",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "信号量、PV 与经典同步题",
+        "目录、打开文件表、链接与 VFS",
+        "I/O 控制方式、软件层次与缓冲区"
+      ],
+      "chapter": "信号量、PV 与经典同步题",
+      "knowledge_points": [
+        "信号量、PV 与经典同步题",
+        "目录、打开文件表、链接与 VFS",
+        "I/O 控制方式、软件层次与缓冲区"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "semaphore",
+          "topic": "信号量、PV 与经典同步题",
+          "index": 2,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "directory-open-file",
+          "topic": "目录、打开文件表、链接与 VFS",
+          "index": 3,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "io-buffer",
+          "topic": "I/O 控制方式、软件层次与缓冲区",
+          "index": 4,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-dc22edb479f0377da56e",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "安全状态、不安全状态、死锁状态三者关系是什么？",
+      "answer_markdown": "安全状态一定不会死锁；不安全状态可能发展为死锁但不一定已经死锁；死锁状态一定是不安全状态。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "死锁条件、银行家算法与检测解除"
+      ],
+      "chapter": "死锁条件、银行家算法与检测解除",
+      "knowledge_points": [
+        "死锁条件、银行家算法与检测解除"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "deadlock",
+          "topic": "死锁条件、银行家算法与检测解除",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-a811ab730dc1082e1b86",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "银行家算法中 Need 如何计算？",
+      "answer_markdown": "Need[i][j] = Max[i][j] - Allocation[i][j]。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "死锁条件、银行家算法与检测解除"
+      ],
+      "chapter": "死锁条件、银行家算法与检测解除",
+      "knowledge_points": [
+        "死锁条件、银行家算法与检测解除"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "deadlock",
+          "topic": "死锁条件、银行家算法与检测解除",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-770a02940f5d5d76374a",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "多道程序系统需解决的问题",
+      "answer_markdown": "1. **争用处理机**问题：系统既要能满足各道程序运行的需要，又要能提高处理机的利用率。\n2. **内存分配与保护**问题：系统应能为每道程序分配必要的内存空间，以使它们“各得其所”，且不会因某道程序出现异常情况而破坏其他程序。\n3. **I/O设备分配**问题：系统应采取适当的策略来分配系统中的IO设备，以达到既能方便用户对设备的使用，又能提高设备利用率的目的。\n4. **文件的组织与管理**问题：系统应能有效地组织存放在系统中的大量程序和数据，以使它们既便于用户使用，又能保证数据的安全性。\n5. **作业管理**问题：系统中存在着各种作业(应用程序)，系统应能对系统中所有的作业进行合理的组织，以满足这些作业对应用户的不同要求。\n6. **用户与系统的接口**问题：为使用户能方便地使用OS，OS还应提供用户与OS之间的接口。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "死锁条件、银行家算法与检测解除",
+        "文件逻辑结构与物理分配",
+        "I/O 控制方式、软件层次与缓冲区"
+      ],
+      "chapter": "死锁条件、银行家算法与检测解除",
+      "knowledge_points": [
+        "死锁条件、银行家算法与检测解除",
+        "文件逻辑结构与物理分配",
+        "I/O 控制方式、软件层次与缓冲区"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "deadlock",
+          "topic": "死锁条件、银行家算法与检测解除",
+          "index": 2,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "filesystem",
+          "topic": "文件逻辑结构与物理分配",
+          "index": 2,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "io-buffer",
+          "topic": "I/O 控制方式、软件层次与缓冲区",
+          "index": 2,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-06de6035f1e386aef867",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "用户程序能否访问自身的 PCB？为什么？",
+      "answer_markdown": "不能，1.PCB 存放在操作系统内核空间中。用户程序运行在用户态，无法直接访问内核地址空间；\n2.PCB 包含了进程的优先级、状态、资源分配等关键控制信息。允许用户程序直接修改自身PCB\n会引发系统崩溃和调度失衡；\n3.PCB只有操作系统才能读写；",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "死锁条件、银行家算法与检测解除",
+        "文件逻辑结构与物理分配"
+      ],
+      "chapter": "死锁条件、银行家算法与检测解除",
+      "knowledge_points": [
+        "死锁条件、银行家算法与检测解除",
+        "文件逻辑结构与物理分配"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "deadlock",
+          "topic": "死锁条件、银行家算法与检测解除",
+          "index": 4,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "filesystem",
+          "topic": "文件逻辑结构与物理分配",
+          "index": 3,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-55f31ba17317f2ae59bf",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "页表项中为什么通常不需要存页号？",
+      "answer_markdown": "页号由页表项在页表中的位置隐含表示，查表时用页号作为索引，所以表项主要保存物理块号、有效位、权限位等。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "装入、重定位、分页分段与段页式"
+      ],
+      "chapter": "装入、重定位、分页分段与段页式",
+      "knowledge_points": [
+        "装入、重定位、分页分段与段页式"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "memory",
+          "topic": "装入、重定位、分页分段与段页式",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-965f30504007f85fd974",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "动态重定位依赖什么硬件？",
+      "answer_markdown": "依赖 MMU 和重定位寄存器或基址寄存器，在 CPU 访问内存时完成逻辑地址到物理地址的转换。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "装入、重定位、分页分段与段页式"
+      ],
+      "chapter": "装入、重定位、分页分段与段页式",
+      "knowledge_points": [
+        "装入、重定位、分页分段与段页式"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "memory",
+          "topic": "装入、重定位、分页分段与段页式",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-ef6fb2a28f038da4aef5",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "同一进程的不同**线程**发生线程切换时，上下文切换、地址空间切换和堆栈切换哪些会发生？",
+      "answer_markdown": "会发生：上下文切换（寄存器状态）、堆栈切换（每个线程有独立的栈）。\n不会发生：地址空间切换。\n原因：同一进程内的线程共享同一份页表（地址空间）。线程切换不需要更换 PTR 指针，\n因此不涉及 TLB（快照）的大规模失效，这也是线程切换比进程切换快的主要原因。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "装入、重定位、分页分段与段页式"
+      ],
+      "chapter": "装入、重定位、分页分段与段页式",
+      "knowledge_points": [
+        "装入、重定位、分页分段与段页式"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "memory",
+          "topic": "装入、重定位、分页分段与段页式",
+          "index": 2,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-95a025cc94326ee971df",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "若根页表总是占用一个完整的页框，则 PCB 中保存的 PTR 的值可以做哪种优化？",
+      "answer_markdown": "优化方案：只保存物理页框号（PFN），而不保存低位的偏移量。\n原理：既然根页表对齐并占满一个 4KB 的页框，其物理地址的低 12 位（对于 4KB 页）必然全是 0。\n在 PCB 中只需存储高位地址，加载到 PTR 寄存器时再自动补 0，这样可以节省 PCB 的存储空间。\nPTR (Page Table Register）\n页表基址寄存器\n定义：PTR 是 CPU 内部的一个专用寄存器，\n用于存放当前运行进程的页表在内存中\n的起始物理地址。\n堆（heap）\n逻辑上一棵树，物理上一个数组。\n逻辑上：\n1.必须是完全二叉树\n2.只保证父子之间的偏序关系\na.大顶堆：父节点值大于等于孩子结点值\nb.小顶堆：父节点值小于等于孩子结点值",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "装入、重定位、分页分段与段页式"
+      ],
+      "chapter": "装入、重定位、分页分段与段页式",
+      "knowledge_points": [
+        "装入、重定位、分页分段与段页式"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "memory",
+          "topic": "装入、重定位、分页分段与段页式",
+          "index": 3,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-c9f4a87f73fea63607ce",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "建立共享内存的操作在什么态下完成？",
+      "answer_markdown": "内核态。涉及页表修改和内存分配，必须由系统调用完成。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "装入、重定位、分页分段与段页式"
+      ],
+      "chapter": "装入、重定位、分页分段与段页式",
+      "knowledge_points": [
+        "装入、重定位、分页分段与段页式"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "memory",
+          "topic": "装入、重定位、分页分段与段页式",
+          "index": 4,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-3b4c55cbd3b4c468471d",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "改进型 Clock 为什么要看修改位 M？",
+      "answer_markdown": "M=0 的页换出时无需写回外存，优先淘汰未访问且未修改的页可以减少写回开销。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "请求分页、缺页中断与页面置换"
+      ],
+      "chapter": "请求分页、缺页中断与页面置换",
+      "knowledge_points": [
+        "请求分页、缺页中断与页面置换"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "virtual-memory",
+          "topic": "请求分页、缺页中断与页面置换",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-fa73c493176eee721b32",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "Belady 现象主要出现在哪个算法？",
+      "answer_markdown": "主要出现在 FIFO 页面置换算法中，表现为页框数增加反而缺页次数增加。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "请求分页、缺页中断与页面置换"
+      ],
+      "chapter": "请求分页、缺页中断与页面置换",
+      "knowledge_points": [
+        "请求分页、缺页中断与页面置换"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "virtual-memory",
+          "topic": "请求分页、缺页中断与页面置换",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-f5c4ac78fa5870f2876a",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "为什么连续分配在文件追加一块时可能磁盘 I/O 操作最多？",
+      "answer_markdown": "如果后续连续空间已被占用，必须把整个文件搬迁到新的连续空闲区，涉及大量读写。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "文件逻辑结构与物理分配"
+      ],
+      "chapter": "文件逻辑结构与物理分配",
+      "knowledge_points": [
+        "文件逻辑结构与物理分配"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "filesystem",
+          "topic": "文件逻辑结构与物理分配",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-eac6ec011c6397991e40",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "二级索引读取一个数据块通常要几次磁盘访问？",
+      "answer_markdown": "若根目录或 inode 已在内存，通常访问一级索引块、二级索引块、数据块，共 3 次。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "文件逻辑结构与物理分配"
+      ],
+      "chapter": "文件逻辑结构与物理分配",
+      "knowledge_points": [
+        "文件逻辑结构与物理分配"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "filesystem",
+          "topic": "文件逻辑结构与物理分配",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-858d85087ae355d7e058",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "所有位于阻塞态的进程是否应该位于同一个阻塞队列中？为什么？",
+      "answer_markdown": "不应该，通常会设立多个不同的阻塞队列：\n1.阻塞原因的多样性：进程进入阻塞态的原因各不相同\n2.如果只有一个队列，当“磁盘 I/O”完成时，操作系统必须遍历整个长队列来\n寻找哪个进程在等这个 I/O，效率极低\n3.通过将 PCB 分配到不同的资源等待队列中，操作系统能更精准地管理硬件资源\n与进程之间的对应关系。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "文件逻辑结构与物理分配",
+        "I/O 控制方式、软件层次与缓冲区"
+      ],
+      "chapter": "文件逻辑结构与物理分配",
+      "knowledge_points": [
+        "文件逻辑结构与物理分配",
+        "I/O 控制方式、软件层次与缓冲区"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "filesystem",
+          "topic": "文件逻辑结构与物理分配",
+          "index": 4,
+          "source": null
+        },
+        {
+          "subject": "os",
+          "topic_id": "io-buffer",
+          "topic": "I/O 控制方式、软件层次与缓冲区",
+          "index": 3,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-be39e2ca12ba4cb47dd7",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "为什么进程 A 的 fd=3 和进程 B 的 fd=3 可以指向不同文件？",
+      "answer_markdown": "fd 是各自进程级打开文件表的下标；不同进程有独立的打开文件表，同一个下标对应的系统级表项可以不同。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "目录、打开文件表、链接与 VFS"
+      ],
+      "chapter": "目录、打开文件表、链接与 VFS",
+      "knowledge_points": [
+        "目录、打开文件表、链接与 VFS"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "directory-open-file",
+          "topic": "目录、打开文件表、链接与 VFS",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-6358803ca1dfbb43cac3",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "硬链接和软链接的本质差别是什么？",
+      "answer_markdown": "硬链接是多个目录项指向同一个 inode；软链接是一个保存目标路径的小文件。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "目录、打开文件表、链接与 VFS"
+      ],
+      "chapter": "目录、打开文件表、链接与 VFS",
+      "knowledge_points": [
+        "目录、打开文件表、链接与 VFS"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "directory-open-file",
+          "topic": "目录、打开文件表、链接与 VFS",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-52572729b401e34a5085",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "为什么不同进程 fd 可能相同？",
+      "answer_markdown": "进程 A 的 fd=3 和进程 B 的 fd=3 指向的\n是各自 PCB 里的表项，它们在逻辑上独立，\n但在系统级表中可能指向同一个物理文件.\n文件描述符fd\n1.系统级打开文件表存储在系统内核中\n主要包含：文件的物理位置（Inode 副本）、\n引用计数 、文件当前读写的偏移量 。\n全系统只有一张，记录了当前所有进程打开\n的所有文件\n2.进程级打开文件表主要包含：\n文件描述符 (fd)、指向系统级表项的指针、\n进程对该文件的读写权限等。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "目录、打开文件表、链接与 VFS"
+      ],
+      "chapter": "目录、打开文件表、链接与 VFS",
+      "knowledge_points": [
+        "目录、打开文件表、链接与 VFS"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "directory-open-file",
+          "topic": "目录、打开文件表、链接与 VFS",
+          "index": 2,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-b5e4021efff43c7cd281",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "为了提高连续结构查找效率，快速定位数据块，应该在FCB设计哪些描述字段？",
+      "answer_markdown": "增加字段<起始块号，块数>，<起始块号，结束块号>\n进程管理管理初始化\n1.建立PCB：在内存中划分区域存放PCB\n2.创建0号进程：只有0号进程由系统创立，后续进程由它派生\na.0号进程职责是在无任务时让CPU处于空转状态\n3.初始化调度程序：\na.确定调度算法\nb.启动系统时钟，没隔一段时间触发一次中断，便于CPU\n调度进程\n组成：1.线程ID；2.程序计数器；3.寄存器集合；4.堆栈\n性质：\n1.是被系统独立调度的基本单位\n2.除线程运行所需必要资源，线程自己不拥有系统资源\n3.一个线程可以创建和撤销另一个线程\n4.线程的栈是线程私有的内存空间，线程之间不能共享内存空间\n5.同一进程所属的线程共享进程资源\n6.同一进程的线程之间并发运行，提高系统资源利用效率和吞吐量\n7.线程有运行态、就绪态、阻塞态三种状态\n线程\nOS 初始化完成的工作有：\n 初始化中断机制：设置中断向量表并注册中断服务程序，设置 IF 位（启用中断） \n 初始化内存管理系统：建立页/段表、开启虚拟内存、地址转换机制（MMU）、内存分配机制\n 初始化定时器和时钟中断\n 初始化内核数据结构：如就绪队列、内核缓存、系统调用表、设备驱动管理表\n 初始化设备驱动：探测硬件和注册对应驱动函数、供内核调用\n 初始化 VFS 层（虚拟文件系统），注册各类具体文件系统（读取超级块等）、挂载根文件系统\n 创建首个进程（如 init()）\n引导装入程序\n引导程序\n死锁",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "目录、打开文件表、链接与 VFS"
+      ],
+      "chapter": "目录、打开文件表、链接与 VFS",
+      "knowledge_points": [
+        "目录、打开文件表、链接与 VFS"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "directory-open-file",
+          "topic": "目录、打开文件表、链接与 VFS",
+          "index": 4,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-0d68ec22d32b99562779",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "DMA 传输中 CPU 主要做什么？",
+      "answer_markdown": "CPU 初始化 DMA 控制器参数，启动传输；数据搬运由 DMA 控制器完成，结束后通常通过中断通知 CPU。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "I/O 控制方式、软件层次与缓冲区"
+      ],
+      "chapter": "I/O 控制方式、软件层次与缓冲区",
+      "knowledge_points": [
+        "I/O 控制方式、软件层次与缓冲区"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "io-buffer",
+          "topic": "I/O 控制方式、软件层次与缓冲区",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-9d4cc521875400a4b6fa",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "单缓冲和双缓冲处理一块数据的平均时间公式是什么？",
+      "answer_markdown": "单缓冲：Max(C,T)+M；双缓冲：Max(T,C+M)。T 为设备到缓冲区传输，M 为缓冲区到用户区传输，C 为 CPU 处理。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "I/O 控制方式、软件层次与缓冲区"
+      ],
+      "chapter": "I/O 控制方式、软件层次与缓冲区",
+      "knowledge_points": [
+        "I/O 控制方式、软件层次与缓冲区"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "io-buffer",
+          "topic": "I/O 控制方式、软件层次与缓冲区",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-fe9fabe311f673c093ef",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "MBR 和 PBR 在引导过程中的分工是什么？",
+      "answer_markdown": "MBR 负责跨分区选择和引导入口，PBR 负责本分区内操作系统内核或引导程序的加载。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "磁盘初始化、引导与磁盘调度"
+      ],
+      "chapter": "磁盘初始化、引导与磁盘调度",
+      "knowledge_points": [
+        "磁盘初始化、引导与磁盘调度"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "disk-ssd",
+          "topic": "磁盘初始化、引导与磁盘调度",
+          "index": 0,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-ce5d3293621870461935",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "SSTF 相比 FCFS 的优势和问题是什么？",
+      "answer_markdown": "优势是平均寻道距离通常更短；问题是远处请求可能长期得不到服务，存在饥饿风险。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "操作系统",
+        "自测简答题",
+        "磁盘初始化、引导与磁盘调度"
+      ],
+      "chapter": "磁盘初始化、引导与磁盘调度",
+      "knowledge_points": [
+        "磁盘初始化、引导与磁盘调度"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "os",
+          "topic_id": "disk-ssd",
+          "topic": "磁盘初始化、引导与磁盘调度",
+          "index": 1,
+          "source": null
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-b1ad3afd834e087ebc0e",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "1. n 个结点且高度为 n 的二叉树有多少种？",
+      "answer_markdown": "2. 高度达到最大的 n 结点二叉树有多少种？",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "数据结构",
+        "自测简答题",
+        "树",
+        "查找"
+      ],
+      "chapter": "树",
+      "knowledge_points": [
+        "树",
+        "查找"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "ds",
+          "topic_id": "ds-树-ds-common-637",
+          "topic": "树",
+          "index": 0,
+          "source": "SRC-007"
+        },
+        {
+          "subject": "ds",
+          "topic_id": "ds-查找-ds-common-1420",
+          "topic": "查找",
+          "index": 0,
+          "source": "SRC-007"
+        },
+        {
+          "subject": "ds",
+          "topic_id": "ds-树-ds-map-166",
+          "topic": "树",
+          "index": 0,
+          "source": "SRC-007"
+        },
+        {
+          "subject": "ds",
+          "topic_id": "ds-树-ds-mindmap-171",
+          "topic": "树",
+          "index": 0,
+          "source": "SRC-007"
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-ff508f3d2eb0aecde96c",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "总线事务分离**方式是什么？",
+      "answer_markdown": "CPU 将**设备地址**给到**总线控制部件**后就**放弃总线控制权**。当设备准备好数据后，申请总线控制权进行数据传输。在设备准备数据期间**总线**可以被其他部件使用",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "计算机组成原理",
+        "自测简答题",
+        "计组基础考点",
+        "1CPU内部构成",
+        "总线"
+      ],
+      "chapter": "计组基础考点",
+      "knowledge_points": [
+        "计组基础考点",
+        "1CPU内部构成",
+        "总线"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "co",
+          "topic_id": "co-计组基础考点-co-common-1",
+          "topic": "计组基础考点",
+          "index": 0,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-1CPU内部构成-co-common-1077",
+          "topic": "1CPU内部构成",
+          "index": 3,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-总线-co-common-1198",
+          "topic": "总线",
+          "index": 3,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-计组基础考点-co-mindmap-6",
+          "topic": "计组基础考点",
+          "index": 0,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-1CPU内部构成-co-mindmap-1080",
+          "topic": "1CPU内部构成",
+          "index": 3,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-总线-co-mindmap-1201",
+          "topic": "总线",
+          "index": 3,
+          "source": "SRC-004"
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-ef026475b4c5bf55def3",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "为什么**单周期处理器**需要**多总线数据通路**？",
+      "answer_markdown": "总线频率和工作频率的关系？\n总线工作频率，即**单位时间内传输数据的次数**，早期的总线通常一个时钟周期传送一次数据，因此总线工作频率等于总线时钟频率。现在有些总线一个时钟周期可以传送 2 次或 4 次据，因此，总线工作频率是总线时钟频率的 2 倍或4 倍",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "计算机组成原理",
+        "自测简答题",
+        "计组基础考点",
+        "1CPU内部构成",
+        "总线"
+      ],
+      "chapter": "计组基础考点",
+      "knowledge_points": [
+        "计组基础考点",
+        "1CPU内部构成",
+        "总线"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "co",
+          "topic_id": "co-计组基础考点-co-common-1",
+          "topic": "计组基础考点",
+          "index": 1,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-1CPU内部构成-co-common-1077",
+          "topic": "1CPU内部构成",
+          "index": 4,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-总线-co-common-1198",
+          "topic": "总线",
+          "index": 4,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-计组基础考点-co-mindmap-6",
+          "topic": "计组基础考点",
+          "index": 1,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-1CPU内部构成-co-mindmap-1080",
+          "topic": "1CPU内部构成",
+          "index": 4,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-总线-co-mindmap-1201",
+          "topic": "总线",
+          "index": 4,
+          "source": "SRC-004"
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-785859722dd4e4ebabb9",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "中断隐指令是什么？",
+      "answer_markdown": "中断隐指令指的是中断响应期间一系列**硬件操作的总称**，不是实际上的机器指令，没有具象化的操作码和地址码，它是一个虚构的概念[[计组常用知识#计组基础考点#中断处理过程：]]",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "计算机组成原理",
+        "自测简答题",
+        "计组基础考点"
+      ],
+      "chapter": "计组基础考点",
+      "knowledge_points": [
+        "计组基础考点"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "co",
+          "topic_id": "co-计组基础考点-co-common-1",
+          "topic": "计组基础考点",
+          "index": 2,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-计组基础考点-co-mindmap-6",
+          "topic": "计组基础考点",
+          "index": 2,
+          "source": "SRC-004"
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-7023298dd9bb4e7fbabe",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "多重中断**的流程是什么？",
+      "answer_markdown": "1. **中断响应**\n2. **中断隐指令**：\n- 关中断\n- 保存断点（PC、PSW内容）\n- 引出中断服务程序\n3. **准备阶段**：\n- 保存现场和旧中断屏蔽字\n- 设置新中断屏蔽字\n- 开中断\n4. **执行具体中断服务程序**\n5. **恢复阶段**\n- 关中断\n- 恢复现场和旧中断屏蔽字\n- 清除中断服务请求\n- 开中断\n- 返回",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "计算机组成原理",
+        "自测简答题",
+        "计组基础考点"
+      ],
+      "chapter": "计组基础考点",
+      "knowledge_points": [
+        "计组基础考点"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "co",
+          "topic_id": "co-计组基础考点-co-common-1",
+          "topic": "计组基础考点",
+          "index": 3,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-计组基础考点-co-mindmap-6",
+          "topic": "计组基础考点",
+          "index": 3,
+          "source": "SRC-004"
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-12d8b3d5df1273e6d7d8",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "并行总线**和**串行总线**的速度谁快？",
+      "answer_markdown": "并行总线可以同时传输多个数据，但数据之间必须同步，而且因为数据线多，使得**相互间干扰大**，因而，数据传输的速度受到很大影响。对于串行传输的总线，高时钟速度比并行传输总线容易得多，且**几乎没有线间串扰**。因而**串行传输总线的速度可以比并行传输总线快得多**。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "计算机组成原理",
+        "自测简答题",
+        "1CPU内部构成",
+        "总线"
+      ],
+      "chapter": "1CPU内部构成",
+      "knowledge_points": [
+        "1CPU内部构成",
+        "总线"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "co",
+          "topic_id": "co-1CPU内部构成-co-common-1077",
+          "topic": "1CPU内部构成",
+          "index": 0,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-总线-co-common-1198",
+          "topic": "总线",
+          "index": 0,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-1CPU内部构成-co-mindmap-1080",
+          "topic": "1CPU内部构成",
+          "index": 0,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-总线-co-mindmap-1201",
+          "topic": "总线",
+          "index": 0,
+          "source": "SRC-004"
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-7f3a3b7107b97bee5428",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "异步总线**和**同步总线**的区别？",
+      "answer_markdown": "同步总线采用统一的时钟信号进行同步，而异步总线不使用统一时钟，采用握手信号进行通信",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "计算机组成原理",
+        "自测简答题",
+        "1CPU内部构成",
+        "总线"
+      ],
+      "chapter": "1CPU内部构成",
+      "knowledge_points": [
+        "1CPU内部构成",
+        "总线"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "co",
+          "topic_id": "co-1CPU内部构成-co-common-1077",
+          "topic": "1CPU内部构成",
+          "index": 1,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-总线-co-common-1198",
+          "topic": "总线",
+          "index": 1,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-1CPU内部构成-co-mindmap-1080",
+          "topic": "1CPU内部构成",
+          "index": 1,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-总线-co-mindmap-1201",
+          "topic": "总线",
+          "index": 1,
+          "source": "SRC-004"
+        }
+      ]
+    },
+    {
+      "id": "zhijing408-short-ab17d20d18f18c881052",
+      "type": "short_answer",
+      "subject": "计算机408",
+      "question_bank_id": "bank-computer-408",
+      "stem_markdown": "数据/地址总线复用技术**是什么？",
+      "answer_markdown": "采用数据/地址总线复用技术，总线**保留数据线**，**地址经过数据线传输**。因为地址线通常是单向的，且一般**地址线宽度**小于**数据线**，所以通常保留数据线。",
+      "analysis_markdown": "来源：智镜408知识点自测简答题。保留原始答案，请自行核对。",
+      "options": [],
+      "scoring_points": [],
+      "tags": [
+        "计算机组成原理",
+        "自测简答题",
+        "1CPU内部构成",
+        "总线"
+      ],
+      "chapter": "1CPU内部构成",
+      "knowledge_points": [
+        "1CPU内部构成",
+        "总线"
+      ],
+      "difficulty": "medium",
+      "score": 5,
+      "review_status": "approved",
+      "created_at": "2026-10-09T15:20:30.723294+00:00",
+      "updated_at": "2026-10-09T15:20:30.723294+00:00",
+      "previews": {},
+      "origins": [
+        {
+          "subject": "co",
+          "topic_id": "co-1CPU内部构成-co-common-1077",
+          "topic": "1CPU内部构成",
+          "index": 2,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-总线-co-common-1198",
+          "topic": "总线",
+          "index": 2,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-1CPU内部构成-co-mindmap-1080",
+          "topic": "1CPU内部构成",
+          "index": 2,
+          "source": "SRC-004"
+        },
+        {
+          "subject": "co",
+          "topic_id": "co-总线-co-mindmap-1201",
+          "topic": "总线",
+          "index": 2,
+          "source": "SRC-004"
+        }
+      ]
+    }
+  ],
+  "image_count": 1
+}

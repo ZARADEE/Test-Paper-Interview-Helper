@@ -55,7 +55,9 @@ def export_docx(paper: dict[str, Any], variant: str, target: Path) -> None:
             question_width, _ = fit_image_size(question_image, 6.3, 8.5)
             document.add_picture(io.BytesIO(question_image), width=Inches(question_width))
         else:
-            document.add_paragraph("原题图片不可用，未导出识别文字。")
+            document.add_paragraph(plain_formula_text(question.get("stem_markdown", "")))
+            for option in question.get("options", []):
+                document.add_paragraph(f"{option['key']}. {plain_formula_text(option['text'])}")
         if variant == "answer":
             analysis_image = source_preview(question, "analysis")
             if analysis_image:
@@ -154,7 +156,9 @@ def export_pdf(paper: dict[str, Any], variant: str, target: Path) -> None:
         if question_image:
             flowables.append(image_flowable(question_image))
         else:
-            flowables.append(Paragraph("原题图片不可用，未导出识别文字。", body))
+            flowables.append(Paragraph(safe_markup(question.get("stem_markdown", "")), body))
+            for option in question.get("options", []):
+                flowables.append(Paragraph(safe_markup(f"{option['key']}. {option['text']}"), body))
         if variant == "answer":
             analysis_image = source_preview(question, "analysis")
             if analysis_image:
@@ -262,7 +266,9 @@ def export_practice_pdf(
         if question_image:
             flowables.append(image_flowable(question_image))
         else:
-            flowables.append(Paragraph("原题图片不可用，未导出识别文字。", body))
+            flowables.append(Paragraph(safe_markup(question.get("stem_markdown", "")), body))
+            for option in question.get("options", []):
+                flowables.append(Paragraph(safe_markup(f"{option['key']}. {option['text']}"), body))
         flowables.append(
             Paragraph(
                 f"<b>你的答案：</b>{html.escape(', '.join(attempt.get('selected_options', [])))}"

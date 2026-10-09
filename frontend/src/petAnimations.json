@@ -1,0 +1,94 @@
+{
+  "maid": {
+    "idle": {
+      "bounds": [
+        39,
+        45,
+        216,
+        244
+      ],
+      "durationMs": 10050,
+      "medianBodyHeight": 199,
+      "scale": 0.7333396710713946
+    },
+    "walk": {
+      "bounds": [
+        47,
+        42,
+        209,
+        244
+      ],
+      "durationMs": 10050,
+      "medianBodyHeight": 201,
+      "scale": 0.7333396710713946
+    },
+    "click": {
+      "bounds": [
+        26,
+        12,
+        229,
+        244
+      ],
+      "durationMs": 10050,
+      "medianBodyHeight": 200,
+      "scale": 0.7388535031847133
+    },
+    "special": {
+      "bounds": [
+        26,
+        12,
+        229,
+        244
+      ],
+      "durationMs": 10050,
+      "medianBodyHeight": 200,
+      "scale": 0.7388535031847133
+    }
+  },
+  "doro": {
+    "idle": {
+      "bounds": [
+        27,
+        70,
+        229,
+        244
+      ],
+      "durationMs": 1600,
+      "medianBodyHeight": 174.0,
+      "scale": 0.6974938861591619
+    },
+    "walk": {
+      "bounds": [
+        12,
+        48,
+        244,
+        244
+      ],
+      "durationMs": 560,
+      "medianBodyHeight": 177,
+      "scale": 1.2960893854748603
+    },
+    "click": {
+      "bounds": [
+        20,
+        70,
+        235,
+        244
+      ],
+      "durationMs": 2340,
+      "medianBodyHeight": 174.0,
+      "scale": 0.6030415890751086
+    },
+    "special": {
+      "bounds": [
+        27,
+        47,
+        228,
+        244
+      ],
+      "durationMs": 1600,
+      "medianBodyHeight": 176.0,
+      "scale": 0.6115351325832088
+    }
+  }
+}

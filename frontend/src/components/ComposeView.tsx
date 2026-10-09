@@ -1,5 +1,7 @@
 import { AlertTriangle, Check, Download, LockKeyhole, RefreshCw, Shuffle, SlidersHorizontal } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
+import { AgentDialog, getAgentSettings } from "./AgentDialog";
+import type { AgentSettings } from "../types";
 import { composePaper, exportDownloadUrl, exportPaper, getQuestions, getTemplates, questionPreviewUrl } from "../api";
 import type { Paper, PaperTemplate, Question, QuestionBank, Tag } from "../types";
 
@@ -9,7 +11,7 @@ type Props = {
   onChanged: () => void;
 };
 
-const typeLabels = { choice: "选择题", fill: "填空题", solution: "解答题" };
+const typeLabels = { choice: "选择题", fill: "填空题", solution: "解答题", short_answer: "简答题" };
 const majorTagLabels: Record<string, string> = {
   "高等数学": "高等数学",
   "线性代数": "线性代数",
@@ -26,6 +28,7 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
   const [requiredSubTag, setRequiredSubTag] = useState("");
   const [paper, setPaper] = useState<Paper | null>(null);
   const [busy, setBusy] = useState(false);
+  const [showAgent, setShowAgent] = useState(false);
   const [message, setMessage] = useState("");
 
   useEffect(() => {
@@ -79,12 +82,15 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
     [questions, requiredMajorTag]
   );
 
-  async function buildPaper(): Promise<void> {
+  async function buildPaper(settings?: AgentSettings): Promise<void> {
     if (!templateId) return;
+    const agent = settings ?? getAgentSettings();
+    if (selectedTemplate?.distribution_rules.agent_enabled && !agent) { setShowAgent(true); return; }
     setBusy(true);
     setMessage("");
     try {
       const nextPaper = await composePaper({
+        agent: selectedTemplate?.distribution_rules.agent_enabled ? agent : undefined,
         template_id: templateId,
         title,
         seed,
@@ -111,6 +117,7 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
 
   return (
     <div className="compose-layout">
+      {showAgent && <AgentDialog onClose={() => setShowAgent(false)} onConfirm={settings => { setShowAgent(false); void buildPaper(settings); }} />}
       <section className="control-column">
         <div className="section-kicker">01 / COMPOSE</div>
         <div className="panel panel-blue control-hero">
@@ -165,8 +172,9 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
               </select>
             </div>
           </label>
+          {selectedTemplate?.distribution_rules.agent_enabled && <button type="button" disabled={busy} onClick={() => setShowAgent(true)}>Agent 已开启 · 配置连接</button>}
           <button className="primary-action" onClick={() => void buildPaper()} disabled={busy || !templateId} type="button">
-            <Shuffle size={19} />{busy ? "正在组卷..." : "自动组卷"}
+            <Shuffle size={19} />{busy ? "正在组卷..." : selectedTemplate?.distribution_rules.agent_enabled ? "Agent 组卷" : "本地规则组卷"}
           </button>
           {message && <div className="notice notice-danger">{message}</div>}
         </div>
@@ -174,7 +182,7 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
         <div className="panel inventory-panel">
           <div className="panel-title"><Check size={20} />题库库存</div>
           <div className="inventory-grid">
-            {(["choice", "fill", "solution"] as const).map((type) => (
+            {(["choice", "fill", "solution", "short_answer"] as const).map((type) => (
               <div className={`inventory-chip inventory-${type}`} key={type}>
                 <span>{typeLabels[type]}</span>
                 <strong>{counts[type] ?? 0}</strong>
@@ -224,6 +232,7 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
               </div>
             </div>
             <div className="paper-sections">
+              {paper.composition && <div className="notice notice-info">{paper.composition.rationale}</div>}
               {paper.sections.map((section) => {
                 const sectionQuestions = paper.questions.filter((question) => question.section_id === section.id);
                 return (
@@ -249,7 +258,7 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
                                 />
                               </div>
                             ) : (
-                              <div className="question-image-missing">原题图片不可用，未显示识别文字。</div>
+                              <div className="question-text">{question.stem_markdown}{question.options.map(option => <p key={option.key}>{option.key}. {option.text}</p>)}</div>
                             )}
                             <div className="question-meta">
                               <span>{question.chapter || "未分类"}</span>

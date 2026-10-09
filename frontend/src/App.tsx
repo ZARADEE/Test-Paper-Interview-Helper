@@ -4,9 +4,11 @@ import { useEffect, useState } from "react";
 import { getHealth, getQuestionBanks, getTags } from "./api";
 import { ComposeView } from "./components/ComposeView";
 import { HomeDashboard } from "./components/HomeDashboard";
+import { PetTodoPanel } from "./components/PetTodoPanel";
 import { DesktopPetView } from "./components/DesktopPetView";
 import { PracticeView } from "./components/PracticeView";
 import { TemplateView } from "./components/TemplateView";
+import { ViewErrorBoundary } from "./components/ViewErrorBoundary";
 import type { QuestionBank, TabId, Tag } from "./types";
 
 const navItems: Array<{ id: TabId; label: string; number: string; icon: LucideIcon }> = [
@@ -18,7 +20,7 @@ const navItems: Array<{ id: TabId; label: string; number: string; icon: LucideIc
 
 export function App(): JSX.Element {
   const surface = new URLSearchParams(window.location.search).get("surface");
-  return surface === "pet" || surface === "ball" ? <DesktopPetView /> : <MainApp />;
+  return surface === "todos" ? <PetTodoPanel /> : surface === "pet" || surface === "ball" ? <DesktopPetView /> : <MainApp />;
 }
 
 function MainApp(): JSX.Element {
@@ -97,16 +99,16 @@ function MainApp(): JSX.Element {
         </header>
 
         <section className="workspace">
+          <ViewErrorBoundary key={activeTab}>
           {activeTab === "home" && (
             <HomeDashboard
               questionBanks={questionBanks}
             />
           )}
           {activeTab === "compose" && <ComposeView tags={tags} questionBanks={questionBanks} onChanged={refresh} />}
-          <div className={`tab-view ${activeTab === "practice" ? "" : "tab-view-hidden"}`}>
-            <PracticeView />
-          </div>
           {activeTab === "templates" && <TemplateView tags={tags} questionBanks={questionBanks} onChanged={refresh} />}
+          </ViewErrorBoundary>
+          <div className={`tab-view ${activeTab === "practice" ? "" : "tab-view-hidden"}`}><ViewErrorBoundary><PracticeView /></ViewErrorBoundary></div>
         </section>
       </main>
     </div>

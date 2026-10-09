@@ -15,10 +15,15 @@ from typing import Any, Literal
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, Response
+from fastapi.responses import JSONResponse
+from fastapi.exceptions import RequestValidationError
 from pydantic import BaseModel, Field
 
 from .admissions_feed import fetch_recent_official_feed, fetch_scoreline_detail, fetch_scoreline_index
 from .composer import compose_paper, load_paper
+from .agent_composer import AgentSettings, plan_paper
+from .template_rules import template_errors
+from .subject_tags import normalize_question_tags
 from .document_preview import render_document_preview
 from .question_bundle import bundled_preview
 from .db import (
@@ -49,6 +54,17 @@ from .practice import (
 
 
 app = FastAPI(title="组卷助手 API", version="0.1.0")
+from .learning import router as learning_router
+app.include_router(learning_router)
+from .presets import router as presets_router
+app.include_router(presets_router)
+
+
+@app.exception_handler(RequestValidationError)
+async def safe_validation_error(request, exc):
+    # Pydantic errors can echo the request input, including an API key.
+    return JSONResponse(status_code=422, content={"detail": "请求参数格式不正确，请检查输入字段。"})
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -102,13 +118,14 @@ class TemplateCreate(BaseModel):
     name: str
     subject: str
     question_bank_id: str | None = None
-    duration_minutes: int
-    total_score: float
+    duration_minutes: int = Field(gt=0, le=1440)
+    total_score: float = Field(gt=0, allow_inf_nan=False)
     sections: list[dict[str, Any]]
     distribution_rules: dict[str, Any] = {}
 
 
 class ComposeRequest(BaseModel):
+    agent: AgentSettings | None = None
     template_id: str
     title: str = "未命名试卷"
     seed: int = 20260823
@@ -122,6 +139,7 @@ class ExportRequest(BaseModel):
 
 
 class PracticeStartRequest(BaseModel):
+    question_ids: list[str] = Field(default_factory=list, max_length=500)
     subject: str
     question_bank_id: str | None = None
     major_tag: str = ""
@@ -222,7 +240,7 @@ def list_tags(question_bank_id: str | None = None) -> list[dict[str, Any]]:
         if question_bank_id:
             question_rows = connection.execute(
                 """
-                SELECT tags_json, chapter, knowledge_points_json
+                SELECT tags_json, chapter, knowledge_points_json, subject
                 FROM questions
                 WHERE question_bank_id=?
                 """,
@@ -230,14 +248,10 @@ def list_tags(question_bank_id: str | None = None) -> list[dict[str, Any]]:
             ).fetchall()
         else:
             question_rows = connection.execute(
-                "SELECT tags_json, chapter, knowledge_points_json FROM questions"
+                "SELECT tags_json, chapter, knowledge_points_json, subject FROM questions"
             ).fetchall()
         for row in question_rows:
-            names = normalize_tag_pair(
-                json_load(row["tags_json"], []),
-                row["chapter"],
-                json_load(row["knowledge_points_json"], []),
-            )
+            names = normalize_question_tags({"tags": json_load(row["tags_json"], []), "chapter": row["chapter"], "knowledge_points": json_load(row["knowledge_points_json"], []), "subject": row["subject"]})
             for name in names:
                 if not name:
                     continue
@@ -311,7 +325,7 @@ def create_question(payload: QuestionCreate) -> dict[str, Any]:
     now = utc_now()
     data = payload.model_dump()
     data["id"] = question_id
-    data["tags"] = normalize_tag_pair(data["tags"], data["chapter"], data["knowledge_points"])
+    data["tags"] = normalize_question_tags(data)
     with connect() as connection:
         bank = _require_bank(connection, data.get("question_bank_id"), data["subject"])
         data["question_bank_id"] = bank["id"]
@@ -355,7 +369,7 @@ def create_question(payload: QuestionCreate) -> dict[str, Any]:
 @app.patch("/api/questions/{question_id}")
 def update_question(question_id: str, payload: QuestionCreate) -> dict[str, Any]:
     data = payload.model_dump()
-    data["tags"] = normalize_tag_pair(data["tags"], data["chapter"], data["knowledge_points"])
+    data["tags"] = normalize_question_tags(data)
     now = utc_now()
     with connect() as connection:
         existing = connection.execute("SELECT id FROM questions WHERE id = ?", (question_id,)).fetchone()
@@ -843,7 +857,7 @@ def _approve_review_row(connection: Any, row: Any) -> dict[str, Any]:
     question_id = f"question-{uuid.uuid4().hex[:10]}"
     now = utc_now()
     data = payload.model_dump()
-    data["tags"] = normalize_tag_pair(data["tags"], data["chapter"], data["knowledge_points"])
+    data["tags"] = normalize_question_tags(data)
     data["question_bank_id"] = row["question_bank_id"] or data.get("question_bank_id")
     bank = _require_bank(connection, data["question_bank_id"], data["subject"])
     data["question_bank_id"] = bank["id"]
@@ -978,11 +992,7 @@ def review_preview(review_id: str, kind: str = "question") -> Response:
 @app.patch("/api/reviews/{review_id}")
 def update_review(review_id: str, payload: ReviewUpdate) -> dict[str, Any]:
     parsed_question = payload.parsed_question.model_dump()
-    parsed_question["tags"] = normalize_tag_pair(
-        parsed_question["tags"],
-        parsed_question["chapter"],
-        parsed_question["knowledge_points"],
-    )
+    parsed_question["tags"] = normalize_question_tags(parsed_question)
     with connect() as connection:
         existing = connection.execute(
             "SELECT id, question_bank_id FROM review_items WHERE id = ?",
@@ -1193,6 +1203,8 @@ def start_practice(payload: PracticeStartRequest) -> dict[str, Any]:
                 payload.major_tag.strip(),
                 payload.sub_tag.strip(),
             )
+            if payload.question_ids:
+                candidates = [row for row in candidates if row["id"] in set(payload.question_ids)]
             if not candidates:
                 raise HTTPException(status_code=404, detail="当前筛选条件下没有可刷的选择题。")
             selected_rows = rng.sample(candidates, min(payload.count, len(candidates)))
@@ -1248,6 +1260,23 @@ def get_practice_session(session_id: str) -> dict[str, Any]:
             (session_id,),
         ).fetchall()
     return practice_session_payload(session, rows, attempts)
+
+
+@app.get("/api/practice/sessions/{session_id}/pdf")
+def practice_pdf(session_id: str, variant: Literal["question", "answer"] = "question"):
+    with connect() as connection:
+        session = _get_practice_session(connection, session_id)
+        if variant == "answer" and not session["completed_at"]:
+            raise HTTPException(409, "完成作答后才能导出答案解析。")
+        ids = json_load(session["question_ids_json"], [])
+        questions = []
+        for qid in ids:
+            row = connection.execute("SELECT * FROM questions WHERE id=?", (qid,)).fetchone()
+            if row:
+                questions.append({**row_to_question(row), "section_title": session["subject"]})
+        paper = {"id": session_id, "title": f"{session['subject']}练习", "questions": questions}
+    target = export_paper(paper, "pdf", variant)
+    return FileResponse(target, media_type="application/pdf", filename=target.name)
 
 
 @app.post("/api/practice/sessions/{session_id}/answer")
@@ -1494,6 +1523,8 @@ def list_templates() -> list[dict[str, Any]]:
 
 @app.post("/api/templates")
 def create_template(payload: TemplateCreate) -> dict[str, Any]:
+    if errors := template_errors(payload.model_dump()):
+        raise HTTPException(422, " ".join(errors))
     template_id = f"template-{uuid.uuid4().hex[:10]}"
     now = utc_now()
     with connect() as connection:
@@ -1524,6 +1555,8 @@ def create_template(payload: TemplateCreate) -> dict[str, Any]:
 
 @app.patch("/api/templates/{template_id}")
 def update_template(template_id: str, payload: TemplateCreate) -> dict[str, Any]:
+    if errors := template_errors(payload.model_dump()):
+        raise HTTPException(422, " ".join(errors))
     now = utc_now()
     with connect() as connection:
         existing = connection.execute("SELECT id, version FROM templates WHERE id=?", (template_id,)).fetchone()
@@ -1579,17 +1612,15 @@ def validate_template(template_id: str) -> dict[str, Any]:
         errors.append("模板至少需要一个题型分区。")
     distribution = template.get("distribution_rules", {}).get("chapter_distribution", [])
     ratio_total = sum(max(0.0, float(item.get("ratio", 0))) for item in distribution)
-    if not distribution:
-        errors.append("模板至少需要配置一个科目占比。")
-    elif abs(ratio_total - 1) > 0.001:
+    if distribution and abs(ratio_total - 1) > 0.001:
         errors.append(f"科目占比合计为 {ratio_total * 100:g}%，需要调整为 100%。")
     elif not question_rows:
         warnings.append("关联题库中暂无已审核题目，组卷结果可能为空，但仍可导出空卷。")
-    else:
+    elif distribution:
         actual_counts: dict[str, int] = {}
         for question_row in question_rows:
             tags = json_load(question_row["tags_json"], [])
-            if template["subject"] == "考研政治":
+            if template["subject"] != "考研数学一":
                 group = str(tags[0]) if tags else str(question_row["chapter"] or "未分类")
             else:
                 group = chapter_group(question_row["chapter"], tags)
@@ -1626,14 +1657,29 @@ def compose(payload: ComposeRequest) -> dict[str, Any]:
         if row is None:
             raise HTTPException(status_code=404, detail="模板不存在。")
         template = row_to_template(row)
-        return compose_paper(
+        if errors := template_errors(template):
+            raise HTTPException(422, " ".join(errors))
+        plan, rationale = None, "本地规则选题"
+        if template["distribution_rules"].get("agent_enabled"):
+            if payload.agent is None:
+                raise HTTPException(422, "此模板已开启 Agent，请先填写 API Key 和模型配置。")
+            try:
+                plan, rationale = plan_paper(connection, template, payload.seed, payload.required_tags, payload.locked_question_ids, payload.agent)
+            except ValueError as exc:
+                raise HTTPException(422, str(exc)) from None
+        paper = compose_paper(
             connection,
             template,
             payload.seed,
             payload.title,
             payload.locked_question_ids,
             payload.required_tags,
+            selection_plan=plan,
         )
+        if plan is not None and not paper["validation"]["valid"]:
+            raise HTTPException(422, "Agent 方案未通过占比校验：" + " ".join(paper["validation"]["errors"]))
+        paper["composition"] = {"mode": "agent" if plan is not None else "local", "rationale": rationale}
+        return paper
 
 
 @app.get("/api/papers/{paper_id}")

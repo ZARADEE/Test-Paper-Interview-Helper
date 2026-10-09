@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { CSSProperties, PointerEvent } from "react";
-import { DEFAULT_PET_PACK, PET_BEHAVIOR, PET_PACKS, isPetPack, petAsset, petFacing, petHitbox } from "../petConfig";
+import { DEFAULT_PET_PACK, PET_BEHAVIOR, PET_PACKS, isPetPack, petAsset, petFacing, petHitbox, petActionDuration } from "../petConfig";
 import type { AmbientMode, PetAction, PetPackId, PetSettings } from "../petConfig";
 
 function PaperCat({ action }: { action: PetAction }): JSX.Element {
@@ -96,13 +96,13 @@ export function DesktopPetView(): JSX.Element {
     const between = (min: number, max: number) => min + Math.random() * (max - min);
     const duration = action === "idle" ? between(PET_BEHAVIOR.idleMinMs, PET_BEHAVIOR.idleMaxMs)
       : action === "walk" ? between(PET_BEHAVIOR.walkMinMs, PET_BEHAVIOR.walkMaxMs)
-      : action === "click" ? PET_BEHAVIOR.clickMs : PET_BEHAVIOR.specialMs;
+      : action === "click" || action === "special" ? petActionDuration(pack, action) : PET_BEHAVIOR.specialMs;
     const timer = window.setTimeout(() => {
       if (action !== "idle") { setAction("idle"); return; }
       setAction(roaming && Math.random() < PET_BEHAVIOR.walkProbability ? "walk" : "special");
     }, duration);
     return () => window.clearTimeout(timer);
-  }, [action, actionCycle, mode, visible, dragging, roaming]);
+  }, [action, actionCycle, mode, visible, dragging, roaming, pack]);
 
   function handlePointerDown(event: PointerEvent<HTMLElement>): void {
     if (event.button !== 0) return;
@@ -132,7 +132,7 @@ export function DesktopPetView(): JSX.Element {
   function handleClick(): void {
     if (suppressClickRef.current) return;
     if (mode === "ball") window.paperHelper?.showMain();
-    else { setAction("click"); setActionCycle((value) => value + 1); }
+    else { setAction("click"); setActionCycle((value) => value + 1); window.paperHelper?.showPetTodos(); }
   }
 
   return (
@@ -148,12 +148,12 @@ export function DesktopPetView(): JSX.Element {
         if (event.key === "Escape") window.paperHelper?.showPetMenu();
       }}
       tabIndex={0} role="application"
-      title={mode === "ball" ? "拖动移动 · 单击打开学习台 · 右键切换角色" : "拖动只移动 · 单击互动 · 双击打开学习台 · 右键调整大小"}
+      title={mode === "ball" ? "拖动移动 · 单击打开学习台 · 右键切换角色" : "拖动只移动 · 单击互动与今日待办 · 双击打开学习台 · 右键调整大小"}
       aria-label={packMeta.label + (mode === "ball" ? "悬浮球" : "桌宠")}>
       {mode === "ball" ? (
         <div className="desktop-pet-ball" aria-hidden="true"><div className="desktop-pet-ball-avatar"><PetArtwork pack={pack} paused={!visible} /></div></div>
       ) : (
-        <div className="desktop-pet-art" style={{ transform: "scaleX(" + petFacing(pack, direction) + ")" }} aria-hidden="true"><PetArtwork pack={pack} action={action} paused={!visible} /></div>
+        <div className="desktop-pet-art" style={{ transform: "scaleX(" + petFacing(pack, direction) + ")" }} aria-hidden="true"><PetArtwork key={pack + action + actionCycle} pack={pack} action={action} paused={!visible} /></div>
       )}
     </main>
   );

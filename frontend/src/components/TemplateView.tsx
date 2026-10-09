@@ -1,8 +1,10 @@
 import { ArrowDown, ArrowUp, Check, CopyPlus, Plus, Save, Trash2 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
-import { createTemplate, getTemplates, saveTemplate, validateTemplate } from "../api";
+import { createTemplate, getTemplates, install408Templates, saveTemplate, validateTemplate } from "../api";
 import { ImportView } from "./ImportView";
-import type { PaperTemplate, QuestionBank, QuestionType, SubjectDistributionRule, Tag } from "../types";
+import { AgentDialog } from "./AgentDialog";
+import { SectionEditor } from "./SectionEditor";
+import type { PaperTemplate, QuestionBank, QuestionType, Tag } from "../types";
 
 type Props = {
   tags: Tag[];
@@ -10,12 +12,7 @@ type Props = {
   onChanged: () => void;
 };
 
-const typeLabels: Record<QuestionType, string> = { choice: "选择题", fill: "填空题", solution: "解答题" };
-const defaultSubjectRules: SubjectDistributionRule[] = [
-  { label: "高等数学", ratio: 0.6, tolerance: 0.08 },
-  { label: "线性代数", ratio: 0.2, tolerance: 0.08 },
-  { label: "概率论与数理统计", ratio: 0.2, tolerance: 0.08 }
-];
+const typeLabels: Record<QuestionType, string> = { choice: "选择题", fill: "填空题", solution: "解答题", short_answer: "简答题" };
 const subjectLabels: Record<string, string> = {
   "高等数学": "高等数学",
   "线性代数": "线性代数",
@@ -23,6 +20,8 @@ const subjectLabels: Record<string, string> = {
 };
 
 export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Element {
+  const [showAgent, setShowAgent] = useState(false);
+  const [installing, setInstalling] = useState(false);
   const [activePane, setActivePane] = useState<"assemble" | "import">("assemble");
   const [templates, setTemplates] = useState<PaperTemplate[]>([]);
   const [selectedId, setSelectedId] = useState("");
@@ -62,10 +61,12 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
   const activeDraft = draft;
   const subjectRules = activeDraft.distribution_rules.chapter_distribution?.length
     ? activeDraft.distribution_rules.chapter_distribution
-    : defaultSubjectRules;
+    : [];
   const subjectRatioTotal = subjectRules.reduce((sum, rule) => sum + Number(rule.ratio || 0), 0);
 
   function updateDraft(patch: Partial<PaperTemplate>): void {
+    setValid(null);
+    setWarnings([]);
     setDraft((current) => current ? { ...current, ...patch } : current);
   }
 
@@ -100,6 +101,21 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
     });
   }
 
+  async function add408Suite(): Promise<void> {
+    setInstalling(true);
+    try {
+      const presets = await install408Templates();
+      setTemplates(await getTemplates());
+      setSelectedId(presets.find(item => item.id === "template-408-choice")?.id ?? "template-408-full");
+      setMessage("已加入 408 四科选择题训练和四个专项模板。");
+      onChanged();
+    } catch (error) {
+      setMessage(error instanceof Error ? error.message : "添加模板套件失败");
+    } finally {
+      setInstalling(false);
+    }
+  }
+
   async function createNewTemplate(): Promise<void> {
     const bank = questionBanks[0];
     if (!bank) return;
@@ -116,7 +132,7 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
         ],
         distribution_rules: {
           subject: bank.subject,
-          chapter_distribution: [{ label: "综合", ratio: 1, tolerance: 0.2 }]
+          chapter_distribution: []
         }
       });
       setTemplates((current) => [...current, created]);
@@ -126,6 +142,13 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "新建模板失败");
     }
+  }
+
+  async function duplicate(): Promise<void> {
+    try {
+      const created = await createTemplate({ ...activeDraft, name: activeDraft.name + " · 副本" });
+      setTemplates(current => [...current, created]); setSelectedId(created.id); onChanged();
+    } catch (error) { setMessage(error instanceof Error ? error.message : "复制失败"); }
   }
 
   function removeSection(index: number): void {
@@ -146,7 +169,10 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
 
   async function validate(): Promise<void> {
     try {
-      const result = await validateTemplate(activeDraft.id);
+      const saved = await saveTemplate(activeDraft);
+      setTemplates(current => current.map(item => item.id === saved.id ? saved : item));
+      onChanged();
+      const result = await validateTemplate(saved.id);
       setValid(result.valid);
       const nextWarnings = result.warnings ?? [];
       setWarnings(nextWarnings);
@@ -162,6 +188,7 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
 
   return (
     <div className="template-shell">
+      {showAgent && <AgentDialog onClose={() => setShowAgent(false)} onConfirm={() => { updateDraft({ distribution_rules: { ...activeDraft.distribution_rules, agent_enabled: true } }); setShowAgent(false); }} />}
       <div className="canvas-toolbar panel template-switch-bar">
         <div>
           <span className="eyebrow">STRUCTURE CANVAS</span>
@@ -172,6 +199,9 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
           </div>
         </div>
         <div className="toolbar-actions">
+          <button className="outline-action" type="button" disabled={installing} onClick={() => void add408Suite()}>
+            <Plus size={17} />{installing ? "正在添加…" : "增加 408 模板套件"}
+          </button>
           <button onClick={() => void validate()} type="button"><Check size={17} />校验</button>
           <button className="primary-action compact" onClick={() => void save()} type="button"><Save size={17} />保存模板</button>
         </div>
@@ -199,7 +229,7 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
               </button>
             ))}
             <button className="outline-action" onClick={() => void createNewTemplate()} type="button"><Plus size={17} />新建试卷模板</button>
-            <button className="outline-action" onClick={addSection} type="button"><CopyPlus size={17} />复制结构</button>
+            <button className="outline-action" onClick={() => void duplicate()} type="button"><CopyPlus size={17} />复制模板</button>
           </aside>
 
           <main className="template-canvas-area">
@@ -214,7 +244,7 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
                   <div className={`template-section-block block-${section.type}`} key={section.id}>
                     <div className="block-number">{String(index + 1).padStart(2, "0")}</div>
                     <div className="block-copy">
-                      <strong>{section.title}</strong>
+                      <SectionEditor key={`${draft.id}-${section.id}`} section={section} onChange={next => updateDraft({ sections: activeDraft.sections.map((item, i) => i === index ? next : item) })} />
                       <span>{typeLabels[section.type]} · {section.count} 题 · {section.count * section.score} 分</span>
                     </div>
                     <div className="block-actions">
@@ -231,6 +261,8 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
 
           <aside className="template-inspector panel">
             <div className="panel-title">属性检查器</div>
+            <label className="agent-toggle"><span>使用 Agent 组卷</span><input type="checkbox" checked={Boolean(draft.distribution_rules.agent_enabled)} onChange={event => event.target.checked ? setShowAgent(true) : updateDraft({ distribution_rules: { ...activeDraft.distribution_rules, agent_enabled: false } })} /></label>
+            <p className="muted-copy">开启后由模型选题，本地校验约束；关闭时完全使用本地规则。</p>
             <label><span>模板名称</span><input value={draft.name} onChange={(event) => updateDraft({ name: event.target.value })} /></label>
             <label>
               <span>关联题库</span>
@@ -238,7 +270,7 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
                 value={draft.question_bank_id}
                 onChange={(event) => {
                   const bank = questionBanks.find((item) => item.id === event.target.value);
-                  if (bank) updateDraft({ question_bank_id: bank.id, subject: bank.subject });
+                  if (bank) updateDraft({ question_bank_id: bank.id, subject: bank.subject, distribution_rules: { ...activeDraft.distribution_rules, subject: bank.subject, chapter_distribution: [] } });
                 }}
               >
                 {questionBanks.map((bank) => <option key={bank.id} value={bank.id}>{bank.name}</option>)}
@@ -258,18 +290,19 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
             <div className="inspector-divider" />
             <div className="distribution-heading">
               <div className="panel-title">科目占比</div>
-              <span className={`distribution-total ${Math.abs(subjectRatioTotal - 1) < 0.001 ? "is-valid" : "is-invalid"}`}>
+              <span className={`distribution-total ${(!subjectRules.length || Math.abs(subjectRatioTotal - 1) < 0.001) ? "is-valid" : "is-invalid"}`}>
                 合计 {(subjectRatioTotal * 100).toFixed(0)}%
               </span>
             </div>
             <div className="subject-distribution-list">
+              <button type="button" onClick={() => updateDraft({ distribution_rules: { ...activeDraft.distribution_rules, chapter_distribution: [...subjectRules, { label: `科目 ${subjectRules.length + 1}`, ratio: subjectRules.length ? 0 : 1, tolerance: 0.08 }] } })}>添加科目占比</button>
               {subjectRules.map((rule, index) => {
                 const percent = Math.round(Number(rule.ratio || 0) * 100);
                 const label = subjectLabels[rule.label] ?? rule.label;
                 return (
                   <div className="subject-distribution-row" key={rule.label}>
                     <div className="subject-distribution-row-head">
-                      <strong>{label}</strong>
+                      <input aria-label="科目名称" defaultValue={label} onBlur={event => updateDraft({ distribution_rules: { ...activeDraft.distribution_rules, chapter_distribution: subjectRules.map((item, i) => i === index ? { ...item, label: event.target.value.trim() } : item) } })} />
                       <input
                         aria-label={`${label}占比`}
                         type="number"
@@ -290,15 +323,16 @@ export function TemplateView({ tags, questionBanks, onChanged }: Props): JSX.Ele
                       value={percent}
                       onChange={(event) => updateSubjectRatio(index, Number(event.target.value))}
                     />
+                    <button type="button" onClick={() => updateDraft({ distribution_rules: { ...activeDraft.distribution_rules, chapter_distribution: subjectRules.filter((_, i) => i !== index) } })}>移除此占比</button>
                   </div>
                 );
               })}
             </div>
-            <div className={`metric-line ${Math.abs(subjectRatioTotal - 1) < 0.001 ? "metric-good" : "metric-bad"}`}>
+            <div className={`metric-line ${(!subjectRules.length || Math.abs(subjectRatioTotal - 1) < 0.001) ? "metric-good" : "metric-bad"}`}>
               <span>科目比例状态</span>
-              <strong>{Math.abs(subjectRatioTotal - 1) < 0.001 ? "MATCH" : "CHECK"}</strong>
+              <strong>{(!subjectRules.length || Math.abs(subjectRatioTotal - 1) < 0.001) ? "MATCH" : "CHECK"}</strong>
             </div>
-            <p className="muted-copy">组卷时按这三个大类分配题目。比例合计需要保持为 100%。</p>
+            <p className="muted-copy">按配置的大类分配题目；留空表示不限占比。设置时合计须为 100%。</p>
           </aside>
         </div>
       ) : (

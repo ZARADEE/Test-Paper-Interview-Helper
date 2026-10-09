@@ -15,15 +15,18 @@ import {
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   answerPracticeQuestion,
+  API_BASE,
   deleteWrongBookItem,
   exportPracticeMistakes,
   getPracticeCatalog,
+  getPracticeSession,
   getWrongBook,
   practiceExportDownloadUrl,
   questionPreviewUrl,
   startPractice
 } from "../api";
 import type {
+  Question,
   PracticeAnswerResult,
   PracticeCatalog,
   PracticeMajorTag,
@@ -32,6 +35,9 @@ import type {
   PracticeSubject,
   WrongBookItem
 } from "../types";
+
+import { QuestionReflection, learningRequest } from "./LearningPanel";
+import type { KnowledgeCard } from "./LearningPanel";
 
 const wrongBookVictoryLines = [
   "这波很能打，错题本已经开始认真反省了。",
@@ -57,6 +63,11 @@ function pickWrongBookVictoryLine(): string {
 }
 
 export function PracticeView(): JSX.Element {
+  const [, setLearningRevision] = useState(0);
+  const [marked, setMarked] = useState<string[]>([]);
+  const [draftAnswers, setDraftAnswers] = useState<Record<string, string[]>>({});
+  const [elapsed, setElapsed] = useState(0);
+  const [draftReady, setDraftReady] = useState(false);
   const [catalog, setCatalog] = useState<PracticeCatalog | null>(null);
   const [subject, setSubject] = useState("");
   const [majorTag, setMajorTag] = useState("");
@@ -118,6 +129,69 @@ export function PracticeView(): JSX.Element {
     ?? 0;
   const isMultiple = currentQuestion?.answer_mode === "multiple";
 
+  useEffect(() => {
+    if (!session || session.completed) return;
+    const timer = window.setInterval(() => setElapsed(value => value + 1), 1000);
+    return () => window.clearInterval(timer);
+  }, [session?.id, session?.completed]);
+
+  useEffect(() => {
+    if (!draftReady || !session) return;
+    try { localStorage.setItem("paper-helper-practice-draft", JSON.stringify({ id: session.id, currentIndex, marked, draftAnswers, elapsed })); }
+    catch { setError("无法暂存草稿：本地存储空间不足或不可用。"); }
+  }, [session?.id, currentIndex, marked, draftAnswers, elapsed, draftReady]);
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem("paper-helper-practice-draft");
+      if (raw) {
+        const draft = JSON.parse(raw);
+        if (typeof draft.id === "string") {
+          void resume(draft.id, draft).finally(() => setDraftReady(true));
+          return;
+        }
+      }
+    } catch { setError("暂存草稿无法读取，可从学习记录恢复练习。"); }
+    setDraftReady(true);
+  }, []);
+
+  async function resume(id: string, draft?: { currentIndex?: number; marked?: string[]; draftAnswers?: Record<string, string[]>; elapsed?: number }): Promise<void> {
+    stopContinuousPractice(); setBusy(true);
+    try {
+      const next = await getPracticeSession(id);
+      setSession(next);
+      const index = Math.max(0, Math.min(draft?.currentIndex ?? next.questions.findIndex(q => !q.attempt), next.questions.length - 1));
+      setCurrentIndex(index); setMarked(draft?.marked ?? []); setDraftAnswers(draft?.draftAnswers ?? {}); setElapsed(draft?.elapsed ?? 0);
+      restoreQuestion(next, index, draft?.draftAnswers ?? {});
+    } catch (reason) { setError(reason instanceof Error ? reason.message : "恢复失败"); }
+    finally { setBusy(false); }
+  }
+
+  function restoreQuestion(active: PracticeSession, index: number, drafts = draftAnswers): void {
+    const question = active.questions[index];
+    const attempt = question?.attempt;
+    setSelectedOptions(attempt?.selected_options ?? drafts[question?.id] ?? []);
+    setAnswerResult(attempt ? { question_id: question.id, selected_options: attempt.selected_options, correct_options: attempt.correct_options, correct: attempt.is_correct, question, answered_count: active.answered_count, total_count: active.total_count, wrong_question_ids: active.wrong_question_ids } : null);
+  }
+
+  function jump(index: number): void {
+    if (!session || busy) return;
+    setCurrentIndex(index); restoreQuestion(session, index);
+  }
+
+  async function practiceCard(card: KnowledgeCard, ids = card.question_ids): Promise<void> {
+    stopContinuousPractice();
+    await launchPracticeSession({ subject: card.subject, question_bank_id: card.question_bank_id, major_tag: "", sub_tag: "", question_ids: ids, count: Math.min(10, ids.length), seed: Date.now() });
+  }
+
+  async function practiceRelated(question: Question): Promise<void> {
+    try {
+      const data = await learningRequest<{ cards: KnowledgeCard[] }>("/overview");
+      const card = data.cards.find(item => item.question_ids.includes(question.id));
+      if (card) await practiceCard(card);
+    } catch (reason) { setError(String(reason)); }
+  }
+
   function changeSubject(value: string): void {
     const nextSubject = catalog?.subjects.find((item) => item.value === value);
     const nextMajor = firstMajor(nextSubject);
@@ -141,6 +215,8 @@ export function PracticeView(): JSX.Element {
     if (!quiet) setError("");
     try {
       const nextSession = await startPractice(payload);
+      setMarked([]); setDraftAnswers({}); setElapsed(0);
+      setLearningRevision(value => value + 1);
       setSession(nextSession);
       setCurrentIndex(0);
       setSelectedOptions([]);
@@ -204,13 +280,9 @@ export function PracticeView(): JSX.Element {
 
   function toggleOption(key: string): void {
     if (answerResult || !currentQuestion) return;
-    if (isMultiple) {
-      setSelectedOptions((current) =>
-        current.includes(key) ? current.filter((item) => item !== key) : [...current, key].sort()
-      );
-      return;
-    }
-    setSelectedOptions([key]);
+    const next = isMultiple ? (selectedOptions.includes(key) ? selectedOptions.filter(item => item !== key) : [...selectedOptions, key].sort()) : [key];
+    setSelectedOptions(next);
+    setDraftAnswers(current => ({ ...current, [currentQuestion.id]: next }));
   }
 
   async function submitAnswer(): Promise<void> {
@@ -220,9 +292,12 @@ export function PracticeView(): JSX.Element {
     try {
       const result = await answerPracticeQuestion(session.id, currentQuestion.id, selectedOptions);
       const completed = result.answered_count >= result.total_count;
+      setLearningRevision(value => value + 1);
+      void getPracticeCatalog().then(setCatalog).catch(() => {});
       setAnswerResult(result);
       setSession((current) => current ? {
         ...current,
+        questions: current.questions.map(q => q.id === result.question_id ? { ...result.question, answer_mode: q.answer_mode, attempt: { question_id: q.id, selected_options: result.selected_options, correct_options: result.correct_options, is_correct: result.correct, created_at: new Date().toISOString() } } : q),
         answered_count: result.answered_count,
         wrong_question_ids: result.wrong_question_ids,
         completed
@@ -255,9 +330,7 @@ export function PracticeView(): JSX.Element {
 
   function nextQuestion(): void {
     if (!session || currentIndex >= session.questions.length - 1) return;
-    setCurrentIndex((value) => value + 1);
-    setSelectedOptions([]);
-    setAnswerResult(null);
+    jump(currentIndex + 1);
   }
 
   async function toggleWrongBook(): Promise<void> {
@@ -305,6 +378,7 @@ export function PracticeView(): JSX.Element {
 
   function resetSession(): void {
     stopContinuousPractice();
+    try { localStorage.removeItem("paper-helper-practice-draft"); } catch { /* History remains in SQLite. */ }
     setSession(null);
     setCurrentIndex(0);
     setSelectedOptions([]);
@@ -468,6 +542,12 @@ export function PracticeView(): JSX.Element {
                 </div>
               </div>
             )}
+            <div className="answer-card">
+              <div className="toolbar-actions"><button type="button" onClick={() => window.open(`${API_BASE}/practice/sessions/${session.id}/pdf?variant=question`, "_blank", "noopener,noreferrer")}>导出练习 PDF</button><button type="button" disabled={!session.completed} onClick={() => window.open(`${API_BASE}/practice/sessions/${session.id}/pdf?variant=answer`, "_blank", "noopener,noreferrer")}>导出答案解析 PDF</button></div>
+              <strong>用时 {Math.floor(elapsed / 60)}:{String(elapsed % 60).padStart(2, "0")} · 自动暂存</strong>
+              <div>{session.questions.map((q, index) => <button aria-label={`第 ${index + 1} 题`} type="button" disabled={busy} key={q.id} className={index === currentIndex ? "is-active" : ""} onClick={() => jump(index)}>{index + 1}{q.attempt ? " ✓" : ""}{marked.includes(q.id) ? " ★" : ""}</button>)}</div>
+              {currentQuestion && <button type="button" onClick={() => setMarked(items => items.includes(currentQuestion.id) ? items.filter(id => id !== currentQuestion.id) : [...items, currentQuestion.id])}>{marked.includes(currentQuestion.id) ? "取消标记" : "标记此题"}</button>}
+            </div>
             {currentQuestion && (
               <div className="practice-question">
                 <div className="practice-question-head">
@@ -482,7 +562,7 @@ export function PracticeView(): JSX.Element {
                         src={questionPreviewUrl(currentQuestion.id)}
                       />
                     ) : (
-                      <div className="question-image-missing">原题图片不可用，未显示识别文字。</div>
+                      <div className="question-text">{currentQuestion.stem_markdown}</div>
                     )}
                   </div>
                 </div>
@@ -500,7 +580,7 @@ export function PracticeView(): JSX.Element {
                         disabled={Boolean(answerResult) || busy}
                       >
                         <b>{option.key}</b>
-                        <span>选择 {option.key}</span>
+                        <span>{option.text || `选择 ${option.key}`}</span>
                         {answerResult && isCorrect && <Check size={19} />}
                         {answerResult && isWrongChoice && <X size={19} />}
                       </button>
@@ -521,9 +601,11 @@ export function PracticeView(): JSX.Element {
                       <strong>{answerResult.correct ? "回答正确" : "回答错误"}</strong>
                       <span>你的答案：{answerResult.selected_options.join("、")}　正确答案：{answerResult.correct_options.join("、")}</span>
                     </div>
-                    {!answerResult.correct && resultQuestion?.analysis_markdown && (
+                    {resultQuestion?.analysis_markdown && (
                       <p><b>解析：</b>{resultQuestion.analysis_markdown}</p>
                     )}
+                    {(resultQuestion?.analysis_source_document_id === "source-zhijing408" || resultQuestion?.analysis_source_document_id?.startsWith("source-github-")) && <img className="practice-question-image" alt="原版答案解析" loading="lazy" src={questionPreviewUrl(resultQuestion.id, "analysis")} />}
+                    {resultQuestion && <QuestionReflection key={resultQuestion.id} question={resultQuestion} onChanged={() => setLearningRevision(value => value + 1)} onPractice={q => void practiceRelated(q)} />}
                     <div className="practice-submit-row">
                       <span>
                         {continuousMode
@@ -621,7 +703,7 @@ export function PracticeView(): JSX.Element {
                       src={questionPreviewUrl(item.id)}
                     />
                   ) : (
-                    <div className="question-image-missing">原题图片不可用，未显示识别文字。</div>
+                    <div className="question-text">{item.stem_markdown}</div>
                   )}
                   {item.analysis_markdown ? <p className="wrong-book-analysis"><b>解析：</b>{item.analysis_markdown}</p> : null}
                   <div className="question-meta">

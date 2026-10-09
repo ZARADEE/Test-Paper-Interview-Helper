@@ -857,8 +857,57 @@ html:has(.desktop-pet-surface) #root {
 .desktop-pet-ball:active { transform: translate(2px, 2px); box-shadow: 3px 3px 0 var(--ink); }
 @keyframes desktop-pet-bob { from { transform: translateY(0); } to { transform: translateY(-5px); } }
 @keyframes desktop-pet-special { 0%, 100% { transform: translateY(0) rotate(0); } 35% { transform: translateY(-14px) rotate(-4deg); } 70% { transform: translateY(0) rotate(4deg); } }
-@keyframes desktop-pet-click { 0%, 100% { transform: scale(1); } 45% { transform: scale(1.08, .92); } 70% { transform: scale(.97, 1.04); } }
-@keyframes desktop-pet-breathe { 0%, 100% { transform: translateY(0) scaleY(1); } 50% { transform: translateY(-2px) scaleY(1.014); } }
+@keyframes desktop-pet-click { 0%, 100% { transform: translateY(0); } 45% { transform: translateY(-5px); } 70% { transform: translateY(-2px); } }
+@keyframes desktop-pet-breathe { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-2px); } }
 @keyframes desktop-pet-blink { 0%, 45%, 49%, 93%, 97%, 100% { transform: scaleY(1); } 47%, 95% { transform: scaleY(.08); } }
 @keyframes desktop-pet-tail { from { transform: rotate(-6deg); } to { transform: rotate(8deg); } }
 @keyframes desktop-pet-wave { from { transform: rotate(-12deg); } to { transform: rotate(14deg); } }
+.agent-dialog { width: min(560px, calc(100vw - 32px)); max-height: 90vh; overflow: auto; border: 3px solid #202020; padding: 28px; background: #fffdf5; box-shadow: 8px 8px 0 #202020; }
+.agent-dialog::backdrop { background: #0008; }
+.agent-dialog form, .question-reflection { display: grid; gap: 12px; }
+.agent-dialog label, .section-editor label, .question-reflection label { display: grid; gap: 6px; }
+.agent-dialog input, .agent-dialog textarea, .section-editor input, .section-editor select, .learning-panel input, .learning-panel select, .learning-panel textarea, .question-reflection textarea, .question-reflection select { width: 100%; min-width: 0; padding: 9px; border: 2px solid #202020; border-radius: 0; background: white; color: #202020; font: inherit; }
+.agent-toggle { display: flex !important; align-items: center; justify-content: space-between; gap: 12px; }
+.agent-toggle input { width: 22px !important; height: 22px; }
+.section-editor { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+.section-editor label:first-child { grid-column: 1/-1; }
+.section-editor label span { font-size: 12px; font-weight: 700; }
+.template-section-block { align-items: start; }
+.block-copy { min-width: 0; flex: 1; }
+.question-text { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.8; }
+.learning-panel { padding: 22px; margin: 18px 0; }
+.learning-controls { display: grid; grid-template-columns: 1fr auto; gap: 10px; margin: 16px 0; }
+.knowledge-tree { max-height: 360px; overflow: auto; border-top: 2px solid #202020; }
+.knowledge-tree details { padding: 10px; border-bottom: 1px solid #999; }
+.knowledge-tree summary, .learning-history summary { cursor: pointer; font-weight: 800; padding: 6px; }
+.knowledge-tree button { display: flex; width: 100%; justify-content: space-between; text-align: left; gap: 12px; padding: 10px; background: white; border: 1px solid #ccc; }
+.knowledge-tree small { flex-shrink: 0; }
+.knowledge-card, .question-reflection { border: 2px solid #202020; padding: 18px; margin-top: 16px; background: #fffdf5; }
+.discussion-item { padding: 12px 0; border-bottom: 1px solid #999; }
+.discussion-item button { margin-right: 8px; }
+.learning-history { margin-top: 18px; }
+.learning-history > div { display: flex; justify-content: space-between; gap: 12px; padding: 10px; border-bottom: 1px solid #aaa; }
+.answer-card { padding: 14px 0; border-bottom: 2px solid #202020; }
+.answer-card > div { display: flex; flex-wrap: wrap; gap: 6px; padding: 12px 0; }
+.answer-card button { min-width: 36px; padding: 7px; border: 2px solid #202020; background: white; }
+.answer-card button.is-active, .knowledge-tree button.is-active { background: #ffd23f; }
+@media(max-width: 700px) { .section-editor, .learning-controls { grid-template-columns: 1fr; } .learning-history > div { flex-direction: column; } .knowledge-tree button { flex-wrap: wrap; } .agent-dialog { padding: 18px; } }
+
+html:has(.pet-todo-panel), html:has(.pet-todo-panel) body, html:has(.pet-todo-panel) #root { width: 100%; height: 100%; min-width: 0; overflow: hidden; }
+.pet-todo-panel { height: 100vh; box-sizing: border-box; display: flex; flex-direction: column; background: var(--paper); border: 3px solid var(--ink); color: var(--ink); }
+.pet-todo-panel header { display: flex; justify-content: space-between; align-items: center; padding: 16px; background: var(--yellow); border-bottom: 3px solid var(--ink); }
+.pet-todo-panel header small { font: 800 11px monospace; }
+.pet-todo-panel h1 { display: flex; align-items: center; gap: 8px; margin: 8px 0 0; font-size: 20px; }
+.pet-todo-panel h1 b { font: 900 26px monospace; }
+.pet-todo-panel header button { padding: 6px; min-width: 32px; }
+.pet-todo-summary { margin: 0; padding: 10px 16px; font-size: 12px; border-bottom: 2px solid var(--ink); }
+.pet-todo-scroll { flex: 1; min-height: 0; overflow-y: auto; }
+.pet-todo-scroll ul { padding: 0; margin: 0; list-style: none; }
+.pet-todo-scroll li { display: flex; gap: 12px; padding: 13px 16px; border-bottom: 1px solid #c8c3b8; }
+.pet-todo-marker { flex: 0 0 12px; height: 12px; margin-top: 5px; border: 2px solid var(--ink); }
+.pet-todo-scroll li p { margin: 0; font-size: 14px; line-height: 1.5; overflow-wrap: anywhere; white-space: pre-wrap; }
+.pet-todo-scroll li small { font: 12px monospace; }
+.pet-todo-empty { height: 100%; display: flex; gap: 12px; flex-direction: column; align-items: center; justify-content: center; }
+.pet-todo-empty span { font-size: 12px; }
+.pet-todo-panel footer { padding: 12px; border-top: 2px solid var(--ink); }
+.pet-todo-panel footer button { width: 100%; justify-content: center; font-size: 13px; }

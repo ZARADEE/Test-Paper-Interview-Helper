@@ -15,3 +15,7 @@ frontend/out/
 *.sqlite3
 *.sqlite3-shm
 *.sqlite3-wal
+
+# Regenerable question-preview intermediates
+backend/data/bundled/github/*.png
+backend/data/bundled/github/render-*.html

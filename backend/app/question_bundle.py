@@ -49,6 +49,12 @@ def bundle_file(relative: str) -> Path:
 
 
 def bundled_preview(question: dict[str, Any], kind: str) -> bytes | None:
+    if question.get("id", "").startswith("github-"):
+        from .github_bundle import preview
+        return preview(question, kind)
+    if question.get('id', '').startswith('zhijing408-'):
+        from .zhijing_bundle import preview
+        return preview(question, kind)
     entry = preview_index().get(question.get("id"), {}).get(kind)
     if not entry or entry["signature"] != preview_signature(question, kind):
         return None

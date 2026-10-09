@@ -125,7 +125,8 @@ def practice_session_payload(
         "wrong_question_ids": json_load(session["wrong_question_ids_json"], []),
         "questions": [
             {
-                **sanitize_practice_question(row_to_question(row)),
+                **(row_to_question(row) if row["id"] in attempts else sanitize_practice_question(row_to_question(row))),
+                "answer_mode": question_answer_mode(row["answer_markdown"]),
                 "attempt": attempts.get(row["id"]),
             }
             for row in question_rows

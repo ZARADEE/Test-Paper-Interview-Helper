@@ -3,10 +3,12 @@ from __future__ import annotations
 import hashlib
 import json
 import sqlite3
+import uuid
 from typing import Any
 
 from .db import row_to_question, row_to_template, utc_now
 from .math_one import chapter_group
+from .template_rules import matches_section
 
 
 def deterministic_key(seed: int, question_id: str) -> str:
@@ -35,6 +37,7 @@ def compose_paper(
     title: str,
     locked_question_ids: list[str] | None = None,
     required_tags: list[str] | None = None,
+    selection_plan: dict[str, list[str]] | None = None,
 ) -> dict[str, Any]:
     locked = set(locked_question_ids or [])
     required = set(required_tags or [])
@@ -60,7 +63,7 @@ def compose_paper(
     chapter_counts: dict[str, int] = {}
 
     def distribution_group(item: dict[str, Any]) -> str:
-        if item.get("subject") == "考研政治":
+        if item.get("subject") != "考研数学一":
             tags = item.get("tags") or []
             return str(tags[0]) if tags else str(item.get("chapter") or "")
         return chapter_group(item.get("chapter"), item.get("tags"))
@@ -72,8 +75,7 @@ def compose_paper(
         candidates = [
             item
             for item in questions
-            if item["type"] == section_type
-            and (not required or required.issubset(set(item["tags"])))
+            if matches_section(item, section, list(required))
             and item["id"] not in selected_ids
         ]
         candidates.sort(
@@ -87,19 +89,25 @@ def compose_paper(
             )
         )
         locked_for_section = [
-            item for item in questions if item["id"] in locked and item["type"] == section_type
+            item for item in candidates if item["id"] in locked and item["id"] not in selected_ids
         ]
+        if selection_plan is not None:
+            by_id = {item["id"]: item for item in candidates}
+            locked_for_section = [by_id[qid] for qid in selection_plan[section["id"]]]
         section_questions = locked_for_section[:count]
         selected_ids.update(item["id"] for item in section_questions)
         for item in section_questions:
             group = distribution_group(item)
             chapter_counts[group] = chapter_counts.get(group, 0) + 1
 
-        for item in candidates:
-            if len(section_questions) >= count:
+        while len(section_questions) < count:
+            remaining = [item for item in candidates if item["id"] not in selected_ids]
+            if not remaining:
                 break
-            if item["id"] in selected_ids:
-                continue
+            item = min(remaining, key=lambda q: (
+                -(chapter_targets.get(distribution_group(q), 0) - chapter_counts.get(distribution_group(q), 0)) if chapter_targets else 0,
+                deterministic_key(seed, q["id"]),
+            ))
             section_questions.append(item)
             selected_ids.add(item["id"])
             group = distribution_group(item)
@@ -131,13 +139,19 @@ def compose_paper(
             }
         )
 
+    if not locked.issubset(selected_ids):
+        errors.append("部分锁定题目不满足分区条件或题量约束。")
+    for rule in chapter_rules:
+        actual = chapter_counts.get(rule["label"], 0) / max(1, len(selected))
+        if abs(actual - rule["ratio"]) > rule.get("tolerance", 0.08):
+            errors.append(f"{rule['label']}实际占比 {actual:.1%} 与目标 {rule['ratio']:.1%} 超出容差。")
     validation = {
         "valid": not errors,
         "errors": errors,
         "selected_count": len(selected),
         "total_score": sum(item["allocated_score"] for item in selected),
     }
-    paper_id = f"paper-{seed}-{hashlib.sha256(title.encode('utf-8')).hexdigest()[:8]}"
+    paper_id = f"paper-{uuid.uuid4().hex[:16]}"
     question_ids = [item["id"] for item in selected]
     connection.execute(
         """

@@ -5,6 +5,8 @@ contextBridge.exposeInMainWorld("paperHelper", {
   platform: process.platform,
   mobileUrl: process.env.PAPER_HELPER_MOBILE_URL ?? "",
   mobileHost: process.env.PAPER_HELPER_MOBILE_HOST ?? "",
+  showPetTodos: () => ipcRenderer.send("show-pet-todos"),
+  hidePetTodos: () => ipcRenderer.send("hide-pet-todos"),
   showMain: () => ipcRenderer.send("show-main"),
   showAmbient: (mode: "pet" | "ball") => ipcRenderer.send("show-ambient", mode),
   setPetPack: (pack: string) => ipcRenderer.send("set-pet-pack", pack),

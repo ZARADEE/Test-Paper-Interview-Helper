@@ -24,7 +24,7 @@ type Props = {
   onChanged: () => void;
 };
 
-const typeLabels = { choice: "选择题", fill: "填空题", solution: "解答题" };
+const typeLabels = { choice: "选择题", fill: "填空题", solution: "解答题", short_answer: "简答题" };
 const REVIEW_PAGE_SIZE = 12;
 const ANALYSIS_FILE_ACCEPT = ".pdf,.doc,.docx,.png,.jpg,.jpeg,.bmp,.gif,.webp";
 type ImportMode = "booklet" | "paper";
@@ -538,7 +538,7 @@ export function ImportView({ tags: initialTags, questionBanks, onChanged }: Prop
                   >
                     <option value="choice">选择题</option>
                     <option value="fill">填空题</option>
-                    <option value="solution">解答题</option>
+                    <option value="solution">解答题</option><option value="short_answer">简答题</option>
                   </select>
                 </label>
                 <label>

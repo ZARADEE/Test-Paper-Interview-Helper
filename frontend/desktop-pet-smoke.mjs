@@ -11,7 +11,7 @@ await import("./out/main/main.js");
 const output = join(import.meta.dirname, "out", "pet-smoke");
 mkdirSync(output, { recursive: true });
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const js = (window, source) => window.webContents.executeJavaScript(source);
+const js = (window, source) => Promise.race([window.webContents.executeJavaScript(source), delay(8000).then(() => { throw Error("Renderer timeout: " + source.slice(0,100)); })]);
 async function waitFor(check, label) {
   const deadline = Date.now() + 12000;
   while (Date.now() < deadline) {
@@ -43,7 +43,7 @@ async function runSmoke() {
   try {
     await app.whenReady();
     const main = await waitFor(() => BrowserWindow.getAllWindows().find((w) => w.getSize()[0] > 900), "main window");
-    const getPet = () => waitFor(() => BrowserWindow.getAllWindows().find((w) => w !== main && w.isVisible()), "ambient window");
+    const getPet = () => waitFor(() => BrowserWindow.getAllWindows().find((w) => w !== main && w.isVisible() && w.getSize()[0] <= 282), "ambient window");
     await ready(main, ".home-pet-choice");
     assert.equal(await js(main, "document.querySelectorAll('.home-pet-choice').length"), 4);
     assert.equal((await js(main, "window.paperHelper.getPetSettings()")).pack, "doro", "legacy duck should migrate to Doro");
@@ -86,6 +86,7 @@ async function runSmoke() {
     // Each edge is tested in isolation. State continues in main, so IPC cannot grow the window.
     const box = { x: 12 / 256, y: 48 / 256, width: 232 / 256, height: 196 / 256 };
     for (const edge of ["left", "right", "top", "bottom"]) {
+      console.log("CHECK edge",edge);
       await js(main, "window.paperHelper.setPetRoaming(false)");
       await delay(50);
       await js(main, "window.paperHelper.setPetRoaming(true)");
@@ -135,9 +136,25 @@ async function runSmoke() {
       await screenshot(pet, pack);
       fixedSize(pet, 220);
     }
+    await js(main, "(() => { const d=new Date();const today=[d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-'); localStorage.setItem('paper-helper.home.todo-notebook.v1',JSON.stringify([{id:'one',text:'今日数学练习',date:today,done:false},{id:'two',text:'已完成的题',date:today,done:true},{id:'old',text:'昨日任务',date:'2000-01-01',done:false}]));})()");
     await js(pet, "document.querySelector('main').click()");
     await ready(pet, ".pet-artwork.is-click");
     await screenshot(pet, "doro-click");
+    const todos = await waitFor(() => BrowserWindow.getAllWindows().find(w => w !== main && w !== pet && w.isVisible()), "todo panel opens");
+    await ready(todos, ".pet-todo-panel");
+    assert.equal(await js(todos, "document.querySelectorAll('.pet-todo-scroll li').length"), 1);
+    assert.equal(await js(todos, "document.body.innerText.includes('昨日任务')"), false);
+    const panelBounds = todos.getBounds();
+    await js(pet, "document.querySelector('main').click()");
+    await delay(100);
+    assert.deepEqual(todos.getBounds(), panelBounds, "repeated click must not resize panel");
+    fixedSize(pet, 220);
+    await js(main, "(() => {const key='paper-helper.home.todo-notebook.v1';const items=JSON.parse(localStorage.getItem(key));items[0].done=true;localStorage.setItem(key,JSON.stringify(items));})()");
+    await waitFor(() => js(todos, "document.querySelectorAll('.pet-todo-scroll li').length===0"), "live todo completion sync");
+    await screenshot(todos, "todo-panel");
+    await js(todos, "window.paperHelper.hidePetTodos()");
+    await waitFor(() => !todos.isVisible(), "close todo panel");
+
     await ready(pet, ".pet-artwork.is-idle");
     await ready(pet, ".pet-artwork.is-special");
     await screenshot(pet, "doro-special");

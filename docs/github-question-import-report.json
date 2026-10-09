@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "考研数学一": 894,
+    "考研政治": 372,
+    "计算机408": 2311
+  },
+  "total": 3577,
+  "excluded": 199,
+  "previews": 3430,
+  "sources": [
+    {
+      "id": "math",
+      "repository": "https://github.com/PondFish-me/fish.888.moe",
+      "archive_sha256": "dc5b79a5dac8cf844037f1ecb32bf32eda15e3ecc82735db143313f897593cac",
+      "license": "No explicit repository license found; retained for requested local study use"
+    },
+    {
+      "id": "politics",
+      "repository": "https://github.com/mrwoov/kyzz",
+      "archive_sha256": "9915f3ae41b8197d20e9f1b233286de4691ecd6ca82db46fafc90893330c8e16",
+      "license": "No explicit repository license found; retained for requested local study use"
+    },
+    {
+      "id": "408",
+      "repository": "https://github.com/lij768423-svg/408-",
+      "archive_sha256": "5db9b0d0d2583dd8f81e68f3b64d8fa25468e4a4278223cc522149297e852a74",
+      "license": "ISC (software; third-party questions retain their rights)"
+    }
+  ],
+  "missing_answers": 0
+}
