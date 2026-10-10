@@ -252,6 +252,13 @@ app.whenReady().then(() => {
   mainWindow = createMainWindow();
   createTray();
   ipcMain.on("show-main", showMainWindow);
+  ipcMain.on("open-review", (event) => {
+    if (![mainWindow, todoWindow, petWindow].some(window => window && !window.isDestroyed() && window.webContents === event.sender)) return;
+    showMainWindow();
+    const contents = mainWindow!.webContents;
+    if (contents.isLoading()) contents.once("did-finish-load", () => contents.send("open-review"));
+    else contents.send("open-review");
+  });
   ipcMain.on("show-ambient", (_event, mode) => showAmbientWindow(mode === "ball" ? "ball" : "pet"));
   ipcMain.on("set-pet-pack", (_event, pack) => setPetPack(pack));
   ipcMain.on("set-pet-size", (_event, size) => setPetSize(size));

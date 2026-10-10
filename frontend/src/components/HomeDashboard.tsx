@@ -1,3 +1,4 @@
+import { ReviewTask, useReviewSummary } from "./ReviewTask";
 import {
   AlarmClock,
   BookOpen,
@@ -547,6 +548,7 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
   const [dragging, setDragging] = useState<HomePanelId | null>(null);
   const [target, setTarget] = useState<TargetState>(loadTargetState);
   const [todoItems, setTodoItems] = useState<TodoItem[]>(loadTodoItems);
+  const reviewProgress=useReviewSummary();
   const [todoViewDate, setTodoViewDate] = useState(todayKey());
   const [todoBatchDate, setTodoBatchDate] = useState(todayKey());
   const [todoBatchReminderTime, setTodoBatchReminderTime] = useState("");
@@ -1452,6 +1454,8 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
                 </button>
               ))}
             </div>
+
+            {todoViewDate===todayKey()&&<ReviewTask {...reviewProgress} />}
 
             <div className="home-todo-compose">
               <div className="home-todo-compose-head">

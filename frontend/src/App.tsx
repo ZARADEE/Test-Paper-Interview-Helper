@@ -6,7 +6,8 @@ import { ComposeView } from "./components/ComposeView";
 import { HomeDashboard } from "./components/HomeDashboard";
 import { PetTodoPanel } from "./components/PetTodoPanel";
 import { DesktopPetView } from "./components/DesktopPetView";
-import { PracticeView } from "./components/PracticeView";
+import { PracticeWorkspace } from "./components/PracticeWorkspace";
+import { OPEN_REVIEW, ReviewReminder } from "./components/ReviewTask";
 import { TemplateView } from "./components/TemplateView";
 import { ViewErrorBoundary } from "./components/ViewErrorBoundary";
 import type { QuestionBank, TabId, Tag } from "./types";
@@ -32,6 +33,12 @@ function MainApp(): JSX.Element {
   const [status, setStatus] = useState<"online" | "offline">("offline");
   const [statusMessage, setStatusMessage] = useState("等待后端");
   const [refreshKey, setRefreshKey] = useState(0);
+  useEffect(()=>{
+    const open=()=>setActiveTab("practice");
+    window.addEventListener(OPEN_REVIEW,open);
+    const stop=window.paperHelper?.onOpenReview(()=>window.dispatchEvent(new Event(OPEN_REVIEW)));
+    return()=>{window.removeEventListener(OPEN_REVIEW,open);stop?.();};
+  },[]);
 
   useEffect(() => {
     void Promise.all([getHealth(), getQuestionBanks(), getTags()])
@@ -55,6 +62,7 @@ function MainApp(): JSX.Element {
 
   return (
     <div className="app-shell">
+      <ReviewReminder />
       <aside className="left-rail">
         <div className="brand-block">
           <SquareStack size={28} strokeWidth={3} />
@@ -108,7 +116,7 @@ function MainApp(): JSX.Element {
           {activeTab === "compose" && <ComposeView tags={tags} questionBanks={questionBanks} onChanged={refresh} />}
           {activeTab === "templates" && <TemplateView tags={tags} questionBanks={questionBanks} onChanged={refresh} />}
           </ViewErrorBoundary>
-          <div className={`tab-view ${activeTab === "practice" ? "" : "tab-view-hidden"}`}><ViewErrorBoundary><PracticeView /></ViewErrorBoundary></div>
+          <div className={`tab-view ${activeTab === "practice" ? "" : "tab-view-hidden"}`}><ViewErrorBoundary><PracticeWorkspace active={activeTab==="practice"} /></ViewErrorBoundary></div>
         </section>
       </main>
     </div>

@@ -19,6 +19,9 @@ export type QuestionBank = {
 };
 
 export type Question = {
+  visual?: import("./components/visuals/types").VisualSpec | null;
+  option_explanations?: string[];
+  explanation_source?: { repository: string; commit: string; path: string };
   id: string;
   type: QuestionType;
   subject: string;

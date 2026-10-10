@@ -57,7 +57,7 @@
 
 数学一按高等数学、线性代数、概率论与数理统计分类；政治按五个课程模块分类；408 按四科和章节分类。新增题源保留原始答案、解析和来源信息。自动分类可修订，参考解答未逐题人工重解，历史政治题按当年背景理解。
 
-题面、公式、图表和解析提供离线无损 WebP 预览，PDF / DOCX 导出时转换为 PNG，不依赖本机原始整册 PDF。题源、缺图排除记录与使用说明见 [GitHub 题库来源](docs/github-question-sources.md)、[408 完整性核验](docs/zhijing408-audit.json)。源数据的动画讲解结构已保留，本系统尚未接入其交互播放器。
+题面、公式、图表和解析提供离线无损 WebP 预览，PDF / DOCX 导出时转换为 PNG，不依赖本机原始整册 PDF。题源、缺图排除记录与使用说明见 [GitHub 题库来源](docs/github-question-sources.md)、[408 完整性核验](docs/zhijing408-audit.json)。现已接入全部八类、125 条过程图解，以及 400 道模拟选择题的逐选项解释。
 
 - [题目 JSON](backend/data/questions)：题干、选项、答案、解析、标签、来源区域。
 - [题库清单](backend/data/bundled/manifest.json)：数量、分类、模板、来源元数据与文件校验值。
@@ -74,6 +74,10 @@
 ### 小题狂练 · 再来一道，这次真是最后一道
 
 支持按题库、学科、大类和小类标签筛选，进行单选 / 多选自动判题、连续随机刷题、持久化错题记录、错题删除，以及错题和答案 PDF 导出。另有答题计时、标记、暂存恢复、收藏和错因复盘。知识地图与学习记录仪面板暂时移除，已有记录保留。
+
+“小题狂练”内新增 **主观题练习 / 知识点阅读 / 图解浏览**。主观题提供文本与公式预览、自动草稿、提交后参考解、自评、改判与错题重练；Agent 默认关闭，手动勾选并配置 API Key 后，点击判题才调用模型并注入固定标准。知识点和图解可单独浏览，无需先答题。详见 [更新说明与验收记录](docs/subjective-diagrams-update.md)。
+
+**到期复习**使用 FSRS 安排间隔：先回忆、看参考解，再选择忘记 / 困难 / 良好 / 轻松。支持错题自动加入、手动加入题目/知识点、撤销、暂停/恢复、暂缓、每日限额、完整历史和本地参数优化；首页及桌宠待办同步剩余任务。更新后运行 `setup.bat` 补齐调度与优化器依赖。详见 [到期复习说明与验收](docs/spaced-review-update.md)。
 
 ![小题狂练工作台](docs/screenshots/02-practice.png)
 
@@ -99,9 +103,11 @@ PDF、DOCX、DOC 中抽取的题目先进入审核队列。可查看原版题面
 
 ### Windows 一键启动
 
-双击项目根目录的 start.bat。脚本检查 Python、Node.js 和依赖，创建或复用 .venv，随后启动 FastAPI 和 Electron。
+换一台 Windows 电脑时，先完整解压项目，再双击根目录的 **[setup.bat](setup.bat)**。首次配置会检查 Python / Node.js，缺失时尝试通过 WinGet 安装；随后创建本项目的 `.venv`、安装锁定依赖、检查 Electron，并执行类型检查与构建。看到 `Environment ready` / `Setup passed` 后，双击 **[start.bat](start.bat)** 启动。
 
-环境要求：Python 3.11+、Node.js 20+；涉及部分 Word 转换和导出流程时需要 LibreOffice。图片处理依赖 Pillow，已列入后端依赖。
+日常 `start.bat` 仍会检查和补齐依赖，发现旧环境或缺少 `electron-vite` 会修复；任何安装失败都会停止，不再继续启动。配置与后端启动日志位于 `logs/`。完整步骤和截图报错处理见 [Windows 配置说明](docs/windows-setup.md)。
+
+环境要求：64 位 Windows、Python 3.11+（64 位）、Node.js 20+。首次配置需要联网；无 WinGet 时需先手动安装 Python / Node.js。涉及部分 Word 转换和导出流程时需要 LibreOffice，OCR 组件也需按需另装。图片处理依赖 Pillow，已列入后端依赖。
 
 ### 手动启动
 
@@ -111,7 +117,7 @@ PDF、DOCX、DOC 中抽取的题目先进入审核队列。可查看原版题面
 py -3 -m venv .venv
 ./.venv/Scripts/python.exe -m pip install -r backend/requirements.txt
 cd frontend
-npm install
+npm ci --include=dev
 ```
 
 在项目根目录启动后端：

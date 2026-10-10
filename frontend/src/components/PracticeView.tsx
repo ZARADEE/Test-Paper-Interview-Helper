@@ -38,6 +38,7 @@ import type {
 
 import { QuestionReflection, learningRequest } from "./LearningPanel";
 import type { KnowledgeCard } from "./LearningPanel";
+import { QuestionExplanation } from "./QuestionExplanation";
 
 const wrongBookVictoryLines = [
   "这波很能打，错题本已经开始认真反省了。",
@@ -62,7 +63,7 @@ function pickWrongBookVictoryLine(): string {
   return wrongBookVictoryLines[Math.floor(Math.random() * wrongBookVictoryLines.length)];
 }
 
-export function PracticeView(): JSX.Element {
+export function PracticeView({active=true}:{active?:boolean}): JSX.Element {
   const [, setLearningRevision] = useState(0);
   const [marked, setMarked] = useState<string[]>([]);
   const [draftAnswers, setDraftAnswers] = useState<Record<string, string[]>>({});
@@ -601,10 +602,7 @@ export function PracticeView(): JSX.Element {
                       <strong>{answerResult.correct ? "回答正确" : "回答错误"}</strong>
                       <span>你的答案：{answerResult.selected_options.join("、")}　正确答案：{answerResult.correct_options.join("、")}</span>
                     </div>
-                    {resultQuestion?.analysis_markdown && (
-                      <p><b>解析：</b>{resultQuestion.analysis_markdown}</p>
-                    )}
-                    {(resultQuestion?.analysis_source_document_id === "source-zhijing408" || resultQuestion?.analysis_source_document_id?.startsWith("source-github-")) && <img className="practice-question-image" alt="原版答案解析" loading="lazy" src={questionPreviewUrl(resultQuestion.id, "analysis")} />}
+                    {resultQuestion && <QuestionExplanation key={resultQuestion.id} question={resultQuestion} selected={answerResult.selected_options} active={active}/>}
                     {resultQuestion && <QuestionReflection key={resultQuestion.id} question={resultQuestion} onChanged={() => setLearningRevision(value => value + 1)} onPractice={q => void practiceRelated(q)} />}
                     <div className="practice-submit-row">
                       <span>
@@ -705,7 +703,7 @@ export function PracticeView(): JSX.Element {
                   ) : (
                     <div className="question-text">{item.stem_markdown}</div>
                   )}
-                  {item.analysis_markdown ? <p className="wrong-book-analysis"><b>解析：</b>{item.analysis_markdown}</p> : null}
+                  <QuestionExplanation question={item} selected={item.last_selected_option} active={active}/>
                   <div className="question-meta">
                     {(item.tags ?? []).map((tag) => <span key={tag}>{tag}</span>)}
                     <span>你的答案 {item.last_selected_option.join("、")}</span>

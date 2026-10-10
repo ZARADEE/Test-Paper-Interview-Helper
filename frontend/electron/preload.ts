@@ -8,6 +8,12 @@ contextBridge.exposeInMainWorld("paperHelper", {
   showPetTodos: () => ipcRenderer.send("show-pet-todos"),
   hidePetTodos: () => ipcRenderer.send("hide-pet-todos"),
   showMain: () => ipcRenderer.send("show-main"),
+  openReview: () => ipcRenderer.send("open-review"),
+  onOpenReview: (callback: () => void) => {
+    const listener = () => callback();
+    ipcRenderer.on("open-review", listener);
+    return () => ipcRenderer.removeListener("open-review", listener);
+  },
   showAmbient: (mode: "pet" | "ball") => ipcRenderer.send("show-ambient", mode),
   setPetPack: (pack: string) => ipcRenderer.send("set-pet-pack", pack),
   setPetSize: (size: PetSize) => ipcRenderer.send("set-pet-size", size),

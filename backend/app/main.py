@@ -58,6 +58,12 @@ from .learning import router as learning_router
 app.include_router(learning_router)
 from .presets import router as presets_router
 app.include_router(presets_router)
+from .subjective import router as subjective_router
+from .study_explanations import router as study_router, enrich
+app.include_router(subjective_router)
+app.include_router(study_router)
+from .review_scheduler import router as review_router, enroll_wrong
+app.include_router(review_router)
 
 
 @app.exception_handler(RequestValidationError)
@@ -1288,6 +1294,7 @@ def answer_practice_question(
     if not selected:
         raise HTTPException(status_code=400, detail="至少选择一个选项。")
     with connect() as connection:
+        connection.execute("BEGIN IMMEDIATE")
         session = _get_practice_session(connection, session_id)
         question_ids = json_load(session["question_ids_json"], [])
         if payload.question_id not in question_ids:
@@ -1326,6 +1333,7 @@ def answer_practice_question(
             ),
         )
         if not result:
+            enroll_wrong(connection, question, f"选择题答错 · 练习 {session_id}")
             connection.execute(
                 """
                 INSERT INTO wrong_questions(
@@ -1373,7 +1381,7 @@ def answer_practice_question(
         "selected_options": selected,
         "correct_options": correct,
         "correct": result,
-        "question": question,
+        "question": enrich(question),
         "answered_count": answered_count,
         "total_count": session["total_count"],
         "wrong_question_ids": wrong_ids,
@@ -1406,7 +1414,7 @@ def list_wrong_book(
         if sub_tag and (len(tags) < 2 or tags[1] != sub_tag):
             continue
         item = {
-            **question,
+            **enrich(question),
             "wrong_count": row["wrong_count"],
             "first_wrong_at": row["first_wrong_at"],
             "last_wrong_at": row["last_wrong_at"],

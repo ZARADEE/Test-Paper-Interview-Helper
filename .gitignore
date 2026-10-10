@@ -1,4 +1,6 @@
 .venv/
+.venv.broken-*/
+logs/
 __pycache__/
 *.py[cod]
 backend/data/*

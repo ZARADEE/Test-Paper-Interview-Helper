@@ -10,6 +10,8 @@ declare global {
       showPetTodos: () => void;
       hidePetTodos: () => void;
       showMain: () => void;
+      openReview: () => void;
+      onOpenReview: (callback: () => void) => () => void;
       showAmbient: (mode: "pet" | "ball") => void;
       setPetPack: (pack: string) => void;
       setPetSize: (size: PetSize) => void;

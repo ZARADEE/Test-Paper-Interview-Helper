@@ -48,7 +48,13 @@ def connect() -> Iterator[sqlite3.Connection]:
 
 def init_db() -> None:
     ensure_dirs()
+    from .subjective import backup_before_migration, init_subjective
+    backup_before_migration(DB_PATH)
+    from .review_scheduler import backup_before_migration as backup_reviews, init_reviews
+    backup_reviews(DB_PATH)
     with connect() as connection:
+        init_subjective(connection)
+        init_reviews(connection)
         from .learning import init_learning
         init_learning(connection)
         connection.executescript(

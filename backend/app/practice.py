@@ -47,6 +47,9 @@ def sanitize_practice_question(question: dict[str, Any]) -> dict[str, Any]:
     result["analysis_markdown"] = ""
     result.pop("source_regions", None)
     result.pop("analysis_regions", None)
+    result.pop("visual", None)
+    result.pop("option_explanations", None)
+    result.pop("scoring_points", None)
     return result
 
 
@@ -101,6 +104,7 @@ def practice_session_payload(
     question_rows: list[Any],
     attempt_rows: list[Any],
 ) -> dict[str, Any]:
+    from .study_explanations import enrich
     attempts = {
         row["question_id"]: {
             "question_id": row["question_id"],
@@ -125,7 +129,7 @@ def practice_session_payload(
         "wrong_question_ids": json_load(session["wrong_question_ids_json"], []),
         "questions": [
             {
-                **(row_to_question(row) if row["id"] in attempts else sanitize_practice_question(row_to_question(row))),
+                **(enrich(row_to_question(row)) if row["id"] in attempts else sanitize_practice_question(row_to_question(row))),
                 "answer_mode": question_answer_mode(row["answer_markdown"]),
                 "attempt": attempts.get(row["id"]),
             }
