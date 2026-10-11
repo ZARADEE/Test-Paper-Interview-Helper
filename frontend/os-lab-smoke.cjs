@@ -1,0 +1,55 @@
+const {app,BrowserWindow}=require('electron');
+const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),assert=require('node:assert/strict');
+app.setPath('userData',path.join(app.getPath('temp'),'paper-os-lab-smoke-'+Date.now()));
+const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
+const root=path.join(__dirname,'out/renderer'),output=path.join(__dirname,'out/os-lab-smoke');
+const server=http.createServer((req,res)=>{const url=new URL(req.url,'http://localhost'),file=path.resolve(root,'.'+decodeURIComponent(url.pathname==='/'?'/index.html':url.pathname));if(!file.startsWith(root+path.sep)){res.writeHead(403);res.end();return;}fs.readFile(file,(error,data)=>{if(error){res.writeHead(404);res.end();return;}res.setHeader('Content-Type',({'.html':'text/html','.js':'application/javascript','.css':'text/css','.woff2':'font/woff2','.png':'image/png','.svg':'image/svg+xml'})[path.extname(file)]||'application/octet-stream');res.end(data);});});
+app.whenReady().then(async()=>{
+ await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));fs.mkdirSync(output,{recursive:true});
+ let devServer;
+ if(process.argv.includes('--dev')){const {createServer,loadConfigFromFile}=await import('vite');const loaded=await loadConfigFromFile({command:'serve',mode:'development'},path.join(__dirname,'electron.vite.config.ts'));devServer=await createServer({...loaded.config.renderer,configFile:false,server:{host:'127.0.0.1',port:0,strictPort:false}});await devServer.listen();}
+ const win=new BrowserWindow({width:1500,height:1080,show:false,webPreferences:{sandbox:true,contextIsolation:true,offscreen:true,backgroundThrottling:false}});
+ const errors=[];
+ win.webContents.on('console-message',(_event,level,message)=>{if(level>=3&&!/ERR_CONNECTION|ERR_FAILED|Failed to fetch|Failed to load resource/.test(message))errors.push(message);});
+ win.webContents.session.webRequest.onBeforeRequest({urls:['http://127.0.0.1:8000/*']},(_details,callback)=>callback({cancel:true}));
+ const js=(fn,...args)=>win.webContents.executeJavaScript('('+fn.toString()+')('+args.map(a=>JSON.stringify(a)).join(',')+')',true);
+ const wait=async(fn,...args)=>{for(let i=0;i<160;i++){if(await js(fn,...args))return;await delay(75);}throw Error('Timeout '+fn);};
+ const click=async label=>{assert(await js(text=>{const b=[...document.querySelectorAll('button')].find(b=>b.getClientRects().length&&!b.disabled&&(b.textContent.trim()===text||b.matches('.rail-button')&&b.querySelector('span')?.textContent===text));b?.click();return !!b;},label),'Button '+label);await delay(100);};
+ const field=async(selector,value)=>{await js((selector,value)=>{const el=document.querySelector(selector);if(!el)throw Error('Missing '+selector);const proto=el.tagName==='TEXTAREA'?HTMLTextAreaElement.prototype:HTMLInputElement.prototype;Object.getOwnPropertyDescriptor(proto,'value').set.call(el,value);el.dispatchEvent(new Event('input',{bubbles:true}));},selector,value);await delay(80);};
+ const shot=async(name,selector)=>{if(selector)await js(selector=>document.querySelector(selector).scrollIntoView({block:'start'}),selector);await delay(200);fs.writeFileSync(path.join(output,name+'.png'),(await win.webContents.capturePage()).toPNG());};
+ const runCode=async()=>{await click('运行代码');await wait(()=>/执行完成|失败|错误|已停止/.test(document.querySelector('.os-run-status').textContent));};
+ try{
+  if(process.argv.includes('--file'))await win.loadFile(path.join(root,'index.html'));else await win.loadURL(devServer?.resolvedUrls.local[0]||'http://127.0.0.1:'+server.address().port);await wait(()=>document.querySelector('.rail-nav'));
+  await click('小题狂练');await click('408 实验台');await wait(()=>document.querySelector('.os-results'));
+  assert.equal(await js(()=>document.querySelectorAll('.os-catalog nav button').length),45);await shot('desktop-lab','.os-hero');
+  await click('下一步');assert((await js(()=>document.querySelector('.os-state h4').textContent)).includes('t=2'));
+  await click('最后一步');assert((await js(()=>document.querySelector('.os-state').textContent)).includes('调度完成'));
+  await click('同参数对比算法');assert.equal(await js(()=>document.querySelectorAll('.os-comparison tbody tr').length),6);
+  await field('#os-param-processes','0 2 1\n1 1 1');assert(await js(()=>document.querySelector('.os-notice')?.textContent.includes('参数已修改')));assert.equal(await js(()=>!!document.querySelector('.os-comparison')),false);await click('运行实验');assert((await js(()=>document.querySelector('.os-metrics').textContent)).includes('完成时刻3'));assert(await js(()=>!!document.querySelector('[data-testid=cpp-input-stale]')));
+  await field('#os-param-quantum','');await click('运行实验');assert((await js(()=>document.querySelector('.os-experiment [role=alert]').textContent)).includes('时间片'));assert(await js(()=>!!document.querySelector('.os-lab')));
+  await field('#os-param-quantum','0');await click('运行实验');assert((await js(()=>document.querySelector('.os-experiment [role=alert]').textContent)).includes('时间片'));await click('恢复默认参数');
+  await runCode();assert((await js(()=>document.querySelector('[data-testid=cpp-output]').textContent)).includes('PID completion'));assert.equal(await js(()=>!!document.querySelector('.os-code .os-error')),false);await shot('desktop-code','.os-code');
+  await field('#os-cpp-code','#include <iostream>\nusing namespace std;\nint main(){\n int x;cin>>x;\n x=x*x;\n cout<<x;\n return 0;\n}');await field('#os-cpp-input','7');await runCode();assert.equal(await js(()=>document.querySelector('[data-testid=cpp-output]').textContent),'49');
+  await click('开始逐行调试');await wait(()=>document.querySelector('.os-debug'));let sawVariable=false;for(let i=0;i<8;i++){if(await js(()=>document.querySelector('.os-debug tbody')?.textContent.includes('x')))sawVariable=true;if(!(await js(()=>[...document.querySelectorAll('button')].some(b=>b.textContent==='执行下一行'&&!b.disabled))))break;await click('执行下一行');await wait(()=>!document.querySelector('.os-run-status').textContent.includes('执行下一行…'));}assert(sawVariable);await shot('desktop-debug','.os-code');
+  await field('#os-cpp-code','#include <stdio.h>\nint main(){int x;scanf("%d",&x);printf("%d",x+2);return 0;}');await field('#os-cpp-input','5');await runCode();assert.equal(await js(()=>document.querySelector('[data-testid=cpp-output]').textContent),'7');
+  await field('#os-cpp-code','int main( {');await runCode();assert((await js(()=>document.querySelector('.os-code .os-error').textContent)).includes('Parsing'));
+  await field('#os-cpp-code','#include <stdlib.h>\nint main(){system("1+1");return 0;}');await runCode();assert(await js(()=>!!document.querySelector('.os-code .os-error')));
+  await field('#os-cpp-code','int main(){while(1){}return 0;}');await runCode();assert(/time|超时|超过/i.test(await js(()=>document.querySelector('.os-code .os-error').textContent)));
+  await click('运行代码');await click('停止执行');assert((await js(()=>document.querySelector('.os-run-status').textContent)).includes('手动停止'));
+  await field('#os-cpp-code','#include <iostream>\nusing namespace std;int main(){while(1)cout<<"abcdefghijklmnop";return 0;}');await runCode();assert(/64K/.test(await js(()=>document.querySelector('.os-code .os-error').textContent)));
+  await click('载入样例 / 同步输入');assert(await js(()=>!![...document.querySelectorAll('button')].find(b=>b.textContent==='确认载入')));await click('确认载入');
+  const experiments=await js(()=>[...document.querySelectorAll('.os-catalog nav button')].map(b=>b.textContent));for(const name of experiments){await click(name);assert(await js(()=>!!document.querySelector('.os-results .os-state h4')),name);assert.equal(await js(()=>!!document.querySelector('.os-experiment .os-error')),false,name);}
+  await field('#os-search','LRU');assert.equal(await js(()=>document.querySelectorAll('.os-catalog nav button').length),1);await click('LRU 最近最少使用');await runCode();assert((await js(()=>document.querySelector('[data-testid=cpp-output]').textContent)).includes('faults=9'));
+  await field('#os-search','');await click('随机置换');await runCode();assert.equal(await js(()=>!!document.querySelector('.os-code .os-error')),false);
+  await click('SCAN 电梯');await field('#os-param-max','199,');await click('运行实验');assert(!(await js(()=>document.querySelector('.os-disk-chart svg').outerHTML)).includes('NaN'));
+  await click('页表查找与缺页');await click('最后一步');assert(!(await js(()=>document.querySelector('.os-state').textContent)).includes('TLB'));
+  await click('TLB 地址转换');await click('最后一步');await shot('desktop-tlb','.os-results');
+  win.setSize(390,844);await shot('mobile-lab','.os-hero');assert(await js(()=>document.body.scrollWidth<=innerWidth+1),'mobile overflow');await shot('mobile-results','.os-results');assert(await js(()=>document.body.scrollWidth<=innerWidth+1),'results overflow');await shot('mobile-code','.os-code');assert(await js(()=>document.body.scrollWidth<=innerWidth+1),'code overflow');
+  await field('#os-cpp-code','#include <iostream>\nusing namespace std;int main(){cout<<408;return 0;}');await click('LRU 最近最少使用');await click('TLB 地址转换');assert((await js(()=>document.querySelector('#os-cpp-code').value)).includes('cout<<408'));await runCode();assert.equal(await js(()=>document.querySelector('[data-testid=cpp-output]').textContent),'408');
+  await field('#os-cpp-code','');await click('LRU 最近最少使用');await click('TLB 地址转换');assert.equal(await js(()=>document.querySelector('#os-cpp-code').value),'');
+  await click('选择题练习');assert.equal(await js(()=>!!document.querySelector('.os-lab')),false);await click('408 实验台');assert(await js(()=>!!document.querySelector('.os-lab')));
+  await field('#os-cpp-code','#include <iostream>\nusing namespace std;int main(){cout<<1;return 0;}');await js(()=>{window.__osOriginalSetItem=Storage.prototype.setItem;Storage.prototype.setItem=function(){throw new DOMException('storage disabled','QuotaExceededError');};});await field('#os-cpp-code','#include <iostream>\nusing namespace std;int main(){cout<<2;return 0;}');assert((await js(()=>document.querySelector('label[for=os-cpp-code] small').textContent)).includes('未保存'));await js(()=>{Storage.prototype.setItem=window.__osOriginalSetItem;delete window.__osOriginalSetItem;});
+  assert.deepEqual(errors,[]);console.log(JSON.stringify({status:'passed',mode:devServer?'development':process.argv.includes('--file')?'production-file':'production-http',experiments:45,checks:['navigation','all experiments','parameters','blank parameter guard','stale result warning','comparison','playback','C++ edit/input/output','C stdio','debug variables','syntax errors','blocked host API','timeout','stop','output limit','drafts','storage failure','desktop/narrow-window layout'],screenshots:output}));
+ }catch(error){await shot('failure').catch(()=>{});console.error(error);console.error(await js(()=>({status:document.querySelector('.os-run-status')?.textContent,error:document.querySelector('.os-code .os-error')?.textContent,width:innerWidth,body:document.body.scrollWidth})));console.error(errors);server.close();await devServer?.close();app.exit(1);return;}
+ server.close();await devServer?.close();app.exit(0);
+});

@@ -24,6 +24,8 @@ export default defineConfig({
   },
   renderer: {
     root,
+    resolve: { alias: [{find: /^printf$/, replacement: resolve(root,"src/components/os-lab/printf-browser.cjs")}] },
+    optimizeDeps: { include: ['JSCPP'] },
     plugins: [react()],
     server: {
       host: "0.0.0.0",
