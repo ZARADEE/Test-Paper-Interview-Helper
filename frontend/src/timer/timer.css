@@ -1,0 +1,85 @@
+.timer-card,.timer-setup{box-sizing:border-box;color:#242323;font-size:14px;min-width:0}
+.timer-card{border:2px solid #262522;background:#fffaf0;padding:16px;box-shadow:3px 3px 0 #262522}
+.timer-card button,.timer-setup button{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:34px;border:2px solid #292724;border-radius:0;padding:5px 10px;background:#fffaf0;color:#242323;cursor:pointer;font-weight:700}
+.timer-card button:disabled,.timer-setup button:disabled{opacity:.5;cursor:default}
+.timer-card button:focus-visible,.timer-setup :focus-visible{outline:3px solid #2858ff;outline-offset:2px}
+.timer-card .timer-primary,.timer-setup .timer-primary{background:#ffd23f}
+.timer-heading{display:flex;gap:6px;align-items:center;margin-bottom:6px;min-width:0}
+.timer-heading>span{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:800}
+.timer-heading>button{padding:4px;min-width:34px}
+.timer-clock-row{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.timer-card .timer-clock{display:flex;align-items:flex-start;flex-direction:column;border:0;background:transparent;padding:0;text-align:left}
+.timer-clock span{font-size:13px}
+.timer-clock strong{font:800 36px/1.2 ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums;white-space:nowrap}
+.timer-expected{display:block;min-height:18px;margin-top:5px}
+.timer-progress{height:6px;background:#ddd7cb;margin:14px 0}
+.timer-progress i{display:block;height:100%;background:#2858ff}
+.timer-card.is-overtime{background:#ffe0a8}
+.timer-card.is-overtime .timer-progress i{background:#ad4112}
+.timer-card.is-paused{background:#e8e6e1}
+.timer-metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:12px 0}
+.timer-metrics div{display:flex;justify-content:space-between;gap:8px}
+.timer-metrics dt{color:#555}
+.timer-metrics dd{margin:0;font-variant-numeric:tabular-nums;font-family:Consolas,monospace}
+.timer-actions,.timer-modes,.timer-sound-settings{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.timer-actions select{min-height:36px;max-width:100%;border:2px solid #292724;background:#fffaf0}
+.timer-modes [aria-pressed=true]{background:#ffd23f}
+.timer-fields{display:grid;grid-template-columns:2fr 1fr;gap:12px}
+.timer-fields label{display:flex;flex-direction:column;gap:6px}
+.timer-fields input{min-width:0;width:100%;box-sizing:border-box;border:2px solid #292724;background:#fff;padding:8px;border-radius:0}
+.timer-sound-settings label{display:flex;align-items:center;gap:5px}
+.timer-sound-settings input[type=range]{width:90px}
+.timer-sound-settings input[type=checkbox]{width:16px;height:16px}
+.timer-sound-settings small{width:100%}
+.timer-notice,.timer-error{font-size:13px;overflow-wrap:anywhere}
+.timer-error{color:#9b2416}
+.timer-confirm{border:2px solid #9b4b1a;padding:10px;background:#fffaf0;margin:10px 0}
+.timer-confirm button{margin-right:8px}
+.timer-confirm p{margin-top:0}
+.timer-card .timer-link,.timer-setup .timer-link,.timer-link{border:0;background:none;box-shadow:none;text-decoration:underline;font-size:12px;cursor:pointer}
+.timer-new{border-top:2px solid #262522;margin-top:16px;padding-top:12px}
+.timer-new summary{cursor:pointer;font-weight:700}
+.timer-dock{position:fixed;right:24px;bottom:20px;width:310px;z-index:60;background:#fffaf0;max-height:calc(100vh - 40px);overflow:auto}
+.timer-card.is-compact{padding:10px;box-shadow:none}
+.is-compact .timer-clock strong{font-size:28px}
+.is-compact .timer-metrics{font-size:13px}
+.ambient-timer{padding:3px;box-sizing:border-box;width:100%;background:transparent}
+.ambient-timer .timer-heading{cursor:move;touch-action:none}
+.timer-empty{display:none}
+.timer-dock>.timer-link{padding:8px}
+.timer-card details{font-size:12px;overflow-wrap:anywhere}
+.timer-card details p{margin:5px 0}
+.paper-export-package{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.paper-export-issues{padding:12px;border:2px solid #ad4112;background:#ffe0a8;margin-top:12px}
+.paper-timer-setup{border:2px solid #262522;padding:16px;background:#fffaf0;margin:14px 0}
+.paper-export-package select{padding:8px;border:2px solid #262522;background:#fffaf0}
+.timer-existing{padding:8px}
+.timer-existing button{margin:6px}
+@media(max-width:600px){.timer-fields{grid-template-columns:1fr}
+.timer-dock{right:10px;bottom:10px;width:min(310px,calc(100vw - 20px))}
+.timer-metrics{grid-template-columns:1fr}
+.timer-clock strong{font-size:30px}
+}
+
+html:has(.ambient-timer),html:has(.ambient-timer) body,html:has(.ambient-timer) #root{background:transparent!important;overflow:auto;scrollbar-width:thin}
+
+.is-expanded .timer-heading>span{white-space:normal;overflow-wrap:anywhere}
+
+.ambient-timer .timer-card{box-shadow:none}
+.paper-timer,.package-confirm{padding:18px;margin:14px 0}
+.paper-timer>small{display:block;overflow-wrap:anywhere;margin-bottom:10px}
+.export-bar{flex-wrap:wrap}
+.export-bar small{display:block}
+.export-bar>details{flex-basis:100%}
+.package-confirm{border-color:#ad4112;background:#ffe0a8}
+.package-confirm button{margin-right:10px}
+.package-confirm ul{max-height:220px;overflow:auto}
+.notice a{margin-left:12px;text-decoration:underline}
+
+.timer-card .timer-clock{box-shadow:none;transform:none}
+.timer-card .timer-clock:hover{background:transparent}
+.timer-card button{box-shadow:2px 2px 0 #262522}
+.timer-card .timer-clock:focus-visible{outline:2px solid #2858ff;outline-offset:3px}
+.timer-heading>span{min-width:0}
+.timer-heading>button{flex-shrink:0}
+.timer-metrics{column-gap:20px}

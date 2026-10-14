@@ -1,0 +1,290 @@
+{
+  "generated_at": "2026-10-15T00:00:00+08:00",
+  "total": 30,
+  "counts": {
+    "马克思主义基本原理": 8,
+    "中国近现代史纲要": 4,
+    "毛泽东思想和中国特色社会主义理论体系": 7,
+    "思想道德与法治": 6,
+    "形势与政策以及当代世界经济与政治": 5
+  },
+  "years": {
+    "2010": 2,
+    "2011": 4,
+    "2012": 1,
+    "2013": 2,
+    "2014": 4,
+    "2015": 2,
+    "2017": 1,
+    "2020": 2,
+    "2023": 3,
+    "2024": 5,
+    "2025": 4
+  },
+  "sources": [
+    {
+      "id": "politicssolution-xyz",
+      "repository": "https://github.com/xyzxyq/kaoyanzhengzhi",
+      "commit": "dd3c558f0e003187653435fc2832d8852f6162e7",
+      "archive_sha256": "06e5b73b986f95707aeb47500c4e4f487710448d2db272cd1e8d2699d7edf1a8",
+      "license_note": "仓库未声明统一许可；保留原题与参考解答来源"
+    },
+    {
+      "id": "politicssolution-tseka",
+      "repository": "https://github.com/TsekaLuk/Kaoyan-Politics-Papers",
+      "commit": "ba7628fea355977b06c26f864ef6cf967ecfabca",
+      "archive_sha256": "523971d579786e1fae78d09ae502ccf36d3a81ee28d449427f96b76909c57d2a",
+      "license_note": "仓库未声明统一许可；保留原题与参考解答来源"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "xyz",
+      "year": 2012,
+      "number": 34,
+      "path": "2012/2012_通用_马原.md",
+      "block_sha256": "9e80a233a44bc65488d1d91e46e41724389763b49f217d9ed87fc767a20070d1",
+      "reason": "题面小问分值合计与原题总分冲突"
+    },
+    {
+      "source": "xyz",
+      "year": 2012,
+      "number": 34,
+      "path": "2012/2012_通用_马原.md",
+      "block_sha256": "c587a4cae4307035f8859872e750c18c130bdf17d45606fd658798da270e228c",
+      "reason": "题面小问分值合计与原题总分冲突"
+    },
+    {
+      "source": "xyz",
+      "year": 2012,
+      "number": 35,
+      "path": "2012/2012_通用_马原.md",
+      "block_sha256": "e46b75f71223d96ecb43f0b81d9d5e71bf8302307d89edbc05f4d85db8b0cf4e",
+      "reason": "题面或参考解答不完整"
+    },
+    {
+      "source": "xyz",
+      "year": 2012,
+      "number": 38,
+      "path": "2012/2012_通用_马原.md",
+      "block_sha256": "e7cec0c4ab78c4ecdd607d8577ec0c50a0d3b41a6de2c4e6fba676e76241cde3",
+      "reason": "题面小问分值合计与原题总分冲突"
+    },
+    {
+      "source": "xyz",
+      "year": 2016,
+      "number": 34,
+      "path": "2016/2016_通用_马原.md",
+      "block_sha256": "034a116e4cbd4791fecfe4a7ceeed6c3486852747b120c6fd86a3b0d5d856130",
+      "reason": "题面存在明显 OCR 错字和遮蔽内容，暂不纳入"
+    },
+    {
+      "source": "xyz",
+      "year": 2016,
+      "number": 35,
+      "path": "2016/2016_通用_马原.md",
+      "block_sha256": "68f8c6af32ef6f4bb8404d5d058d4d688ee6a5cf97805acafb24d178812d3657",
+      "reason": "题面存在明显 OCR 错字和遮蔽内容，暂不纳入"
+    },
+    {
+      "source": "xyz",
+      "year": 2016,
+      "number": 38,
+      "path": "2016/2016_通用_马原.md",
+      "block_sha256": "d5abfee17c40298eda6415f6d6ae7828ccba218b1b3cad28221d5b24dfe5f43d",
+      "reason": "题面存在明显 OCR 错字和遮蔽内容，暂不纳入"
+    },
+    {
+      "source": "xyz",
+      "year": 2017,
+      "number": 34,
+      "path": "2017/2017_通用_马原.md",
+      "block_sha256": "0681cd376bff04cdb696a7e9ffba2abd6da2b184998d3adb3d11fea1d7145f44",
+      "reason": "缺少可分离的参考答案"
+    },
+    {
+      "source": "xyz",
+      "year": 2018,
+      "number": 35,
+      "path": "2018/2018_通用_马原.md",
+      "block_sha256": "22fa0fd3e1978a00d7c3fc0552fa84d190eeaa0f48a05c550304068906ea5519",
+      "reason": "小问缺失或 OCR 序号与分值不可靠"
+    },
+    {
+      "source": "xyz",
+      "year": 2018,
+      "number": 36,
+      "path": "2018/2018_通用_马原.md",
+      "block_sha256": "9d93a8182c8bf27c36c2691cb1909ee902f992631f488c94d64a2b4d95330796",
+      "reason": "小问缺失或 OCR 序号与分值不可靠"
+    },
+    {
+      "source": "xyz",
+      "year": 2024,
+      "number": 34,
+      "path": "2024/2024_通用_马原.md",
+      "block_sha256": "9199405cf55b48fe7d6655197504824e0d6c11f364caaca36fb52e39317f8ae9",
+      "reason": "采用同年另一来源的完整题面与逐问解析，避免重复及答案孤块"
+    },
+    {
+      "source": "xyz",
+      "year": 2024,
+      "number": 34,
+      "path": "2024/2024_通用_马原.md",
+      "block_sha256": "e1c25a6cd59f8091313fcc9c419f894ced0c014397512d85ef39d32fe86fb0ed",
+      "reason": "采用同年另一来源的完整题面与逐问解析，避免重复及答案孤块"
+    },
+    {
+      "source": "xyz",
+      "year": 2024,
+      "number": 35,
+      "path": "2024/2024_通用_马原.md",
+      "block_sha256": "82863a43f85a7b748504ad55df39351f81e65f82f61c7045b9ef99bf528cda01",
+      "reason": "采用同年另一来源的完整题面与逐问解析，避免重复及答案孤块"
+    },
+    {
+      "source": "xyz",
+      "year": 2024,
+      "number": 36,
+      "path": "2024/2024_通用_马原.md",
+      "block_sha256": "825b1a7d8590c0da08fd270125247b7917cfa7a6608708a866881b8f59bcd5c3",
+      "reason": "采用同年另一来源的完整题面与逐问解析，避免重复及答案孤块"
+    },
+    {
+      "source": "xyz",
+      "year": 2024,
+      "number": 36,
+      "path": "2024/2024_通用_马原.md",
+      "block_sha256": "c7eb9d292cd7138a99f62877015a4a67a61ff9825a0f67fb7b0b93cbaa1b452e",
+      "reason": "采用同年另一来源的完整题面与逐问解析，避免重复及答案孤块"
+    },
+    {
+      "source": "xyz",
+      "year": 2024,
+      "number": 37,
+      "path": "2024/2024_通用_马原.md",
+      "block_sha256": "a1f829a7d31dc06f618d3f0eac0ce50d104860de69ccdc66e64d6fafa512133b",
+      "reason": "采用同年另一来源的完整题面与逐问解析，避免重复及答案孤块"
+    },
+    {
+      "source": "xyz",
+      "year": 2024,
+      "number": 38,
+      "path": "2024/2024_通用_马原.md",
+      "block_sha256": "ffb3c69d51d3b2e14879e9b5915f10a61396ef4d9a7a2de7e29df9305bce5c16",
+      "reason": "采用同年另一来源的完整题面与逐问解析，避免重复及答案孤块"
+    },
+    {
+      "source": "xyz",
+      "year": 2024,
+      "number": 38,
+      "path": "2024/2024_通用_马原.md",
+      "block_sha256": "e3c60bee90b6fe67981786f739f45f6c709a2299dc7ef4c85cd5e2ccb2238b71",
+      "reason": "采用同年另一来源的完整题面与逐问解析，避免重复及答案孤块"
+    },
+    {
+      "source": "tseka",
+      "year": 2021,
+      "number": 34,
+      "path": "solutions/2021/politics_2021.md",
+      "block_sha256": "2866fa3e43f0856213a89f927d194de89ef22bf6899335e162d565326a25cf9f",
+      "reason": "材料缩略、错配或未提供完整原题，不导入"
+    },
+    {
+      "source": "tseka",
+      "year": 2021,
+      "number": 35,
+      "path": "solutions/2021/politics_2021.md",
+      "block_sha256": "b05b0a90d654f588694d816af6f46d86384d054e05c7b700e10a237b39aef6a1",
+      "reason": "材料缩略、错配或未提供完整原题，不导入"
+    },
+    {
+      "source": "tseka",
+      "year": 2021,
+      "number": 36,
+      "path": "solutions/2021/politics_2021.md",
+      "block_sha256": "e1bc69bc5baa4c8a3af6248acc30fdc6958d6a6a1b524e43743b91c6d5a6b78c",
+      "reason": "材料缩略、错配或未提供完整原题，不导入"
+    },
+    {
+      "source": "tseka",
+      "year": 2021,
+      "number": 37,
+      "path": "solutions/2021/politics_2021.md",
+      "block_sha256": "94fe85271783a4ee26a9db698da671545eeedaa77ea99a078a24cff5acb58a52",
+      "reason": "材料缩略、错配或未提供完整原题，不导入"
+    },
+    {
+      "source": "tseka",
+      "year": 2021,
+      "number": 38,
+      "path": "solutions/2021/politics_2021.md",
+      "block_sha256": "24cc77fa12f935457c67fed9d57b044066986157a7dea6a8896aa91e2c75ccb0",
+      "reason": "材料缩略、错配或未提供完整原题，不导入"
+    },
+    {
+      "source": "tseka",
+      "year": 2022,
+      "number": 34,
+      "path": "solutions/2022/politics_2022.md",
+      "block_sha256": "e9c85d5d597bf55b856bc986547245614b27b91f053a2eac13a5ed5e5bd621c6",
+      "reason": "只有答案，缺少题面和材料"
+    },
+    {
+      "source": "tseka",
+      "year": 2022,
+      "number": 35,
+      "path": "solutions/2022/politics_2022.md",
+      "block_sha256": "da5555eaf5adbabcc7d599a77fb93783425c928f8ab26e93b31e14b4cc1a9d2e",
+      "reason": "只有答案，缺少题面和材料"
+    },
+    {
+      "source": "tseka",
+      "year": 2022,
+      "number": 36,
+      "path": "solutions/2022/politics_2022.md",
+      "block_sha256": "fe0a1dcd4de508fb066f5d9fc2686e4325ef43a0377921bf150bd324df09762d",
+      "reason": "只有答案，缺少题面和材料"
+    },
+    {
+      "source": "tseka",
+      "year": 2022,
+      "number": 37,
+      "path": "solutions/2022/politics_2022.md",
+      "block_sha256": "3932bbde6976bb3f1b797a64f78b8bc86fca2a53e9e11e33af7b13e7c32cc1dc",
+      "reason": "只有答案，缺少题面和材料"
+    },
+    {
+      "source": "tseka",
+      "year": 2022,
+      "number": 38,
+      "path": "solutions/2022/politics_2022.md",
+      "block_sha256": "3b4ab629b7718be6b25fc9f56632728c2bebc77c678ab4c3e8630c7d1fdc2eb4",
+      "reason": "只有答案，缺少题面和材料"
+    },
+    {
+      "source": "tseka",
+      "year": 2023,
+      "number": 34,
+      "path": "solutions/2023/politics_2023.md",
+      "block_sha256": "33ee38cd49030e96dd731e09244a1a87699449a4ea84faf8ed0c7191f11f376f",
+      "reason": "同年份同题号已收录，保留先选的完整版本"
+    },
+    {
+      "source": "tseka",
+      "year": 2023,
+      "number": 35,
+      "path": "solutions/2023/politics_2023.md",
+      "block_sha256": "8364bd122693cb3eec4596beed1e39e7135781886616494906bec01d0fbee346",
+      "reason": "参考解答仅为作答方向，未提供完整对应要点"
+    },
+    {
+      "source": "tseka",
+      "year": 2023,
+      "number": 36,
+      "path": "solutions/2023/politics_2023.md",
+      "block_sha256": "08068b59b9d5cdd89c156e376213e5bfa3f350898bbb5f9dfa2a98059671000e",
+      "reason": "参考解答仅为作答方向，未提供完整对应要点"
+    }
+  ]
+}

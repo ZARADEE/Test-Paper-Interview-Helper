@@ -5,6 +5,9 @@ import { getHealth, getQuestionBanks, getTags } from "./api";
 import { ComposeView } from "./components/ComposeView";
 import { HomeDashboard } from "./components/HomeDashboard";
 import { PetTodoPanel } from "./components/PetTodoPanel";
+import { AmbientTimer, TimerDock } from './components/TimerCard';
+import { OPEN_TIMER, OPEN_TIMER_PAPER } from './timer/client';
+import type { PaperLink } from './timer/model';
 import { DesktopPetView } from "./components/DesktopPetView";
 import { PracticeWorkspace } from "./components/PracticeWorkspace";
 import { OPEN_REVIEW, ReviewReminder } from "./components/ReviewTask";
@@ -21,11 +24,19 @@ const navItems: Array<{ id: TabId; label: string; number: string; icon: LucideIc
 
 export function App(): JSX.Element {
   const surface = new URLSearchParams(window.location.search).get("surface");
-  return surface === "todos" ? <PetTodoPanel /> : surface === "pet" || surface === "ball" ? <DesktopPetView /> : <MainApp />;
+  return surface === 'timer' ? <AmbientTimer/> : surface === "todos" ? <PetTodoPanel /> : surface === "pet" || surface === "ball" ? <DesktopPetView /> : <MainApp />;
 }
 
 function MainApp(): JSX.Element {
   const [activeTab, setActiveTab] = useState<TabId>("home");
+  const [timerPaper,setTimerPaper] = useState<PaperLink|undefined>();
+  useEffect(()=>{
+    const open=()=>{setActiveTab('home');setTimeout(()=>document.querySelector('.home-pomodoro')?.scrollIntoView({block:'center'}),80);};
+    const paper=(e:Event)=>{setTimerPaper((e as CustomEvent<PaperLink>).detail);setActiveTab('compose');};
+    window.addEventListener(OPEN_TIMER,open);window.addEventListener(OPEN_TIMER_PAPER,paper);
+    const stop=window.paperHelper?.onTimerOpen(p=>p?paper(new CustomEvent(OPEN_TIMER_PAPER,{detail:p})):open());
+    return()=>{window.removeEventListener(OPEN_TIMER,open);window.removeEventListener(OPEN_TIMER_PAPER,paper);stop?.();};
+  },[]);
   const [tags, setTags] = useState<Tag[]>([]);
   const [questionBanks, setQuestionBanks] = useState<QuestionBank[]>([]);
   const [questionCount, setQuestionCount] = useState(0);
@@ -63,6 +74,7 @@ function MainApp(): JSX.Element {
   return (
     <div className="app-shell">
       <ReviewReminder />
+      <TimerDock home={activeTab==='home'}/>
       <aside className="left-rail">
         <div className="brand-block">
           <SquareStack size={28} strokeWidth={3} />
@@ -113,7 +125,7 @@ function MainApp(): JSX.Element {
               questionBanks={questionBanks}
             />
           )}
-          {activeTab === "compose" && <ComposeView tags={tags} questionBanks={questionBanks} onChanged={refresh} />}
+          {activeTab === "compose" && <ComposeView tags={tags} questionBanks={questionBanks} onChanged={refresh} timerPaper={timerPaper} />}
           {activeTab === "templates" && <TemplateView tags={tags} questionBanks={questionBanks} onChanged={refresh} />}
           </ViewErrorBoundary>
           <div className={`tab-view ${activeTab === "practice" ? "" : "tab-view-hidden"}`}><ViewErrorBoundary><PracticeWorkspace active={activeTab==="practice"} /></ViewErrorBoundary></div>

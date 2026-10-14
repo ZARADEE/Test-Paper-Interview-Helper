@@ -19,6 +19,7 @@ export type QuestionBank = {
 };
 
 export type Question = {
+  frozen_question_preview?: boolean;
   visual?: import("./components/visuals/types").VisualSpec | null;
   option_explanations?: string[];
   explanation_source?: { repository: string; commit: string; path: string };
@@ -179,6 +180,8 @@ export type PaperTemplate = {
 };
 
 export type Paper = {
+  template?: PaperTemplate;
+  export_version?: string;
   composition?: { mode: "agent" | "local"; rationale: string };
   id: string;
   template_id: string;

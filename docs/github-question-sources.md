@@ -31,3 +31,11 @@
 来源：https://github.com/43aquarius/cs408 ，src/data/mocks 下 10 套自创模拟卷，共 400 道选择题、70 道综合解答题。每题保留答案、解析、原始分值、难度、知识点及卷名，并添加“模拟题”标签。TypeScript 数据通过语法树只读取字面量，不执行源代码。讲解动画的原始结构保存在 origin.visual，当前展示文字解答与离线预览，未接入上游动画播放器。
 
 题源声明模拟题为自创学习资料；代码 MIT 不等于题库权利转让。原参考解答未逐题人工重解，可在使用中继续勘误。使用“模拟题”标签可以只从模拟题抽卷，默认不额外安装模板。
+
+## 政治分析题补充（2026-10-15）
+
+新增 30 道考研政治分析题，来源为 [xyzxyq/kaoyanzhengzhi](https://github.com/xyzxyq/kaoyanzhengzhi) 与 [TsekaLuk/Kaoyan-Politics-Papers](https://github.com/TsekaLuk/Kaoyan-Politics-Papers)。使用固定提交下载，仅导入核对过材料、小问和对应参考答案的条目；重复题号、材料缺失/错配、答案孤块、明显 OCR 损坏和分值矛盾记录均排除。不是把源仓库宣传的年份范围视为全部题目均已提供。
+
+大类和子类沿用原政治题库：马原/哲学 8 道，毛中特/中国化理论成果 7 道，史纲/中国近现代史 4 道，思法/思想道德修养 6 道，形策/国际形势与政策 5 道。原卷年份与题号直接展示，历史时政按当年语境理解。
+
+题包：backend/data/bundled/github/politics-solutions.json；导入与重建：scripts/import_politics_solutions.py；逐条来源、文件校验、转写修正和排除原因见题包及 docs/politics-solutions-import-report.json。详情见[使用与验收记录](politics-solutions-update-2026-10-15.md)。

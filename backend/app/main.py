@@ -64,6 +64,8 @@ app.include_router(subjective_router)
 app.include_router(study_router)
 from .review_scheduler import router as review_router, enroll_wrong
 app.include_router(review_router)
+from .paper_package import router as paper_package_router
+app.include_router(paper_package_router)
 
 
 @app.exception_handler(RequestValidationError)

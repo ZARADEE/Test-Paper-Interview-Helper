@@ -1,4 +1,7 @@
-import { app, BrowserWindow, Menu, Tray, ipcMain, nativeImage, screen, shell } from "electron";
+import { app, BrowserWindow, Menu, Tray, ipcMain, nativeImage, screen, shell, powerMonitor, Notification } from "electron";
+import { TimerService } from './timer-service';
+import { activeSession } from '../src/timer/model';
+import type { TimerSnapshot, PaperLink } from '../src/timer/model';
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { DEFAULT_PET_PACK, PET_PACKS, PET_SIZES, PET_BEHAVIOR, isPetPack } from "../src/petConfig";
@@ -11,6 +14,16 @@ app.disableHardwareAcceleration();
 let mainWindow: BrowserWindow | null = null;
 let petWindow: BrowserWindow | null = null;
 let todoWindow: BrowserWindow | null = null;
+let timerWindow: BrowserWindow | null = null;
+let timerService: TimerService | null = null;
+let timerExpanded = false;
+let timerHeight = 125;
+let timerSide = 0;
+let positioningTimer = false;
+let timerHeld = false;
+let audioReady = false;
+let pendingSound: {play:boolean;volume:number} | null = null;
+let alarmNotification: Notification | null = null;
 let tray: Tray | null = null;
 let isQuitting = false;
 let ambientMode: AmbientMode = "pet";
@@ -26,7 +39,7 @@ let hitbox: PetHitbox = { x: .08, y: .08, width: .84, height: .84 };
 let dragging = false;
 let menuOpen = false;
 
-function settings(): PetSettings { return { mode: ambientMode, pack: petPack, size: petSize, roaming }; }
+function settings(): PetSettings { return { mode: ambientMode, pack: petPack, size: petSize, roaming, timerHeld }; }
 function settingsPath(): string { return join(app.getPath("userData"), "desktop-pet.json"); }
 function windowSize(): number { return ambientMode === "ball" ? 92 : petSize; }
 
@@ -76,6 +89,7 @@ function placePet(x: number, y: number): void {
   const size = windowSize();
   // Supplying the fixed size avoids cumulative DIP rounding during setPosition on Windows.
   petWindow.setBounds({ x: Math.round(x), y: Math.round(y), width: size, height: size }, false);
+  layoutTimer();
 }
 function resetMotion(): void {
   if (!petWindow || petWindow.isDestroyed()) { motion = null; return; }
@@ -84,7 +98,7 @@ function resetMotion(): void {
   motion = { x, y, vx: motion?.vx || speed * .86, vy: motion?.vy || -speed * .51 };
 }
 function movementTick(seconds: number): void {
-  if (!petWindow || petWindow.isDestroyed() || !petWindow.isVisible() || ambientMode !== "pet" || !roaming || dragging || menuOpen || activeAction !== "walk") return;
+  if (!petWindow || petWindow.isDestroyed() || !petWindow.isVisible() || ambientMode !== "pet" || !roaming || timerHeld || dragging || menuOpen || activeAction !== "walk") return;
   if (!motion) resetMotion();
   if (!motion) return;
   const area = screen.getDisplayMatching(petWindow.getBounds()).workArea;
@@ -102,7 +116,77 @@ function loadRenderer(window: BrowserWindow, query?: Record<string, string>): vo
     void window.loadURL(url.href);
   } else void window.loadFile(join(__dirname, "../renderer/index.html"), query ? { query } : undefined);
 }
+function timerSender(event: Electron.IpcMainEvent | Electron.IpcMainInvokeEvent): boolean {
+  return [mainWindow,petWindow,todoWindow,timerWindow].some(w=>w&&!w.isDestroyed()&&w.webContents===event.sender);
+}
+function timerVisible(): boolean {
+  const s=timerService?.snapshot().session;
+  return Boolean(petWindow?.isVisible()&&s&&(activeSession(s)||!s.resultHidden));
+}
+function overlaps(a:Electron.Rectangle,b:Electron.Rectangle):boolean{return a.x<b.x+b.width&&a.x+a.width>b.x&&a.y<b.y+b.height&&a.y+a.height>b.y;}
+function layoutTimer():void {
+  if(positioningTimer||!timerWindow||timerWindow.isDestroyed())return;
+  if(!timerVisible()){timerWindow.hide();return;}
+  positioningTimer=true;
+  try{
+    const p=petWindow!.getBounds(),area=screen.getDisplayMatching(p).workArea;
+    const width=Math.min(timerExpanded?330:266,area.width),height=Math.min(Math.max(105,timerHeight),Math.max(105,area.height-p.height-16));
+    const avoid=todoWindow?.isVisible()?todoWindow.getBounds():null;
+    const candidates=[{x:p.x+(p.width-width)/2,y:p.y-height-8},{x:p.x+(p.width-width)/2,y:p.y+p.height+8},{x:p.x-width-8,y:p.y},{x:p.x+p.width+8,y:p.y}];
+    const fit=(r:Electron.Rectangle)=>r.x>=area.x&&r.y>=area.y&&r.x+r.width<=area.x+area.width&&r.y+r.height<=area.y+area.height&&(!avoid||!overlaps(r,avoid));
+    const index=avoid&&overlaps(p,avoid)?undefined:[timerSide,...[0,1,2,3].filter(i=>i!==timerSide)].find(i=>fit({...candidates[i],width,height}));
+    let r:Electron.Rectangle;
+    if(index!==undefined){timerSide=index;r={...candidates[index],width,height};}
+    else{
+      const groupWidth=Math.max(width,p.width),groupHeight=height+8+p.height;
+      let x=Math.max(area.x,Math.min(p.x,area.x+area.width-groupWidth));
+      let y=Math.max(area.y,Math.min(p.y-height-8,area.y+area.height-groupHeight));
+      r={x,y,width,height};
+      if(avoid&&overlaps({...r,height:groupHeight},avoid)){x=area.x;y=area.y;r={x,y,width,height};}
+      const nextPet={x:Math.round(x+(width-p.width)/2),y:Math.round(Math.min(y+height+8,area.y+area.height-p.height)),width:p.width,height:p.height};
+      petWindow!.setBounds(nextPet,false);lastPetPosition=[nextPet.x,nextPet.y];timerSide=0;
+    }
+    r.x=Math.round(r.x);r.y=Math.round(r.y);
+    const current=timerWindow.getBounds();
+    if(['x','y','width','height'].some(k=>current[k as keyof Electron.Rectangle]!==r[k as keyof Electron.Rectangle]))timerWindow.setBounds(r,false);
+    if(!timerWindow.webContents.isLoading()&&!timerWindow.isVisible())timerWindow.showInactive();
+  }finally{positioningTimer=false;}
+}
+function createTimerWindow():void {
+  if(timerWindow&&!timerWindow.isDestroyed())return;
+  const w=new BrowserWindow({width:266,height:125,frame:false,transparent:true,backgroundColor:'#00000000',hasShadow:false,resizable:false,maximizable:false,minimizable:false,fullscreenable:false,alwaysOnTop:true,skipTaskbar:true,show:false,
+    webPreferences:{preload:join(__dirname,'../preload/preload.mjs'),contextIsolation:true,sandbox:false,nodeIntegration:false,backgroundThrottling:false,autoplayPolicy:'no-user-gesture-required'}});
+  timerWindow=w;audioReady=false;w.setAlwaysOnTop(true,'floating');
+  w.on('closed',()=>{if(timerWindow===w)timerWindow=null;audioReady=false;});
+  w.on('blur',()=>{if(timerExpanded)w.webContents.send('timer-collapse');});
+  w.once('ready-to-show',layoutTimer);loadRenderer(w,{surface:'timer'});
+}
+function sendTimerSound(action:{play:boolean;volume:number}):void{
+  if(isQuitting)return;
+  createTimerWindow();pendingSound=action;
+  if(audioReady&&timerWindow&&!timerWindow.isDestroyed()){timerWindow.webContents.send('timer-sound',action);pendingSound=null;}
+}
+function openTimerMain(paper?:PaperLink):void{
+  showMainWindow();const w=mainWindow!;
+  const send=()=>w.webContents.send('timer-open',paper);
+  if(w.webContents.isLoading())w.webContents.once('did-finish-load',send);else send();
+}
+function timerChanged(s:TimerSnapshot):void{
+  const held=!!s.session&&(activeSession(s.session)||!s.session.resultHidden);
+  if(timerHeld!==held){timerHeld=held;resetMotion();broadcastSettings();}
+  for(const w of [mainWindow,timerWindow])if(w&&!w.isDestroyed())w.webContents.send('timer-state',s);
+  layoutTimer();
+}
+function timerAlarm(s:TimerSnapshot):void{
+  timerExpanded=true;layoutTimer();
+  if(s.preferences.sound)sendTimerSound({play:true,volume:s.preferences.volume});
+  if(!mainWindow?.isFocused()&&!timerVisible()&&Notification.isSupported()){
+    alarmNotification=new Notification({title:'番茄钟时间到了',body:(s.session?.title??'本轮')+'：正在记录超时，点击查看计时。',silent:true});
+    alarmNotification.on('click',()=>openTimerMain());alarmNotification.show();
+  }
+}
 function createMainWindow(): BrowserWindow {
+  // Timer ownership is independent of this renderer's lifetime.
   const window = new BrowserWindow({
     width: 1440, height: 920, minWidth: 980, minHeight: 680,
     backgroundColor: "#f4efe4", autoHideMenuBar: true,
@@ -151,7 +235,7 @@ function createPetWindow(): BrowserWindow {
   window.on("show", () => window.webContents.send("pet-visible", true));
   window.on("hide", () => { activeAction = "idle"; dragging = false; window.webContents.send("pet-visible", false); });
   window.on("moved", () => {
-    if (!window.isDestroyed()) { lastPetPosition = window.getPosition() as [number, number]; scheduleSave(); }
+    if (!window.isDestroyed()) { lastPetPosition = window.getPosition() as [number, number]; scheduleSave(); layoutTimer(); }
   });
   window.on("closed", () => { if (petWindow === window) petWindow = null; motion = null; });
   loadRenderer(window, { surface: ambientMode, pack: petPack });
@@ -175,6 +259,7 @@ function showPetTodos(): void {
   const area = screen.getDisplayMatching(petWindow.getBounds()).workArea;
   todoWindow.setBounds({ x: area.x + Math.max(0, area.width - 376), y: area.y + Math.max(0, area.height - 446), width: 360, height: 430 });
   if (!todoWindow.webContents.isLoading()) todoWindow.showInactive();
+  layoutTimer();
 }
 
 function showAmbientWindow(mode: AmbientMode): void {
@@ -195,11 +280,13 @@ function showAmbientWindow(mode: AmbientMode): void {
   resetMotion();
   petWindow.showInactive();
   broadcastSettings();
+  layoutTimer();
 }
 function showMainWindow(): void {
   if (!mainWindow || mainWindow.isDestroyed()) mainWindow = createMainWindow();
   if (mainWindow.isMinimized()) mainWindow.restore();
   mainWindow.show(); mainWindow.focus(); petWindow?.hide(); todoWindow?.hide();
+  timerWindow?.hide();
 }
 function setPetPack(next: string): void {
   if (!isPetPack(next)) return;
@@ -230,7 +317,10 @@ function showPetMenu(): void {
     { label: "切换角色", submenu: PET_PACKS.map((pack) => ({
       label: pack.label, type: "radio" as const, checked: petPack === pack.id, click: () => setPetPack(pack.id)
     })) },
-    { type: "separator" }, { label: "退出", click: () => { isQuitting = true; app.quit(); } }
+    { type: "separator" },
+    { label: '查看当前计时', click:()=>openTimerMain() },
+    { label: '退出后无法提醒；未结束计时下次打开恢复', enabled:false },
+    { label: "退出", click: () => { isQuitting = true; app.quit(); } }
   ]);
   menu.popup({ window: petWindow?.isVisible() ? petWindow : mainWindow ?? undefined, callback: () => { menuOpen = false; } });
 }
@@ -249,7 +339,20 @@ function isPetSender(event: Electron.IpcMainEvent): boolean {
 app.whenReady().then(() => {
   app.setAppUserModelId("com.paper-helper.desktop");
   loadSettings();
+  timerService=new TimerService(join(app.getPath('userData'),'focus-timer.json'),timerChanged,timerAlarm,()=>{sendTimerSound({play:false,volume:0});alarmNotification?.close();});
   mainWindow = createMainWindow();
+  createTimerWindow();
+  ipcMain.handle('timer-get',event=>{if(!timerSender(event))throw Error('未知计时窗口');if(event.sender===timerWindow?.webContents){audioReady=true;if(pendingSound){event.sender.send('timer-sound',pendingSound);pendingSound=null;}}return timerService!.snapshot();});
+  ipcMain.handle('timer-migrate',(event,raw,durations)=>{if(event.sender!==mainWindow?.webContents)throw Error('未知计时窗口');return timerService!.migrate(raw,durations);});
+  ipcMain.handle('timer-command',(event,command)=>{if(!timerSender(event))throw Error('未知计时窗口');return timerService!.command(command);});
+  ipcMain.on('timer-sound-error',(event,failed)=>{if(event.sender===timerWindow?.webContents&&typeof failed==='boolean'){timerService!.soundError=failed?'提示音无法播放，请点击试听检查；视觉提醒和计时仍有效。':undefined;timerChanged(timerService!.snapshot());}});
+  ipcMain.on('timer-expand',(event,value)=>{if(event.sender===timerWindow?.webContents&&typeof value==='boolean'){timerExpanded=value;layoutTimer();}});
+  ipcMain.on('timer-resize',(event,value)=>{if(event.sender===timerWindow?.webContents&&Number.isFinite(value)){timerHeight=Math.max(105,Math.min(800,Math.ceil(value)));layoutTimer();}});
+  ipcMain.on('timer-drag',(event,p)=>{if(event.sender!==timerWindow?.webContents||!petWindow||!p||!Number.isFinite(p.x)||!Number.isFinite(p.y))return;const [x,y]=petWindow.getPosition();placePet(...clampPosition(x+Math.max(-2000,Math.min(2000,p.x)),y+Math.max(-2000,Math.min(2000,p.y))));resetMotion();});
+  ipcMain.on('timer-open',event=>{if(timerSender(event))openTimerMain();});
+  ipcMain.on('timer-open-paper',(event,p)=>{if(timerSender(event)&&p&&typeof p.id==='string'&&p.id.length<=150&&(p.version===undefined||typeof p.version==='string'))openTimerMain(p);});
+  ipcMain.on('timer-preview-sound',(event,volume)=>{if(timerSender(event)&&Number.isFinite(volume)&&volume>=0&&volume<=1)sendTimerSound({play:true,volume});});
+  powerMonitor.on('suspend',()=>timerService?.suspend());powerMonitor.on('resume',()=>timerService?.resume());
   createTray();
   ipcMain.on("show-main", showMainWindow);
   ipcMain.on("open-review", (event) => {
@@ -291,6 +394,7 @@ app.whenReady().then(() => {
     placePet(...clampPosition(...petWindow.getPosition() as [number, number])); resetMotion();
   });
   app.on("activate", showMainWindow);
+  screen.on('display-removed',()=>{if(petWindow)placePet(...clampPosition(...petWindow.getPosition() as [number,number]));layoutTimer();});
 });
 app.on("window-all-closed", () => { if (process.platform !== "darwin" && isQuitting) app.quit(); });
-app.on("before-quit", () => { isQuitting = true; if (movementTimer) clearInterval(movementTimer); saveSettings(); });
+app.on("before-quit", () => { isQuitting = true; if (movementTimer) clearInterval(movementTimer); timerService?.close(); saveSettings(); });

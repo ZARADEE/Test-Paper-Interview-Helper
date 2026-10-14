@@ -10,6 +10,9 @@
     "preview": "electron-vite preview",
     "smoke:pet": "electron desktop-pet-smoke.mjs --no-sandbox",
     "typecheck": "tsc --noEmit",
+    "test:timer": "node timer.test.cjs",
+    "smoke:timer": "electron timer-smoke.mjs --no-sandbox",
+    "smoke:timer-browser": "electron browser-timer-smoke.mjs --no-sandbox",
     "test:os-lab": "node os-lab.test.cjs",
     "smoke:os-lab": "electron os-lab-smoke.cjs --no-sandbox"
   },

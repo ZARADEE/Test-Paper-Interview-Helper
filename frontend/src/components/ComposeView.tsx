@@ -4,11 +4,17 @@ import { AgentDialog, getAgentSettings } from "./AgentDialog";
 import type { AgentSettings } from "../types";
 import { composePaper, exportDownloadUrl, exportPaper, getQuestions, getTemplates, questionPreviewUrl } from "../api";
 import type { Paper, PaperTemplate, Question, QuestionBank, Tag } from "../types";
+import { buildPaperPackage, getPaper, packagePreviewUrl, preparePaperPackage } from '../api';
+import type { PaperPackage } from '../api';
+import type { PaperLink } from '../timer/model';
+import { TimerSetup } from './TimerCard';
+import { openTimer } from '../timer/client';
 
 type Props = {
   tags: Tag[];
   questionBanks: QuestionBank[];
   onChanged: () => void;
+  timerPaper?: PaperLink;
 };
 
 const typeLabels = { choice: "选择题", fill: "填空题", solution: "解答题", short_answer: "简答题" };
@@ -18,7 +24,7 @@ const majorTagLabels: Record<string, string> = {
   "概率论与数理统计": "概率与统计"
 };
 
-export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Props): JSX.Element {
+export function ComposeView({ tags: initialTags, questionBanks, onChanged, timerPaper }: Props): JSX.Element {
   const [templates, setTemplates] = useState<PaperTemplate[]>([]);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [templateId, setTemplateId] = useState("");
@@ -30,6 +36,11 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
   const [busy, setBusy] = useState(false);
   const [showAgent, setShowAgent] = useState(false);
   const [message, setMessage] = useState("");
+  const [packageState,setPackageState]=useState<PaperPackage|null>(null);
+  const [packageBusy,setPackageBusy]=useState(false);
+  const [downloadId,setDownloadId]=useState('');
+  const [showTiming,setShowTiming]=useState(false);
+  useEffect(()=>{if(!timerPaper)return;let cancelled=false;setShowTiming(false);setPackageState(null);setDownloadId('');void getPaper(timerPaper.id,timerPaper.version).then(value=>{if(!cancelled){setPaper(value);setTitle(value.title);setTemplateId(value.template_id);setSeed(value.seed);}}).catch(e=>{if(!cancelled)setMessage(String(e));});return()=>{cancelled=true;};},[timerPaper]);
 
   useEffect(() => {
     void getTemplates()
@@ -97,6 +108,7 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
         required_tags: [requiredMajorTag, requiredSubTag].filter(Boolean)
       });
       setPaper(nextPaper);
+      setPackageState(null);setDownloadId('');setShowTiming(false);
       onChanged();
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "组卷失败");
@@ -113,6 +125,19 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "导出失败");
     }
+  }
+
+  async function finishPackage(prepared:PaperPackage,allowMissing=false):Promise<void>{
+    if(!paper)return;setPackageBusy(true);setMessage('');
+    try{const job=await buildPaperPackage(paper.id,prepared.version,allowMissing);setDownloadId(job.id);setPaper(await getPaper(paper.id,job.version));setPackageState(null);}
+    catch(e){setMessage(e instanceof Error?e.message:'整套导出失败，可按原版本重试');setPackageState(prepared);}
+    finally{setPackageBusy(false);}
+  }
+  async function downloadPackage(format:'pdf'|'docx'):Promise<void>{
+    if(!paper)return;setPackageBusy(true);setMessage('');setDownloadId('');setShowTiming(false);
+    try{const prepared=await preparePaperPackage(paper.id,format,paper.export_version);setPackageState(prepared);if(!prepared.issues.length)await finishPackage(prepared);}
+    catch(e){setMessage(e instanceof Error?e.message:'无法准备成套导出');}
+    finally{setPackageBusy(false);}
   }
 
   return (
@@ -173,7 +198,7 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
             </div>
           </label>
           {selectedTemplate?.distribution_rules.agent_enabled && <button type="button" disabled={busy} onClick={() => setShowAgent(true)}>Agent 已开启 · 配置连接</button>}
-          <button className="primary-action" onClick={() => void buildPaper()} disabled={busy || !templateId} type="button">
+          <button className="primary-action" onClick={() => void buildPaper()} disabled={busy || packageBusy || !templateId} type="button">
             <Shuffle size={19} />{busy ? "正在组卷..." : selectedTemplate?.distribution_rules.agent_enabled ? "Agent 组卷" : "本地规则组卷"}
           </button>
           {message && <div className="notice notice-danger">{message}</div>}
@@ -222,15 +247,23 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
             <div className="export-bar panel">
               <div>
                 <span className="eyebrow">EXPORT PACKAGE</span>
-                <strong>题卷版 / 答案版</strong>
+                <strong>题卷 + 答案册</strong>
+                <small>答案册包含已有参考答案、解析及评分点。</small>
               </div>
               <div className="export-actions">
+                <button disabled={packageBusy||busy||!paper.validation.valid} onClick={()=>void downloadPackage('pdf')} type="button"><Download size={17}/>{packageBusy?'正在处理…':'整套 PDF（ZIP）'}</button>
+                <button disabled={packageBusy||busy||!paper.validation.valid} onClick={()=>void downloadPackage('docx')} type="button">整套 Word（ZIP）</button>
+              </div>
+              <details><summary>单独导出</summary><p className="muted-copy">使用题库当前内容；需要版本一致请使用整套导出。</p><div className="export-actions">
                 <button onClick={() => void download("pdf", "question")} type="button"><Download size={17} />题卷 PDF</button>
                 <button onClick={() => void download("pdf", "answer")} type="button"><Download size={17} />答案 PDF</button>
                 <button onClick={() => void download("docx", "question")} type="button"><FileTextIcon />题卷 Word</button>
                 <button onClick={() => void download("docx", "answer")} type="button"><FileTextIcon />答案 Word</button>
-              </div>
+              </div></details>
             </div>
+            {packageState&&<div className="panel package-confirm" role="group" aria-label="检查导出内容"><strong>{packageState.issues.length?'部分答案或素材缺失':'导出未完成'}</strong><p>本次版本已固定，重试仍使用相同内容。</p><ul>{packageState.issues.map(issue=><li key={issue.question_id}>第 {issue.number} 题：{issue.messages.join('；')}</li>)}</ul><button disabled={packageBusy} onClick={()=>void finishPackage(packageState,true)}>{packageState.issues.length?'带缺失标注导出':'重试整套导出'}</button><button disabled={packageBusy} onClick={()=>setPackageState(null)}>取消</button></div>}
+            {downloadId&&<div className="notice notice-info">整套文件已生成，题卷与答案册使用同一版本。<a href={exportDownloadUrl(downloadId)} target="_blank" rel="noreferrer" download>下载 ZIP</a></div>}
+            <div className="panel paper-timer"><strong>用本卷时长计时</strong><p>计划 {paper.template?.duration_minutes??'待设置'} 分钟。到点提醒并记录超时，点击结束后保存用时。</p>{paper.export_version&&<small>关联导出版本：{paper.export_version}</small>}{showTiming?<TimerSetup key={paper.id+String(paper.export_version)} paper={{id:paper.id,version:paper.export_version}} title={paper.title} minutes={paper.template?.duration_minutes} onCancel={()=>setShowTiming(false)} onStarted={()=>{setShowTiming(false);openTimer();}}/>:<button disabled={packageBusy} onClick={()=>setShowTiming(true)}>准备计时</button>}</div>
             <div className="paper-sections">
               {paper.composition && <div className="notice notice-info">{paper.composition.rationale}</div>}
               {paper.sections.map((section) => {
@@ -249,12 +282,12 @@ export function ComposeView({ tags: initialTags, questionBanks, onChanged }: Pro
                         <div className="paper-question" key={question.id}>
                           <span className="question-index">{question.position}</span>
                           <div>
-                            {question.source_document_id && (question.source_regions?.length || question.source_page) ? (
+                            {(paper.export_version?question.frozen_question_preview:question.source_document_id && (question.source_regions?.length || question.source_page)) ? (
                               <div className="paper-source-preview">
                                 <img
                                   alt={`第 ${question.source_page ?? "?"} 页原版题面`}
                                   loading="lazy"
-                                  src={questionPreviewUrl(question.id)}
+                                  src={paper.export_version?packagePreviewUrl(paper.id,paper.export_version,question.id):questionPreviewUrl(question.id)}
                                 />
                               </div>
                             ) : (

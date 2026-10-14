@@ -55,6 +55,8 @@ def init_db() -> None:
     with connect() as connection:
         init_subjective(connection)
         init_reviews(connection)
+        from .paper_package import init_tables as init_paper_package
+        init_paper_package(connection)
         from .learning import init_learning
         init_learning(connection)
         connection.executescript(

@@ -1,10 +1,11 @@
 import { app, BrowserWindow, ipcMain, screen } from "electron";
 import { mkdirSync, mkdtempSync, readFileSync, writeFileSync } from "node:fs";
-import { tmpdir } from "node:os";
 import { join } from "node:path";
 import assert from "node:assert/strict";
 
-const profile = mkdtempSync(join(tmpdir(), "paper-helper-pet-smoke-"));
+const profiles = join(import.meta.dirname, 'out', 'pet-smoke-profiles');
+mkdirSync(profiles, { recursive: true });
+const profile = mkdtempSync(join(profiles, "profile-"));
 app.setPath("userData", profile);
 writeFileSync(join(profile, "desktop-pet.json"), JSON.stringify({ pack: "rubber-duck", size: 220, roaming: true }));
 await import("./out/main/main.js");

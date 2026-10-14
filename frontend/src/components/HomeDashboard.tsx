@@ -1,3 +1,4 @@
+import { TimerCard } from "./TimerCard";
 import { ReviewTask, useReviewSummary } from "./ReviewTask";
 import {
   AlarmClock,
@@ -8,8 +9,6 @@ import {
   Clock3,
   GripVertical,
   NotebookPen,
-  Pause,
-  Play,
   Plus,
   RefreshCw,
   School,
@@ -34,15 +33,6 @@ type Props = {
 };
 
 type HomePanelId = "target" | "pomodoro" | "buddy" | "feed" | "banks" | "focus";
-type PomodoroMode = "focus" | "shortBreak" | "longBreak";
-type PomodoroDurations = Record<PomodoroMode, number>;
-type PomodoroState = {
-  mode: PomodoroMode;
-  remainingSeconds: number;
-  running: boolean;
-  completedRounds: number;
-  updatedAt: number;
-};
 type TodoItem = {
   id: string;
   text: string;
@@ -69,8 +59,6 @@ type BuddyAutoAction = "wave" | "hop" | null;
 
 const PANEL_ORDER_KEY = "paper-helper.home.panel-order.v5";
 const LEGACY_PANEL_ORDER_KEYS = ["paper-helper.home.panel-order.v4", "paper-helper.home.panel-order.v3"];
-const POMODORO_KEY = "paper-helper.home.pomodoro.v2";
-const POMODORO_DURATION_KEY = "paper-helper.home.pomodoro-durations.v1";
 const TODO_KEY = "paper-helper.home.todo-notebook.v1";
 const TARGET_KEY = "paper-helper.home.target.v1";
 const DEFAULT_PANEL_ORDER: HomePanelId[] = ["pomodoro", "focus", "buddy", "target", "feed", "banks"];
@@ -79,25 +67,6 @@ const BUDDY_ASSETS = {
   walk: petAsset("study-buddy-walk.webm"),
   click: petAsset("study-buddy-click.webm")
 } as const;
-const DEFAULT_POMODORO_DURATIONS: PomodoroDurations = {
-  focus: 25,
-  shortBreak: 5,
-  longBreak: 15
-};
-const POMODORO_MODES: PomodoroMode[] = ["focus", "shortBreak", "longBreak"];
-const POMODORO_LABELS: Record<PomodoroMode, string> = {
-  focus: "专注",
-  shortBreak: "短休",
-  longBreak: "长休"
-};
-const POMODORO_QUOTES = [
-  "喵，已经到点了，先把这一段收好。",
-  "小猫点头：这一轮做得挺像样。",
-  "喵一声，今天这段时间可以先落袋。",
-  "这只小猫觉得，你刚刚很稳。",
-  "先让脑子喘口气，下一轮再抬头冲。",
-  "不错，专注力刚刚好地收住了。"
-];
 const BUDDY_MESSAGES = [
   "先处理一条最小任务，进度会自己滚起来。",
   "番茄钟已经准备好了，要不要现在开始？",
@@ -320,12 +289,6 @@ function AbstractCatMark({ className = "", variant = "glyph" }: { className?: st
   );
 }
 
-function clampMinutes(value: unknown, fallback: number): number {
-  const parsed = Number(value);
-  if (!Number.isFinite(parsed)) return fallback;
-  return Math.max(1, Math.min(180, Math.round(parsed)));
-}
-
 function loadStoredOrder(): HomePanelId[] {
   try {
     const current = window.localStorage.getItem(PANEL_ORDER_KEY);
@@ -376,65 +339,6 @@ function loadTodoItems(): TodoItem[] {
     }));
   } catch {
     return [];
-  }
-}
-
-function loadPomodoroDurations(): PomodoroDurations {
-  try {
-    const raw = window.localStorage.getItem(POMODORO_DURATION_KEY);
-    if (!raw) return DEFAULT_POMODORO_DURATIONS;
-    const parsed = JSON.parse(raw) as Partial<PomodoroDurations>;
-    return {
-      focus: clampMinutes(parsed.focus, DEFAULT_POMODORO_DURATIONS.focus),
-      shortBreak: clampMinutes(parsed.shortBreak, DEFAULT_POMODORO_DURATIONS.shortBreak),
-      longBreak: clampMinutes(parsed.longBreak, DEFAULT_POMODORO_DURATIONS.longBreak)
-    };
-  } catch {
-    return DEFAULT_POMODORO_DURATIONS;
-  }
-}
-
-function getModeSeconds(mode: PomodoroMode, durations: PomodoroDurations): number {
-  return Math.max(60, durations[mode] * 60);
-}
-
-function loadPomodoroState(durations: PomodoroDurations): PomodoroState {
-  try {
-    const raw = window.localStorage.getItem(POMODORO_KEY);
-    if (!raw) throw new Error("missing");
-    const parsed = JSON.parse(raw) as Partial<PomodoroState>;
-    const mode = parsed.mode && parsed.mode in durations ? (parsed.mode as PomodoroMode) : "focus";
-    const total = getModeSeconds(mode, durations);
-    const completedRounds = Math.max(0, Number(parsed.completedRounds ?? 0));
-    const baseRemaining = Math.max(0, Number(parsed.remainingSeconds ?? total));
-    const running = Boolean(parsed.running);
-    const updatedAt = Math.max(0, Number(parsed.updatedAt ?? Date.now()));
-    if (running) {
-      const elapsed = Math.floor((Date.now() - updatedAt) / 1000);
-      const remainingSeconds = Math.max(0, baseRemaining - elapsed);
-      return {
-        mode,
-        remainingSeconds,
-        running: remainingSeconds > 0,
-        completedRounds,
-        updatedAt: Date.now()
-      };
-    }
-    return {
-      mode,
-      remainingSeconds: Math.min(baseRemaining, total),
-      running: false,
-      completedRounds,
-      updatedAt: Date.now()
-    };
-  } catch {
-    return {
-      mode: "focus",
-      remainingSeconds: getModeSeconds("focus", durations),
-      running: false,
-      completedRounds: 0,
-      updatedAt: Date.now()
-    };
   }
 }
 
@@ -523,17 +427,6 @@ function formatScorelineDate(publishedAt: string): string {
   });
 }
 
-function formatSeconds(seconds: number): string {
-  const safeSeconds = Math.max(0, Math.floor(seconds));
-  const minutes = Math.floor(safeSeconds / 60);
-  const rest = safeSeconds % 60;
-  return `${String(minutes).padStart(2, "0")}:${String(rest).padStart(2, "0")}`;
-}
-
-function formatMinutesLabel(minutes: number): string {
-  return `${minutes} 分`;
-}
-
 export function HomeDashboard({ questionBanks }: Props): JSX.Element {
   const [feed, setFeed] = useState<AdmissionsFeed | null>(null);
   const [feedLoading, setFeedLoading] = useState(true);
@@ -557,9 +450,6 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
   const [todoReminder, setTodoReminder] = useState<TodoReminder | null>(null);
   const [todoReminderQueue, setTodoReminderQueue] = useState<TodoReminder[]>([]);
   const [todoReminderTick, setTodoReminderTick] = useState(0);
-  const [pomodoroDurations, setPomodoroDurations] = useState<PomodoroDurations>(() => loadPomodoroDurations());
-  const [pomodoro, setPomodoro] = useState<PomodoroState>(() => loadPomodoroState(loadPomodoroDurations()));
-  const [pomodoroFinish, setPomodoroFinish] = useState<string | null>(null);
   const [buddyMessage, setBuddyMessage] = useState<string | null>(null);
   const [buddyPetted, setBuddyPetted] = useState(false);
   const [buddyBounceAlt, setBuddyBounceAlt] = useState(false);
@@ -582,7 +472,6 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
     nextActionAt: 0,
     lastFrame: 0
   });
-  const lastPomodoroRef = useRef({ running: pomodoro.running, remainingSeconds: pomodoro.remainingSeconds });
 
   useEffect(() => {
     const stage = buddyStageRef.current;
@@ -793,49 +682,6 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
   }, [todoReminder, todoReminderQueue]);
 
   useEffect(() => {
-    window.localStorage.setItem(POMODORO_DURATION_KEY, JSON.stringify(pomodoroDurations));
-  }, [pomodoroDurations]);
-
-  useEffect(() => {
-    window.localStorage.setItem(POMODORO_KEY, JSON.stringify(pomodoro));
-  }, [pomodoro]);
-
-  useEffect(() => {
-    if (!pomodoro.running) return;
-    const timer = window.setInterval(() => {
-      setPomodoro((current) => {
-        if (!current.running) return current;
-        if (current.remainingSeconds <= 1) {
-          return {
-            ...current,
-            remainingSeconds: 0,
-            running: false,
-            completedRounds: current.mode === "focus" ? current.completedRounds + 1 : current.completedRounds,
-            updatedAt: Date.now()
-          };
-        }
-        return {
-          ...current,
-          remainingSeconds: current.remainingSeconds - 1,
-          updatedAt: Date.now()
-        };
-      });
-    }, 1000);
-    return () => window.clearInterval(timer);
-  }, [pomodoro.running]);
-
-  useEffect(() => {
-    const previous = lastPomodoroRef.current;
-    if (previous.running && previous.remainingSeconds > 0 && !pomodoro.running && pomodoro.remainingSeconds === 0) {
-      setPomodoroFinish(pickRandom(POMODORO_QUOTES));
-    }
-    lastPomodoroRef.current = {
-      running: pomodoro.running,
-      remainingSeconds: pomodoro.remainingSeconds
-    };
-  }, [pomodoro.running, pomodoro.remainingSeconds]);
-
-  useEffect(() => {
     return () => {
       if (todoToastTimerRef.current !== null) {
         window.clearTimeout(todoToastTimerRef.current);
@@ -896,14 +742,6 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
   const todayTodoItems = useMemo(() => todoItems.filter((item) => item.date === todayKey()), [todoItems]);
   const todayTodoPendingCount = todayTodoItems.filter((item) => !item.done).length;
   const todayReminderCount = todayTodoItems.filter((item) => item.reminderAt && !item.done).length;
-  const pomodoroTotal = getModeSeconds(pomodoro.mode, pomodoroDurations);
-  const pomodoroProgress = Math.max(0, Math.min(1, 1 - pomodoro.remainingSeconds / Math.max(1, pomodoroTotal)));
-  const pomodoroStatus = pomodoro.running
-    ? "计时中"
-    : pomodoro.remainingSeconds <= 0
-      ? "已结束"
-      : "已暂停";
-
   function handleDragStart(id: HomePanelId, event: DragEvent<HTMLElement>): void {
     event.stopPropagation();
     setDragging(id);
@@ -1045,64 +883,6 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
       remindedAt: null
     } : item));
     setTodoReminder(null);
-  }
-
-  function setPomodoroMode(mode: PomodoroMode): void {
-    setPomodoro((current) => ({
-      ...current,
-      mode,
-      remainingSeconds: getModeSeconds(mode, pomodoroDurations),
-      running: false,
-      updatedAt: Date.now()
-    }));
-  }
-
-  function changePomodoroDuration(mode: PomodoroMode, minutes: number): void {
-    const nextMinutes = clampMinutes(minutes, pomodoroDurations[mode]);
-    const nextDurations = { ...pomodoroDurations, [mode]: nextMinutes };
-    setPomodoroDurations(nextDurations);
-    if (pomodoro.mode === mode && !pomodoro.running) {
-      setPomodoro((current) => ({
-        ...current,
-        remainingSeconds: getModeSeconds(mode, nextDurations),
-        updatedAt: Date.now()
-      }));
-    }
-  }
-
-  function togglePomodoroRunning(): void {
-    setPomodoro((current) => {
-      const nextRemaining = current.remainingSeconds <= 0 ? getModeSeconds(current.mode, pomodoroDurations) : current.remainingSeconds;
-      return {
-        ...current,
-        remainingSeconds: nextRemaining,
-        running: !current.running,
-        updatedAt: Date.now()
-      };
-    });
-  }
-
-  function resetPomodoro(): void {
-    setPomodoro((current) => ({
-      ...current,
-      remainingSeconds: getModeSeconds(current.mode, pomodoroDurations),
-      running: false,
-      updatedAt: Date.now()
-    }));
-  }
-
-  function restartPomodoro(): void {
-    setPomodoroFinish(null);
-    setPomodoro((current) => ({
-      ...current,
-      remainingSeconds: getModeSeconds(current.mode, pomodoroDurations),
-      running: true,
-      updatedAt: Date.now()
-    }));
-  }
-
-  function dismissPomodoroFinish(): void {
-    setPomodoroFinish(null);
   }
 
   function interactWithBuddy(): void {
@@ -1287,65 +1067,7 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
           </div>
         )}
 
-        {id === "pomodoro" && (
-          <div className="home-panel-body home-pomodoro">
-            <div className="home-pomodoro-layout">
-              <div className="home-pomodoro-display">
-                <strong>{formatSeconds(pomodoro.remainingSeconds)}</strong>
-                <span>
-                  {POMODORO_LABELS[pomodoro.mode]} · {pomodoroStatus}
-                </span>
-                <div className="home-pomodoro-progress">
-                  <i style={{ width: `${pomodoroProgress * 100}%` }} />
-                </div>
-                <div className="home-pomodoro-meta">
-                  <span>完成 {pomodoro.completedRounds} 轮</span>
-                  <span>当前时长 {formatMinutesLabel(pomodoroDurations[pomodoro.mode])}</span>
-                </div>
-              </div>
-
-              <div className="home-pomodoro-controls">
-                <div className="home-pomodoro-mode-buttons">
-                  {POMODORO_MODES.map((mode) => (
-                    <button
-                      key={mode}
-                      type="button"
-                      className={pomodoro.mode === mode ? "is-active" : ""}
-                      onClick={() => setPomodoroMode(mode)}
-                    >
-                      {POMODORO_LABELS[mode]} {formatMinutesLabel(pomodoroDurations[mode])}
-                    </button>
-                  ))}
-                </div>
-
-                <div className="home-pomodoro-duration-grid">
-                  {POMODORO_MODES.map((mode) => (
-                    <label className="home-pomodoro-duration-item" key={`${mode}-duration`}>
-                      <span>{POMODORO_LABELS[mode]}</span>
-                      <input
-                        type="number"
-                        min={1}
-                        max={180}
-                        value={pomodoroDurations[mode]}
-                        onChange={(event) => changePomodoroDuration(mode, Number(event.target.value))}
-                      />
-                    </label>
-                  ))}
-                </div>
-
-                <div className="home-pomodoro-actions">
-                  <button type="button" className="primary-action compact" onClick={togglePomodoroRunning}>
-                    {pomodoro.running ? <Pause size={16} /> : <Play size={16} />}
-                    {pomodoro.running ? "暂停" : pomodoro.remainingSeconds <= 0 ? "重新开始" : "开始"}
-                  </button>
-                  <button type="button" className="outline-action" onClick={resetPomodoro}>
-                    重置
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
+        {id === "pomodoro" && <div className="home-panel-body home-pomodoro"><TimerCard /></div>}
 
         {id === "buddy" && (
           <div className="home-panel-body home-buddy">
@@ -1515,29 +1237,6 @@ export function HomeDashboard({ questionBanks }: Props): JSX.Element {
           <div className="home-toast-copy">
             <small>今日待办</small>
             <strong>{todoPraise}</strong>
-          </div>
-        </div>
-      ) : null}
-
-      {pomodoroFinish ? (
-        <div className="home-modal-overlay" role="presentation">
-          <div className="home-modal" role="dialog" aria-modal="true" aria-label="番茄钟结束">
-            <div className="home-modal-cat">
-              <AbstractCatMark className="home-cat-art home-cat-art-modal" />
-            </div>
-            <div className="home-modal-copy">
-              <div className="section-kicker">TIMER DONE</div>
-              <strong>番茄钟结束</strong>
-              <p>{pomodoroFinish}</p>
-            </div>
-            <div className="home-modal-actions">
-              <button type="button" className="primary-action compact" onClick={restartPomodoro}>
-                重新进行计时
-              </button>
-              <button type="button" className="outline-action" onClick={dismissPomodoroFinish}>
-                就到这里
-              </button>
-            </div>
           </div>
         </div>
       ) : null}

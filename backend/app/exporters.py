@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import html
+import base64
 import io
 import re
 from pathlib import Path
@@ -34,8 +35,11 @@ def export_docx(paper: dict[str, Any], variant: str, target: Path) -> None:
     document = Document()
     title = document.add_heading(paper["title"], level=0)
     title.alignment = 1
-    meta = document.add_paragraph(f"模板：{paper.get('template', {}).get('name', '')}    版本：{variant}")
+    document.add_heading('题卷' if variant=='question' else '参考答案与解析',level=1)
+    meta = document.add_paragraph(export_metadata(paper))
     meta.runs[0].font.size = Pt(10)
+    if variant=='answer' and paper.get('_export_issues'):
+        document.add_paragraph('内容缺失提示：'+issue_text(paper))
 
     questions = paper.get("questions", [])
     if not questions:
@@ -50,7 +54,7 @@ def export_docx(paper: dict[str, Any], variant: str, target: Path) -> None:
             document.add_heading(section_title, level=1)
         question_number += 1
         question_image = source_preview(question, "question")
-        document.add_paragraph(f"{question_number}.")
+        document.add_paragraph(f"{question_number}.（{question.get('allocated_score',question.get('score',0))} 分）")
         if question_image:
             question_width, _ = fit_image_size(question_image, 6.3, 8.5)
             document.add_picture(io.BytesIO(question_image), width=Inches(question_width))
@@ -70,11 +74,11 @@ def export_docx(paper: dict[str, Any], variant: str, target: Path) -> None:
                 analysis = plain_formula_text(question.get("analysis_markdown", ""))
                 if analysis:
                     document.add_paragraph(f"解析：{analysis}")
-                points = question.get("scoring_points", [])
-                if points:
-                    document.add_paragraph(
-                        "评分点：" + "；".join(f"{point.get('label', '')}（{point.get('score', 0)}分）" for point in points)
-                    )
+            points = question.get("scoring_points", [])
+            if points:
+                document.add_paragraph(
+                    "评分点：" + "；".join(f"{point.get('label', '')}（{point.get('score', 0)}分）" for point in points)
+                )
             if not analysis_image and not question.get("answer_markdown") and not question.get("analysis_markdown"):
                 document.add_paragraph("暂无答案或解析。")
     document.save(target)
@@ -139,6 +143,10 @@ def export_pdf(paper: dict[str, Any], variant: str, target: Path) -> None:
         title=paper["title"],
     )
     flowables: list[Any] = [Paragraph(html.escape(paper["title"]), heading)]
+    flowables.append(Paragraph('题卷' if variant=='question' else '参考答案与解析',heading))
+    flowables.append(Paragraph(html.escape(export_metadata(paper)),body))
+    if variant=='answer' and paper.get('_export_issues'):
+        flowables.append(Paragraph(safe_markup('内容缺失提示：'+issue_text(paper)),body))
     questions = paper.get("questions", [])
     if not questions:
         flowables.append(Paragraph("当前试卷没有选中题目，已生成空卷文件。", body))
@@ -152,7 +160,7 @@ def export_pdf(paper: dict[str, Any], variant: str, target: Path) -> None:
             flowables.append(Paragraph(html.escape(section_title), heading))
         question_number += 1
         question_image = source_preview(question, "question")
-        flowables.append(Paragraph(f"{question_number}.", body))
+        flowables.append(Paragraph(f"{question_number}.（{question.get('allocated_score',question.get('score',0))} 分）", body))
         if question_image:
             flowables.append(image_flowable(question_image))
         else:
@@ -170,13 +178,13 @@ def export_pdf(paper: dict[str, Any], variant: str, target: Path) -> None:
                 analysis = question.get("analysis_markdown", "")
                 if analysis:
                     flowables.append(Paragraph(f"<b>解析：</b>{safe_markup(analysis)}", body))
-                points = question.get("scoring_points", [])
-                if points:
-                    point_text = "；".join(
-                        f"{point.get('label', '')}（{point.get('score', 0)}分）"
-                        for point in points
-                    )
-                    flowables.append(Paragraph(f"<b>评分点：</b>{safe_markup(point_text)}", body))
+            points = question.get("scoring_points", [])
+            if points:
+                point_text = "；".join(
+                    f"{point.get('label', '')}（{point.get('score', 0)}分）"
+                    for point in points
+                )
+                flowables.append(Paragraph(f"<b>评分点：</b>{safe_markup(point_text)}", body))
             if not analysis_image and not question.get("answer_markdown") and not question.get("analysis_markdown"):
                 flowables.append(Paragraph("暂无答案或解析。", body))
         flowables.append(Spacer(1, 3))
@@ -299,6 +307,9 @@ def safe_markup(value: str) -> str:
 
 
 def source_preview(question: dict[str, Any], kind: str) -> bytes | None:
+    if '_frozen_previews' in question:
+        content = question['_frozen_previews'].get(kind)
+        return base64.b64decode(content,validate=True) if content else None
     source_id = (
         question.get("analysis_source_document_id")
         if kind == "analysis"
@@ -327,6 +338,13 @@ def source_preview(question: dict[str, Any], kind: str) -> bytes | None:
     except (OSError, RuntimeError, ValueError):
         return bundled_preview(question, kind)
 
+
+def export_metadata(paper: dict[str, Any]) -> str:
+    template=paper.get('template') or {}
+    return f"卷号：{paper['id']} · 版本：{paper.get('_export_version','单独导出')} · 总分：{paper.get('validation',{}).get('total_score',template.get('total_score',''))} · 时长：{template.get('duration_minutes','')} 分钟"
+
+def issue_text(paper: dict[str, Any]) -> str:
+    return '；'.join(f"第 {item['number']} 题：{'、'.join(item['messages'])}" for item in paper.get('_export_issues',[]))
 
 def image_flowable(content: bytes) -> Any:
     from reportlab.lib.units import mm

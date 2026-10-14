@@ -4,6 +4,20 @@ import type { PetAction, PetHitbox, PetMotion, PetSettings, PetSize } from "./pe
 declare global {
   interface Window {
     paperHelper?: {
+      getTimer: () => Promise<import('./timer/model').TimerSnapshot>;
+      reportTimerSound: (failed:boolean)=>void;
+      onTimerCollapse: (callback:()=>void)=>()=>void;
+      migrateTimer: (raw: unknown,durations: unknown) => Promise<import('./timer/model').TimerSnapshot>;
+      timerCommand: (c: import('./timer/model').TimerCommand) => Promise<import('./timer/model').TimerReply>;
+      onTimerState: (callback: (s: import('./timer/model').TimerSnapshot)=>void)=>()=>void;
+      onTimerSound: (callback: (s:{play:boolean;volume:number})=>void)=>()=>void;
+      onTimerOpen: (callback: (p?:import('./timer/model').PaperLink)=>void)=>()=>void;
+      expandTimer: (expanded:boolean)=>void;
+      resizeTimer: (height:number)=>void;
+      dragTimerBy: (x:number,y:number)=>void;
+      previewTimerSound: (volume:number)=>void;
+      openTimer: ()=>void;
+      openTimerPaper: (paper:import('./timer/model').PaperLink)=>void;
       platform: string;
       mobileUrl: string;
       mobileHost: string;

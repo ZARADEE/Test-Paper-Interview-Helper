@@ -179,7 +179,11 @@ def compose_paper(
             (paper_id, item["id"], item["section_id"], item["position"]),
         )
 
+    # Also support integrations composing against a copied pre-migration database.
+    connection.execute('CREATE TABLE IF NOT EXISTS paper_blueprints (paper_id TEXT PRIMARY KEY REFERENCES papers(id) ON DELETE CASCADE, template_json TEXT NOT NULL)')
+    connection.execute('INSERT INTO paper_blueprints(paper_id,template_json) VALUES(?,?)', (paper_id,json.dumps(template,ensure_ascii=False)))
     return {
+        "template": template,
         "id": paper_id,
         "template_id": template["id"],
         "title": title,
@@ -200,6 +204,10 @@ def load_paper(connection: sqlite3.Connection, paper_id: str) -> dict[str, Any] 
     paper["validation"] = json.loads(paper.pop("validation_json"))
     template_row = connection.execute("SELECT * FROM templates WHERE id = ?", (paper["template_id"],)).fetchone()
     template = row_to_template(template_row) if template_row else None
+    has_blueprints = connection.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='paper_blueprints'").fetchone()
+    frozen_template = connection.execute('SELECT template_json FROM paper_blueprints WHERE paper_id=?', (paper_id,)).fetchone() if has_blueprints else None
+    if frozen_template:
+        template = json.loads(frozen_template['template_json'])
     paper["template"] = template
     rows = connection.execute(
         """
@@ -233,4 +241,5 @@ def load_paper(connection: sqlite3.Connection, paper_id: str) -> dict[str, Any] 
         )
     )
     paper["questions"] = questions
+    paper['sections'] = [{**section, 'id':sid, 'requested_count':section.get('count',0), 'selected_count':sum(q['section_id']==sid for q in questions)} for sid,section in section_by_id.items()]
     return paper

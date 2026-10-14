@@ -240,6 +240,14 @@ export function exportDownloadUrl(jobId: string): string {
   return `${API_BASE}/exports/${jobId}/download`;
 }
 
+export type PaperPackage = {version:string;format:'pdf'|'docx';issues:Array<{number:number;question_id:string;messages:string[]}>;title:string;duration_minutes:number};
+export function getPaper(id:string,version?:string):Promise<Paper>{
+  return request('/papers/'+encodeURIComponent(id)+(version?'/package/'+encodeURIComponent(version):''));
+}
+export function preparePaperPackage(id:string,format:'pdf'|'docx',sourceVersion?:string):Promise<PaperPackage>{return request('/papers/'+encodeURIComponent(id)+'/package/prepare',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({format,source_version:sourceVersion})});}
+export function buildPaperPackage(id:string,version:string,allowMissing=false):Promise<{id:string;version:string;status:string}>{return request('/papers/'+encodeURIComponent(id)+'/package/'+encodeURIComponent(version)+'/build',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({allow_missing:allowMissing})});}
+export function packagePreviewUrl(paperId:string,version:string,questionId:string):string{return API_BASE+'/papers/'+encodeURIComponent(paperId)+'/package/'+encodeURIComponent(version)+'/preview/'+encodeURIComponent(questionId);}
+
 export async function getPracticeCatalog(): Promise<PracticeCatalog> {
   return request("/practice/catalog");
 }

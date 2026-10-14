@@ -65,7 +65,7 @@ export function DesktopPetView(): JSX.Element {
       if (!active) return;
       setMode(settings.mode);
       if (isPetPack(settings.pack)) setPack(settings.pack);
-      setRoaming(settings.roaming);
+      setRoaming(settings.roaming && !settings.timerHeld);
     };
     const removeSettings = window.paperHelper?.onPetSurface(applySettings);
     void window.paperHelper?.getPetSettings().then(applySettings).catch(() => {});

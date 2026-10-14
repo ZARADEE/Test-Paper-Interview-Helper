@@ -29,8 +29,15 @@ def mocks408():
 
 
 @lru_cache(maxsize=1)
+def politics_solutions():
+    path = ROOT / "politics-solutions.json"
+    data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    return data if data.get("ready") else {}
+
+
+@lru_cache(maxsize=1)
 def index():
-    return {q["id"]: q for data in (manifest(), solutions408(), mocks408()) for q in data.get("questions", [])}
+    return {q["id"]: q for data in (manifest(), solutions408(), mocks408(), politics_solutions()) for q in data.get("questions", [])}
 
 
 def preview(question, kind):
@@ -55,6 +62,7 @@ def load(connection):
         (manifest(), "github_study_supplement_v1_initialized"),
         (solutions408(), "github_408_solutions_v1_initialized"),
         (mocks408(), "github_408_mocks_v1_initialized"),
+        (politics_solutions(), "github_politics_solutions_v1_initialized"),
     ))
 
 
@@ -65,6 +73,7 @@ def load_batch(connection, data, key):
     if connection.execute("SELECT 1 FROM app_metadata WHERE key=?", (key,)).fetchone():
         return 0
     banks = {"math":"bank-math-one", "politics":"bank-politics", "408":"bank-computer-408", "408solution":"bank-computer-408", "408mock":"bank-computer-408"}
+    banks.update({"politicssolution-xyz": "bank-politics", "politicssolution-tseka": "bank-politics"})
     for source in data["sources"]:
         _insert(connection, "source_documents", dict(id="source-github-"+source["id"], filename=source["repository"],
             file_type="json", file_path="", sha256=source["archive_sha256"], page_count=0,
