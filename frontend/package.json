@@ -13,6 +13,7 @@
     "test:timer": "node timer.test.cjs",
     "smoke:timer": "electron timer-smoke.mjs --no-sandbox",
     "smoke:timer-browser": "electron browser-timer-smoke.mjs --no-sandbox",
+    "smoke:boot": "electron boot-screen-smoke.cjs --no-sandbox",
     "test:os-lab": "node os-lab.test.cjs",
     "smoke:os-lab": "electron os-lab-smoke.cjs --no-sandbox"
   },

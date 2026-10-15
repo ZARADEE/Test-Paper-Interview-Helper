@@ -12,6 +12,8 @@ backend/.pytest_cache/
 frontend/node_modules/
 frontend/dist/
 frontend/out/
+# Full third-party files retained only as local research evidence.
+docs/research/github-competitors-2026-10-15/
 .env
 *.log
 *.sqlite3

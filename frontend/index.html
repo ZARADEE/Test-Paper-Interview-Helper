@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f4efe4" />
     <title>组卷助手</title>
+    <script>
+      (() => {
+        const surface = new URLSearchParams(location.search).get('surface');
+        document.documentElement.dataset.paperSurface = ['pet', 'ball', 'todos', 'timer'].includes(surface) ? 'aux' : 'main';
+        if (document.documentElement.dataset.paperSurface === 'main') document.documentElement.dataset.paperBoot = 'loading';
+      })();
+    </script>
+    <!-- paper-boot-style -->
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- paper-boot-screen -->
+    <!-- paper-boot-script -->
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
 

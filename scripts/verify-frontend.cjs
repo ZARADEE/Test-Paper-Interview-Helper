@@ -5,6 +5,10 @@ const root=path.resolve(process.argv[2]||path.join(__dirname,'../frontend'));
 try {
   const manifest=JSON.parse(fs.readFileSync(path.join(root,'package.json'),'utf8'));
   const lock=JSON.parse(fs.readFileSync(path.join(root,'package-lock.json'),'utf8'));
+  const sameSpecs=(left,right)=>JSON.stringify(Object.entries(left||{}).sort())===JSON.stringify(Object.entries(right||{}).sort());
+  if(!sameSpecs(manifest.dependencies,lock.packages['']?.dependencies)||!sameSpecs(manifest.devDependencies,lock.packages['']?.devDependencies)){
+    throw Error('package.json dependencies do not match package-lock.json');
+  }
   for(const name of Object.keys({...manifest.dependencies,...manifest.devDependencies})){
     const installed=JSON.parse(fs.readFileSync(path.join(root,'node_modules',name,'package.json'),'utf8'));
     const expected=lock.packages['node_modules/'+name]?.version;

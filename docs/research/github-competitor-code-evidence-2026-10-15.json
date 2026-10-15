@@ -1,0 +1,74 @@
+[
+  {
+    "repo": "HKUDS/DeepTutor",
+    "path": "deeptutor/capabilities/mastery/tools.py",
+    "commit_sha": "6cf793bd868ba5ecbe64722936d4be8fab5a01df",
+    "url": "https://github.com/HKUDS/DeepTutor/blob/6cf793bd868ba5ecbe64722936d4be8fab5a01df/deeptutor/capabilities/mastery/tools.py",
+    "sha256": "b6be3c50425472056c4744f7d80917a6a2e3ccd8226f752e1d9e4092608c3872",
+    "saved_file": "docs/research/github-competitors-2026-10-15/HKUDS__DeepTutor/source__deeptutor__capabilities__mastery__tools.py",
+    "bytes": 124681
+  },
+  {
+    "repo": "THU-MAIC/OpenMAIC",
+    "path": "app/api/quiz-grade/route.ts",
+    "commit_sha": "ecb940c136cc5b4ea56dc81b2505e64eff1dea29",
+    "url": "https://github.com/THU-MAIC/OpenMAIC/blob/ecb940c136cc5b4ea56dc81b2505e64eff1dea29/app/api/quiz-grade/route.ts",
+    "sha256": "3b74492e4218669666d20dab17425b4d952e5ee6fe32a574358c7f2e4e350a1f",
+    "saved_file": "docs/research/github-competitors-2026-10-15/THU-MAIC__OpenMAIC/source__app__api__quiz-grade__route.ts",
+    "bytes": 3976
+  },
+  {
+    "repo": "oppia/oppia",
+    "path": "core/domain/skill_domain.py",
+    "commit_sha": "d955ea17407247a70986bbdf69ebb7a542d0ac71",
+    "url": "https://github.com/oppia/oppia/blob/d955ea17407247a70986bbdf69ebb7a542d0ac71/core/domain/skill_domain.py",
+    "sha256": "d3692839962dfd12d340ad53ea0b77048d0514a27f42b0d94ded41387635171b",
+    "saved_file": "docs/research/github-competitors-2026-10-15/oppia__oppia/source__core__domain__skill_domain.py",
+    "bytes": 88121
+  },
+  {
+    "repo": "moodle/moodle",
+    "path": "public/mod/quiz/classes/quiz_attempt.php",
+    "commit_sha": "b7260e59a83124d6311c0217df3ba27ef6b9a7b0",
+    "url": "https://github.com/moodle/moodle/blob/b7260e59a83124d6311c0217df3ba27ef6b9a7b0/public/mod/quiz/classes/quiz_attempt.php",
+    "sha256": "e03666166d68e4b06579da99e11e809d82c4bde079f53676c58c233fb193ead6",
+    "saved_file": "docs/research/github-competitors-2026-10-15/moodle__moodle/source__public__mod__quiz__classes__quiz_attempt.php",
+    "bytes": 98894
+  },
+  {
+    "repo": "CaviraOSS/PageLM",
+    "path": "LICENSE.md",
+    "commit_sha": "a6646794661b508fe9597ff352b63117ebe35d74",
+    "url": "https://github.com/CaviraOSS/PageLM/blob/a6646794661b508fe9597ff352b63117ebe35d74/LICENSE.md",
+    "sha256": "c834209c5f338013a96e54a212445f47bd128c4300ce556f744d74c09ae70ef9",
+    "saved_file": "docs/research/github-competitors-2026-10-15/CaviraOSS__PageLM/source__LICENSE.md",
+    "bytes": 8563
+  },
+  {
+    "repo": "HabitRPG/habitica",
+    "path": "LICENSE",
+    "commit_sha": "6eceb3d7707e1c8049d36e50debb03a119057067",
+    "url": "https://github.com/HabitRPG/habitica/blob/6eceb3d7707e1c8049d36e50debb03a119057067/LICENSE",
+    "sha256": "8c6f1ac1119cedda7b98ba65f4ebf6ad681c0fcb9ce1fc56ae7b180850983971",
+    "saved_file": "docs/research/github-competitors-2026-10-15/HabitRPG__habitica/source__LICENSE",
+    "bytes": 497
+  },
+  {
+    "repo": "learningequality/kolibri",
+    "path": "kolibri/core/exams/models.py",
+    "commit_sha": "b67121093b64a77ebf3cd0e4dce4eb33b807b51c",
+    "url": "https://github.com/learningequality/kolibri/blob/b67121093b64a77ebf3cd0e4dce4eb33b807b51c/kolibri/core/exams/models.py",
+    "sha256": "407d1b2a7693b0f3adfaaf1c59a46d6cf7587a8474b740b207f3af2bcb19900c",
+    "saved_file": "docs/research/github-competitors-2026-10-15/learningequality__kolibri/source__kolibri__core__exams__models.py",
+    "bytes": 14966
+  },
+  {
+    "repo": "learnhouse/learnhouse",
+    "path": "apps/api/src/services/courses/activities/assignments.py",
+    "commit_sha": "45cf5d4f78cf537064070dc8e315a64990d14966",
+    "url": "https://github.com/learnhouse/learnhouse/blob/45cf5d4f78cf537064070dc8e315a64990d14966/apps/api/src/services/courses/activities/assignments.py",
+    "sha256": "96fb15fdeb7360e87c242df543ce0e8e426f43c264728a97db92897980aedd2d",
+    "saved_file": "docs/research/github-competitors-2026-10-15/learnhouse__learnhouse/source__apps__api__src__services__courses__activities__assignments.py",
+    "bytes": 176098
+  }
+]

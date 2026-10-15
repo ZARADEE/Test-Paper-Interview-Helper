@@ -208,6 +208,10 @@ README 截图来自真实 Electron 窗口。已有业务页面截图脚本位于
 
 ## 文档与素材
 
+- [新一轮 GitHub 竞品功能对比（2026-10-15）](docs/github-competitor-comparison-2026-10-15.md)
+- [后续发展规划与阶段验收](docs/product-roadmap-2026-10-15.md)
+- [竞品对齐逐项验收表](docs/competitor-acceptance-2026-10-15.csv)
+- [Electron 首屏启动动画方案与验收](docs/startup-animation-proposal-2026-10-15.md)
 - [项目设计](docs/design.md)
 - [数学一题源说明](docs/math-one-sources.md)
 - [桌宠操作、参数与来源](docs/desktop-pet.md)

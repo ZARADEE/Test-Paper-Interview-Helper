@@ -3,6 +3,7 @@ import type { PetAction, PetHitbox, PetMotion, PetSettings, PetSize } from "./pe
 
 declare global {
   interface Window {
+    paperBoot?: { modulesReady: () => void; ready: () => void; fail: (error: unknown) => void };
     paperHelper?: {
       getTimer: () => Promise<import('./timer/model').TimerSnapshot>;
       reportTimerSound: (failed:boolean)=>void;

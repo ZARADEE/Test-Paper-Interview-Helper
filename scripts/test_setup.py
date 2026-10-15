@@ -73,6 +73,11 @@ if args[0]=='ci':
             again=run('setup.bat')
             self.assertEqual(again.returncode,0,again.stdout+again.stderr)
             self.assertEqual(sum(c['args'][0]=='ci' for c in calls()),count)
+            package['scripts']={'smoke:boot':'electron boot-screen-smoke.cjs --no-sandbox'}
+            (project/'frontend/package.json').write_text(json.dumps(package))
+            scripts_only=run('start.bat')
+            self.assertEqual(scripts_only.returncode,0,scripts_only.stdout+scripts_only.stderr)
+            self.assertEqual(sum(c['args'][0]=='ci' for c in calls()),count)
             (project/'frontend/node_modules/.bin/electron-vite.cmd').unlink()
             repaired=run('start.bat')
             self.assertEqual(repaired.returncode,0,repaired.stdout+repaired.stderr)

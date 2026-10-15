@@ -49,9 +49,10 @@ try {
   }
   Invoke-CheckedNative $python @('-B',$backendCheck,$ProjectRoot) 'Checking backend dependencies'
   Invoke-CheckedNative $python @('-m','pip','check') 'Checking Python dependency compatibility'
-  $frontendHash=(Get-FileHash -LiteralPath (Join-Path $frontend 'package-lock.json') -Algorithm SHA256).Hash + ':' + (Get-FileHash -LiteralPath (Join-Path $frontend 'package.json') -Algorithm SHA256).Hash
+  $frontendHash=(Get-FileHash -LiteralPath (Join-Path $frontend 'package-lock.json') -Algorithm SHA256).Hash
   $stamp=Join-Path $frontend 'node_modules\.paper-helper-lock'
-  $sameLock=(Test-Path -LiteralPath $stamp) -and ((Get-Content -LiteralPath $stamp -Raw).Trim() -eq $frontendHash)
+  $stampValue=if(Test-Path -LiteralPath $stamp){(Get-Content -LiteralPath $stamp -Raw).Trim()}else{''}
+  $sameLock=($stampValue -eq $frontendHash) -or $stampValue.StartsWith($frontendHash+':')
   $validFrontend=Test-FrontendEnvironment $tools.Node $frontend
   if(-not $validFrontend -or (-not $sameLock -and -not $CheckOnly)){
     if($CheckOnly){throw 'Frontend dependencies or Electron binary are missing. Run setup.bat.'}
@@ -67,6 +68,8 @@ try {
       }
     } finally { Pop-Location }
     Invoke-CheckedNative $tools.Node @((Join-Path $PSScriptRoot 'verify-frontend.cjs'),$frontend) 'Checking frontend dependencies'
+    Set-Content -LiteralPath $stamp -Value $frontendHash -Encoding ASCII
+  } elseif($sameLock -and $stampValue -ne $frontendHash -and -not $CheckOnly){
     Set-Content -LiteralPath $stamp -Value $frontendHash -Encoding ASCII
   }
   if(-not $SkipBuild -and -not $CheckOnly){

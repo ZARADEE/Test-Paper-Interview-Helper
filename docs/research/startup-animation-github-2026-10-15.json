@@ -1,0 +1,78 @@
+{
+    "research_date":  "2026-10-15",
+    "method":  "GitHub public REST API and official repository READMEs; built-in web search returned no content. Stars measure repository popularity, not approval of any individual animation.",
+    "repositories":  [
+                         {
+                             "repo":  "juliangarnier/anime",
+                             "url":  "https://github.com/juliangarnier/anime",
+                             "stars":  73619,
+                             "forks":  4970,
+                             "branch":  "master",
+                             "pushed_at":  "2026-08-21T21:29:50Z",
+                             "archived":  false,
+                             "license":  "MIT",
+                             "readme":  "https://raw.githubusercontent.com/juliangarnier/anime/master/README.md",
+                             "observed_at":  "2026-10-15T16:14:45.2629242+08:00"
+                         },
+                         {
+                             "repo":  "motiondivision/motion",
+                             "url":  "https://github.com/motiondivision/motion",
+                             "stars":  34145,
+                             "forks":  1429,
+                             "branch":  "main",
+                             "pushed_at":  "2026-10-15T05:38:31Z",
+                             "archived":  false,
+                             "license":  "MIT",
+                             "readme":  "https://raw.githubusercontent.com/motiondivision/motion/main/README.md",
+                             "observed_at":  "2026-10-15T16:14:46.0493197+08:00"
+                         },
+                         {
+                             "repo":  "airbnb/lottie-web",
+                             "url":  "https://github.com/airbnb/lottie-web",
+                             "stars":  32233,
+                             "forks":  2950,
+                             "branch":  "master",
+                             "pushed_at":  "2025-09-01T09:01:31Z",
+                             "archived":  false,
+                             "license":  "MIT",
+                             "readme":  "https://raw.githubusercontent.com/airbnb/lottie-web/master/README.md",
+                             "observed_at":  "2026-10-15T16:14:46.8230779+08:00"
+                         },
+                         {
+                             "repo":  "tobiasahlin/SpinKit",
+                             "url":  "https://github.com/tobiasahlin/SpinKit",
+                             "stars":  19319,
+                             "forks":  1754,
+                             "branch":  "master",
+                             "pushed_at":  "2020-08-01T09:04:59Z",
+                             "archived":  false,
+                             "license":  "MIT",
+                             "readme":  "https://raw.githubusercontent.com/tobiasahlin/SpinKit/master/README.md",
+                             "observed_at":  "2026-10-15T16:14:47.5981783+08:00"
+                         },
+                         {
+                             "repo":  "ConnorAtherton/loaders.css",
+                             "url":  "https://github.com/ConnorAtherton/loaders.css",
+                             "stars":  10224,
+                             "forks":  1184,
+                             "branch":  "master",
+                             "pushed_at":  "2023-05-03T19:08:55Z",
+                             "archived":  false,
+                             "license":  null,
+                             "readme":  "https://raw.githubusercontent.com/ConnorAtherton/loaders.css/master/README.md",
+                             "observed_at":  "2026-10-15T16:14:48.4005437+08:00"
+                         },
+                         {
+                             "repo":  "CodeByZach/pace",
+                             "url":  "https://github.com/CodeByZach/pace",
+                             "stars":  15589,
+                             "forks":  1837,
+                             "branch":  "master",
+                             "pushed_at":  "2024-02-26T22:12:24Z",
+                             "archived":  false,
+                             "license":  "MIT",
+                             "readme":  "https://raw.githubusercontent.com/CodeByZach/pace/master/README.md",
+                             "observed_at":  "2026-10-15T16:14:49.1798959+08:00"
+                         }
+                     ]
+}
